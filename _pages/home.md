@@ -1,5 +1,5 @@
 ---
-title: "An Lab - Home"
+title: "An Lab at Korea University"
 layout: homelay
 excerpt: "An Lab at Korea University."
 sitemap: false
