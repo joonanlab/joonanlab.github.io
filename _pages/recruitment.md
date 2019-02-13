@@ -17,3 +17,5 @@ Dr. An is a member of [the Integrated Biomedical and Life Science Program](http:
 ## Undergraduate students
 
 Undergraduate students from the Korea University are eligible to participate a research volunteer in the lab.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/anlab.png" style="width: 120px">

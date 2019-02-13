@@ -23,3 +23,5 @@ We work with closely with numerous collaborators, including the [Sanders Lab](ht
 
 ### Joining An Lab
 If you are interested in joining please go to the [join us](recruitment) page.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/anlab.png" style="width: 120px">
