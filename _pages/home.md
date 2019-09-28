@@ -10,9 +10,11 @@ permalink: /
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/anlab.png" style="width: 100px; float: left;margin-right: 20px; border: 10px">
 
-We are a computational genomics lab  studying the etiology of developmental disorders and complex human diseases through the discovery of genetic risk factors. We focus on:
+We are a computational genomics lab studying the etiology of developmental disorders and complex human diseases using high-dimensional genomic data. Our lab utilises a range of genomics and systems biology approaches to btter understand regulatory features and cellular trajectory across the human brain development. 
 
-- Understanding noncoding mutations associated with developmental and neurological disorders using high-dimensional genomic data.
+We focus on:
+
+- Understanding noncoding mutations associated with developmental and neurological disorders.
 - Leveraging single cell RNA sequencing to understand neurodevelopment and disorders.
 - Integrating epigenome and transcriptome data to better understand genetic heterogeneity in human disorders.
 
@@ -25,7 +27,6 @@ We work with closely with numerous collaborators, including the [Sanders Lab](ht
 
 ### Joining An Lab
 If you are interested in joining please go to the [join us](recruitment) page.
-
 
 
 ### Funding
