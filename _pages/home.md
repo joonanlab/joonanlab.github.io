@@ -8,6 +8,9 @@ permalink: /
 
 # Welcome to An Lab at the Korea University
 
+<!-- ![]({{ site.url }}{{ site.baseurl }}/images/logopic/anlab.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"} -->
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/anlab.png" style="width: 120px; float: left;margin-right: 20px; border: 10px">
+
 We are a computational genomics lab  studying the etiology of developmental disorders through the discovery of genetic risk factors. We focus on:
 
 - Understanding noncoding mutations associated with developmental and neurological disorders using high-dimensional genomic data.
@@ -25,3 +28,6 @@ We work with closely with numerous collaborators, including the [Sanders Lab](ht
 If you are interested in joining please go to the [join us](recruitment) page.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/anlab.png" style="width: 120px">
+
+### Funding
+We are grateful for funding from the [National Institute of Mental Health](https://www.nimh.nih.gov/) and the [The Simons Foundation Autism Research Initiative](https://www.sfari.org/), the [Autism Science Foundation](https://autismsciencefoundation.org/), and the [Brain & Behavior Research Foundation](https://www.bbrfoundation.org/).
