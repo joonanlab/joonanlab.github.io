@@ -8,7 +8,6 @@ permalink: /
 
 # Welcome to An Lab at the Korea University
 
-<!-- ![]({{ site.url }}{{ site.baseurl }}/images/logopic/anlab.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"} -->
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/anlab.png" style="width: 120px; float: left;margin-right: 20px; border: 10px">
 
 We are a computational genomics lab  studying the etiology of developmental disorders through the discovery of genetic risk factors. We focus on:
