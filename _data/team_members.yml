@@ -10,18 +10,6 @@
   url: lizzychoi
   group: 0
 
-- name: Yong-Jin Heo
-  photo: blank.png
-  info: Undergraduate Intern
-  url: yongjin
-  group: 0
-
-- name: Seung-Ho Oh
-  photo: blank.png
-  info: Undergraduate Intern
-  url: seungho
-  group: 0
-
 - name: Dahae Lee
   photo: blank.png
   info: Bioinformatics Programmer​
@@ -34,16 +22,28 @@
   url: seoyeon
   group: 0
 
-- name: Yujin Kim
-  photo: blank.png
-  info: Undergraduate Intern
-  url: yujinkim
-  group: 0
-
 - name: Ganghee Lee
   photo: blank.png
   info: Bioinformatics Programmer​
   url: ganghee
+  group: 0
+
+- name: Yong-Jin Heo
+  photo: blank.png
+  info: Undergraduate Intern
+  url: yongjin
+  group: 0
+
+- name: Seung-Ho Oh
+  photo: blank.png
+  info: Undergraduate Intern
+  url: seungho
+  group: 0
+
+- name: Yujin Kim
+  photo: blank.png
+  info: Undergraduate Intern
+  url: yujinkim
   group: 0
 
 - name: Yeonji Jang
