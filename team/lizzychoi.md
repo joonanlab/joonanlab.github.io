@@ -10,3 +10,6 @@ scholar:
 photo: blank.png
 ---
 
+### Education & Training
+- BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+- BSc, Statistics, Korea University, South Korea
