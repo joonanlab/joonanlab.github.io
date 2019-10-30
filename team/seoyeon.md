@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Seoyeon Kim
-position: Undergraduate Intern
+position: Bioinformatics Programmer​
 handle: seoyeon
 email:
 twitter:

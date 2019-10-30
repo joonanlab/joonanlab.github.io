@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ganghee Lee
-position: Undergraduate Intern
+position: Bioinformatics Programmer​
 handle: ganghee
 email:
 twitter:
