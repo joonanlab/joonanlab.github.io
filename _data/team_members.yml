@@ -16,12 +16,6 @@
   url: 
   group: 0
 
-- name: Yeonji Jang
-  photo: blank.png
-  info: Visiting Clinical Fellow
-  url: 
-  group: 0
-
 - name: Seung-Ho Oh
   photo: blank.png
   info: Undergraduate Intern
@@ -50,4 +44,10 @@
   photo: blank.png
   info: Undergraduate Intern
   url: 
+  group: 0
+
+- name: Yeonji Jang
+  photo: blank.png
+  info: Visiting Clinical Fellow
+  url: yeonji
   group: 0

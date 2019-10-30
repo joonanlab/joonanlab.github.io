@@ -14,7 +14,7 @@ We are a computational genomics lab studying the etiology of developmental disor
 
 We focus on:
 
-- Understanding noncoding mutations associated with developmental and neurological disorders.
+- Understanding rare mutations associated with rare and developmental disorders.
 - Leveraging single cell RNA sequencing to understand neurodevelopment and disorders.
 - Integrating epigenome and transcriptome data to better understand genetic heterogeneity in human disorders.
 
