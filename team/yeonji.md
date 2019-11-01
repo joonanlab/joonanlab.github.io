@@ -14,5 +14,5 @@ Yeonji is a clinical fellow visiting from Seoul National University Hospital. He
 
 
 ### Education & Training
+- Residency, Department of Ophthalmology, Seoul National University Hospital
 - MSc, Medicine, Seoul National University, South Korea
-- BSc, Medicine, Seoul National University, South Korea
