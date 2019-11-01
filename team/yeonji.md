@@ -7,7 +7,7 @@ email:
 twitter:
 github: 
 scholar: 
-photo: blank.png
+photo: yeonji.jpg
 ---
 
 Yeonji is a clinical fellow visiting from Seoul National University Hospital. Her research primarily focuses on delineating the genetic architecture of strabismus and related developmental disorders. In the lab, she is working on clinical interpretation for large scale genomic datasets. 
