@@ -32,7 +32,4 @@ If you are interested in joining please go to the [join us](recruitment) page.
 ### Funding
 We are grateful for funding from the [National Research Foundation of Korea](http://www.nrf.re.kr/index/) and [Institute for Bio Materials, Korea University](https://koreabiom.korea.ac.kr/).
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NRF.png" style="width: 240px; float: left;margin-right: 20px; border: 10px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_KBM.png" style="width: 240px; float: left;margin-right: 20px; border: 10px">
-
 
