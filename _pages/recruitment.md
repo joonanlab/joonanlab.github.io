@@ -14,13 +14,19 @@ Thank you for your interest in joining the An Lab.
 
 Dr. An is a member of [the Integrated Biomedical and Life Science Program](http://chsold.korea.ac.kr/front/chsen/html/index.html?_ga=2.111493764.1440501719.1549452630-233976143.1526431482). If you are interested in our work, please send Dr. An (joonanlab at gmail dot com) a brief email with a description of your interests, and your CV.
 
-유전체 및 NGS 연구를 배우고 싶은 학생들은 연락주세요. 연구 프로젝트는 다음과 같습니다.
+연구실의 연구 주제 및 프로젝는 다음과 같습니다.
 
-- 난치암에 대한 전사체 및 유전체 연구 
-- 발달성 신경질환 NGS 유전체 연구
-- 자폐증 모델의 싱글셀 전사체 연구
+- 신경발달장애 NGS 유전체 연구
+- 난치암의 다중오믹스 연구 
+- 뇌발달 및 신경발달장애 싱글셀 전사체 연구
 
-학부 때 프로그래밍 수업을 듣거나 이에 대한 기초적인 이해가 있는 학생들을 우선 선발합니다. 혹은 대학원 입학전까지 인턴을 하며 배울수 있는 학생들을 선발합니다.
+저희 연구실에서는 학생 선발에서 다음과 같은 부분을 요구합니다.
+
+- 학부 때 프로그래밍 수업을 듣거나 프로그래밍에 대한 기초적인 이해가 필요합니다. 혹은 대학원 입학전에 제 수업을 청강하길 권유합니다.
+- 유전학 및 유전체학에 대한 심화수준의 지식. [제 수업 자료](https://github.com/joonanlab/BSMS205_2019Spring)를 참고하시거나, 필요시 제 수업을 청강하길 권유합니다.
+- 대학원 입학전까지 인턴을 하며 배울수 있는 학생들을 선발합니다. 
+
+관심있는 학생들은 이메일로 문의 시 자기소개서, 성적증명서, 커리어 플랜 등을 첨부해주길 바랍니다.
 
 ## Undergraduate students
 
