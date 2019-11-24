@@ -24,30 +24,6 @@ layout: default
 <div class="row">
 	<div class="col-sm-3">
 
-		{% if member.ucsf %}
-		<div class="smallhead">
-			UCSF Profile
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-university"></i>
-			<a class="off" href="https://profiles.ucsf.edu/{{ member.ucsf }}">{{ member.ucsf }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-
-		{% if member.twitter %}
-		<div class="smallhead">
-			Twitter
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fab fa-twitter fa-fw"></i>
-			<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-
 		{% if member.github %}
 		<div class="smallhead">
 			GitHub
@@ -98,6 +74,7 @@ layout: default
 		{% endif %}
 
 	</div>
+
 	<div class="col-sm-6" style="text-align:justify">
 		<i class="content" style="margin:auto">{{ content }}</i>
 
