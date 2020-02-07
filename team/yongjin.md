@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Yong-Jin Heo
-position: Undergraduate Intern
+position: Graduate student
 handle: yongjin
 email:
 twitter:

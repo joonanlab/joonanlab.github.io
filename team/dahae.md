@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Dahae Lee
-position: Bioinformatics Programmer​
+position: Bioinformatics programmer​
 handle: dahae
 email:
 twitter:

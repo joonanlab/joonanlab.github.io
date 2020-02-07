@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Lizzy Choi
-position: Bioinformatics Programmer​
+position: Graduate student
 handle: lizzychoi
 email:
 twitter:
