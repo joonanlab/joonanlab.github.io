@@ -8,6 +8,16 @@
   highlight: 1
   news2:
 
+- title: An integrative analysis of non-coding regulatory DNA variations associated with autism spectrum disorder
+  image: Williams2019.jpg
+  description:
+  authors:
+  link:
+    url: https://www.nature.com/articles/s41380-018-0049-x
+    display:  Williams et al. Molecular Psychiatry (2019)
+  highlight: 1
+  news2:
+
 - title: "Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder"
   image: An2018.png
   description:
@@ -25,16 +35,6 @@
   link:
     url: https://www.nature.com/articles/s41588-018-0107-y
     display:  Werling et al. Nature Genetics (2018)
-  highlight: 1
-  news2:
-
-- title: An integrative analysis of non-coding regulatory DNA variations associated with autism spectrum disorder
-  image: Williams2018.jpg
-  description:
-  authors:
-  link:
-    url: https://www.nature.com/articles/s41380-018-0049-x
-    display:  Williams et al. Molecular Psychiatry (2018)
   highlight: 1
   news2:
 
