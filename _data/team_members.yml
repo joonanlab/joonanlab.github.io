@@ -6,48 +6,66 @@
 
 - name: Lizzy Choi
   photo: lizzychoi.jpg
-  info: Bioinformatics Programmer​
+  info: Graduate Student
   url: lizzychoi
-  group: 0
+  group: 1
+
+- name: Yong-Jin Heo
+  photo: yongjin2.jpg
+  info: Graduate Student
+  url: yongjin
+  group: 1
 
 - name: Dahae Lee
   photo: dahae2.jpg
   info: Bioinformatics Programmer​
   url: dahae
-  group: 0
+  group: 3
 
 - name: Seoyeon Kim
   photo: seoyeon.jpg
   info: Bioinformatics Programmer​
   url: seoyeon
-  group: 0
+  group: 3
 
 - name: Ganghee Lee
   photo: blank.png
   info: Bioinformatics Programmer​
   url: ganghee
-  group: 0
-
-- name: Yong-Jin Heo
-  photo: yongjin2.jpg
-  info: Undergraduate Intern
-  url: yongjin
-  group: 0
+  group: 3
 
 - name: Seung-Ho Oh
   photo: blank.png
   info: Undergraduate Intern
   url: seungho
-  group: 0
+  group: 4
 
 - name: Yujin Kim
   photo: yujinkim2.png
   info: Undergraduate Intern
   url: yujinkim
-  group: 0
+  group: 4
+
+- name: Eunseo Kwak
+  photo: keunseo.png
+  info: Undergraduate Intern
+  url: keunseo
+  group: 4
+
+- name: Eunhyong Jang
+  photo: eunhyong.png
+  info: Undergraduate Intern
+  url: eunhyong
+  group: 4
+
+- name: Chanwoong Hwa
+  photo: chanwoong.png
+  info: Undergraduate Intern
+  url: chanwoong
+  group: 4
 
 - name: Yeonji Jang
   photo: yeonji.jpg
-  info: Visiting Clinical Fellow
+  info: Visiting Professor
   url: yeonji
-  group: 0
+  group: 4

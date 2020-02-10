@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ganghee Lee
-position: Bioinformatics Programmer​
+position: Bioinformatics programmer​
 handle: ganghee
 email:
 twitter:

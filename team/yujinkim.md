@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Yujin Kim
-position: Undergraduate Intern
+position: Undergraduate intern
 handle: yujinkim
 email:
 twitter:

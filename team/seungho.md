@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Seung-Ho Oh
-position: Undergraduate Intern
+position: Undergraduate intern
 handle: seungho
 email:
 twitter:

@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Yeonji Jang
-position: Visiting Clinical Fellow
+position: Visiting professor
 handle: yeonji
 email:
 twitter:
