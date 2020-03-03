@@ -34,6 +34,12 @@
   url: ganghee
   group: 3
 
+- name: Minwoo Jeong
+  photo: minwoo.jpg
+  info: Bioinformatics Programmer​
+  url: minwoo
+  group: 3
+
 - name: Seung-Ho Oh
   photo: blank.png
   info: Undergraduate Intern
