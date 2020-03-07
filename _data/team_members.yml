@@ -16,6 +16,18 @@
   url: yongjin
   group: 1
 
+- name: Ganghee Lee
+  photo: blank.png
+  info: Bioinformatics Programmer​
+  url: ganghee
+  group: 3
+
+- name: Minwoo Jeong
+  photo: minwoo.jpg
+  info: Bioinformatics Programmer​
+  url: minwoo
+  group: 3
+
 - name: Dahae Lee
   photo: dahae2.jpg
   info: Bioinformatics Programmer​
@@ -26,12 +38,6 @@
   photo: seoyeon.jpg
   info: Bioinformatics Programmer​
   url: seoyeon
-  group: 3
-
-- name: Ganghee Lee
-  photo: blank.png
-  info: Bioinformatics Programmer​
-  url: ganghee
   group: 3
 
 - name: Yujin Kim
