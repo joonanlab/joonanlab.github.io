@@ -10,7 +10,7 @@ scholar:
 photo: keunseo.png
 ---
 
-  Eunseo is currently focusing on developing a pipeline for analyzing whole exome sequencing data. During her training time in the lab, she will be focusing on analyzing WES data of Congenital Optic Disc Anomalies (CODA) probands and their families. Her aim is to find out the relevance between genes and disorders through the analysis.
+  Eunseo is currently focusing on developing a pipeline for analyzing whole exome sequencing data. She is working on the WES analysis of Congenital Optic Disc Anomalies (CODA) families in collaboration with prof. Jaeho Jung and Youngkuk Kim at Seoul National University Hospital, and aims to find out genes associated with CODA.
 
 ### Education & Training
 - BSc, Biosystem and Biomedical Sciences, Korea University, South Korea (expected 2021)
