@@ -26,7 +26,7 @@ Dr. An is a member of [the Integrated Biomedical and Life Science Program](http:
 
 연구실의 연구 주제 및 프로젝는 다음과 같습니다.
 
-1. 발달장애 및 희귀질환 NGS 유전체 연구
+1. 발달장애 및 희귀질환 전장 유전체 연구
 2. 뇌발달 및 발달장애 싱글셀 전사체 연구
 3. 난치암의 전사체 및 다중오믹스 연구 
 
