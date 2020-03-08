@@ -1,7 +1,7 @@
 ---
-title: "An Lab - Recruitment"
+title: "An Lab - Join"
 layout: textlay
-excerpt: "Openings"
+excerpt: "Join"
 sitemap: false
 permalink: /recruitment/
 ---
@@ -26,9 +26,9 @@ Dr. An is a member of [the Integrated Biomedical and Life Science Program](http:
 
 연구실의 연구 주제 및 프로젝는 다음과 같습니다.
 
-- 발달장애 및 희귀질환 NGS 유전체 연구
-- 뇌발달 및 발달장애 싱글셀 전사체 연구
-- 난치암의 전사체 및 다중오믹스 연구 
+1. 발달장애 및 희귀질환 NGS 유전체 연구
+2. 뇌발달 및 발달장애 싱글셀 전사체 연구
+3. 난치암의 전사체 및 다중오믹스 연구 
 
 
 저희 연구실에서는 학생 선발에서 다음과 같은 부분을 요구합니다.
