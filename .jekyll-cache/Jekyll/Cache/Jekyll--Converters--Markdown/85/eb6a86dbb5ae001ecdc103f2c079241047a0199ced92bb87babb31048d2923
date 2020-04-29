@@ -1,0 +1,25 @@
+I"g<h1 id="research-highlights">Research Highlights</h1>
+
+<hr />
+
+<p><img src="http://localhost:4000/images/respic/genediscovery.png" alt="" style="width: 300px; float: left; margin-right: 30px; border: 10px" /></p>
+
+<h2 id="understanding-the-noncoding-genome-in-human-disorders">Understanding the noncoding genome in human disorders</h2>
+<div style="text-align: justify">
+  <p>Whole genome sequencing (WGS) has revolutionized our ability to find risk mutations in noncoding genome associated with autism spectrum disorder (ASD). Dr. An, working in Dr. Sanders’ lab at UCSF, provides the clearest evidence of noncoding ASD association came from mutations at evolutionarily conserved nucleotides in the gene promoter region (<a href="https://www.ncbi.nlm.nih.gov/pubmed/22495306">An et al. Science 2018</a>). We analyzed WGS data of 1,902 quartet families (7,608 individuals) from the Simons Simplex Collection and Korean ASD cohort. We applied two robust methods – a category-wide association study (CWAS) and de novo risk score method (<a href="">Werling et al. Nature Genetics</a>) - to estimate the contribution of noncoding mutations across multiple biological hypotheses of the noncoding genome. We continue to improve our WGS methods to identify risk noncoding mutations associated with human disorders.</p>
+</div>
+
+<h2 id="searching-for-functional-convergence-underlying-complex-diseases">Searching for functional convergence underlying complex diseases</h2>
+<div style="text-align: justify">
+  <p>Although gene discovery in neurological disorders has been proceeded rapidly, a major challenge lies in understanding convergence of risk genes across time and space. My long research interest was the genetic comorbidity of risk gene and its gene family for neurodevelopmental disorders (<a href="https://www.ncbi.nlm.nih.gov/pubmed/27317861">An and Claudianos 2016</a>). Applying our systems biology method to decipher a cohesive biological network across neuropsychiatric disorders (<a href="https://www.ncbi.nlm.nih.gov/pubmed/23439483">Cristino et al.2014</a>), we analyzed the genetic screening data of the Australian cohort of autism spectrum disorders to identify risk genetic mutations associated with the disease (<a href="https://www.ncbi.nlm.nih.gov/pubmed/24893065">An et al. 2014</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/29703944">Williams et al.2018</a>).</p>
+</div>
+
+<h1 id="understanding-gene-pleiotropy-across-neurodevelopmental-disorders">Understanding gene pleiotropy across neurodevelopmental disorders</h1>
+<div style="text-align: justify">
+  <p>Pleiotropy is the well-established phenomenon of a single gene affecting multiple traits and disorders. One example is SCN2A, a sodium channel gene strongly associated with both autism and epilepsy. Our systematic survey generated a hypothesis that the distribution of missense mutations in the protein structure determines a phenotypic consequence. This then became a testable hypothesis to our collaborator, performing an electrophysiology experiment to show an opposite mutational consequence of SCN2A in ASD and epilepsy (<a href="">Ben-Shalom et al.2017</a>). We continue to search for functional convergence and specificity of candidate genes with pleiotropy in human disorders.</p>
+
+</div>
+<hr />
+
+<p><img src="http://localhost:4000/images/respic/scn2aMut.png" alt="" style="width: 300px; float: left;margin-right: 30px; border: 10px" /></p>
+:ET
