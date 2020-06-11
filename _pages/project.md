@@ -6,7 +6,7 @@ sitemap: false
 permalink: /project/
 ---
 
-#### We study **genetic risk factors in complex human disorders** using **high-dimensional genomic data**.
+## Featured Publications
 
 ---
 
