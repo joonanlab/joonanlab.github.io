@@ -30,15 +30,15 @@
 
 - name: Dahae Lee
   photo: dahae2.jpg
-  info: Bioinformatics Programmer​
+  info: Undergraduate Intern
   url: dahae
-  group: 3
+  group: 4
 
 - name: Seoyeon Kim
   photo: seoyeon.jpg
-  info: Bioinformatics Programmer​
+  info: Undergraduate Intern
   url: seoyeon
-  group: 3
+  group: 4
 
 - name: Yujin Kim
   photo: yujinkim2.png
@@ -68,4 +68,16 @@
   photo: yeonji.jpg
   info: Visiting Professor
   url: yeonji
+  group: 4
+
+- name: Ji-Hyun Kim
+  photo: blank.png
+  info: Visiting Student (KIST)
+  url: 
+  group: 4
+
+- name: Hyun-Jeong Jeong
+  photo: blank.png
+  info: Visiting Student (KIRAMS)
+  url: 
   group: 4
