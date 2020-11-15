@@ -20,7 +20,7 @@
   photo: ganghee.jpg
   info: Bioinformatics Programmer​
   url: ganghee
-  group: 3
+  group: 1
 
 - name: Minwoo Jeong
   photo: minwoo.jpg
@@ -38,13 +38,13 @@
   photo: seoyeon.jpg
   info: Undergraduate Intern
   url: seoyeon
-  group: 4
+  group: 3
 
 - name: Yujin Kim
   photo: yujinkim2.png
   info: Undergraduate Intern
   url: yujinkim
-  group: 4
+  group: 1
 
 - name: Eunseo Kwak
   photo: keunseo.png
@@ -68,7 +68,7 @@
   photo: soohwikim.jpg
   info: Undergraduate Intern
   url: 
-  group: 4
+  group: 1
 
 - name: Yeonji Jang
   photo: yeonji.jpg
@@ -87,3 +87,17 @@
   info: Visiting Student (KIRAMS)
   url: 
   group: 5
+
+- name: Yunseo Lee
+  photo: blank.png
+  info: Undergraduate Intern
+  url: yunseo
+  group: 4
+
+- name: Minku Kang
+  photo: minkukang.jpg
+  info: Undergraduate Intern
+  url: minku
+  group: 4
+
+

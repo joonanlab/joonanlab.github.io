@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Yujin Kim
-position: Undergraduate intern
+position: Graduate student
 handle: yujinkim
 email:
 twitter:
@@ -14,4 +14,4 @@ photo: yujinkim.jpg
 
 
 ### Education & Training
-- BSc, Biosystem and Biomedical Sciences, Korea University, South Korea (expected 2021)
+- BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
