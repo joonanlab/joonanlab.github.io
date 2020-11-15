@@ -18,7 +18,7 @@
 
 - name: Ganghee Lee
   photo: ganghee.jpg
-  info: Bioinformatics Programmer​
+  info: Graduate Student
   url: ganghee
   group: 1
 
@@ -36,13 +36,13 @@
 
 - name: Seoyeon Kim
   photo: seoyeon.jpg
-  info: Undergraduate Intern
+  info: Bioinformatics Programmer​
   url: seoyeon
   group: 3
 
 - name: Yujin Kim
   photo: yujinkim2.png
-  info: Undergraduate Intern
+  info: Graduate Student
   url: yujinkim
   group: 1
 
@@ -66,7 +66,7 @@
 
 - name: Soo-Hwi Kim
   photo: soohwikim.jpg
-  info: Undergraduate Intern
+  info: Graduate Student
   url: 
   group: 1
 
