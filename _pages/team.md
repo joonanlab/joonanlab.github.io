@@ -157,12 +157,10 @@ permalink: /team/
 {% for member in site.data.team_members %}
 {% if member.group == 5 %}
 
-<i class="alumni1">{{ member.name }}</i><br>
-<i class="alumni2">{{ member.info }} ({{ member.year }}</i>) {% if member.current %} 
+<i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} {% if member.current %} 
 {% endif %}
 {% endif %}
 
-{% endif %}
 {% endfor %}
 
 ---
@@ -172,11 +170,10 @@ permalink: /team/
 {% for member in site.data.team_members %}
 {% if member.group == 8 %}
 
-<i class="alumni1">{{ member.name }}</i> - <i class="alumni2">{{ member.info }} ({{ member.year }}</i>) {% if member.current %} 
+<i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> {% if member.current %} 
 {% endif %}
 {% endif %}
 
-{% endif %}
 {% endfor %}
 
 ---
