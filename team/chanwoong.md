@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Chanwoong Hwa
-position: Undergraduate intern
+position: Combined BS/MS
 handle: chanwoong
 email:
 twitter:
