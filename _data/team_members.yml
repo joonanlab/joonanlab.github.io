@@ -22,6 +22,12 @@
   url: ganghee
   group: 1
 
+- name: Seoyeon Kim
+  photo: seoyeon.jpg
+  info: Bioinformatics Programmer​
+  url: seoyeon
+  group: 3
+
 - name: Minwoo Jeong
   photo: minwoo.jpg
   info: Bioinformatics Programmer​
@@ -35,12 +41,6 @@
   group: 8
   year: 2020
 
-- name: Seoyeon Kim
-  photo: seoyeon.jpg
-  info: Bioinformatics Programmer​
-  url: seoyeon
-  group: 3
-
 - name: Yujin Kim
   photo: yujinkim2.png
   info: Graduate Student
@@ -53,6 +53,24 @@
   url: keunseo
   group: 4
 
+- name: Jaemin Park
+  photo: jaepark.jpg
+  info: Undergraduate Intern
+  url: jaepark
+  group: 4
+
+- name: Jaehyun Kim
+  photo: jaekim.jpg
+  info: Undergraduate Intern
+  url: jaekim
+  group: 4
+
+- name: Hyeji Lee
+  photo: hyejilee.jpg
+  info: Undergraduate Intern
+  url: hyeji
+  group: 4
+
 - name: Eunhyong Jang
   photo: eunhyong.png
   info: Undergraduate Intern
@@ -60,16 +78,16 @@
   group: 8
   year: 2020
 
-- name: Chanwoong Hwa
-  photo: chanwoong.png
-  info: Undergraduate Intern
-  url: chanwoong
-  group: 1
-
 - name: Soo-Hwi Kim
   photo: soohwikim.jpg
   info: Graduate Student
-  url: 
+  url: soohwi
+  group: 1
+
+- name: Chanwoong Hwa
+  photo: chanwoong.png
+  info: Combined BS/MS Student
+  url: chanwoong
   group: 1
 
 - name: Yeonji Jang
@@ -96,6 +114,13 @@
   url: yunseo
   group: 8
   year: 2020
+
+- name: Yerim Yeom
+  photo: blank2.png
+  info: Undergraduate Intern
+  url: yunseo
+  group: 8
+  year: 2019
 
 - name: Minku Kang
   photo: minkukang.jpg
