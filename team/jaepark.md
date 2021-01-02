@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Jaehyun Park
+title: Jaemin Park
 position: Undergraduate intern
 handle: jaepark
 email:
