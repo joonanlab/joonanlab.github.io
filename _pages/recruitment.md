@@ -39,4 +39,4 @@ Undergraduate students from the Korea University are eligible to participate a r
 
 본 연구실은 학부 연구생을 모집합니다. 저희 연구실로 대학원 진학을 염두하거나 유학을 준비하는 학생, 그리고 프로그래밍 지식이 있는 학생을 위주로 선발합니다. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/labphoto_20210402.jpg" style="width: 360px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/labphoto_20210402.jpg" style="width: 480px">
