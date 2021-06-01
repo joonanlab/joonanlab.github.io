@@ -24,13 +24,13 @@
 
 - name: Seoyeon Kim
   photo: seoyeon.jpg
-  info: Bioinformatics Programmer​
+  info: Bioinformatics Programmer
   url: seoyeon
   group: 3
 
 - name: Minwoo Jeong
   photo: minwoo.jpg
-  info: Bioinformatics Programmer​
+  info: Bioinformatics Programmer
   url: minwoo
   group: 3
 
@@ -61,7 +61,7 @@
 
 - name: Jaehyun Kim
   photo: jaekim.jpg
-  info: Undergraduate Intern
+  info: Bioinformatics Programmer
   url: jaekim
   group: 3
 
