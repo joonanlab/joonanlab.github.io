@@ -51,7 +51,8 @@
   photo: keunseo.png
   info: Undergraduate Intern
   url: keunseo
-  group: 4
+  group: 8
+  year: 2021
 
 - name: Jaemin Park
   photo: jaepark.jpg
@@ -127,5 +128,11 @@
   info: Undergraduate Intern
   url: minku
   group: 4
+
+- name: Il-Bin Kim
+  photo: blank2.png
+  info: Visiting Professor
+  url: yeonji
+  group: 5
 
 
