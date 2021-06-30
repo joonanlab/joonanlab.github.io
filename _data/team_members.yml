@@ -34,25 +34,11 @@
   url: minwoo
   group: 3
 
-- name: Dahae Lee
-  photo: dahae2.jpg
-  info: Undergraduate Intern
-  url: dahae
-  group: 8
-  year: 2020
-
 - name: Yujin Kim
   photo: yujinkim2.png
   info: Graduate Student
   url: yujinkim
   group: 1
-
-- name: Eunseo Kwak
-  photo: keunseo.png
-  info: Undergraduate Intern
-  url: keunseo
-  group: 8
-  year: 2021
 
 - name: Jaemin Park
   photo: jaepark.jpg
@@ -71,13 +57,6 @@
   info: Undergraduate Intern
   url: hyeji
   group: 4
-
-- name: Eunhyong Jang
-  photo: eunhyong.png
-  info: Undergraduate Intern
-  url: eunhyong
-  group: 8
-  year: 2020
 
 - name: Soo-Hwi Kim
   photo: soohwikim.jpg
@@ -109,20 +88,6 @@
   url: 
   group: 5
 
-- name: Yunseo Lee
-  photo: blank2.png
-  info: Undergraduate Intern
-  url: yunseo
-  group: 8
-  year: 2020
-
-- name: Yerim Yeom
-  photo: blank2.png
-  info: Undergraduate Intern
-  url: yunseo
-  group: 8
-  year: 2019
-
 - name: Minku Kang
   photo: minkukang.jpg
   info: Undergraduate Intern
@@ -136,3 +101,37 @@
   group: 5
 
 
+- name: Eunseo Kwak
+  photo: keunseo.png
+  info: Undergraduate Intern
+  url: keunseo
+  group: 8
+  year: 2021
+
+- name: Dahae Lee
+  photo: dahae2.jpg
+  info: Undergraduate Intern
+  url: dahae
+  group: 8
+  year: 2020
+
+- name: Eunhyong Jang
+  photo: eunhyong.png
+  info: Undergraduate Intern
+  url: eunhyong
+  group: 8
+  year: 2020
+
+- name: Yunseo Lee
+  photo: blank2.png
+  info: Undergraduate Intern
+  url: yunseo
+  group: 8
+  year: 2020
+
+- name: Yerim Yeom
+  photo: blank2.png
+  info: Undergraduate Intern
+  url: yunseo
+  group: 8
+  year: 2019
