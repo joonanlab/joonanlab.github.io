@@ -5,7 +5,7 @@ position: Bioinformatics programmer​
 handle: seoyeon
 email:
 twitter:
-github:
+github: ssun1116
 scholar: 
 photo: seoyeon.jpg
 ---
