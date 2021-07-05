@@ -4,7 +4,7 @@ title: Soowhee Kim
 position: Graduate student
 handle: soowheekim
 email: rlatngnl7675@gmail.com
-twitter: twitter.com/HonLovGrat
+twitter: HonLovGrat
 github: 
 scholar: 
 photo: soowheekim.jpg
