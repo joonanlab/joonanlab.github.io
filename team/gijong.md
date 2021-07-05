@@ -5,7 +5,7 @@ position: Undergraduate intern
 handle: gijong
 email: gjnam98@gmail.com
 twitter:
-github: https://github.com/gjnam98
+github: gjnam98
 scholar: 
 photo: gijong.jpg
 ---
