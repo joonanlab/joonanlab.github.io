@@ -22,47 +22,17 @@
   url: ganghee
   group: 1
 
-- name: Seoyeon Kim
-  photo: seoyeon.jpg
-  info: Bioinformatics Programmer
-  url: seoyeon
-  group: 3
-
-- name: Minwoo Jeong
-  photo: minwoo.jpg
-  info: Bioinformatics Programmer
-  url: minwoo
-  group: 3
+- name: Jaehyun Kim
+  photo: jaekim.jpg
+  info: Graduate Student
+  url: jaekim
+  group: 1
 
 - name: Yujin Kim
   photo: yujinkim2.png
   info: Graduate Student
   url: yujinkim
   group: 1
-
-- name: Jaemin Park
-  photo: jaepark.jpg
-  info: Undergraduate Intern
-  url: jaepark
-  group: 4
-
-- name: Jaehyun Kim
-  photo: jaekim.jpg
-  info: Bioinformatics Programmer
-  url: jaekim
-  group: 3
-
-- name: Hyeji Lee
-  photo: hyejilee.jpg
-  info: Undergraduate Intern
-  url: hyeji
-  group: 4
-
-- name: Gijong Nam
-  photo: gijong.jpg
-  info: Undergraduate Intern
-  url: gijong
-  group: 4
 
 - name: Soo-Whee Kim
   photo: soowheekim.jpg
@@ -76,9 +46,51 @@
   url: chanwoong
   group: 1
 
+- name: Seoyeon Kim
+  photo: seoyeon.jpg
+  info: Bioinformatics Programmer
+  url: seoyeon
+  group: 3
+
+- name: Minwoo Jeong
+  photo: minwoo.jpg
+  info: Bioinformatics Programmer
+  url: minwoo
+  group: 3
+
+- name: Jaemin Park
+  photo: jaepark.jpg
+  info: Undergraduate Intern
+  url: jaepark
+  group: 4
+
+- name: Hyeji Lee
+  photo: hyejilee.jpg
+  info: Undergraduate Intern
+  url: hyeji
+  group: 4
+
+- name: Gijong Nam
+  photo: gijong.jpg
+  info: Undergraduate Intern
+  url: gijong
+  group: 4
+
+- name: Minku Kang
+  photo: minkukang.jpg
+  info: Undergraduate Intern
+  url: minku
+  group: 4
+
+- name: Il-Bin Kim
+  photo: blank2.png
+  info: Visiting Professor (HYU)
+  url: 
+  group: 5
+
 - name: Yeonji Jang
   photo: yeonji.jpg
-  info: Visiting Professor
+  info: Visiting Professor (SNU)
   url: yeonji
   group: 5
 
@@ -94,18 +106,11 @@
   url: 
   group: 5
 
-- name: Minku Kang
-  photo: minkukang.jpg
-  info: Undergraduate Intern
-  url: minku
-  group: 4
-
-- name: Il-Bin Kim
+- name: Sung-Min Kim
   photo: blank2.png
-  info: Visiting Professor
-  url: yeonji
+  info: Visiting Student (KNIH)
+  url: 
   group: 5
-
 
 - name: Eunseo Kwak
   photo: keunseo.png
