@@ -10,7 +10,7 @@ scholar:
 photo: chanwoong.png
 ---
 
-  Chanwoong is interested in the co-expression gene network in various cancer types. Co-supervised with prof. Sungeun Kim, Chanwoong is working on weighted correlation network analysis of genes using RNA-sequencing dataset from lung squamous cell carcinoma and adenocarcinoma. He aims to find the network of genes underlying cell death in cancer cells, especially ferroptosis.
+Chanwoong is interested in systems biological networks underlying in cancer biology. He is currently working on multi-omics analysis of Korean Lung Cancer cohort. By integrating genomic, transcriptomic, proteomic, and clinical profiles of the cancer cohort, he aims to find the key variables that can provide pathophysiological insights on understanding and treating lung cancer.
 
 ### Education & Training
 - BSc, Biosystem and Biomedical Sciences, Korea University, South Korea (expected 2021)
