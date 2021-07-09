@@ -1,3 +1,4 @@
+---
 layout: member
 title: Jaemin Park
 position: Undergraduate intern
@@ -8,6 +9,7 @@ github: parkjaeming
 scholar: 
 photo: jaepark.jpg
 ---
+
 Jaemin pursues to develop computational framework for development of cancer immunotherapy. His main interest is especially directed towards outlining and analyzing immune profiles of lung cancer patients obtained from large clinical cohorts.
 ​
 ​
