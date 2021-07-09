@@ -5,7 +5,7 @@ position: Graduate student
 handle: lizzychoi
 email:
 twitter:
-github:
+github: lizzy723
 scholar: 
 photo: lizzychoi.jpg
 ---

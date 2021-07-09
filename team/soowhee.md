@@ -5,7 +5,7 @@ position: Graduate student
 handle: soowheekim
 email: rlatngnl7675@gmail.com
 twitter: HonLovGrat
-github: 
+github: soowhee
 scholar: 
 photo: soowheekim.jpg
 ---

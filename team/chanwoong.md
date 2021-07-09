@@ -5,7 +5,7 @@ position: Combined BS/MS
 handle: chanwoong
 email:
 twitter:
-github:
+github: woong4757
 scholar: 
 photo: chanwoong.png
 ---

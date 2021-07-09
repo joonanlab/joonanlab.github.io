@@ -5,7 +5,7 @@ position: Graduate student
 handle: ganghee
 email:
 twitter:
-github:
+github: lgh2624
 scholar: 
 photo: ganghee.jpg
 ---

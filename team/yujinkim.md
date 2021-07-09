@@ -5,7 +5,7 @@ position: Graduate student
 handle: yujinkim
 email:
 twitter:
-github:
+github: randrover
 scholar: 
 photo: yujinkim.jpg
 ---

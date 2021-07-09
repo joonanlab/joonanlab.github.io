@@ -5,7 +5,7 @@ position: Graduate student
 handle: yongjin
 email:
 twitter:
-github:
+github: Alviner-Heo
 scholar: 
 photo: yongjin.jpg
 ---

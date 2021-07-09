@@ -5,7 +5,7 @@ position: Undergraduate intern
 handle: jaepark
 email:
 twitter:
-github:
+github: parkjaeming
 scholar: 
 photo: jaepark.jpg
 ---
