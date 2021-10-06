@@ -82,6 +82,13 @@
   url: minku
   group: 4
 
+- name: Eunhyong Jang
+  photo: eunhyong.png
+  info: Undergraduate Intern
+  url: eunhyong
+  group: 4
+  year: 2020
+  
 - name: Il-Bin Kim
   photo: blank2.png
   info: Visiting Professor (HYU)
@@ -126,13 +133,6 @@
   group: 8
   year: 2020
 
-- name: Eunhyong Jang
-  photo: eunhyong.png
-  info: Undergraduate Intern
-  url: eunhyong
-  group: 8
-  year: 2020
-
 - name: Yunseo Lee
   photo: blank2.png
   info: Undergraduate Intern
@@ -140,7 +140,7 @@
   group: 8
   year: 2020
 
-- name: Yerim Yeom
+- name: Yearim Yeom
   photo: blank2.png
   info: Undergraduate Intern
   url: yunseo
