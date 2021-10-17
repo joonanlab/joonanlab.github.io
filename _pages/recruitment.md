@@ -42,11 +42,13 @@ Dr. An is a member of [the Integrated Biomedical and Life Science Program](http:
 
 ### 자격조건
 Q. 연구실의 기초 과목 스터디 및 사전 수강과목
+
 고려대학교 학생들은 제 유전학 수업(BSMS205)과 생물통계학 수업(BSMS222)를 수강하고 우수한 성적을 받은 학생들을 위주로 선발합니다. 타교학생들은 제 수업을 들을수 없기에, 유투브에 올라온 유전학 수업을 듣길 바랍니다 ([링크](https://www.youtube.com/watch?v=WwzeVOVEKz8&list=PLrSeOrCeGDLHp3jb3tXtSUM--7ZdbOZuz&ab_channel=genetics001))
 
 연구실은 대규모의 데이터 분석 위주의 연구를 진행합니다. 그래서 통계학이나 프로그래밍이 능숙한 학생들을 우선적으로 선발합니다. 분자생물학과 유전학, 면역학을 잘 수학한 생물학 전공자들 중에서 인턴기간동안 조금은 고되지만 프로그래밍을 일정기간 (6개월 이상) 배울 의지가 있는 학생들은 지원이 가능합니다.
 
 Q. 대학원 지원 유형이 어떻게 되나요?
+
 저희 연구실이 속한 의생명융합과학과는 석사, 통합, 박사과정으로 지원이 가능합니다. 단, 석사과정 지원 문의를 할때 고려할 점입니다. 연구실에 석사 지원은 가능하지만, 석사는 기간이 짧아 연구 프로젝트를 2년 내에 마무리 하기 위해, 상당한 프로그래밍 실력을 요구합니다. 프로그래밍 초급자 혹은 무경험자는 석사 지원을 받지 않습니다.
 
 
@@ -54,6 +56,6 @@ Q. 대학원 지원 유형이 어떻게 되나요?
 
 Undergraduate students from the Korea University are eligible to participate a research volunteer in the lab.
 
-본 연구실은 학부 연구생을 모집합니다. 저희 연구실로 대학원 진학을 염두하거나 유학을 준비하는 학생, 그리고 프로그래밍 지식이 있는 학생을 위주로 선발합니다. 
+본 연구실은 학부 연구생을 모집합니다. 일반적인 지원절차와 자격요건은 위 대학원생 모집과 동일합니다.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/labphoto_20210402.jpg" style="width: 480px">
