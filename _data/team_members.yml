@@ -46,6 +46,12 @@
   url: chanwoong
   group: 1
 
+- name: Sung-Min Kim
+  photo: blank2.png
+  info: Graduate Student
+  url: 
+  group: 1
+
 - name: Seoyeon Kim
   photo: seoyeon.jpg
   info: Bioinformatics Programmer
@@ -110,12 +116,6 @@
 - name: Hyun-Jeong Jeong
   photo: blank2.png
   info: Visiting Student (KIRAMS)
-  url: 
-  group: 5
-
-- name: Sung-Min Kim
-  photo: blank2.png
-  info: Visiting Student (KNIH)
   url: 
   group: 5
 
