@@ -170,8 +170,7 @@ permalink: /team/
 {% for member in site.data.team_members %}
 {% if member.group == 8 %}
 
-<i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> {% if member.current %} 
-<i class="alumni2">{{ member.current }}</i>
+<i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> {% if member.current %} <i class="alumni2">{{ member.current }}</i>
 {% endif %}
 {% endif %}
 
