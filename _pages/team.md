@@ -167,13 +167,13 @@ permalink: /team/
 
 ## Alumni
 
-{% for member in site.data.team_members %}
-{% if member.group == 8 %}
 
-<i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> {% if member.current %} 
-{% endif %}
-{% endif %}
+{% for member in site.data.team_members %} {% if member.group == 8 %}
 
-{% endfor %}
+{{ member.name }}
+{{ member.info }} ({{ member.year }}) {% if member.current %} Current: {{ member.current }} {% if member.extlink %} (Link) {% endif %} {% endif %}
+
+{% endif %} {% endfor %}
+
 
 ---
