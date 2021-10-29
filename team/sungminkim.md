@@ -3,14 +3,14 @@ layout: member
 title: Sungmin Kim
 position: Graduate student
 handle: sungminkim
-email:
+email: ksmpooh@gmail.com
 twitter:
-github: 
-scholar: 
+github: ksmpooh
+scholar:  
 photo: sungminkim.jpg
 ---
 
-  
+Sungmin is interested in genome-wide association study (GWAS) and sequencing data analysis. He is currently a Research Assistant in Korea National Institute of Health working on GWAS and sequencing data analysis. During the training in An Lab, he is studying on the establishment of a pipeline for analyzing sequencing data of population group and the discovery of specific genetic variations of population group through seqeuncing data analysis.
 
 ### Education & Training
-- BSc
+- BSc, Double major in Life Science and Computer Science, Handong Global University, South Korea
