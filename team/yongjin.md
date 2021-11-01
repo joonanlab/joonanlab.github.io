@@ -7,7 +7,7 @@ email:
 twitter:
 github: Alviner-Heo
 scholar: 
-photo: yongjin.jpg
+photo: yongjin2.jpg
 ---
 
 

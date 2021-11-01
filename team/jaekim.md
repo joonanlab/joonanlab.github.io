@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jaehyun Kim
-position: Undergraduate intern
+position: Graduate student
 handle: jaekim
 email:
 twitter:
