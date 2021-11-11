@@ -21,7 +21,7 @@ If you are interested, please contact Dr. An (joonanlab at gmail dot com) direct
 
 ## Graduate students
 
-Dr. An is a member of [the Integrated Biomedical and Life Science Program](http://chsold.korea.ac.kr/front/chsen/html/index.html?_ga=2.111493764.1440501719.1549452630-233976143.1526431482). If you are interested in our work, please send Dr. An (joonanlab at gmail dot com) a brief email with a description of your interests, and your CV.
+Dr. An is a member of [the Integrated Biomedical and Life Science Program](https://chs.korea.ac.kr/chs/grad/lifefusion_1.do). If you are interested in our work, please send Dr. An (joonanlab at gmail dot com) a brief email with a description of your interests, and your CV.
 
 연구실의 연구 주제 및 프로젝는 다음과 같습니다 (2021년 하반기).
 
