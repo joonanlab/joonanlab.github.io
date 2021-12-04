@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Seoyeon Kim
-position: Bioinformatics programmer​
+position: Graduate student
 handle: seoyeon
 email:
 twitter:

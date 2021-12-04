@@ -54,8 +54,26 @@
 
 - name: Seoyeon Kim
   photo: seoyeon.jpg
-  info: Bioinformatics Programmer
+  info: Graduate Student
   url: seoyeon
+  group: 1
+
+- name: Hyeji Lee
+  photo: hyejilee.jpg
+  info: Graduate Student
+  url: hyeji
+  group: 1
+
+- name: Gijong Nam
+  photo: gijong.jpg
+  info: Graduate Student
+  url: gijong
+  group: 1
+
+- name: Eunhyong Jang
+  photo: eunhyong.png
+  info: Bioinformatics Programmer
+  url: eunhyong
   group: 3
 
 - name: Minwoo Jeong
@@ -70,25 +88,18 @@
   url: jaepark
   group: 4
 
-- name: Hyeji Lee
-  photo: hyejilee.jpg
+- name: Ingyeong Koh
+  photo: blank.png
   info: Undergraduate Intern
-  url: hyeji
+  url: ingyeongkoh
   group: 4
 
-- name: Gijong Nam
-  photo: gijong.jpg
+- name: Jungeun Ji
+  photo: blank.png
   info: Undergraduate Intern
-  url: gijong
+  url: jungeunji
   group: 4
 
-- name: Eunhyong Jang
-  photo: eunhyong.png
-  info: Undergraduate Intern
-  url: eunhyong
-  group: 4
-  year: 
-  
 - name: Il-Bin Kim
   photo: blank2.png
   info: Visiting Professor (HYU)
