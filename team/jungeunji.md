@@ -5,7 +5,7 @@ position: Undergraduate intern
 handle: jungeunji
 email:
 twitter:
-github: lizzy723
+github: 
 scholar: 
 photo: blank.png
 ---
