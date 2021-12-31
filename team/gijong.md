@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Gijong Nam
-position: Undergraduate intern
+position: Graduate student
 handle: gijong
 email: gjnam98@gmail.com
 twitter:

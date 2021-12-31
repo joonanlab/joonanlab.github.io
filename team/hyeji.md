@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Hyeji Lee
-position: Undergraduate intern
+position: Graduate student
 handle: hyeji
 email:
 twitter:
