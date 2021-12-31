@@ -82,12 +82,6 @@
   url: minwoo
   group: 3
 
-- name: Jaemin Park
-  photo: jaepark.jpg
-  info: Undergraduate Intern
-  url: jaepark
-  group: 4
-
 - name: Ingyeong Koh
   photo: blank.png
   info: Undergraduate Intern
@@ -123,6 +117,13 @@
   info: Visiting Student (KIRAMS)
   url: 
   group: 5
+
+- name: Jaemin Park
+  photo: jaepark.jpg
+  info: Undergraduate Intern
+  url: jaepark
+  group: 8
+  year: 2021
 
 - name: Minku Kang
   photo: minkukang.jpg
