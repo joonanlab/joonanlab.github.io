@@ -29,7 +29,7 @@ Undergraduate students from the Korea University are eligible to participate a r
 
 ### Further information
 
-자세한 모집 정보 및 절차는 [notion 페이지](https://joonanlab.notion.site/e061f5837a4747a8a125714bd984046a)에서 확인할 수 있습니다. 
+자세한 모집 정보 및 절차는 [Notion 페이지](https://joonanlab.notion.site/e061f5837a4747a8a125714bd984046a)에서 확인할 수 있습니다. 
 
 
 
