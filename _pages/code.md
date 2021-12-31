@@ -11,7 +11,7 @@ permalink: /code/
 
 ---
 
-### [CWAS: Category-Wide Association Study](https://github.com/sanderslab/cwas)
+### CWAS: Category-Wide Association Study
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/codepic/cwas.png" style="width: 300px">
@@ -24,7 +24,7 @@ The Cython wrapper script runs category-wide association study presented in [An 
 
 ---
 
-### [De novo Risk Score and Annotation Clustering](https://github.com/lingxuez/WGS-Analysis)
+### De novo Risk Score and Annotation Clustering
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/codepic/annocl.png" style="width: 300px">
 
@@ -33,7 +33,7 @@ This repository contains R scripts for risk score analysis and annotation cluste
 - <a href="https://github.com/lingxuez/WGS-Analysis"><i class='fab fa-github'></i> Source</a>
 - <a href="https://www.ncbi.nlm.nih.gov/pubmed/29184211"><i class='fa fa-book'></i> Paper</a>
 
-### [CatBurden: Category-based burden test](https://github.com/sanderslab/WGS-pipeline)
+### CatBurden: Category-based burden test
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/codepic/catburden.png" style="width: 300px">
