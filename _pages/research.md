@@ -6,11 +6,11 @@ sitemap: false
 permalink: /research/
 ---
 
-# Research
+## Research
 
 ---
 
-## Understanding the noncoding genome in neurodevelopmental disorders
+### Understanding the noncoding genome in neurodevelopmental disorders
 <div style="text-align: justify">
 Whole genome sequencing (WGS) has revolutionized our ability to find risk mutations in noncoding genome associated with autism spectrum disorder (ASD). Dr. An, working in Dr. Sanders' lab at UCSF and Autism Sequence Consortium, provides the clearest evidence of noncoding ASD association came from mutations at evolutionarily conserved nucleotides in the gene promoter region ([An et al. Science 2018](https://www.ncbi.nlm.nih.gov/pubmed/22495306)). We analyzed WGS data of 1,902 quartet families (7,608 individuals) from the Simons Simplex Collection and Korean ASD cohort. We applied two robust methods – a category-wide association study (CWAS) and de novo risk score method ([Werling et al. Nature Genetics]()) - to estimate the contribution of noncoding mutations across multiple biological hypotheses of the noncoding genome. We continue to improve our WGS methods to identify risk noncoding mutations associated with human disorders.
 </div>
