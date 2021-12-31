@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-# Welcome to An Lab at Korea University
+## Welcome to An Lab at Korea University
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/anlab.png" style="width: 100px; float: left;margin-right: 20px; border: 10px">
 

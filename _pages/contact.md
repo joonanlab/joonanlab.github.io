@@ -6,9 +6,9 @@ sitemap: false
 permalink: /contact/
 ---
 
-# Contact
+## Contact
 
-## Lab Location
+### Lab Location
 
 An Lab is in Hana Science Hall (building B) of the Korea University, Seoul Campus ([Google Map](https://goo.gl/maps/cvCyyNZVjCD2)):
 
