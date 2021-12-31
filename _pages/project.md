@@ -6,7 +6,7 @@ sitemap: false
 permalink: /project/
 ---
 
-## Featured Publications
+# Featured Publications
 
 ---
 

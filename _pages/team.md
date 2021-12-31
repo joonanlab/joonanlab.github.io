@@ -6,12 +6,12 @@ sitemap: false
 permalink: /team/
 ---
 
-## Team Members
+# Team Members
 (Please click the name below for the lab member's profile)
 
 ---
 
-### Principal Investigator
+## Principal Investigator
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -46,7 +46,7 @@ permalink: /team/
 ---
 
 
-### Trainee
+## Trainee
 
 
 {% assign number_printed = 0 %}
@@ -81,7 +81,7 @@ permalink: /team/
 
 ---
 
-### Genomics Core
+## Genomics Core
 
 
 {% assign number_printed = 0 %}
@@ -116,7 +116,7 @@ permalink: /team/
 
 ---
 
-### Intern
+## Intern
 
 
 {% assign number_printed = 0 %}
@@ -151,7 +151,7 @@ permalink: /team/
 
 ---
 
-### Visitor
+## Visitor
 
 
 {% for member in site.data.team_members %}
@@ -165,7 +165,7 @@ permalink: /team/
 
 ---
 
-### Alumni
+## Alumni
 
 {% for member in site.data.team_members %}
 {% if member.group == 8 %}
