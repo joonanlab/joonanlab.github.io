@@ -8,7 +8,8 @@ permalink: /recruitment/
 
 # Open positions
 
-Thank you for your interest in joining the An Lab.
+Thank you for your interest in joining the An Lab. For English information, please find the description below. 
+우리말로 된 자세한 모집 정보 및 절차는 Notion 페이지[링크](https://joonanlab.notion.site/e061f5837a4747a8a125714bd984046a)에서 확인할 수 있습니다. 
 
 ## Postdoctoral researchers
 
@@ -21,14 +22,14 @@ If you are interested, please contact Dr. An (joonanlab at gmail dot com) direct
 
 ## Graduate students
 
-Dr. An is a member of [the Integrated Biomedical and Life Science Program](https://chs.korea.ac.kr/chs/grad/lifefusion_1.do). If you are interested in our work, please send Dr. An (joonanlab at gmail dot com) a brief email with a description of your interests, and your CV.
+Dr. An is a member of the Integrated Biomedical and Life Science Program. If you are interested in our work, please send Dr. An (joonanlab at gmail dot com) a brief email with a description of your interests, and your CV.
 
 ## Undergraduate students
 
 Undergraduate students from the Korea University are eligible to participate a research volunteer in the lab.
 
-## Further information
 
-자세한 모집 정보 및 절차는 [Notion 페이지](https://joonanlab.notion.site/e061f5837a4747a8a125714bd984046a)에서 확인할 수 있습니다. 
+
+
 
 
