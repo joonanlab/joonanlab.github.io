@@ -9,6 +9,7 @@ permalink: /recruitment/
 # Open positions
 
 Thank you for your interest in joining the An Lab. For English information, please find the description below. 
+
 우리말로 된 자세한 모집 정보 및 절차는 Notion 페이지([링크](https://joonanlab.notion.site/e061f5837a4747a8a125714bd984046a))에서 확인할 수 있습니다. 
 
 ## Postdoctoral researchers
