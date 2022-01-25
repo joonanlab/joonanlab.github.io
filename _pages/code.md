@@ -16,6 +16,15 @@ permalink: /code/
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/codepic/cwas.png" style="width: 300px">
 
+A new Python package runs category-wide association study with better user-interface. Please note that this is under active development.
+
+
+- <a href="https://github.com/mwjjeong/cwas"><i class='fab fa-github'></i> Source</a>
+
+
+## CWAS: Category-Wide Association Study
+
+
 The Cython wrapper script runs category-wide association study presented in [An et al. (2018) Science](https://www.ncbi.nlm.nih.gov/pubmed/30545852). This is an Amazon Machine Images (AMI) on Amazon Web Services (AWS) Cloud Computing Services.
 
 
@@ -42,3 +51,10 @@ The R/Python wrapper script includes commands for the category-based burden test
 
 - <a href="https://github.com/sanderslab/WGS-pipeline"><i class='fab fa-github'></i> Source</a>
 - <a href="https://www.ncbi.nlm.nih.gov/pubmed/29700473"><i class='fa fa-book'></i> Paper</a>
+
+
+## Hail tutorial (Korean)
+
+우리말로 된 Hail 튜토리얼입니다.
+
+- <a href="https://github.com/joonan-lab/hail_tutorial"><i class='fab fa-github'></i> Source</a>
