@@ -11,7 +11,7 @@ permalink: /code/
 
 ---
 
-## CWAS: Category-Wide Association Study
+## CWAS-Plus: A new version of Category-Wide Association Study
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/codepic/cwas.png" style="width: 300px">
