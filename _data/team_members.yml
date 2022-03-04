@@ -4,18 +4,6 @@
   url: joonan
   group: 0
 
-- name: Lizzy Choi
-  photo: lizzychoi.jpg
-  info: Kwanjeong Graduate Fellow
-  url: lizzychoi
-  group: 1
-
-- name: Yong-Jin Heo
-  photo: yongjin2.jpg
-  info: Graduate Student
-  url: yongjin
-  group: 1
-
 - name: Ganghee Lee
   photo: ganghee.jpg
   info: Graduate Student
@@ -117,6 +105,22 @@
   info: Visiting Student (KIRAMS)
   url: 
   group: 5
+
+- name: Lizzy Choi
+  photo: lizzychoi.jpg
+  info: Graduate Student (MSc.)
+  url: lizzychoi
+  group: 8
+  year: 2022
+  current: Samsung SDS
+
+- name: Yong-Jin Heo
+  photo: yongjin2.jpg
+  info: Graduate Student (MSc.)
+  url: yongjin
+  group: 8
+  year: 2022
+  current: Pharmacy
 
 - name: Jaemin Park
   photo: jaepark.jpg
