@@ -8,6 +8,16 @@
   highlight: 1
   news2:
 
+- title: "Whole-Genome and RNA Sequencing Reveal Variation and Transcriptomic Coordination in the Developing Human Prefrontal Cortex"
+  image: BrainVar2020.jpg
+  description:
+  authors:
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S2211124720303673
+    display:  Werling et al. Cell Reports (2020)
+  highlight: 1
+  news2:
+
 - title: "Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism"
   image: Satterstorm2020.jpg
   description:
