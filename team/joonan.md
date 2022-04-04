@@ -30,6 +30,12 @@ photo: joonan.jpg
 - 2020 Young Scientist Travel Awards, The Japan Neuroscience Society
 - 2019 Young Investigator Research Awards, International Society for Autism Research
 
+## Academic Service
+- 2022-Present, Editorial Board, eLife
+- 2021-Present, Editorial Board, Molecular Brain
+- 2021-Present, Editorial Board, Experimental and Molecular Medicine
+- 2021-Present, Editorial Board, Molecules and Cells
+
 ### Funding
 - 2021-2025 한국인 자폐스펙트럼장애 가족에서 유전자기반 진단 기술 개발, 바이오·의료기술개발사업, 한국연구재단 (CI)
 - 2021-2024 능동전환 T세포관용 연구실, 기초연구실지원사업, 한국연구재단 (CI)
