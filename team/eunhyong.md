@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Eunhyong Jang
-position: Undergraduate intern
+position: Bioinformatics Programmer
 handle: Eunhyong
 email:
 twitter:

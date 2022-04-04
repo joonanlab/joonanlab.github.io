@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jungeun Ji
-position: Undergraduate intern
+position: Bioinformatics Programmer
 handle: jungeunji
 email:
 twitter:

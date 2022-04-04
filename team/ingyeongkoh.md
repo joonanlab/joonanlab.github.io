@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ingyeong Koh
-position: Undergraduate intern
+position: Bioinformatics Programmer
 handle: ingyeongkoh
 email:
 twitter:
