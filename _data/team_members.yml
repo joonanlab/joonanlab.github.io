@@ -72,13 +72,13 @@
 
 - name: Ingyeong Koh
   photo: blank.png
-  info: Undergraduate Intern
+  info: Bioinformatics Programmer
   url: ingyeongkoh
   group: 3
 
 - name: Jungeun Ji
   photo: blank.png
-  info: Undergraduate Intern
+  info: Bioinformatics Programmer
   url: jungeunji
   group: 3
 
@@ -115,6 +115,18 @@
 - name: Hyun-Jeong Jeong
   photo: blank2.png
   info: Visiting Student (KIRAMS)
+  url: 
+  group: 5
+
+- name: Jaeik Oh
+  photo: blank2.png
+  info: Visiting Student (KHU)
+  url: 
+  group: 5
+
+- name: Jaeik Oh
+  photo: blank2.png
+  info: Visiting Student (SNU)
   url: 
   group: 5
 
