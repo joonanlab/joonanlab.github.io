@@ -23,7 +23,7 @@ If you are interested, please contact Dr. An (joonanlab at gmail dot com) direct
 
 ## Graduate students
 
-Dr. An is a member of the Integrated Biomedical and Life Science Program. If you are interested in our work, please send Dr. An (joonanlab at gmail dot com) a brief email with a description of your interests, and your CV.
+Dr. An is a member of the Integrated Biomedical and Life Science Program. We are currently looking for a student with strong background in computational science and molecular biology. If you are interested in our work, please send Dr. An (joonanlab at gmail dot com) a brief email with a description of your interests, and your CV.
 
 ## Undergraduate students
 
