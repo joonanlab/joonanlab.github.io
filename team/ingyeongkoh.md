@@ -7,7 +7,7 @@ email:
 twitter:
 github:
 scholar: 
-photo: blank.png
+photo: ingyeongkoh.jpg
 ---
 
 
