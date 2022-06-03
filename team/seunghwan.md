@@ -7,7 +7,7 @@ email:
 twitter:
 github:
 scholar: 
-photo: seunghwan.png
+photo: seunghwan.jpg
 ---
 
 
