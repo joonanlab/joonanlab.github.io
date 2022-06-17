@@ -12,4 +12,4 @@ photo: jungeunji.jpg
 
 
 ### Education & Training
-- BSc, Division of Biotechnology, Korea University, South Korea
+- BSc, Division of Life Sciences, Korea University, South Korea
