@@ -14,3 +14,8 @@ Chanwoong is interested in systems biological networks underlying in cancer biol
 
 ### Education & Training
 - BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+
+### Publications
+- Genome-wide evaluation and functional characterization of RNA m6a modification in tumor, in preparation
+- Augmentation of RNA m6A reader signature is associated with poor survival by enhancing cell proliferation and EMT across cancer types, Experimental & Molecular Medicine, in press
+- Integrative Multi-Omics Approaches in Cancer Research: From Biological Networks to Clinical Subtypes, Molecules and Cells (2021)
