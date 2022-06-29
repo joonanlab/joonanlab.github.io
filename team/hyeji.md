@@ -17,3 +17,7 @@ Hyeji is interested in exploring the biological mechanisms of brain disorders. I
 
 - BSc, Media & Communication, Korea University, South Korea
 - BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+
+
+### Publications
+- Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Under review
