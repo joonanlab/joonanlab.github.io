@@ -14,3 +14,7 @@ Soowhee is interested in understanding autism spectrum disorder(ASD) neurobiolog
 
 ### Education & Training
 - BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+
+### Publications
+- Sex-difference in autism spectrum disorder, in preparation
+- Ferroptosis-related genes in neurodevelopment and central nervous system, Biology (2021)

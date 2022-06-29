@@ -14,3 +14,6 @@ photo: ganghee.jpg
 
 ### Education & Training
 - BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+
+### Publications
+- Integrative Multi-Omics Approaches in Cancer Research: From Biological Networks to Clinical Subtypes, Molecules and Cells (2021)
