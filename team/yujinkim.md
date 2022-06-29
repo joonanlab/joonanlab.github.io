@@ -15,3 +15,10 @@ photo: yujinkim.jpg
 
 ### Education & Training
 - BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+
+### Publications
+- Category-wide association to evaluate noncoding mutations from whole genome sequencing data, in preparation
+- Identification of kinase network underlying Noonan syndrome-associated SHP2/PTPN11 mutant, in preparation
+- Kdm3b haploinsufficiency impairs the consolidation of cerebellum-dependent motor memory in mice, Molecular Brain (2021)
+- Ferroptosis-related genes in neurodevelopment and central nervous system, Biology (2021)
+- Spatio-Temporal Roles of ASD-Associated Variants in Human Brain Development, Genes (2020)
