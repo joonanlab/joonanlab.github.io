@@ -22,3 +22,6 @@ photo: yujinkim.jpg
 - Kdm3b haploinsufficiency impairs the consolidation of cerebellum-dependent motor memory in mice, Molecular Brain (2021)
 - Ferroptosis-related genes in neurodevelopment and central nervous system, Biology (2021)
 - Spatio-Temporal Roles of ASD-Associated Variants in Human Brain Development, Genes (2020)
+
+### Awards
+- Predoctoral Fellow, SBS Seoam Yoon Se Young Foundation (2022-2026)
