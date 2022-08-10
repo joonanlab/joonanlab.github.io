@@ -10,7 +10,7 @@ scholar:
 photo: yujinkim.jpg
 ---
 
-  Yujin is interested in how nervous system develops at a celluar level. During the training in the lab, she will be mainly working on a single cell RNA-sequencing dataset from neurodevelopment and animal model of autism spectrum disorder. Her research focuses on the cellular landscape in neurodevelopment and a cell type associated with neurodevelopmental disorder. 
+  Yujin is interested in how genetic architecture in complex genomic disorders such as autism spectrum disorder is constructed. She is mainly working on whole-genome sequencing dataset from Korean autism spectrum disorder cohort. Her research focuses on estimating the functional impact of noncoding variants and prioritizing causal variants.
 
 
 ### Education & Training
