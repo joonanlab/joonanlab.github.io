@@ -17,4 +17,4 @@ Jaehyun is interested in handling whole genome and Exome sequencing data from pa
 - BSc, Psychology, Korea University, South Korea
 
 ### Publications
-- Non-coding de novo mutations in chromatin interactions are implicated in autism spectrum disorder, Molecular Psychiatry in press
+- Non-coding de novo mutations in chromatin interactions are implicated in autism spectrum disorder, Molecular Psychiatry (2022)
