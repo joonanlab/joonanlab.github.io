@@ -60,8 +60,26 @@
 
 - name: Eunhyong Jang
   photo: eunhyong.png
-  info: Bioinformatics Programmer
+  info: Graduate Student
   url: eunhyong
+  group: 1
+
+- name: Ingyeong Koh
+  photo: ingyeongkoh.jpg
+  info: Graduate Student
+  url: ingyeongkoh
+  group: 1
+
+- name: Jungeun Ji
+  photo: jungeunji.jpg
+  info: Graduate Student
+  url: jungeunji
+  group: 1
+
+- name: Seunghwan Choi
+  photo: seunghwan.jpg
+  info: Bioinformatics Programmer
+  url: seunghwan
   group: 3
 
 - name: Minwoo Jeong
@@ -69,24 +87,6 @@
   info: Bioinformatics Programmer
   url: minwoo
   group: 3
-
-- name: Ingyeong Koh
-  photo: ingyeongkoh.jpg
-  info: Bioinformatics Programmer
-  url: ingyeongkoh
-  group: 3
-
-- name: Jungeun Ji
-  photo: jungeunji.jpg
-  info: Bioinformatics Programmer
-  url: jungeunji
-  group: 3
-
-- name: Seunghwan Choi
-  photo: seunghwan.jpg
-  info: Undergraduate Intern
-  url: seunghwan
-  group: 4
 
 - name: Il-Bin Kim
   photo: blank2.png

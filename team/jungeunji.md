@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jungeun Ji
-position: Bioinformatics Programmer
+position: Graduate Student
 handle: jungeunji
 email:
 twitter:

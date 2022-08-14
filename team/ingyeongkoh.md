@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ingyeong Koh
-position: Bioinformatics Programmer
+position: Graduate Student
 handle: ingyeongkoh
 email:
 twitter:

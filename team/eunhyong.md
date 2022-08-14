@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Eunhyong Jang
-position: Bioinformatics Programmer
+position: Graduate Student
 handle: Eunhyong
 email:
 twitter:
