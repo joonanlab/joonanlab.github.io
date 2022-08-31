@@ -10,7 +10,7 @@ scholar: eTLI6dsAAAAJ
 photo: joonan.jpg
 ---
 
-  Dr. An is an Assistant Professor in the Department of Biosystem and Biomedical Science at Korea University.
+  Dr. An is an Associate Professor in the Department of Biosystem and Biomedical Science at Korea University.
 
   He trained as a bioinformatician with a particular focus on human genomics and neuroscience. His PhD project involved in National Autism Research Project - [The Cooperative Research Centre for Living with Autism](http://www.autismcrc.com.au/) - for the genomic sequencing project of Australian Autism families ([An et al. 2014](https://www.nature.com/articles/tp201438)).
 
