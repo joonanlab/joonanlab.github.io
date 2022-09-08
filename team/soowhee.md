@@ -17,4 +17,5 @@ Soowhee is interested in understanding autism spectrum disorder(ASD) neurobiolog
 
 ### Publications
 - Sex-difference in autism spectrum disorder, in preparation
+- Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Journal of Autism and Developmental Disorders (2022)
 - Ferroptosis-related genes in neurodevelopment and central nervous system, Biology (2021)

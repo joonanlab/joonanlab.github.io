@@ -20,4 +20,4 @@ Hyeji is interested in exploring the biological mechanisms of brain disorders. I
 
 
 ### Publications
-- Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Under review
+- Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Journal of Autism and Developmental Disorders (2022)
