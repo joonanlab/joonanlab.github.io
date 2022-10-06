@@ -7,7 +7,7 @@ email:
 twitter:
 github: randrover
 scholar: 
-photo: yujinkim.jpg
+photo: yujinkim2.png
 ---
 
 Yujin is interested in how genetic architecture in complex genomic disorders such as autism spectrum disorder is constructed. She is mainly working on whole-genome sequencing dataset from Korean autism spectrum disorder cohort. Her research focuses on estimating the functional impact of noncoding variants and prioritizing causal variants.
