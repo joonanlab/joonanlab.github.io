@@ -8,6 +8,16 @@
   highlight: 1
   news2:
 
+- title: "Augmentation of the RNA m6A reader signature is associated with poor survival by enhancing cell proliferation and EMT across cancer types"
+  image: Oh2022.png
+  description:
+  authors:
+  link:
+    url: https://www.nature.com/articles/s12276-022-00795-z
+    display:  Oh et al. Experimental & Molecular Medicine  (2022)
+  highlight: 1
+  news2:
+
 - title: "Genetic architecture of autism spectrum disorder: Lessons from large-scale genomic studies"
   image: Choi2021.jpg
   description:
