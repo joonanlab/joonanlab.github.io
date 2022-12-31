@@ -7,7 +7,7 @@
   page: 1756-6606
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/36544212
-    display: Yoon et al., Molecular brain (2022)
+    display: Yoon et al., (2022), Molecular brain
   highlight: 0
  
 - title: Non-coding de novo mutations in chromatin interactions are implicated in autism spectrum disorder.
@@ -19,7 +19,7 @@
   page: 1359-4184
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/35840799
-    display: Kim et al., Molecular psychiatry (2022)
+    display: Kim et al., (2022), Molecular psychiatry
   highlight: 0
  
 - title: Cntnap2-dependent molecular networks in autism spectrum disorder revealed through an integrative multi-omics analysis.
@@ -31,7 +31,7 @@
   page: 1359-4184
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/36253443
-    display: Jang et al., Molecular psychiatry (2022)
+    display: Jang et al., (2022), Molecular psychiatry
   highlight: 0
  
 - title: Infantile esotropia in a family with TUBB3 mutation associated congenital fibrosis of extraocular muscles.
@@ -43,7 +43,7 @@
   page: 1381-6810
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/35765833
-    display: Jang et al., Ophthalmic genetics (2022)
+    display: Jang et al., (2022), Ophthalmic genetics
   highlight: 0
  
 - title: Brief Report - Risk Variants Could Inform Early Neurodevelopmental Outcome in Children with Developmental Disabilities.
@@ -55,7 +55,7 @@
   page: 0162-3257
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/36071318
-    display: Lee et al., Journal of autism and developmental disorders (2022)
+    display: Lee et al., (2022), Journal of autism and developmental disorders
   highlight: 0
  
 - title: Augmentation of the RNA m6A reader signature is associated with poor survival by enhancing cell proliferation and EMT across cancer types.
@@ -67,7 +67,7 @@
   page: 1226-3613
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/35794212
-    display: Oh et al., Experimental & molecular medicine (2022)
+    display: Oh et al., (2022), Experimental & molecular medicine
   highlight: 1
  
 - title: High-throughput characterization of the role of non-B DNA motifs on promoter function.
@@ -79,7 +79,7 @@
   page: 2666-979X
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/35573091
-    display: Georgakopoulos-Soares et al., Cell genomics (2022)
+    display: Georgakopoulos-Soares et al., (2022), Cell genomics
   highlight: 0
  
 - title: Genetic architecture of autism spectrum disorder - Lessons from large- scale genomic studies.
@@ -91,7 +91,7 @@
   page: 0149-7634
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/34166716
-    display: Choi et al., Neuroscience and biobehavioral reviews (2021)
+    display: Choi et al., (2021), Neuroscience and biobehavioral reviews
   highlight: 1
  
 - title: Developmental dynamics of voltage-gated sodium channel isoform expression in the human and mouse brain.
@@ -103,7 +103,7 @@
   page: 1756-994X
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/34425903
-    display: Liang et al., Genome medicine (2021)
+    display: Liang et al., (2021), Genome medicine
   highlight: 0
  
 - title: Integrative Multi-Omics Approaches in Cancer Research - From Biological Networks to Clinical Subtypes.
@@ -115,7 +115,7 @@
   page: 1016-8478
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/34238766
-    display: Heo et al., Molecules and cells (2021)
+    display: Heo et al., (2021), Molecules and cells
   highlight: 0
  
 - title: Kdm3b haploinsufficiency impairs the consolidation of cerebellum- dependent motor memory in mice.
@@ -127,7 +127,7 @@
   page: 1756-6606
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/34217333
-    display: Kim et al., Molecular brain (2021)
+    display: Kim et al., (2021), Molecular brain
   highlight: 0
  
 - title: Neuronal and glial 3D chromatin architecture informs the cellular etiology of brain disorders.
@@ -139,7 +139,7 @@
   page: 2041-1723
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/34172755
-    display: Hu et al., Nature communications (2021)
+    display: Hu et al., (2021), Nature communications
   highlight: 0
  
 - title: CRISPR screens identify a novel combination treatment targeting BCL-XL and WNT signaling for KRAS/BRAF-mutated colorectal cancers.
@@ -151,7 +151,7 @@
   page: 0950-9232
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/33846570
-    display: Jung et al., Oncogene (2021)
+    display: Jung et al., (2021), Oncogene
   highlight: 0
  
 - title: ANO1 regulates the maintenance of stemness in glioblastoma stem cells by stabilizing EGFRvIII.
@@ -163,7 +163,7 @@
   page: 0950-9232
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/33452454
-    display: Kim et al., Oncogene (2021)
+    display: Kim et al., (2021), Oncogene
   highlight: 0
  
 - title: Identification of Possible Risk Variants of Familial Strabismus Using Exome Sequencing Analysis.
@@ -175,7 +175,7 @@
   page: 2073-4425
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/33435129
-    display: An et al., Genes (2021)
+    display: An et al., (2021), Genes
   highlight: 0
  
 - title: Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System.
@@ -187,7 +187,7 @@
   page: 2079-7737
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/33419148
-    display: Kim et al., Biology (2021)
+    display: Kim et al., (2021), Biology
   highlight: 0
  
 - title: Homeostatic plasticity fails at the intersection of autism-gene mutations and a novel class of common genetic modifiers.
@@ -199,7 +199,7 @@
   page: 2050-084X
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/32609087
-    display: Genc et al., eLife (2020)
+    display: Genc et al., (2020), eLife
   highlight: 0
  
 - title: Spatio-Temporal Roles of ASD-Associated Variants in Human Brain Development.
@@ -211,7 +211,7 @@
   page: 2073-4425
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/32403330
-    display: Kim et al., Genes (2020)
+    display: Kim et al., (2020), Genes
   highlight: 0
  
 - title: Whole-Genome and RNA Sequencing Reveal Variation and Transcriptomic Coordination in the Developing Human Prefrontal Cortex.
@@ -223,19 +223,19 @@
   page: 2211-1247
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/32268104
-    display: Werling et al., Cell reports (2020)
+    display: Werling et al., (2020), Cell reports
   highlight: 1
  
-- title: Systematic evaluation of genome sequencing as a first-tier diagnostic test for prenatal and pediatric disorders
+- title: Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism.
   image: Satterstrom2020.jpg
-  authors: Satterstrom FK, Kosmicki JA, Wang J, Breen MS, De Rubeis S, An JY, Peng M, Collins R, Grove J, Klei L, Stevens C, Reichert J, Mulhern MS, Artomov M, Gerges S, Sheppard B, Xu X, Bhaduri A, Norman U, Brand H, Schwartz G, Nguyen R, Guerrero EE, Dias C, Betancur C, Cook EH, Gallagher L, Gill M, Sutcliffe JS, Thurm A, Zwick ME, Borglum AD, State MW, Cicek AE, Talkowski ME, Cutler DJ, Devlin B, Sanders SJ, Roeder K, Daly MJ, Buxbaum JD, Liang,Lindsay, Darbandi,Siavash Fazel, Pochareddy,Sirisha, Gulden,Forrest O., Gilson,Michael C., Sheppard,Brooke K., Sahagun,Atehsa, An,Joon-Yong, Werling,Donna M., Rubenstein,John L.R., Šestan,Nenad, Bender,Kevin J., Sanders,Stephan J., Lowther,Chelsea, Valkanas,Elise, Giordano,Jessica L., Wang,Harold Z., Currall,Benjamin B., O’Keefe,Kathryn, Collins,Ryan L., Zhao,Xuefang, Austin-Tse,Christina A., Evangelista,Emily, Aggarwal,Vimla S., Lucente,Diane, Gauthier,Laura D., Tolonen,Charlotte, Sahakian,N, An,Joon-Yong, Dong,Shan, Norton,Mary E., MacKenzie,Tippi, Devlin,Bernie, Gilmore,Kelly, Powell,Bradford, Brandt,Alicia, Vetrini,Francesco, DiVito,Michelle, Goldstein,David B., Sanders,Stephan J., MacArthur,Daniel G., Hodge,Jennelle C., O’Donnell-Luria,Anne H., Rehm,Heidi L., Vora,Neeta L., Levy,Brynn, Brand,Harrison, Wapner,Ronald, Talkowski,Michael E.,
+  authors: Satterstrom FK, Kosmicki JA, Wang J, Breen MS, De Rubeis S, An JY, Peng M, Collins R, Grove J, Klei L, Stevens C, Reichert J, Mulhern MS, Artomov M, Gerges S, Sheppard B, Xu X, Bhaduri A, Norman U, Brand H, Schwartz G, Nguyen R, Guerrero EE, Dias C, Betancur C, Cook EH, Gallagher L, Gill M, Sutcliffe JS, Thurm A, Zwick ME, Borglum AD, State MW, Cicek AE, Talkowski ME, Cutler DJ, Devlin B, Sanders SJ, Roeder K, Daly MJ, Buxbaum JD
   year: 2020
-  date: 2020 Jan
+  date: 2020 Feb
   vol: 180
   page: 0092-8674
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/31981491
-    display: Satterstrom et al., Cell (2020)
+    display: Satterstrom et al., (2020), Cell
   highlight: 1
  
 - title: An integrative analysis of non-coding regulatory DNA variations associated with autism spectrum disorder.
@@ -247,7 +247,7 @@
   page: 1359-4184
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/29703944
-    display: Williams et al., Molecular psychiatry (2019)
+    display: Williams et al., (2019), Molecular psychiatry
   highlight: 0
  
 - title: Integrative functional genomic analysis of human brain development and neuropsychiatric risks.
@@ -259,7 +259,7 @@
   page: 0036-8075
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/30545854
-    display: Li et al., Science (2018)
+    display: Li et al., (2018), Science
   highlight: 0
  
 - title: Transcriptome and epigenome landscape of human cortical development modeled in organoids.
@@ -271,7 +271,7 @@
   page: 0036-8075
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/30545853
-    display: Amiri et al., Science (2018)
+    display: Amiri et al., (2018), Science
   highlight: 0
  
 - title: Comprehensive functional genomic resource and integrative model for the human brain.
@@ -283,7 +283,7 @@
   page: 0036-8075
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/30545857
-    display: Wang et al., Science (2018)
+    display: Wang et al., (2018), Science
   highlight: 0
  
 - title: Transcriptome-wide isoform-level dysregulation in ASD, schizophrenia, and bipolar disorder.
@@ -295,7 +295,7 @@
   page: 0036-8075
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/30545856
-    display: Gandal et al., Science (2018)
+    display: Gandal et al., (2018), Science
   highlight: 0
  
 - title: Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder.
@@ -307,7 +307,7 @@
   page: 0036-8075
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/30545852
-    display: An et al., Science (2018)
+    display: An et al., (2018), Science
   highlight: 1
  
 - title: An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder.
@@ -319,7 +319,7 @@
   page: 1061-4036
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/29700473
-    display: Werling et al., Nature genetics (2018)
+    display: Werling et al., (2018), Nature genetics
   highlight: 1
  
 - title: National human genome projects - an update and an agenda.
@@ -331,7 +331,7 @@
   page: 2092-7193
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/29056031
-    display: An et al., Epidemiology and health (2017)
+    display: An et al., (2017), Epidemiology and health
   highlight: 0
  
 - title: Opposing Effects on NaV1.2 Function Underlie Differences Between SCN2A Variants Observed in Individuals With Autism Spectrum Disorder or Infantile Seizures.
@@ -343,7 +343,7 @@
   page: 0006-3223
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/28256214
-    display: Ben-Shalom et al., Biological psychiatry (2017)
+    display: Ben-Shalom et al., (2017), Biological psychiatry
   highlight: 1
  
 - title: Appreciating the Population-wide Impact of Copy Number Variants on Cognition.
@@ -355,7 +355,7 @@
   page: 0006-3223
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/28645357
-    display: An et al., Biological psychiatry (2017)
+    display: An et al., (2017), Biological psychiatry
   highlight: 0
  
 - title: Whole Genome Sequencing in Psychiatric Disorders - the WGSPD Consortium
@@ -367,7 +367,7 @@
   page: 1474-7596
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/28260531
-    display: Collins et al., Genome biology (2017)
+    display: Collins et al., (2017), Genome biology
   highlight: 0
  
 - title: Genetic heterogeneity in autism - From single gene to a pathway perspective.
@@ -379,7 +379,7 @@
   page: 0149-7634
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/27317861
-    display: An et al., Neuroscience and biobehavioral reviews (2016)
+    display: An et al., (2016), Neuroscience and biobehavioral reviews
   highlight: 1
  
 - title: Towards a molecular characterization of autism spectrum disorders - an exome sequencing and systems approach.
@@ -391,7 +391,7 @@
   page: 2158-3188
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/24893065
-    display: An et al., Translational psychiatry (2014)
+    display: An et al., (2014), Translational psychiatry
   highlight: 1
  
 - title: Neurodevelopmental and neuropsychiatric disorders represent an interconnected molecular system.
@@ -403,6 +403,6 @@
   page: 1359-4184
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/23439483
-    display: Cristino et al., Molecular psychiatry (2014)
+    display: Cristino et al., (2014), Molecular psychiatry
   highlight: 0
  
