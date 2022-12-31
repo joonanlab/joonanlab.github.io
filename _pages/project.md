@@ -39,10 +39,25 @@ permalink: /project/
 <div>
 ## Full List
 
-
-
-
 For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?user=eTLI6dsAAAAJ&hl=en">Google Scholar</a>.
 <br><br><br>
+
+{% assign number_printed = 0 %}
+{% for publi in site.data.publist %}
+
+{% if publi.year == 2022 %}
+
+<div class="row">
+
+
+<a class="pub1" href="{{ publi.link.url }}">{{ publi.title }}</a>
+<a class="pub2"> {{ publi.link.display }} </a>
+
+
+</div>
+
+{% endif %}
+
+{% endfor %}
 
 </div>
