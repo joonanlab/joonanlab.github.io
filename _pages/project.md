@@ -39,7 +39,7 @@ permalink: /project/
 <div>
 ## Full List
 
-For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?user=eTLI6dsAAAAJ&hl=en">Google Scholar</a>.
+For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?user=eTLI6dsAAAAJ&hl=en">Google Scholar</a> or find the list below.
 <br><br>
 
 {% assign number_printed = 0 %}
@@ -51,7 +51,7 @@ For a full list, please go to <a class="regtext" href="https://scholar.google.co
 
 
 <div class="col-sm-11">
-  <a class="pub3" href="{{ publi.link.url }}">{{ publi.title }}</a>, <a class="pub4"> {{ publi.link.display }} </a>
+  <a class="pub4"> {{ publi.link.display_full }} </a>
 </div>
 
 

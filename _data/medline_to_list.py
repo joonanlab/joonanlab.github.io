@@ -69,14 +69,20 @@ def parse_medline_txt(txt_file):
     journal = record.get('JT', '')[0].split(' (')[0]
     vol = [''] if record.get('VI', '') is '' else record.get('VI', '')
     vol = vol[0]
+    issue = [''] if record.get('IP', '') is '' else record.get('IP', '')
+    issue = issue[0]
     page = [''] if record.get('IS', '') is '' else record.get('IS', '')
     page = page[0].split(' ')[0]
-    doi = record.get('DOI', '')
+    doi = record.get('LID', '')[0].split(' ')[0]
     
     # for display
     image = first_author + year + '.jpg'
     display = "{} et al., ({}), {}".format(first_author, year, journal)
     highlight = '1' if pmid in highlights else '0'
+    if vol != '':  
+      display_full = "{}, ({}), {}, {}, {}, ({}), {}".format(authors, year, title, journal, vol, issue, page)
+    else:
+      display_full = "{}, ({}), {}, {}, {}".format(authors, year, title, journal, page)
 
     # Format the fields as a single string
     # result = f'{title} | {authors} | {year} | {journal} | {volume} | {page} | {doi}'
@@ -85,13 +91,17 @@ def parse_medline_txt(txt_file):
     print("  image: {}".format(image))
     print("  authors: {}".format(authors_to_display))
     print("  authors_full: {}".format(authors))
+    print("  journal: {}".format(journal))
     print("  year: {}".format(year))
     print("  date: {}".format(date))
     print("  vol: {}".format(vol))
+    print("  issue: {}".format(issue))
     print("  page: {}".format(page))
+    print("  doi: {}".format(doi))
     print("  link:")
     print("    url: https://pubmed.ncbi.nlm.nih.gov/{}".format(pmid))
     print("    display: {}".format(display))
+    print("    display_full: {}".format(display_full))
     print("  highlight: {}".format(highlight))
     print(" ")
 
