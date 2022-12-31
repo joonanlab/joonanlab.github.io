@@ -43,9 +43,22 @@ def parse_medline_txt(txt_file):
   for pmid, record in medline_dict.items():
     title = ' '.join(record.get('TI', '')).replace(':', ' -')
     authors = ', '.join(record.get('AU', ''))
-    date_string = record.get('LR', '')[0]
-    date = datetime.datetime.strptime(date_string, "%Y%m%d").date().strftime("%Y %b")
-    year = datetime.datetime.strptime(date_string, "%Y%m%d").date().strftime("%Y")
+    # date_string = record.get('DEP', '')[0]
+    # date = datetime.datetime.strptime(date_string, "%Y%m%d").date().strftime("%Y %b")
+    # year = datetime.datetime.strptime(date_string, "%Y%m%d").date().strftime("%Y")
+    date_string = record.get('DP', '')[0]
+    if '/' in date_string:
+      date = datetime.datetime.strptime(date_string, "%Y/%m/%d").strftime("%Y %b")
+    else:
+      try:
+        date = datetime.datetime.strptime(date_string, "%Y %b %d").strftime("%Y %b")
+      except ValueError:
+        try:
+          date = datetime.datetime.strptime(date_string, "%Y %m %d").strftime("%Y %b")
+        except ValueError:
+          date = datetime.datetime.strptime(date_string, "%Y %b").strftime("%Y %b")
+    year = date.split(' ')[0]
+
     first_author = record.get('AU', '')[0].split(' ')[0]
     image = first_author + year + '.jpg'
     journal = record.get('JT', '')[0]
@@ -66,6 +79,7 @@ def parse_medline_txt(txt_file):
     print("  image: {}".format(image))
     print("  authors: {}".format(authors))
     print("  year: {}".format(year))
+    print("  date: {}".format(date))
     print("  vol: {}".format(vol))
     print("  page: {}".format(page))
     print("  link:")
