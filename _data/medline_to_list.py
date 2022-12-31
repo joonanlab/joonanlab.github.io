@@ -69,7 +69,7 @@ def parse_medline_txt(txt_file):
     # page = record.get('IS', '')
     doi = record.get('DOI', '')
     # Oh et al., Experimental & Molecular Medicine  (2022)
-    display = "{} et al., {} ({})".format(first_author, journal, year)
+    display = "{} et al., ({}), {}".format(first_author, year, journal)
     highlight = '1' if pmid in highlights else '0'
 
     # Format the fields as a single string
