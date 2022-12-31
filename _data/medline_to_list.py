@@ -42,7 +42,7 @@ def parse_medline_txt(txt_file):
   results = []
   for pmid, record in medline_dict.items():
     title = ' '.join(record.get('TI', '')).replace(':', ' -')
-    authors = ', '.join(record.get('AU', ''))
+    authors = ', '.join(record.get('AU', '')).replace(',,',',')
     # date_string = record.get('DEP', '')[0]
     # date = datetime.datetime.strptime(date_string, "%Y%m%d").date().strftime("%Y %b")
     # year = datetime.datetime.strptime(date_string, "%Y%m%d").date().strftime("%Y")
