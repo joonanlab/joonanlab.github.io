@@ -51,7 +51,6 @@ For a full list, please go to <a class="regtext" href="https://scholar.google.co
 
 
 <div class="col-sm-11">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="20%" style="float: left" />
   <p><a class="pub1" href="{{ publi.link.url }}">{{ publi.title }}</a></p>
   <a class="pub2"> {{ publi.link.display }} </a>
 </div>
