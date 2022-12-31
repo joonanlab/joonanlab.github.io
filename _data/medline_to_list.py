@@ -79,8 +79,10 @@ def parse_medline_txt(txt_file):
     image = first_author + year + '.jpg'
     display = "{} et al., ({}), {}".format(first_author, year, journal)
     highlight = '1' if pmid in highlights else '0'
-    if vol != '':  
+    if vol != '' and issue != '':  
       display_full = "{}, ({}), {}, {}, {}, ({}), {}".format(authors, year, title, journal, vol, issue, page)
+    elif vol != '' and issue == '':
+      display_full = "{}, ({}), {}, {}, {}, {}".format(authors, year, title, journal, vol, page)
     else:
       display_full = "{}, ({}), {}, {}, {}".format(authors, year, title, journal, page)
 
