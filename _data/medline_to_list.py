@@ -45,9 +45,10 @@ def parse_medline_txt(txt_file):
     # title and authors
     title = ' '.join(record.get('TI', '')).replace(':', ' -')
     authors = ', '.join(record.get('AU', '')).replace(',,',',')
-    authors_to_display = ''
     if len(record.get('AU', '')) > 10:
       authors_to_display = ', '.join(record.get('AU', '')[0:6] + ['...'] + record.get('AU', '')[-6:])
+    else:
+      authors_to_display = authors
     first_author = record.get('AU', '')[0].split(' ')[0]
 
     # date
