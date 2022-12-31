@@ -51,8 +51,8 @@ For a full list, please go to <a class="regtext" href="https://scholar.google.co
 
 
 <div class="col-sm-11">
-  <p><a class="pub1" href="{{ publi.link.url }}">{{ publi.title }}</a></p>
-  <a class="pub2"> {{ publi.link.display }} </a>
+  <p><a class="pub3" href="{{ publi.link.url }}">{{ publi.title }}</a></p>
+  <a class="pub4"> {{ publi.link.display }} </a>
 </div>
 
 

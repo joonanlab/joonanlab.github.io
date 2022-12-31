@@ -164,6 +164,29 @@ color:#0c4da2;
   pointer-events: none;
 }
 
+.pub3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 1000;
+	line-height: 18px;
+  color: black;
+  cursor:pointer;
+}
+
+.pub3:hover{
+color:#0c4da2;
+  text-decoration: underline;
+  text-decoration-color: darkgray;
+}
+
+.pub4 {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	font-size: 12px;
+  font-weight: 200;
+  color: black;
+  pointer-events: none;
+}
+
 .bigspacer {
 	height: 20px;
 }
