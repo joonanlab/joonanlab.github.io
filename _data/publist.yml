@@ -1,6 +1,7 @@
 - title: Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus.
   image: Yoon2022.jpg
-  authors: Yoon KN, Kim Y, Cui Y, Ji J, Park G, Chung JH, Lee YS, An JY, Lee DH
+  authors: 
+  authors_full: Yoon KN, Kim Y, Cui Y, Ji J, Park G, Chung JH, Lee YS, An JY, Lee DH
   year: 2022
   date: 2022 Dec
   vol: 15
@@ -12,7 +13,8 @@
  
 - title: Non-coding de novo mutations in chromatin interactions are implicated in autism spectrum disorder.
   image: Kim2022.jpg
-  authors: Kim IB, Lee T, Lee J, Kim J, Lee S, Koh IG, Kim JH, An JY, Lee H, Kim WK, Ju YS, Cho Y, Yu SJ, Kim SA, Oh M, Han DW, Kim E, Choi JK, Yoo HJ, Lee JH
+  authors: Kim IB,Lee T,Lee J,Kim J,Lee S,Koh IG,...,Oh M,Han DW,Kim E,Choi JK,Yoo HJ,Lee JH
+  authors_full: Kim IB, Lee T, Lee J, Kim J, Lee S, Koh IG, Kim JH, An JY, Lee H, Kim WK, Ju YS, Cho Y, Yu SJ, Kim SA, Oh M, Han DW, Kim E, Choi JK, Yoo HJ, Lee JH
   year: 2022
   date: 2022 Nov
   vol: 27
@@ -24,7 +26,8 @@
  
 - title: Cntnap2-dependent molecular networks in autism spectrum disorder revealed through an integrative multi-omics analysis.
   image: Jang2022.jpg
-  authors: Jang WE, Park JH, Park G, Bang G, Na CH, Kim JY, Kim KY, Kim KP, Shin CY, An JY, Lee YS, Kim MS
+  authors: Jang WE,Park JH,Park G,Bang G,Na CH,Kim JY,...,Kim KY,Kim KP,Shin CY,An JY,Lee YS,Kim MS
+  authors_full: Jang WE, Park JH, Park G, Bang G, Na CH, Kim JY, Kim KY, Kim KP, Shin CY, An JY, Lee YS, Kim MS
   year: 2022
   date: 2022 Oct
   vol: 
@@ -36,7 +39,8 @@
  
 - title: Infantile esotropia in a family with TUBB3 mutation associated congenital fibrosis of extraocular muscles.
   image: Jang2022.jpg
-  authors: Jang Y, Kwak E, An JY, Jung JH
+  authors: 
+  authors_full: Jang Y, Kwak E, An JY, Jung JH
   year: 2022
   date: 2022 Oct
   vol: 43
@@ -48,7 +52,8 @@
  
 - title: Brief Report - Risk Variants Could Inform Early Neurodevelopmental Outcome in Children with Developmental Disabilities.
   image: Lee2022.jpg
-  authors: Lee T, Lee H, Kim S, Park KJ, An JY, Kim HW
+  authors: 
+  authors_full: Lee T, Lee H, Kim S, Park KJ, An JY, Kim HW
   year: 2022
   date: 2022 Sep
   vol: 
@@ -60,7 +65,8 @@
  
 - title: Augmentation of the RNA m6A reader signature is associated with poor survival by enhancing cell proliferation and EMT across cancer types.
   image: Oh2022.jpg
-  authors: Oh J, Hwa C, Jang D, Shin S, Lee SJ, Kim J, Lee SE, Jung HR, Oh Y, Jang G, Kwon O, An JY, Cho SY
+  authors: Oh J,Hwa C,Jang D,Shin S,Lee SJ,Kim J,...,Jung HR,Oh Y,Jang G,Kwon O,An JY,Cho SY
+  authors_full: Oh J, Hwa C, Jang D, Shin S, Lee SJ, Kim J, Lee SE, Jung HR, Oh Y, Jang G, Kwon O, An JY, Cho SY
   year: 2022
   date: 2022 Jul
   vol: 54
@@ -72,7 +78,8 @@
  
 - title: High-throughput characterization of the role of non-B DNA motifs on promoter function.
   image: Georgakopoulos-Soares2022.jpg
-  authors: Georgakopoulos-Soares I, Victorino J, Parada GE, Agarwal V, Zhao J, Wong HY, Umar MI, Elor O, Muhwezi A, An JY, Sanders SJ, Kwok CK, Inoue F, Hemberg M, Ahituv N
+  authors: Georgakopoulos-Soares I,Victorino J,Parada GE,Agarwal V,Zhao J,Wong HY,...,An JY,Sanders SJ,Kwok CK,Inoue F,Hemberg M,Ahituv N
+  authors_full: Georgakopoulos-Soares I, Victorino J, Parada GE, Agarwal V, Zhao J, Wong HY, Umar MI, Elor O, Muhwezi A, An JY, Sanders SJ, Kwok CK, Inoue F, Hemberg M, Ahituv N
   year: 2022
   date: 2022 Apr
   vol: 2
@@ -84,7 +91,8 @@
  
 - title: Genetic architecture of autism spectrum disorder - Lessons from large- scale genomic studies.
   image: Choi2021.jpg
-  authors: Choi L, An JY
+  authors: 
+  authors_full: Choi L, An JY
   year: 2021
   date: 2021 Sep
   vol: 128
@@ -96,7 +104,8 @@
  
 - title: Developmental dynamics of voltage-gated sodium channel isoform expression in the human and mouse brain.
   image: Liang2021.jpg
-  authors: Liang L, Fazel Darbandi S, Pochareddy S, Gulden FO, Gilson MC, Sheppard BK, Sahagun A, An JY, Werling DM, Rubenstein JLR, Sestan N, Bender KJ, Sanders SJ
+  authors: Liang L,Fazel Darbandi S,Pochareddy S,Gulden FO,Gilson MC,Sheppard BK,...,An JY,Werling DM,Rubenstein JLR,Sestan N,Bender KJ,Sanders SJ
+  authors_full: Liang L, Fazel Darbandi S, Pochareddy S, Gulden FO, Gilson MC, Sheppard BK, Sahagun A, An JY, Werling DM, Rubenstein JLR, Sestan N, Bender KJ, Sanders SJ
   year: 2021
   date: 2021 Aug
   vol: 13
@@ -108,7 +117,8 @@
  
 - title: Integrative Multi-Omics Approaches in Cancer Research - From Biological Networks to Clinical Subtypes.
   image: Heo2021.jpg
-  authors: Heo YJ, Hwa C, Lee GH, Park JM, An JY
+  authors: 
+  authors_full: Heo YJ, Hwa C, Lee GH, Park JM, An JY
   year: 2021
   date: 2021 Jul
   vol: 44
@@ -120,7 +130,8 @@
  
 - title: Kdm3b haploinsufficiency impairs the consolidation of cerebellum- dependent motor memory in mice.
   image: Kim2021.jpg
-  authors: Kim YG, Bak MS, Kim A, Kim Y, Chae YC, Kim YL, Chun YS, An JY, Seo SB, Kim SJ, Lee YS
+  authors: Kim YG,Bak MS,Kim A,Kim Y,Chae YC,Kim YL,...,Kim YL,Chun YS,An JY,Seo SB,Kim SJ,Lee YS
+  authors_full: Kim YG, Bak MS, Kim A, Kim Y, Chae YC, Kim YL, Chun YS, An JY, Seo SB, Kim SJ, Lee YS
   year: 2021
   date: 2021 Jul
   vol: 14
@@ -132,7 +143,8 @@
  
 - title: Neuronal and glial 3D chromatin architecture informs the cellular etiology of brain disorders.
   image: Hu2021.jpg
-  authors: Hu B, Won H, Mah W, Park RB, Kassim B, Spiess K, Kozlenkov A, Crowley CA, Pochareddy S, Li Y, Dracheva S, Sestan N, Akbarian S, Geschwind DH
+  authors: Hu B,Won H,Mah W,Park RB,Kassim B,Spiess K,...,Pochareddy S,Li Y,Dracheva S,Sestan N,Akbarian S,Geschwind DH
+  authors_full: Hu B, Won H, Mah W, Park RB, Kassim B, Spiess K, Kozlenkov A, Crowley CA, Pochareddy S, Li Y, Dracheva S, Sestan N, Akbarian S, Geschwind DH
   year: 2021
   date: 2021 Jun
   vol: 12
@@ -144,7 +156,8 @@
  
 - title: CRISPR screens identify a novel combination treatment targeting BCL-XL and WNT signaling for KRAS/BRAF-mutated colorectal cancers.
   image: Jung2021.jpg
-  authors: Jung HR, Oh Y, Na D, Min S, Kang J, Jang D, Shin S, Kim J, Lee SE, Jeong EM, An JY, Sung CO, Lee WS, Lee C, Cho SY
+  authors: Jung HR,Oh Y,Na D,Min S,Kang J,Jang D,...,Jeong EM,An JY,Sung CO,Lee WS,Lee C,Cho SY
+  authors_full: Jung HR, Oh Y, Na D, Min S, Kang J, Jang D, Shin S, Kim J, Lee SE, Jeong EM, An JY, Sung CO, Lee WS, Lee C, Cho SY
   year: 2021
   date: 2021 May
   vol: 40
@@ -156,7 +169,8 @@
  
 - title: ANO1 regulates the maintenance of stemness in glioblastoma stem cells by stabilizing EGFRvIII.
   image: Kim2021.jpg
-  authors: Kim HJ, Kim JY, Jung CW, Lee YS, An JY, Kim EH, Kim KH, Lee SP, Park JY, Park MJ
+  authors: 
+  authors_full: Kim HJ, Kim JY, Jung CW, Lee YS, An JY, Kim EH, Kim KH, Lee SP, Park JY, Park MJ
   year: 2021
   date: 2021 Feb
   vol: 40
@@ -168,7 +182,8 @@
  
 - title: Identification of Possible Risk Variants of Familial Strabismus Using Exome Sequencing Analysis.
   image: An2021.jpg
-  authors: An JY, Jung JH, Choi L, Wieben ED, Mohney BG
+  authors: 
+  authors_full: An JY, Jung JH, Choi L, Wieben ED, Mohney BG
   year: 2021
   date: 2021 Jan
   vol: 12
@@ -180,7 +195,8 @@
  
 - title: Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System.
   image: Kim2021.jpg
-  authors: Kim SW, Kim Y, Kim SE, An JY
+  authors: 
+  authors_full: Kim SW, Kim Y, Kim SE, An JY
   year: 2021
   date: 2021 Jan
   vol: 10
@@ -192,7 +208,8 @@
  
 - title: Homeostatic plasticity fails at the intersection of autism-gene mutations and a novel class of common genetic modifiers.
   image: Genc2020.jpg
-  authors: Genc O, An JY, Fetter RD, Kulik Y, Zunino G, Sanders SJ, Davis GW
+  authors: 
+  authors_full: Genc O, An JY, Fetter RD, Kulik Y, Zunino G, Sanders SJ, Davis GW
   year: 2020
   date: 2020 Jul
   vol: 9
@@ -204,7 +221,8 @@
  
 - title: Spatio-Temporal Roles of ASD-Associated Variants in Human Brain Development.
   image: Kim2020.jpg
-  authors: Kim Y, An JY
+  authors: 
+  authors_full: Kim Y, An JY
   year: 2020
   date: 2020 May
   vol: 11
@@ -216,7 +234,8 @@
  
 - title: Whole-Genome and RNA Sequencing Reveal Variation and Transcriptomic Coordination in the Developing Human Prefrontal Cortex.
   image: Werling2020.jpg
-  authors: Werling DM, Pochareddy S, Choi J, An JY, Sheppard B, Peng M, Li Z, Dastmalchi C, Santpere G, Sousa AMM, Tebbenkamp ATN, Kaur N, Gulden FO, Breen MS, Liang L, Gilson MC, Zhao X, Dong S, Klei L, Cicek AE, Buxbaum JD, Adle-Biassette H, Thomas JL, Aldinger KA, O'Day DR, Glass IA, Zaitlen NA, Talkowski ME, Roeder K, State MW, Devlin B, Sanders SJ, Sestan N
+  authors: Werling DM,Pochareddy S,Choi J,An JY,Sheppard B,Peng M,...,Talkowski ME,Roeder K,State MW,Devlin B,Sanders SJ,Sestan N
+  authors_full: Werling DM, Pochareddy S, Choi J, An JY, Sheppard B, Peng M, Li Z, Dastmalchi C, Santpere G, Sousa AMM, Tebbenkamp ATN, Kaur N, Gulden FO, Breen MS, Liang L, Gilson MC, Zhao X, Dong S, Klei L, Cicek AE, Buxbaum JD, Adle-Biassette H, Thomas JL, Aldinger KA, O'Day DR, Glass IA, Zaitlen NA, Talkowski ME, Roeder K, State MW, Devlin B, Sanders SJ, Sestan N
   year: 2020
   date: 2020 Apr
   vol: 31
@@ -228,7 +247,8 @@
  
 - title: Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism.
   image: Satterstrom2020.jpg
-  authors: Satterstrom FK, Kosmicki JA, Wang J, Breen MS, De Rubeis S, An JY, Peng M, Collins R, Grove J, Klei L, Stevens C, Reichert J, Mulhern MS, Artomov M, Gerges S, Sheppard B, Xu X, Bhaduri A, Norman U, Brand H, Schwartz G, Nguyen R, Guerrero EE, Dias C, Betancur C, Cook EH, Gallagher L, Gill M, Sutcliffe JS, Thurm A, Zwick ME, Borglum AD, State MW, Cicek AE, Talkowski ME, Cutler DJ, Devlin B, Sanders SJ, Roeder K, Daly MJ, Buxbaum JD
+  authors: Satterstrom FK,Kosmicki JA,Wang J,Breen MS,De Rubeis S,An JY,...,Cutler DJ,Devlin B,Sanders SJ,Roeder K,Daly MJ,Buxbaum JD
+  authors_full: Satterstrom FK, Kosmicki JA, Wang J, Breen MS, De Rubeis S, An JY, Peng M, Collins R, Grove J, Klei L, Stevens C, Reichert J, Mulhern MS, Artomov M, Gerges S, Sheppard B, Xu X, Bhaduri A, Norman U, Brand H, Schwartz G, Nguyen R, Guerrero EE, Dias C, Betancur C, Cook EH, Gallagher L, Gill M, Sutcliffe JS, Thurm A, Zwick ME, Borglum AD, State MW, Cicek AE, Talkowski ME, Cutler DJ, Devlin B, Sanders SJ, Roeder K, Daly MJ, Buxbaum JD
   year: 2020
   date: 2020 Feb
   vol: 180
@@ -240,7 +260,8 @@
  
 - title: An integrative analysis of non-coding regulatory DNA variations associated with autism spectrum disorder.
   image: Williams2019.jpg
-  authors: Williams SM, An JY, Edson J, Watts M, Murigneux V, Whitehouse AJO, Jackson CJ, Bellgrove MA, Cristino AS, Claudianos C
+  authors: 
+  authors_full: Williams SM, An JY, Edson J, Watts M, Murigneux V, Whitehouse AJO, Jackson CJ, Bellgrove MA, Cristino AS, Claudianos C
   year: 2019
   date: 2019 Nov
   vol: 24
@@ -252,7 +273,8 @@
  
 - title: Integrative functional genomic analysis of human brain development and neuropsychiatric risks.
   image: Li2018.jpg
-  authors: Li M, Santpere G, Imamura Kawasawa Y, Evgrafov OV, Gulden FO, Pochareddy S, Sunkin SM, Li Z, Shin Y, Zhu Y, Sousa AMM, Werling DM, Kitchen RR, Kang HJ, Pletikos M, Choi J, Muchnik S, Xu X, Wang D, Lorente-Galdos B, Liu S, Giusti-Rodriguez P, Won H, de Leeuw CA, Pardinas AF, Hu M, Jin F, Li Y, Owen MJ, O'Donovan MC, Walters JTR, Posthuma D, Reimers MA, Levitt P, Weinberger DR, Hyde TM, Kleinman JE, Geschwind DH, Hawrylycz MJ, State MW, Sanders SJ, Sullivan PF, Gerstein MB, Lein ES, Knowles JA, Sestan N
+  authors: Li M,Santpere G,Imamura Kawasawa Y,Evgrafov OV,Gulden FO,Pochareddy S,...,Sanders SJ,Sullivan PF,Gerstein MB,Lein ES,Knowles JA,Sestan N
+  authors_full: Li M, Santpere G, Imamura Kawasawa Y, Evgrafov OV, Gulden FO, Pochareddy S, Sunkin SM, Li Z, Shin Y, Zhu Y, Sousa AMM, Werling DM, Kitchen RR, Kang HJ, Pletikos M, Choi J, Muchnik S, Xu X, Wang D, Lorente-Galdos B, Liu S, Giusti-Rodriguez P, Won H, de Leeuw CA, Pardinas AF, Hu M, Jin F, Li Y, Owen MJ, O'Donovan MC, Walters JTR, Posthuma D, Reimers MA, Levitt P, Weinberger DR, Hyde TM, Kleinman JE, Geschwind DH, Hawrylycz MJ, State MW, Sanders SJ, Sullivan PF, Gerstein MB, Lein ES, Knowles JA, Sestan N
   year: 2018
   date: 2018 Dec
   vol: 362
@@ -264,7 +286,8 @@
  
 - title: Transcriptome and epigenome landscape of human cortical development modeled in organoids.
   image: Amiri2018.jpg
-  authors: Amiri A, Coppola G, Scuderi S, Wu F, Roychowdhury T, Liu F, Pochareddy S, Shin Y, Safi A, Song L, Zhu Y, Sousa AMM, Gerstein M, Crawford GE, Sestan N, Abyzov A, Vaccarino FM
+  authors: Amiri A,Coppola G,Scuderi S,Wu F,Roychowdhury T,Liu F,...,Sousa AMM,Gerstein M,Crawford GE,Sestan N,Abyzov A,Vaccarino FM
+  authors_full: Amiri A, Coppola G, Scuderi S, Wu F, Roychowdhury T, Liu F, Pochareddy S, Shin Y, Safi A, Song L, Zhu Y, Sousa AMM, Gerstein M, Crawford GE, Sestan N, Abyzov A, Vaccarino FM
   year: 2018
   date: 2018 Dec
   vol: 362
@@ -276,7 +299,8 @@
  
 - title: Comprehensive functional genomic resource and integrative model for the human brain.
   image: Wang2018.jpg
-  authors: Wang D, Liu S, Warrell J, Won H, Shi X, Navarro FCP, Clarke D, Gu M, Emani P, Yang YT, Xu M, Gandal MJ, Lou S, Zhang J, Park JJ, Yan C, Rhie SK, Manakongtreecheep K, Zhou H, Nathan A, Peters M, Mattei E, Fitzgerald D, Brunetti T, Moore J, Jiang Y, Girdhar K, Hoffman GE, Kalayci S, Gumus ZH, Crawford GE, Roussos P, Akbarian S, Jaffe AE, White KP, Weng Z, Sestan N, Geschwind DH, Knowles JA, Gerstein MB
+  authors: Wang D,Liu S,Warrell J,Won H,Shi X,Navarro FCP,...,White KP,Weng Z,Sestan N,Geschwind DH,Knowles JA,Gerstein MB
+  authors_full: Wang D, Liu S, Warrell J, Won H, Shi X, Navarro FCP, Clarke D, Gu M, Emani P, Yang YT, Xu M, Gandal MJ, Lou S, Zhang J, Park JJ, Yan C, Rhie SK, Manakongtreecheep K, Zhou H, Nathan A, Peters M, Mattei E, Fitzgerald D, Brunetti T, Moore J, Jiang Y, Girdhar K, Hoffman GE, Kalayci S, Gumus ZH, Crawford GE, Roussos P, Akbarian S, Jaffe AE, White KP, Weng Z, Sestan N, Geschwind DH, Knowles JA, Gerstein MB
   year: 2018
   date: 2018 Dec
   vol: 362
@@ -288,7 +312,8 @@
  
 - title: Transcriptome-wide isoform-level dysregulation in ASD, schizophrenia, and bipolar disorder.
   image: Gandal2018.jpg
-  authors: Gandal MJ, Zhang P, Hadjimichael E, Walker RL, Chen C, Liu S, Won H, van Bakel H, Varghese M, Wang Y, Shieh AW, Haney J, Parhami S, Belmont J, Kim M, Moran Losada P, Khan Z, Mleczko J, Xia Y, Dai R, Wang D, Yang YT, Xu M, Fish K, Hof PR, Warrell J, Fitzgerald D, White K, Jaffe AE, Peters MA, Gerstein M, Liu C, Iakoucheva LM, Pinto D, Geschwind DH
+  authors: Gandal MJ,Zhang P,Hadjimichael E,Walker RL,Chen C,Liu S,...,Peters MA,Gerstein M,Liu C,Iakoucheva LM,Pinto D,Geschwind DH
+  authors_full: Gandal MJ, Zhang P, Hadjimichael E, Walker RL, Chen C, Liu S, Won H, van Bakel H, Varghese M, Wang Y, Shieh AW, Haney J, Parhami S, Belmont J, Kim M, Moran Losada P, Khan Z, Mleczko J, Xia Y, Dai R, Wang D, Yang YT, Xu M, Fish K, Hof PR, Warrell J, Fitzgerald D, White K, Jaffe AE, Peters MA, Gerstein M, Liu C, Iakoucheva LM, Pinto D, Geschwind DH
   year: 2018
   date: 2018 Dec
   vol: 362
@@ -300,7 +325,8 @@
  
 - title: Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder.
   image: An2018.jpg
-  authors: An JY, Lin K, Zhu L, Werling DM, Dong S, Brand H, Wang HZ, Zhao X, Schwartz GB, Collins RL, Currall BB, Dastmalchi C, Dea J, Duhn C, Gilson MC, Klei L, Liang L, Markenscoff-Papadimitriou E, Pochareddy S, Ahituv N, Buxbaum JD, Coon H, Daly MJ, Kim YS, Marth GT, Neale BM, Quinlan AR, Rubenstein JL, Sestan N, State MW, Willsey AJ, Talkowski ME, Devlin B, Roeder K, Sanders SJ
+  authors: An JY,Lin K,Zhu L,Werling DM,Dong S,Brand H,...,State MW,Willsey AJ,Talkowski ME,Devlin B,Roeder K,Sanders SJ
+  authors_full: An JY, Lin K, Zhu L, Werling DM, Dong S, Brand H, Wang HZ, Zhao X, Schwartz GB, Collins RL, Currall BB, Dastmalchi C, Dea J, Duhn C, Gilson MC, Klei L, Liang L, Markenscoff-Papadimitriou E, Pochareddy S, Ahituv N, Buxbaum JD, Coon H, Daly MJ, Kim YS, Marth GT, Neale BM, Quinlan AR, Rubenstein JL, Sestan N, State MW, Willsey AJ, Talkowski ME, Devlin B, Roeder K, Sanders SJ
   year: 2018
   date: 2018 Dec
   vol: 362
@@ -312,7 +338,8 @@
  
 - title: An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder.
   image: Werling2018.jpg
-  authors: Werling DM, Brand H, An JY, Stone MR, Zhu L, Glessner JT, Collins RL, Dong S, Layer RM, Markenscoff-Papadimitriou E, Farrell A, Schwartz GB, Wang HZ, Currall BB, Zhao X, Dea J, Duhn C, Erdman CA, Gilson MC, Yadav R, Handsaker RE, Kashin S, Klei L, Mandell JD, Nowakowski TJ, Liu Y, Pochareddy S, Smith L, Walker MF, Waterman MJ, He X, Kriegstein AR, Rubenstein JL, Sestan N, McCarroll SA, Neale BM, Coon H, Willsey AJ, Buxbaum JD, Daly MJ, State MW, Quinlan AR, Marth GT, Roeder K, Devlin B, Talkowski ME, Sanders SJ
+  authors: Werling DM,Brand H,An JY,Stone MR,Zhu L,Glessner JT,...,Quinlan AR,Marth GT,Roeder K,Devlin B,Talkowski ME,Sanders SJ
+  authors_full: Werling DM, Brand H, An JY, Stone MR, Zhu L, Glessner JT, Collins RL, Dong S, Layer RM, Markenscoff-Papadimitriou E, Farrell A, Schwartz GB, Wang HZ, Currall BB, Zhao X, Dea J, Duhn C, Erdman CA, Gilson MC, Yadav R, Handsaker RE, Kashin S, Klei L, Mandell JD, Nowakowski TJ, Liu Y, Pochareddy S, Smith L, Walker MF, Waterman MJ, He X, Kriegstein AR, Rubenstein JL, Sestan N, McCarroll SA, Neale BM, Coon H, Willsey AJ, Buxbaum JD, Daly MJ, State MW, Quinlan AR, Marth GT, Roeder K, Devlin B, Talkowski ME, Sanders SJ
   year: 2018
   date: 2018 Apr
   vol: 50
@@ -324,7 +351,8 @@
  
 - title: National human genome projects - an update and an agenda.
   image: An2017.jpg
-  authors: An JY
+  authors: 
+  authors_full: An JY
   year: 2017
   date: 2017 Oct
   vol: 39
@@ -336,7 +364,8 @@
  
 - title: Opposing Effects on NaV1.2 Function Underlie Differences Between SCN2A Variants Observed in Individuals With Autism Spectrum Disorder or Infantile Seizures.
   image: Ben-Shalom2017.jpg
-  authors: Ben-Shalom R, Keeshen CM, Berrios KN, An JY, Sanders SJ, Bender KJ
+  authors: 
+  authors_full: Ben-Shalom R, Keeshen CM, Berrios KN, An JY, Sanders SJ, Bender KJ
   year: 2017
   date: 2017 Aug
   vol: 82
@@ -348,7 +377,8 @@
  
 - title: Appreciating the Population-wide Impact of Copy Number Variants on Cognition.
   image: An2017.jpg
-  authors: An JY, Sanders SJ
+  authors: 
+  authors_full: An JY, Sanders SJ
   year: 2017
   date: 2017 Jul
   vol: 82
@@ -360,7 +390,8 @@
  
 - title: Whole Genome Sequencing in Psychiatric Disorders - the WGSPD Consortium
   image: Collins2017.jpg
-  authors: Collins RL, Brand H, Redin CE, Hanscom C, Antolik C, Stone MR, Glessner JT, Mason T, Pregno G, Dorrani N, Mandrile G, Giachino D, Perrin D, Walsh C, Cipicchio M, Costello M, Stortchevoi A, An JY, Currall BB, Seabra CM, Ragavendran A, Margolin L, Martinez-Agosto JA, Lucente D, Levy B, Sanders SJ, Wapner RJ, Quintero-Rivera F, Kloosterman W, Talkowski ME, Sanders,Stephan J., Neale,Benjamin M., Huang,Hailiang, Werling,Donna M., An,Joon-Yong, Dong,Shan, Abecasis,Goncalo, Arguello,P. Alexander, Blangero,John, Boehnke,Michael, Daly,Mark, Eggan,Kevin, Geschwind,Daniel H., Glahn,David, Goldstein,David B., Gur,Raquel E., Handsaker,Robert E., McCarroll,Steven A., Ophoff,Roel A., Palotie,Aarno, Pato,Carlos, Sabatti,Chiara, State,Matthew W., Willsey,A. Jeremy, Hyman,Steven E., Addington,Anjene, Lehner,Thomas, Freimer,Nelson B.,
+  authors: Collins RL,Brand H,Redin CE,Hanscom C,Antolik C,Stone MR,...,State,Matthew W.,,Willsey,A. Jeremy,,Hyman,Steven E.,,Addington,Anjene,,Lehner,Thomas,,Freimer,Nelson B.,
+  authors_full: Collins RL, Brand H, Redin CE, Hanscom C, Antolik C, Stone MR, Glessner JT, Mason T, Pregno G, Dorrani N, Mandrile G, Giachino D, Perrin D, Walsh C, Cipicchio M, Costello M, Stortchevoi A, An JY, Currall BB, Seabra CM, Ragavendran A, Margolin L, Martinez-Agosto JA, Lucente D, Levy B, Sanders SJ, Wapner RJ, Quintero-Rivera F, Kloosterman W, Talkowski ME, Sanders,Stephan J., Neale,Benjamin M., Huang,Hailiang, Werling,Donna M., An,Joon-Yong, Dong,Shan, Abecasis,Goncalo, Arguello,P. Alexander, Blangero,John, Boehnke,Michael, Daly,Mark, Eggan,Kevin, Geschwind,Daniel H., Glahn,David, Goldstein,David B., Gur,Raquel E., Handsaker,Robert E., McCarroll,Steven A., Ophoff,Roel A., Palotie,Aarno, Pato,Carlos, Sabatti,Chiara, State,Matthew W., Willsey,A. Jeremy, Hyman,Steven E., Addington,Anjene, Lehner,Thomas, Freimer,Nelson B.,
   year: 2017
   date: 2017 Jan
   vol: 18
@@ -372,7 +403,8 @@
  
 - title: Genetic heterogeneity in autism - From single gene to a pathway perspective.
   image: An2016.jpg
-  authors: An JY, Claudianos C
+  authors: 
+  authors_full: An JY, Claudianos C
   year: 2016
   date: 2016 Sep
   vol: 68
@@ -384,7 +416,8 @@
  
 - title: Towards a molecular characterization of autism spectrum disorders - an exome sequencing and systems approach.
   image: An2014.jpg
-  authors: An JY, Cristino AS, Zhao Q, Edson J, Williams SM, Ravine D, Wray J, Marshall VM, Hunt A, Whitehouse AJ, Claudianos C
+  authors: An JY,Cristino AS,Zhao Q,Edson J,Williams SM,Ravine D,...,Ravine D,Wray J,Marshall VM,Hunt A,Whitehouse AJ,Claudianos C
+  authors_full: An JY, Cristino AS, Zhao Q, Edson J, Williams SM, Ravine D, Wray J, Marshall VM, Hunt A, Whitehouse AJ, Claudianos C
   year: 2014
   date: 2014 Jun
   vol: 4
@@ -396,7 +429,8 @@
  
 - title: Neurodevelopmental and neuropsychiatric disorders represent an interconnected molecular system.
   image: Cristino2014.jpg
-  authors: Cristino AS, Williams SM, Hawi Z, An JY, Bellgrove MA, Schwartz CE, Costa Lda F, Claudianos C
+  authors: 
+  authors_full: Cristino AS, Williams SM, Hawi Z, An JY, Bellgrove MA, Schwartz CE, Costa Lda F, Claudianos C
   year: 2014
   date: 2014 Mar
   vol: 19

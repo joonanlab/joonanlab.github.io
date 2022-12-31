@@ -41,11 +41,16 @@ def parse_medline_txt(txt_file):
   highlights = ['35794212', '34166716', '32268104', '31981491', '30545852', '29700473', '28256214', '27317861', '24893065']
   results = []
   for pmid, record in medline_dict.items():
+
+    # title and authors
     title = ' '.join(record.get('TI', '')).replace(':', ' -')
     authors = ', '.join(record.get('AU', '')).replace(',,',',')
-    # date_string = record.get('DEP', '')[0]
-    # date = datetime.datetime.strptime(date_string, "%Y%m%d").date().strftime("%Y %b")
-    # year = datetime.datetime.strptime(date_string, "%Y%m%d").date().strftime("%Y")
+    authors_to_display = ''
+    if len(record.get('AU', '')) > 10:
+      authors_to_display = ','.join(record.get('AU', '')[0:6] + ['...'] + record.get('AU', '')[-6:])
+    first_author = record.get('AU', '')[0].split(' ')[0]
+
+    # date
     date_string = record.get('DP', '')[0]
     if '/' in date_string:
       date = datetime.datetime.strptime(date_string, "%Y/%m/%d").strftime("%Y %b")
@@ -58,17 +63,17 @@ def parse_medline_txt(txt_file):
         except ValueError:
           date = datetime.datetime.strptime(date_string, "%Y %b").strftime("%Y %b")
     year = date.split(' ')[0]
-
-    first_author = record.get('AU', '')[0].split(' ')[0]
-    image = first_author + year + '.jpg'
+    
+    # journal 
     journal = record.get('JT', '')[0].split(' (')[0]
     vol = [''] if record.get('VI', '') is '' else record.get('VI', '')
     vol = vol[0]
     page = [''] if record.get('IS', '') is '' else record.get('IS', '')
     page = page[0].split(' ')[0]
-    # page = record.get('IS', '')
     doi = record.get('DOI', '')
-    # Oh et al., Experimental & Molecular Medicine  (2022)
+    
+    # for display
+    image = first_author + year + '.jpg'
     display = "{} et al., ({}), {}".format(first_author, year, journal)
     highlight = '1' if pmid in highlights else '0'
 
@@ -77,7 +82,8 @@ def parse_medline_txt(txt_file):
 
     print("- title: {}".format(title))
     print("  image: {}".format(image))
-    print("  authors: {}".format(authors))
+    print("  authors: {}".format(authors_to_display))
+    print("  authors_full: {}".format(authors))
     print("  year: {}".format(year))
     print("  date: {}".format(date))
     print("  vol: {}".format(vol))
