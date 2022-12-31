@@ -39,25 +39,7 @@ permalink: /project/
 <div>
 ## Full List
 
-For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?user=eTLI6dsAAAAJ&hl=en">Google Scholar</a> or find the list below.
-<br><br>
-
-{% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
-
-
-
-<div class="row">
-
-
-<div class="col-sm-11">
-  <a class="pub3"> {{ publi.link.display_full }} </a>
-</div>
-
-
-</div>
-
-
-{% endfor %}
+For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?user=eTLI6dsAAAAJ&hl=en">Google Scholar</a>.
+<br>
 
 </div>
