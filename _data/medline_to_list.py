@@ -61,7 +61,7 @@ def parse_medline_txt(txt_file):
 
     first_author = record.get('AU', '')[0].split(' ')[0]
     image = first_author + year + '.jpg'
-    journal = record.get('JT', '')[0]
+    journal = record.get('JT', '')[0].split(' (')[0]
     vol = [''] if record.get('VI', '') is '' else record.get('VI', '')
     vol = vol[0]
     page = [''] if record.get('IS', '') is '' else record.get('IS', '')
