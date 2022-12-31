@@ -310,17 +310,29 @@
     display: An et al., Science (2018)
   highlight: 1
  
-- title: National Human Genome Projects - An Update and Agenda
-  image: Werling2017.jpg
-  authors: Werling DM, Brand H, An JY, Stone MR, Zhu L, Glessner JT, Collins RL, Dong S, Layer RM, Markenscoff-Papadimitriou E, Farrell A, Schwartz GB, Wang HZ, Currall BB, Zhao X, Dea J, Duhn C, Erdman CA, Gilson MC, Yadav R, Handsaker RE, Kashin S, Klei L, Mandell JD, Nowakowski TJ, Liu Y, Pochareddy S, Smith L, Walker MF, Waterman MJ, He X, Kriegstein AR, Rubenstein JL, Sestan N, McCarroll SA, Neale BM, Coon H, Willsey AJ, Buxbaum JD, Daly MJ, State MW, Quinlan AR, Marth GT, Roeder K, Devlin B, Talkowski ME, Sanders SJ, AN,Joon-Yong,
-  year: 2017
-  date: 2017 Oct
+- title: An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder.
+  image: Werling2018.jpg
+  authors: Werling DM, Brand H, An JY, Stone MR, Zhu L, Glessner JT, Collins RL, Dong S, Layer RM, Markenscoff-Papadimitriou E, Farrell A, Schwartz GB, Wang HZ, Currall BB, Zhao X, Dea J, Duhn C, Erdman CA, Gilson MC, Yadav R, Handsaker RE, Kashin S, Klei L, Mandell JD, Nowakowski TJ, Liu Y, Pochareddy S, Smith L, Walker MF, Waterman MJ, He X, Kriegstein AR, Rubenstein JL, Sestan N, McCarroll SA, Neale BM, Coon H, Willsey AJ, Buxbaum JD, Daly MJ, State MW, Quinlan AR, Marth GT, Roeder K, Devlin B, Talkowski ME, Sanders SJ
+  year: 2018
+  date: 2018 Apr
   vol: 50
   page: 1061-4036
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/29700473
-    display: Werling et al., Nature genetics (2017)
+    display: Werling et al., Nature genetics (2018)
   highlight: 1
+ 
+- title: National human genome projects - an update and an agenda.
+  image: An2017.jpg
+  authors: An JY
+  year: 2017
+  date: 2017 Oct
+  vol: 39
+  page: 2092-7193
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/29056031
+    display: An et al., Epidemiology and health (2017)
+  highlight: 0
  
 - title: Opposing Effects on NaV1.2 Function Underlie Differences Between SCN2A Variants Observed in Individuals With Autism Spectrum Disorder or Infantile Seizures.
   image: Ben-Shalom2017.jpg
