@@ -15,7 +15,7 @@ photo: ganghee.jpg
 
 ### Education & Training
 - 2021-present M.S./Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
-- 2017-2021 B.S. in Biosystem and Biomedical Sciences, Korea University
+- 2017-2021 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Publications
 - Integrative Multi-Omics Approaches in Cancer Research: From Biological Networks to Clinical Subtypes, Molecules and Cells (2021)
