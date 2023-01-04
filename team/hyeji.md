@@ -14,9 +14,8 @@ Hyeji is interested in exploring the biological mechanisms of brain disorders. I
 
 
 ### Education & Training
-
-- BSc, Media & Communication, Korea University, South Korea
-- BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+- 2022-present M.S./Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2017-2021 B.Sc. in Media & Communication, Korea University
 
 
 ### Publications
