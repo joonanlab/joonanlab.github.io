@@ -14,8 +14,8 @@ Jaehyun is interested in handling whole genome and Exome sequencing data from pa
 
 ### Education & Training
 - 2020-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
-- 2016-2020 B.A. in Psychology, Korea University
-- 2016-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
+- 2015-2020 B.A. in Psychology, Korea University
+- 2015-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Publications
 - Non-coding de novo mutations in chromatin interactions are implicated in autism spectrum disorder, Molecular Psychiatry (2022)

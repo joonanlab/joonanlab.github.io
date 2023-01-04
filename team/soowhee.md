@@ -13,7 +13,9 @@ photo: soowheekim.jpg
 Soowhee is interested in understanding autism spectrum disorder(ASD) neurobiology in terms of genomic analysis and systems biology. She is currently working on the analysis of single-cell RNA sequencing dataset of ASD mice model and whole genome sequencing data of ASD patients in Korea. Her major focus is on identifying the genetic mechanism underlying ASD sex bias and developing prediction model for ASD comorbidity based on this finding.
 
 ### Education & Training
-- BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+- 2023-present Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2021-2022 M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2016-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Publications
 - Sex-difference in autism spectrum disorder, in preparation
