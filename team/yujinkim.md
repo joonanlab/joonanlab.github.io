@@ -14,7 +14,9 @@ Yujin is interested in how genetic architecture in complex genomic disorders suc
 
 
 ### Education & Training
-- BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+- 2021-present M.S./Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2017-2020 B.A. in Psychology, Korea University
+- 2017-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Publications
 - Category-wide association to evaluate noncoding mutations from whole genome sequencing data, in preparation
