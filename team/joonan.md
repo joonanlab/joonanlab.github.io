@@ -20,10 +20,10 @@ photo: joonan.jpg
 
 
 ### Education & Training
-- Postdoctoral Fellow, University of California, San Francisco.
-- PhD, Neuroscience, University of Queensland, Australia
-- MSc, Molecular Biology, University of Queensland, Australia
-- BSc, Molecular Biotechnology, Konkuk University, South Korea
+- 2015-2019 Postdoctoral Fellow, University of California, San Francisco.
+- 2012-2016 PhD, Neuroscience, University of Queensland, Australia
+- 2010-2011 MSc, Molecular Biology, University of Queensland, Australia
+- 2005-2010 BSc, Molecular Biotechnology, Konkuk University, South Korea
 
 ### Awards
 - 2022 Young Scientist Travel Awards, The Japan Neuroscience Society
@@ -31,10 +31,10 @@ photo: joonan.jpg
 - 2019 Young Investigator Research Awards, International Society for Autism Research
 
 ## Academic Service
-- 2022-Present, Editorial Board, eLife
-- 2021-Present, Editorial Board, Molecular Brain
-- 2021-Present, Editorial Board, Experimental and Molecular Medicine
-- 2021-Present, Editorial Board, Molecules and Cells
+- 2022-present, Editorial Board, eLife
+- 2021-present, Editorial Board, Molecular Brain
+- 2021-present, Editorial Board, Experimental and Molecular Medicine
+- 2021-present, Editorial Board, Molecules and Cells
 
 ### Funding
 - 2022-2024 공포-불안 네트워크를 구성하는 신경세포 다양성 규명 및 조절, 바이오·의료기술개발사업, 한국연구재단 (CI)

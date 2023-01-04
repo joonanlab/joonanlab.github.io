@@ -12,6 +12,7 @@ photo: ingyeongkoh.jpg
 
 
 ### Education & Training
+- 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
 - BSc, Department of Biomedical Engineering, Hankuk University of Foreign Studies, South Korea
 
 ### Publications
