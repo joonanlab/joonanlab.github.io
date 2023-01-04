@@ -82,12 +82,6 @@
   url: seunghwan
   group: 3
 
-- name: Minwoo Jeong
-  photo: minwoo.jpg
-  info: Bioinformatics Programmer
-  url: minwoo
-  group: 3
-
 - name: Il-Bin Kim
   photo: blank2.png
   info: Visiting Professor (HYU)
@@ -130,6 +124,13 @@
   thesis: Proteogenomics landscape of South Korean non-small cell lung cancer
   current: Pharmacy
 
+- name: Minwoo Jeong
+  photo: minwoo.jpg
+  info: Bioinformatics Programmer
+  url: minwoo
+  group: 8
+  current: Software Engineer at TmaxSoft Inc.
+
 - name: Jaemin Park
   photo: jaepark.jpg
   info: Undergraduate Intern
@@ -166,4 +167,4 @@
   url: yunseo
   group: 8
   year: 2020
-  current: Bioinformatics Systems Software Engineer I, Guardant Health, CA
+  current: Bioinformatics Systems Software Engineer I at Guardant Health
