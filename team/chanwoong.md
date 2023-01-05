@@ -13,7 +13,8 @@ photo: chanwoong.png
 Chanwoong is interested in systems biological networks underlying in cancer biology. He is currently working on multi-omics analysis of Korean Lung Cancer cohort. By integrating genomic, transcriptomic, proteomic, and clinical profiles of the cancer cohort, he aims to find the key variables that can provide pathophysiological insights on understanding and treating lung cancer.
 
 ### Education & Training
-- BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+- 2021-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2018-2022 B.Sc. in Biosystem and Biomedical Sciences, Korea University, South Korea
 
 ### Publications
 - Genome-wide evaluation and functional characterization of RNA m6a modification in tumor, in preparation

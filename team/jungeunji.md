@@ -15,3 +15,6 @@ Jungeun is interested in finding the genetic architecture and risk factors for n
 ### Education & Training
 - 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
 - 2017-2022 B.Sc. in Division of Life Sciences, Korea University
+
+### Publications
+- Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain (2022)
