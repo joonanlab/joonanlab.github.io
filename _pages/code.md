@@ -19,7 +19,7 @@ permalink: /code/
 A new Python package runs category-wide association study with better user-interface. Please note that this is under active development.
 
 
-- <a href="https://github.com/mwjjeong/cwas"><i class='fab fa-github'></i> Source</a>
+- <a href="https://github.com/joonan-lab/cwas"><i class='fab fa-github'></i> Source</a>
 
 
 ## CWAS: Category-Wide Association Study
