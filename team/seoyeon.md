@@ -13,7 +13,8 @@ photo: seoyeon2022.jpg
 Seoyeon has interests in understanding various mechanisms underlying the biological system, especially those related to the immune cells. She collaborates in proteomics, transcriptomics, and epigenomics fields by applying statistical and computational techniques. She currently focuses on studying the interaction of myeloid cells under inflammation using single-cell RNA sequencing technology.
 
 ### Education & Training
-- BSc, Biosystem and Biomedical Sciences, Korea University, South Korea
+- 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2018-2022 B.Sc. in Biosystem and Biomedical Sciences, Korea University, South Korea
 
 ### Publication
 - Genome-wide evaluation and functional characterization of RNA m6a modification in tumor, in preparation
