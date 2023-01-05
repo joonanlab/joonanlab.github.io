@@ -124,13 +124,6 @@
   thesis: Proteogenomics landscape of South Korean non-small cell lung cancer
   current: Pharmacy
 
-- name: Minwoo Jeong
-  photo: minwoo.jpg
-  info: Bioinformatics Programmer
-  url: minwoo
-  group: 8
-  current: Software Engineer at TmaxSoft Inc.
-
 - name: Jaemin Park
   photo: jaepark.jpg
   info: Undergraduate Intern
@@ -153,6 +146,14 @@
   url: keunseo
   group: 8
   year: 2021
+
+- name: Minwoo Jeong
+  photo: minwoo.jpg
+  info: Bioinformatics Programmer
+  url: minwoo
+  group: 8
+  year: 2020
+  current: Software Engineer at TmaxSoft Inc.
 
 - name: Dahae Lee
   photo: dahae2.jpg
