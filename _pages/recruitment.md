@@ -23,11 +23,9 @@ If you are interested, please contact Dr. An (joonanlab at gmail dot com) direct
 
 ## Graduate students
 
-Dr. An is a member of the Integrated Biomedical and Life Science Program. We are currently looking for a student with strong background in computational science and molecular biology. If you are interested in our work, please send Dr. An (joonanlab at gmail dot com) a brief email with a description of your interests, and your CV.
+If you are interested in PhD or MS-PhD courses in our lab, please send a merged PDF of your cover letter, CV and academic record (transcript) of your undergraduate to Dr. An (joonanlab at gmail dot com). 
 
-## Undergraduate students
 
-Undergraduate students from the Korea University are eligible to participate a research volunteer in the lab.
 
 
 
