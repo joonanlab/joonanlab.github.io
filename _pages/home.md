@@ -19,7 +19,7 @@ We focus on:
 - Integrating multiomics data to better understand genetic heterogeneity in human disorders.
 
 ### Technologies and methods
-The An Lab is primarily a computational biology group that uses a wide range of genomic, bioinformatic, and statistical methods including: **whole-genome sequencing, single cell multi-omics, epigenome sequencing, and cloud computing**.
+The An Lab is primarily a computational biology group that uses a wide range of genomic, bioinformatic, and statistical methods including: **whole-genome sequencing, single cell RNA/ATAC-seq, multi-omics, and cloud computing**.
 
 ### Collaborators
 We work with closely with numerous collaborators, including the [Sanders Lab](http://sanderslab.ucsf.edu) and [Rubenstein Lab](https://rubensteinlab.ucsf.edu/) at UCSF, and the [Werling lab](https://werling.genetics.wisc.edu/) at University of Wisconsin-Madison. 
