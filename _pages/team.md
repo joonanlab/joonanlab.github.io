@@ -6,8 +6,9 @@ sitemap: false
 permalink: /team/
 ---
 
-# Team Members
-(Please click the name below for the lab member's profile)
+# Meet the Team
+
+Please click the name below for the lab member's profile.
 
 ---
 
@@ -147,6 +148,18 @@ permalink: /team/
 {% endif %}
 
 {% endfor %}
+
+## Diversity, Equity, Inclusion
+
+We are committed to dismantling structural racism within the sciences and the establishment of an inclusive environment in which every team member can thrive. 
+
+Our core values are equity, innovation, and open science principles.
+
+*Equity* in our thoughts and actions arises from fair access to opportunities and resources. Recognizing that educational and research environments are often unwelcoming, unjust, and unequal, we are committed to improving this situation through the cultivation of a climate of mutual respect and the promotion of autonomy within the context of a collaborative and supportive team. As mentors, we are dedicated to understanding the unique needs of each team member and imparting scientific leadership skills to aid in their future success.
+
+Innovation is fundamental to our practice. We pursue to pioneer scientific databases, novel statistical models, and bioinformatics algorithms. We actively collaborate with technology developers and disease specialists to optimize the breadth and depth of expertise applied to our bioinformatics methodologies. We actively seek out individuals who possess a creative problem-solving mindset and diverse experiences to enhance and invigorate our team. All team members have opportunities to expand their statistical knowledge, work with a wider range of data, develop open-source software, and improve their communication and collaboration skills.
+
+Open science, as we understand it, encompasses a range of practices such as open-source code development and open access data sharing, as well as actively engaging in the transformation of outdated paradigms in the realms of education, research, and publishing. Our ultimate goal is to enhance efficiency and reproducibility in scientific research. Our team boasts a distinguished history of open-source software development that encourages inclusive, international collaboration and educational opportunities. We design and develop statistical models that integrate data from the public domain and emerging technologies. We view open science practices as a crucial means of increasing accessibility and participation in academic research and discovery.
 
 
 
