@@ -15,15 +15,14 @@ We are a computational genomics lab studying the etiology of developmental disor
 We focus on:
 
 - Understanding rare mutations associated with developmental disorders and rare diseases.
-- Leveraging whole genome sequencing and single cell analyses to understand neurodevelopment and disorders.
+- Leveraging whole genome sequencing (WGS) and single cell analyses to understand neurodevelopment and disorders.
 - Integrating multiomics data to better understand genetic heterogeneity in human disorders.
 
 ### Technologies and methods
 The An Lab is primarily a computational biology group that uses a wide range of genomic, bioinformatic, and statistical methods including: **whole-genome sequencing, single cell multi-omics, epigenome sequencing, and cloud computing**.
 
 ### Collaborators
-We work with closely with numerous collaborators, including the [Sanders Lab](http://sanderslab.ucsf.edu) and [Rubenstein Lab](https://rubensteinlab.ucsf.edu/) at UCSF, and the [Werling lab](https://werling.genetics.wisc.edu/) at University of Wisconsin-Madison.
-
+We work with closely with numerous collaborators, including the [Sanders Lab](http://sanderslab.ucsf.edu) and [Rubenstein Lab](https://rubensteinlab.ucsf.edu/) at UCSF, and the [Werling lab](https://werling.genetics.wisc.edu/) at University of Wisconsin-Madison. 
 
 ### Joining An Lab
 If you are interested in joining please go to the [join us](recruitment) page.
