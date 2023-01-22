@@ -156,10 +156,10 @@ We commit to dismantling structural inequalities and disparities within the scie
 Our **core values** are diversity and open science. 
 
 **Diversity** 
-Diversity and inclusion are essential for scientific progress and innovation. Systemic barriers have historically excluded marginalized groups from science or scientific communities. Our goal is to create a scientific community that is truly representative of society as a whole, where all individuals have an equal opportunity to contribute to and benefit from scientific progress.
+Diversity and inclusion are essential for scientific progress and innovation. Systemic barriers have historically excluded marginalized groups from science or scientific communities. Our goal is to create a scientific community that is truly representative of society as a whole, where all individuals have an equal opportunity to contribute to and benefit from scientific progress. We support and actively participate in [eLife's Ben Barress Awards](https://elifesciences.org/inside-elife/a3c31ce7/ben-barres-spotlight-awards-applications-open-for-2022).
 
 **Open science**
-Open science is fundamental to morden science, making scientific knowledge openly and practically available in order to accelerate discovery, innovation and clinical translation. Our goal is to make our data, methods, and results openly available and actively engaging in collaborative and inclusive practices. We call on our colleagues to join us in this commitment, and together we can create a more efficient and effective scientific community. 
+Open science is fundamental to morden science, making scientific knowledge openly and practically available in order to accelerate discovery, innovation and clinical translation [McKiernan et al. 2016](https://elifesciences.org/articles/16800). We aim to make our data, methods, and results openly available and actively engaging in collaborative and inclusive practices. We call on our colleagues to join us in this commitment, and together we can create a more efficient and effective scientific community. 
 
 
 
