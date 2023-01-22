@@ -22,7 +22,8 @@ We focus on:
 The An Lab is primarily a computational biology group that uses a wide range of genomic, bioinformatic, and statistical methods including: **whole-genome sequencing, single cell multi-omics, epigenome sequencing, and cloud computing**.
 
 ### Collaborators
-We work with closely with numerous collaborators, including the [Sanders Lab](http://sanderslab.ucsf.edu) and [Rubenstein Lab](https://rubensteinlab.ucsf.edu/) at UCSF, the [Werling lab](https://werling.genetics.wisc.edu/) at University of Wisconsin-Madison, the [Cristino Lab](https://experts.griffith.edu.au/7460-alex-cristino) at Griffith University, Australia, and the [Autism Sequencing Consortium](https://genome.emory.edu/ASC/).
+We work with closely with numerous collaborators, including the [Sanders Lab](http://sanderslab.ucsf.edu) and [Rubenstein Lab](https://rubensteinlab.ucsf.edu/) at UCSF, and the [Werling lab](https://werling.genetics.wisc.edu/) at University of Wisconsin-Madison.
+
 
 ### Joining An Lab
 If you are interested in joining please go to the [join us](recruitment) page.
