@@ -161,7 +161,7 @@ Diversity and inclusion are essential for scientific progress and innovation. Sy
 
 **Open science**
 
-Open science is fundamental to morden science, making scientific knowledge openly and practically available in order to accelerate discovery, innovation and clinical translation [McKiernan et al. 2016](https://elifesciences.org/articles/16800). We aim to make our data, methods, and results openly available and actively engaging in collaborative and inclusive practices. We call on our colleagues to join us in this commitment, and together we can create a more efficient and effective scientific community. 
+Open science is fundamental to morden science, making scientific knowledge openly and practically available in order to accelerate discovery, innovation and clinical translation ([McKiernan et al. 2016](https://elifesciences.org/articles/16800)). We aim to make our data, methods, and results openly available and actively engaging in collaborative and inclusive practices. We call on our colleagues to join us in this commitment, and together we can create a more efficient and effective scientific community. 
 
 
 
