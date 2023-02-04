@@ -21,8 +21,6 @@ The emergence of next-generation sequencing technologies has had a profound impa
 
 <div style="text-align: justify">
 In our previous study ([Werling et al. 2018](https://www.nature.com/articles/s41588-018-0107-y)), we introduced the Category-wide Association Study (CWAS) statistical framework to assess the risk of noncoding mutations in whole genome sequencing (WGS) data of autism families. Our laboratory is continuously refining the CWAS methodology by integrating single-cell datasets of brain tissue and chromatin interactions. Efforts are being made to optimize the functionality and usability of the method, including reducing the time and computational requirements for category generation and multiple testing. Our ultimate goal is to deepen our understanding of the noncoding association for autism spectrum disorder (ASD) and other neurodevelopmental disorders. Furthermore, we are applying the CWAS method to WGS data of Korean Alzheimer's disease patients to identify noncoding mutations that contribute to the risk of disease development.
-
-
 </div>
 
 
