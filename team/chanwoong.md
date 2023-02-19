@@ -20,3 +20,7 @@ Chanwoong is interested in systems biological networks underlying in cancer biol
 - Genome-wide evaluation and functional characterization of RNA m6a modification in tumor, in preparation
 - Augmentation of RNA m6A reader signature is associated with poor survival by enhancing cell proliferation and EMT across cancer types, Experimental & Molecular Medicine (2022)
 - Integrative Multi-Omics Approaches in Cancer Research: From Biological Networks to Clinical Subtypes, Molecules and Cells (2021)
+
+### Awards
+- 2023 Best poster award at the 19th KOGO Winter symposium
+- 2022 Standigm Student Best Paper Award at the Korean Society for Bioinformatics
