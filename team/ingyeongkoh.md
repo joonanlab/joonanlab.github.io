@@ -10,6 +10,7 @@ scholar:
 photo: ingyeongkoh.jpg
 ---
 
+Ingyeong is interested in exploring the genetic architecture and complex biological mechanisms of neurodevelopmental disorders. She is currently working on the whole-genome sequencing dataset from the Korean autism spectrum disorder cohort. Her major research focuses on identifying cis-regulatory elements at the single-cell level and how noncoding mutations in cis-regulatory elements contribute to neurodevelopmental disorders.
 
 ### Education & Training
 - 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
