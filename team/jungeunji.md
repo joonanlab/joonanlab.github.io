@@ -10,7 +10,7 @@ scholar:
 photo: jungeunji.jpg
 ---
 
-Jungeun is interested in finding the genetic architecture and risk factors for neurodevelopmental disorders. In the lab, she is currently working on genomic sequencing analysis of Korean autism families. Her focus is on integrating genomics data into a multiomics level, to get a clearer view of the mechanisms of this disorder.
+Jungeun has interests in the biological mechanisms of the brain, and its related disorders. Her research focuses on identifying transcriptional systems of learning and memory at a single-cell and spatial resolution. With her research, she aims to provide a greater understanding of the dynamics of memory in a highly specific manner.
 
 ### Education & Training
 - 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
