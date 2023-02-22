@@ -10,7 +10,11 @@ scholar:
 photo: ingyeongkoh.jpg
 ---
 
-Ingyeong is interested in exploring the genetic architecture and complex biological mechanisms of neurodevelopmental disorders. She is currently working on the whole-genome sequencing dataset from the Korean autism spectrum disorder cohort. Her major research focuses on identifying cis-regulatory elements at the single-cell level and how noncoding mutations in cis-regulatory elements contribute to neurodevelopmental disorders.
+Ingyeong is a graduate student with a keen interest in exploring the genetic architecture and complex biological mechanisms underlying neurodevelopmental disorders. Her current research focuses on the analysis of the whole-genome sequencing dataset derived from the Korean autism spectrum disorder cohort. Ingyeong employs advanced genomic and bioinformatic techniques to gain deeper insights into the genetic factors that contribute to neurodevelopmental disorders and the complex mechanisms involved in their development.
+
+As a part of her research, Ingyeong is particularly interested in identifying cis-regulatory elements at the single-cell level and examining the role of noncoding mutations in these elements in the development of neurodevelopmental disorders. Cis-regulatory elements are known to play a crucial role in regulating gene expression and other biological processes, and have been implicated in a variety of developmental disorders, including neurodevelopmental disorders.
+
+Through her research, Ingyeong aims to identify novel targets for therapeutic intervention and develop new diagnostic tools that can accurately diagnose and manage neurodevelopmental disorders. Her work has the potential to make significant contributions to our understanding of the underlying mechanisms of neurodevelopmental disorders, ultimately leading to the improvement of the lives of individuals affected by these conditions.
 
 ### Education & Training
 - 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
