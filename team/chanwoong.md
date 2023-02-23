@@ -10,7 +10,10 @@ scholar:
 photo: chanwoong.png
 ---
 
-Chanwoong is interested in systems biological networks underlying in cancer biology. He is currently working on multi-omics analysis of Korean Lung Cancer cohort. By integrating genomic, transcriptomic, proteomic, and clinical profiles of the cancer cohort, he aims to find the key variables that can provide pathophysiological insights on understanding and treating lung cancer.
+Chanwoong is a graduate student specializing in systems biology, with a research interest in T-cell exhaustion in cancer. His current research involves the analysis of multi-omics data to understand the intricate mechanisms that underlie T-cell exhaustion in cancer, with a particular emphasis on identifying potential therapeutic targets. By analyzing multi-omics data, including genomic, transcriptomic, proteomic, and clinical profiles, Chanwoong aims to identify key variables that can provide pathophysiological insights into T-cell exhaustion in cancer. Using advanced computational and statistical techniques, he seeks to uncover previously unknown aspects of the disease, which may inform the development of novel diagnostic and treatment strategies.
+
+Chanwoong's research represents a valuable contribution to the ongoing efforts to improve our understanding of the intricate mechanisms that underlie T-cell exhaustion in cancer. The identification of potential therapeutic targets may lead to the development of more effective treatments for cancer, which would have significant implications for improving patient outcomes. In summary, Chanwoong's research is a promising step towards a comprehensive understanding of T-cell exhaustion in cancer, and his contributions to the field are exciting for future developments in the field.
+
 
 ### Education & Training
 - 2021-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
