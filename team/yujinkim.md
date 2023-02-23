@@ -10,7 +10,9 @@ scholar:
 photo: yujinkim2.png
 ---
 
-Yujin is interested in how genetic architecture in complex genomic disorders such as autism spectrum disorder is constructed. She is mainly working on whole-genome sequencing dataset from Korean autism spectrum disorder cohort. Her research focuses on estimating the functional impact of noncoding variants and prioritizing causal variants.
+Yujin's primary research interest lies in studying noncoding mutations that disrupt enhancers implicated in autism spectrum disorder (ASD). To this end, she is currently analyzing whole-genome sequencing data from a Korean cohort of individuals with ASD, using a range of computational and statistical techniques. Yujin is working to estimate the functional impact of noncoding variants, with a particular emphasis on enhancer activity, and prioritize causal variants that may be associated with ASD.
+
+Yujin's research builds upon the findings of a previous study by Werling et al. (2018), which introduced the Category-wide Association Study (CWAS) statistical framework to assess the risk of noncoding mutations in whole-genome sequencing data of ASD families. While CWAS remains a key focus of her research efforts, Yujin is also integrating single-cell datasets of brain tissue and chromatin interactions to refine the CWAS methodology further. By studying the impact of noncoding mutations on enhancer activity in the developing prefrontal cortex, Yujin hopes to gain a deeper understanding of the genetic basis of ASD. 
 
 
 ### Education & Training

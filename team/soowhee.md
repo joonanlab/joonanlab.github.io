@@ -10,7 +10,11 @@ scholar:
 photo: soowheekim.jpg
 ---
 
-Soowhee is interested in understanding autism spectrum disorder(ASD) neurobiology in terms of genomic analysis and systems biology. She is currently working on the analysis of single-cell RNA sequencing dataset of ASD mice model and whole genome sequencing data of ASD patients in Korea. Her major focus is on identifying the genetic mechanism underlying ASD sex bias and developing prediction model for ASD comorbidity based on this finding.
+Soowhee is a highly motivated researcher with a keen interest in understanding the sex-bias in autism spectrum disorder (ASD) through genomic analysis and systems biology. She is currently engaged in a research project that involves the analysis of whole-genome sequencing data of ASD families in Korea. Soowhee's primary focus is on identifying the genetic mechanisms underlying ASD sex bias and developing a prediction model for ASD comorbidity based on this finding.
+
+Soowhee's research efforts represent a significant contribution to the growing body of knowledge on the genetic and molecular underpinnings of ASD. By leveraging the power of single-cell RNA sequencing technology, she aims to gain a deeper understanding of the female or male specific neurobiology of ASD. Her research on ASD sex bias has the potential to shed light on previously unknown aspects of ASD, with implications for the development of novel diagnostic and intervention strategies. 
+
+
 
 ### Education & Training
 - 2023-present Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University

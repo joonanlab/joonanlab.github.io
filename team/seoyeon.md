@@ -10,7 +10,9 @@ scholar:
 photo: seoyeon2022.jpg
 ---
 
-Seoyeon has interests in understanding various mechanisms underlying the biological system, especially those related to the immune cells. She collaborates in proteomics, transcriptomics, and epigenomics fields by applying statistical and computational techniques. She currently focuses on studying the interaction of myeloid cells under inflammation using single-cell RNA sequencing technology.
+Seoyeon is a researcher with a keen interest in exploring the various mechanisms that underlie biological systems, with a particular focus on those that are related to immune cells. To this end, she actively collaborates with experts in proteomics, transcriptomics, and epigenomics, leveraging statistical and computational techniques to analyze data from these different fields. Her current research is focused on studying the interaction of myeloid cells under conditions of inflammation, using cutting-edge single-cell RNA sequencing technology.
+
+Seoyeon's research efforts are geared towards gaining a deeper understanding of the fundamental processes that govern the behavior of immune cells in response to different stimuli. Through her collaborative work in proteomics, transcriptomics, and epigenomics, she is able to integrate insights from diverse data sources to obtain a more comprehensive view of these processes. By leveraging the power of single-cell RNA sequencing technology, she aims to uncover previously unknown aspects of the interaction of myeloid cells in the context of inflammation. Overall, her research represents a significant contribution towards our understanding of the intricate workings of the immune system, which could have important implications for the development of novel treatments for a range of diseases.
 
 ### Education & Training
 - 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University

@@ -10,7 +10,10 @@ scholar:
 photo: eunhyong.png
 ---
 
-Eunhyong’s research interest is to delineate the biological mechanisms underlying cancer biology by dealing with multi-omics data. Since chromosomal aneuploidy is excessively common in all types of cancer, she mainly focuses on deciphering cancer subtypes that represent whole genome doubling (WGD) features and elucidating the kinase network of these subtypes. Her research aims to provide a comprehensive understanding of the heterogeneous mutational and biological processes that lead to WGD in human cancer.
+Eunhyong's research interests are focused on unraveling the biological mechanisms that underlie cancer biology, with a particular emphasis on the analysis of multi-omics data. Given the prevalence of chromosomal aneuploidy across all types of cancer, her research efforts are centered on deciphering the cancer subtypes that exhibit whole genome doubling (WGD) features, as well as elucidating the kinase network of these subtypes. Through her research, Eunhyong aims to provide a comprehensive understanding of the heterogeneous mutational and biological processes that lead to WGD in human cancer.
+
+By studying the kinases that are associated with cancer subtypes exhibiting WGD features, Eunhyong hopes to identify novel therapeutic targets that could be used to develop more effective treatments for cancer. Her research may also shed light on the fundamental mechanisms that drive the development and progression of cancer, paving the way for new approaches to cancer prevention and management. Her research aims to contribute to the growing body of knowledge on the genetic and molecular underpinnings of cancer, with potential implications for the development of more effective diagnostic and treatment strategies.
+
 
 ### Education & Training
 - 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University

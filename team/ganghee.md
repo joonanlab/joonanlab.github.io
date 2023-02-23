@@ -10,7 +10,7 @@ scholar:
 photo: ganghee.jpg
 ---
 
-  Ganghee is interested in developing a pipeline for and exploring large scale whole genome and exome sequencing datasets from Korean autism spectrum disorder cohorts. He is currently working on exploring genomic data to discover rare structural variants including short tandem repeats or copy number variants. His aim is to understand genomic architecture and to find causative susceptibility loci through various kinds of structural variant studies in developmental disorders.
+Ganghee has a vested interest in developing a bioinformatics pipeline geared towards the analysis of large-scale whole genome sequencing datasets, with a focus on exploring structural variations within the Korean cohort of individuals with autism spectrum disorder (ASD). Presently, he is dedicating his efforts towards the investigation of structural variants that are associated with ASD. The primary objective of his research is to gain a comprehensive understanding of genomic architecture of ASD and to identify causal loci for structural variant analyses associated with ASD.
 
 
 ### Education & Training
@@ -19,4 +19,3 @@ photo: ganghee.jpg
 
 ### Publications
 - Integrative Multi-Omics Approaches in Cancer Research: From Biological Networks to Clinical Subtypes, Molecules and Cells (2021)
-- Identification of genetic factors of comorbid ophthalmologic manifestations in the neurodevelopmental disorders cohort, in preparation
