@@ -19,10 +19,11 @@ Seoyeon's research efforts are geared towards gaining a deeper understanding of 
 - 2018-2022 B.Sc. in Biosystem and Biomedical Sciences, Korea University, South Korea
 
 ### Publication
-- valproic acid in autism risk development, under review
+- Valproic acid in autism risk development, under review
 - Metastatic regulation in melanoma cancer, under review
+- Actin-microtubule in immunological synapse, under review
 - Genome-wide evaluation and functional characterization of RNA m6a modification in tumor, in preparation
-- T-cell exclusion and cancer progression, in preparation
+- A single cell landscape of myeloid differentiation, in preparation
 
 ### Awards
 - 2022 Outstanding poster award at the Korean Society for Bioinformatics
