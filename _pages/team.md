@@ -149,6 +149,8 @@ Please click the name below for the lab member's profile.
 
 {% endfor %}
 
+---
+
 ## Equity, Diversity and Inclusion
 
 We commit to dismantling structural inequalities and disparities within the sciences and the establishment of an inclusive environment in which every team member can thrive. 
