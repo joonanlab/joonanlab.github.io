@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Hyeji Lee
-position: Graduate student
+position: Graduate Student
 handle: hyeji
 email:
 twitter:

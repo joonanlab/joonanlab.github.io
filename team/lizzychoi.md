@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Lizzy Choi
-position: Graduate student
+position: Graduate Student
 handle: lizzychoi
 email:
 twitter:

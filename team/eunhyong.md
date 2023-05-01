@@ -20,4 +20,5 @@ By studying the kinases that are associated with cancer subtypes exhibiting WGD 
 - 2018-2022 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Awards
+- 2023 Graduate Fellowship, Kwanjeong Educational Foundation (2023-2024)
 - 2022 Excellent poster award at the Korean Society for Bioinformatics

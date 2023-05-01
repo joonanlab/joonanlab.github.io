@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Seoyeon Kim
-position: Graduate student
+position: Graduate Student
 handle: seoyeon
 email:
 twitter:

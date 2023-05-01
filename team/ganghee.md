@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ganghee Lee
-position: Graduate student
+position: Graduate Student
 handle: ganghee
 email:
 twitter:

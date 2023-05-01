@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jungeun Ji
-position: Graduate Student
+position: Graduate student
 handle: jungeunji
 email:
 twitter:

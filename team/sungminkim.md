@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Sungmin Kim
-position: Graduate student
+position: Graduate Student
 handle: sungminkim
 email: ksmpooh@gmail.com
 twitter:

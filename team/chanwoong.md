@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Chanwoong Hwa
-position: Graduate student
+position: Graduate Student
 handle: chanwoong
 email:
 twitter:

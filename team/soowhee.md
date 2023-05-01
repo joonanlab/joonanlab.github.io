@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Soowhee Kim
-position: Graduate student
+position: Graduate Student
 handle: soowheekim
 email: rlatngnl7675@gmail.com
 twitter: HonLovGrat

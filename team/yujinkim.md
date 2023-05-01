@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Yujin Kim
-position: Graduate student
+position: Graduate Student
 handle: yujinkim
 email:
 twitter:
@@ -29,4 +29,4 @@ Yujin's research builds upon the findings of a previous study by Werling et al. 
 - Spatio-Temporal Roles of ASD-Associated Variants in Human Brain Development, Genes (2020)
 
 ### Awards
-- Predoctoral Fellow, SBS Seoam Yoon Se Young Foundation (2022-2026)
+- 2022 Predoctoral Fellow, SBS Seoam Yoon Se Young Foundation (2022-2026)
