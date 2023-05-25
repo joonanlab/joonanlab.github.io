@@ -14,7 +14,7 @@ We are a computational genomics lab studying the etiology of developmental disor
 
 We focus on:
 
-- Understanding rare mutations associated with developmental disorders and rare diseases.
+- Understanding the genetic architecture of autism spectrum disorder.
 - Leveraging whole genome sequencing (WGS) and single cell analyses to understand neurodevelopment and disorders.
 - Integrating multiomics data to better understand genetic heterogeneity in human disorders.
 
