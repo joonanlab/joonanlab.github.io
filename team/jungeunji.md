@@ -21,4 +21,5 @@ In summary, Jungeun's research employs single-cell spatial sequencing technology
 - 2017-2022 B.Sc. in Division of Life Sciences, Korea University
 
 ### Publications
+- Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental & Molecular Medicine (2023)
 - Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain (2022)

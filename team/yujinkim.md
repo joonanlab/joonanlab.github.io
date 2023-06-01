@@ -23,6 +23,7 @@ Yujin's research builds upon the findings of a previous study by Werling et al. 
 ### Publications
 - Category-wide association to evaluate noncoding mutations from whole genome sequencing data, in preparation
 - Identification of kinase network underlying Noonan syndrome-associated SHP2/PTPN11 mutant, in preparation
+- Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental & Molecular Medicine (2023)
 - Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain (2022)
 - Kdm3b haploinsufficiency impairs the consolidation of cerebellum-dependent motor memory in mice, Molecular Brain (2021)
 - Ferroptosis-related genes in neurodevelopment and central nervous system, Biology (2021)
