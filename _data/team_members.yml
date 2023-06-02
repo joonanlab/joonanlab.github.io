@@ -4,22 +4,16 @@
   url: joonan
   group: 0
 
-- name: Ganghee Lee
-  photo: ganghee.jpg
-  info: Graduate Student
-  url: ganghee
-  group: 1
-
-- name: Jaehyun Kim
-  photo: jaekim.jpg
-  info: Graduate Student
-  url: jaekim
-  group: 1
-
 - name: Yujin Kim
   photo: yujinkim2.png
   info: Graduate Student (Seoam Fellow)
   url: yujinkim
+  group: 1
+
+- name: Ganghee Lee
+  photo: ganghee.jpg
+  info: Graduate Student
+  url: ganghee
   group: 1
 
 - name: Soo-Whee Kim
@@ -34,28 +28,22 @@
   url: chanwoong
   group: 1
 
-- name: Sungmin Kim
-  photo: sungminkim.jpg
-  info: Graduate Student
-  url: sungminkim
-  group: 1
-
 - name: Seoyeon Kim
   photo: seoyeon2022.jpg
   info: Graduate Student
   url: seoyeon
   group: 1
 
+- name: Jaehyun Kim
+  photo: jaekim.jpg
+  info: Graduate Student
+  url: jaekim
+  group: 1
+
 - name: Hyeji Lee
   photo: hyejilee.jpg
   info: Graduate Student
   url: hyeji
-  group: 1
-
-- name: Gijong Nam
-  photo: gijong.jpg
-  info: Graduate Student
-  url: gijong
   group: 1
 
 - name: Eunhyong Chang
@@ -74,6 +62,18 @@
   photo: jungeunji.jpg
   info: Graduate Student
   url: jungeunji
+  group: 1
+
+- name: Sungmin Kim
+  photo: sungminkim.jpg
+  info: Graduate Student
+  url: sungminkim
+  group: 1
+
+- name: Gijong Nam
+  photo: gijong.jpg
+  info: Graduate Student
+  url: gijong
   group: 1
 
 - name: Seunghwan Choi
