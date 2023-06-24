@@ -14,7 +14,7 @@ Find out where our alumni have landed and get inspired by their diverse paths an
 
 ## Graduate Students
 
-{% for member in site.data.team_members %}
+{% for member in site.data.alumni %}
 {% if member.group == 1 %}
 
 <i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> 
@@ -34,7 +34,7 @@ Find out where our alumni have landed and get inspired by their diverse paths an
 
 ## Research Assistant
 
-{% for member in site.data.team_members %}
+{% for member in site.data.alumni %}
 {% if member.group == 2 %}
 
 <i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> 
@@ -55,7 +55,7 @@ Find out where our alumni have landed and get inspired by their diverse paths an
 
 ## Undergraduate interns
 
-{% for member in site.data.team_members %}
+{% for member in site.data.alumni %}
 {% if member.group == 3 %}
 
 <i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> 
