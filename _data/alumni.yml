@@ -2,7 +2,7 @@
   photo: lizzychoi.jpg
   info: Graduate Student (MSc.)
   url: lizzychoi
-  group: 8
+  group: 1
   year: 2022
   thesis: Identification of genetic factors of comorbid ophthalmologic manifestations in the neurodevelopmental disorders cohort
   current: Data Analyst at Samsung SDS
@@ -11,16 +11,24 @@
   photo: yongjin2.jpg
   info: Graduate Student (MSc.)
   url: yongjin
-  group: 8
+  group: 1
   year: 2022
   thesis: Proteogenomics landscape of South Korean non-small cell lung cancer
   current: Pharmacy
+
+- name: Minwoo Jeong
+  photo: minwoo.jpg
+  info: Bioinformatics Programmer
+  url: minwoo
+  group: 2
+  year: 2020
+  current: Software Engineer at TmaxSoft Inc.
 
 - name: Jaemin Park
   photo: jaepark.jpg
   info: Undergraduate Intern
   url: jaepark
-  group: 8
+  group: 3
   year: 2021
   current: Research Associate at Samsung Biologics
 
@@ -28,7 +36,7 @@
   photo: minkukang.jpg
   info: Undergraduate Intern
   url: minku
-  group: 8
+  group: 3
   year: 2021
   current: Medical Student at Konkuk University
 
@@ -36,28 +44,20 @@
   photo: keunseo.png
   info: Undergraduate Intern
   url: keunseo
-  group: 8
+  group: 2
   year: 2021
-
-- name: Minwoo Jeong
-  photo: minwoo.jpg
-  info: Bioinformatics Programmer
-  url: minwoo
-  group: 8
-  year: 2020
-  current: Software Engineer at TmaxSoft Inc.
 
 - name: Dahae Lee
   photo: dahae2.jpg
   info: Undergraduate Intern
   url: dahae
-  group: 8
+  group: 3
   year: 2020
 
 - name: Yunseo Lee
   photo: blank2.png
   info: Undergraduate Intern
   url: yunseo
-  group: 8
+  group: 3
   year: 2020
   current: Bioinformatics Systems Software Engineer I at Guardant Health
