@@ -1,9 +1,9 @@
 ---
-title: "An Lab - Team"
+title: "An Lab - Alumni"
 layout: teamgrid
 excerpt: "An Lab: Alumni"
 sitemap: false
-permalink: /alumni/
+permalink: /team/alumni/
 ---
 
 # Alumni
