@@ -38,9 +38,6 @@ Find out where our alumni have landed and get inspired by their diverse paths an
 {% if member.group == 2 %}
 
 <i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> 
-{% if member.thesis %} 
-<i class="alumni2">Thesis: {{ member.thesis }}</i>
-{% endif %}
 
 {% if member.current %} 
 <i class="alumni2">Current: {{ member.current }}</i>
@@ -59,9 +56,6 @@ Find out where our alumni have landed and get inspired by their diverse paths an
 {% if member.group == 3 %}
 
 <i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> 
-{% if member.thesis %} 
-<i class="alumni2">Thesis: {{ member.thesis }}</i>
-{% endif %}
 
 {% if member.current %} 
 <i class="alumni2">Current: {{ member.current }}</i>
