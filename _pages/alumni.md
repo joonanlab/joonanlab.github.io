@@ -3,7 +3,7 @@ title: "An Lab - Team"
 layout: teamgrid
 excerpt: "An Lab: Alumni"
 sitemap: false
-permalink: /team/
+permalink: /alumni/
 ---
 
 # Alumni

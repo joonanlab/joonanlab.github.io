@@ -133,7 +133,7 @@ Please click the name below for the lab member's profile.
 
 ## Alumni
 
-Please click the [alumni](alumni) page.
+Curious to see where our former team members are now? Click [here](alumni) to explore our esteemed alumni and discover their current affiliations. Find out where our alumni have landed and get inspired by their diverse paths and achievements.
 
 ---
 
