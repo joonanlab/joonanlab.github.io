@@ -16,8 +16,8 @@ Chanwoong's research represents a valuable contribution to the ongoing efforts t
 
 
 ### Education & Training
-- 2021-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
-- 2018-2022 B.Sc. in Biosystem and Biomedical Sciences, Korea University, South Korea
+- 2023-present Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2018-2023 B.Sc. (with MSc) in Biosystem and Biomedical Sciences, Korea University, South Korea
 
 ### Publications
 - Genome-wide evaluation and functional characterization of RNA m6a modification in tumor, in preparation

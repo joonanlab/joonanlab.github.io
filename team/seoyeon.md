@@ -15,7 +15,7 @@ Seoyeon is a researcher with a keen interest in exploring the various mechanisms
 Seoyeon's research efforts are geared towards gaining a deeper understanding of the fundamental processes that govern the behavior of immune cells in response to different stimuli. Through her collaborative work in proteomics, transcriptomics, and epigenomics, she is able to integrate insights from diverse data sources to obtain a more comprehensive view of these processes. By leveraging the power of single-cell RNA sequencing technology, she aims to uncover previously unknown aspects of the interaction of myeloid cells in the context of inflammation. Overall, her research represents a significant contribution towards our understanding of the intricate workings of the immune system, which could have important implications for the development of novel treatments for a range of diseases.
 
 ### Education & Training
-- 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2022-present M.S./Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
 - 2018-2022 B.Sc. in Biosystem and Biomedical Sciences, Korea University, South Korea
 
 ### Publication
