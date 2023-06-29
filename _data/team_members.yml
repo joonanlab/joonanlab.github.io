@@ -84,13 +84,19 @@
 
 - name: Il-Bin Kim
   photo: blank2.png
-  info: Visiting Professor (HYU)
+  info: Visiting Professor, Hanyang University Guri Hospital
   url: 
   group: 5
 
 - name: Young-Eun Kim
   photo: blank2.png
-  info: Visiting Professor (HYU)
+  info: Visiting Professor, Hanyang University College of Medicine
+  url: 
+  group: 5
+
+- name: Yebin Ryu
+  photo: blank2.png
+  info: Research Intern, Korea University
   url: 
   group: 5
 
