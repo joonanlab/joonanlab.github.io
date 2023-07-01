@@ -78,8 +78,14 @@
 
 - name: Seunghwan Choi
   photo: seunghwan.jpg
-  info: Bioinformatics Programmer
+  info: Undergraduate intern
   url: seunghwan
+  group: 3
+
+- name: Yebin Ryu
+  photo: blank.png
+  info: Undergraduate intern
+  url: yebin
   group: 3
 
 - name: Il-Bin Kim

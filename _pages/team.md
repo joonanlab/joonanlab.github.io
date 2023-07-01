@@ -82,7 +82,7 @@ Please click the name below for the lab member's profile.
 
 ---
 
-## Genomics Core
+## Undergraduate Intern
 
 
 {% assign number_printed = 0 %}
