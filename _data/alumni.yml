@@ -1,3 +1,12 @@
+- name: Jaehyun Kim
+  photo: 
+  info: Graduate Student (MSc.)
+  url: jaekim
+  group: 1
+  year: 2023
+  thesis: Short tandem repeat detection from whole genome sequencing data of Korean families clarified functional and cell type specificity in autism spectrum disorder
+  current: Bioinformatics at CJ CheilJedang
+
 - name: Lizzy Choi
   photo: lizzychoi.jpg
   info: Graduate Student (MSc.)
@@ -60,4 +69,4 @@
   url: yunseo
   group: 3
   year: 2020
-  current: Bioinformatics Systems Software Engineer I at Guardant Health
+  current: Biostatistician at Beckman Coulter
