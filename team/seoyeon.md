@@ -19,11 +19,11 @@ Seoyeon's research efforts are geared towards gaining a deeper understanding of 
 - 2018-2022 B.Sc. in Biosystem and Biomedical Sciences, Korea University, South Korea
 
 ### Publication
+- Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental & Molecular Medicine (2023)
+- Angiopoietin-2-dependent spatial vascular destabilization promotes T-cell exclusion and limits immunotherapy in melanoma, Cancer Research (2023)
 - Actin-microtubule in immunological synapse, under review
 - Genome-wide evaluation and functional characterization of RNA m6a modification in tumor, in preparation
 - A single cell landscape of myeloid differentiation, in preparation
-- Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental & Molecular Medicine (2023)
-- Angiopoietin-2-dependent spatial vascular destabilization promotes T-cell exclusion and limits immunotherapy in melanoma, Cancer Research (2023)
 
 ### Awards
 - 2022 Outstanding poster award at the Korean Society for Bioinformatics
