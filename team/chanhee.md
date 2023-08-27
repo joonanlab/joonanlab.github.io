@@ -18,4 +18,5 @@ Currently, Chanhee is focusing on a research aimed at identifying noncoding vari
 
 ### Education & Training
 - 2023-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2017-2023 B.Sc. in School of Electrical Engineering, Korea University, South Korea
 - 2017-2023 B.Sc. in Biosystem and Biomedical Sciences, Korea University, South Korea
