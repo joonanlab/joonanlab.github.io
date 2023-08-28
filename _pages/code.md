@@ -16,10 +16,11 @@ permalink: /code/
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/codepic/cwas.png" style="width: 300px">
 
-A new Python package runs category-wide association study with better user-interface. Please note that this is under active development.
+A new Python package runs category-wide association study with better user-interface. Now you can use this with pip install!
 
 
 - <a href="https://github.com/joonan-lab/cwas"><i class='fab fa-github'></i> Source</a>
+- <a href="https://cwas-plus.readthedocs.io/en/latest/index.html"><i class='fab fa-code-o'></i> Manual</a>
 
 
 ## CWAS: Category-Wide Association Study
