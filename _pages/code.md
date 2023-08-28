@@ -20,7 +20,7 @@ A new Python package runs category-wide association study with better user-inter
 
 
 - <a href="https://github.com/joonan-lab/cwas"><i class='fab fa-github'></i> Source</a>
-- <a href="https://cwas-plus.readthedocs.io/en/latest/index.html"><i class='fa-regular fa-file'></i> Manual</a>
+- <a href="https://cwas-plus.readthedocs.io/en/latest/index.html"><i class='fa fa-file-code-o'></i> Manual</a>
 
 
 ## CWAS: Category-Wide Association Study
