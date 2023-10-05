@@ -22,7 +22,7 @@ We focus on:
 The An Lab is primarily a computational biology group that uses a wide range of genomic, bioinformatic, and statistical methods including: **whole-genome sequencing, single cell RNA/ATAC-seq, multi-omics, and cloud computing**.
 
 ### Collaborators
-We work with closely with numerous collaborators, including the [Sanders Lab](http://sanderslab.ucsf.edu) at Oxford, the [Rubenstein Lab](https://rubensteinlab.ucsf.edu/) at UCSF, the [Werling lab](https://werling.genetics.wisc.edu/) at University of Wisconsin-Madison, and the [Minah Kim Lab](https://www.pathology.columbia.edu/research-labs/kim-lab) at Columbia University. 
+We work with closely with international collaborators, including the [Sanders Lab](http://sanderslab.ucsf.edu) at Oxford, the [Werling lab](https://werling.genetics.wisc.edu/) at University of Wisconsin-Madison, and the [Minah Kim Lab](https://www.pathology.columbia.edu/research-labs/kim-lab) at Columbia University. Our team is a part of the Korean ASD WGS consortium and closely collaborates with [Prof. Hee Jeong Yoo](https://www.snubh.org/medical/drIntroduce.do?sDpCd=NP&sDpCdDtl=NP&sDrSid=1000643&sDrStfNo=00978&sDpTp=) at Seoul National University Bundang Hospital.
 
 ### Joining An Lab
 If you are interested in joining please go to the [join us](recruitment) page.
