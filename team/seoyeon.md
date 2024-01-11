@@ -3,27 +3,38 @@ layout: member
 title: Seoyeon Kim
 position: Graduate Student
 handle: seoyeon
-email:
-twitter:
+email: ssunrla16@gmail.com
+twitter: ssun_1116
 github: ssun1116
-scholar: 
+scholar: M0RgrRsAAAAJ
 photo: seoyeon2022.jpg
 ---
 
-Seoyeon is a researcher with a keen interest in exploring the various mechanisms that underlie biological systems, with a particular focus on those that are related to immune cells. To this end, she actively collaborates with experts in proteomics, transcriptomics, and epigenomics, leveraging statistical and computational techniques to analyze data from these different fields. Her current research is focused on studying the interaction of myeloid cells under conditions of inflammation, using cutting-edge single-cell RNA sequencing technology.
+Seoyeon is interested in leveraging sequencing data and bioinformatics to understand the molecular basis of human genomics. To this end, she actively collaborates with proteomics, transcriptomics, and epigenomics experts, employing her own statistical and computational techniques. 
 
-Seoyeon's research efforts are geared towards gaining a deeper understanding of the fundamental processes that govern the behavior of immune cells in response to different stimuli. Through her collaborative work in proteomics, transcriptomics, and epigenomics, she is able to integrate insights from diverse data sources to obtain a more comprehensive view of these processes. By leveraging the power of single-cell RNA sequencing technology, she aims to uncover previously unknown aspects of the interaction of myeloid cells in the context of inflammation. Overall, her research represents a significant contribution towards our understanding of the intricate workings of the immune system, which could have important implications for the development of novel treatments for a range of diseases.
+During her training, Seoyeon initiated the analysis of transcriptomics data to elucidate the fundamental interactions of inflammatory bone marrow cells. She led collaboration with various experts and solidified her framework in interpreting immune biology using sequencing data. Expanding beyond immunology, she has applied her insights to decipher the impact of valproic acid on the manifestation of fetal ASD, as demonstrated in her work (Park et al., 2023).
+
+Seoyeon is actively engaged in collaborations across diverse fields of single-cell data, with a specific emphasis on the immune and nervous systems. Her current research explores dynamic changes in transcriptomic and epigenomic profiles during neurodevelopment through large-scale integration of single-cell data.
+
 
 ### Education & Training
-- 2022-present M.S./Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
-- 2018-2022 B.Sc. in Biosystem and Biomedical Sciences, Korea University, South Korea
+- 2022-present M.S., Department of Integrated Biomedical and Life Science, Korea University
+- 2019-2022 Research Intern in Human Genomics Lab, Korea University
+- 2018-2022 B.Sc., Biosystem and Biomedical Sciences, Korea University
+
 
 ### Publication
-- Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental & Molecular Medicine (2023)
+- Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental & Molecular Medicine (2023) (co-first author)
 - Angiopoietin-2-dependent spatial vascular destabilization promotes T-cell exclusion and limits immunotherapy in melanoma, Cancer Research (2023)
-- Actin-microtubule in immunological synapse, under review
-- Genome-wide evaluation and functional characterization of RNA m6a modification in tumor, in preparation
-- A single cell landscape of myeloid differentiation, in preparation
+- Actin-microtubule linkage via CD99 is critical for immunological synapse formation and potentiates CAR T cells, under review
+- Aberrant BRAF signaling impairs learning and memory via reactive-like astrogliosis, under review
+- Proteogenomic landscapes of NSCLC subtypes predict metastasis, chromosomal instability, and tumor microenvironment, under review
+
 
 ### Awards
-- 2022 Outstanding poster award at the Korean Society for Bioinformatics
+- Outstanding Poster Award, 2022 Annual Conference of Korean Society for Bioinformatics, “Gene regulatory network reveals the landscape of myeloid dendritic cell differentiation”
+- Outstanding Poster Award, 2022 International Conference: Korean Society for Molecular and Cellular Biology, "Gene regulatory network reveals the landscape of myeloid dendritic cell differentiation”
+- Research Poster Award, 2023 BK21 L-HOPE graduate symposium “Rnf146 disrupts Wnt/beta-catenin signaling pathway in a VPA-induced mouse model of autism spectrum disorder”
+- AOHUPO Best Posters Award, HUPO World Congress 2023, “Rnf146 disrupts Wnt/beta-catenin signaling pathway in a VPA-induced mouse model of autism spectrum disorder”
+
+
