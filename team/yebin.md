@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Yebin Ryu
-position: Undergraduate intern
+position: Graduate Student
 handle: yebin
 email:
 twitter:
