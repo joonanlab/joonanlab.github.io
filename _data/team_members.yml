@@ -91,13 +91,19 @@
 - name: Sophia Jihae Lee
   photo: blank.png
   info: Undergraduate intern
-  url: yebin
+  url: jihae
   group: 3
 
 - name: Seojin Lee
   photo: blank.png
   info: Undergraduate intern
-  url: yebin
+  url: seojin
+  group: 3
+
+- name: Minsu Cho
+  photo: blank.png
+  info: Undergraduate intern
+  url: minsu
   group: 3
 
 - name: Il-Bin Kim
