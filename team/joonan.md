@@ -26,6 +26,8 @@ photo: joonan.jpg
 - 2005-2010 B.Sc, Molecular Biotechnology, Konkuk University, South Korea
 
 ### Awards
+- 2024 Green Ribbon Lecture Awards, Korean Society for Molecular and Cellular Biology
+- 2023 Young Scientist Awards, Korea Society of Bioinformatics
 - 2022 Young Scientist Travel Awards, The Japan Neuroscience Society
 - 2020 Young Scientist Travel Awards, The Japan Neuroscience Society
 - 2019 Young Investigator Research Awards, International Society for Autism Research
