@@ -10,7 +10,7 @@ permalink: /research/
 
 ---
 
-## Genetic architecture of autism spectrum disorder
+## Genetic architecture of autism
 
 <div style="text-align: justify">
 The emergence of next-generation sequencing technologies has had a profound impact on the field of translational research, with human genetics being a prime example. It is now possible to examine human patient genomes at the nucleotide level to identify mutations linked to diseases with unprecedented ease. My research focus is centered on understanding the genetic heterogeneity underlying autism ([Choi & An 2021](https://www.sciencedirect.com/science/article/pii/S0149763421002700)). As a member of the genomic consortium for autism, I have analyzed whole genome sequencing (WGS) data from 2,000 quartet families with autism, evaluating the mutation burden in the noncoding genome and its contribution to autism ([An et al. 2018](https://www.science.org/doi/abs/10.1126/science.aat6576)). Since establishing my research group in Korea, we have been exploring the complete genetic architecture of Korean autism families. Our lab is examining a broad range of genetic factors, including common, rare, and de novo variants, in individuals diagnosed with autism from Korean families.
