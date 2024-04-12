@@ -7,6 +7,7 @@ def parse_medline_txt(txt_file):
   with open(txt_file, 'r') as f:
     current_key = None
     for line in f:
+      print (line)
       line = line.strip()
       if not line:
         continue
@@ -67,11 +68,11 @@ def parse_medline_txt(txt_file):
     
     # journal 
     journal = record.get('JT', '')[0].split(' (')[0]
-    vol = [''] if record.get('VI', '') is '' else record.get('VI', '')
+    vol = [''] if record.get('VI', '') == '' else record.get('VI', '')
     vol = vol[0]
-    issue = [''] if record.get('IP', '') is '' else record.get('IP', '')
+    issue = [''] if record.get('IP', '') == '' else record.get('IP', '')
     issue = issue[0]
-    page = [''] if record.get('IS', '') is '' else record.get('IS', '')
+    page = [''] if record.get('IS', '') == '' else record.get('IS', '')
     page = page[0].split(' ')[0]
     doi = record.get('LID', '')[0].split(' ')[0]
     
