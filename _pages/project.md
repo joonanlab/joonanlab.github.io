@@ -39,7 +39,7 @@ permalink: /project/
 <div>
 ## Full List
 
-**Publications since 2019 (✻First, †Corresponding author)**
+**Publications since 2019** (✻First, †Corresponding author)
 
 1.  Kim JH✻, Koh IG, Lee H, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ†, **An JY†**, Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder, Psychiatry and Clinical Neurosciences, In Press.
 2.  Chang E✻, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, Kim KP, You S, **An JY†**, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, medRxiv, 2024.
@@ -76,7 +76,7 @@ permalink: /project/
 33. Werling DW✻, Pochareddy S✻, JM Choi✻, **An JY✻**, Peng M, Sheppard BS, Peng M, Li Z, Dastmalchi C, Santperebaro G, Sousa A, Tebbenkamp A, Kaur N, Gulden F, Breen M, Liang L, Gilson M, Zhao X, Dong S, Klei L, Cicek AE, Buxbaum JD, Adle-Biassette H, Thomas JL, Aldinger KA, O’Day DR, Glass I, Zaitlen N, Talkowski ME, Roeder K, Devlin B, Sanders SJ†, Sestan N†, Whole-genome and RNA sequencing reveal variation and transcriptomic coordination in the developing human prefrontal cortex, Cell Reports, 2020
 34. Williams SM✻, **An JY✻**, Edson J, Watts M, Murigneux V, Whitehouse AJO, Jackson CJ, Bellgrove MA, Cristino AS†, Claudianos C†, An integrative analysis of non-coding regulatory DNA variations associated with autism spectrum disorder, Molecular Psychiatry , 2019
 
-**Publications before Korea University (\✻First, \✻\✻Corresponding author)**
+**Publications before Korea University** (\✻First, \✻\✻Corresponding author)
 
 1. **An JY✻**, Lin K✻, Zhu L✻, Werling DM✻, Dong S, Brand H, Wang HZ, Zhao X, Schwartz GB, Collins RL, Currall BB, Dastmalchi C, Dea J, Duhn C, Gilson MC, Klei L, Liang L, Markenscoff-papadimitriou E, Pochareddy S, Ahituv N, Buxbaum JD, Coon H, Daly MJ, Kim YS, Marth GT, Neale BM, Quinlan AR, Rubenstein JL, Sestan N, State MW, Willsey AJ, Talkowski ME†, Devlin B†, Roeder K†, Sanders SJ†, Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder, Science, 2018
 2. Wang D✻, Liu S, Warrell J, Won H, Shi X, Navarro FCP, Clarke D, Gu M, Emani P, Yang YT, Xu M, Gandal MJ, Lou S, Zhang J, Park JJ, Yan C, Rhie SK, Manakongtreecheep K, Zhou H, Nathan A, Peters M, Mattei E, Fitzgerald D, Brunetti T, Moore J, Jiang Y, Girdhar K, Hoffman GE, Kalayci S, GÜmÜS¸ ZH, Crawford GE, PSYCHENCODE CONSORTIUM (including An JY), Roussos P, Akbarian S, Jaffe AE, White KP, Weng Z, Sestan N, Geschwind DH, Knowles JA, Gerstein MB, Comprehensive functional genomic resource and integrative model for the human brain, Science, 2018
