@@ -506,7 +506,7 @@
     url: https://pubmed.ncbi.nlm.nih.gov/29700473
     display: Werling et al., (2018), Nature genetics
     display_full: Werling DM, Brand H, An JY, Stone MR, Zhu L, Glessner JT, Collins RL, Dong S, Layer RM, Markenscoff-Papadimitriou E, Farrell A, Schwartz GB, Wang HZ, Currall BB, Zhao X, Dea J, Duhn C, Erdman CA, Gilson MC, Yadav R, Handsaker RE, Kashin S, Klei L, Mandell JD, Nowakowski TJ, Liu Y, Pochareddy S, Smith L, Walker MF, Waterman MJ, He X, Kriegstein AR, Rubenstein JL, Sestan N, McCarroll SA, Neale BM, Coon H, Willsey AJ, Buxbaum JD, Daly MJ, State MW, Quinlan AR, Marth GT, Roeder K, Devlin B, Talkowski ME, Sanders SJ, (2018), An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder., Nature genetics, 50, (5), 1061-4036
-  highlight: 1
+  highlight: 0
  
 - title: National human genome projects - an update and an agenda.
   image: An2017.jpg
@@ -540,7 +540,7 @@
     url: https://pubmed.ncbi.nlm.nih.gov/28256214
     display: Ben-Shalom et al., (2017), Biological psychiatry
     display_full: Ben-Shalom R, Keeshen CM, Berrios KN, An JY, Sanders SJ, Bender KJ, (2017), Opposing Effects on NaV1.2 Function Underlie Differences Between SCN2A Variants Observed in Individuals With Autism Spectrum Disorder or Infantile Seizures., Biological psychiatry, 82, (3), 0006-3223
-  highlight: 1
+  highlight: 0
  
 - title: Appreciating the Population-wide Impact of Copy Number Variants on Cognition.
   image: An2017.jpg
@@ -591,7 +591,7 @@
     url: https://pubmed.ncbi.nlm.nih.gov/27317861
     display: An et al., (2016), Neuroscience and biobehavioral reviews
     display_full: An JY, Claudianos C, (2016), Genetic heterogeneity in autism - From single gene to a pathway perspective., Neuroscience and biobehavioral reviews, 68, 0149-7634
-  highlight: 1
+  highlight: 0
  
 - title: Towards a molecular characterization of autism spectrum disorders - an exome sequencing and systems approach.
   image: An2014.jpg
@@ -608,7 +608,7 @@
     url: https://pubmed.ncbi.nlm.nih.gov/24893065
     display: An et al., (2014), Translational psychiatry
     display_full: An JY, Cristino AS, Zhao Q, Edson J, Williams SM, Ravine D, Wray J, Marshall VM, Hunt A, Whitehouse AJ, Claudianos C, (2014), Towards a molecular characterization of autism spectrum disorders - an exome sequencing and systems approach., Translational psychiatry, 4, 2158-3188
-  highlight: 1
+  highlight: 0
  
 - title: Neurodevelopmental and neuropsychiatric disorders represent an interconnected molecular system.
   image: Cristino2014.jpg
