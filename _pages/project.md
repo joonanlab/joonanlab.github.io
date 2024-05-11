@@ -40,6 +40,16 @@ permalink: /project/
 ## Full List
 
 For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?user=eTLI6dsAAAAJ&hl=en">Google Scholar</a>.
+
+{% for publi in site.data.publist %}
+
+<a class="pub1" href="{{ publi.link.url }}">{{ publi.title }}</a>, <a class="pub2"> {{ publi.link.display }} </a> <br>
+
+
+{% endfor %}
+
+
+
 <br>
 
 </div>
