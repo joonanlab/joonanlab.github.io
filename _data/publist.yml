@@ -1,3 +1,20 @@
+- title: Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder.
+  image: Kim2024_STR.png
+  authors: Kim JH, Koh IG, Lee H, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ, An JY
+  authors_full: Kim JH, Koh IG, Lee H, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ, An JY
+  journal: Psychiatry and Clinical Neurosciences
+  year: 2024
+  date: 2024 May
+  vol: 1
+  issue: 1
+  page: 1-1
+  doi: 10.1111/pcn.13676
+  link:
+    url: 
+    display: Kim et al., (2024), Psychiatry and Clinical Neurosciences
+    display_full: Kim et al., (2024), Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder., Psychiatry and Clinical Neurosciences.
+  highlight: 1
+
 - title: An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development.
   image: BTS2024.png
   authors: Kim S, Lee J, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, An JY
@@ -13,6 +30,23 @@
     url: https://www.biorxiv.org/content/10.1101/2024.04.09.588220v1
     display: Kim et al., (2024), bioRxiv
     display_full: Kim et al., (2024), An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development., bioRxiv.
+  highlight: 1
+
+- title: CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data.
+  image: Kim2024_CWAS.png
+  authors: Kim Y, Jeong M, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY
+  authors_full: Kim Y, Jeong M, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY
+  journal: medRxiv
+  year: 2024
+  date: 2024 Apr
+  vol: 1
+  issue: 1
+  page: 1-1
+  doi: 10.1101/2024.04.15.24305828
+  link:
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11065022/
+    display: Kim et al., (2024), medRxiv
+    display_full: Kim et al., (2024), Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data., medRxiv
   highlight: 1
 
 - title: Whole-genome doubling is a double-edged sword, the heterogeneous role of whole-genome doubling in various cancer types.
