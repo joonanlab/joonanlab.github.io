@@ -122,7 +122,7 @@ permalink: /project/
 
 14\. Williams SM✻, **An JY✻**, Edson J, Watts M, Murigneux V, Whitehouse AJO, Jackson CJ, Bellgrove MA, Cristino AS†, Claudianos C†, An integrative analysis of non-coding regulatory DNA variations associated with autism spectrum disorder, Molecular Psychiatry, 2019
 
-## Publications before Korea University** 
+## Publications before Korea University
 (✻First, †Corresponding author)
 
 13\. **An JY✻**, Lin K✻, Zhu L✻, Werling DM✻, Dong S, Brand H, Wang HZ, Zhao X, Schwartz GB, Collins RL, Currall BB, Dastmalchi C, Dea J, Duhn C, Gilson MC, Klei L, Liang L, Markenscoff-papadimitriou E, Pochareddy S, Ahituv N, Buxbaum JD, Coon H, Daly MJ, Kim YS, Marth GT, Neale BM, Quinlan AR, Rubenstein JL, Sestan N, State MW, Willsey AJ, Talkowski ME†, Devlin B†, Roeder K†, Sanders SJ†, Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder, Science, 2018
