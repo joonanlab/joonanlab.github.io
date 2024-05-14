@@ -44,43 +44,45 @@ permalink: /project/
 
 **2024**
 
-47\. Kim JH✻, Koh IG, Lee H, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ†, **An JY†**, Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder, Psychiatry and Clinical Neurosciences, In Press
+48\. Kim JH✻, Koh IG, Lee H, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ†, **An JY†**, Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder, Psychiatry and Clinical Neurosciences, In Press
 
-46\. Chang E✻, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, Kim KP, You S, **An JY†**, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, medRxiv, 2024
+47\. Chang E✻, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, Kim KP, You S, **An JY†**, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, medRxiv, 2024
 
-45\. Kim Y✻, Jeong M✻, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, **An JY†**, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, medRxiv, 2024
+46\. Kim Y✻, Jeong M✻, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, **An JY†**, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, medRxiv, 2024
 
-44\. Kim S✻, Lee J✻, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, **An JY†**, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, bioRxiv, 2024
+45\. Kim S✻, Lee J✻, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, **An JY†**, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, bioRxiv, 2024
 
-43\. Song KJ✻, Kim M, Heo YJ, Cho KC, Oh JW, Kim DH, Hwa C, Do Y, Choi S, Hwang HS, Kim K, Kim KG, Na S, Paek E, **AN JY**, Jang SJ, Kim MS, Kim KP†, Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability, bioRxiv, 2024
+44\. Song KJ✻, Kim M, Heo YJ, Cho KC, Oh JW, Kim DH, Hwa C, Do Y, Choi S, Hwang HS, Kim K, Kim KG, Na S, Paek E, **AN JY**, Jang SJ, Kim MS, Kim KP†, Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability, bioRxiv, 2024
 
-42\. Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, Chang E, Park JS, Shim SB, Choi S, Heo YJ, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, Lee GH, Hwa C, Kim S, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, In Revision
+43\. Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, Chang E, Park JS, Shim SB, Choi S, Heo YJ, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, Lee GH, Hwa C, Kim S, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, In Revision
 
-41\. Darbandi SF✻, **An JY✻**, Lim K, Page NF, Liang L, Young DM, Ypsilanti AR, State MW, Nord AS, Sanders SJ†, Rubenstein JLR†, Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes, Cell Reports, In Revision
+42\. Darbandi SF✻, **An JY✻**, Lim K, Page NF, Liang L, Young DM, Ypsilanti AR, State MW, Nord AS, Sanders SJ†, Rubenstein JLR†, Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes, Cell Reports, In Revision
 
-40\. Choi S✻ & **An JY†**, Multiomics-based evaluation for cancer biomarker discovery and cancer subtyping, Advances in Clinical Chemistry, In Revision
+41\. Choi S✻ & **An JY†**, Multiomics-based evaluation for cancer biomarker discovery and cancer subtyping, Advances in Clinical Chemistry, In Revision
 
-39\. Kissel LT✻, Pochareddy S, **AN JY**, Sestan N, Sanders SJ, Wang X, Werling DM†, Sex-differential gene expression in developing human cortex and its intersection with autism risk pathways, Biological Psychiatry Global Open Science, 2024
+40\. Kissel LT✻, Pochareddy S, **AN JY**, Sestan N, Sanders SJ, Wang X, Werling DM†, Sex-differential gene expression in developing human cortex and its intersection with autism risk pathways, Biological Psychiatry Global Open Science, 2024
 
-38\. Chang E✻ & **An JY†**, Whole-genome doubling is a double-edged sword: the heterogeneous role of whole-genome doubling in various cancer types, BMB Reports, 2024
+39\. Chang E✻ & **An JY†**, Whole-genome doubling is a double-edged sword: the heterogeneous role of whole-genome doubling in various cancer types, BMB Reports, 2024
 
 **2023**
 
-37\. Lagunas T✻, Plassmyer SP, Friedman RZ, Rieger MA, Fischer AD, Lucero AFA, **AN JY**, Sanders SJ, Cohen BA, Dougherty JD†, A Cre-dependent massively parallel reporter assay allows for cell-type specific assessment of the functional effects of non-coding elements in vivo, Communications Biology , 2023
+38\. Lagunas T✻, Plassmyer SP, Friedman RZ, Rieger MA, Fischer AD, Lucero AFA, **AN JY**, Sanders SJ, Cohen BA, Dougherty JD†, A Cre-dependent massively parallel reporter assay allows for cell-type specific assessment of the functional effects of non-coding elements in vivo, Communications Biology , 2023
 
-36\. Park G✻, Jang WE✻, Kim S✻, Gonzales EL, Ji J, Choi S, Kim YJ, Park JH, Mohammad HB, Bang G, Kang M, Kim SB, Jeon SJ, Kim JY, Kim KP, Shin CY†, **An JY†**, Kim MS†, Lee YS†, Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental and Molecular Medicine, 2023
+37\. Park G✻, Jang WE✻, Kim S✻, Gonzales EL, Ji J, Choi S, Kim YJ, Park JH, Mohammad HB, Bang G, Kang M, Kim SB, Jeon SJ, Kim JY, Kim KP, Shin CY†, **An JY†**, Kim MS†, Lee YS†, Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental and Molecular Medicine, 2023
 
-35\. Lowther C✻, Valkanas E, Giordano JL, Wang HZ, Currall BB, O’Keefe K, Pierce-Hoffman E, Kurtas NE, Whelan CW, Hao SP, Weisburd B, Jalili V, Fu J, Wong I, Collins RL, Zhao X, Austin-Tse CA, Evangelista E, Lemire G, Aggarwal VS, Lucente D, Gauthier LD, Tolonen C, Sahakian N, Stevens C, **AN JY**, Dong S, Norton ME, MacKenzie T, Devlin B, Gilmore K, Powell BC, Brandt A, Vetrini F, DiVito M, Sanders SJ, MacArthur DG, Hodge JC, O’Donnell-Luria A, Rehm HL, Vora NL, Levy B†, Brand H†, Wapner RJ†, Talkowski ME†, Systematic evaluation of genome sequencing for the assessment of fetal structural anomalies, The American Journal of Human Genetics, 2023.
+36\. Lowther C✻, Valkanas E, Giordano JL, Wang HZ, Currall BB, O’Keefe K, Pierce-Hoffman E, Kurtas NE, Whelan CW, Hao SP, Weisburd B, Jalili V, Fu J, Wong I, Collins RL, Zhao X, Austin-Tse CA, Evangelista E, Lemire G, Aggarwal VS, Lucente D, Gauthier LD, Tolonen C, Sahakian N, Stevens C, **AN JY**, Dong S, Norton ME, MacKenzie T, Devlin B, Gilmore K, Powell BC, Brandt A, Vetrini F, DiVito M, Sanders SJ, MacArthur DG, Hodge JC, O’Donnell-Luria A, Rehm HL, Vora NL, Levy B†, Brand H†, Wapner RJ†, Talkowski ME†, Systematic evaluation of genome sequencing for the assessment of fetal structural anomalies, The American Journal of Human Genetics, 2023.
 
-34\. Park HR✻, Shiva A, Cummings P, Kim S, Kim S, Lee E, Leong A, Chowdhury S, Shawber C, Carvajal R, Thurston G, **AN JY**, Lund AW, Yang HW, Kim M†. Angiopoietin-2-dependent spatial vascular destabilization promotes T-cell exclusion and limits immunotherapy in melanoma, Cancer Research, 2023.
+35\. Park HR✻, Shiva A, Cummings P, Kim S, Kim S, Lee E, Leong A, Chowdhury S, Shawber C, Carvajal R, Thurston G, **AN JY**, Lund AW, Yang HW, Kim M†. Angiopoietin-2-dependent spatial vascular destabilization promotes T-cell exclusion and limits immunotherapy in melanoma, Cancer Research, 2023.
 
-33\. Jang WE✻, Park JH†, Park G, Bang G, Na CH, Kim JY, Kim KY, Kim KP, Shin CY, **AN JY**, Lee YS, Kim MS†, Cntnap2-dependent molecular networks in autism spectrum disorder revealed through an integrative multi-omics analysis, Molecular Psychiatry , 2023.
+34\. Jang WE✻, Park JH†, Park G, Bang G, Na CH, Kim JY, Kim KY, Kim KP, Shin CY, **AN JY**, Lee YS, Kim MS†, Cntnap2-dependent molecular networks in autism spectrum disorder revealed through an integrative multi-omics analysis, Molecular Psychiatry , 2023.
 
-32\. Koesterich J✻, **AN JY**, Inoue F, Sohota A, Ahituv N, Sanders SJ†, Kreimer A†, Characterization of De Novo Promoter Variants in Autism Spectrum Disorder with Massively Parallel Reporter Assays, International journal of molecular sciences, 2023.
+33\. Koesterich J✻, **AN JY**, Inoue F, Sohota A, Ahituv N, Sanders SJ†, Kreimer A†, Characterization of De Novo Promoter Variants in Autism Spectrum Disorder with Massively Parallel Reporter Assays, International journal of molecular sciences, 2023.
 
 **2022**
 
-31\. Yoon K✻, Kim Y✻, Kim S✻, Cui Y, Ji J, Choi S, Park G, Chung JH, Lee YS†, **An JY†**, DH Lee†, Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain, 2022.
+32\. Yoon K✻, Kim Y✻, Kim S✻, Cui Y, Ji J, Choi S, Park G, Chung JH, Lee YS†, **An JY†**, DH Lee†, Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain, 2022.
+
+31\. Fu JM✻, Satterstrom FK✻, Peng M✻, Brand H✻, Collins RL, Dong S, Wamsley B, Klei L, Wang L, Hao SP, Stevens CR, Cusick C, Babadi M, Banks E, Collins B, Dodge S, Gabriel SB, Gauthier L, Lee SK, Liang L, Ljungdahl A, Mahjani B, Sloofman L, Smirnov AN, Barbosa M, Betancur C, Brusco A, Chung BHY, Cook EH, Cuccaro ML, Domenici E, Ferrero GB, Gargus JJ, Herman GE, Hertz-Picciotto I, Maciel P, Manoach DS, Passos-Bueno MR, Persico AM, Renieri A, Sutcliffe JS, Tassone F, Trabetti E, Campos G, Cardaropoli S, Carli D, Chan MCY, Fallerini C, Giorgio E, Girardi AC, Hansen-Kiss E, Lee SL, Lintas C, Ludena Y, Nguyen R, Pavinato L, Pericak-Vance M, Pessah IN, Schmidt RJ, Smith M, Costa CIS, Trajkova S, Wang JYT, Yu MHC, Autism Sequencing Consortium (ASC) (including **An JY**), Broad Institute Center for Common Disease Genomics (Broad-CCDG), iPSYCH-BROAD Consortium, Cutler DJ, De Rubeis S, Buxbaum JD†, Daly MJ†, Devlin B†, Roeder K†, Sanders SJ†, Talkowski ME†, Rare coding variation provides insight into the genetic architecture and phenotypic context of autism, Nat Genet, 2022
 
 30\. Lee T✻, Lee H✻, Kim S, Park K, **An JY†**, Kim HW†, Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Journal of Autism and Developmental Disorders, 2022.
 
