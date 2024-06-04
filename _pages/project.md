@@ -44,21 +44,22 @@ permalink: /project/
 
 **2024**
 
-49\. Kim JH✻, Koh IG, Lee H, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ†, **An JY†**, Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder, Psychiatry and Clinical Neurosciences, In Press
 
-48\. Chang E✻, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, Kim KP, You S, **An JY†**, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, medRxiv, 2024
+49\. Chang E✻, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, Kim KP, You S, **An JY†**, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, medRxiv, 2024 (In Revision)
 
-47\. Kim Y✻, Jeong M✻, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, **An JY†**, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, medRxiv, 2024
+48\. Kim Y✻, Jeong M✻, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, **An JY†**, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, medRxiv, 2024 (In Revision)
 
-46\. Kim S✻, Lee J✻, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, **An JY†**, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, bioRxiv, 2024
+47\. Kim S✻, Lee J✻, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, **An JY†**, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, bioRxiv, 2024 (In Revision)
 
-45\. Song KJ✻, Kim M, Heo YJ, Cho KC, Oh JW, Kim DH, Hwa C, Do Y, Choi S, Hwang HS, Kim K, Kim KG, Na S, Paek E, **AN JY**, Jang SJ, Kim MS, Kim KP†, Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability, bioRxiv, 2024
+46\. Song KJ✻, Kim M, Heo YJ, Cho KC, Oh JW, Kim DH, Hwa C, Do Y, Choi S, Hwang HS, Kim K, Kim KG, Na S, Paek E, **AN JY**, Jang SJ, Kim MS, Kim KP†, Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability, bioRxiv, 2024 (Under Review)
 
-44\. Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, Chang E, Park JS, Shim SB, Choi S, Heo YJ, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, Lee GH, Hwa C, Kim S, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, In Revision
+45\. Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, Chang E, Park JS, Shim SB, Choi S, Heo YJ, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, Lee GH, Hwa C, Kim S, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, In Revision
+
+44\. Choi S✻ & **An JY†**, Multiomics-based evaluation for cancer biomarker discovery and cancer subtyping, Advances in Clinical Chemistry, In Press
 
 43\. Darbandi SF✻, **An JY✻**, Lim K, Page NF, Liang L, Young DM, Ypsilanti AR, State MW, Nord AS, Sanders SJ†, Rubenstein JLR†, Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes, Cell Reports, 2024
 
-42\. Choi S✻ & **An JY†**, Multiomics-based evaluation for cancer biomarker discovery and cancer subtyping, Advances in Clinical Chemistry, In Press
+42\. Kim JH✻, Koh IG, Lee H, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ†, **An JY†**, Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder, Psychiatry and Clinical Neurosciences, 2024
 
 41\.  Yoon KN✻, Kim SY✻, Ji J, Cui Y, Quan QL, Park G, Oh JH, Lee JS, **An JY**, Chung JH†, Lee YS†, Lee DH†, Chronic ultraviolet irradiation induces memory deficits via dysregulation of the dopamine pathway, Experimental and Molecular Medicine, 2024
 
