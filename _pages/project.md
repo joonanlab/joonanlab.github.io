@@ -56,7 +56,7 @@ permalink: /project/
 
 44\. Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, Chang E, Park JS, Shim SB, Choi S, Heo YJ, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, Lee GH, Hwa C, Kim S, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, In Revision
 
-43\. Darbandi SF✻, **An JY✻**, Lim K, Page NF, Liang L, Young DM, Ypsilanti AR, State MW, Nord AS, Sanders SJ†, Rubenstein JLR†, Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes, Cell Reports, In Revision
+43\. Darbandi SF✻, **An JY✻**, Lim K, Page NF, Liang L, Young DM, Ypsilanti AR, State MW, Nord AS, Sanders SJ†, Rubenstein JLR†, Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes, Cell Reports, 2024
 
 42\. Choi S✻ & **An JY†**, Multiomics-based evaluation for cancer biomarker discovery and cancer subtyping, Advances in Clinical Chemistry, In Press
 
