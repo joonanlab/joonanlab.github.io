@@ -60,7 +60,7 @@ permalink: /project/
 
 42\. Choi S✻ & **An JY†**, Multiomics-based evaluation for cancer biomarker discovery and cancer subtyping, Advances in Clinical Chemistry, In Press
 
-41\.  Yoon KN✻, Kim SY✻, Ji J, Cui Y, Quan QL, Park G, Oh JH, Lee JS, **An JY**, Chung JH, Lee YS†, Lee DH†, Chronic ultraviolet irradiation induces memory deficits via dysregulation of the dopamine pathway, Experimental and Molecular Medicine, 2024
+41\.  Yoon KN✻, Kim SY✻, Ji J, Cui Y, Quan QL, Park G, Oh JH, Lee JS, **An JY**, Chung JH†, Lee YS†, Lee DH†, Chronic ultraviolet irradiation induces memory deficits via dysregulation of the dopamine pathway, Experimental and Molecular Medicine, 2024
 
 40\. Kissel LT✻, Pochareddy S, **AN JY**, Sestan N, Sanders SJ, Wang X, Werling DM†, Sex-differential gene expression in developing human cortex and its intersection with autism risk pathways, Biological Psychiatry Global Open Science, 2024
 
