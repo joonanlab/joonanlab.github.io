@@ -47,7 +47,7 @@ permalink: /project/
 
 49\. Chang E✻, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, Kim KP, You S, **An JY†**, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, medRxiv, 2024 (In Revision)
 
-48\. Kim Y✻, Jeong M✻, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, **An JY†**, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, medRxiv, 2024 (In Revision)
+48\. Kim Y✻, Jeong M✻, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, **An JY†**, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, Briefings in Bioinformatics, 2024
 
 47\. Kim S✻, Lee J✻, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, **An JY†**, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, bioRxiv, 2024 (In Revision)
 
