@@ -19,6 +19,12 @@ photo: joonan.jpg
   As a PI, Dr. An leads the team studying the etiology of developmental disorders through the discovery of genetic risk factors. The team is working on the analysis of genome sequencing data to identify de novo and noncoding mutations associated with developmental and neurological disorders.
 
 
+
+### Professional Experience
+- 2022-Present, Associate Professor, Korea University
+- 2019-2022, Assistant Professor, Korea University
+- 2015-2019, Postdoctoral Scholar, UCSF
+
 ### Education & Training
 - 2015-2019 Postdoctoral Fellow, University of California, San Francisco.
 - 2012-2016 Ph.D., Neuroscience, University of Queensland, Australia
