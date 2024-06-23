@@ -37,6 +37,16 @@ photo: joonan.jpg
 - 2021-present, Editorial Board, Molecular Brain
 - 2021-present, Editorial Board, Experimental and Molecular Medicine
 - 2021-present, Editorial Board, Molecules and Cells
+- 2024-Present, Editorial Board, BMC Genomics & Informatics
+- 2024-Present, 전문위원, 과학기술정통부 바이오·헬스 데이터플랫폼 협의체
+- 2022-2024, 전문위원, 보건복지부 보건의료정책심의위원회 디지털헬스 분과
+- 2022-2024, 기획위원, 질병관리청 국립보건연구원 미래의료연구부
+- 2020-2023, 총괄기획위원, 국가통합바이오빅데이터 구축 사업
+- 2021-Present, Grant Review Panel, Israel Science Foundation
+- 2020-Present, Grant Review Panel, Wellcome Trust Foundation
+- 2024-Present, Grant Review Panel, UK Research and Innovation
+- Ad hoc peer reviewer: Biological Psychiatry, BMC Genomics, Experimental and Molecular Medicine, eLife, JAMA, JAMA Psychiatry, Molecular Autism, Molecular Psychiatry, Nature Communications, PLOS Genetics, Translational Psychiatry
+
 
 ### Funding
 - 2022-2024 공포-불안 네트워크를 구성하는 신경세포 다양성 규명 및 조절, 바이오·의료기술개발사업, 한국연구재단 (CI)
