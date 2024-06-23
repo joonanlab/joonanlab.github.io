@@ -20,3 +20,6 @@ Currently, Chanhee is focusing on a research aimed at identifying noncoding vari
 - 2023-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
 - 2017-2023 B.Sc. in School of Electrical Engineering, Korea University, South Korea
 - 2017-2023 B.Sc. in Biosystem and Biomedical Sciences, Korea University, South Korea
+
+### Publication
+- Kim Y✻, Jeong M✻, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, **An JY†**, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, Briefings in Bioinformatics, 2024

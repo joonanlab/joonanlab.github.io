@@ -24,11 +24,12 @@ Seoyeon is actively engaged in collaborations across diverse fields of single-ce
 
 
 ### Publication
-- Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental & Molecular Medicine (2023) (co-first author)
-- Angiopoietin-2-dependent spatial vascular destabilization promotes T-cell exclusion and limits immunotherapy in melanoma, Cancer Research (2023)
+- Kim S✻, Lee J✻, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, **An JY†**, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, bioRxiv, 2024 (In Revision)
+- Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, Chang E, Park JS, Shim SB, Choi S, Heo YJ, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, Lee GH, Hwa C, Kim S, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, Accepted (In Press)
+- Park G✻, Jang WE✻, Kim S✻, Gonzales EL, Ji J, Choi S, Kim YJ, Park JH, Mohammad HB, Bang G, Kang M, Kim SB, Jeon SJ, Kim JY, Kim KP, Shin CY†, **An JY†**, Kim MS†, Lee YS†, Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental and Molecular Medicine, 2023
+- Park HR✻, Shiva A, Cummings P, Kim S, Kim S, Lee E, Leong A, Chowdhury S, Shawber C, Carvajal R, Thurston G, **AN JY**, Lund AW, Yang HW, Kim M†. Angiopoietin-2-dependent spatial vascular destabilization promotes T-cell exclusion and limits immunotherapy in melanoma, Cancer Research, 2023.
 - Actin-microtubule linkage via CD99 is critical for immunological synapse formation and potentiates CAR T cells, under review
 - Aberrant BRAF signaling impairs learning and memory via reactive-like astrogliosis, under review
-- Proteogenomic landscapes of NSCLC subtypes predict metastasis, chromosomal instability, and tumor microenvironment, under review
 
 
 ### Awards
