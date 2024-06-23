@@ -21,13 +21,12 @@ Yujin's research builds upon the findings of a previous study by Werling et al. 
 - 2017-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Publications
-- Category-wide association to evaluate noncoding mutations from whole genome sequencing data, in preparation
-- Identification of kinase network underlying Noonan syndrome-associated SHP2/PTPN11 mutant, in preparation
-- Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental & Molecular Medicine (2023)
-- Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain (2022)
-- Kdm3b haploinsufficiency impairs the consolidation of cerebellum-dependent motor memory in mice, Molecular Brain (2021)
-- Ferroptosis-related genes in neurodevelopment and central nervous system, Biology (2021)
-- Spatio-Temporal Roles of ASD-Associated Variants in Human Brain Development, Genes (2020)
+- **Kim Y✻**, Jeong M✻, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY†, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, Briefings in Bioinformatics, 2024
+- Park G✻, Jang WE✻, Kim S✻, Gonzales EL, Ji J, Choi S, **Kim Y**, Park JH, Mohammad HB, Bang G, Kang M, Kim SB, Jeon SJ, Kim JY, Kim KP, Shin CY†, An JY†, Kim MS†, Lee YS†, Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental and Molecular Medicine, 2023
+- Yoon K✻, **Kim Y✻**, Kim S✻, Cui Y, Ji J, Choi S, Park G, Chung JH, Lee YS†, An JY†, DH Lee†, Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain, 2022.
+- Kim YG✻, Bak MS, Kim A, **Kim Y**, Chae YC, Kim YL, Chun YS, **AN JY**, Seo SB, Kim SJ, Lee YS†, Kdm3b haploinsufficiency impairs the consolidation of cerebellum-dependent motor memory in mice, Molecular Brain, 2021.
+- Kim SW✻, **Kim YJ✻**, Kim SE†, An JY†, Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System, Biology , 2021
+- **Kim Y✻**, An JY†, Spatio-temporal roles of ASD-associated variants in human brain development, Genes, 2020
 
 ### Awards
 - 2022 Predoctoral Fellow, SBS Seoam Yoon Se Young Foundation (2022-2026)

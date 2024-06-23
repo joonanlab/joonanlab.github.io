@@ -21,8 +21,8 @@ Soowhee's research efforts represent a significant contribution to the growing b
 
 ### Publications
 - Sex-difference in autism spectrum disorder, Under Review
-- Lee T✻, Lee H✻, Kim S, Park K, **An JY†**, Kim HW†, Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Journal of Autism and Developmental Disorders, 2022.
-- Kim SW✻, Kim YJ✻, Kim SE†, **An JY†**, Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System, Biology , 2021
+- Lee T✻, Lee H✻, **Kim S**, Park K, An JY†, Kim HW†, Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Journal of Autism and Developmental Disorders, 2022.
+- **Kim SW✻**, Kim YJ✻, Kim SE†, An JY†, Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System, Biology , 2021
 
 ### Awards
 - 2023 Sochun Awards for the best talk at the 12th COSMOS Symposium
