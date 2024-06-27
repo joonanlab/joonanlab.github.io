@@ -25,3 +25,6 @@ In summary, Jungeun's research employs single-cell spatial sequencing technology
 - Yoon KN✻, Kim SY✻, **Ji J**, Cui Y, Quan QL, Park G, Oh JH, Lee JS, An JY, Chung JH†, Lee YS†, Lee DH†, Chronic ultraviolet irradiation induces memory deficits via dysregulation of the dopamine pathway, Experimental and Molecular Medicine, 2024
 - Park G✻, Jang WE✻, Kim S✻, Gonzales EL, **Ji J**, Choi S, Kim YJ, Park JH, Mohammad HB, Bang G, Kang M, Kim SB, Jeon SJ, Kim JY, Kim KP, Shin CY†, An JY†, Kim MS†, Lee YS†, Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental and Molecular Medicine, 2023
 - Yoon K✻, Kim Y✻, Kim S✻, Cui Y, **Ji J**, Choi S, Park G, Chung JH, Lee YS†, An JY†, DH Lee†, Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain, 2022.
+
+### Awards
+- 2023 Best research poster award at 2023 BK21 L-HOPE graduate symposium
