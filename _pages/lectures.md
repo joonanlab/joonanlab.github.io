@@ -13,12 +13,12 @@ Syllabus and Lecture slides: [Github](https://github.com/joonan30/bsms205)
 Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLHncPpe1DdXJhh9kES734U4)
 
 
-### Introduction to bioinformatics
+### 생물정보학 기초 시리즈 (Introduction to Bioinformatics)
 
 Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLHJDRWShvuCf8l7uffUqqvC)
 
 
-### AI biology
+### 바이오 인공지능 시리즈 (AI Biology)
 
 Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLGTc2V5CEr_3yck4xmC6kGu)
 
@@ -36,11 +36,4 @@ Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLEDv5
 
 [![자폐와 성차 - 남녀의 자폐는 다른가?](https://img.youtube.com/vi/-KYimo-_pHg/default.jpg)](https://youtu.be/-KYimo-_pHg)
 
-<iframe width="560" height="315" src="https://youtu.be/-KYimo-_pHg" frameborder="0" allowfullscreen></iframe>
-
-
-{% raw %}
-<div class="video-container">
-    <iframe src="https://youtu.be/-KYimo-_pHg" frameborder="0" allowfullscreen></iframe>
-</div>
-{% endraw %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-KYimo-_pHg?si=i5poJcsOCrp-MpJu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
