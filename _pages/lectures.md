@@ -1,7 +1,7 @@
 ---
 title: "An Lab - Join"
 layout: textlay
-excerpt: "Join"
+excerpt: "Lectures"
 sitemap: false
 permalink: /lectures/
 ---
