@@ -37,5 +37,5 @@ Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLEDv5
 <iframe width="560" height="315" src="https://youtu.be/-KYimo-_pHg?si=xcuQQSLf48a4fCP5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-
+[![Watch the video](https://img.youtube.com/vi/-KYimo-_pHg/default.jpg)](https://youtu.be/-KYimo-_pHg)
 
