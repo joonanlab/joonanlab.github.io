@@ -27,13 +27,12 @@ Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLGTc2
 Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLEDv5TuWY8MD-5Oej_7rhyi)
 
 
-### DNA를 통해 본 여성의 자폐
+## 외부 강의
 
-<iframe width="560" height="315" src="https://youtu.be/ukLaizaZ_rw?si=qOsQtVBO9ml6E8lR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### DNA를 통해 본 여성의 자폐 (제 19회 경암바이오유스캠프)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ukLaizaZ_rw?si=HkB_6eI9i4z-EdOq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### 외부 강의
-
-[![자폐와 성차 - 남녀의 자폐는 다른가?](https://img.youtube.com/vi/-KYimo-_pHg/default.jpg)](https://youtu.be/-KYimo-_pHg)
+### 심리학자와 유전학자가 본 자폐의 성차
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-KYimo-_pHg?si=i5poJcsOCrp-MpJu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
