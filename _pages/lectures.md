@@ -32,10 +32,15 @@ Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLEDv5
 <iframe width="560" height="315" src="https://youtu.be/ukLaizaZ_rw?si=qOsQtVBO9ml6E8lR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### [쿠날] 자폐와 성차
+### 외부 강의
 
-<iframe width="560" height="315" src="https://youtu.be/-KYimo-_pHg?si=xcuQQSLf48a4fCP5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![자폐와 성차 - 남녀의 자폐는 다른가?](https://img.youtube.com/vi/-KYimo-_pHg/default.jpg)](https://youtu.be/-KYimo-_pHg)
+
+<iframe width="560" height="315" src="https://youtu.be/-KYimo-_pHg" frameborder="0" allowfullscreen></iframe>
 
 
-[![Watch the video](https://img.youtube.com/vi/-KYimo-_pHg/default.jpg)](https://youtu.be/-KYimo-_pHg)
-
+{% raw %}
+<div class="video-container">
+    <iframe src="https://youtu.be/-KYimo-_pHg" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endraw %}
