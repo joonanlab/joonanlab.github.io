@@ -3,7 +3,7 @@ title: "An Lab - Join"
 layout: textlay
 excerpt: "Join"
 sitemap: false
-permalink: /recruitment/
+permalink: /lectures/
 ---
 
 ### Genetics, Undergraudate, BSMS205
