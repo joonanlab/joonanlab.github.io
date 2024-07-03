@@ -117,20 +117,6 @@ Please click the name below for the lab member's profile.
 
 ---
 
-## Visitor
-
-
-{% for member in site.data.team_members %}
-{% if member.group == 5 %}
-
-<i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} {% if member.current %} 
-{% endif %}
-{% endif %}
-
-{% endfor %}
-
----
-
 ## Alumni
 
 Curious to see where our former team members are now? Click [here](alumni) to explore our esteemed alumni and discover their current affiliations. 
