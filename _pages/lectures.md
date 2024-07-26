@@ -55,9 +55,15 @@ Lecture: [Link](https://www.laidd.org/local/ubonline/view.php?id=405&group=1&ret
 
 ### 공개 강의 모음
 
+**[3rd 오티즘스쿨] "자폐의 유전자 연구: 유전자 연구란 무엇인가?"**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p7i0nGTBzig?si=s_vQZuNIKUjSf0-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 **DNA를 통해 본 여성의 자폐 (제 19회 경암바이오유스캠프)**
 
 <iframe src="https://www.youtube.com/embed/ukLaizaZ_rw?si=HkB_6eI9i4z-EdOq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 **심리학자와 유전학자가 본 자폐의 성차**
 
