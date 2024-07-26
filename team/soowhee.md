@@ -3,11 +3,11 @@ layout: member
 title: Soowhee Kim
 position: Graduate Student
 handle: soowheekim
-email: rlatngnl7675@gmail.com
-twitter: HonLovGrat
+email: soowhee.kim98@gmail.com
+twitter: Soowhee_Kim
 github: soowhee
 scholar: 
-photo: soowheekim.jpg
+photo: soowhee.jpg
 ---
 
 Soowhee is a highly motivated researcher with a keen interest in understanding the sex-bias in autism spectrum disorder (ASD) through genomic analysis and systems biology. She is currently engaged in a research project that involves the analysis of whole-genome sequencing data of ASD families in Korea. Soowhee's primary focus is on identifying the genetic mechanisms underlying ASD sex bias and developing a prediction model for ASD comorbidity based on this finding.
