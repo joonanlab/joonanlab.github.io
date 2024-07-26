@@ -48,7 +48,7 @@ permalink: /project/
 
 49\. **Kim S✻**, **Lee J✻**, **Koh IG**, **Ji J**, Kim HJ, Kim E, Park J, Park JE, **An JY†**, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, Experimental & Molecular Medicine, 2024 (In Press)
 
-48\. Song KJ✻, Kim M, **Heo YJ**, Cho KC, Oh JW, Kim DH, **Hwa C**, Do Y, Choi S, Hwang HS, Kim K, Kim KG, Na S, Paek E, **AN JY**, Jang SJ, Kim MS, Kim KP†, Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability, bioRxiv, 2024 (Under Review)
+48\. Song KJ✻, Kim M, **Heo YJ**, Cho KC, Oh JW, Kim DH, **Hwa C**, Do Y, Choi S, Hwang HS, Kim K, Kim KG, Na S, Paek E, **AN JY**, Jang SJ, Kim MS†, Kim KP†, Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability, bioRxiv, 2024 (Under Review)
 
 47\. Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, **Chang E**, Park JS, Shim SB, **Choi S**, **Heo YJ**, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, **Lee GH**, **Hwa C**, **Kim S**, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, Accepted (In Press)
 
