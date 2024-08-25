@@ -17,7 +17,7 @@ The emergence of next-generation sequencing technologies has had a profound impa
 </div>
 
 
-## Deep learning for regulatory patterns in neurodevelopmental disorder
+## Deep learning to understand regulatory pattern in noncoding genome
 
 <div style="text-align: justify">
 Our lab uses advanced deep learning techniques, including large language models, to study noncoding regulatory mutations associated with autism and other neurodevelopmental disorders. We've developed the CWAS framework ([Kim et al. 2024](https://academic.oup.com/bib/article/25/4/bbae323/7706421)) to analyze whole genome sequencing data from autism families. Currently, we're integrating single-cell multiomics datasets from developing human brains to further refine our approach. By combining computational methods with rich genomic and epigenomic data, we aim to uncover how noncoding mutations contribute to neurodevelopmental risk. Our work continues to evolve as we improve our models and extend our research to cover more neurodevelopmental conditions. Through these efforts, we strive to develop more accurate diagnostic tools and biomarkers for autism and related disorders, potentially improving early detection and intervention strategies.
