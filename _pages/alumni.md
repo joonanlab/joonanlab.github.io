@@ -17,7 +17,7 @@ Find out where our alumni have landed and get inspired by their diverse paths an
 {% for member in site.data.alumni %}
 {% if member.group == 1 %}
 
-<i class="alumni1">{{ member.name }}</i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> 
+<i class="alumni1"><a href="{{ member.url }}" class="off">{{ member.name }}</a></i> <i class="alumni2">{{ member.info }} ({{ member.year }})</i> 
 {% if member.thesis %} 
 <i class="alumni2">Thesis: {{ member.thesis }}</i>
 {% endif %}
