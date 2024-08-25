@@ -28,7 +28,7 @@ photo: joonan.jpg
 ### Education & Training
 - 2015-2019 Postdoctoral Fellow, University of California, San Francisco.
 - 2012-2016 Ph.D., Neuroscience, University of Queensland, Australia
-- 2010-2011 M.S., Molecular Biology, University of Queensland, Australia
+- 2010-2011 M.Sc., Molecular Biology, University of Queensland, Australia
 - 2005-2010 B.Sc, Molecular Biotechnology, Konkuk University, South Korea
 
 ### Awards

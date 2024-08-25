@@ -14,7 +14,7 @@ Yebin is interested in exploring gene expression and transcriptional profile of 
 
 
 ### Education & Training
-- 2024-present M.S., Department of Integrated Biomedical and Life Science, Korea University
+- 2024-present M.Sc. candidate, Department of Integrated Biomedical and Life Science, Korea University
 - 2022-2024 B.Sc. in Biomedical Engineering, Korea University
 
 

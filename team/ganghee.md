@@ -14,8 +14,8 @@ Ganghee has a vested interest in developing a bioinformatics pipeline geared tow
 
 
 ### Education & Training
-- 2021-present M.S./Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
-- 2017-2021 B.Sc. in Biosystem and Biomedical Sciences, Korea University
+- 2021-present Ph.D. candidate, Department of Integrated Biomedical and Life Science, Korea University
+- 2017-2021 B.Sc., Biosystem and Biomedical Sciences, Korea University
 
 ### Publications
 - Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, Chang E, Park JS, Shim SB, Choi S, Heo YJ, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, **Lee GH**, Hwa C, Kim S, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, An JY†, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, 2024

@@ -16,8 +16,8 @@ Through her work, Hyeji aims to make significant contributions to our understand
 
 
 ### Education & Training
-- 2022-present M.S./Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
-- 2017-2021 B.Sc. in Media & Communication, Korea University
+- 2022-present Ph.D. candidate, Department of Integrated Biomedical and Life Science, Korea University
+- 2017-2021 B.Sc., Media & Communication, Korea University
 
 
 ### Publications

@@ -18,8 +18,7 @@ Seoyeon is actively engaged in collaborations across diverse fields of single-ce
 
 
 ### Education & Training
-- 2022-2024 M.S., Department of Integrated Biomedical and Life Science, Korea University
-- 2019-2022 Research Intern in Human Genomics Lab, Korea University
+- 2022-2024 M.Sc., Department of Integrated Biomedical and Life Science, Korea University
 - 2018-2022 B.Sc., Biosystem and Biomedical Sciences, Korea University
 
 

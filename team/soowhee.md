@@ -15,12 +15,11 @@ Soowhee is a highly motivated researcher with a keen interest in understanding t
 Soowhee's research efforts represent a significant contribution to the growing body of knowledge on the genetic and molecular underpinnings of ASD. By leveraging the power of single-cell RNA sequencing technology, she aims to gain a deeper understanding of the female or male specific neurobiology of ASD. Her research on ASD sex bias has the potential to shed light on previously unknown aspects of ASD, with implications for the development of novel diagnostic and intervention strategies. 
 
 ### Education & Training
-- 2023-present Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
-- 2021-2022 M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2023-present Ph.D. candidate, Department of Integrated Biomedical and Life Science, Korea University
+- 2021-2022 M.Sc., Department of Integrated Biomedical and Life Science, Korea University
 - 2016-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Publications
-- Sex-difference in autism spectrum disorder, Under Review
 - Lee T✻, Lee H✻, **Kim S**, Park K, An JY†, Kim HW†, Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Journal of Autism and Developmental Disorders, 2022.
 - **Kim SW✻**, Kim YJ✻, Kim SE†, An JY†, Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System, Biology , 2021
 

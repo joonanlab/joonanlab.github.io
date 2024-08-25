@@ -16,7 +16,7 @@ Yujin's research builds upon the findings of a previous study by Werling et al. 
 
 
 ### Education & Training
-- 2021-present M.S./Ph.D. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2021-present Ph.D. candidate, Department of Integrated Biomedical and Life Science, Korea University
 - 2017-2020 B.A. in Psychology, Korea University
 - 2017-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
