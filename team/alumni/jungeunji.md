@@ -17,8 +17,8 @@ Jungeun's research specifically targets the transcriptional systems of the brain
 In summary, Jungeun's research employs single-cell spatial sequencing technology to elucidate the transcriptional systems that underlie the mechanisms of learning and memory. Her research has the potential to advance our understanding of the neural processes that are critical for memory formation with high spatial specificity, and to provide new avenues for the development of therapeutic interventions for memory-related disorders.nner.
 
 ### Education & Training
-- 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
-- 2017-2022 B.Sc. in Division of Life Sciences, Korea University
+- 2022-2024 M.Sc., Department of Integrated Biomedical and Life Science, Korea University
+- 2017-2022 B.Sc., Division of Life Sciences, Korea University
 
 ### Publications
 - Kim S✻, Lee J✻, Koh IG, **Ji J**, Kim HJ, Kim E, Park J, Park JE, An JY†, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, bioRxiv, 2024 (In Revision)

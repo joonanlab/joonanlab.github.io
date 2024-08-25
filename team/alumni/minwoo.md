@@ -5,7 +5,7 @@ position: Bioinformatics programmer​
 handle: minwoo
 email:
 twitter:
-github: mwjjeong
+github: 
 scholar: 
 photo: minwoo.jpg
 ---
