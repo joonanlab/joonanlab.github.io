@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Eunhyong Chang
-position: Graduate Student
+position: Bioinformatician
 handle: Eunhyong
 email:
 twitter:
@@ -16,12 +16,12 @@ By studying the kinases that are associated with cancer subtypes exhibiting WGD 
 
 
 ### Education & Training
-- 2022-present M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
+- 2022-2024 M.S. Student, Department of Integrated Biomedical and Life Science, Korea University
 - 2018-2022 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Publication
-- Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, **Chang E**, Park JS, Shim SB, Choi S, Heo YJ, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, Lee GH, Hwa C, Kim S, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, An JY†, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, Accepted (In Press)
-- **Chang E✻**, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, Kim KP, You S, An JY†, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, medRxiv, 2024 (In Revision)
+- Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, **Chang E**, Park JS, Shim SB, **Choi S**, **Heo YJ**, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, **Lee GH**, **Hwa C**, **Kim S**, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, 2024
+- **Chang E✻**, Kim SJ, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, You S, Kim KP†, **An JY†**, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, Clinical and Translational Medicine, 2024
 - **Chang E✻** & An JY†, Whole-genome doubling is a double-edged sword: the heterogeneous role of whole-genome doubling in various cancer types, BMB Reports, 2024
 
 ### Awards

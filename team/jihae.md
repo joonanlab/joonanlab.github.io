@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Sophia Jihae Lee
-position: Undergraduate intern
+position: Bioinformatician
 handle: jihae
 email: 
 twitter: 
@@ -14,8 +14,8 @@ Jihae is an undergraduate intern, studying and analyzing the brain single-cell d
 
 
 ### Education & Training
-- 2020-present B.Sc. in Biosystems and Biomedical science, Korea University
-- 2020-present B.Sc. in Computer Science and Engineering, Korea University
+- 2020-2024 B.Sc. in Biosystems and Biomedical science, Korea University
+- 2020-2024 B.Sc. in Computer Science and Engineering, Korea University
 
 ### Publications
-- Kim S✻, **Lee J✻**, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, An JY†, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, bioRxiv, 2024 (In Revision)
+- Kim S✻, **Lee J✻**, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, An JY†, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, Experimental & Molecular Medicine, 2024
