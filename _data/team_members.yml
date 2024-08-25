@@ -22,22 +22,10 @@
   url: soowhee
   group: 1
 
-- name: Seoyeon Kim
-  photo: seoyeon2022.jpg
-  info: Graduate Student
-  url: seoyeon
-  group: 1
-
 - name: Hyeji Lee
   photo: hyejilee.jpg
   info: Graduate Student (NRF Fellow)
   url: hyeji
-  group: 1
-
-- name: Eunhyong Chang
-  photo: eunhyong.png
-  info: Graduate Student (Kwanjeong Fellow)
-  url: eunhyong
   group: 1
 
 - name: Ingyeong Koh
@@ -64,16 +52,52 @@
   url: sungminkim
   group: 1
 
+- name: Nahyun Kwon
+  photo: blank.png
+  info: Graduate Student
+  url: nakwon
+  group: 1
+
+- name: Seoyeon Kim
+  photo: seoyeon2022.jpg
+  info: Bioinformatician
+  url: seoyeon
+  group: 2
+
+- name: Eunhyong Chang
+  photo: eunhyong.png
+  info: Bioinformatician
+  url: eunhyong
+  group: 2
+
+- name: Sophia Jihae Lee
+  photo: jihaelee.png
+  info: Bioinformatician
+  url: jihae
+  group: 2
+
 - name: Seunghwan Choi
   photo: seunghwan.jpg
   info: Undergraduate intern
   url: seunghwan
   group: 3
 
-- name: Sophia Jihae Lee
-  photo: jihaelee.png
+- name: Wooheon Kim
+  photo: blank.png
   info: Undergraduate intern
-  url: jihae
+  url: alexkim
+  group: 3
+
+- name: Ashish Jung
+  photo: blank.png
+  info: Undergraduate intern
+  url: ashishjung
+  group: 3
+
+- name: Taejoon Park
+  photo: blank.png
+  info: Undergraduate intern
+  url: tjpark
   group: 3
 
 - name: Il-Bin Kim
