@@ -17,10 +17,12 @@ The emergence of next-generation sequencing technologies has had a profound impa
 </div>
 
 
-## Regulatory noncoding variant in neurological disorders
+## Deep learning to identify regulatory noncoding mutations in neurodevelopmental disorders
 
 <div style="text-align: justify">
 In our previous study ([Werling et al. 2018](https://www.nature.com/articles/s41588-018-0107-y)), we introduced the Category-wide Association Study (CWAS) statistical framework to assess the risk of noncoding mutations in whole genome sequencing (WGS) data of autism families. Our laboratory is continuously refining the CWAS methodology by integrating single-cell datasets of brain tissue and chromatin interactions. Efforts are being made to optimize the functionality and usability of the method, including reducing the time and computational requirements for category generation and multiple testing. Our ultimate goal is to deepen our understanding of the noncoding association for autism and other neurodevelopmental disorders. Furthermore, we are applying the CWAS method to WGS data of Korean Alzheimer's disease patients to identify noncoding mutations that contribute to the risk of disease development.
+
+Our research focuses on developing advanced deep learning models, such as Large Language Models, to identify regulatory noncoding mutations in neurodevelopmental disorders. By integrating these models with large-scale Whole Genome Sequencing datasets from autism studies, we aim to uncover crucial insights into the noncoding genome's role in these conditions. This work builds upon our previous CWAS framework ([Kim et al. 2024](https://academic.oup.com/bib/article/25/4/bbae323/7706421)), which we continue to refine by incorporating single-cell brain tissue datasets and chromatin interaction data. We are optimizing our methodologies to improve efficiency and expanding our scope to include other neurodevelopmental disorders beyond autism. Through these computational approaches, we strive to deepen our understanding of how noncoding mutations contribute to the risk and development of various neurodevelopmental disorders, potentially leading to improved diagnostic tools and biomarkers for autism or intellectual disabilities.
 </div>
 
 
