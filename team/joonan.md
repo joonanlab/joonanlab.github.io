@@ -29,14 +29,15 @@ photo: joonan.jpg
 - 2015-2019 Postdoctoral Fellow, University of California, San Francisco.
 - 2012-2016 Ph.D., Neuroscience, University of Queensland, Australia
 - 2010-2011 M.Sc., Molecular Biology, University of Queensland, Australia
-- 2005-2010 B.Sc, Molecular Biotechnology, Konkuk University, South Korea
+- 2005-2010 B.Sc., Molecular Biotechnology, Konkuk University, South Korea
 
 ### Awards
-- 2024 Green Ribbon Lecture Awards, Korean Society for Molecular and Cellular Biology
-- 2023 Young Scientist Awards, Korea Society of Bioinformatics
-- 2022 Young Scientist Travel Awards, The Japan Neuroscience Society
-- 2020 Young Scientist Travel Awards, The Japan Neuroscience Society
-- 2019 Young Investigator Research Awards, International Society for Autism Research
+- 2024 Rising Star Award, Korea Genome Organization 
+- 2024 Green Ribbon Lecture Award, Korean Society for Molecular and Cellular Biology
+- 2023 Young Scientist Award, Korea Society of Bioinformatics
+- 2022 Young Scientist Travel Award, The Japan Neuroscience Society
+- 2020 Young Scientist Travel Award, The Japan Neuroscience Society
+- 2019 Young Investigator Research Award, International Society for Autism Research
 
 ## Academic Service
 - 2022-present, Editorial Board, eLife
@@ -45,6 +46,8 @@ photo: joonan.jpg
 - 2021-present, Editorial Board, Molecules and Cells
 - 2024-Present, Editorial Board, BMC Genomics & Informatics
 - 2024-Present, 전문위원, 과학기술정통부 바이오·헬스 데이터플랫폼 협의체
+- 2024-Present, 전문위원, 보건의료연구자원정보센터 데이터 공개·활용위원회, 질병관리청
+- 2024-Present, 전문위원, 첨단바이오, 한국연구재단
 - 2022-2024, 전문위원, 보건복지부 보건의료정책심의위원회 디지털헬스 분과
 - 2022-2024, 기획위원, 질병관리청 국립보건연구원 미래의료연구부
 - 2020-2023, 총괄기획위원, 국가통합바이오빅데이터 구축 사업
@@ -55,6 +58,7 @@ photo: joonan.jpg
 
 
 ### Funding
+- 2024-2027 빅데이터 기반 신경발달장애 진단 AI 모델 개발 및 신규 바이오마커  발굴, 바이오·의료기술개발사업, 한국연구재단 (CI)
 - 2022-2024 공포-불안 네트워크를 구성하는 신경세포 다양성 규명 및 조절, 바이오·의료기술개발사업, 한국연구재단 (CI)
 - 2022-2024 전장유전체 기반 한국인 치매 유발 구조변이 및 비암호화 유전변이 분석 및 유전연관성 규명 방법 개발, 치매극복연구개발, 치매극복연구개발사업단 (PI)
 - 2022-2023 전장유전체 기반 한국인 자폐 원인 구조변이 분석 및 유전연관성 규명 방법 개발, 고려대학교 인성재단 (PI)
