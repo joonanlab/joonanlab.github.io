@@ -70,16 +70,22 @@
   url: jihae
   group: 2
 
+- name: Wooheon Kim
+  photo: blank.png
+  info: Bioinformatician
+  url: alexkim
+  group: 2
+
 - name: Seunghwan Choi
   photo: seunghwan.jpg
   info: Undergraduate intern
   url: seunghwan
   group: 3
 
-- name: Wooheon Kim
+- name: Gaeun Byun
   photo: blank.png
   info: Undergraduate intern
-  url: alexkim
+  url: gaeunb
   group: 3
 
 - name: Ashish Jung
