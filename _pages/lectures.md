@@ -59,7 +59,7 @@ Lecture: [Link](https://www.laidd.org/local/ubonline/view.php?id=405&group=1&ret
 
 2024년 AUTISM EXPO에서 대중 강연을 공유합니다. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p7i0nGTBzig?si=s_vQZuNIKUjSf0-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/p7i0nGTBzig?si=s_vQZuNIKUjSf0-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
@@ -77,5 +77,5 @@ Lecture: [Link](https://www.laidd.org/local/ubonline/view.php?id=405&group=1&ret
 
 AWS Seoul Summit에서 발표한 강의를 공유합니다. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g-bDdEGZD08?si=eMmlHNUemNRvgkry&amp;start=789" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/g-bDdEGZD08?si=eMmlHNUemNRvgkry&amp;start=789" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
