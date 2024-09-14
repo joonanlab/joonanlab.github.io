@@ -57,12 +57,20 @@ Lecture: [Link](https://www.laidd.org/local/ubonline/view.php?id=405&group=1&ret
 
 **[3rd 오티즘스쿨] "자폐의 유전자 연구: 유전자 연구란 무엇인가?"**
 
+2024년 AUTISM EXPO에서 대중 강연을 공유합니다. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p7i0nGTBzig?si=s_vQZuNIKUjSf0-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
 
 **DNA를 통해 본 여성의 자폐 (제 19회 경암바이오유스캠프)**
 
+경암바이오유스캠프에서 고등학생들을 대상으로 한 강의를 공유합니다.
+
 <iframe src="https://www.youtube.com/embed/ukLaizaZ_rw?si=HkB_6eI9i4z-EdOq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
 
 **고려대학교의 클라우드를 활용한 유전체 분석 연구의 혁신 사례**
