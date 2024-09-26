@@ -44,6 +44,8 @@ permalink: /project/
 
 **2024**
 
+51\. **Kim SW✻**, **Lee H✻**, Song DY, **Lee GH**, **Ji J**, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim J, **Jung A**, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ†, Werling DM†, Yoo HJ†, **An JY†**, Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism. Genome Medicine, 2024
+
 50\. **Chang E✻**, Kim SJ, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, You S, Kim KP†, **An JY†**, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, Clinical and Translational Medicine, 2024
 
 49\. **Kim S✻**, **Lee J✻**, **Koh IG**, **Ji J**, Kim HJ, Kim E, Park J, Park JE, **An JY†**, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, Experimental & Molecular Medicine, 2024

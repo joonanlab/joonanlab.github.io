@@ -20,7 +20,7 @@ Soowhee's research efforts represent a significant contribution to the growing b
 - 2016-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Publications
-- **Kim SW†**, Lee H†, Song DY, Lee GH, Ji J, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim J, Lee J, Kim E, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim E✻, Werling DM✻, Yoo HJ✻, An JY✻. Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism. Genome Medicine, 2024.
+- **Kim SW†**, Lee H†, Song DY, Lee GH, Ji J, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim J, Jung A, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ†, Werling DM†, Yoo HJ†, An JY†, Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism. Genome Medicine, 2024.
 - Lee T✻, Lee H✻, **Kim S**, Park K, An JY†, Kim HW†, Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Journal of Autism and Developmental Disorders, 2022.
 - **Kim SW✻**, Kim YJ✻, Kim SE†, An JY†, Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System, Biology , 2021
 

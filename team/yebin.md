@@ -17,4 +17,5 @@ Yebin is interested in exploring gene expression and transcriptional profile of 
 - 2024-present M.Sc. candidate, Department of Integrated Biomedical and Life Science, Korea University
 - 2022-2024 B.Sc. in Biomedical Engineering, Korea University
 
-
+### Awards
+- 2024 Graduate Fellowship, National Research Foundation of Korea (2024-2025)
