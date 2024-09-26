@@ -6,11 +6,15 @@ sitemap: false
 permalink: /lectures/
 ---
 
-### Genetics, BSMS205 (Undergraduate level)
+### 유전학 (Genetics)
+
+An undergrduate course at Korea University.
 
 Syllabus and Lecture slides: [Github](https://github.com/joonan30/bsms205)
 
 Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLHncPpe1DdXJhh9kES734U4)
+
+ 
 
 ### 생물정보학 기초 시리즈 (Introduction to Bioinformatics)
 
