@@ -10,7 +10,7 @@ scholar:
 photo: hyejilee.jpg
 ---
 
-Hyeji's research interests lie in investigating the biological mechanisms underlying brain disorders. In pursuit of this goal, she is currently engaged in a whole-genome sequencing analysis of Korean autism families, with a focus on elucidating genetic risk factors for autism. A particular area of emphasis in her research is the identification of specific genetic backgrounds observed within multiplex families affected by autism.
+Hyeji's research interests center on exploring the genetic architecture underlying human diseases through large-scale genomic data analysis. In pursuit of this goal, she is currently engaged in a whole-genome sequencing analysis of Korean autism families, aiming to elucidate genetic factors associated with autism. A particular emphasis in her research is understanding the genetic and phenotypic heterogeneity of autism based on the oligogenic model.
 
 Through her work, Hyeji aims to make significant contributions to our understanding of the genetic basis of autism, with potential implications for the development of new diagnostic and treatment strategies for the disorder. Her research efforts represent an important step towards the identification of key genetic risk factors that may inform the development of personalized treatments for individuals with autism. Her research has the potential to significantly advance our understanding of the complex genetic and molecular underpinnings of brain disorders, with far-reaching implications for public health.
 
