@@ -1,3 +1,20 @@
+- title: Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism
+  image: Kim2024_Sexbias.png
+  authors: Kim SW, Lee HJ, Song DY, Lee GH, Ji JE, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee YJ, Kim JW, Jung A, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ, Werling DM, Yoo HJ, An JY
+  authors_full: Kim Soo-Whee, Lee Hyeji, Song Da Yea, Lee Gang-Hee, Ji Jungeun, Park Jung Woo, Han Jae Hyun, Lee Jee Won, Byun Hee Jung, Son Ji Hyun, Kim Ye Rim, Lee Yoojeong, Kim Jaewon, Jung Ashish, Lee Junehawk, Kim Eunha, Kim So Hyun, Lee Jeong Ho, Satterstrom F Kyle, Girirajan Santhosh, Børglum Anders D, Grove Jakob, Kim Eunjoon, Werling Donna M, Yoo Hee Jeong, An Joon-Yong
+  journal: Genome Medicine
+  year: 2024
+  date: 2024 Dec
+  vol: 16
+  issue: 1
+  page: 1-18
+  doi: 10.1186/s13073-024-01385-6
+  link:
+    url: https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-024-01385-6
+    display: Kim et al., (2024), Genome Medicine
+    display_full: Kim et al., (2024), Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism., Genome Medicine
+  highlight: 1
+
 - title: Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder.
   image: Kim2024_STR.png
   authors: Kim JH, Koh IG, Lee H, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ, An JY
@@ -19,16 +36,16 @@
   image: BTS2024.png
   authors: Kim S, Lee J, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, An JY
   authors_full: Kim S, Lee J, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, An JY
-  journal: bioRxiv
+  journal: Experimental & Molecular Medicine
   year: 2024
-  date: 2024 Apr
+  date: 2024 Oct
   vol: 1
   issue: 1
   page: 1-1
-  doi: 10.1101/2024.04.09.588220
+  doi: 10.1038/s12276-024-01328-6
   link:
-    url: https://www.biorxiv.org/content/10.1101/2024.04.09.588220v1
-    display: Kim et al., (2024), bioRxiv
+    url: https://www.nature.com/articles/s12276-024-01328-6
+    display: Kim et al., (2024), Experimental & Molecular Medicine
     display_full: Kim et al., (2024), An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development., bioRxiv.
   highlight: 1
 
