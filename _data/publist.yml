@@ -49,6 +49,23 @@
     display_full: Kim et al., (2024), An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development., bioRxiv.
   highlight: 1
 
+- title: Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes.
+  image: Darbandi2024.png
+  authors: Darbandi SF, An JY, Lim K, Page NF, Liang L, Young DM, Ypsilanti AR, Nord AS, Sanders SJ, Rubenstein JLR
+  authors_full: Siavash Fazel Darbandi, Joon-Yong An, Kenneth Lim, Nicholas F Page, Lindsay Liang, David M Young, Athena R Ypsilanti, Alex S Nord, Stephan J Sanders, John LR Rubenstein
+  journal: Cell Reports
+  year: 2024
+  date: 2024 June
+  vol: 43
+  issue: 6
+  page: 1-1
+  doi: 10.1016/j.celrep.2024.114329
+  link:
+    url: https://www.cell.com/cell-reports/fulltext/S2211-1247(24)00657-0
+    display: Darbandi et al., (2024), Cell Reports
+    display_full: Darbandi et al., (2024), Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes., Cell Reports
+  highlight: 1
+
 - title: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data.
   image: Kim2024_CWAS.png
   authors: Kim Y, Jeong M, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY
