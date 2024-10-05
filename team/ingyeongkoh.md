@@ -10,11 +10,9 @@ scholar:
 photo: ingyeongkoh.jpg
 ---
 
-Ingyeong is a graduate student with a keen interest in exploring the genetic architecture and complex biological mechanisms underlying neurodevelopmental disorders. Her current research focuses on the analysis of the whole-genome sequencing dataset derived from the Korean autism spectrum disorder cohort. Ingyeong employs advanced genomic and bioinformatic techniques to gain deeper insights into the genetic factors that contribute to neurodevelopmental disorders and the complex mechanisms involved in their development.
+Ingyeong is a graduate student with a strong interest in constructing large scale brain single-cell atlases and exploring the characteristics of diverse brain cell types. Her research focuses on uncovering the biological mechanisms and specific cell types involved in the causes of neurodevelopmental and neurodegenerative disorders. By identifying and analyzing the brain cell populations associated with these diseases, she aims to gain a deeper understanding of the complex cellular interactions and biological processes that drive these conditions.
 
-As a part of her research, Ingyeong is particularly interested in identifying cis-regulatory elements at the single-cell level and examining the role of noncoding mutations in these elements in the development of neurodevelopmental disorders. Cis-regulatory elements are known to play a crucial role in regulating gene expression and other biological processes, and have been implicated in a variety of developmental disorders, including neurodevelopmental disorders.
-
-Through her research, Ingyeong aims to identify novel targets for therapeutic intervention and develop new diagnostic tools that can accurately diagnose and manage neurodevelopmental disorders. Her work has the potential to make significant contributions to our understanding of the underlying mechanisms of neurodevelopmental disorders, ultimately leading to the improvement of the lives of individuals affected by these conditions.
+In particular, she investigates the roles of neurons and glial cells, examining how their interactions contribute to the onset and progression of neurological disorders. She is keen to expand her expertise in advanced analytical techniques about integrating cutting-edge approaches, such as brain organoids and deep learning technologies, to uncover cell type-specific patterns and biomarkers across multiple omics datasets. Through her research, Ingyeong aims to contribute to the development of novel diagnostic and therapeutic strategies for brain disorders.
 
 ### Education & Training
 - 2022-present Ph.D. candidate, Department of Integrated Biomedical and Life Science, Korea University
