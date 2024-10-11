@@ -190,10 +190,11 @@ color: #0c4da2;
 }
 
 
-details {
-  display: block;
+details summary {
+  cursor: pointer;
+  font-weight: bold;
 }
 
-summary {
-  cursor: pointer;
+details[open] summary {
+  color: #007BFF;
 }
