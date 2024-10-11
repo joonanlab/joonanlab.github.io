@@ -188,3 +188,12 @@ color: #0c4da2;
   text-decoration: underline;
   text-decoration-color: darkgray;
 }
+
+
+details {
+  display: block;
+}
+
+summary {
+  cursor: pointer;
+}
