@@ -49,7 +49,10 @@ Please click the name below for the lab member's profile.
 
 ## Doban (Trainee)
 
-<details><summary> What is "Doban"? </summary>
+<details>
+
+<summary> What is "Doban"? </summary>
+
 
 In our lab, we work as scientific companions on a shared journey of discovery, innovation, and intellectual growth. A term that captures this spirit well is "도반" (道伴, doban), drawn from Korean and Buddhist traditions, meaning a "spiritual companion" or "fellow practitioner." While rooted in spiritual contexts, doban represents those who walk together on a path of mutual support, learning, and pursuit of higher goals. In our lab, this idea translates into the collaborative efforts we engage in, where each of us acts as a doban, contributing to and growing from our collective progress in science.
 
