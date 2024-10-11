@@ -21,6 +21,7 @@ Yujin's research builds upon the findings of a previous study by Werling et al. 
 - 2017-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Publications
+- **An JY†** and **Kim YJ✻**, Genomic patterns in the schizophrenia brain, Science, 2024
 - **Kim Y✻**, Jeong M✻, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY†, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, Briefings in Bioinformatics, 2024
 - Park G✻, Jang WE✻, Kim S✻, Gonzales EL, Ji J, Choi S, **Kim Y**, Park JH, Mohammad HB, Bang G, Kang M, Kim SB, Jeon SJ, Kim JY, Kim KP, Shin CY†, An JY†, Kim MS†, Lee YS†, Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental and Molecular Medicine, 2023
 - Yoon K✻, **Kim Y✻**, Kim S✻, Cui Y, Ji J, Choi S, Park G, Chung JH, Lee YS†, An JY†, DH Lee†, Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain, 2022.
