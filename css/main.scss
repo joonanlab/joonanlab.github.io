@@ -189,12 +189,3 @@ color: #0c4da2;
   text-decoration-color: darkgray;
 }
 
-
-details summary {
-  cursor: pointer;
-  font-weight: bold;
-}
-
-details[open] summary {
-  color: #007BFF;
-}
