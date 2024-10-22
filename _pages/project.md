@@ -17,7 +17,7 @@ permalink: /project/
 
 <div class="row">
 
-<div class="col-sm-12">
+<div class="col-sm-6">
  	<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="20%" style="float: left" />
   <p><a class="pub1" href="{{ publi.link.url }}">{{ publi.title }}</a></p>
   <!-- <p><a class="pub2"> {{ publi.authors }} </a></p> -->
