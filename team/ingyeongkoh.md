@@ -23,3 +23,6 @@ In particular, she investigates the roles of neurons and glial cells, examining 
 - Kim Y✻, Jeong M✻, **Koh IG**, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY†, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, Briefings in Bioinformatics, 2024
 - Kim JH✻, **Koh IG**, Lee H, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ†, An JY†, Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder, Psychiatry and Clinical Neurosciences, 2024
 - Kim IB✻, Lee T✻, Lee J, Kim J, Lee S, **Koh IG**, Kim JH, AN JY, Lee H, Kim WK, Ju YS, Cho Y, Yu SJ, Kim SA, Oh M, Han DW, Kim E†, Choi JK†, Yoo HJ†, Lee JH†, Non-coding de novo mutations in chromatin interactions are implicated in autism spectrum disorder, Molecular Psychiatry , 2022.
+
+### Awards
+- Outstanding Poster Award, 2024 Annual Conference of Korean Society for Brain Neural Science
