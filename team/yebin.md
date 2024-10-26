@@ -18,4 +18,5 @@ Yebin is interested in exploring gene expression and transcriptional profile of 
 - 2022-2024 B.Sc. in Biomedical Engineering, Korea University
 
 ### Awards
-- 2024 Graduate Fellowship, National Research Foundation of Korea (2024-2025)
+- 2024 Best poster award, Annual Conference of Korean Society for Bioinformatics
+- 2024 Graduate Fellowship, National Research Foundation of Korea

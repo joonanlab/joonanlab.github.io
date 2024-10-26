@@ -25,8 +25,8 @@ By studying the kinases that are associated with cancer subtypes exhibiting WGD 
 - **Chang E✻** & An JY†, Whole-genome doubling is a double-edged sword: the heterogeneous role of whole-genome doubling in various cancer types, BMB Reports, 2024
 
 ### Awards
-- 2024 Young scientist award at 22th Annual International Proteomics Conference, Korean Human Proteome Organization
-- 2024 Excellent poster award at 22th Annual International Proteomics Conference, Korean Human Proteome Organization
-- 2023 Excellent poster award at the Korean Society for Bioinformatics
+- 2024 Young scientist award, 22th Annual International Proteomics Conference, Korean Human Proteome Organization
+- 2024 Excellent poster award, 22th Annual International Proteomics Conference, Korean Human Proteome Organization
+- 2023 Excellent poster award, Annual Conference of  Korean Society for Bioinformatics
 - 2023 Graduate Fellowship, Kwanjeong Educational Foundation (2023-2024)
-- 2022 Excellent poster award at the Korean Society for Bioinformatics
+- 2022 Excellent poster award, Annual Conference of  Korean Society for Bioinformatics

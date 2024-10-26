@@ -30,9 +30,10 @@ Seoyeon is actively engaged in collaborations across diverse fields of single-ce
 
 
 ### Awards
-- Outstanding Poster Award, 2022 Annual Conference of Korean Society for Bioinformatics, “Gene regulatory network reveals the landscape of myeloid dendritic cell differentiation”
-- Outstanding Poster Award, 2022 International Conference: Korean Society for Molecular and Cellular Biology, "Gene regulatory network reveals the landscape of myeloid dendritic cell differentiation”
-- Research Poster Award, 2023 BK21 L-HOPE graduate symposium “Rnf146 disrupts Wnt/beta-catenin signaling pathway in a VPA-induced mouse model of autism spectrum disorder”
-- AOHUPO Best Posters Award, HUPO World Congress 2023, “Rnf146 disrupts Wnt/beta-catenin signaling pathway in a VPA-induced mouse model of autism spectrum disorder”
+- 2024 Best paper award, Annual Conference of Korean Society for Bioinformatics
+- 2023 Research Poster Award, BK21 L-HOPE graduate symposium 
+- 2023 AOHUPO Best Posters Award, HUPO World Congress
+- 2022 Outstanding Poster Award, Annual Conference of Korean Society for Bioinformatics
+- 2022 Outstanding Poster Award, International Conference: Korean Society for Molecular and Cellular Biology
 
 

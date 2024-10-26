@@ -21,4 +21,4 @@ Jihae is an undergraduate intern, studying and analyzing the brain single-cell d
 - Kim S✻, **Lee J✻**, Koh IG, Ji J, Kim HJ, Kim E, Park J, Park JE, An JY†, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, Experimental & Molecular Medicine, 2024
 
 ### Awards
-- Lambda Poster Award, 2024 Annual Conference of Korean Society for Brain Neural Science
+- 2024 Lambda Poster Award, Annual Conference of Korean Society for Brain Neural Science
