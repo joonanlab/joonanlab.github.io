@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Gaeun Byeon
-position: Bioinformatician
+position: Undergraduate intern
 handle: gaeunb
 email:
 twitter:
