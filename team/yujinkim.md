@@ -7,7 +7,7 @@ email:
 twitter:
 github: randrover
 scholar: 
-photo: yujinkim2.png
+photo: yujinkim.png
 ---
 
 Yujin's primary research interest lies in studying noncoding mutations that disrupt enhancers implicated in autism spectrum disorder (ASD). To this end, she is currently analyzing whole-genome sequencing data from a Korean cohort of individuals with ASD, using a range of computational and statistical techniques. Yujin is working to estimate the functional impact of noncoding variants, with a particular emphasis on enhancer activity, and prioritize causal variants that may be associated with ASD.
