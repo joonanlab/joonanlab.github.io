@@ -3,19 +3,19 @@ layout: member
 title: Yebin Ryu
 position: Graduate Student
 handle: yebin
-email:
+email: yebinryu324@gmail.com
 twitter:
 github: 
 scholar: 
 photo: yebin.png
 ---
 
-Yebin is interested in exploring gene expression and transcriptional profile of brain cells at single cell resolution. She is working on using ATAC-seq to understand specific transcriptional changes occurring in brain cells throughout the developmental processes. She is also interested in deep learning model to predict regulatory activities and expression patterns from genetic sequences. Through understanding the model and single cell technology, she aims to shed light on the impact of non-coding mutations in neurological disorders.
+Yebin's research leverages multi-omic data analysis to uncover biological subtypes and molecular mechanisms underlying cancer. Currently, she is investigating patterns of m6A RNA methylation across various cancer types to better understand how this modification influences gene expression and cellular pathways. Her work integrates transcriptomic, proteomic, and phosphoproteomic data to delineate cancer subtypes and identify unique biological markers associated with disease progression. Through analyzing m6A modification patterns, Yebin aims to shed light on potential therapeutic targets and diagnostic markers for cancer. Her research seeks to deepen the understanding of the regulatory mechanisms driving cancer, ultimately facilitating the development of precision medicine approaches. This work has the potential to inform novel treatment strategies tailored to the specific molecular characteristics of cancer subtypes, with the broader goal of improving patient outcomes.
 
 
 ### Education & Training
 - 2024-present M.Sc. candidate, Department of Integrated Biomedical and Life Science, Korea University
-- 2022-2024 B.Sc. in Biomedical Engineering, Korea University
+- 2020-2024 B.Sc. in Biomedical Engineering, Korea University
 
 ### Awards
 - 2024 Best poster award, Annual Conference of Korean Society for Bioinformatics
