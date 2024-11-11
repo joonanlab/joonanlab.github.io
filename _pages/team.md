@@ -161,7 +161,7 @@ In our lab, we work as scientific companions on a shared journey of discovery, i
 
 ## Alumni
 
-Curious to see where our former team members are now? Click [here](alumni) to explore our esteemed alumni and discover their current affiliations. 
+Click [here](alumni) to see where our former team members are now and explore their current affiliations.
 
 ---
 
