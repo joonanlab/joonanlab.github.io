@@ -44,17 +44,19 @@ permalink: /project/
 
 **2024**
 
-52\. **An JY✻** and **Kim YJ**, Genomic patterns in the schizophrenia brain. Science, 2024
+53\. Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, **Chang E**, Park JS, Shim SB, **Choi S**, **Heo YJ**, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, **Lee GH**, **Hwa C**, **Kim S**, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, Accepted
 
-51\. **Kim SW✻**, **Lee H✻**, Song DY, **Lee GH**, **Ji J**, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim J, **Jung A**, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ†, Werling DM†, Yoo HJ†, **An JY†**, Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism, Genome Medicine, 2024
+52\. Jang D, **Hwa C**, **S Kim**, Oh J, Shin S, Lee SJ, Kim J, Lee SE, Yang Y, Kim D, Lee S, Jung HR, Oh Y, Kim K, Lee HS, **An JY†**, **Cho SY†**, RNA N6-methyladenosine-binding protein YTHDFs redundantly attenuate cancer immunity by downregulating IFN-γ signaling in gastric cancer, Advanced Science, Accepted
 
-50\. **Chang E✻**, Kim SJ, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, You S, Kim KP†, **An JY†**, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, Clinical and Translational Medicine, 2024
+51\. **An JY✻** and **Kim YJ**, Genomic patterns in the schizophrenia brain. Science, 2024
 
-49\. **Kim S✻**, **Lee J✻**, **Koh IG**, **Ji J**, Kim HJ, Kim E, Park J, Park JE, **An JY†**, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, Experimental & Molecular Medicine, 2024
+50\. **Kim SW✻**, **Lee H✻**, Song DY, **Lee GH**, **Ji J**, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim J, **Jung A**, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ†, Werling DM†, Yoo HJ†, **An JY†**, Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism, Genome Medicine, 2024
 
-48\. Song KJ✻, Kim M, **Heo YJ**, Cho KC, Oh JW, Kim DH, **Hwa C**, Do Y, Choi S, Hwang HS, Kim K, Kim KG, Na S, Paek E, **AN JY**, Jang SJ, Kim MS†, Kim KP†, Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability, bioRxiv, 2024 (Under Review)
+49\. **Chang E✻**, Kim SJ, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, You S, Kim KP†, **An JY†**, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, Clinical and Translational Medicine, 2024
 
-47\. Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, **Chang E**, Park JS, Shim SB, **Choi S**, **Heo YJ**, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, **Lee GH**, **Hwa C**, **Kim S**, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, 2024
+48\. **Kim S✻**, **Lee J✻**, **Koh IG**, **Ji J**, Kim HJ, Kim E, Park J, Park JE, **An JY†**, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, Experimental & Molecular Medicine, 2024
+
+47\. Song KJ✻, Kim M, **Heo YJ**, Cho KC, Oh JW, Kim DH, **Hwa C**, Do Y, Choi S, Hwang HS, Kim K, Kim KG, Na S, Paek E, **AN JY**, Jang SJ, Kim MS†, Kim KP†, Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability, bioRxiv, 2024 (Under Review)
 
 46\. **Choi S✻** & **An JY†**, Multiomics-based evaluation for cancer biomarker discovery and cancer subtyping, Advances in Clinical Chemistry, 2024
 
