@@ -4,7 +4,7 @@
   authors_full: Kim Soo-Whee, Lee Hyeji, Song Da Yea, Lee Gang-Hee, Ji Jungeun, Park Jung Woo, Han Jae Hyun, Lee Jee Won, Byun Hee Jung, Son Ji Hyun, Kim Ye Rim, Lee Yoojeong, Kim Jaewon, Jung Ashish, Lee Junehawk, Kim Eunha, Kim So Hyun, Lee Jeong Ho, Satterstrom F Kyle, Girirajan Santhosh, Børglum Anders D, Grove Jakob, Kim Eunjoon, Werling Donna M, Yoo Hee Jeong, An Joon-Yong
   journal: Genome Medicine
   year: 2024
-  date: 2024 Dec
+  date: 2024 Sep
   vol: 16
   issue: 1
   page: 1-18
@@ -13,6 +13,23 @@
     url: https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-024-01385-6
     display: Kim et al., (2024), Genome Medicine
     display_full: Kim et al., (2024), Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism., Genome Medicine
+  highlight: 1
+
+- title: Proteogenomic analysis reveals non-small cell lung cancer subtypes predicting chromosome instability, and tumor microenvironment.
+  image: Song2024_multiomics.png
+  authors: Song KJ, Choi SH, Kim KN, Hwang HS, Chang EH, Park JS, Shim SB, Choi SW, Heo YJ, An WJ, Yang DY, Cho KC, Ji WJ, Choi CM, Lee JC, Kim HR, Yoo JY, Ahn HS, Lee GH, Hwa CW, Kim SY, Kim KG, Kim MS, Paek EO, Na SJ, Jang SJ, An JY, Kim KP
+  authors_full: Kyu Jin Song, Seunghyuk Choi, Kwoneel Kim, Hee Sang Hwang, Eunhyong Chang, Ji Soo Park, Seok Bo Shim, Seunghwan Choi, Yong Jin Heo, Woo Ju An, Dae Yeol Yang, Kyung-Cho Cho, Wonjun Ji, Chang-Min Choi, Jae Cheol Lee, Hyeong-ryul Kim, Jiyoung Yoo, Hee-Sung Ahn, Gang-Hee Lee, Chanwoong Hwa, Seoyeon Kim, Kyunggon Kim, Min-Sik Kim, Eunok Paek, Seungjin Na, Se Jin Jang, Joon-Yong An, Kwang Pyo Kim
+  journal: Nature Communications
+  year: 2024
+  date: 2024 Nov
+  vol: 15
+  issue: 1
+  page: 10164
+  doi: 10.1038/s41467-024-54434-4
+  link:
+    url: https://www.nature.com/articles/s41467-024-54434-4
+    display: Song et al., (2024), Nature Communications
+    display_full: Song et al., (2024), Proteogenomic analysis reveals non-small cell lung cancer subtypes predicting chromosome instability, and tumor microenvironment., Nature Communications
   highlight: 1
 
 - title: Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder.
