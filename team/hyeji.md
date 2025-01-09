@@ -19,6 +19,7 @@ Through her work, Hyeji aims to make significant contributions to our understand
 - 2017-2021 B.Sc., Media & Communication, Korea University
 
 ### Publications
+- Kim JM, Cho HW, Shin DM, Kim OH, Kim J, **Lee H**, Lee GH, An JY, Yang M, Jo HS, Jang JH, Chang YS, Park HY†, Park MH†, Uncovering Potential Causal Genes for Undiagnosed Congenital Anomalies Using an In-House Pipeline for Trio-Based Whole-Genome Sequencing, Human Genomics, 2025
 - Kim SW✻, **Lee H✻**, Song DY, Lee GH, Ji J, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim J, Jung A, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ†, Werling DM†, Yoo HJ†, An JY†, Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism. Genome Medicine, 2024
 - Kim Y✻, Jeong M✻, Koh IG, Kim C, **Lee H**, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY†, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, Briefings in Bioinformatics, 2024
 - Kim JH✻, Koh IG, **Lee H**, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ†, An JY†, Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder, Psychiatry and Clinical Neurosciences, 2024
