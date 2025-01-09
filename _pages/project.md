@@ -42,9 +42,11 @@ permalink: /project/
 ## Publications since 2019 
 (✻First, †Corresponding author, team member names in bold text)
 
-**2024**
+**2025**
 
 54\. Kim JM, Cho HW, Shin DM, Kim OH, Kim J, **Lee H**, **Lee GH**, **An JY**, Yang M, Jo HS, Jang JH, Chang YS, Park HY†, Park MH†, Uncovering Potential Causal Genes for Undiagnosed Congenital Anomalies Using an In-House Pipeline for Trio-Based Whole-Genome Sequencing, Human Genomics, 2025
+
+**2024**
 
 53\. Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, **Chang E**, Park JS, Shim SB, **Choi S**, **Heo YJ**, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, **Lee GH**, **Hwa C**, **Kim S**, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, **An JY†**, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, 2024
 
