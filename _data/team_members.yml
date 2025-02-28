@@ -40,16 +40,22 @@
   url: yebin
   group: 1
 
-- name: Sungmin Kim
-  photo: sungminkim.jpg
-  info: Graduate Student
-  url: sungminkim
-  group: 1
-
 - name: Nahyun Kwon
   photo: blank.png
   info: Graduate Student
   url: nakwon
+  group: 1
+
+- name: Wooheon Kim
+  photo: alexkim.jpg
+  info: Bioinformatician
+  url: alexkim
+  group: 1
+
+- name: Gaeun Byeon
+  photo: gaeunb.jpg
+  info: Undergraduate intern
+  url: gaeunb
   group: 1
 
 - name: Seoyeon Kim
@@ -64,29 +70,17 @@
   url: eunhyong
   group: 2
 
-- name: Sophia Jihae Lee
-  photo: jihaelee.png
+- name: Youngseok Choi
+  photo: blank.png
   info: Bioinformatician
-  url: jihae
-  group: 2
-
-- name: Wooheon Kim
-  photo: alexkim.jpg
-  info: Bioinformatician
-  url: alexkim
+  url: 
   group: 2
 
 - name: Seunghwan Choi
   photo: seunghwan.jpg
-  info: Undergraduate intern
+  info: Bioinformatician
   url: seunghwan
-  group: 3
-
-- name: Gaeun Byeon
-  photo: gaeunb.jpg
-  info: Undergraduate intern
-  url: gaeunb
-  group: 3
+  group: 2
 
 - name: Ashish Jung
   photo: blank.png
@@ -100,6 +94,24 @@
   url: tjpark
   group: 3
 
+- name: Chaewon Min
+  photo: blank.png
+  info: Undergraduate intern
+  url: 
+  group: 3
+
+- name: Jongmoo Lee
+  photo: blank.png
+  info: Undergraduate intern
+  url: 
+  group: 3
+
+- name: Yeojin Ryu
+  photo: blank.png
+  info: Undergraduate intern
+  url: 
+  group: 3
+
 - name: Il-Bin Kim
   photo: blank2.png
   info: Visiting Professor, CHA Gangnam Medical Center, CHA University
@@ -110,4 +122,10 @@
   photo: blank2.png
   info: Visiting Professor, Hanyang University College of Medicine
   url: 
+  group: 5
+
+- name: Sungmin Kim
+  photo: sungminkim.jpg
+  info: Visiting Student, Korean NIH
+  url: sungminkim
   group: 5
