@@ -44,9 +44,9 @@ permalink: /project/
 
 **2025**
 
-55\. Kang M, Choi J, Han J, Araki T, **Kim SW**, Ryu HH, Kim MG, **Kim S**, Jang H, Kim SY, Hwang KD, Kim S, Yoo M, Lee J, Kim K, Park P, Choi JE, Han DH, **Kim Y**, Kim J, Chang S, Kaang BK, Ko JM, Cheon KA, **An JY**, Kim SJ, Park H, Neel BG, Kim CH†, Lee YS†, Aberrant ERK signaling in astrocytes impairs learning and memory in RASopathy-associated BRAF mutant mouse models, Journal of Clinical Investigation, 2025
+55\. Kang M✻, Choi J✻, Han J, Araki T, **Kim SW**, Ryu HH, Kim MG, **Kim S**, Jang H, Kim SY, Hwang KD, Kim S, Yoo M, Lee J, Kim K, Park P, Choi JE, Han DH, **Kim Y**, Kim J, Chang S, Kaang BK, Ko JM, Cheon KA, **An JY**, Kim SJ, Park H, Neel BG, Kim CH†, Lee YS†, Aberrant ERK signaling in astrocytes impairs learning and memory in RASopathy-associated BRAF mutant mouse models, Journal of Clinical Investigation, 2025
 
-54\. Kim JM, Cho HW, Shin DM, Kim OH, Kim J, **Lee H**, **Lee GH**, **An JY**, Yang M, Jo HS, Jang JH, Chang YS, Park HY†, Park MH†, Uncovering Potential Causal Genes for Undiagnosed Congenital Anomalies Using an In-House Pipeline for Trio-Based Whole-Genome Sequencing, Human Genomics, 2025
+54\. Kim JM✻, Cho HW✻, Shin DM, Kim OH, Kim J, **Lee H**, **Lee GH**, **An JY**, Yang M, Jo HS, Jang JH, Chang YS, Park HY†, Park MH†, Uncovering Potential Causal Genes for Undiagnosed Congenital Anomalies Using an In-House Pipeline for Trio-Based Whole-Genome Sequencing, Human Genomics, 2025
 
 **2024**
 
