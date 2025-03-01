@@ -1,30 +1,16 @@
 ---
 layout: member
-title: Chaewon Min
-position: Graduate Student
-handle: chaewon
+title: Taejun Park
+position: Undergraduate intern
+handle: tjpark
 email: 
 twitter: 
 github: 
 scholar: 
-photo: blank.png
+photo: tjpark.jpg
 ---
 
-Soowhee is a highly motivated researcher with a keen interest in understanding the sex-bias in autism spectrum disorder (ASD) through genomic analysis and systems biology. She is currently engaged in a research project that involves the analysis of whole-genome sequencing data of ASD families in Korea. Soowhee's primary focus is on identifying the genetic mechanisms underlying ASD sex bias and developing a prediction model for ASD comorbidity based on this finding.
-
-Soowhee's research efforts represent a significant contribution to the growing body of knowledge on the genetic and molecular underpinnings of ASD. By leveraging the power of single-cell RNA sequencing technology, she aims to gain a deeper understanding of the female or male specific neurobiology of ASD. Her research on ASD sex bias has the potential to shed light on previously unknown aspects of ASD, with implications for the development of novel diagnostic and intervention strategies. 
+Taejun is interested in leveraging long-read whole-genome sequencing data and bioinformatics to improve the accuracy of variant detection. He is engaged in a research project that involves the analysis of long-read whole-genome sequencing data from autism families in Korea. Currently, he is focusing on establishing a pipeline for identifying de novo variants using long-read data and improving its accuracy. Through this, we will be able to determine a more accurate number of de novo variants present in an individual and uncover variants that have a significant impact on autism but were previously undetectable due to technical limitations.
 
 ### Education & Training
-- 2023-present Ph.D. candidate, Department of Integrated Biomedical and Life Science, Korea University
-- 2021-2022 M.Sc., Department of Integrated Biomedical and Life Science, Korea University
-- 2016-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
-
-### Publications
-- **Kim SW†**, Lee H†, Song DY, Lee GH, Ji J, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim J, Jung A, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ†, Werling DM†, Yoo HJ†, An JY†, Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism. Genome Medicine, 2024.
-- Lee T✻, Lee H✻, **Kim S**, Park K, An JY†, Kim HW†, Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Journal of Autism and Developmental Disorders, 2022.
-- **Kim SW✻**, Kim YJ✻, Kim SE†, An JY†, Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System, Biology , 2021
-
-### Awards
-- 2023 Excellent poster award, Annual Conference of Korean Society for Bioinformatics
-- 2023 Sochun Awards, 12th COSMOS Symposium
-- 2023 Early Career Investigator Program Award Recipients, World Congress of Psychiatric Genetics
+- 2020-present B.Sc., Biosystem and Biomedical Sciences, Korea University

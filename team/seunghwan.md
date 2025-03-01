@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Seunghwan Choi
-position: Undergraduate intern
+position: Bioinformatician
 handle: seunghwan
 email:
 twitter:
