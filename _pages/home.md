@@ -19,14 +19,14 @@ We focus on:
 - Integrating multiomics data to better understand genetic heterogeneity in human disorders.
 
 ### Technologies and methods
-The An Lab is primarily a computational biology group that uses a wide range of genomic, bioinformatic, and statistical methods including: **whole-genome sequencing, single cell RNA/ATAC-seq, multi-omics, and cloud computing**.
+The An Lab is a computational biology research group specializing in advanced genomic analysis and AI-driven modeling. Our work focuses on **long-read whole-genome sequencing, multi-omics integration, and cloud computing for large-scale data processing**. We are also developing **LLM-based deep learning models to enhance genomic data interpretation and analysis**.
 
 ### Collaborators
-We work with closely with international collaborators, including the [Sanders Lab](http://sanderslab.ucsf.edu) at Oxford, the [Werling lab](https://werling.genetics.wisc.edu/) at University of Wisconsin-Madison, and the [Minah Kim Lab](https://www.pathology.columbia.edu/research-labs/kim-lab) at Columbia University. Our team is a part of the Korean autism WGS consortium and closely collaborates with [Prof. Hee Jeong Yoo](https://www.snubh.org/medical/drIntroduce.do?sDpCd=NP&sDpCdDtl=NP&sDrSid=1000643&sDrStfNo=00978&sDpTp=) at Seoul National University Bundang Hospital.
+We work with closely with international collaborators, including the [Sanders Lab](http://sanderslab.ucsf.edu) at Oxford and the [Werling lab](https://werling.genetics.wisc.edu/) at University of Wisconsin-Madison. Our team is a part of the Korean autism WGS consortium and closely collaborates with [Prof. Hee Jeong Yoo](https://www.snubh.org/medical/drIntroduce.do?sDpCd=NP&sDpCdDtl=NP&sDrSid=1000643&sDrStfNo=00978&sDpTp=) at Seoul National University Bundang Hospital. 
 
 ### Joining An Lab
 If you are interested in joining please go to the [join us](recruitment) page.
 
 ### Funding
-We are grateful for funding from the National Research Foundation of Korea and Korea Dementia Research Center.
+We are grateful for funding from the National Research Foundation of Korea.
 
