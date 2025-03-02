@@ -73,7 +73,7 @@
 - name: Youngseok Choi
   photo: youngseok.jpg
   info: Bioinformatician
-  url: 
+  url: youngseok
   group: 2
 
 - name: Seunghwan Choi
@@ -85,7 +85,7 @@
 - name: Ashish Jung
   photo: ashish.jpg
   info: Undergraduate intern
-  url: ashishjung
+  url: ashish
   group: 3
 
 - name: Taejun Park
@@ -97,7 +97,7 @@
 - name: Chaewon Min
   photo: chaewon.jpg
   info: Undergraduate intern
-  url: 
+  url: chaewon
   group: 3
 
 - name: Jongmoo Lee
@@ -109,7 +109,7 @@
 - name: Yeojin Ryu
   photo: yeojin.jpg
   info: Undergraduate intern
-  url: 
+  url: yeojin
   group: 3
 
 - name: Il-Bin Kim
