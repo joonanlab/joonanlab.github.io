@@ -7,7 +7,7 @@ email:
 twitter: 
 github: 
 scholar: 
-photo: chaewon.png
+photo: chaewon.jpg
 ---
 
 Chaewon is interested in elucidating the molecular mechanisms underlying cancer drug resistance. She is currently engaged in a research project that integrates phosphoproteomics and whole-genome sequencing data to investigate the primary and secondary resistance mechanisms to targeted immunotherapies in Korean cancer patients.
