@@ -7,7 +7,7 @@ email:
 twitter:
 github: 
 scholar: 
-photo: blank.png
+photo: blank2.png
 ---
 
 Chanwoong is a graduate student specializing in systems biology, with a research interest in T-cell exhaustion in cancer. His current research involves the analysis of multi-omics data to understand the intricate mechanisms that underlie T-cell exhaustion in cancer, with a particular emphasis on identifying potential therapeutic targets. By analyzing multi-omics data, including genomic, transcriptomic, proteomic, and clinical profiles, Chanwoong aims to identify key variables that can provide pathophysiological insights into T-cell exhaustion in cancer. Using advanced computational and statistical techniques, he seeks to uncover previously unknown aspects of the disease, which may inform the development of novel diagnostic and treatment strategies.

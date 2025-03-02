@@ -7,7 +7,7 @@ email:
 twitter: 
 github: esoap
 scholar: 
-photo: jihaelee.png
+photo: blank2.png
 ---
 
 Jihae is an undergraduate intern, studying and analyzing the brain single-cell data. She is fascinated by the immense diversity of cell types in the brain, and how single-cell approaches powerfully unravel its complex aspects. She aims to elucidate the molecular signatures and roles of each neuronal and glial subtype and their developmental gene expression dynamics. Her goal is to decipher the mechanisms of how disruptions in specific cell types contribute to pathological pathways leading to neurological disorders. Her interest lies in the brain's phenotypic complexity resulting from the interplay of distinct cell populations. This drives her fascination with single-cell technologies that visualize and dissect the brain's cellular heterogeneity at unprecedented resolution. Currently, she is constructing and analyzing atlas-level brain single-cell data, aspiring to profoundly classify and understand the brain's diverse cell types. In the process, she is studying and expanding her skillsets in downstream analysis. She eagerly anticipates expanding the investigation of datasets such as brain organoids and multi-omics data that can unveil the brain's cellular secrets.

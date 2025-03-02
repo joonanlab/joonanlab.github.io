@@ -7,7 +7,7 @@ email:
 twitter:
 github: 
 scholar: 
-photo: blank.png
+photo: blank2.png
 ---
 
 Jaehyun's research interests are focused on the analysis of whole genome sequencing data from patients with neurological disorders. To this end, he is developing a bioinformatics pipeline specifically designed to detect tandem repeats that are implicated in the development of these disorders. A key component of his research involves the integration of multiomics single-cell datasets, which enable a comprehensive interpretation of pathogenic genetic variations in relation to the neurological disorders being studied. Jaehyun's ultimate objective is to gain a comprehensive understanding of the genetic architecture underlying these diseases, which requires an in-depth exploration of all forms of human genomic variation.

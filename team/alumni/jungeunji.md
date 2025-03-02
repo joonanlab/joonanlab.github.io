@@ -7,7 +7,7 @@ email:
 twitter:
 github: 
 scholar: 
-photo: blank.png
+photo: blank2.png
 ---
 
 Jungeun is a master's student with a strong interest in the biological mechanisms of the brain and the disorders that affect it. Her research is focused on identifying transcriptional systems involved in the processes of learning and memory using single-cell spatial sequencing technology. By leveraging this cutting-edge technology, Jungeun aims to gain a more comprehensive understanding of the mechanisms that underlie memory formation with high spatial specificity.
