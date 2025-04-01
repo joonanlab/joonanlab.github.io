@@ -1,3 +1,12 @@
+- name: Seoyeon Kim
+  photo: seoyeonkim.jpg
+  info: Graduate Student (M.Sc.)
+  url: seoyeon
+  group: 1
+  year: 2024
+  thesis: Exploring the Cellular and Temporal Specificity of Neurological Disorder Genes in Brain Development
+  current: PhD Student at the Scripps Research Institute, USA
+
 - name: Jungeun Ji
   photo: 
   info: Graduate Student (M.Sc.)
@@ -14,7 +23,7 @@
   group: 1
   year: 2024
   thesis: 
-  current: PhD Student (TBD)
+  current: PhD Student at USA (TBD)
 
 - name: Ganghee Lee
   photo: ganghee.jpg
