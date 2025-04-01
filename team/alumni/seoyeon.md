@@ -3,11 +3,11 @@ layout: member
 title: Seoyeon Kim
 position: Bioinformatician
 handle: seoyeon
-email: ssunrla16@gmail.com
+email: 
 twitter: ssun_1116
 github: ssun1116
 scholar: M0RgrRsAAAAJ
-photo: seoyeon2022.jpg
+photo: seoyeonkim.jpg
 ---
 
 Seoyeon is interested in leveraging single-cell data and bioinformatics to explore the molecular basis of human neurodevelopment and neurological disorders. To this end, she collaborates with experts in proteomics, transcriptomics, and epigenomics, applying her computational expertise and passion for neuroscience. 
