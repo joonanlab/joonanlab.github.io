@@ -7,7 +7,7 @@ email:
 twitter: ssun_1116
 github: ssun1116
 scholar: M0RgrRsAAAAJ
-photo: seoyeonkim.jpg
+photo: blank2.png
 ---
 
 Seoyeon is interested in leveraging single-cell data and bioinformatics to explore the molecular basis of human neurodevelopment and neurological disorders. To this end, she collaborates with experts in proteomics, transcriptomics, and epigenomics, applying her computational expertise and passion for neuroscience. 
