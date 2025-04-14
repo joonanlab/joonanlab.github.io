@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Wooheon Kim
-position: Bioinformatician
+position: Graduate Student
 handle: alexkim
 email:
 twitter:

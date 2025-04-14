@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Gaeun Byeon
-position: Undergraduate intern
+position: Graduate Student
 handle: gaeunb
 email:
 twitter:
