@@ -100,6 +100,18 @@
   url: yeojin
   group: 3
 
+- name: Seoyoun Lee
+  photo: seoyounlee.jpg
+  info: Undergraduate intern
+  url: seoyounlee
+  group: 3
+
+- name: Hayoon Park
+  photo: hayoonpark.jpg
+  info: Undergraduate intern
+  url: hayoonpark
+  group: 3
+
 - name: Il-Bin Kim
   photo: blank2.png
   info: Visiting Professor, CHA Gangnam Medical Center, CHA University
