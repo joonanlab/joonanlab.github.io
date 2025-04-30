@@ -44,6 +44,10 @@ permalink: /project/
 
 **2025**
 
+58\. Prasad R✻, Lee JH✻, Lee DY, Lee Y, **Lee J**, Park SH, Ryu JR, Lee B, Choi S, Choi J, Cho IJ, **An JY**, Vacca F, Ansar M, Kim HJ, Kim M†, Sun W†, Characterization of Human Anterior Neural Organoids as a Model for Investigating Cohen Syndrome, bioRxiv, 2025
+
+57\. Kwon EJ, Hwang HS, **Chang E**, **An JY**, Cha HJ†, Establishment of in silico prediction of adjuvant chemotherapy response from active mitotic gene signature in non-small cell lung cancer, medRxiv, 2025
+
 56\. **Lee HJ✻**, **Kim WH✻**, **Kwon NH✻**, **Kim CH**, **Kim SM**, **An JY†**, Lessons from national biobank projects utilizing whole-genome sequencing for population-scale genomics, Genomics & Informatics, 2025
 
 55\. Kang M✻, Choi J✻, Han J, Araki T, **Kim SW**, Ryu HH, Kim MG, **Kim S**, Jang H, Kim SY, Hwang KD, Kim S, Yoo M, Lee J, Kim K, Park P, Choi JE, Han DH, **Kim Y**, Kim J, Chang S, Kaang BK, Ko JM, Cheon KA, **An JY**, Kim SJ, Park H, Neel BG, Kim CH†, Lee YS†, Aberrant ERK signaling in astrocytes impairs learning and memory in RASopathy-associated BRAF mutant mouse models, Journal of Clinical Investigation, 2025
