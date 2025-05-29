@@ -20,6 +20,7 @@ By studying the kinases that are associated with cancer subtypes exhibiting WGD 
 - 2018-2022 B.Sc., Biosystem and Biomedical Sciences, Korea University
 
 ### Publication
+- Kwon EJ, Hwang HS, **Chang E**, An JY, Cha HJ†, Establishment of in silico prediction of adjuvant chemotherapy response from active mitotic gene signature in non-small cell lung cancer, medRxiv, 2025
 - Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, **Chang E**, Park JS, Shim SB, Choi S, Heo YJ, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, Lee GH, Hwa C, Kim S, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, An JY†, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, 2024
 - **Chang E✻**, Kim SJ, Hwang HS, Song KJ, Kim K, Kim MS, Jang SJ, You S, Kim KP†, An JY†, Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types, Clinical and Translational Medicine, 2024
 - **Chang E✻** & An JY†, Whole-genome doubling is a double-edged sword: the heterogeneous role of whole-genome doubling in various cancer types, BMB Reports, 2024

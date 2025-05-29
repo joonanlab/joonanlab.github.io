@@ -44,6 +44,10 @@ permalink: /project/
 
 **2025**
 
+60\.  Kim JP✻, Cho M✻, **Kim C✻**, Lee H, Jang B, Jung SH, **Kim Y**, **Koh IG**, **Kim S**, Shin D, Lee EH, Lee JY, Park YC, Jang H, Kim BH, Ham H, Kim B, Kim Y, Cho AH, Raj T, Kim HJ, Na DL, Seo SW†, **An JY†**, Won HH†, Whole-genome sequencing analyses suggest novel genetic factors associated with Alzheimer’s disease and a cumulative effects model for risk liability, Nature Communications, 2025
+
+59\.  **Ji J✻**, Baek J✻, Hwang KD✻, **Choi S**, Kasuya J, Abel T†, **An JY†**, Lee YS†, Region- and cell type-specific changes in gene expression in the cerebellum after classical fear conditioning, Research Square, 2025
+
 58\. Prasad R✻, Lee JH✻, Lee DY, Lee Y, **Lee J**, Park SH, Ryu JR, Lee B, Choi S, Choi J, Cho IJ, **An JY**, Vacca F, Ansar M, Kim HJ, Kim M†, Sun W†, Characterization of Human Anterior Neural Organoids as a Model for Investigating Cohen Syndrome, bioRxiv, 2025
 
 57\. Kwon EJ, Hwang HS, **Chang E**, **An JY**, Cha HJ†, Establishment of in silico prediction of adjuvant chemotherapy response from active mitotic gene signature in non-small cell lung cancer, medRxiv, 2025

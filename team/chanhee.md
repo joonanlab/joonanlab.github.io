@@ -22,4 +22,6 @@ Currently, Chanhee is focusing on a research aimed at identifying noncoding vari
 - 2017-2023 B.Sc., Biosystem and Biomedical Sciences, Korea University, South Korea
 
 ### Publication
+- Kim JP✻, Cho M✻, **Kim C✻**, Lee H, Jang B, Jung SH, Kim Y, Koh IG, Kim S, Shin D, Lee EH, Lee JY, Park YC, Jang H, Kim BH, Ham H, Kim B, Kim Y, Cho AH, Raj T, Kim HJ, Na DL, Seo SW†, An JY†, Won HH†, Whole-genome sequencing analyses suggest novel genetic factors associated with Alzheimer’s disease and a cumulative effects model for risk liability, Nature Communications, 2025
+
 - Kim Y✻, Jeong M✻, Koh IG, **Kim C**, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY†, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, Briefings in Bioinformatics, 2024
