@@ -32,6 +32,7 @@ photo: joonan.jpg
 - 2005-2010 B.Sc., Molecular Biotechnology, Konkuk University, South Korea
 
 ### Awards
+- 2025 Seoktap Research Award (석탑연구상), Korea University
 - 2024 Rising Star Award, Korea Genome Organization 
 - 2024 Green Ribbon Lecture Award, Korean Society for Molecular and Cellular Biology
 - 2023 Young Scientist Award, Korea Society of Bioinformatics
