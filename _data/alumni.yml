@@ -1,3 +1,30 @@
+- name: Seunghwan Choi
+  photo: seunghwan.jpg
+  info: Bioinformatician
+  url: seunghwan
+  group: 1
+  year: 2025
+  thesis: 
+  current: PhD Student at Washington University in St. Louis, USA
+
+- name: Eunhyong Chang
+  photo: 
+  info: Graduate Student (M.Sc.)
+  url: eunhyong
+  group: 1
+  year: 2025
+  thesis: Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types
+  current: 
+
+- name: Chanhee Kim
+  photo: seunghwan.jpg
+  info: Graduate Student (M.Sc.)
+  url: chanhee
+  group: 1
+  year: 2025
+  thesis: Association of rare noncoding variants and short tandem repeat expansions with Alzheimer’s disease risk
+  current: 
+
 - name: Seoyeon Kim
   photo: seoyeonkim.jpg
   info: Graduate Student (M.Sc.)

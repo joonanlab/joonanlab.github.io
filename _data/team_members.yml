@@ -28,12 +28,6 @@
   url: ingyeongkoh
   group: 1
 
-- name: Chanhee Kim
-  photo: chanhee.jpg
-  info: Graduate Student
-  url: chanhee
-  group: 1
-
 - name: Yebin Ryu
   photo: yebin.png
   info: Graduate Student (NRF Fellow)
@@ -58,22 +52,10 @@
   url: gaeunb
   group: 1
 
-- name: Eunhyong Chang
-  photo: eunhyong.png
-  info: Bioinformatician
-  url: eunhyong
-  group: 2
-
 - name: Youngseok Choi
   photo: youngseok.jpg
   info: Bioinformatician
   url: youngseok
-  group: 2
-
-- name: Seunghwan Choi
-  photo: seunghwan.jpg
-  info: Bioinformatician
-  url: seunghwan
   group: 2
 
 - name: Ashish Jung
@@ -117,21 +99,3 @@
   info: Undergraduate intern
   url: hwanseoksim
   group: 3
-
-- name: Il-Bin Kim
-  photo: blank2.png
-  info: Visiting Professor, CHA Gangnam Medical Center, CHA University
-  url: 
-  group: 5
-
-- name: Young-Eun Kim
-  photo: blank2.png
-  info: Visiting Professor, Hanyang University College of Medicine
-  url: 
-  group: 5
-
-- name: Sungmin Kim
-  photo: sungminkim.jpg
-  info: Visiting Student, Korean NIH
-  url: sungminkim
-  group: 5
