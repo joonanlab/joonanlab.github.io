@@ -1,12 +1,3 @@
-- name: Seunghwan Choi
-  photo: seunghwan.jpg
-  info: Undergraduate Intern
-  url: seunghwan
-  group: 1
-  year: 2025
-  thesis: 
-  current: PhD Student at Washington University in St. Louis, USA
-
 - name: Eunhyong Chang
   photo: 
   info: Graduate Student (M.Sc.)
@@ -23,15 +14,6 @@
   group: 1
   year: 2025
   thesis: Association of rare noncoding variants and short tandem repeat expansions with Alzheimer’s disease risk
-  current: 
-
-- name: Taejun Park
-  photo: tjpark.jpg
-  info: Undergraduate intern
-  url: tjpark
-  group: 1
-  year: 2025
-  thesis: 
   current: 
 
 - name: Seoyeon Kim
@@ -113,6 +95,24 @@
   group: 2
   year: 2020
   current: Software Engineer at TmaxSoft Inc.
+
+- name: Seunghwan Choi
+  photo: seunghwan.jpg
+  info: Undergraduate Intern
+  url: seunghwan
+  group: 3
+  year: 2025
+  thesis: 
+  current: PhD Student at Washington University in St. Louis, USA
+
+- name: Taejun Park
+  photo: tjpark.jpg
+  info: Undergraduate intern
+  url: tjpark
+  group: 3
+  year: 2025
+  thesis: 
+  current: 
 
 - name: Jaemin Park
   photo: jaepark.jpg
