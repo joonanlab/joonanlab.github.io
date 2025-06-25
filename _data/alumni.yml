@@ -17,12 +17,21 @@
   current: 
 
 - name: Chanhee Kim
-  photo: seunghwan.jpg
+  photo: chanhee.jpg
   info: Graduate Student (M.Sc.)
   url: chanhee
   group: 1
   year: 2025
   thesis: Association of rare noncoding variants and short tandem repeat expansions with Alzheimer’s disease risk
+  current: 
+
+- name: Taejun Park
+  photo: tjpark.jpg
+  info: Undergraduate intern
+  url: tjpark
+  group: 1
+  year: 2025
+  thesis: 
   current: 
 
 - name: Seoyeon Kim
