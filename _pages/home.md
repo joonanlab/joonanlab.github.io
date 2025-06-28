@@ -8,7 +8,7 @@ permalink: /
 
 # Welcome to An Lab at Korea University
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/anlab.png" style="width: 100px; float: left;margin-right: 20px; border: 10px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo2025-AnLab.png" style="width: 100px; float: left;margin-right: 20px; border: 10px">
 
 We are a computational genomics lab studying the etiology of developmental disorders and complex human diseases using high-dimensional genomic data. Our lab utilises a range of genomics and systems biology approaches to better understand regulatory features and cellular trajectory underlying disease development. 
 
