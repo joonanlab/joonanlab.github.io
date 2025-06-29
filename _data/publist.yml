@@ -1,3 +1,21 @@
+
+- title: Whole-genome sequencing analyses suggest novel genetic factors associated with Alzheimer’s disease and a cumulative effects model for risk liability
+  image: Kim2025_AD_WGS.png
+  authors: Kim JP, Cho M, Kim C, Lee H, Jang B, Jung SH, Kim Y, Koh IG, Kim S, Shin D, Lee EH, Lee JY, Park Y, Jang H, Kim BH, Ham H, Kim B, Cho A, Raj T, Kim HJ, Na DL, Seo SW, An JY, Won HH
+  authors_full: Kim Jun Pyo, Cho Minyoung, Kim Chanhee, Lee Hyunwoo, Jang Beomjin, Jung Sang-Hyuk, Kim Yujin, Koh In Gyeong, Kim Seoyeon, Shin Daeun, Lee Eun Hye, Lee Jong-Young, Park YoungChan, Jang Hyemin, Kim Bo-Hyun, Ham Hongki, Kim Beomsu, Cho A, Raj Towfique, Kim Hee Jin, Na Duk L, Seo Sang Won, An Joon-Yong, Won Hong-Hee
+  journal: Nature Communications
+  year: 2025
+  date: 2025 May
+  vol: 16
+  issue: 1
+  page: 1-18
+  doi: 10.1038/s41467-025-00000-x
+  link:
+    url: https://www.nature.com/articles/s41467-025-59949-y
+    display: Kim et al., (2025), Nature Communications
+    display_full: Kim et al., (2025), Whole-genome sequencing analyses suggest novel genetic factors associated with Alzheimer’s disease and a cumulative effects model for risk liability., Nature Communications
+  highlight: 1
+
 - title: Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism.
   image: Kim2024_Sexbias.png
   authors: Kim SW, Lee HJ, Song DY, Lee GH, Ji JE, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee YJ, Kim JW, Jung A, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ, Werling DM, Yoo HJ, An JY
@@ -47,7 +65,7 @@
     url: https://onlinelibrary.wiley.com/doi/10.1111/pcn.13676
     display: Kim et al., (2024), Psychiatry and Clinical Neurosciences
     display_full: Kim et al., (2024), Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder., Psychiatry and Clinical Neurosciences.
-  highlight: 1
+  highlight: 0
 
 - title: An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development.
   image: BTS2024.png
@@ -64,7 +82,7 @@
     url: https://www.nature.com/articles/s12276-024-01328-6
     display: Kim et al., (2024), Experimental & Molecular Medicine
     display_full: Kim et al., (2024), An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development., bioRxiv.
-  highlight: 1
+  highlight: 0
 
 - title: Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes.
   image: Darbandi2024.png
@@ -455,7 +473,7 @@
     url: https://pubmed.ncbi.nlm.nih.gov/32268104
     display: Werling et al., (2020), Cell reports
     display_full: Werling DM, Pochareddy S, Choi J, An JY, Sheppard B, Peng M, Li Z, Dastmalchi C, Santpere G, Sousa AMM, Tebbenkamp ATN, Kaur N, Gulden FO, Breen MS, Liang L, Gilson MC, Zhao X, Dong S, Klei L, Cicek AE, Buxbaum JD, Adle-Biassette H, Thomas JL, Aldinger KA, O'Day DR, Glass IA, Zaitlen NA, Talkowski ME, Roeder K, State MW, Devlin B, Sanders SJ, Sestan N, (2020), Whole-Genome and RNA Sequencing Reveal Variation and Transcriptomic Coordination in the Developing Human Prefrontal Cortex., Cell reports, 31, (1), 2211-1247
-  highlight: 1
+  highlight: 0
  
 - title: Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism.
   image: Satterstrom2020.jpg
@@ -472,7 +490,7 @@
     url: https://pubmed.ncbi.nlm.nih.gov/31981491
     display: Satterstrom et al., (2020), Cell
     display_full: Satterstrom FK, Kosmicki JA, Wang J, Breen MS, De Rubeis S, An JY, Peng M, Collins R, Grove J, Klei L, Stevens C, Reichert J, Mulhern MS, Artomov M, Gerges S, Sheppard B, Xu X, Bhaduri A, Norman U, Brand H, Schwartz G, Nguyen R, Guerrero EE, Dias C, Betancur C, Cook EH, Gallagher L, Gill M, Sutcliffe JS, Thurm A, Zwick ME, Borglum AD, State MW, Cicek AE, Talkowski ME, Cutler DJ, Devlin B, Sanders SJ, Roeder K, Daly MJ, Buxbaum JD, (2020), Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism., Cell, 180, (3), 0092-8674
-  highlight: 1
+  highlight: 0
  
 - title: An integrative analysis of non-coding regulatory DNA variations associated with autism spectrum disorder.
   image: Williams2019.jpg
@@ -574,7 +592,7 @@
     url: https://pubmed.ncbi.nlm.nih.gov/30545852
     display: An et al., (2018), Science
     display_full: An JY, Lin K, Zhu L, Werling DM, Dong S, Brand H, Wang HZ, Zhao X, Schwartz GB, Collins RL, Currall BB, Dastmalchi C, Dea J, Duhn C, Gilson MC, Klei L, Liang L, Markenscoff-Papadimitriou E, Pochareddy S, Ahituv N, Buxbaum JD, Coon H, Daly MJ, Kim YS, Marth GT, Neale BM, Quinlan AR, Rubenstein JL, Sestan N, State MW, Willsey AJ, Talkowski ME, Devlin B, Roeder K, Sanders SJ, (2018), Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder., Science, 362, (6420), 0036-8075
-  highlight: 1
+  highlight: 0
  
 - title: An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder.
   image: Werling2018.jpg
