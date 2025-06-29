@@ -21,7 +21,9 @@ Soowhee's research efforts represent a significant contribution to the growing b
 
 ### Publications
 - **Kim SW✻**, An JY†, Advancing precision diagnosis in autism: Insights from large-scale genomic studies, Molecules and Cells, 2025
+- Kang M✻, Choi J✻, Han J, Araki T, **Kim SW**, Ryu HH, Kim MG, Kim S, Jang H, Kim SY, Hwang KD, Kim S, Yoo M, Lee J, Kim K, Park P, Choi JE, Han DH, Kim Y, Kim J, Chang S, Kaang BK, Ko JM, Cheon KA, An JY, Kim SJ, Park H, Neel BG, Kim CH†, Lee YS†, Aberrant ERK signaling in astrocytes impairs learning and memory in RASopathy-associated BRAF mutant mouse models, Journal of Clinical Investigation, 2025
 - **Kim SW†**, Lee H†, Song DY, Lee GH, Ji J, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim J, Jung A, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ†, Werling DM†, Yoo HJ†, An JY†, Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism. Genome Medicine, 2024.
+- Kim JH✻, Koh IG, Lee H, Lee GH, Song DY, **Kim SW**, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ†, An JY†, Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder, Psychiatry and Clinical Neurosciences, 2024
 - Lee T✻, Lee H✻, **Kim S**, Park K, An JY†, Kim HW†, Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Journal of Autism and Developmental Disorders, 2022.
 - **Kim SW✻**, Kim YJ✻, Kim SE†, An JY†, Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System, Biology , 2021
 

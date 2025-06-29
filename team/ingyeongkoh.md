@@ -19,6 +19,7 @@ In particular, she investigates the roles of neurons and glial cells, examining 
 - 2017-2021 B.Sc., Department of Biomedical Engineering, Hankuk University of Foreign Studies
 
 ### Publications
+- Kim JP✻, Cho M✻, Kim C✻, Lee H, Jang B, Jung SH, Kim Y, **Koh IG**, Kim S, Shin D, Lee EH, Lee JY, Park YC, Jang H, Kim BH, Ham H, Kim B, Kim Y, Cho AH, Raj T, Kim HJ, Na DL, Seo SW†, An JY†, Won HH†, Whole-genome sequencing analyses suggest novel genetic factors associated with Alzheimer’s disease and a cumulative effects model for risk liability, Nature Communications, 2025
 - Kim S✻, Lee J✻, **Koh IG**, Ji J, Kim HJ, Kim E, Park J, Park JE, An JY†, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, Experimental & Molecular Medicine, 2024
 - Kim Y✻, Jeong M✻, **Koh IG**, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY†, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, Briefings in Bioinformatics, 2024
 - Kim JH✻, **Koh IG**, Lee H, Lee GH, Song DY, Kim SW, Kim Y, Han JH, Bong G, Lee J, Byun H, Son JH, Kim YR, Lee Y, Kim JJ, Park JW, Kim IB, Choi JK, Jang JH, Trost B, Lee J, Kim E, Yoo HJ†, An JY†, Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder, Psychiatry and Clinical Neurosciences, 2024
