@@ -44,6 +44,8 @@ permalink: /project/
 
 **2025**
 
+61\. **Kim SW✻**, **An JY†**, Advancing precision diagnosis in autism: Insights from large-scale genomic studies, Molecules and Cells, 2025
+
 61\. Jeong JW✻, Yoo HJ, **An JY**, Jeong SJ†, Dysregulated RNA Binding Proteins and Alternative Splicing: Emerging Roles in Autism Spectrum Disorder, Molecules and Cells, 2025
 
 60\. Kim JP✻, Cho M✻, **Kim C✻**, Lee H, Jang B, Jung SH, **Kim Y**, **Koh IG**, **Kim S**, Shin D, Lee EH, Lee JY, Park YC, Jang H, Kim BH, Ham H, Kim B, Kim Y, Cho AH, Raj T, Kim HJ, Na DL, Seo SW†, **An JY†**, Won HH†, Whole-genome sequencing analyses suggest novel genetic factors associated with Alzheimer’s disease and a cumulative effects model for risk liability, Nature Communications, 2025
