@@ -44,7 +44,7 @@ permalink: /project/
 
 **2025**
 
-61\. **Kim SW✻**, **An JY†**, Advancing precision diagnosis in autism: Insights from large-scale genomic studies, Molecules and Cells, 2025
+62\. **Kim SW✻**, **An JY†**, Advancing precision diagnosis in autism: Insights from large-scale genomic studies, Molecules and Cells, 2025
 
 61\. Jeong JW✻, Yoo HJ, **An JY**, Jeong SJ†, Dysregulated RNA Binding Proteins and Alternative Splicing: Emerging Roles in Autism Spectrum Disorder, Molecules and Cells, 2025
 
