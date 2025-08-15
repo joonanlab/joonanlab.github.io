@@ -44,6 +44,12 @@ permalink: /project/
 
 **2025**
 
+65\. **Kim SW✻**, **Lee H**, Song DY, **Lee GH**, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim E, Werling DM, Kim SH, Sanders SJ, Yoo HJ†, **An JY†**, Evaluation of familial phenotype deviation to measure the impact of de novo mutations in autism, Genome Medicine, 2025
+
+64\. **Ryu Y✻**, **Chang E**, Park H, Cho S-Y†, **An JY†**, Proteogenomic Analysis on RNA m6A Modification-Associated Genes Identifies a Distinct Subgroup with High IGF2BPs Expression Across Cancer Types, International Journal of Medical Sciences, 2025
+
+63\. Nam G✻, Yeon HR, Park HB, Chang H, Kim JH, Cho BK, Jung H, Yi EC, **Kim S**, **An JY**, Lee JE, Lee Y, Lee S, Lim H, Shon W, Hwang EM, Ryu H, Chang J, Choi K, Choi EY†, CD99-mediated immunological synapse formation potentiates CAR-T cell function, Nature Communications, 2025
+
 62\. **Kim SW✻**, **An JY†**, Advancing precision diagnosis in autism: Insights from large-scale genomic studies, Molecules and Cells, 2025
 
 61\. Jeong JW✻, Yoo HJ, **An JY**, Jeong SJ†, Dysregulated RNA Binding Proteins and Alternative Splicing: Emerging Roles in Autism Spectrum Disorder, Molecules and Cells, 2025
