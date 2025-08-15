@@ -16,3 +16,5 @@ Hayoon focuses her research on elucidating the biological characteristics of can
 ### Education & Training
 - 2022-present B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
+### Publication
+- Ryu Y✻, Chang E, **Park H**, Cho S-Y†, An JY†, Proteogenomic Analysis on RNA m6A Modification-Associated Genes Identifies a Distinct Subgroup with High IGF2BPs Expression Across Cancer Types, International Journal of Medical Sciences, 2025

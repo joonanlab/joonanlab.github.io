@@ -44,7 +44,9 @@ permalink: /project/
 
 **2025**
 
-65\. **Kim SW✻**, **Lee H**, Song DY, **Lee GH**, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim E, Werling DM, Kim SH, Sanders SJ, Yoo HJ†, **An JY†**, Evaluation of familial phenotype deviation to measure the impact of de novo mutations in autism, Genome Medicine, 2025
+66\. **Kim SW✻**, **Lee H**, Song DY, **Lee GH**, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim E, Werling DM, Kim SH, Sanders SJ, Yoo HJ†, **An JY†**, Evaluation of familial phenotype deviation to measure the impact of de novo mutations in autism, Genome Medicine, 2025
+
+65\. Kim SY*, Yoon K-N*, **Ji J**, Kim M, Choi SA, Lee W-W, Chung JH, Park G, **An JY**, Lee DH**, Lee Y-S**, Peripheral Substance P induces deficits in hippocampal synaptic plasticity and memory. Molecular Brain, 2025
 
 64\. **Ryu Y✻**, **Chang E**, Park H, Cho S-Y†, **An JY†**, Proteogenomic Analysis on RNA m6A Modification-Associated Genes Identifies a Distinct Subgroup with High IGF2BPs Expression Across Cancer Types, International Journal of Medical Sciences, 2025
 
@@ -62,7 +64,7 @@ permalink: /project/
 
 57\. Kwon EJ, Hwang HS, **Chang E**, **An JY**, Cha HJ†, Establishment of in silico prediction of adjuvant chemotherapy response from active mitotic gene signature in non-small cell lung cancer, medRxiv, 2025
 
-56\. **Lee HJ✻**, **Kim WH✻**, **Kwon NH✻**, **Kim CH**, **Kim SM**, **An JY†**, Lessons from national biobank projects utilizing whole-genome sequencing for population-scale genomics, Genomics & Informatics, 2025
+56\. **Lee H✻**, **Kim WH✻**, **Kwon NH✻**, **Kim CH**, **Kim SM**, **An JY†**, Lessons from national biobank projects utilizing whole-genome sequencing for population-scale genomics, Genomics & Informatics, 2025
 
 55\. Kang M✻, Choi J✻, Han J, Araki T, **Kim SW**, Ryu HH, Kim MG, **Kim S**, Jang H, Kim SY, Hwang KD, Kim S, Yoo M, Lee J, Kim K, Park P, Choi JE, Han DH, **Kim Y**, Kim J, Chang S, Kaang BK, Ko JM, Cheon KA, **An JY**, Kim SJ, Park H, Neel BG, Kim CH†, Lee YS†, Aberrant ERK signaling in astrocytes impairs learning and memory in RASopathy-associated BRAF mutant mouse models, Journal of Clinical Investigation, 2025
 

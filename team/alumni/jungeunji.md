@@ -21,7 +21,9 @@ In summary, Jungeun's research employs single-cell spatial sequencing technology
 - 2017-2022 B.Sc., Division of Life Sciences, Korea University
 
 ### Publications
-- Kim S✻, Lee J✻, Koh IG, **Ji J**, Kim HJ, Kim E, Park J, Park JE, An JY†, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, bioRxiv, 2024 (In Revision)
+- **Ji J✻**, Baek J✻, Hwang KD✻, Choi S, Kasuya J, Abel T†, An JY†, Lee YS†, Region- and cell type-specific changes in gene expression in the cerebellum after classical fear conditioning, Research Square, 2025
+- Kim SY*, Yoon K-N*, **Ji J**, Kim M, Choi SA, Lee W-W, Chung JH, Park G, An JY, Lee DH**, Lee Y-S**, Peripheral Substance P induces deficits in hippocampal synaptic plasticity and memory. Molecular Brain, 2025
+- Kim S✻, Lee J✻, Koh IG, **Ji J**, Kim HJ, Kim E, Park J, Park JE, An JY†, An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development, Experimental & Molecular Medicine, 2024
 - Yoon KN✻, Kim SY✻, **Ji J**, Cui Y, Quan QL, Park G, Oh JH, Lee JS, An JY, Chung JH†, Lee YS†, Lee DH†, Chronic ultraviolet irradiation induces memory deficits via dysregulation of the dopamine pathway, Experimental and Molecular Medicine, 2024
 - Park G✻, Jang WE✻, Kim S✻, Gonzales EL, **Ji J**, Choi S, Kim YJ, Park JH, Mohammad HB, Bang G, Kang M, Kim SB, Jeon SJ, Kim JY, Kim KP, Shin CY†, An JY†, Kim MS†, Lee YS†, Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder, Experimental and Molecular Medicine, 2023
 - Yoon K✻, Kim Y✻, Kim S✻, Cui Y, **Ji J**, Choi S, Park G, Chung JH, Lee YS†, An JY†, DH Lee†, Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain, 2022.

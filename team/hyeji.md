@@ -19,6 +19,8 @@ Through her work, Hyeji aims to make significant contributions to our understand
 - 2017-2021 B.Sc., Media & Communication, Korea University
 
 ### Publications
+- Kim SW✻, **Lee H**, Song DY, Lee GH, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim E, Werling DM, Kim SH, Sanders SJ, Yoo HJ†, An JY†, Evaluation of familial phenotype deviation to measure the impact of de novo mutations in autism, Genome Medicine, 2025
+- **Lee H✻**, Kim WH✻, Kwon NH✻, Kim CH, Kim SM, An JY†, Lessons from national biobank projects utilizing whole-genome sequencing for population-scale genomics, Genomics & Informatics, 2025
 - Kim JM, Cho HW, Shin DM, Kim OH, Kim J, **Lee H**, Lee GH, An JY, Yang M, Jo HS, Jang JH, Chang YS, Park HY†, Park MH†, Uncovering Potential Causal Genes for Undiagnosed Congenital Anomalies Using an In-House Pipeline for Trio-Based Whole-Genome Sequencing, Human Genomics, 2025
 - Kim SW✻, **Lee H✻**, Song DY, Lee GH, Ji J, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim J, Jung A, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ†, Werling DM†, Yoo HJ†, An JY†, Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism. Genome Medicine, 2024
 - Kim Y✻, Jeong M✻, Koh IG, Kim C, **Lee H**, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY†, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, Briefings in Bioinformatics, 2024

@@ -16,3 +16,5 @@ Nahyeon's researcher focus is on large-scale whole genome sequencing analysis fo
 - 2024-present M.Sc. candidate, Department of Integrated Biomedical and Life Science, Korea University
 - 2018-2023 B.Sc., Biotechnology, Korea University
 
+### Publications
+- Lee H✻, Kim WH✻, **Kwon NH✻**, Kim CH, Kim SM, An JY†, Lessons from national biobank projects utilizing whole-genome sequencing for population-scale genomics, Genomics & Informatics, 2025

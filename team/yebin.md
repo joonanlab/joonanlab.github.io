@@ -17,6 +17,10 @@ Yebin's research leverages multi-omic data analysis to uncover biological subtyp
 - 2024-present M.Sc. candidate, Department of Integrated Biomedical and Life Science, Korea University
 - 2020-2024 B.Sc. in Biomedical Engineering, Korea University
 
+### Publications
+- **Ryu Y✻**, Chang E, Park H, Cho S-Y†, An JY†, Proteogenomic Analysis on RNA m6A Modification-Associated Genes Identifies a Distinct Subgroup with High IGF2BPs Expression Across Cancer Types, International Journal of Medical Sciences, 2025
+
 ### Awards
 - 2024 Best poster award, Annual Conference of Korean Society for Bioinformatics
 - 2024 Graduate Fellowship, National Research Foundation of Korea
+

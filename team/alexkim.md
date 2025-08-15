@@ -15,3 +15,6 @@ Wooheon's research interests focus on the technical aspects of large-scale whole
 ### Education & Training
 - 2018-2024 B.Sc., School of Systems Biomedical Science, Soongsil University, South Korea
 
+### Publications
+- Lee H✻, **Kim WH✻**, Kwon NH✻, Kim CH, Kim SM, An JY†, Lessons from national biobank projects utilizing whole-genome sequencing for population-scale genomics, Genomics & Informatics, 2025
+

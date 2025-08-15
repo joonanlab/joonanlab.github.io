@@ -20,6 +20,9 @@ Soowhee's research efforts represent a significant contribution to the growing b
 - 2016-2020 B.Sc. in Biosystem and Biomedical Sciences, Korea University
 
 ### Publications
+- **Kim SW✻**, Lee H, Song DY, Lee GH, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim E, Werling DM, Kim SH, Sanders SJ, Yoo HJ†, An JY†, Evaluation of familial phenotype deviation to measure the impact of de novo mutations in autism, Genome Medicine, 2025
+- Ryu Y✻, Chang E, Park H, Cho S-Y†, An JY†, Proteogenomic Analysis on RNA m6A Modification-Associated Genes Identifies a Distinct Subgroup with High IGF2BPs Expression Across Cancer Types, International Journal of Medical Sciences, 2025
+- **Kim SW✻**, An JY†, Advancing precision diagnosis in autism: Insights from large-scale genomic studies, Molecules and Cells, 2025
 - **Kim SW✻**, An JY†, Advancing precision diagnosis in autism: Insights from large-scale genomic studies, Molecules and Cells, 2025
 - Kang M✻, Choi J✻, Han J, Araki T, **Kim SW**, Ryu HH, Kim MG, Kim S, Jang H, Kim SY, Hwang KD, Kim S, Yoo M, Lee J, Kim K, Park P, Choi JE, Han DH, Kim Y, Kim J, Chang S, Kaang BK, Ko JM, Cheon KA, An JY, Kim SJ, Park H, Neel BG, Kim CH†, Lee YS†, Aberrant ERK signaling in astrocytes impairs learning and memory in RASopathy-associated BRAF mutant mouse models, Journal of Clinical Investigation, 2025
 - **Kim SW†**, Lee H†, Song DY, Lee GH, Ji J, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim J, Jung A, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ†, Werling DM†, Yoo HJ†, An JY†, Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism. Genome Medicine, 2024.
