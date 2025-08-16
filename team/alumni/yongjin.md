@@ -17,6 +17,6 @@ Yongjin is an undergraduate intern working on characterize the co-expression gen
 - 2015-2020 B.Sc., Pharmacy, Ajou University, South Korea
 
 ### Publications
-- Song KJ✻, Kim M, **Heo YJ**, Cho KC, Oh JW, Kim DH, Hwa C, Do Y, Choi S, Hwang HS, Kim K, Kim KG, Na S, Paek E, AN JY, Jang SJ, Kim MS†, Kim KP†, Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability, bioRxiv, 2024
+- Song KJ✻, Kim M, **Heo YJ**, Cho KC, Oh JW, Kim DH, Hwa C, Do Y, Choi S, Hwang HS, Kim K, Kim K, Na S, Paek E, An JY, Jang SJ, Kim MS†, Kim KP†. Assessing long-term stored tissues for multi-omics data quality and proteogenomics suitability. Journal of Proteome Research. 2025
 - Song KJ✻, Choi S✻, Kim K✻, Hwang HS✻, Chang E, Park JS, Shim SB, Choi S, Heo YJ, An WJ, Yang DY, Cho KC, Ji W, Choi CM, Lee JC, Kim HR, Yoo J, Ahn HS, **Lee GH**, Hwa C, Kim S, Kim KG, Kim MS, Paek E, Na S†, Jang SJ†, An JY†, Kim KP†, Proteogenomic Analysis of a Korean Cohort Reveals Lung Cancer Subtypes Predictive of Metastasis, Chromosome Instability, and Tumor Microenvironment, Nature Communications, 2024
 - **Heo YJ✻**, Hwa C, Lee GH, Park JM, An JY†, Integrative multi-omics approaches in cancer research: from biological networks to clinical subtypes, Molecules and Cells, 2021
