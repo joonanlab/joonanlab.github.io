@@ -52,6 +52,18 @@
   url: gaeunb
   group: 1
 
+- name: Chaewon Min
+  photo: chaewon.jpg
+  info: Graduate Student
+  url: chaewon
+  group: 1
+
+- name: Yeojin Ryu
+  photo: yeojin.jpg
+  info: Graduate Student
+  url: yeojin
+  group: 1
+
 - name: Youngseok Choi
   photo: youngseok.jpg
   info: Bioinformatician
@@ -62,18 +74,6 @@
   photo: ashish.jpg
   info: Undergraduate intern
   url: ashish
-  group: 3
-
-- name: Chaewon Min
-  photo: chaewon.jpg
-  info: Undergraduate intern
-  url: chaewon
-  group: 3
-
-- name: Yeojin Ryu
-  photo: yeojin.jpg
-  info: Undergraduate intern
-  url: yeojin
   group: 3
 
 - name: Seoyoun Lee

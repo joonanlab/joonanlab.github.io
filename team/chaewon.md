@@ -15,4 +15,5 @@ Chaewon is interested in elucidating the molecular mechanisms underlying cancer 
 Chaewon's research focuses on identifying specific phosphorylated proteins and genetic variants in cancer patients who have developed resistance to targeted immunotherapies. By comparing data before and after the acquisition of resistance, she aims to uncover the molecular basis of drug resistance. Through her research, chaewon seeks to provide insights into the molecular mechanisms of resistance to kinase inhibitors within targeted immunotherapy, helping to explain interpatient differences in resistance responses that cannot be attributed solely to genetic mutations.
 
 ### Education & Training
-- 2021-2024 B.Sc. in Medical and Biological Sciences, The Catholic University of Korea
+- 2025-present M.Sc. candidate, Department of Integrated Biomedical and Life Science, Korea University
+- 2021-2025 B.Sc. in Medical and Biological Sciences, The Catholic University of Korea
