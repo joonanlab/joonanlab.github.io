@@ -7,9 +7,23 @@ permalink: /code/
 ---
 
 
-# Code
+# Code & Dataset
 
 ---
+
+## Brain Transcriptome Single-cell (BTS) Atlas
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/SCN2A_multiplot.png" style="width: 300px">
+
+Brain Transcriptome Single-cell Atlas (BTS) Anndata, Seurat object, and Celltypist model for further use of the atlas. The Celltypist model can be utilized to accurately annotate cell types in new datasets based on the atlas. Plots illustrating the expression profile for 3,380 neurological disorder risk genes across the atlas are also uploaded. Further availability for the data can be requested by the corresponding author.
+
+This dataset is published in Kim, S., Lee, J., Koh, I.G. et al. An integrative single-cell atlas for exploring the cellular and temporal specificity of genes related to neurological disorders during human brain development. Exp Mol Med 56, 2271–2282 (2024). https://doi.org/10.1038/s12276-024-01328-6
+
+
+- <a href="https://zenodo.org/records/14177002"><i class='fab fa-database'></i> Source</a>
+- <a href="https://bts-brain-cell-atlas.cells.ucsc.edu/"><i class='fa fa-map'></i> UCSC Cell Browser</a>
+- <a href="https://www.nature.com/articles/s12276-024-01328-6"><i class='fa fa-book'></i> Paper</a>
 
 ## CWAS-Plus: A new version of Category-Wide Association Study
 
