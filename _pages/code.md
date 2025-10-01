@@ -21,7 +21,7 @@ Brain Transcriptome Single-cell Atlas (BTS) Anndata, Seurat object, and Celltypi
 This dataset is published in Kim, S., Lee, J., Koh, I.G. et al. An integrative single-cell atlas for exploring the cellular and temporal specificity of genes related to neurological disorders during human brain development. Exp Mol Med 56, 2271–2282 (2024). https://doi.org/10.1038/s12276-024-01328-6
 
 
-- <a href="https://zenodo.org/records/14177002"><i class='fab fa-database'></i> Source</a>
+- <a href="https://zenodo.org/records/14177002"><i class='fa fa-database'></i> Source</a>
 - <a href="https://bts-brain-cell-atlas.cells.ucsc.edu/"><i class='fa fa-map'></i> UCSC Cell Browser</a>
 - <a href="https://www.nature.com/articles/s12276-024-01328-6"><i class='fa fa-book'></i> Paper</a>
 
