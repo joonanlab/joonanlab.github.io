@@ -146,14 +146,14 @@ firstp {
 	font-size: 21px;
 	font-weight: 3000;
 	line-height: 23px;
-  color: black;
+  color: #3a2c2c;
   cursor:pointer;
 }
 
 .pub1:hover{
 color:#0c4da2;
   text-decoration: underline;
-  text-decoration-color: #6e5b5b;
+  text-decoration-color: #e6d5b8;
 }
 
 .pub2 {
@@ -169,7 +169,7 @@ color:#0c4da2;
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 	font-size: 14px;
   font-weight: 200;
-  color: black;
+  color: #6e5b5b;
   pointer-events: none;
 }
 
@@ -179,12 +179,12 @@ color:#0c4da2;
 
 .regtext {
 	font-size: 16px;
-  color: #0c4da2;
+  color: #8c2f2f;
   cursor:pointer;
 }
 
 regtext:hover{
-color: #0c4da2;
+color: #d35c4d;
   text-decoration: underline;
   text-decoration-color: darkgray;
 }
