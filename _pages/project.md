@@ -44,6 +44,8 @@ permalink: /project/
 
 **2025**
 
+67\. Kim S✻, Kim H✻, Pelayo J, Alvarez S, Jang G, Kim J, Hoelscher V, Calleja-Pérez B, Jung H, **Lee J**, **Kim S**, Jimenez de la Peña M, Han A, Lee DS, Ji S, Yu W, Kim HM, **An JY**, Oh WC, Kwon S-K, Um JW, Fernández-Jaén A†, Ko J†. Autism-associated MDGA1 missense mutations impair distinct facets of central nervous system development. medRxiv. 2025
+
 66\. Song KJ✻, Kim M, **Heo YJ**, Cho KC, Oh JW, Kim DH, **Hwa C**, Do Y, Choi S, Hwang HS, Kim K, Kim K, Na S, Paek E, **An JY**, Jang SJ, Kim MS†, Kim KP†. Assessing long-term stored tissues for multi-omics data quality and proteogenomics suitability. Journal of Proteome Research. 2025
 
 65\. **Kim SW✻**, **Lee H**, Song DY, **Lee GH**, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee Y, Kim E, Werling DM, Kim SH, Sanders SJ, Yoo HJ†, **An JY†**, Evaluation of familial phenotype deviation to measure the impact of de novo mutations in autism, Genome Medicine, 2025
