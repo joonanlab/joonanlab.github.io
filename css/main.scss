@@ -3,6 +3,16 @@
 
 @import "bootstrap";
 
+/* ===== Global color overrides (An Lab palette) ===== */
+body { color: #3a2c2c; }                               /* 본문 글자색 */
+a, a:visited { color: #8c2f2f; }                        /* 링크 기본 */
+a:hover, a:focus {
+  color: #d35c4d;                                       /* 링크 hover */
+  text-decoration: underline;
+  text-decoration-color: #e6d5b8;                       /* 밑줄 색(토) */
+}
+/* 작은 텍스트/메타 */
+small, .text-muted, .byline, .post-meta { color: #6e5b5b; }
 
 
 img { margin-bottom: 24px;
