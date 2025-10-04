@@ -146,21 +146,21 @@ firstp {
 	font-size: 21px;
 	font-weight: 3000;
 	line-height: 23px;
-  color: black;
+  color: black !important;
   cursor:pointer;
 }
 
 .pub1:hover{
-color:#0c4da2;
+color:#0c4da2 !important;
   text-decoration: underline;
-  text-decoration-color: #e6d5b8;
+  text-decoration-color: darkgray !important;
 }
 
 .pub2 {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 	font-size: 16px;
   font-weight: 500;
-  color: black;
+  color: black !important;
   pointer-events: none;
 }
 
@@ -169,7 +169,7 @@ color:#0c4da2;
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 	font-size: 14px;
   font-weight: 200;
-  color: black;
+  color: black !important;
   pointer-events: none;
 }
 
@@ -179,13 +179,13 @@ color:#0c4da2;
 
 .regtext {
 	font-size: 16px;
-  color: #0c4da2;
+  color: #0c4da2 !important;
   cursor:pointer;
 }
 
-.regtext:hover{
-color: #0c4da2;
+regtext:hover{
+color: #0c4da2 !important;
   text-decoration: underline;
-  text-decoration-color: #e6d5b8;
+  text-decoration-color: darkgray !important;
 }
 
