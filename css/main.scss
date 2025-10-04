@@ -3,16 +3,6 @@
 
 @import "bootstrap";
 
-/* ===== Global color overrides (An Lab palette) ===== */
-body { color: #3a2c2c; }                               /* 본문 글자색 */
-a, a:visited { color: #8c2f2f; }                        /* 링크 기본 */
-a:hover, a:focus {
-  color: #d35c4d;                                       /* 링크 hover */
-  text-decoration: underline;
-  text-decoration-color: #e6d5b8;                       /* 밑줄 색(토) */
-}
-/* 작은 텍스트/메타 */
-small, .text-muted, .byline, .post-meta { color: #6e5b5b; }
 
 
 img { margin-bottom: 24px;
@@ -156,7 +146,7 @@ firstp {
 	font-size: 21px;
 	font-weight: 3000;
 	line-height: 23px;
-  color: #3a2c2c;
+  color: black;
   cursor:pointer;
 }
 
@@ -170,7 +160,7 @@ color:#0c4da2;
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 	font-size: 16px;
   font-weight: 500;
-  color: #3a2c2c;
+  color: black;
   pointer-events: none;
 }
 
@@ -179,7 +169,7 @@ color:#0c4da2;
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 	font-size: 14px;
   font-weight: 200;
-  color: #6e5b5b;
+  color: black;
   pointer-events: none;
 }
 
@@ -189,33 +179,13 @@ color:#0c4da2;
 
 .regtext {
 	font-size: 16px;
-  color: #8c2f2f;
+  color: #0c4da2;
   cursor:pointer;
 }
 
-regtext:hover{
-color: #d35c4d;
+.regtext:hover{
+color: #0c4da2;
   text-decoration: underline;
-  text-decoration-color: darkgray;
+  text-decoration-color: #e6d5b8;
 }
 
-
-
-/* ===== An Lab Global Color Overrides ===== */
-body {
-  color: #3a2c2c;  /* 본문 */
-}
-
-a, a:visited {
-  color: #8c2f2f;  /* 링크 기본 */
-}
-
-a:hover, a:focus {
-  color: #d35c4d;                      /* hover 링크 */
-  text-decoration: underline;
-  text-decoration-color: #e6d5b5;      /* 밑줄 베이지 */
-}
-
-small, .text-muted, .byline, .post-meta {
-  color: #6e5b5b;  /* 작은 글씨 */
-}
