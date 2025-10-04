@@ -199,3 +199,23 @@ color: #d35c4d;
   text-decoration-color: darkgray;
 }
 
+
+
+/* ===== An Lab Global Color Overrides ===== */
+body {
+  color: #3a2c2c;  /* 본문 */
+}
+
+a, a:visited {
+  color: #8c2f2f;  /* 링크 기본 */
+}
+
+a:hover, a:focus {
+  color: #d35c4d;                      /* hover 링크 */
+  text-decoration: underline;
+  text-decoration-color: #e6d5b5;      /* 밑줄 베이지 */
+}
+
+small, .text-muted, .byline, .post-meta {
+  color: #6e5b5b;  /* 작은 글씨 */
+}
