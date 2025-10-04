@@ -1,11 +1,7 @@
 ---
 ---
 
-/* Global overrides (optional) */
-body { color: #3a2c2c; }
-a, a:visited { color: #8c2f2f; }
-a:hover, a:focus { color: #d35c4d; text-decoration: underline; text-decoration-color: #e6d5b8; }
-small, .text-muted, .byline, .post-meta { color: #6e5b5b; }
+@import "bootstrap";
 
 
 
@@ -150,37 +146,21 @@ firstp {
 	font-size: 21px;
 	font-weight: 3000;
 	line-height: 23px;
-  color: black !important;
+  color: black;
   cursor:pointer;
 }
 
 .pub1:hover{
-color:#0c4da2 !important;
+color:#0c4da2;
   text-decoration: underline;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  text-decoration-color: darkgray !important;
-=======
   text-decoration-color: darkgray;
->>>>>>> parent of c8e86c0 (Update main.scss)
-=======
-  text-decoration-color: darkgray;
->>>>>>> parent of c8e86c0 (Update main.scss)
 }
 
 .pub2 {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 	font-size: 16px;
   font-weight: 500;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  color: black !important;
-=======
   color: black;
->>>>>>> parent of c8e86c0 (Update main.scss)
-=======
-  color: black;
->>>>>>> parent of c8e86c0 (Update main.scss)
   pointer-events: none;
 }
 
@@ -189,7 +169,7 @@ color:#0c4da2 !important;
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 	font-size: 14px;
   font-weight: 200;
-  color: black !important;
+  color: black;
   pointer-events: none;
 }
 
@@ -199,13 +179,13 @@ color:#0c4da2 !important;
 
 .regtext {
 	font-size: 16px;
-  color: #0c4da2 !important;
+  color: #0c4da2;
   cursor:pointer;
 }
 
 regtext:hover{
-color: #0c4da2 !important;
+color: #0c4da2;
   text-decoration: underline;
-  text-decoration-color: darkgray !important;
+  text-decoration-color: darkgray;
 }
 
