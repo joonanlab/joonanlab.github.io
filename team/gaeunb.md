@@ -16,3 +16,5 @@ Gaeun Byeon is dedicated to advancing our understanding of cellular interactions
 - 2020-2024 B.Sc., Biomedical Science and Engineering, Konkuk University
 - 2020-2024 B.Sc., Food Marketing and Technology, Konkuk University
 
+### Awards
+- 2025 Best poster award, Annual Conference of Korean Society for Bioinformatics

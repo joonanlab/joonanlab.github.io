@@ -31,6 +31,7 @@ Soowhee's research efforts represent a significant contribution to the growing b
 - **Kim SW✻**, Kim YJ✻, Kim SE†, An JY†, Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System, Biology , 2021
 
 ### Awards
-- 2023 Excellent poster award, Annual Conference of Korean Society for Bioinformatics
+- 2025 Best Paper Award, Annual Conference of Korean Society for Bioinformatics
+- 2023 Excellent Poster Award, Annual Conference of Korean Society for Bioinformatics
 - 2023 Sochun Awards, 12th COSMOS Symposium
 - 2023 Early Career Investigator Program Award Recipients, World Congress of Psychiatric Genetics

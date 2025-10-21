@@ -26,6 +26,7 @@ In particular, she investigates the roles of neurons and glial cells, examining 
 - Kim IB✻, Lee T✻, Lee J, Kim J, Lee S, **Koh IG**, Kim JH, AN JY, Lee H, Kim WK, Ju YS, Cho Y, Yu SJ, Kim SA, Oh M, Han DW, Kim E†, Choi JK†, Yoo HJ†, Lee JH†, Non-coding de novo mutations in chromatin interactions are implicated in autism spectrum disorder, Molecular Psychiatry , 2022.
 
 ### Awards
+- 2025 Excellent poster award, Annual Conference of Korean Society for Bioinformatics
 - 2025 Predoctoral Fellowship, National Research Foundation of Korea (2025-2027)
 - 2024 Excellent poster award, Annual Conference of Korean Society for Bioinformatics
 - 2024 Outstanding Poster Award, Annual Conference of Korean Society for Brain Neural Science

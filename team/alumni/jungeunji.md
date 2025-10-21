@@ -29,4 +29,4 @@ In summary, Jungeun's research employs single-cell spatial sequencing technology
 - Yoon K✻, Kim Y✻, Kim S✻, Cui Y, **Ji J**, Choi S, Park G, Chung JH, Lee YS†, An JY†, DH Lee†, Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus, Molecular Brain, 2022.
 
 ### Awards
-- 2023 Best research poster award at 2023 BK21 L-HOPE graduate symposium
+- 2023 Best research poster award at 2023 BK21 L-HOPE Graduate Symposium

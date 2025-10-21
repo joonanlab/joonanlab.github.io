@@ -28,5 +28,6 @@ Through her work, Hyeji aims to make significant contributions to our understand
 - Lee T✻, **Lee H✻**, Kim S, Park K, An JY†, Kim HW†, Risk variants could inform early neurodevelopmental outcome in children with developmental disabilities, Journal of Autism and Developmental Disorders, 2022
 
 ### Awards
+- 2025 Best Poster Award at the 21th KOGO Winter Symposium
 - 2024 Predoctoral Fellowship, National Research Foundation of Korea (2024-2026)
 

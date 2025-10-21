@@ -32,5 +32,7 @@ Yujin's research builds upon the findings of a previous study by Werling et al. 
 - **Kim Y✻**, An JY†, Spatio-temporal roles of ASD-associated variants in human brain development, Genes, 2020
 
 ### Awards
-- 2024 Best paper award, Annual Conference of Korean Society for Bioinformatics
+- 2024, Outstanding Presentation Award, 2024 International Joint Conference of KSMGG & EAUHGS
+- 2024, Best Posters Awards, the 32nd International KOGO Annual Conference
+- 2024 Best Paper Award, Annual Conference of Korean Society for Bioinformatics
 - 2022 Predoctoral Fellowship, SBS Seoam Yoon Se Young Foundation (2022-2026)
