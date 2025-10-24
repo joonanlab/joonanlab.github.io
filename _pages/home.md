@@ -25,7 +25,20 @@ We focus on:
 The An Lab is a computational biology research group specializing in advanced genomic analysis and AI-driven modeling. Our work focuses on **long-read whole-genome sequencing, multi-omics integration, and cloud computing for large-scale data processing**. We are also developing **LLM-based deep learning models to enhance genomic data interpretation and analysis**.
 
 ### Collaborators
-We work with closely with international collaborators, including the [Sanders Lab](http://sanderslab.ucsf.edu) at Oxford and the [Werling lab](https://werling.genetics.wisc.edu/) at University of Wisconsin-Madison. Our team is a part of the Korean autism WGS consortium and closely collaborates with [Prof. Hee Jeong Yoo](https://www.snubh.org/medical/drIntroduce.do?sDpCd=NP&sDpCdDtl=NP&sDrSid=1000643&sDrStfNo=00978&sDpTp=) at Seoul National University Bundang Hospital. 
+
+**Korean Autism Research Consortium (KARC)**
+
+<img src="images/logopic/logo-K-ARC.png" alt="K-ARC Logo" width="400">
+
+Our team is a part of the Korean autism research consortium (KARC) and closely collaborates with Prof. Hee Jeong Yoo at Seoul National University Bundang Hospital, who leads the consortium.
+
+**International Collaborations**
+
+We work closely with international collaborators, including:
+- Stephan Sanders at Oxford
+- Donna Werling at University of Wisconsin-Madison
+- Stephen Scherer and Brett Trost at SickKids Hospital
+- Anders D. Børglum and Jakob Grove at iPSYCH, Aarhus, Denmark
 
 ### Joining An Lab
 If you are interested in joining please go to the [join us](recruitment) page.
