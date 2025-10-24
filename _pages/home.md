@@ -28,9 +28,7 @@ The An Lab is a computational biology research group specializing in advanced ge
 
 **Korean Autism Research Consortium (KARC)**
 
-<img src="images/logopic/logo-K-ARC.png" alt="K-ARC Logo" width="400">
-
-Our team is a part of the Korean autism research consortium (KARC) and closely collaborates with Prof. Hee Jeong Yoo at Seoul National University Bundang Hospital, who leads the consortium.
+Our team is a part of the [Korean autism research consortium (KARC)](/karc) and closely collaborates with Prof. Hee Jeong Yoo at Seoul National University Bundang Hospital, who leads the consortium.
 
 **International Collaborations**
 
