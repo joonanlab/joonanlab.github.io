@@ -55,26 +55,20 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 - 2024-Present, Grant Review Panel, UK Research and Innovation
 - Ad hoc peer reviewer: Biological Psychiatry, BMC Genomics, Experimental and Molecular Medicine, eLife, JAMA, JAMA Psychiatry, Molecular Autism, Molecular Psychiatry, Nature Communications, PLOS Genetics, Translational Psychiatry
 
-
 ### Funding
-좋아, 요청한 형식에 맞춰 **영문 우선 + 한글 병기**로 Funding 섹션을 재정리하면 아래처럼 정리돼.
-연도 순서와 기관·프로그램명 표기 규칙도 모두 통일했어.
+- 2025–2030 Identification of sex-specific genetic factors in autism using DNA methylation and genomic imprinting, Mid-career Researcher Program, National Research Foundation of Korea (**PI**), DNA 메틸레이션 및 유전체 각인을 활용한 자폐 성별 특이적 유전인자 규명 연구, 중견연구자지원사업, 한국연구재단
+- 2025–2028 Development of proteogenomics framework for predicting anticancer drug resistance, Korea–US Joint Cancer Research Program, National Cancer Center (**PI**), 인산화 단백체-유전체 통합 분석을 통한 항암제 내성 예측 및 인포매틱스 기술 개발, 한미암공동연구사업, 국립암센터
+- 2024–2028 Development of analytic framework for long-read sequencing and improving rare disease diagnostic yield, Korean National Research Centre in Bioinformatics, Korea Research Institute of Bioscience and Biotechnology (**CI**), 롱리드 시퀀싱 기반 한국인 전장유전체 변이분석 방법론 개발 및 희귀질환 진단률 향상, 국가생명연구자원정보센터, 한국생명공학연구원
+- 2024–2028 Mapping immune–neural networks using a human brain organoid, Global Collaborative Research Program, Ministry of Health and Welfare (**CI**), 인간신경오가노이드 패널을 이용한 면역-신경 네트워크 지도 작성, 글로벌연구협력지원사업, 보건복지부
+- 2024–2027 AI models for diagnosing neurodevelopmental disorders and discovering new biomarkers, Bio & Medical Technology Development Program, National Research Foundation of Korea (**CI**), 빅데이터 기반 신경발달장애 진단 AI 모델 개발 및 신규 바이오마커 발굴, 바이오·의료기술개발사업, 한국연구재단
+- 2022–2024 Characterization and regulation of neuronal diversity in the fear–anxiety network, Bio & Medical Technology Development Program, National Research Foundation of Korea (**CI**), 공포-불안 네트워크를 구성하는 신경세포 다양성 규명 및 조절, 바이오·의료기술개발사업, 한국연구재단
+- 2022–2024 Development of analytical methods for structural and noncoding variants causing dementia in the Korean population using whole-genome data, Dementia Overcoming Research & Development Program (**PI**), 전장유전체 기반 한국인 치매 유발 구조변이 및 비암호화 유전변이 분석 및 유전연관성 규명 방법 개발, 치매극복연구개발사업단
+- 2022–2023 Analysis of autism-causing structural variants in the Korean population and development of genetic association methods using whole-genome sequencing, Inseong Foundation, Korea University (**PI**), 전장유전체 기반 한국인 자폐 원인 구조변이 분석 및 유전연관성 규명 방법 개발, 고려대학교 인성재단
+- 2021–2025 Development of gene-based diagnostic technologies in Korean families with autism spectrum disorder, Bio & Medical Technology Development Program, National Research Foundation of Korea (**CI**), 한국인 자폐스펙트럼장애 가족에서 유전자기반 진단 기술 개발, 바이오·의료기술개발사업, 한국연구재단
+- 2021–2024 Active Transition T Cell Tolerance Research Laboratory, Basic Research Laboratory Program, National Research Foundation of Korea (**CI**), 능동전환 T세포관용 연구실, 기초연구실지원사업, 한국연구재단
+- 2020–2025 Development of categorical association methods for studying noncoding mutations and identifying pathogenic enhancer mutations underlying neurodevelopmental disorders, Young Investigator Program, National Research Foundation of Korea (**PI**), Noncoding mutation 연구를 위한 범주형 연관성 방법론 개발 및 신경발달장애 원인 pathogenic enhancer mutation 규명, 신진연구자지원사업, 한국연구재단
+- 2020–2021 Identification and validation of novel molecular targets and pathways related to autism using mouse models, Brain Research Program, National Research Foundation of Korea (**CI**), 생쥐 모델을 이용한 자폐증 관련 신규표적분자, 경로 발굴 및 검증, 뇌과학원천기술개발사업, 한국연구재단
+- 2020–2021 Analysis of cellular composition and disease relevance in the subthalamic nucleus using single-cell transcriptomic data, Brain Research Program, National Research Foundation of Korea (**PI**), 단일세포 전사체 기반 하 시상핵의 세포 조성 및 뇌질환 연관성 분석, 뇌과학원천기술개발사업, 한국연구재단
+- 2019–2024 Development of intelligent informatics technologies and infrastructure for multi-omics–based precision medicine, Bio & Medical Technology Development Program, National Research Foundation of Korea (**CI**), 다중오믹스 기반 정밀의료를 위한 지능형 인포매틱스 기술 개발 및 기반 구축, 바이오·의료기술개발사업, 한국연구재단
+- 2018–2019 Post-Doctoral Fellowship, Autism Science Foundation & FamilieSCN2A Foundation (**PI**)
 
----
-
-### Funding
-- 2025–2030 Identification of sex-specific genetic factors in autism using DNA methylation and genomic imprinting (DNA 메틸레이션 및 유전체 각인을 활용한 자폐 성별 특이적 유전인자 규명 연구), Mid-career Researcher Program (중견연구자지원사업), National Research Foundation of Korea (PI)
-- 2025–2028 Development of proteogenomics framework for predicting anticancer drug resistance (인산화 단백체-유전체 통합 분석을 통한 항암제 내성 예측 및 인포매틱스 기술 개발), Korea–US Joint Cancer Research Program (한미암공동연구사업), National Cancer Center (PI)
-- 2024–2028 Development of analytic framework for long-read sequencing and improving rare disease diagnostic yield (롱리드 시퀀싱 기반 한국인 전장유전체 변이분석 방법론 개발 및 희귀질환 진단률 향상), Korean National Research Centre in Bioinformatics (국가생명연구자원정보센터), Korea Research Institute of Bioscience and Biotechnology (CI)
-- 2024–2028 Mapping immune–neural networks using a human brain organoid (인간신경오가노이드 패널을 이용한 면역-신경 네트워크 지도 작성), Global Collaborative Research Program (글로벌연구협력지원사업), Ministry of Health and Welfare (CI)
-- 2024–2027 AI models for diagnosing neurodevelopmental disorders and discovering new biomarkers (빅데이터 기반 신경발달장애 진단 AI 모델 개발 및 신규 바이오마커 발굴), Bio & Medical Technology Development Program (바이오·의료기술개발사업), National Research Foundation of Korea (CI)
-- 2022–2024 Characterization and regulation of neuronal diversity in the fear–anxiety network (공포-불안 네트워크를 구성하는 신경세포 다양성 규명 및 조절), Bio & Medical Technology Development Program (바이오·의료기술개발사업), National Research Foundation of Korea (CI)
-- 2022–2024 Development of analytical methods for structural and noncoding variants causing dementia in the Korean population using whole-genome data (전장유전체 기반 한국인 치매 유발 구조변이 및 비암호화 유전변이 분석 및 유전연관성 규명 방법 개발), Dementia Overcoming Research & Development Program (치매극복연구개발사업단) (PI)
-- 2022–2023 Analysis of autism-causing structural variants in the Korean population and development of genetic association methods using whole-genome sequencing (전장유전체 기반 한국인 자폐 원인 구조변이 분석 및 유전연관성 규명 방법 개발), Inseong Foundation, Korea University (고려대학교 인성재단) (PI)
-- 2021–2025 Development of gene-based diagnostic technologies in Korean families with autism spectrum disorder (한국인 자폐스펙트럼장애 가족에서 유전자기반 진단 기술 개발), Bio & Medical Technology Development Program (바이오·의료기술개발사업), National Research Foundation of Korea (CI)
-- 2021–2024 Active Transition T Cell Tolerance Research Laboratory (능동전환 T세포관용 연구실), Basic Research Laboratory Program (기초연구실지원사업), National Research Foundation of Korea (CI)
-- 2020–2025 Development of categorical association methods for studying noncoding mutations and identifying pathogenic enhancer mutations underlying neurodevelopmental disorders (Noncoding mutation 연구를 위한 범주형 연관성 방법론 개발 및 신경발달장애 원인 pathogenic enhancer mutation 규명), Young Investigator Program (신진연구자지원사업), National Research Foundation of Korea (PI)
-- 2020–2021 Identification and validation of novel molecular targets and pathways related to autism using mouse models (생쥐 모델을 이용한 자폐증 관련 신규표적분자, 경로 발굴 및 검증), Brain Research Program (뇌과학원천기술개발사업), National Research Foundation of Korea (CI)
-- 2020–2021 Analysis of cellular composition and disease relevance in the subthalamic nucleus using single-cell transcriptomic data (단일세포 전사체 기반 하 시상핵의 세포 조성 및 뇌질환 연관성 분석), Brain Research Program (뇌과학원천기술개발사업), National Research Foundation of Korea (PI)
-- 2019–2024 Development of intelligent informatics technologies and infrastructure for multi-omics–based precision medicine (다중오믹스 기반 정밀의료를 위한 지능형 인포매틱스 기술 개발 및 기반 구축), Bio & Medical Technology Development Program (바이오·의료기술개발사업), National Research Foundation of Korea (CI)
-- 2018–2019 Post-Doctoral Fellowship, Autism Science Foundation & FamilieSCN2A Foundation (PI)
