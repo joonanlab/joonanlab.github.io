@@ -70,6 +70,12 @@
   url: youngseok
   group: 2
 
+- name: Haeun Jeong
+  photo: haeun.png
+  info: Bioinformatician
+  url: haeun
+  group: 2
+
 - name: Ashish Jung
   photo: ashish.jpg
   info: Undergraduate intern
