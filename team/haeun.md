@@ -7,7 +7,7 @@ email: jeonghaeunnn@gmail.com
 twitter:
 github:
 scholar: 
-photo: haeun.jpg
+photo: haeun.png
 ---
 
 Haeun is dedicated to uncovering the molecular mechanisms that drive heterogeneous drug responses in cancer using integrative multi-omics approaches. Her research combines proteomic, phosphoproteomic, and transcriptomic data to investigate how dysregulation of gene expression and post-translational processes shapes signaling dynamics and influences therapeutic outcomes.
