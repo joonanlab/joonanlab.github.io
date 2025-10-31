@@ -10,14 +10,16 @@ permalink: /lectures/
 
 An undergrduate course at Korea University.
 
-Syllabus and Lecture slides: [Github](https://github.com/joonan30/bsms205)
+Online Textbook: [Human Genetics via Chaek](https://chaek.org/books/human-genetics)
 
-Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLHncPpe1DdXJhh9kES734U4)
-
+Lecture videos: [English, Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLHncPpe1DdXJhh9kES734U4)
+Lecture videos: [Korean, Youtube](https://www.youtube.com/watch?v=D5ytuZGtVZE&list=PLrSeOrCeGDLF6CzLvPUj9eQBb_fIO3WTB)
 
 ### 생물정보학 기초 시리즈 (Introduction to Bioinformatics)
 
 생물정보학, 바이오 빅데이터 분석 관련 기본 강의들을 업로드 합니다.
+
+Online Textbook: [Basic Statistics for Omics: A Hands-On Coding Guide for Biology Students via Chaek](https://chaek.org/books/basic-stats-omics-labs)
 
 Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLHJDRWShvuCf8l7uffUqqvC)
 
@@ -28,9 +30,11 @@ Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLHJDR
 
 Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLGTc2V5CEr_3yck4xmC6kGu)
 
-### 대학원 신입생 및 학부생을 위한 논문 읽기 팁
+### 대학원 신입생 및 학부생을 위한 논문 읽기 그리고 쓰기 팁
 
 연구 논문을 찾고, 읽는 법 그리고 본인의 논문 작성을 위한 방법들을 소개합니다. 
+
+Online Textbook: [나의 첫번째 논문 쓰기 via Chaek](https://chaek.org/books/how-to-write-paper)
 
 Lecture videos: [Youtube](https://www.youtube.com/playlist?list=PLrSeOrCeGDLEDv5TuWY8MD-5Oej_7rhyi)
 
