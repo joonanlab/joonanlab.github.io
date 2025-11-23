@@ -75,9 +75,43 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 
 
 
-<div class="collapsible-section">
-<h3 class="collapsible-header">Invited Seminar ▼</h3>
-<div class="collapsible-content">
+<style>
+.talk-section {
+  margin: 20px 0;
+}
+.talk-header {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+  user-select: none;
+}
+.talk-header:hover {
+  background-color: #e8e8e8;
+}
+.talk-header::after {
+  content: " ▼";
+  float: right;
+}
+.talk-header.active::after {
+  content: " ▲";
+}
+.talk-content {
+  display: none;
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 15px;
+}
+.talk-content.show {
+  display: block;
+}
+</style>
+
+<div class="talk-section">
+<div class="talk-header" onclick="toggleTalk(this)">Invited Seminar</div>
+<div class="talk-content" markdown="1">
 
 
 ## Invited Talks and Presentations
