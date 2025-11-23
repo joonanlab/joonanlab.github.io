@@ -44,6 +44,8 @@ permalink: /project/
 
 **2025**
 
+69\. Do H✻, Kim D, Jappelli R, Yang H, Jeon Y, Son G, Ju M, Son J, Ahn I, Lim CK, **Ji J**, **Lee J**, Kim YK, **An JY**, Lee SH, Lee D, Gage FH, Han J†. AGO1 in neural progenitor cells orchestrates brain development and sociability via LIN28A-REELIN axis. bioRxiv. 2025
+
 68\. Lee E✻, **Kim S**, Zhu CL, Acquarone E, Kim S, Lo A, Omar OMF, Taddese M, Gradinaru V, Murphy PA, Agalliu D, Arancio O, **An JY**, Kim M†. Angiopoietin-2 aggravates Alzheimer’s disease by promoting blood-brain barrier dysfunction and neuroinflammation. Cell Reports. 2025
 
 67\. Kim S✻, Kim H✻, Pelayo J, Alvarez S, Jang G, Kim J, Hoelscher V, Calleja-Pérez B, Jung H, **Lee J**, **Kim S**, Jimenez de la Peña M, Han A, Lee DS, Ji S, Yu W, Kim HM, **An JY**, Oh WC, Kwon S-K, Um JW, Fernández-Jaén A†, Ko J†. Autism-associated MDGA1 missense mutations impair distinct facets of central nervous system development. medRxiv. 2025
