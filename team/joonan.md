@@ -73,7 +73,26 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 - 2019–2024 Development of intelligent informatics technologies and infrastructure for multi-omics–based precision medicine, Bio & Medical Technology Development Program, National Research Foundation of Korea (**CI**), 다중오믹스 기반 정밀의료를 위한 지능형 인포매틱스 기술 개발 및 기반 구축, 바이오·의료기술개발사업, 한국연구재단
 - 2018–2019 Post-Doctoral Fellowship, Autism Science Foundation & FamilieSCN2A Foundation (**PI**)
 
+<details>
+  <summary>🔽 클릭해서 리스트 열기</summary>
+  <ul>
+    <li>첫 번째 항목</li>
+    <li>두 번째 항목</li>
+    <li>세 번째 항목</li>
+  </ul>
+</details>
 
+<details>
+
+  <summary>🔽 클릭해서 리스트 열기</summary>
+
+  <ul>
+    <li>첫 번째 항목</li>
+    <li>두 번째 항목</li>
+    <li>세 번째 항목</li>
+  </ul>
+
+</details>
 
 <details>
   <summary>Invited Talks and Presentations</summary>
