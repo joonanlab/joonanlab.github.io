@@ -19,18 +19,18 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 
 [Download CV (PDF)](https://www.dropbox.com/scl/fi/7md3k4gn0jlj6l1f48kyr/CV_JoonYongAn.pdf?rlkey=c53yydicd57o98d9df0fsbc97&dl=0)
 
-### Professional Experience
+## Professional Experience
 - 2022-Present, Associate Professor, Korea University
 - 2019-2022, Assistant Professor, Korea University
 - 2015-2019, Postdoctoral Scholar, UCSF
 
-### Education & Training
+## Education & Training
 - 2015-2019 Postdoctoral Fellow, University of California, San Francisco.
 - 2012-2016 Ph.D., Neuroscience, University of Queensland, Australia
 - 2010-2011 M.Sc., Molecular Biology, University of Queensland, Australia
 - 2005-2010 B.Sc., Molecular Biotechnology, Konkuk University, South Korea
 
-### Awards
+## Awards
 - 2025 Seoktap Research Award (석탑연구상), Korea University
 - 2024 Rising Star Award, Korea Genome Organization 
 - 2024 Green Ribbon Lecture Award, Korean Society for Molecular and Cellular Biology
@@ -56,7 +56,7 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 - 2024-Present, Grant Review Panel, UK Research and Innovation
 - Ad hoc peer reviewer: Biological Psychiatry, BMC Genomics, Experimental and Molecular Medicine, eLife, JAMA, JAMA Psychiatry, Molecular Autism, Molecular Psychiatry, Nature Communications, PLOS Genetics, Translational Psychiatry
 
-### Funding
+## Funding
 - 2025–2030 Identification of sex-specific genetic factors in autism using DNA methylation and genomic imprinting, Mid-career Researcher Program, National Research Foundation of Korea (**PI**), DNA 메틸레이션 및 유전체 각인을 활용한 자폐 성별 특이적 유전인자 규명 연구, 중견연구자지원사업, 한국연구재단
 - 2025–2028 Development of proteogenomics framework for predicting anticancer drug resistance, Korea–US Joint Cancer Research Program, National Cancer Center (**PI**), 인산화 단백체-유전체 통합 분석을 통한 항암제 내성 예측 및 인포매틱스 기술 개발, 한미암공동연구사업, 국립암센터
 - 2024–2028 Development of analytic framework for long-read sequencing and improving rare disease diagnostic yield, Korean National Research Centre in Bioinformatics, Korea Research Institute of Bioscience and Biotechnology (**CI**), 롱리드 시퀀싱 기반 한국인 전장유전체 변이분석 방법론 개발 및 희귀질환 진단률 향상, 국가생명연구자원정보센터, 한국생명공학연구원
@@ -75,8 +75,7 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 
 
 
-<details markdown="1">
-
+<details>
 <summary>Invited Seminar</summary>
 
 
