@@ -74,7 +74,7 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 
 
 
-<details>
+<details markdown="1">
 <summary>Invited Seminar</summary>
 
 ## Invited Talks and Presentations
