@@ -228,13 +228,3 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 * 2025/04/06, Paradise Foundation, Genetics and Autism
 * 2025/05/19, Special Education for Teachers (Dankook University), Genetics of Autism
 * 2025/09/17, Gwangseong Haneulbit School, Genetics of Autism
-
-
-| Date | Event/Organization | Topic |
-|------|-------------------|-------|
-| 2023/7/27 | KSMCB Kyeongam Bio Youth Camp | Understanding female autism through DNA |
-| 2024/3/16 | Brain Awareness Week Event | Human brain development through the lens of single-cell atlas |
-| 2024/7/12 | 3rd Autism Expo | Genetic Studies in Autism: What Does Genetic Research Mean? |
-| 2025/4/6 | Paradise Foundation | Genetics and Autism |
-| 2025/5/19 | Special Education for Teachers (Dankook University) | Genetics of Autism |
-| 2025/9/17 | Gwangseong Haneulbit School | Genetics of Autism |
