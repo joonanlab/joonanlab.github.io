@@ -75,46 +75,8 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 
 
 
-<style>
-.talk-section {
-  margin: 20px 0;
-}
-.talk-header {
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
-  padding: 12px 15px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 1.1em;
-  user-select: none;
-}
-.talk-header:hover {
-  background-color: #e8e8e8;
-}
-.talk-header::after {
-  content: " ▼";
-  float: right;
-}
-.talk-header.active::after {
-  content: " ▲";
-}
-.talk-content {
-  display: none;
-  border: 1px solid #ddd;
-  border-top: none;
-  padding: 15px;
-}
-.talk-content.show {
-  display: block;
-}
-</style>
-
-<div class="talk-section">
-<div class="talk-header" onclick="toggleTalk(this)">Invited Seminar</div>
-<div class="talk-content" markdown="1">
-
-
-## Invited Talks and Presentations
+<details>
+  <summary>Invited Talks and Presentations</summary>
 
 * 2019/3/19, Department Seminar (School of Biological Sciences, Seoul National University), Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder
 * 2019/3/20, Grand Rounds (Korea University College of Medicine), A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data
@@ -197,8 +159,7 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 * 2024/9/19, Disease Study Society, Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population
 * 2024/10/21, Graduate Seminar Series (Samsung Advanced Institute for Health Sciences & Technology), Introduction to Multi-Omics Analysis
 
-</div>
-</div>
+</details>
 
 ## Conference Talk 
 
