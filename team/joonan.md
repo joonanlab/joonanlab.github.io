@@ -10,6 +10,7 @@ scholar: eTLI6dsAAAAJ
 photo: joonan.jpg
 ---
 
+
 Dr. An is an Associate Professor in the Department of Biosystem and Biomedical Science at Korea University.
 
 He is a human geneticist whose research focuses on the genetic architecture of autism spectrum disorder (ASD) and other neurodevelopmental conditions. His group investigates how genetic variants contribute to the etiology and phenotypic heterogeneity of ASD through large-scale whole-genome sequencing and multi-omics integration. The team combines population-scale genomics with single-cell and epigenomic resources to delineate the cell-type and temporal specificity of neuropsychiatric risk genes and to uncover the molecular mechanisms underlying brain development.
@@ -75,7 +76,9 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 
 
 <details markdown="1">
+
 <summary>Invited Seminar</summary>
+
 
 ## Invited Talks and Presentations
 
@@ -160,11 +163,11 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 * 2024/9/19, Disease Study Society, Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population
 * 2024/10/21, Graduate Seminar Series (Samsung Advanced Institute for Health Sciences & Technology), Introduction to Multi-Omics Analysis
 
-
-
 </details>
 
+
 <details>
+
 <summary>Conference Talk</summary>
 
 * 2019/5/11, Korean Society for Medical and Biological Engineering, An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder
@@ -203,9 +206,12 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 * 2024/11/9, Annual Conference The Korean Association for Persons with Autism, Autism and Genetics: Insights from Large-Scale Genomic Studies
 * 2024/11/14, Bio Future Forum 2024, Bio Big Data: From Observation to Prediction and Inference
 
+
 </details>
 
+
 <details>
+
 <summary>Education Workshop</summary>
 
 * 2019/12/14, Precision Medicine Education Workshop (Korea University College of Medicine), Whole genome sequencing analysis towards genetic architecture of human disorders
@@ -228,13 +234,20 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 * 2024/3/13, Education Workshop (Precision Medicine Center, Seoul National University Bundang Hospital), Introduction to Genome-Wide Association Studies
 * 2024/7/22, 18th Asian Institute in Statistical Genetics and Genomics, Introduction to Genetics
 
+
 </details>
 
+
 <details>
+
 <summary>Public Engagement and Outreach</summary>
 
 * 2023/7/27, KSMCB Kyeongam Bio Youth Camp, Understanding female autism through DNA
 * 2024/3/16, Brain Awareness Week Event, Human brain development through the lens of single-cell atlas
 * 2024/7/12, 3rd Autism Expo, Genetic Studies in Autism: What Does Genetic Research Mean?
+* 2025/04/06, Paradise Foundation, Genetics and Autism
+* 2025/05/19, Special Education for Teachers (Dankook University), Genetics of Autism
+* 2025/09/17, Gwangseong Haneulbit School, Genetics of Autism
+
 
 </details>
