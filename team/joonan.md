@@ -156,8 +156,6 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 * 2024/9/19, Disease Study Society, Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population
 * 2024/10/21, Graduate Seminar Series (Samsung Advanced Institute for Health Sciences & Technology), Introduction to Multi-Omics Analysis
 
-</details>
-
 ## Conference Talk 
 
 * 2019/5/11, Korean Society for Medical and Biological Engineering, An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder
