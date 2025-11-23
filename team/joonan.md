@@ -73,7 +73,7 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 - 2019–2024 Development of intelligent informatics technologies and infrastructure for multi-omics–based precision medicine, Bio & Medical Technology Development Program, National Research Foundation of Korea (**CI**), 다중오믹스 기반 정밀의료를 위한 지능형 인포매틱스 기술 개발 및 기반 구축, 바이오·의료기술개발사업, 한국연구재단
 - 2018–2019 Post-Doctoral Fellowship, Autism Science Foundation & FamilieSCN2A Foundation (**PI**)
 
-## Invited Talks and Presentations
+## Invited Seminar
 
 * 2019/3/19, Department Seminar (School of Biological Sciences, Seoul National University), Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder
 * 2019/3/20, Grand Rounds (Korea University College of Medicine), A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data
