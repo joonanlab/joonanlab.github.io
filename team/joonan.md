@@ -73,6 +73,78 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 - 2019–2024 Development of intelligent informatics technologies and infrastructure for multi-omics–based precision medicine, Bio & Medical Technology Development Program, National Research Foundation of Korea (**CI**), 다중오믹스 기반 정밀의료를 위한 지능형 인포매틱스 기술 개발 및 기반 구축, 바이오·의료기술개발사업, 한국연구재단
 - 2018–2019 Post-Doctoral Fellowship, Autism Science Foundation & FamilieSCN2A Foundation (**PI**)
 
+
+## Public Engagement and Outreach 
+
+* 2023/7/27, KSMCB Kyeongam Bio Youth Camp, Understanding female autism through DNA
+* 2024/3/16, Brain Awareness Week Event, Human brain development through the lens of single-cell atlas
+* 2024/7/12, 3rd Autism Expo, Genetic Studies in Autism: What Does Genetic Research Mean?
+* 2025/04/06, Paradise Foundation, Genetics and Autism
+* 2025/05/19, Special Education for Teachers (Dankook University), Genetics of Autism
+* 2025/09/17, Gwangseong Haneulbit School, Genetics of Autism
+
+
+## Education Workshop 
+
+* 2019/12/14, Precision Medicine Education Workshop (Korea University College of Medicine), Whole genome sequencing analysis towards genetic architecture of human disorders
+* 2021/10/2, Swiss School of Management, Understanding Genetic Model and Quantitative Nature of Human Genetics
+* 2020/10/31, Precision Medicine Education Workshop (Korea University College of Medicine), Whole genome sequencing analysis towards genetic architecture of human disorders
+* 2021/2/17, Bioinformatics & Machine Learning Workshop for Life Scientists (Korean Society for Bioinformatics), Whole genome sequencing analyses to understand the genetic architecture of human disorders
+* 2021/5/12, Gangwon Precision Medicine Industry Program, A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data
+* 2022/10/11, Hongneung Innopolis Digital Healthcare, Genome-Wide Approaches for Understanding Genetic Architecture
+* 2022/11/18, 21st Genetics Training Course (Samsung Medical Center), Whole genome sequencing analysis towards genetic architecture of autism spectrum disorder
+* 2021/8/21, Fellowship Education Workshop (Korean Society for Schizophrenia Research), Understanding Genetic Model and Quantitative Nature of Human Genetics
+* 2021/11/13, Precision Medicine Education Workshop (Korea University College of Medicine), Whole genome sequencing analysis towards genetic architecture of human disorders
+* 2022/2/22, Bioinformatics & Machine Learning Workshop for Life Scientists (Korean Society for Bioinformatics), Introduction of Hail for Whole Genome Sequencing Analysis
+* 2022/11/12, Precision Medicine Education Workshop (Korea University College of Medicine), Whole genome sequencing analysis towards genetic architecture of human disorders
+* 2022/11/15, Artificial Intelligence Training Course (Korea Pharmaceutical and Bio-Pharma Manufacturers Association), Introduction to whole genome sequencing genetic association methodology and genetic architecture
+* 2023/3/23, Precision Medicine Education Workshop (Seoul National University Bundang Hospital), GWAS basics and hands-on training
+* 2023/8/18, LAIDD Workshop, LAIDD Workshop presentation
+* 2023/8/26, Fellowship Education Workshop (Korean Society for Schizophrenia Research), Whole genome sequencing analysis towards genetic architecture of schizophrenia
+* 2023/9/23, Korean Bioinformation Center, Introductory Course for Getting Started with Bioinformatics
+* 2023/11/11, Precision Medicine Education Workshop (Seoul National University Bundang Hospital), Genome-Wide Approaches for Understanding Genetic Architecture
+* 2024/3/13, Education Workshop (Precision Medicine Center, Seoul National University Bundang Hospital), Introduction to Genome-Wide Association Studies
+* 2024/7/22, 18th Asian Institute in Statistical Genetics and Genomics, Introduction to Genetics
+
+
+## Conference Talk 
+
+* 2019/5/11, Korean Society for Medical and Biological Engineering, An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder
+* 2019/10/16, 2019 Asian Transplantation Week International Conference, Lesson from large-scale genomic studies and research consortia
+* 2020/7/29, The 43rd Annual Meeting of the Japan Neuroscience Society, Whole-genome and RNA sequencing reveal variation and transcriptomic coordination in the developing human prefrontal cortex
+* 2020/8/20, BIOINFO Annual Conference of Korean Society for Bioinformatics, Whole-genome and RNA sequencing reveal variation and transcriptomic coordination in the developing human prefrontal cortex
+* 2020/10/15, The 29th International KOGO Annual Conference, De novo variants in developmental disorders: Lessons from large-scale whole genome and exome sequencing studies
+* 2020/11/19, Korea-Finland Joint Symposium, An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder
+* 2021/1/19, 2nd Single-Cell Division Meeting (Korean Society for Biochemistry and Molecular Biology), Single-cell study on SCN2A
+* 2021/2/2, The 17th Korea Genome Organization Winter Symposium, Integrative multi-omics approaches decipher molecular and clinical subtypes underlying lung cancers
+* 2021/10/8, International Conference of the Genetics Society of Korea, Noncoding mutations associated with autism spectrum disorder from whole genome sequence analysis
+* 2021/10/28, BIOINFO Annual Conference of Korean Society for Bioinformatics, Category-wide association for whole genome sequencing and regulatory noncoding mutations in autism spectrum disorder
+* 2022/2/9, The 18th Korea Genome Organization Winter Symposium, Genetic Architecture of Autism Spectrum Disorder from the Korean ASD-WGS cohort
+* 2022/3/8, Regional Meeting (Gyeonggi Branch, Korean Dermatological Association), Genome-Wide Approaches for Understanding Genetic Architecture
+* 2022/5/12, Korean Genome Symposium (Korea National Institute for Bioethics Policy), Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population
+* 2022/5/25, Korean Society for Biochemistry and Molecular Biology (KSBMB) International Conference 2022, Shared gene regulation in autism-associated transcriptional regulators in neurodevelopment
+* 2022/7/3, The 45th Annual Meeting of the Japan Neuroscience Society, Identification of regulatory noncoding mutations associated with autism spectrum disorder
+* 2022/9/29, Korean Society for Molecular and Cellular Biology International Conference, Shared gene regulation in Autism-associated Transcriptional regulators in Neurodevelopment
+* 2022/10/19, BIOINFO Annual Conference of Korean Society for Bioinformatics, AI in whole genome sequencing: Variant prediction and Interpretation
+* 2022/12/8, Yilian Medical Life Science Forum (Yonsei University College of Medicine), Single-cell transcriptomic analysis revealed oligodendrocyte alteration in autism-associated gene SCN2A
+* 2023/2/3, The 19th Korea Genome Organization Winter Symposium, Whole genome sequencing analysis identifies the genetic architecture underlying sex bias in autism spectrum disorder
+* 2023/2/19, The 12th Cognition Sleep Mood and Stress (COSMOS) Symposium, Whole genome sequencing-based genetic architecture study of Korean autism families
+* 2023/3/24, Korean Society of Neuromuscular Disorders, Genome-Wide Approaches for Understanding Genetic Architecture
+* 2023/5/7, INSAR Annual Meeting 2023, WGS identifies genetic architecture underlying female protective effect in ASD
+* 2023/5/11, BIO KOREA 2023, UK Biobank Current status & future directions
+* 2023/9/16, International Cancer Proteogenome Consortium (ICPC) Regional Meeting (Seoul), Presentation on cancer proteomics and WGS
+* 2023/10/13, The 32nd International KOGO Annual Conference, To be sparse, or not to be, that is the question: Scalable VCF for a biobank-scale WGS project
+* 2023/11/10, Korean Society for Diagnostic Genetics, Genome-Wide Approaches for Understanding Genetic Architecture
+* 2024/1/18, The Korean Human Proteome Organization Winter Workshop, Proteogenomics of intractable lung cancers
+* 2024/2/7, KSMCB Winter Conference 2024, Genetic Architecture underlying Female Protective Effect in Autism
+* 2024/5/16, AWS Summit 2024, Large-scale genomic research with AWS
+* 2024/7/4, Neurodevelopment Division Meeting (KSMCB), An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development
+* 2024/8/12, KSBMB-BIKO Meeting, Large-scale whole genome analysis to explore tandem repeats in human disorders
+* 2024/10/26, K-BioX AI/BI Session, Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population
+* 2024/10, The 2nd Conference on Gene- and Cell-Based Biopharmaceuticals, AI Approaches for Identifying Risk Genetic Variants in Neurodevelopmental Disorders
+* 2024/11/9, Annual Conference The Korean Association for Persons with Autism, Autism and Genetics: Insights from Large-Scale Genomic Studies
+* 2024/11/14, Bio Future Forum 2024, Bio Big Data: From Observation to Prediction and Inference
+
 ## Invited Seminar
 
 * 2019/3/19, Department Seminar (School of Biological Sciences, Seoul National University), Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder
@@ -155,74 +227,3 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 * 2024/8/2, National Cancer Center, Pan-cancer Proteogenomic Landscape of Whole-Genome Doubling
 * 2024/9/19, Disease Study Society, Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population
 * 2024/10/21, Graduate Seminar Series (Samsung Advanced Institute for Health Sciences & Technology), Introduction to Multi-Omics Analysis
-
-## Conference Talk 
-
-* 2019/5/11, Korean Society for Medical and Biological Engineering, An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder
-* 2019/10/16, 2019 Asian Transplantation Week International Conference, Lesson from large-scale genomic studies and research consortia
-* 2020/7/29, The 43rd Annual Meeting of the Japan Neuroscience Society, Whole-genome and RNA sequencing reveal variation and transcriptomic coordination in the developing human prefrontal cortex
-* 2020/8/20, BIOINFO Annual Conference of Korean Society for Bioinformatics, Whole-genome and RNA sequencing reveal variation and transcriptomic coordination in the developing human prefrontal cortex
-* 2020/10/15, The 29th International KOGO Annual Conference, De novo variants in developmental disorders: Lessons from large-scale whole genome and exome sequencing studies
-* 2020/11/19, Korea-Finland Joint Symposium, An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder
-* 2021/1/19, 2nd Single-Cell Division Meeting (Korean Society for Biochemistry and Molecular Biology), Single-cell study on SCN2A
-* 2021/2/2, The 17th Korea Genome Organization Winter Symposium, Integrative multi-omics approaches decipher molecular and clinical subtypes underlying lung cancers
-* 2021/10/8, International Conference of the Genetics Society of Korea, Noncoding mutations associated with autism spectrum disorder from whole genome sequence analysis
-* 2021/10/28, BIOINFO Annual Conference of Korean Society for Bioinformatics, Category-wide association for whole genome sequencing and regulatory noncoding mutations in autism spectrum disorder
-* 2022/2/9, The 18th Korea Genome Organization Winter Symposium, Genetic Architecture of Autism Spectrum Disorder from the Korean ASD-WGS cohort
-* 2022/3/8, Regional Meeting (Gyeonggi Branch, Korean Dermatological Association), Genome-Wide Approaches for Understanding Genetic Architecture
-* 2022/5/12, Korean Genome Symposium (Korea National Institute for Bioethics Policy), Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population
-* 2022/5/25, Korean Society for Biochemistry and Molecular Biology (KSBMB) International Conference 2022, Shared gene regulation in autism-associated transcriptional regulators in neurodevelopment
-* 2022/7/3, The 45th Annual Meeting of the Japan Neuroscience Society, Identification of regulatory noncoding mutations associated with autism spectrum disorder
-* 2022/9/29, Korean Society for Molecular and Cellular Biology International Conference, Shared gene regulation in Autism-associated Transcriptional regulators in Neurodevelopment
-* 2022/10/19, BIOINFO Annual Conference of Korean Society for Bioinformatics, AI in whole genome sequencing: Variant prediction and Interpretation
-* 2022/12/8, Yilian Medical Life Science Forum (Yonsei University College of Medicine), Single-cell transcriptomic analysis revealed oligodendrocyte alteration in autism-associated gene SCN2A
-* 2023/2/3, The 19th Korea Genome Organization Winter Symposium, Whole genome sequencing analysis identifies the genetic architecture underlying sex bias in autism spectrum disorder
-* 2023/2/19, The 12th Cognition Sleep Mood and Stress (COSMOS) Symposium, Whole genome sequencing-based genetic architecture study of Korean autism families
-* 2023/3/24, Korean Society of Neuromuscular Disorders, Genome-Wide Approaches for Understanding Genetic Architecture
-* 2023/5/7, INSAR Annual Meeting 2023, WGS identifies genetic architecture underlying female protective effect in ASD
-* 2023/5/11, BIO KOREA 2023, UK Biobank Current status & future directions
-* 2023/9/16, International Cancer Proteogenome Consortium (ICPC) Regional Meeting (Seoul), Presentation on cancer proteomics and WGS
-* 2023/10/13, The 32nd International KOGO Annual Conference, To be sparse, or not to be, that is the question: Scalable VCF for a biobank-scale WGS project
-* 2023/11/10, Korean Society for Diagnostic Genetics, Genome-Wide Approaches for Understanding Genetic Architecture
-* 2024/1/18, The Korean Human Proteome Organization Winter Workshop, Proteogenomics of intractable lung cancers
-* 2024/2/7, KSMCB Winter Conference 2024, Genetic Architecture underlying Female Protective Effect in Autism
-* 2024/5/16, AWS Summit 2024, Large-scale genomic research with AWS
-* 2024/7/4, Neurodevelopment Division Meeting (KSMCB), An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development
-* 2024/8/12, KSBMB-BIKO Meeting, Large-scale whole genome analysis to explore tandem repeats in human disorders
-* 2024/10/26, K-BioX AI/BI Session, Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population
-* 2024/10, The 2nd Conference on Gene- and Cell-Based Biopharmaceuticals, AI Approaches for Identifying Risk Genetic Variants in Neurodevelopmental Disorders
-* 2024/11/9, Annual Conference The Korean Association for Persons with Autism, Autism and Genetics: Insights from Large-Scale Genomic Studies
-* 2024/11/14, Bio Future Forum 2024, Bio Big Data: From Observation to Prediction and Inference
-
-
-## Education Workshop 
-
-* 2019/12/14, Precision Medicine Education Workshop (Korea University College of Medicine), Whole genome sequencing analysis towards genetic architecture of human disorders
-* 2021/10/2, Swiss School of Management, Understanding Genetic Model and Quantitative Nature of Human Genetics
-* 2020/10/31, Precision Medicine Education Workshop (Korea University College of Medicine), Whole genome sequencing analysis towards genetic architecture of human disorders
-* 2021/2/17, Bioinformatics & Machine Learning Workshop for Life Scientists (Korean Society for Bioinformatics), Whole genome sequencing analyses to understand the genetic architecture of human disorders
-* 2021/5/12, Gangwon Precision Medicine Industry Program, A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data
-* 2022/10/11, Hongneung Innopolis Digital Healthcare, Genome-Wide Approaches for Understanding Genetic Architecture
-* 2022/11/18, 21st Genetics Training Course (Samsung Medical Center), Whole genome sequencing analysis towards genetic architecture of autism spectrum disorder
-* 2021/8/21, Fellowship Education Workshop (Korean Society for Schizophrenia Research), Understanding Genetic Model and Quantitative Nature of Human Genetics
-* 2021/11/13, Precision Medicine Education Workshop (Korea University College of Medicine), Whole genome sequencing analysis towards genetic architecture of human disorders
-* 2022/2/22, Bioinformatics & Machine Learning Workshop for Life Scientists (Korean Society for Bioinformatics), Introduction of Hail for Whole Genome Sequencing Analysis
-* 2022/11/12, Precision Medicine Education Workshop (Korea University College of Medicine), Whole genome sequencing analysis towards genetic architecture of human disorders
-* 2022/11/15, Artificial Intelligence Training Course (Korea Pharmaceutical and Bio-Pharma Manufacturers Association), Introduction to whole genome sequencing genetic association methodology and genetic architecture
-* 2023/3/23, Precision Medicine Education Workshop (Seoul National University Bundang Hospital), GWAS basics and hands-on training
-* 2023/8/18, LAIDD Workshop, LAIDD Workshop presentation
-* 2023/8/26, Fellowship Education Workshop (Korean Society for Schizophrenia Research), Whole genome sequencing analysis towards genetic architecture of schizophrenia
-* 2023/9/23, Korean Bioinformation Center, Introductory Course for Getting Started with Bioinformatics
-* 2023/11/11, Precision Medicine Education Workshop (Seoul National University Bundang Hospital), Genome-Wide Approaches for Understanding Genetic Architecture
-* 2024/3/13, Education Workshop (Precision Medicine Center, Seoul National University Bundang Hospital), Introduction to Genome-Wide Association Studies
-* 2024/7/22, 18th Asian Institute in Statistical Genetics and Genomics, Introduction to Genetics
-
-
-## Public Engagement and Outreach 
-
-* 2023/7/27, KSMCB Kyeongam Bio Youth Camp, Understanding female autism through DNA
-* 2024/3/16, Brain Awareness Week Event, Human brain development through the lens of single-cell atlas
-* 2024/7/12, 3rd Autism Expo, Genetic Studies in Autism: What Does Genetic Research Mean?
-* 2025/04/06, Paradise Foundation, Genetics and Autism
-* 2025/05/19, Special Education for Teachers (Dankook University), Genetics of Autism
-* 2025/09/17, Gwangseong Haneulbit School, Genetics of Autism
