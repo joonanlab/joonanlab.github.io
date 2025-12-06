@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ha-Eun Jeong
-position: Genomic Core
+position: Graduate Student
 handle: haeun
 email: jeonghaeunnn@gmail.com
 twitter:
@@ -17,5 +17,6 @@ Focusing on the identification of key proteins and phosphorylation events associ
 Ultimately, her research translates complex omics data into actionable biological insights, advancing the development of more effective and personalized therapeutic strategies in precision oncology.
 
 ### Education & Training
+- 2026-present M.Sc., Department of Integrated Biomedical and Life Science, Korea University
 - 2018-2023 B.Sc., Life Science, Handong Global University 
 - 2018-2023 B.Sc., AI Interdisciplinary Studies, Handong Global University

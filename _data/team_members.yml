@@ -64,16 +64,34 @@
   url: yeojin
   group: 1
 
+- name: Hyunjin Hong
+  photo: hyunjin.jpg
+  info: Graduate Student
+  url: hyunjin
+  group: 1
+
+- name: Kyeongho Yeom
+  photo: kyeongho.jpg
+  info: Graduate Student
+  url: kyeongho
+  group: 1
+
+- name: Davin Lee
+  photo: dvlee.jpg
+  info: Graduate Student
+  url: dvlee
+  group: 1
+
+- name: Haeun Jeong
+  photo: haeun.png
+  info: Graduate Student
+  url: haeun
+  group: 1
+
 - name: Youngseok Choi
   photo: youngseok.jpg
   info: Bioinformatician
   url: youngseok
-  group: 2
-
-- name: Haeun Jeong
-  photo: haeun.png
-  info: Bioinformatician
-  url: haeun
   group: 2
 
 - name: Ashish Jung
@@ -100,20 +118,4 @@
   url: hwanseoksim
   group: 3
 
-- name: Hyunjin Hong
-  photo: hyunjin.jpg
-  info: Undergraduate intern
-  url: hyunjin
-  group: 3
 
-- name: Kyeongho Yeom
-  photo: kyeongho.jpg
-  info: Undergraduate intern
-  url: kyeongho
-  group: 3
-
-- name: Davin Lee
-  photo: dvlee.jpg
-  info: Undergraduate intern
-  url: dvlee
-  group: 3

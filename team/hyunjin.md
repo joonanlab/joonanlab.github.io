@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Hyunjin Hong
-position: Undergraduate Intern
+position: Graduate Student
 handle: hyunjin
 email:
 twitter:
@@ -15,5 +15,6 @@ Her work places a particular emphasis on leveraging long-read sequencing technol
 
 
 ### Education & Training
-- 2021-present B.Sc., Integrative Bioscience and Biotechnology, Konkuk University
+- 2026-present M.Sc., Department of Integrated Biomedical and Life Science, Korea University
+- 2021-2026 B.Sc., Integrative Bioscience and Biotechnology, Konkuk University
 
