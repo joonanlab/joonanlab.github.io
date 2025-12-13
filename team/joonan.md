@@ -31,6 +31,7 @@ Dr. An’s research advances cross-ancestry genetic discovery by integrating Kor
 - 2005-2010 B.Sc., Molecular Biotechnology, Konkuk University, South Korea
 
 ## Awards
+- 2025 Member, Young Korean Academy of Science and Technology (Y-KAST)
 - 2025 Seoktap Research Award (석탑연구상), Korea University
 - 2024 Rising Star Award, Korea Genome Organization 
 - 2024 Green Ribbon Lecture Award, Korean Society for Molecular and Cellular Biology
