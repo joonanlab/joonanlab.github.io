@@ -28,12 +28,6 @@
   url: ingyeongkoh
   group: 1
 
-- name: Yebin Ryu
-  photo: yebin.png
-  info: Graduate Student (NRF Fellow)
-  url: yebin
-  group: 1
-
 - name: Nahyun Kwon
   photo: nakwon.jpg
   info: Graduate Student
@@ -52,13 +46,13 @@
   url: gaeunb
   group: 1
 
-- name: Chaewon Min
+- name: Chaewon Min (CNRF Fellow)
   photo: chaewon.jpg
   info: Graduate Student
   url: chaewon
   group: 1
 
-- name: Yeojin Ryu
+- name: Yeojin Ryu (CNRF Fellow)
   photo: yeojin.jpg
   info: Graduate Student
   url: yeojin
