@@ -177,17 +177,30 @@ ${vol}${issue}${pages}${doi}}`;
     });
   }
 
+  async function loadData() {
+    const resp = await fetch('data/publications.json');
+    if (!resp.ok) throw new Error(resp.status);
+    return resp.json();
+  }
+
   async function init() {
     const container = document.getElementById('pub-list');
     if (!container) return;
 
     try {
-      const resp = await fetch('data/publications.json');
-      allPubs = await resp.json();
+      allPubs = await loadData();
       renderFilters();
       renderPubs();
     } catch (e) {
-      container.innerHTML = '<p class="text-slate-400">Could not load publications.</p>';
+      setTimeout(async () => {
+        try {
+          allPubs = await loadData();
+          renderFilters();
+          renderPubs();
+        } catch (e2) {
+          container.innerHTML = '<p class="text-slate-400">Could not load publications.</p>';
+        }
+      }, 1000);
     }
   }
 

@@ -51,63 +51,76 @@
     `;
   }
 
+  function render(container, members) {
+    // Group members
+    const groups = {};
+    members.forEach(m => {
+      const g = m.group ?? 1;
+      if (!groups[g]) groups[g] = [];
+      groups[g].push(m);
+    });
+
+    let html = '';
+
+    // PI (group 0)
+    if (groups[0]) {
+      html += `<section class="mb-12">
+        <h2 class="section-header" data-i18n="section.pi">Principal Investigator</h2>
+        <div class="mt-6">${groups[0].map(renderPICard).join('')}</div>
+      </section>`;
+    }
+
+    // Graduate Students (group 1)
+    if (groups[1]) {
+      html += `<section class="mb-12">
+        <h2 class="section-header" data-i18n="section.graduate">Graduate Students</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">${groups[1].map(renderMemberCard).join('')}</div>
+      </section>`;
+    }
+
+    // Staff (group 2)
+    if (groups[2]) {
+      html += `<section class="mb-12">
+        <h2 class="section-header" data-i18n="section.staff">Staff</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">${groups[2].map(renderMemberCard).join('')}</div>
+      </section>`;
+    }
+
+    // Undergrad (group 3)
+    if (groups[3]) {
+      html += `<section class="mb-12">
+        <h2 class="section-header" data-i18n="section.undergrad">Undergraduate Interns</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mt-6">${groups[3].map(renderMemberCard).join('')}</div>
+      </section>`;
+    }
+
+    container.innerHTML = html;
+
+    // Re-trigger reveal observer for new elements
+    if (typeof window.reinitReveal === 'function') window.reinitReveal();
+  }
+
   async function init() {
     const container = document.getElementById('team-container');
     if (!container) return;
 
     try {
       const resp = await fetch('data/team.json');
+      if (!resp.ok) throw new Error(resp.status);
       const members = await resp.json();
-
-      // Group members
-      const groups = {};
-      members.forEach(m => {
-        const g = m.group ?? 1;
-        if (!groups[g]) groups[g] = [];
-        groups[g].push(m);
-      });
-
-      let html = '';
-
-      // PI (group 0)
-      if (groups[0]) {
-        html += `<section class="mb-12 reveal">
-          <h2 class="section-header" data-i18n="section.pi">Principal Investigator</h2>
-          <div class="mt-6">${groups[0].map(renderPICard).join('')}</div>
-        </section>`;
-      }
-
-      // Graduate Students (group 1)
-      if (groups[1]) {
-        html += `<section class="mb-12 reveal">
-          <h2 class="section-header" data-i18n="section.graduate">Graduate Students</h2>
-          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-6 reveal-stagger">${groups[1].map(renderMemberCard).join('')}</div>
-        </section>`;
-      }
-
-      // Staff (group 2)
-      if (groups[2]) {
-        html += `<section class="mb-12 reveal">
-          <h2 class="section-header" data-i18n="section.staff">Staff</h2>
-          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">${groups[2].map(renderMemberCard).join('')}</div>
-        </section>`;
-      }
-
-      // Undergrad (group 3)
-      if (groups[3]) {
-        html += `<section class="mb-12 reveal">
-          <h2 class="section-header" data-i18n="section.undergrad">Undergraduate Interns</h2>
-          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mt-6">${groups[3].map(renderMemberCard).join('')}</div>
-        </section>`;
-      }
-
-      container.innerHTML = html;
-
-      // Re-trigger reveal observer for new elements
-      if (typeof window.reinitReveal === 'function') window.reinitReveal();
-
+      render(container, members);
     } catch (e) {
-      container.innerHTML = '<p class="text-slate-400">Could not load team data.</p>';
+      // Retry once after a short delay
+      setTimeout(async () => {
+        try {
+          const resp = await fetch('data/team.json');
+          if (!resp.ok) throw new Error(resp.status);
+          const members = await resp.json();
+          render(container, members);
+        } catch (e2) {
+          container.innerHTML = '<p class="text-slate-400">Could not load team data.</p>';
+        }
+      }, 1000);
     }
   }
 

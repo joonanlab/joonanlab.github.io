@@ -82,11 +82,22 @@
 
     try {
       const resp = await fetch('data/news.json');
+      if (!resp.ok) throw new Error(resp.status);
       allNews = await resp.json();
       displayedCount = Math.min(ITEMS_PER_PAGE, allNews.length);
       renderTimeline();
     } catch (e) {
-      container.innerHTML = '<p class="text-slate-400">Could not load news.</p>';
+      setTimeout(async () => {
+        try {
+          const resp = await fetch('data/news.json');
+          if (!resp.ok) throw new Error(resp.status);
+          allNews = await resp.json();
+          displayedCount = Math.min(ITEMS_PER_PAGE, allNews.length);
+          renderTimeline();
+        } catch (e2) {
+          container.innerHTML = '<p class="text-slate-400">Could not load news.</p>';
+        }
+      }, 1000);
     }
 
     // Re-render on language toggle

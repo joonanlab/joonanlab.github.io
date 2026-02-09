@@ -77,6 +77,13 @@
     document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => {
       observer.observe(el);
     });
+
+    // Expose for dynamic content (team-cards, publications, etc.)
+    window.reinitReveal = function () {
+      document.querySelectorAll('.reveal:not(.visible), .reveal-stagger:not(.visible)').forEach(el => {
+        observer.observe(el);
+      });
+    };
   }
 
   // Smooth scroll for anchor links
