@@ -1,15 +1,19 @@
-/* === Activities Timeline Renderer === */
+/* === Outreach & Education Page Renderer === */
 (function () {
   'use strict';
 
   var data = null;
-  var activeCategory = 'conferences';
+  var activeCategory = 'outreach';
   var activeYear = 'all';
 
   var categories = [
-    { key: 'conferences', label: 'Conference Talks' },
-    { key: 'seminars', label: 'Invited Seminars' }
+    { key: 'outreach', label_en: 'Public Engagement', label_ko: '대중 참여' },
+    { key: 'workshops', label_en: 'Education Workshops', label_ko: '교육 워크숍' }
   ];
+
+  function getLang() {
+    return localStorage.getItem('lang') || 'en';
+  }
 
   function extractYear(dateStr) {
     if (!dateStr) return 'Unknown';
@@ -31,15 +35,17 @@
   }
 
   function renderCategoryPills() {
-    var container = document.getElementById('activity-category-pills');
+    var container = document.getElementById('outreach-category-pills');
     if (!container) return;
 
+    var lang = getLang();
     var html = '';
     categories.forEach(function (cat) {
       var count = data ? (data[cat.key] || []).length : 0;
       var isActive = activeCategory === cat.key ? ' active' : '';
+      var label = lang === 'ko' ? cat.label_ko : cat.label_en;
       html += '<button class="pill' + isActive + '" data-category="' + cat.key + '">' +
-        cat.label + ' <span class="opacity-60">(' + count + ')</span></button>';
+        label + ' <span class="opacity-60">(' + count + ')</span></button>';
     });
 
     container.innerHTML = html;
@@ -56,7 +62,7 @@
   }
 
   function renderYearPills() {
-    var container = document.getElementById('activity-year-pills');
+    var container = document.getElementById('outreach-year-pills');
     if (!container) return;
 
     var years = getYears();
@@ -77,7 +83,7 @@
   }
 
   function renderTimeline() {
-    var container = document.getElementById('activity-timeline');
+    var container = document.getElementById('outreach-timeline');
     if (!container) return;
 
     var items = getItems();
@@ -90,7 +96,6 @@
       return;
     }
 
-    // Group by year
     var byYear = {};
     filtered.forEach(function (item) {
       var year = extractYear(item.date);
@@ -120,21 +125,31 @@
   }
 
   async function init() {
-    var container = document.getElementById('activity-timeline');
+    var container = document.getElementById('outreach-timeline');
     if (!container) return;
 
     try {
-      var resp = await fetch('../data/joonan-activities.json');
+      var resp = await fetch('../data/joonan-outreach.json');
       if (!resp.ok) throw new Error(resp.status);
       data = await resp.json();
     } catch (e) {
-      container.innerHTML = '<p class="text-slate-400">Could not load activities.</p>';
+      container.innerHTML = '<p class="text-slate-400">Could not load data.</p>';
       return;
     }
 
     renderCategoryPills();
     renderYearPills();
     renderTimeline();
+
+    document.querySelectorAll('#lang-toggle, [id^="lang-toggle"]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        setTimeout(function () {
+          renderCategoryPills();
+          renderYearPills();
+          renderTimeline();
+        }, 50);
+      });
+    });
   }
 
   if (document.readyState === 'loading') {

@@ -240,6 +240,16 @@ body {
   margin-left: -4px;
 }
 
+#news-timeline .timeline-item a {
+  color: var(--accent-gold);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+#news-timeline .timeline-item a:hover {
+  opacity: 0.8;
+}
+
 .timeline-year {
   font-size: 1.5rem;
   font-weight: 700;

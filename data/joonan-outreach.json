@@ -1,0 +1,131 @@
+{
+  "outreach": [
+    {
+      "date": "2023/7/27",
+      "event": "KSMCB Kyeongam Bio Youth Camp",
+      "title": "Understanding female autism through DNA"
+    },
+    {
+      "date": "2024/3/16",
+      "event": "Brain Awareness Week Event",
+      "title": "Human brain development through the lens of single-cell atlas"
+    },
+    {
+      "date": "2024/7/12",
+      "event": "3rd Autism Expo",
+      "title": "Genetic Studies in Autism: What Does Genetic Research Mean?"
+    },
+    {
+      "date": "2025/04/06",
+      "event": "Paradise Foundation",
+      "title": "Genetics and Autism"
+    },
+    {
+      "date": "2025/05/19",
+      "event": "Special Education for Teachers (Dankook University)",
+      "title": "Genetics of Autism"
+    },
+    {
+      "date": "2025/09/17",
+      "event": "Gwangseong Haneulbit School",
+      "title": "Genetics of Autism"
+    }
+  ],
+  "workshops": [
+    {
+      "date": "2019/12/14",
+      "event": "Precision Medicine Education Workshop (Korea University College of Medicine)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of human disorders"
+    },
+    {
+      "date": "2020/10/31",
+      "event": "Precision Medicine Education Workshop (Korea University College of Medicine)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of human disorders"
+    },
+    {
+      "date": "2021/2/17",
+      "event": "Bioinformatics & Machine Learning Workshop for Life Scientists (Korean Society for Bioinformatics)",
+      "title": "Whole genome sequencing analyses to understand the genetic architecture of human disorders"
+    },
+    {
+      "date": "2021/5/12",
+      "event": "Gangwon Precision Medicine Industry Program",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2021/8/21",
+      "event": "Fellowship Education Workshop (Korean Society for Schizophrenia Research)",
+      "title": "Understanding Genetic Model and Quantitative Nature of Human Genetics"
+    },
+    {
+      "date": "2021/10/2",
+      "event": "Swiss School of Management",
+      "title": "Understanding Genetic Model and Quantitative Nature of Human Genetics"
+    },
+    {
+      "date": "2021/11/13",
+      "event": "Precision Medicine Education Workshop (Korea University College of Medicine)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of human disorders"
+    },
+    {
+      "date": "2022/2/22",
+      "event": "Bioinformatics & Machine Learning Workshop for Life Scientists (Korean Society for Bioinformatics)",
+      "title": "Introduction of Hail for Whole Genome Sequencing Analysis"
+    },
+    {
+      "date": "2022/10/11",
+      "event": "Hongneung Innopolis Digital Healthcare",
+      "title": "Genome-Wide Approaches for Understanding Genetic Architecture"
+    },
+    {
+      "date": "2022/11/12",
+      "event": "Precision Medicine Education Workshop (Korea University College of Medicine)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of human disorders"
+    },
+    {
+      "date": "2022/11/15",
+      "event": "Artificial Intelligence Training Course (Korea Pharmaceutical and Bio-Pharma Manufacturers Association)",
+      "title": "Introduction to whole genome sequencing genetic association methodology and genetic architecture"
+    },
+    {
+      "date": "2022/11/18",
+      "event": "21st Genetics Training Course (Samsung Medical Center)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of autism spectrum disorder"
+    },
+    {
+      "date": "2023/3/23",
+      "event": "Precision Medicine Education Workshop (Seoul National University Bundang Hospital)",
+      "title": "GWAS basics and hands-on training"
+    },
+    {
+      "date": "2023/8/18",
+      "event": "LAIDD Workshop",
+      "title": "LAIDD Workshop presentation"
+    },
+    {
+      "date": "2023/8/26",
+      "event": "Fellowship Education Workshop (Korean Society for Schizophrenia Research)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of schizophrenia"
+    },
+    {
+      "date": "2023/9/23",
+      "event": "Korean Bioinformation Center",
+      "title": "Introductory Course for Getting Started with Bioinformatics"
+    },
+    {
+      "date": "2023/11/11",
+      "event": "Precision Medicine Education Workshop (Seoul National University Bundang Hospital)",
+      "title": "Genome-Wide Approaches for Understanding Genetic Architecture"
+    },
+    {
+      "date": "2024/3/13",
+      "event": "Education Workshop (Precision Medicine Center, Seoul National University Bundang Hospital)",
+      "title": "Introduction to Genome-Wide Association Studies"
+    },
+    {
+      "date": "2024/7/22",
+      "event": "18th Asian Institute in Statistical Genetics and Genomics",
+      "title": "Introduction to Genetics"
+    }
+  ]
+}
