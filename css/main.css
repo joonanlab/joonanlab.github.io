@@ -668,6 +668,18 @@ body.lang-ko .en-only { display: none; }
   }
 }
 
+/* === First-Author Publication Highlight === */
+.profile-bio li.first-author {
+  border-left: 3px solid var(--accent-gold);
+  padding-left: 0.75rem;
+  background: rgba(245, 197, 66, 0.06);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+}
+
+[data-theme="light"] .profile-bio li.first-author {
+  background: rgba(180, 83, 9, 0.06);
+}
+
 /* === Map iframe === */
 .map-container {
   border-radius: var(--radius-xl);

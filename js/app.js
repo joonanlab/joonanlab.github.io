@@ -124,6 +124,35 @@
     });
   }
 
+  // Highlight first-author publications in member bios
+  function initFirstAuthorHighlight() {
+    var container = document.getElementById('profile-content');
+    if (!container) return;
+
+    function applyHighlight(root) {
+      root.querySelectorAll('h3').forEach(function (h3) {
+        var text = h3.textContent;
+        if (!/publications|논문/i.test(text)) return;
+        var ul = h3.nextElementSibling;
+        if (!ul || ul.tagName !== 'UL') return;
+        ul.querySelectorAll('li').forEach(function (li) {
+          if (/^\s*<strong[\s>]/i.test(li.innerHTML)) {
+            li.classList.add('first-author');
+          }
+        });
+      });
+    }
+
+    // Apply to already-loaded content
+    applyHighlight(container);
+
+    // Observe for dynamic content injection
+    var observer = new MutationObserver(function () {
+      applyHighlight(container);
+    });
+    observer.observe(container, { childList: true, subtree: true });
+  }
+
   // Init on DOM ready
   function boot() {
     initMobileMenu();
@@ -133,6 +162,7 @@
     initSmoothScroll();
     initBackToTop();
     initCopyrightYear();
+    initFirstAuthorHighlight();
     // Delay reveal init slightly so elements rendered by other scripts are caught
     requestAnimationFrame(() => {
       requestAnimationFrame(initReveal);
