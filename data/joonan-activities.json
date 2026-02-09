@@ -1,0 +1,678 @@
+{
+  "workshops": [
+    {
+      "date": "2019/12/14",
+      "event": "Precision Medicine Education Workshop (Korea University College of Medicine)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of human disorders"
+    },
+    {
+      "date": "2021/10/2",
+      "event": "Swiss School of Management",
+      "title": "Understanding Genetic Model and Quantitative Nature of Human Genetics"
+    },
+    {
+      "date": "2020/10/31",
+      "event": "Precision Medicine Education Workshop (Korea University College of Medicine)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of human disorders"
+    },
+    {
+      "date": "2021/2/17",
+      "event": "Bioinformatics & Machine Learning Workshop for Life Scientists (Korean Society for Bioinformatics)",
+      "title": "Whole genome sequencing analyses to understand the genetic architecture of human disorders"
+    },
+    {
+      "date": "2021/5/12",
+      "event": "Gangwon Precision Medicine Industry Program",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2022/10/11",
+      "event": "Hongneung Innopolis Digital Healthcare",
+      "title": "Genome-Wide Approaches for Understanding Genetic Architecture"
+    },
+    {
+      "date": "2022/11/18",
+      "event": "21st Genetics Training Course (Samsung Medical Center)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of autism spectrum disorder"
+    },
+    {
+      "date": "2021/8/21",
+      "event": "Fellowship Education Workshop (Korean Society for Schizophrenia Research)",
+      "title": "Understanding Genetic Model and Quantitative Nature of Human Genetics"
+    },
+    {
+      "date": "2021/11/13",
+      "event": "Precision Medicine Education Workshop (Korea University College of Medicine)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of human disorders"
+    },
+    {
+      "date": "2022/2/22",
+      "event": "Bioinformatics & Machine Learning Workshop for Life Scientists (Korean Society for Bioinformatics)",
+      "title": "Introduction of Hail for Whole Genome Sequencing Analysis"
+    },
+    {
+      "date": "2022/11/12",
+      "event": "Precision Medicine Education Workshop (Korea University College of Medicine)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of human disorders"
+    },
+    {
+      "date": "2022/11/15",
+      "event": "Artificial Intelligence Training Course (Korea Pharmaceutical and Bio-Pharma Manufacturers Association)",
+      "title": "Introduction to whole genome sequencing genetic association methodology and genetic architecture"
+    },
+    {
+      "date": "2023/3/23",
+      "event": "Precision Medicine Education Workshop (Seoul National University Bundang Hospital)",
+      "title": "GWAS basics and hands-on training"
+    },
+    {
+      "date": "2023/8/18",
+      "event": "LAIDD Workshop",
+      "title": "LAIDD Workshop presentation"
+    },
+    {
+      "date": "2023/8/26",
+      "event": "Fellowship Education Workshop (Korean Society for Schizophrenia Research)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of schizophrenia"
+    },
+    {
+      "date": "2023/9/23",
+      "event": "Korean Bioinformation Center",
+      "title": "Introductory Course for Getting Started with Bioinformatics"
+    },
+    {
+      "date": "2023/11/11",
+      "event": "Precision Medicine Education Workshop (Seoul National University Bundang Hospital)",
+      "title": "Genome-Wide Approaches for Understanding Genetic Architecture"
+    },
+    {
+      "date": "2024/3/13",
+      "event": "Education Workshop (Precision Medicine Center, Seoul National University Bundang Hospital)",
+      "title": "Introduction to Genome-Wide Association Studies"
+    },
+    {
+      "date": "2024/7/22",
+      "event": "18th Asian Institute in Statistical Genetics and Genomics",
+      "title": "Introduction to Genetics"
+    }
+  ],
+  "conferences": [
+    {
+      "date": "2019/5/11",
+      "event": "Korean Society for Medical and Biological Engineering",
+      "title": "An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder"
+    },
+    {
+      "date": "2019/10/16",
+      "event": "2019 Asian Transplantation Week International Conference",
+      "title": "Lesson from large-scale genomic studies and research consortia"
+    },
+    {
+      "date": "2020/7/29",
+      "event": "The 43rd Annual Meeting of the Japan Neuroscience Society",
+      "title": "Whole-genome and RNA sequencing reveal variation and transcriptomic coordination in the developing human prefrontal cortex"
+    },
+    {
+      "date": "2020/8/20",
+      "event": "BIOINFO Annual Conference of Korean Society for Bioinformatics",
+      "title": "Whole-genome and RNA sequencing reveal variation and transcriptomic coordination in the developing human prefrontal cortex"
+    },
+    {
+      "date": "2020/10/15",
+      "event": "The 29th International KOGO Annual Conference",
+      "title": "De novo variants in developmental disorders: Lessons from large-scale whole genome and exome sequencing studies"
+    },
+    {
+      "date": "2020/11/19",
+      "event": "Korea-Finland Joint Symposium",
+      "title": "An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder"
+    },
+    {
+      "date": "2021/1/19",
+      "event": "2nd Single-Cell Division Meeting (Korean Society for Biochemistry and Molecular Biology)",
+      "title": "Single-cell study on SCN2A"
+    },
+    {
+      "date": "2021/2/2",
+      "event": "The 17th Korea Genome Organization Winter Symposium",
+      "title": "Integrative multi-omics approaches decipher molecular and clinical subtypes underlying lung cancers"
+    },
+    {
+      "date": "2021/10/8",
+      "event": "International Conference of the Genetics Society of Korea",
+      "title": "Noncoding mutations associated with autism spectrum disorder from whole genome sequence analysis"
+    },
+    {
+      "date": "2021/10/28",
+      "event": "BIOINFO Annual Conference of Korean Society for Bioinformatics",
+      "title": "Category-wide association for whole genome sequencing and regulatory noncoding mutations in autism spectrum disorder"
+    },
+    {
+      "date": "2022/2/9",
+      "event": "The 18th Korea Genome Organization Winter Symposium",
+      "title": "Genetic Architecture of Autism Spectrum Disorder from the Korean ASD-WGS cohort"
+    },
+    {
+      "date": "2022/3/8",
+      "event": "Regional Meeting (Gyeonggi Branch, Korean Dermatological Association)",
+      "title": "Genome-Wide Approaches for Understanding Genetic Architecture"
+    },
+    {
+      "date": "2022/5/12",
+      "event": "Korean Genome Symposium (Korea National Institute for Bioethics Policy)",
+      "title": "Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population"
+    },
+    {
+      "date": "2022/5/25",
+      "event": "Korean Society for Biochemistry and Molecular Biology (KSBMB) International Conference 2022",
+      "title": "Shared gene regulation in autism-associated transcriptional regulators in neurodevelopment"
+    },
+    {
+      "date": "2022/7/3",
+      "event": "The 45th Annual Meeting of the Japan Neuroscience Society",
+      "title": "Identification of regulatory noncoding mutations associated with autism spectrum disorder"
+    },
+    {
+      "date": "2022/9/29",
+      "event": "Korean Society for Molecular and Cellular Biology International Conference",
+      "title": "Shared gene regulation in Autism-associated Transcriptional regulators in Neurodevelopment"
+    },
+    {
+      "date": "2022/10/19",
+      "event": "BIOINFO Annual Conference of Korean Society for Bioinformatics",
+      "title": "AI in whole genome sequencing: Variant prediction and Interpretation"
+    },
+    {
+      "date": "2022/12/8",
+      "event": "Yilian Medical Life Science Forum (Yonsei University College of Medicine)",
+      "title": "Single-cell transcriptomic analysis revealed oligodendrocyte alteration in autism-associated gene SCN2A"
+    },
+    {
+      "date": "2023/2/3",
+      "event": "The 19th Korea Genome Organization Winter Symposium",
+      "title": "Whole genome sequencing analysis identifies the genetic architecture underlying sex bias in autism spectrum disorder"
+    },
+    {
+      "date": "2023/2/19",
+      "event": "The 12th Cognition Sleep Mood and Stress (COSMOS) Symposium",
+      "title": "Whole genome sequencing-based genetic architecture study of Korean autism families"
+    },
+    {
+      "date": "2023/3/24",
+      "event": "Korean Society of Neuromuscular Disorders",
+      "title": "Genome-Wide Approaches for Understanding Genetic Architecture"
+    },
+    {
+      "date": "2023/5/7",
+      "event": "INSAR Annual Meeting 2023",
+      "title": "WGS identifies genetic architecture underlying female protective effect in ASD"
+    },
+    {
+      "date": "2023/5/11",
+      "event": "BIO KOREA 2023",
+      "title": "UK Biobank Current status & future directions"
+    },
+    {
+      "date": "2023/9/16",
+      "event": "International Cancer Proteogenome Consortium (ICPC) Regional Meeting (Seoul)",
+      "title": "Presentation on cancer proteomics and WGS"
+    },
+    {
+      "date": "2023/10/13",
+      "event": "The 32nd International KOGO Annual Conference, To be sparse, or not to be",
+      "title": "that is the question: Scalable VCF for a biobank-scale WGS project"
+    },
+    {
+      "date": "2023/11/10",
+      "event": "Korean Society for Diagnostic Genetics",
+      "title": "Genome-Wide Approaches for Understanding Genetic Architecture"
+    },
+    {
+      "date": "2024/1/18",
+      "event": "The Korean Human Proteome Organization Winter Workshop",
+      "title": "Proteogenomics of intractable lung cancers"
+    },
+    {
+      "date": "2024/2/7",
+      "event": "KSMCB Winter Conference 2024",
+      "title": "Genetic Architecture underlying Female Protective Effect in Autism"
+    },
+    {
+      "date": "2024/5/16",
+      "event": "AWS Summit 2024",
+      "title": "Large-scale genomic research with AWS"
+    },
+    {
+      "date": "2024/7/4",
+      "event": "Neurodevelopment Division Meeting (KSMCB)",
+      "title": "An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development"
+    },
+    {
+      "date": "2024/8/12",
+      "event": "KSBMB-BIKO Meeting",
+      "title": "Large-scale whole genome analysis to explore tandem repeats in human disorders"
+    },
+    {
+      "date": "2024/10/26",
+      "event": "K-BioX AI/BI Session",
+      "title": "Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population"
+    },
+    {
+      "date": "2024/10",
+      "event": "The 2nd Conference on Gene- and Cell-Based Biopharmaceuticals",
+      "title": "AI Approaches for Identifying Risk Genetic Variants in Neurodevelopmental Disorders"
+    },
+    {
+      "date": "2024/11/9",
+      "event": "Annual Conference The Korean Association for Persons with Autism",
+      "title": "Autism and Genetics: Insights from Large-Scale Genomic Studies"
+    },
+    {
+      "date": "2024/11/14",
+      "event": "Bio Future Forum 2024",
+      "title": "Bio Big Data: From Observation to Prediction and Inference"
+    }
+  ],
+  "seminars": [
+    {
+      "date": "2019/3/19",
+      "event": "Department Seminar (School of Biological Sciences, Seoul National University)",
+      "title": "Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder"
+    },
+    {
+      "date": "2019/3/20",
+      "event": "Grand Rounds (Korea University College of Medicine)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2019/3/22",
+      "event": "Grand Rounds (Samsung Medical Center)",
+      "title": "Developmentally and genetically regulated gene expression patterns in human prefrontal cortex"
+    },
+    {
+      "date": "2019/3/27",
+      "event": "College Seminar (Health Sciences, Korea University)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2019/4/16",
+      "event": "Neurology Grand Rounds (Hanyang University College of Medicine)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2019/4/25",
+      "event": "Psychiatry Grand Rounds (Seoul National University Bundang Hospital)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2019/5/10",
+      "event": "Department Seminar (Biological Systems, Sookmyung Women's University)",
+      "title": "Identification of noncoding mutations associated with autism spectrum disorders"
+    },
+    {
+      "date": "2019/5/10",
+      "event": "Department Seminar (Biomedical Engineering, Kangwon National University)",
+      "title": "Identification of noncoding mutations associated with autism spectrum disorders"
+    },
+    {
+      "date": "2019/9/4",
+      "event": "Institute Seminar (KIST Brain Science Institute)",
+      "title": "Whole-genome and RNA sequencing reveal variation and transcriptomic coordination in the developing human prefrontal cortex"
+    },
+    {
+      "date": "2019/9/5",
+      "event": "The 28th International KOGO Annual Conference",
+      "title": "Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder"
+    },
+    {
+      "date": "2019/9/10",
+      "event": "Department Seminar (Molecular and Life Science, Hanyang University)",
+      "title": "Identification of noncoding mutations associated with autism spectrum disorders"
+    },
+    {
+      "date": "2019/10/23",
+      "event": "College Seminar (Pharmacy, Chung-Ang University)",
+      "title": "Lessons from 7,600 whole genome and 35,000 exome sequencing analysis of autism spectrum disorders"
+    },
+    {
+      "date": "2019/10/31",
+      "event": "Department Seminar (Graduate School of Medical Science and Engineering, KAIST)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2019/12/3",
+      "event": "Institute Seminar (Korea National Institute of Health)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2019/12/9",
+      "event": "Department Seminar (Preventive Medicine, Yonsei University College of Medicine)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2019/12/12",
+      "event": "Center Seminar (Samsung Genome Center, Samsung Medical Center)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2020/3/6",
+      "event": "Korean Bioinformation Center",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2020/3/27",
+      "event": "Department Seminar (Biomedical Engineering, Kangwon National University)",
+      "title": "R & co-expression network analysis"
+    },
+    {
+      "date": "2020/4/24",
+      "event": "Department Seminar (Korea University College of Medicine), Re-visiting Mendel",
+      "title": "Galton and Fisher in the era of large-scale genomic research collaborations"
+    },
+    {
+      "date": "2020/6/3",
+      "event": "Department Seminar (Brain and Cognitive Sciences, DGIST)",
+      "title": "Whole-genome and RNA sequencing reveal variation and transcriptomic coordination in the developing human prefrontal cortex"
+    },
+    {
+      "date": "2020/6/10",
+      "event": "Graduate Seminar Series (Samsung Advanced Institute for Health Sciences & Technology)",
+      "title": "Understanding the genetic architecture of human disorders"
+    },
+    {
+      "date": "2020/6/12",
+      "event": "Department Seminar (School of Life Sciences, Korea University)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2020/6/17",
+      "event": "Center Seminar (Center for Cognition and Sociality, IBS)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2020/8/27",
+      "event": "Department Seminar (School of Biological Sciences, Seoul National University)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2020/9/10",
+      "event": "Graduate Seminar (Catholic University of Korea), Re-visiting Mendel",
+      "title": "Galton and Fisher in the era of Large-scale genomic research collaborations"
+    },
+    {
+      "date": "2020/9/15",
+      "event": "Department Seminar (Biological Sciences, Hanyang University)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2020/9/22",
+      "event": "Graduate Seminar (New Biology, DGIST)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2020/10/6",
+      "event": "Department Seminar (Biological Sciences, UNIST)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2020/10/14",
+      "event": "Psychiatry Grand Rounds (Seoul National University Bundang Hospital)",
+      "title": "Genetic Architecture of Autism Spectrum Disorders"
+    },
+    {
+      "date": "2020/11/20",
+      "event": "Korea Disease Control and Prevention Agency",
+      "title": "Introduction to genomic analysis with Hail"
+    },
+    {
+      "date": "2021/3/17",
+      "event": "Grand Rounds (Korea University College of Medicine)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2021/4/13",
+      "event": "Neurology Grand Rounds (Seoul National University College of Medicine)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2021/4/16",
+      "event": "DNALink",
+      "title": "Hail seminar"
+    },
+    {
+      "date": "2021/4/30",
+      "event": "Department Seminar (School of Biological Sciences, Seoul National University)",
+      "title": "Genome-Wide Association Study methodology for understanding genetic architecture"
+    },
+    {
+      "date": "2021/5/11",
+      "event": "Psychiatry Grand Rounds (Samsung Medical Center)",
+      "title": "Recent progress in psychiatric genomics: From single genes to the complete genetic architecture"
+    },
+    {
+      "date": "2021/5/26",
+      "event": "Ground Rounds (Hanim Precision Medicine Center, Severance Hospital)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2021/6/9",
+      "event": "Molecular Pathology Study Group (The Korean Society of Pathologists)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2021/7/30",
+      "event": "Neurology Grand Rounds (Samsung Medical Center)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2021/7/30",
+      "event": "Grand Rounds (CHA University College of Medicine)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2021/8/28",
+      "event": "Department Seminar (Biomedical Science and Engineering, GIST)",
+      "title": "A priori and null in autism genetics: Lesson from 7,600 whole genome and 35,000 exome sequencing data"
+    },
+    {
+      "date": "2021/9/28",
+      "event": "Grand Rounds (Seoul National University College of Medicine)",
+      "title": "Polygenic risk score analysis of Korean ASD-WGS cohort"
+    },
+    {
+      "date": "2022/4/15",
+      "event": "Graduate Seminar Series in Bioengineering (Seoul National University College of Medicine)",
+      "title": "Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population"
+    },
+    {
+      "date": "2022/4/28",
+      "event": "Griffith Institute for Drug Discovery Seminar (Griffith University, Australia)",
+      "title": "Shared gene regulation in autism-associated transcriptional regulators in neurodevelopment"
+    },
+    {
+      "date": "2022/5/16",
+      "event": "GenomeInsight",
+      "title": "Cloud computing and genomic research"
+    },
+    {
+      "date": "2022/7/26",
+      "event": "Pusan National University",
+      "title": "Genetic Architecture of Autism Spectrum Disorders"
+    },
+    {
+      "date": "2022/8/16",
+      "event": "Department Seminar (Medical Science, Korea University)",
+      "title": "Shared gene regulation in Autism-associated Transcriptional regulators in Neurodevelopment"
+    },
+    {
+      "date": "2022/10/13",
+      "event": "Lecture (Modern Biology, Chungbuk National University)",
+      "title": "History of research on disease-causing gene discovery: From the perspective of genetic architecture"
+    },
+    {
+      "date": "2022/10/14",
+      "event": "Graduate Seminar (Department of Biology, Kyung Hee University)",
+      "title": "Whole genome sequencing study on genetic architecture of autism spectrum disorder"
+    },
+    {
+      "date": "2022/10/14",
+      "event": "Future Medicine Special Lecture (Konkuk University Hospital)",
+      "title": "Whole genome sequencing study on genetic architecture of autism spectrum disorder"
+    },
+    {
+      "date": "2022/11/15",
+      "event": "Korea Disease Control and Prevention Agency",
+      "title": "Cloud computing and genomic research"
+    },
+    {
+      "date": "2022/12/8",
+      "event": "Department Seminar (Interdisciplinary Program in Bioinformatics, Seoul National University)",
+      "title": "An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder"
+    },
+    {
+      "date": "2022/12/8",
+      "event": "Pathology Grand Rounds (Asan Medical Center)",
+      "title": "Cancer genomics research using multi-omics"
+    },
+    {
+      "date": "2022/12/9",
+      "event": "Translational Research Institute (Asan Medical Center)",
+      "title": "Multiomics approaches reveal NSCLC subtypes associated with metastasis and tumor microenvironment"
+    },
+    {
+      "date": "2023/3/30",
+      "event": "Medical and Bio Special Lecture (Ajou University College of Medicine)",
+      "title": "Genome-Wide Approaches for Understanding Genetic Architecture"
+    },
+    {
+      "date": "2023/4/4",
+      "event": "Grand Rounds (Korea University College of Medicine)",
+      "title": "Genome-Wide Approaches for Understanding Genetic Architecture"
+    },
+    {
+      "date": "2023/4/12",
+      "event": "Graduate Seminar Series in Bioengineering (Seoul National University College of Medicine)",
+      "title": "Multiomics approaches reveal NSCLC subtypes"
+    },
+    {
+      "date": "2023/4/18",
+      "event": "Korea University College of Medicine",
+      "title": "Genome-Wide Approaches for Understanding Genetic Architecture"
+    },
+    {
+      "date": "2023/4/26",
+      "event": "Department Seminar (Brain and Cognitive Sciences, DGIST)",
+      "title": "Integrative multi-omics analyses to find noncoding mutations associated with ASD"
+    },
+    {
+      "date": "2023/5/16",
+      "event": "Department Seminar (Biological Sciences, KAIST)",
+      "title": "WGS analysis toward ASD genetic architecture (Korean ASD-WGS progress)"
+    },
+    {
+      "date": "2023/5/16",
+      "event": "Department Seminar (Graduate School of Medical Science and Engineering, KAIST)",
+      "title": "Introduction to basic concepts of Hail"
+    },
+    {
+      "date": "2023/5/18",
+      "event": "Department Seminar (Biological Sciences, Sungkyunkwan University)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of ASD"
+    },
+    {
+      "date": "2023/5/26",
+      "event": "Gaesin Medical Conference (Chungbuk National University)",
+      "title": "Single-cell atlas-based genomic analysis of neurological disorders"
+    },
+    {
+      "date": "2023/9/8",
+      "event": "Department Seminar (Biological Systems, Sookmyung Women's University)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of autism"
+    },
+    {
+      "date": "2023/9/13",
+      "event": "Department Seminar (Psychiatry, Seoul National University Hospital)",
+      "title": "Lecture on ASD and developmental disorder genomics"
+    },
+    {
+      "date": "2023/9/25",
+      "event": "Psychiatry Grand Rounds (Seoul National University Bundang Hospital)",
+      "title": "Presentation on ASD/WGS research"
+    },
+    {
+      "date": "2023/10/5",
+      "event": "Department Seminar (Systems Biology, Yonsei University)",
+      "title": "Scalable VCF for a biobank-scale WGS project"
+    },
+    {
+      "date": "2023/11/22",
+      "event": "Department Seminar (Anatomy, Yonsei University College of Medicine)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of autism spectrum disorder"
+    },
+    {
+      "date": "2024/1/17",
+      "event": "Department Seminar (Life Sciences, POSTECH)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of autism"
+    },
+    {
+      "date": "2024/1/30",
+      "event": "Grand Rounds (Korea University College of Medicine)",
+      "title": "Sex-bias in autism and large-scale genomic analysis"
+    },
+    {
+      "date": "2024/3/16",
+      "event": "SPARKing Knowledge 2024",
+      "title": "Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population"
+    },
+    {
+      "date": "2024/3/19",
+      "event": "Department Seminar (Biological Sciences, Konkuk University)",
+      "title": "Whole Genome Sequencing Analysis Identifies Genetic Architecture underlying Female Protective Effect in Autism"
+    },
+    {
+      "date": "2024/3/22",
+      "event": "Department Seminar (Biological Sciences, Dongguk University)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of autism spectrum disorder"
+    },
+    {
+      "date": "2024/4/16",
+      "event": "Illumina User Meeting",
+      "title": "Whole genome sequencing analyses to understand the genetic architecture of Korean autism families"
+    },
+    {
+      "date": "2024/4/30",
+      "event": "Department Seminar (Brain and Cognitive Sciences, Seoul National University)",
+      "title": "Genomic and transcriptomic research on Alzheimer's disease"
+    },
+    {
+      "date": "2024/5/9",
+      "event": "Department Seminar (Biomedical Science, Soongsil University)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of autism spectrum disorder"
+    },
+    {
+      "date": "2024/5/20",
+      "event": "Theragen Bio",
+      "title": "Whole genome sequencing analysis towards genetic architecture of autism spectrum disorder"
+    },
+    {
+      "date": "2024/6/4",
+      "event": "Department Seminar (Biological Sciences, UNIST)",
+      "title": "Whole genome sequencing analysis towards genetic architecture of autism spectrum disorder"
+    },
+    {
+      "date": "2024/8/2",
+      "event": "National Cancer Center",
+      "title": "Pan-cancer Proteogenomic Landscape of Whole-Genome Doubling"
+    },
+    {
+      "date": "2024/9/19",
+      "event": "Disease Study Society",
+      "title": "Whole-Genome Analysis of Autism Spectrum Disorder Genetics in the Korean Population"
+    },
+    {
+      "date": "2024/10/21",
+      "event": "Graduate Seminar Series (Samsung Advanced Institute for Health Sciences & Technology)",
+      "title": "Introduction to Multi-Omics Analysis"
+    }
+  ]
+}
