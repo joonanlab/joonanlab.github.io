@@ -1,0 +1,672 @@
+/* === An Lab Design System === */
+
+html {
+  font-size: 19.2px; /* 120% of default 16px */
+}
+
+:root {
+  --bg-primary: #0a0e1a;
+  --bg-card: #12182b;
+  --bg-card-hover: #1a2340;
+  --accent-cyan: #D43B56;
+  --accent-gold: #f5c542;
+  --text-primary: #e2e8f0;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(255, 255, 255, 0.15);
+  --glass-bg: rgba(10, 14, 26, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --transition-fast: 0.2s ease;
+  --transition-med: 0.3s ease;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+}
+
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f1f5f9;
+  --accent-cyan: #8B0029;
+  --accent-gold: #b45309;
+  --text-primary: #1e293b;
+  --text-muted: #64748b;
+  --text-dim: #94a3b8;
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --border-hover: rgba(0, 0, 0, 0.15);
+  --glass-bg: rgba(248, 250, 252, 0.85);
+  --glass-border: rgba(0, 0, 0, 0.08);
+}
+
+/* === Light Mode Overrides for Tailwind utility classes === */
+[data-theme="light"] .bg-dark-bg { background-color: var(--bg-primary) !important; }
+[data-theme="light"] .bg-dark-card { background-color: var(--bg-card) !important; }
+[data-theme="light"] .bg-dark-hover { background-color: var(--bg-card-hover) !important; }
+[data-theme="light"] .hover\:bg-dark-hover:hover { background-color: var(--bg-card-hover) !important; }
+[data-theme="light"] .text-slate-200 { color: var(--text-primary) !important; }
+[data-theme="light"] .text-slate-300 { color: var(--text-primary) !important; }
+[data-theme="light"] .text-slate-400 { color: var(--text-muted) !important; }
+[data-theme="light"] .text-slate-500 { color: var(--text-dim) !important; }
+[data-theme="light"] .border-slate-600 { border-color: var(--border-subtle) !important; }
+[data-theme="light"] .border-slate-700 { border-color: var(--border-subtle) !important; }
+[data-theme="light"] .border-slate-800 { border-color: var(--border-subtle) !important; }
+[data-theme="light"] .hover\:border-slate-600:hover { border-color: var(--border-hover) !important; }
+[data-theme="light"] .text-dark-bg { color: var(--text-primary) !important; }
+[data-theme="light"] .bg-cyan-accent { background-color: var(--accent-cyan) !important; }
+
+/* === Base === */
+* { box-sizing: border-box; }
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* === Glass Navbar === */
+.glass-nav {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--glass-border);
+  transition: background var(--transition-med);
+}
+
+.glass-nav.scrolled {
+  background: var(--glass-bg);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* === Nav Links === */
+.nav-link {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent-cyan);
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent-cyan);
+  border-radius: 1px;
+}
+
+/* === Cards === */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem;
+  transition: all var(--transition-med);
+}
+
+.card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card-team {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem;
+  transition: all var(--transition-med);
+  cursor: pointer;
+  text-align: center;
+}
+
+.card-team:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-cyan);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 35px rgba(212, 59, 86, 0.1);
+}
+
+.card-team img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  border: 3px solid var(--border-subtle);
+  transition: border-color var(--transition-med);
+}
+
+.card-team:hover img {
+  border-color: var(--accent-cyan);
+}
+
+.card-pi {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-left: 4px solid var(--accent-gold);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  transition: all var(--transition-med);
+  cursor: pointer;
+}
+
+.card-pi:hover {
+  background: var(--bg-card-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card-pub {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem;
+  transition: all var(--transition-med);
+}
+
+.card-pub:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-hover);
+}
+
+.card-pub.highlighted {
+  border-left: 4px solid var(--accent-gold);
+}
+
+/* === Badges === */
+.badge {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-gold {
+  background: rgba(245, 197, 66, 0.15);
+  color: var(--accent-gold);
+  border: 1px solid rgba(245, 197, 66, 0.3);
+}
+
+.badge-cyan {
+  background: rgba(212, 59, 86, 0.15);
+  color: var(--accent-cyan);
+  border: 1px solid rgba(212, 59, 86, 0.3);
+}
+
+/* === Timeline === */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent-cyan), var(--accent-gold), transparent);
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0.35rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent-cyan);
+  border: 2px solid var(--bg-primary);
+  margin-left: -4px;
+}
+
+.timeline-year {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.timeline-year::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0.5rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent-gold);
+  border: 3px solid var(--bg-primary);
+  margin-left: -6px;
+}
+
+/* === Filter Pills === */
+.pill {
+  display: inline-block;
+  padding: 0.375rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  background: transparent;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.pill:hover {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+}
+
+.pill.active {
+  background: var(--accent-cyan);
+  border-color: var(--accent-cyan);
+  color: #0a0e1a;
+}
+
+/* === Theme Toggle Icons === */
+[data-theme="dark"] .sun-icon { display: none; }
+[data-theme="dark"] .moon-icon { display: block; }
+[data-theme="light"] .sun-icon { display: block; }
+[data-theme="light"] .moon-icon { display: none; }
+
+/* === Language Toggle === */
+body:not(.lang-ko) .ko-only { display: none; }
+body.lang-ko .en-only { display: none; }
+
+/* === Hero Section === */
+.hero-section {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+}
+
+/* === Prose styles for member bios === */
+.profile-bio h2,
+.profile-bio h3,
+.profile-bio h4 {
+  color: var(--accent-gold);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.profile-bio h2 { font-size: 1.25rem; }
+.profile-bio h3 { font-size: 1.125rem; }
+
+.profile-bio p {
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.profile-bio ul,
+.profile-bio ol {
+  color: var(--text-muted);
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.profile-bio li {
+  margin-bottom: 0.375rem;
+  line-height: 1.6;
+}
+
+.profile-bio a {
+  color: var(--accent-cyan);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.profile-bio a:hover {
+  color: var(--accent-gold);
+}
+
+.profile-bio strong {
+  color: var(--text-primary);
+}
+
+/* === Section Headers === */
+.section-header {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* === Funding Logos === */
+.funding-logos img {
+  height: 48px;
+  width: auto;
+  filter: grayscale(30%) brightness(0.9);
+  opacity: 0.8;
+  transition: all var(--transition-med);
+}
+
+[data-theme="light"] .funding-logos img {
+  filter: grayscale(20%) brightness(1);
+}
+
+.funding-logos img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+/* === Research Image === */
+.research-img {
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border-subtle);
+}
+
+/* === Tool Cards === */
+.tool-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  transition: all var(--transition-med);
+}
+
+.tool-card:hover {
+  border-color: var(--accent-cyan);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim);
+}
+
+/* === Hero Title (keep original size despite root font-size increase) === */
+.hero-title {
+  font-size: 1.875rem !important; /* 36px */
+}
+@media (min-width: 640px) {
+  .hero-title { font-size: 2.5rem !important; } /* 48px */
+}
+@media (min-width: 1024px) {
+  .hero-title { font-size: 3.125rem !important; } /* 60px */
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .section-header {
+    font-size: 1.5rem;
+  }
+
+  .card-team img {
+    width: 96px;
+    height: 96px;
+  }
+
+  .funding-logos img {
+    height: 36px;
+  }
+}
+
+/* === YouTube Embed Container === */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border-subtle);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* === Search Input === */
+.search-input {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 0.625rem 1rem 0.625rem 2.5rem;
+  color: var(--text-primary);
+  width: 100%;
+  font-size: 0.875rem;
+  transition: border-color var(--transition-fast);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent-cyan);
+}
+
+.search-input::placeholder {
+  color: var(--text-dim);
+}
+
+/* === Skip to Content === */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: var(--accent-cyan);
+  color: #0a0e1a;
+  font-weight: 600;
+  border-radius: var(--radius-lg);
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* === Focus Visible === */
+*:focus-visible {
+  outline: 2px solid var(--accent-cyan);
+  outline-offset: 2px;
+}
+
+/* === Back to Top === */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 40;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--accent-cyan);
+  color: #0a0e1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity var(--transition-med), visibility var(--transition-med), transform var(--transition-med);
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* === Loading Skeletons === */
+.skeleton {
+  background: linear-gradient(90deg, var(--bg-card) 25%, var(--bg-card-hover) 50%, var(--bg-card) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-lg);
+}
+
+.skeleton-card {
+  height: 80px;
+  margin-bottom: 0.75rem;
+}
+
+.skeleton-team {
+  height: 200px;
+}
+
+.skeleton-text {
+  height: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton-text.short {
+  width: 60%;
+}
+
+/* === Breadcrumb Navigation === */
+.breadcrumb {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb a {
+  color: var(--text-muted);
+  transition: color var(--transition-fast);
+}
+
+.breadcrumb a:hover {
+  color: var(--accent-cyan);
+}
+
+.breadcrumb .separator {
+  color: var(--text-dim);
+  margin: 0 0.5rem;
+}
+
+.breadcrumb .current {
+  color: var(--text-primary);
+}
+
+/* === Print Stylesheet === */
+@media print {
+  .glass-nav,
+  footer,
+  .hero-canvas,
+  .back-to-top,
+  .skip-link,
+  #mobile-menu-btn,
+  #theme-toggle,
+  #lang-toggle,
+  #mobile-menu {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  main {
+    padding-top: 0 !important;
+  }
+
+  .card, .card-pub, .card-team, .card-pi, .tool-card {
+    break-inside: avoid;
+    border: 1px solid #ccc !important;
+    background: white !important;
+    box-shadow: none !important;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    color: #666;
+  }
+
+  a.nav-link::after,
+  a.breadcrumb a::after {
+    content: none;
+  }
+
+  * {
+    color: black !important;
+    background: transparent !important;
+  }
+
+  .text-cyan-accent, .text-gold-accent {
+    color: #333 !important;
+    font-weight: bold !important;
+  }
+}
+
+/* === Map iframe === */
+.map-container {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 400px;
+  border: 0;
+}

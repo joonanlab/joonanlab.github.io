@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Joon-Yong An",
+    "photo": "joonan.jpg",
+    "info": "Principal Investigator",
+    "url": "joonan",
+    "group": 0
+  },
+  {
+    "name": "Yujin Kim",
+    "photo": "yujinkim.png",
+    "info": "Graduate Student (Seoam Fellow)",
+    "url": "yujinkim",
+    "group": 1
+  },
+  {
+    "name": "Soo-Whee Kim",
+    "photo": "soowhee.jpg",
+    "info": "Graduate Student",
+    "url": "soowhee",
+    "group": 1
+  },
+  {
+    "name": "Hyeji Lee",
+    "photo": "hyejilee.jpg",
+    "info": "Graduate Student (NRF Fellow)",
+    "url": "hyeji",
+    "group": 1
+  },
+  {
+    "name": "Ingyeong Koh",
+    "photo": "ingyeongkoh.jpg",
+    "info": "Graduate Student (NRF Fellow)",
+    "url": "ingyeongkoh",
+    "group": 1
+  },
+  {
+    "name": "Nahyun Kwon",
+    "photo": "nakwon.jpg",
+    "info": "Graduate Student",
+    "url": "nakwon",
+    "group": 1
+  },
+  {
+    "name": "Wooheon Kim",
+    "photo": "alexkim.jpg",
+    "info": "Graduate Student",
+    "url": "alexkim",
+    "group": 1
+  },
+  {
+    "name": "Gaeun Byeon",
+    "photo": "gaeunb.jpg",
+    "info": "Graduate Student",
+    "url": "gaeunb",
+    "group": 1
+  },
+  {
+    "name": "Chaewon Min",
+    "photo": "chaewon.jpg",
+    "info": "Graduate Student (CNRF Fellow)",
+    "url": "chaewon",
+    "group": 1
+  },
+  {
+    "name": "Yeojin Ryu",
+    "photo": "yeojin.jpg",
+    "info": "Graduate Student (CNRF Fellow)",
+    "url": "yeojin",
+    "group": 1
+  },
+  {
+    "name": "Hyunjin Hong",
+    "photo": "hyunjin.jpg",
+    "info": "Graduate Student",
+    "url": "hyunjin",
+    "group": 1
+  },
+  {
+    "name": "Dong Min Shin",
+    "photo": "dongmin.jpg",
+    "info": "Graduate Student",
+    "url": "dongmin",
+    "group": 1
+  },
+  {
+    "name": "Kyeongho Yeom",
+    "photo": "kyeongho.jpg",
+    "info": "Graduate Student",
+    "url": "kyeongho",
+    "group": 1
+  },
+  {
+    "name": "Davin Lee",
+    "photo": "dvlee.jpg",
+    "info": "Graduate Student",
+    "url": "dvlee",
+    "group": 1
+  },
+  {
+    "name": "Haeun Jeong",
+    "photo": "haeun.png",
+    "info": "Graduate Student",
+    "url": "haeun",
+    "group": 1
+  },
+  {
+    "name": "Youngseok Choi",
+    "photo": "youngseok.jpg",
+    "info": "Bioinformatician",
+    "url": "youngseok",
+    "group": 2
+  },
+  {
+    "name": "Ashish Jung",
+    "photo": "ashish.jpg",
+    "info": "Undergraduate intern",
+    "url": "ashish",
+    "group": 3
+  },
+  {
+    "name": "Seoyoun Lee",
+    "photo": "seoyounlee.jpg",
+    "info": "Undergraduate intern",
+    "url": "seoyounlee",
+    "group": 3
+  },
+  {
+    "name": "Hayoon Park",
+    "photo": "hayoonpark.jpg",
+    "info": "Undergraduate intern",
+    "url": "hayoonpark",
+    "group": 3
+  },
+  {
+    "name": "Hwanseok Sim",
+    "photo": "hwanseoksim.jpg",
+    "info": "Undergraduate intern",
+    "url": "hwanseoksim",
+    "group": 3
+  },
+  {
+    "name": "Beomsu Kim",
+    "photo": "beomsukim.jpg",
+    "info": "Undergraduate intern",
+    "url": "beomsukim",
+    "group": 3
+  },
+  {
+    "name": "Heesun Choi",
+    "photo": "heesun.jpg",
+    "info": "Undergraduate intern",
+    "url": "heesun",
+    "group": 3
+  }
+]

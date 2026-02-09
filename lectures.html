@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lectures - An Lab</title>
+<meta name="description" content="Lectures and courses by An Lab - genetics, bioinformatics, AI biology, and public lectures.">
+<meta property="og:title" content="Lectures - An Lab">
+<meta property="og:description" content="Lectures and courses by An Lab - genetics, bioinformatics, AI biology, and public lectures.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://joonanlab.github.io/images/logopic/Logo2025-AnLab.png">
+<meta property="og:site_name" content="An Lab">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="images/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        dark: { bg: '#0a0e1a', card: '#12182b', hover: '#1a2340' },
+        cyan: { accent: '#D43B56' },
+        gold: { accent: '#f5c542' },
+      },
+      fontFamily: { sans: ['Inter', 'Noto Sans KR', 'sans-serif'] },
+    },
+  },
+};
+</script>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+<body class="bg-dark-bg text-slate-200 font-sans min-h-screen">
+<a href="#main-content" class="skip-link">Skip to content</a>
+
+<nav class="glass-nav fixed top-0 w-full z-50 px-6 py-4">
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="images/logopic/Logo2025-AnLab.png" alt="An Lab" class="h-8 w-auto" width="32" height="32">
+      <span class="text-xl font-bold text-cyan-accent">An Lab</span>
+    </a>
+    <div class="hidden md:flex items-center gap-6">
+      <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+      <a href="team.html" class="nav-link" data-i18n="nav.team">Team</a>
+      <a href="research.html" class="nav-link" data-i18n="nav.research">Research</a>
+      <a href="publications.html" class="nav-link" data-i18n="nav.publications">Publications</a>
+      <a href="tools.html" class="nav-link" data-i18n="nav.tools">Tools</a>
+      <a href="lectures.html" class="nav-link active" data-i18n="nav.lectures">Lectures</a>
+      <a href="news.html" class="nav-link" data-i18n="nav.news">News</a>
+      <a href="join.html" class="nav-link" data-i18n="nav.join">Join</a>
+      <a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact</a>
+      <button id="theme-toggle" class="p-2 rounded-lg hover:bg-dark-hover transition-colors" aria-label="Toggle theme">
+        <svg class="w-5 h-5 sun-icon hidden" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"/></svg>
+        <svg class="w-5 h-5 moon-icon" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/></svg>
+      </button>
+      <button id="lang-toggle" class="px-3 py-1 rounded-lg border border-slate-600 hover:border-cyan-accent text-sm transition-colors" aria-label="Toggle language">EN/KR</button>
+    </div>
+    <button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Toggle navigation menu" aria-expanded="false">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-slate-700">
+    <div class="flex flex-col gap-3 pt-4">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="team.html" class="nav-link">Team</a>
+      <a href="research.html" class="nav-link">Research</a>
+      <a href="publications.html" class="nav-link">Publications</a>
+      <a href="tools.html" class="nav-link">Tools</a>
+      <a href="lectures.html" class="nav-link">Lectures</a>
+      <a href="news.html" class="nav-link">News</a>
+      <a href="join.html" class="nav-link">Join</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main-content" class="pt-24 pb-16 px-6">
+  <div class="max-w-5xl mx-auto">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html" data-i18n="breadcrumb.home">Home</a>
+      <span class="separator">/</span>
+      <span class="current">Lectures</span>
+    </nav>
+    <h1 class="section-header mb-10 reveal" data-i18n="section.lectures">Lectures & Courses</h1>
+
+    <!-- Genetics -->
+    <section class="card mb-6 reveal">
+      <h2 class="text-xl font-bold text-cyan-accent mb-2">유전학 (Genetics)</h2>
+      <p class="text-sm text-slate-400 mb-3">An undergraduate course at Korea University.</p>
+      <div class="flex flex-wrap gap-3">
+        <a href="https://chaek.org/books/human-genetics" target="_blank" rel="noopener" class="pill text-xs">Online Textbook</a>
+        <a href="https://www.youtube.com/playlist?list=PLrSeOrCeGDLHncPpe1DdXJhh9kES734U4" target="_blank" rel="noopener" class="pill text-xs">Lectures (EN)</a>
+        <a href="https://www.youtube.com/watch?v=D5ytuZGtVZE&list=PLrSeOrCeGDLF6CzLvPUj9eQBb_fIO3WTB" target="_blank" rel="noopener" class="pill text-xs">Lectures (KR)</a>
+      </div>
+    </section>
+
+    <!-- Bioinformatics -->
+    <section class="card mb-6 reveal">
+      <h2 class="text-xl font-bold text-cyan-accent mb-2">생물정보학 기초 시리즈 (Introduction to Bioinformatics)</h2>
+      <p class="text-sm text-slate-400 mb-3">생물정보학, 바이오 빅데이터 분석 관련 기본 강의들을 업로드 합니다.</p>
+      <div class="flex flex-wrap gap-3">
+        <a href="https://chaek.org/books/basic-stats-omics-labs" target="_blank" rel="noopener" class="pill text-xs">Online Textbook</a>
+        <a href="https://www.youtube.com/playlist?list=PLrSeOrCeGDLHJDRWShvuCf8l7uffUqqvC" target="_blank" rel="noopener" class="pill text-xs">YouTube</a>
+      </div>
+    </section>
+
+    <!-- AI Biology -->
+    <section class="card mb-6 reveal">
+      <h2 class="text-xl font-bold text-gold-accent mb-2">바이오 인공지능 시리즈 (AI Biology)</h2>
+      <p class="text-sm text-slate-400 mb-3">딥러닝을 이용한 유전체 데이터 연구 및 분석을 소개합니다.</p>
+      <div class="flex flex-wrap gap-3">
+        <a href="https://www.youtube.com/playlist?list=PLrSeOrCeGDLGTc2V5CEr_3yck4xmC6kGu" target="_blank" rel="noopener" class="pill text-xs">YouTube</a>
+      </div>
+    </section>
+
+    <!-- Paper Tips -->
+    <section class="card mb-6 reveal">
+      <h2 class="text-xl font-bold text-gold-accent mb-2">대학원 신입생 및 학부생을 위한 논문 읽기 그리고 쓰기 팁</h2>
+      <p class="text-sm text-slate-400 mb-3">연구 논문을 찾고, 읽는 법 그리고 본인의 논문 작성을 위한 방법들을 소개합니다.</p>
+      <div class="flex flex-wrap gap-3">
+        <a href="https://chaek.org/books/how-to-write-paper" target="_blank" rel="noopener" class="pill text-xs">Online Textbook</a>
+        <a href="https://www.youtube.com/playlist?list=PLrSeOrCeGDLEDv5TuWY8MD-5Oej_7rhyi" target="_blank" rel="noopener" class="pill text-xs">YouTube</a>
+      </div>
+    </section>
+
+    <!-- KPBA Online -->
+    <section class="card mb-6 reveal">
+      <h2 class="text-xl font-bold text-cyan-accent mb-2">한국제약바이오협회 온라인 교육</h2>
+      <div class="space-y-4 mt-4">
+        <div>
+          <h3 class="font-semibold text-sm mb-1">인공지능을 활용한 전장유전체 유전변이분석</h3>
+          <p class="text-xs text-slate-400 mb-2">전장유전체 분석을 통해 발굴된 유전변이를 해석하는데 사용되는 인공지능 기반의 방법론 등을 학습한다.</p>
+          <a href="https://www.laidd.org/local/ubonline/view.php?id=397&group=1&returnurl=aHR0cHM6Ly93d3cubGFpZGQub3JnL2xvY2FsL3Vib25saW5lL2luZGV4LnBocD9rZXl3b3JkPSVFQyU5RCVCOCVFQSVCMyVCNSVFQyVBNyU4MCVFQiU4QSVBNSslRUMlOUMlQTAlRUMlQTAlODQlRUMlQjIlQjQmbGFuZz1lbg==" target="_blank" rel="noopener" class="pill text-xs">Lecture</a>
+        </div>
+        <div>
+          <h3 class="font-semibold text-sm mb-1">약물 유전체 연구를 위한 유전변이 분석 기초 및 실습</h3>
+          <p class="text-xs text-slate-400 mb-2">약물 유전체 연구에 필수적인 유전변이 데이터에 대한 기본 개념과 형태를 학습합니다.</p>
+          <a href="https://www.laidd.org/local/ubonline/view.php?id=379&group=1&returnurl=aHR0cHM6Ly93d3cubGFpZGQub3JnL3NlYXJjaC5waHA/a2V5d29yZD0lRUMlOTUlODglRUMlQTQlODAlRUMlOUElQTk=" target="_blank" rel="noopener" class="pill text-xs">Lecture</a>
+        </div>
+        <div>
+          <h3 class="font-semibold text-sm mb-1">전장유전체 변이 분석의 이해</h3>
+          <p class="text-xs text-slate-400 mb-2">전장유전체 분석에 필요한 기본개념과 Hail 분석 플랫폼을 학습합니다.</p>
+          <a href="https://www.laidd.org/local/ubonline/view.php?id=405&group=1&returnurl=aHR0cHM6Ly93d3cubGFpZGQub3JnL3NlYXJjaC5waHA/a2V5d29yZD0lRUMlOTUlODglRUMlQTQlODAlRUMlOUElQTk=" target="_blank" rel="noopener" class="pill text-xs">Lecture</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Public Lectures -->
+    <section class="reveal">
+      <h2 class="text-xl font-bold text-gold-accent mb-6">공개 강의 모음</h2>
+
+      <div class="space-y-8">
+        <div class="card">
+          <h3 class="font-semibold mb-2">[3rd 오티즘스쿨] "자폐의 유전자 연구: 유전자 연구란 무엇인가?"</h3>
+          <p class="text-xs text-slate-400 mb-4">2024년 AUTISM EXPO에서 대중 강연을 공유합니다.</p>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/p7i0nGTBzig?si=s_vQZuNIKUjSf0-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="font-semibold mb-2">DNA를 통해 본 여성의 자폐 (제 19회 경암바이오유스캠프)</h3>
+          <p class="text-xs text-slate-400 mb-4">경암바이오유스캠프에서 고등학생들을 대상으로 한 강의를 공유합니다.</p>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/ukLaizaZ_rw?si=HkB_6eI9i4z-EdOq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="font-semibold mb-2">고려대학교의 클라우드를 활용한 유전체 분석 연구의 혁신 사례</h3>
+          <p class="text-xs text-slate-400 mb-4">AWS Seoul Summit에서 발표한 강의를 공유합니다.</p>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/g-bDdEGZD08?si=eMmlHNUemNRvgkry&amp;start=789" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="border-t border-slate-800 py-8 px-6">
+  <div class="max-w-7xl mx-auto text-center text-slate-500 text-sm">
+    <p>&copy; 2025 An Lab, Korea University. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>

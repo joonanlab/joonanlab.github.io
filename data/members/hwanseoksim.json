@@ -1,0 +1,11 @@
+{
+  "name": "Hwanseok Sim",
+  "position": "Undergraduate Intern",
+  "photo": "hwanseoksim.jpg",
+  "handle": "hwanseoksim",
+  "email": "Hwanseoksim@gmail.com",
+  "twitter": "",
+  "github": "",
+  "scholar": "",
+  "bio_html": "<p>Hwanseok's research bridges deep learning and genomics to investigate the genetic architecture of human diseases. He is particularly interested in applying LLMs to study non-coding de novo variants associated with autism spectrum disorder. His current work focuses on predicting the functional impact of these variants and interpreting disease-relevant patterns in the genome, with a growing interest in model explainability to better understand the biological relevance of learned features. Through this work, he hopes to contribute to a deeper understanding of human biology and ultimately advance human health.</p>\n<h3>Education &amp; Training</h3>\n<ul>\n<li>2020-present B.Sc. in Biosystem and Biomedical Sciences, Korea University</li>\n<li>2020-present B.Sc. in Computer Sceience and Engineering, Korea University</li>\n</ul>"
+}

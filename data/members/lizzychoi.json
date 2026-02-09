@@ -1,0 +1,14 @@
+{
+  "name": "Lizzy Choi",
+  "position": "Graduate Student",
+  "photo": "blank2.png",
+  "handle": "lizzychoi",
+  "email": "",
+  "twitter": "",
+  "github": "",
+  "scholar": "",
+  "bio_html": "<p>Lizzy is interested in developing a pipeline for analyzing whole genome sequencing data from patients with developmental disorders in Korea. With various genomic and systems biology approaches, she aims to discover genetic risk factors underlying patients' genome and ultimately establish an efficient and reproducible analytic process for the diagnosis and treatment of developmental disorders.</p>\n<h3>Education &amp; Training</h3>\n<ul>\n<li>2021-2022 M.Sc., Department of Integrated Biomedical and Life Science, Korea University</li>\n<li>2026-2021 B.Sc., Statistics, Korea University, South Korea</li>\n<li>2016-2021 B.Sc., Biosystem and Biomedical Sciences, Korea University, South Korea</li>\n</ul>\n<h3>Publications</h3>\n<ul>\n<li><strong>Choi L✻</strong>, An JY†, Genetic architecture of autism spectrum disorder: Lessons from large-scale genomic studies, Neuroscience and Biobehavioral Reviews, 128:244-257, 2021</li>\n</ul>",
+  "year": 2022,
+  "thesis": "Identification of genetic factors of comorbid ophthalmologic manifestations in the neurodevelopmental disorders cohort",
+  "current": "Data Analyst at Samsung SDS"
+}

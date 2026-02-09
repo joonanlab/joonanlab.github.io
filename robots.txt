@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joonanlab.github.io/sitemap.xml

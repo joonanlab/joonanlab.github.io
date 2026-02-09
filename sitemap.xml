@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://joonanlab.github.io/index.html</loc><priority>1.0</priority></url>
+  <url><loc>https://joonanlab.github.io/team.html</loc><priority>0.9</priority></url>
+  <url><loc>https://joonanlab.github.io/research.html</loc><priority>0.9</priority></url>
+  <url><loc>https://joonanlab.github.io/publications.html</loc><priority>0.9</priority></url>
+  <url><loc>https://joonanlab.github.io/tools.html</loc><priority>0.7</priority></url>
+  <url><loc>https://joonanlab.github.io/lectures.html</loc><priority>0.7</priority></url>
+  <url><loc>https://joonanlab.github.io/news.html</loc><priority>0.7</priority></url>
+  <url><loc>https://joonanlab.github.io/join.html</loc><priority>0.7</priority></url>
+  <url><loc>https://joonanlab.github.io/contact.html</loc><priority>0.6</priority></url>
+  <url><loc>https://joonanlab.github.io/karc.html</loc><priority>0.6</priority></url>
+  <url><loc>https://joonanlab.github.io/alumni.html</loc><priority>0.5</priority></url>
+</urlset>

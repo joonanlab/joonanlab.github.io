@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research - An Lab</title>
+<meta name="description" content="Research at An Lab - deep learning for noncoding genome, AI-driven virtual cells, autism genetics, and integrative multi-omics.">
+<meta property="og:title" content="Research - An Lab">
+<meta property="og:description" content="Research at An Lab - deep learning for noncoding genome, AI-driven virtual cells, autism genetics, and integrative multi-omics.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://joonanlab.github.io/images/logopic/Logo2025-AnLab.png">
+<meta property="og:site_name" content="An Lab">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="images/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        dark: { bg: '#0a0e1a', card: '#12182b', hover: '#1a2340' },
+        cyan: { accent: '#D43B56' },
+        gold: { accent: '#f5c542' },
+      },
+      fontFamily: { sans: ['Inter', 'Noto Sans KR', 'sans-serif'] },
+    },
+  },
+};
+</script>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+<body class="bg-dark-bg text-slate-200 font-sans min-h-screen">
+<a href="#main-content" class="skip-link">Skip to content</a>
+
+<nav class="glass-nav fixed top-0 w-full z-50 px-6 py-4">
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="images/logopic/Logo2025-AnLab.png" alt="An Lab" class="h-8 w-auto" width="32" height="32">
+      <span class="text-xl font-bold text-cyan-accent">An Lab</span>
+    </a>
+    <div class="hidden md:flex items-center gap-6">
+      <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+      <a href="team.html" class="nav-link" data-i18n="nav.team">Team</a>
+      <a href="research.html" class="nav-link active" data-i18n="nav.research">Research</a>
+      <a href="publications.html" class="nav-link" data-i18n="nav.publications">Publications</a>
+      <a href="tools.html" class="nav-link" data-i18n="nav.tools">Tools</a>
+      <a href="lectures.html" class="nav-link" data-i18n="nav.lectures">Lectures</a>
+      <a href="news.html" class="nav-link" data-i18n="nav.news">News</a>
+      <a href="join.html" class="nav-link" data-i18n="nav.join">Join</a>
+      <a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact</a>
+      <button id="theme-toggle" class="p-2 rounded-lg hover:bg-dark-hover transition-colors" aria-label="Toggle theme">
+        <svg class="w-5 h-5 sun-icon hidden" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"/></svg>
+        <svg class="w-5 h-5 moon-icon" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/></svg>
+      </button>
+      <button id="lang-toggle" class="px-3 py-1 rounded-lg border border-slate-600 hover:border-cyan-accent text-sm transition-colors" aria-label="Toggle language">EN/KR</button>
+    </div>
+    <button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Toggle navigation menu" aria-expanded="false">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-slate-700">
+    <div class="flex flex-col gap-3 pt-4">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="team.html" class="nav-link">Team</a>
+      <a href="research.html" class="nav-link">Research</a>
+      <a href="publications.html" class="nav-link">Publications</a>
+      <a href="tools.html" class="nav-link">Tools</a>
+      <a href="lectures.html" class="nav-link">Lectures</a>
+      <a href="news.html" class="nav-link">News</a>
+      <a href="join.html" class="nav-link">Join</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main-content" class="pt-24 pb-16 px-6">
+  <div class="max-w-5xl mx-auto">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html" data-i18n="breadcrumb.home">Home</a>
+      <span class="separator">/</span>
+      <span class="current">Research</span>
+    </nav>
+    <h1 class="section-header mb-12 reveal" data-i18n="section.research">Research</h1>
+
+    <!-- Research Area 1 -->
+    <section class="mb-16 reveal">
+      <div class="flex flex-col md:flex-row gap-8 items-start">
+        <div class="flex-1">
+          <h2 class="text-xl font-bold text-cyan-accent mb-4 en-only">Deep Learning to Understand Regulatory Pattern in Noncoding Genome</h2>
+          <h2 class="text-xl font-bold text-cyan-accent mb-4 ko-only">비암호화 유전체의 조절 패턴 이해를 위한 딥러닝</h2>
+          <p class="text-slate-400 leading-relaxed en-only">Our lab uses advanced deep learning techniques, including large language models (LLMs), to study noncoding regulatory mutations associated with autism and other neurodevelopmental disorders. We've developed the CWAS framework (<a href="https://academic.oup.com/bib/article/25/4/bbae323/7706421" target="_blank" rel="noopener" class="text-cyan-accent hover:underline">Kim et al. 2024</a>) to analyze whole genome sequencing data from autism families. Currently, we're integrating single-cell multiomics datasets from developing human brains to further refine our approach. By leveraging LLM-based deep learning models, we aim to systematically interpret noncoding mutations and their regulatory effects on neurodevelopment. Our research focuses on modeling complex interactions between genomic, epigenomic, and transcriptomic features to better predict functional consequences of noncoding variants. Through these efforts, we seek to enhance our understanding of neurodevelopmental risk and develop AI-driven tools for variant prioritization and mechanistic insights into autism and related disorders.</p>
+          <p class="text-slate-400 leading-relaxed ko-only">본 연구실은 대규모 언어 모델(LLM)을 포함한 첨단 딥러닝 기법을 활용하여 자폐 및 신경발달장애와 관련된 비암호화 조절 돌연변이를 연구합니다. 자폐 가족의 전장 유전체 서열 분석 데이터를 분석하기 위해 CWAS 프레임워크(<a href="https://academic.oup.com/bib/article/25/4/bbae323/7706421" target="_blank" rel="noopener" class="text-cyan-accent hover:underline">Kim et al. 2024</a>)를 개발하였습니다. 현재 발달 중인 인간 뇌의 단일세포 멀티오믹스 데이터셋을 통합하여 접근법을 고도화하고 있습니다. LLM 기반 딥러닝 모델을 활용하여 비암호화 돌연변이와 신경발달에 대한 조절 효과를 체계적으로 해석하고, 유전체·후성유전체·전사체 특성 간의 복잡한 상호작용을 모델링하여 비암호화 변이의 기능적 결과를 예측하는 것을 목표로 합니다. 이를 통해 신경발달 위험에 대한 이해를 높이고, 변이 우선순위 결정 및 자폐 관련 장애의 기전 규명을 위한 AI 기반 도구를 개발하고자 합니다.</p>
+        </div>
+        <img src="images/respic/cwas_framework.png" alt="CWAS framework" class="research-img w-full md:w-72 h-auto" loading="lazy" onerror="this.style.display='none'">
+      </div>
+    </section>
+
+    <!-- Research Area 2 -->
+    <section class="mb-16 reveal">
+      <div class="flex flex-col md:flex-row-reverse gap-8 items-start">
+        <div class="flex-1">
+          <h2 class="text-xl font-bold text-gold-accent mb-4 en-only">AI-Driven Virtual Cell to Risk Gene Discovery and Regulatory Interaction</h2>
+          <h2 class="text-xl font-bold text-gold-accent mb-4 ko-only">AI 기반 가상 세포를 통한 위험 유전자 발굴 및 조절 상호작용 연구</h2>
+          <p class="text-slate-400 leading-relaxed en-only">Our research focuses on building a large-scale single-cell RNA sequencing atlas to comprehensively map cellular states and gene regulatory networks across various biological systems. By integrating LLM-based foundation models, we develop an AI-driven virtual cell (AIVC) that enables the discovery of novel risk genes and their functional interactions. Through this approach, we systematically identify core gene regulatory networks and predict disease-associated mechanisms, with applications in neurodevelopmental disorders and autism. The AIVC provides a computational framework for high-fidelity simulations, in silico experimentation, and hypothesis-driven validation, accelerating discoveries in both fundamental biology and precision medicine.</p>
+          <p class="text-slate-400 leading-relaxed ko-only">본 연구는 다양한 생물학적 시스템에서 세포 상태와 유전자 조절 네트워크를 포괄적으로 매핑하기 위한 대규모 단일세포 RNA 시퀀싱 아틀라스 구축에 중점을 둡니다. LLM 기반 파운데이션 모델을 통합하여 새로운 위험 유전자와 기능적 상호작용을 발굴하는 AI 기반 가상 세포(AIVC)를 개발하고 있습니다. 이를 통해 핵심 유전자 조절 네트워크를 체계적으로 식별하고 질환 관련 메커니즘을 예측하며, 신경발달장애 및 자폐 연구에 활용합니다. AIVC는 고정밀 시뮬레이션, 인실리코 실험, 가설 기반 검증을 위한 계산적 프레임워크를 제공하여 기초 생물학과 정밀의학 분야의 발견을 가속화합니다.</p>
+        </div>
+        <img src="images/respic/virtual_cell.png" alt="Virtual cell" class="research-img w-full md:w-72 h-auto" loading="lazy" onerror="this.style.display='none'">
+      </div>
+    </section>
+
+    <!-- Research Area 3 -->
+    <section class="mb-16 reveal">
+      <div class="flex flex-col md:flex-row gap-8 items-start">
+        <div class="flex-1">
+          <h2 class="text-xl font-bold text-cyan-accent mb-4 en-only">Genetic Architecture of Autism</h2>
+          <h2 class="text-xl font-bold text-cyan-accent mb-4 ko-only">자폐의 유전적 구조</h2>
+          <p class="text-slate-400 leading-relaxed en-only">Our lab investigates the genetic architecture of autism with a particular focus on East Asian populations, leveraging long-read whole genome sequencing to uncover previously inaccessible genomic variations. Since establishing our research group at Korea University in 2019, we have concentrated on exploring the genetic architecture of autism in Korean families. Our investigations encompass a wide range of genetic factors, including common, rare, and de novo variants, which we are analyzing within one of the largest East Asian cohorts for autism. Notably, our research has recently revealed sex-specific patterns in genetic risk factors among Korean autism families, showing that these differences may influence phenotypic severity and familial patterns in autism (<a href="https://link.springer.com/article/10.1186/s13073-024-01385-6" target="_blank" rel="noopener" class="text-cyan-accent hover:underline">Kim et al. 2024, Genome Medicine</a>). We are currently analyzing long-read sequencing data from Korean autism families to further investigate the impact of complex genomic variations, including large insertions, deletions, and repeat expansions.</p>
+          <p class="text-slate-400 leading-relaxed ko-only">본 연구실은 동아시아 인구집단에 초점을 맞추어 자폐의 유전적 구조를 연구하며, 롱리드 전장 유전체 시퀀싱을 활용하여 기존에 접근하기 어려웠던 유전체 변이를 발굴합니다. 2019년 고려대학교에 연구그룹을 설립한 이후, 한국 자폐 가족의 유전적 구조 탐구에 집중하고 있습니다. 흔한 변이, 희귀 변이, 신생 변이를 포함한 다양한 유전 인자를 동아시아 최대 규모의 자폐 코호트에서 분석하고 있습니다. 최근 연구에서는 한국 자폐 가족의 유전적 위험 인자에서 성별 특이적 패턴을 밝혀, 이러한 차이가 표현형 심각도와 가족 내 패턴에 영향을 미칠 수 있음을 확인하였습니다(<a href="https://link.springer.com/article/10.1186/s13073-024-01385-6" target="_blank" rel="noopener" class="text-cyan-accent hover:underline">Kim et al. 2024, Genome Medicine</a>). 현재 한국 자폐 가족의 롱리드 시퀀싱 데이터를 분석하여 대형 삽입, 결실, 반복 서열 확장 등 복잡한 유전체 변이의 영향을 추가로 조사하고 있습니다.</p>
+        </div>
+        <img src="images/respic/autism_architecture.png" alt="Autism architecture" class="research-img w-full md:w-72 h-auto" loading="lazy" onerror="this.style.display='none'">
+      </div>
+    </section>
+
+    <!-- Research Area 4 -->
+    <section class="mb-16 reveal">
+      <div class="flex flex-col md:flex-row-reverse gap-8 items-start">
+        <div class="flex-1">
+          <h2 class="text-xl font-bold text-gold-accent mb-4 en-only">Integrative Multi-omics Approaches to Understand Complex Disorder</h2>
+          <h2 class="text-xl font-bold text-gold-accent mb-4 ko-only">복합 질환 이해를 위한 통합 멀티오믹스 접근법</h2>
+          <p class="text-slate-400 leading-relaxed en-only">Our research focus is centered on exploring the extreme genetic heterogeneity that underlies complex human disorder. We have examined the hypothesis that multiple risk genes converge on a reduced number of crucial biological processes. We developed a computational prediction model to identify cohesive biological networks in autism (<a href="https://www.nature.com/articles/tp201438" target="_blank" rel="noopener" class="text-cyan-accent hover:underline">An et al. 2014</a>). Further integration with in vitro functional characterization led to the identification of key pathways, including axonal guidance and the NRXN complex (<a href="https://www.nature.com/articles/s41380-018-0049-x" target="_blank" rel="noopener" class="text-cyan-accent hover:underline">Williams et al. 2018</a>). We have integrated large-scale whole-genome sequencing and transcriptomics datasets of human post-mortem cortex across fetal to adult stages (<a href="https://www.sciencedirect.com/science/article/pii/S2211124720303673" target="_blank" rel="noopener" class="text-cyan-accent hover:underline">Werling et al. 2020</a>). Our lab has been developing analytical frameworks for multi-omics analysis of Korean lung cancer patients, including genomics, transcriptomics, proteomics, phospho-proteomics, and acetyl-proteomics, to characterize cancer subtypes and tumor microenvironment.</p>
+          <p class="text-slate-400 leading-relaxed ko-only">본 연구는 복합 인간 질환의 근간이 되는 극도의 유전적 이질성을 탐구하는 데 중점을 둡니다. 다수의 위험 유전자가 소수의 핵심 생물학적 과정으로 수렴한다는 가설을 검증하였습니다. 자폐에서 응집적 생물학적 네트워크를 식별하기 위한 계산 예측 모델을 개발하였고(<a href="https://www.nature.com/articles/tp201438" target="_blank" rel="noopener" class="text-cyan-accent hover:underline">An et al. 2014</a>), 시험관 내 기능 분석과의 통합을 통해 축삭 유도 및 NRXN 복합체를 포함한 핵심 경로를 식별하였습니다(<a href="https://www.nature.com/articles/s41380-018-0049-x" target="_blank" rel="noopener" class="text-cyan-accent hover:underline">Williams et al. 2018</a>). 태아기부터 성인기까지의 인간 사후 피질 대규모 전장 유전체 시퀀싱 및 전사체 데이터셋을 통합하였으며(<a href="https://www.sciencedirect.com/science/article/pii/S2211124720303673" target="_blank" rel="noopener" class="text-cyan-accent hover:underline">Werling et al. 2020</a>), 한국 폐암 환자의 유전체학, 전사체학, 단백질체학, 인산화 단백질체학, 아세틸화 단백질체학을 포함한 멀티오믹스 분석 프레임워크를 개발하여 암 아형과 종양 미세환경을 규명하고 있습니다.</p>
+        </div>
+        <img src="images/respic/multiomics.png" alt="Multi-omics" class="research-img w-full md:w-72 h-auto" loading="lazy" onerror="this.style.display='none'">
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="border-t border-slate-800 py-8 px-6">
+  <div class="max-w-7xl mx-auto text-center text-slate-500 text-sm">
+    <p>&copy; 2025 An Lab, Korea University. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>

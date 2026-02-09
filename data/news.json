@@ -1,0 +1,517 @@
+[
+  {
+    "date": "Dec 24th 2025",
+    "headline": "We are grateful to share that Chaewon Min and Yeojin Ryu have been selected as recipients of graduate scholarships from the Cheongnyeong Rare Disease Research Foundation ((재)청녕희귀질환연구재단).",
+    "headline_ko": "Chaewon Min과 Yeojin Ryu가 (재)청녕희귀질환연구재단 대학원 장학생으로 선정되었습니다. 축하드립니다!"
+  },
+  {
+    "date": "Dec 15th 2025",
+    "headline": "Huge congratulations to Dr. An for being selected as a member of the Young Korean Academy of Science and Technology (Y-KAST)! 🎉",
+    "headline_ko": "안준 박사님이 한국과학기술한림원 차세대회원(Y-KAST)으로 선정되었습니다! 축하드립니다! 🎉"
+  },
+  {
+    "date": "Dec 12th 2025",
+    "headline": "Exciting news! Ingyeong has been chosen for the 2025 Korea-Canada Science and Engineering Graduate Student Training Program. Congratulations! 🎉",
+    "headline_ko": "Ingyeong이 2025 한-캐나다 과학공학 대학원생 연수 프로그램에 선발되었습니다. 축하합니다! 🎉"
+  },
+  {
+    "date": "Dec 2nd 2025",
+    "headline": "Huge congratulations to Soowhee Kim and Yujin Kim on successfully completing their PhD defenses! 🎉",
+    "headline_ko": "Soowhee Kim과 Yujin Kim이 박사학위 논문 심사를 성공적으로 마쳤습니다! 축하드립니다! 🎉"
+  },
+  {
+    "date": "Nov 12th 2025",
+    "headline": "Congratulations to Yebin Ryu on successfully completing her Master's thesis defense! 🎉",
+    "headline_ko": "Yebin Ryu가 석사학위 논문 심사를 성공적으로 마쳤습니다! 축하드립니다! 🎉"
+  },
+  {
+    "date": "Oct 16th 2025",
+    "headline": "Congrat Soo-Whee for the best paper awards at BIOINFO 2025! Also congrats Ingyeong for the excellent poster awards and Gaeun for the best poster awards! 🎉",
+    "headline_ko": "Soo-Whee가 BIOINFO 2025에서 우수논문상을 수상했습니다! Ingyeong은 우수포스터상, Gaeun은 최우수포스터상을 수상했습니다! 축하합니다! 🎉"
+  },
+  {
+    "date": "Aug 29th 2025",
+    "headline": "Huge congratulations to Ingyeong for being selected as NRF Graduate Fellowship recipients! 🎉",
+    "headline_ko": "Ingyeong이 한국연구재단(NRF) 대학원생 펠로우십에 선정되었습니다! 축하드립니다! 🎉"
+  },
+  {
+    "date": "Aug 27th 2025",
+    "headline": "Chanhee successfully completed their Master's program. We wish much success in your next chapter!",
+    "headline_ko": "Chanhee가 석사과정을 성공적으로 마쳤습니다. 앞으로의 여정에 큰 성공을 기원합니다!"
+  },
+  {
+    "date": "Aug 20th 2025",
+    "headline": "Our new study developed the within-family standardized deviations (WFSD) method. The WFSD examined phenotypic deviation in autism <a href='https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-025-01532-7'>(link)</a>.",
+    "headline_ko": "본 연구실의 새로운 연구에서 가족 내 표준화 편차(WFSD) 방법을 개발하였습니다. WFSD를 통해 자폐의 표현형 편차를 분석하였습니다 <a href='https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-025-01532-7'>(link)</a>."
+  },
+  {
+    "date": "Aug 16th 2025",
+    "headline": "Our new proteogenomic analysis reveals a distinct cancer subgroup with high IGF2BP expression <a href='https://www.medsci.org/v22p3815.htm'>(link)</a>.",
+    "headline_ko": "본 연구실의 새로운 프로테오게놈 분석에서 높은 IGF2BP 발현을 보이는 독특한 암 하위 그룹을 발견하였습니다 <a href='https://www.medsci.org/v22p3815.htm'>(link)</a>."
+  },
+  {
+    "date": "Jun 26th 2025",
+    "headline": "Our latest review on autism genomic studies is now available <a href='https://www.sciencedirect.com/science/article/pii/S101684782500072X'>(link)</a>.",
+    "headline_ko": "자폐 유전체 연구에 관한 최신 리뷰 논문이 출판되었습니다 <a href='https://www.sciencedirect.com/science/article/pii/S101684782500072X'>(link)</a>."
+  },
+  {
+    "date": "Jun 4th 2025",
+    "headline": "We published a review on RNA-binding proteins and alternative splicing in Autism <a href='https://www.sciencedirect.com/science/article/pii/S1016847825000615'>(link)</a>.",
+    "headline_ko": "자폐에서의 RNA-binding proteins과 alternative splicing에 관한 리뷰 논문을 출판하였습니다 <a href='https://www.sciencedirect.com/science/article/pii/S1016847825000615'>(link)</a>."
+  },
+  {
+    "date": "May 26th 2025",
+    "headline": "Excited to share our latest publication in Nature Communications, identifying novel genetic factors associated with Alzheimer's disease and a cumulative effects model for risk liability <a href='https://www.nature.com/articles/s41467-025-59949-y'>(link)</a>.",
+    "headline_ko": "Nature Communications에 알츠하이머병과 관련된 새로운 유전적 요인 및 위험 부담에 대한 누적 효과 모델을 규명한 최신 논문이 출판되었습니다 <a href='https://www.nature.com/articles/s41467-025-59949-y'>(link)</a>."
+  },
+  {
+    "date": "Mar 7th 2025",
+    "headline": "We wrote a review on national biobank projects utilizing whole-genome sequencing for population-scale genomics <a href='https://link.springer.com/article/10.1186/s44342-025-00040-9'>(link)</a>.",
+    "headline_ko": "전장 유전체 시퀀싱을 활용한 인구 규모 유전체학을 위한 국가 바이오뱅크 프로젝트에 관한 리뷰 논문을 작성하였습니다 <a href='https://link.springer.com/article/10.1186/s44342-025-00040-9'>(link)</a>."
+  },
+  {
+    "date": "Feb 18th 2025",
+    "headline": "Excited to share our latest paper on aberrant ERK signaling in astrocytes and its impact on learning and memory in RASopathy-associated BRAF mutant mouse models! <a href='https://www.jci.org/articles/view/176631'>(link)</a>.",
+    "headline_ko": "RASopathy 관련 BRAF 변이 마우스 모델에서 성상세포의 비정상적 ERK 신호 전달이 학습과 기억에 미치는 영향에 관한 최신 논문이 출판되었습니다! <a href='https://www.jci.org/articles/view/176631'>(link)</a>."
+  },
+  {
+    "date": "Feb 7th 2025",
+    "headline": "Congrats! Hyeji and Chanhee got the Best Posters Awards for the 33th International KOGO Annual Conference!🎉",
+    "headline_ko": "Hyeji와 Chanhee가 제33회 KOGO 국제 학술대회에서 최우수포스터상을 수상했습니다! 축하합니다!🎉"
+  },
+  {
+    "date": "Jan 6th 2025",
+    "headline": "Our latest study explores potential causal genes for undiagnosed congenital anomalies using a trio-based whole-genome sequencing <a href='https://humgenomics.biomedcentral.com/articles/10.1186/s40246-024-00709-2'>(link)</a>.",
+    "headline_ko": "트리오 기반 전장 유전체 시퀀싱을 이용하여 미진단 선천성 기형의 잠재적 원인 유전자를 탐색한 최신 연구가 출판되었습니다 <a href='https://humgenomics.biomedcentral.com/articles/10.1186/s40246-024-00709-2'>(link)</a>."
+  },
+  {
+    "date": "Dec 6th 2024",
+    "headline": "Congrat Yujin for the Outstanding Presentation Award at 2024 International Joint Conference of KSMGG & EAUHGS!🎉",
+    "headline_ko": "Yujin이 2024 KSMGG & EAUHGS 국제 공동 학술대회에서 우수발표상을 수상했습니다! 축하합니다!🎉"
+  },
+  {
+    "date": "Nov 25th 2024",
+    "headline": "Find our latest paper on m6A-binding proteins YTHDFs suppress IFN-γ signaling, attenuating cancer immunity and ICI responsiveness in gastic cancer <a href='https://onlinelibrary.wiley.com/doi/10.1002/advs.202410806'>(link)</a>.",
+    "headline_ko": "위암에서 m6A-binding proteins YTHDFs가 IFN-γ 신호 전달을 억제하여 항암 면역 및 ICI 반응성을 감소시키는 메커니즘에 관한 최신 논문이 출판되었습니다 <a href='https://onlinelibrary.wiley.com/doi/10.1002/advs.202410806'>(link)</a>."
+  },
+  {
+    "date": "Nov 24th 2024",
+    "headline": "Excited to share our latest paper on multiomics subtyping for non-small cell lung cancer <a href='https://www.nature.com/articles/s41467-024-54434-4'>(link)</a>.",
+    "headline_ko": "비소세포폐암의 멀티오믹스 아형 분류에 관한 최신 논문이 Nature Communications에 출판되었습니다 <a href='https://www.nature.com/articles/s41467-024-54434-4'>(link)</a>."
+  },
+  {
+    "date": "Oct 30th 2024",
+    "headline": "We wrote a review for multiomics in cancer biomarker discovery and cancer subtyping <a href='https://www.sciencedirect.com/science/article/pii/S0065242324001318'>(link)</a>.",
+    "headline_ko": "암 바이오마커 발견 및 암 아형 분류에서의 멀티오믹스에 관한 리뷰 논문을 작성하였습니다 <a href='https://www.sciencedirect.com/science/article/pii/S0065242324001318'>(link)</a>."
+  },
+  {
+    "date": "Oct 26th 2024",
+    "headline": "Congrat Yujin and Seoyeon for the best paper awards at BIOINFO 2024! Also congrats Ingyeong for the excellent poster awards and Yebin for the best poster awards! 🎉",
+    "headline_ko": "Yujin과 Seoyeon이 BIOINFO 2024에서 우수논문상을 수상했습니다! Ingyeong은 우수포스터상, Yebin은 최우수포스터상을 수상했습니다! 축하합니다! 🎉"
+  },
+  {
+    "date": "Oct 11th 2024",
+    "headline": "We wrote a Perspective on the recent study by Maury et al. (2024) in Science <a href='https://www.science.org/doi/10.1126/science.ads6781'>(link)</a>.",
+    "headline_ko": "Science에 게재된 Maury et al. (2024) 연구에 대한 Perspective를 작성하였습니다 <a href='https://www.science.org/doi/10.1126/science.ads6781'>(link)</a>."
+  },
+  {
+    "date": "Oct 3rd 2024",
+    "headline": "BTS (Brain Transcriptome at the Single-cell level) atlas paper is published. Let's dive which genes are expressed in different cells across brain development <a href='https://www.nature.com/articles/s12276-024-01328-6'>(link)</a>.",
+    "headline_ko": "BTS (Brain Transcriptome at the Single-cell level) 아틀라스 논문이 출판되었습니다. 뇌 발달 과정에서 다양한 세포에서 어떤 유전자가 발현되는지 살펴보세요 <a href='https://www.nature.com/articles/s12276-024-01328-6'>(link)</a>."
+  },
+  {
+    "date": "Sep 27th 2024",
+    "headline": "Excited to announce our latest publication in Genome Medicine, revealing sex differences in genetic patterns contributing to phenotypic diversity in autism through the largest Korean WGS cohort study. <a href='https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-024-01385-6'>(link)</a>.",
+    "headline_ko": "Genome Medicine에 최신 논문이 출판되었습니다. 한국 최대 규모의 WGS 코호트 연구를 통해 자폐의 표현형 다양성에 기여하는 유전적 패턴의 성차를 밝혔습니다 <a href='https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-024-01385-6'>(link)</a>."
+  },
+  {
+    "date": "Sep 5th 2024",
+    "headline": "Congrat Joon for the Rising Star Award at Korea Genome Organization!🎉",
+    "headline_ko": "Joon이 한국유전체학회에서 Rising Star Award를 수상했습니다! 축하합니다!🎉"
+  },
+  {
+    "date": "Aug 25th 2024",
+    "headline": "Seoyeon, Jungeun and Eunhyong successfully completed their Master's program. We wish much success in your next chapter!",
+    "headline_ko": "Seoyeon, Jungeun, Eunhyong이 석사과정을 성공적으로 마쳤습니다. 앞으로의 여정에 큰 성공을 기원합니다!"
+  },
+  {
+    "date": "Aug 15th 2024",
+    "headline": "Excited to share our latest research on whole-genome doubling in cancer! We've uncovered new insights into the proteogenomic landscape of WGD across various cancer types. 🧬🔬 <a href='https://onlinelibrary.wiley.com/doi/full/10.1002/ctm2.1796'>(link)</a>.",
+    "headline_ko": "암에서의 전장 유전체 배수화(whole-genome doubling)에 관한 최신 연구 결과를 공유합니다! 다양한 암 유형에 걸쳐 WGD의 프로테오게놈 경관에 대한 새로운 통찰을 밝혔습니다. 🧬🔬 <a href='https://onlinelibrary.wiley.com/doi/full/10.1002/ctm2.1796'>(link)</a>."
+  },
+  {
+    "date": "Jul 8th 2024",
+    "headline": "Huge congratulations to Hyeji and Yebin for being selected as NRF Graduate Fellowship recipients! 🎉",
+    "headline_ko": "Hyeji와 Yebin이 한국연구재단(NRF) 대학원생 펠로우십에 선정되었습니다! 축하드립니다! 🎉"
+  },
+  {
+    "date": "Jun 27th 2024",
+    "headline": "Congrat Eunhyong for the Young Scientist Award and Best Posters Award for the KHUPO2024!🎉",
+    "headline_ko": "Eunhyong이 KHUPO2024에서 젊은과학자상 및 최우수포스터상을 수상했습니다! 축하합니다!🎉"
+  },
+  {
+    "date": "Jun 24th 2024",
+    "headline": "Our review paper on cancer multi-omics is featured by 한빛사 🎉<a href='https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=93807&authorId=26650&pager.offset=0&pagerLimit=10&srAuthorId=26650&beforemode=author-treatise-list#!/list'>(link)</a>.",
+    "headline_ko": "암 멀티오믹스 리뷰 논문이 한빛사에 소개되었습니다 🎉<a href='https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=93807&authorId=26650&pager.offset=0&pagerLimit=10&srAuthorId=26650&beforemode=author-treatise-list#!/list'>(link)</a>."
+  },
+  {
+    "date": "June 7th 2024",
+    "headline": "Our new work on chronic ultraviolet irradiation induces memory deficits via dysregulation of the dopamine pathway <a href='https://www.nature.com/articles/s12276-024-01242-x'>(link)</a>.",
+    "headline_ko": "만성 자외선 조사가 도파민 경로의 조절 장애를 통해 기억력 결손을 유발하는 메커니즘에 관한 새로운 연구가 출판되었습니다 <a href='https://www.nature.com/articles/s12276-024-01242-x'>(link)</a>."
+  },
+  {
+    "date": "May 23rd 2024",
+    "headline": "CWAS-Plus 🧬 – a powerful Python package finding noncoding association in WGS data is published in Briefings in Bioinformatics! <a href='https://academic.oup.com/bib/article/25/4/bbae323/7706421'>(link)</a>.",
+    "headline_ko": "CWAS-Plus 🧬 – WGS 데이터에서 비코딩 영역 연관성을 분석하는 강력한 Python 패키지가 Briefings in Bioinformatics에 출판되었습니다! <a href='https://academic.oup.com/bib/article/25/4/bbae323/7706421'>(link)</a>."
+  },
+  {
+    "date": "May 17th 2024",
+    "headline": "Do tandem repeats impact on autism? See our latest study on whole genome sequencing analysis to find short tandem repeats in autism 🧬 <a href='https://onlinelibrary.wiley.com/doi/10.1111/pcn.13676'>(link</a> and <a href='https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=93461&authorId=26650'>한빛사)</a>.",
+    "headline_ko": "반복 서열이 자폐에 영향을 미칠까요? 자폐에서 짧은 반복 서열(short tandem repeats)을 찾기 위한 전장 유전체 시퀀싱 분석 연구를 확인해 보세요 🧬 <a href='https://onlinelibrary.wiley.com/doi/10.1111/pcn.13676'>(link</a> and <a href='https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=93461&authorId=26650'>한빛사)</a>."
+  },
+  {
+    "date": "May 16th 2024",
+    "headline": "Joon An will present an innovative case study titled 'Innovative Genomic Analysis Research Using Cloud at Korea University' at the AWS Summit Seoul. This presentation will showcase the transformative impact of cloud technologies on genomic analysis, highlighting pioneering research efforts <a href='https://aws.amazon.com/ko/events/summits/seoul/agenda/'> (link) </a>.",
+    "headline_ko": "Joon An이 AWS Summit Seoul에서 '고려대학교의 클라우드를 활용한 혁신적 유전체 분석 연구' 사례를 발표합니다. 클라우드 기술이 유전체 분석에 미치는 혁신적 영향과 선도적 연구 성과를 소개합니다 <a href='https://aws.amazon.com/ko/events/summits/seoul/agenda/'> (link) </a>."
+  },
+  {
+    "date": "Apr 15th 2024",
+    "headline": "We posted a preprint for CWAS-Plus 🧬 – a powerful Python package finding noncoding association in WGS data <a href='https://www.medrxiv.org/content/10.1101/2024.04.15.24305828v1.full-text'>(link)</a>.",
+    "headline_ko": "CWAS-Plus 🧬 – WGS 데이터에서 비코딩 영역 연관성을 분석하는 강력한 Python 패키지의 프리프린트를 게시하였습니다 <a href='https://www.medrxiv.org/content/10.1101/2024.04.15.24305828v1.full-text'>(link)</a>."
+  },
+  {
+    "date": "Apr 11th 2024",
+    "headline": "Is chromosomal instability impacting on cancer subtypes? Check out our new study on cancer whole genome doubling <a href='https://www.medrxiv.org/content/10.1101/2024.04.16.24305805v1.full-text'>(link)</a>.",
+    "headline_ko": "염색체 불안정성이 암 아형에 영향을 미칠까요? 암의 전장 유전체 배수화에 관한 새로운 연구를 확인해 보세요 <a href='https://www.medrxiv.org/content/10.1101/2024.04.16.24305805v1.full-text'>(link)</a>."
+  },
+  {
+    "date": "Apr 11th 2024",
+    "headline": "Our new bioRxiv preprint presents a single-cell atlas revealing the cellular and temporal specificity of neurological disorder genes in developing human brain. 🧠 Explore our findings <a href='https://www.biorxiv.org/content/10.1101/2024.04.09.588220v1.full'>(link)</a>.",
+    "headline_ko": "새로운 bioRxiv 프리프린트에서 발달 중인 인간 뇌에서 신경 질환 유전자의 세포 및 시간적 특이성을 밝히는 단일세포 아틀라스를 발표하였습니다. 🧠 연구 결과를 확인해 보세요 <a href='https://www.biorxiv.org/content/10.1101/2024.04.09.588220v1.full'>(link)</a>."
+  },
+  {
+    "date": "Mar 30th 2024",
+    "headline": "Our review of whole-genome doubling in cancer has been published in BMB Reports <a href='https://www.bmbreports.org/journal/view.html?uid=1972&vmd=Full&'>(link)</a>.",
+    "headline_ko": "암에서의 전장 유전체 배수화(whole-genome doubling)에 관한 리뷰 논문이 BMB Reports에 출판되었습니다 <a href='https://www.bmbreports.org/journal/view.html?uid=1972&vmd=Full&'>(link)</a>."
+  },
+  {
+    "date": "Feb 7th 2024",
+    "headline": "Congratulations to Joon on being selected to deliver the prestigious Green Ribbon Lecture at the Korean Society for Molecular and Cellular Biology Annual Meeting in 2024! 🎉",
+    "headline_ko": "Joon이 2024년 한국분자세포생물학회 정기학술대회에서 Green Ribbon Lecture 발표자로 선정되었습니다! 축하드립니다! 🎉"
+  },
+  {
+    "date": "Jan 5th 2024",
+    "headline": "Congratulations to Seoyeon for her outstanding achievement! 🌟 Her VPA paper has been selected as the best student research paper from the L-HOPE BK21 program. 👏",
+    "headline_ko": "Seoyeon의 훌륭한 성과를 축하합니다! 🌟 VPA 논문이 L-HOPE BK21 프로그램에서 최우수 학생 연구 논문으로 선정되었습니다. 👏"
+  },
+  {
+    "date": "Nov 15th 2023",
+    "headline": "Exciting news! 🏆 Joon has been awarded the Young Scientist Award at BIOINFO 2023!",
+    "headline_ko": "Joon이 BIOINFO 2023에서 젊은과학자상을 수상했습니다! 🏆"
+  },
+  {
+    "date": "Nov 15th 2023",
+    "headline": "Congrat Soowhee and Eunhyong for the Best Posters Awards for the BIOINFO 2023!🎉",
+    "headline_ko": "Soowhee와 Eunhyong이 BIOINFO 2023에서 최우수포스터상을 수상했습니다! 축하합니다!🎉"
+  },
+  {
+    "date": "Oct 14th 2023",
+    "headline": "Congrats! Yujin got the Best Posters Awards for the 32nd International KOGO Annual Conference!🎉",
+    "headline_ko": "Yujin이 제32회 KOGO 국제 학술대회에서 최우수포스터상을 수상했습니다! 축하합니다!🎉"
+  },
+  {
+    "date": "Sep 20th 2023",
+    "headline": "Congratulations to Seoyeon for AOHUPO Best Posters Awards for HUPO World Congress 2023!🎉",
+    "headline_ko": "Seoyeon이 HUPO World Congress 2023에서 AOHUPO 최우수포스터상을 수상했습니다! 축하합니다!🎉"
+  },
+  {
+    "date": "Sep 1st 2023",
+    "headline": "Welcome to the team, Sophia Jihae! We're excited to have you on board as an undergraduate intern, ready to bring your fresh perspectives and skills to the table. Let's make an impact together!",
+    "headline_ko": "Sophia Jihae가 학부 인턴으로 팀에 합류했습니다! 새로운 시각과 역량으로 함께 연구에 기여할 수 있기를 기대합니다. 환영합니다!"
+  },
+  {
+    "date": "Aug 28th 2023",
+    "headline": "Congratulations to Jungeun for the best research poster award at 2023 BK21 L-HOPE graduate symposium!🎉",
+    "headline_ko": "Jungeun이 2023 BK21 L-HOPE 대학원 심포지엄에서 최우수연구포스터상을 수상했습니다! 축하합니다!🎉"
+  },
+  {
+    "date": "Aug 28th 2023",
+    "headline": "Exciting news! Introducing CWAS-Plus 🧬 – a powerful Python package finding noncoding association in WGS data! 🔍 <a href='https://cwas-plus.readthedocs.io/en/latest/index.html'>(link)</a>.",
+    "headline_ko": "CWAS-Plus 🧬 를 소개합니다 – WGS 데이터에서 비코딩 영역 연관성을 분석하는 강력한 Python 패키지입니다! 🔍 <a href='https://cwas-plus.readthedocs.io/en/latest/index.html'>(link)</a>."
+  },
+  {
+    "date": "Aug 14th 2023",
+    "headline": "Discover the latest insights into the intricate relationship between valproic acid exposure and the development of autism risk as Seoyeon shares her groundbreaking multiomics study in her 한빛사 interview <a href='https://www.ibric.org/myboard/read.php?Board=tr_interview&id=352573&qinterview=Y'>(link)</a>.",
+    "headline_ko": "Seoyeon이 한빛사 인터뷰에서 발프로산(valproic acid) 노출과 자폐 위험 발생 간의 복잡한 관계에 대한 멀티오믹스 연구 결과를 소개합니다 <a href='https://www.ibric.org/myboard/read.php?Board=tr_interview&id=352573&qinterview=Y'>(link)</a>."
+  },
+  {
+    "date": "Aug 17th 2023",
+    "headline": "A new study was published. Systematic evaluation of genome sequencing for the diagnostic assessment of autism and fetal structural anomalies <a href='https://pubmed.ncbi.nlm.nih.gov/37595579/'>(link)</a>.",
+    "headline_ko": "새로운 연구가 출판되었습니다. 자폐 및 태아 구조적 이상의 진단 평가를 위한 유전체 시퀀싱의 체계적 평가 <a href='https://pubmed.ncbi.nlm.nih.gov/37595579/'>(link)</a>."
+  },
+  {
+    "date": "Aug 11th 2023",
+    "headline": "Congratulations to Soowhee for her remarkable achievement as she is named one of the winners of the 2023 Early Career Investigator Program - Travel Awards!",
+    "headline_ko": "Soowhee가 2023 Early Career Investigator Program - Travel Awards 수상자로 선정되었습니다! 훌륭한 성과를 축하합니다!"
+  },
+  {
+    "date": "Aug 3rd 2023",
+    "headline": "Join us in extending heartfelt congratulations to Yujin for her outstanding accomplishment in being chosen for a platform oral presentation at the prestigious ASHG 2023 Human Genetics Annual Meeting in Washington!",
+    "headline_ko": "Yujin이 워싱턴에서 개최되는 ASHG 2023 인간유전학회 연례 학술대회에서 구두 발표자로 선정되었습니다! 뛰어난 성과를 진심으로 축하합니다!"
+  },
+  {
+    "date": "Aug 1st 2023",
+    "headline": "How does valproic acid (VPA) affect autism? Take a look at our latest proteomics study on upregulation of Rnf146 in Wnt/β-catenin signaling pathway in autism using a VPA-induced mice model <a href='https://www.nature.com/articles/s12276-023-01065-2'>(link)</a>.",
+    "headline_ko": "발프로산(VPA)은 자폐에 어떤 영향을 미칠까요? VPA 유도 마우스 모델을 이용한 자폐에서의 Wnt/β-catenin 신호 전달 경로 내 Rnf146 상향 조절에 관한 최신 프로테오믹스 연구를 확인해 보세요 <a href='https://www.nature.com/articles/s12276-023-01065-2'>(link)</a>."
+  },
+  {
+    "date": "Jul 17th 2023",
+    "headline": "Best wishes and heartfelt farewell to Jaehyun, who has got a bioinformatics position at CJ CheilJedang following the successful completion of his master's degree!",
+    "headline_ko": "석사학위를 성공적으로 마치고 CJ제일제당 바이오인포매틱스 직군에 취업한 Jaehyun에게 진심으로 축하와 응원을 보냅니다!"
+  },
+  {
+    "date": "May 2nd 2023",
+    "headline": "Congratulations Eunhyong on receiving the Kwanjeong Educational Foundation Fellowship! We're proud of you and can't wait to see what you'll achieve with their support.",
+    "headline_ko": "Eunhyong이 관정교육재단 장학금을 수여받았습니다! 축하드리며 앞으로의 활약이 기대됩니다."
+  },
+  {
+    "date": "Apr 24th 2023",
+    "headline": "Our latest study on Angiopoietin-2-dependent spatial vascular destabilization promotes T-cell exclusion and limits immunotherapy in melanoma is now up in Cancer Research <a href='https://aacrjournals.org/cancerres/article/doi/10.1158/0008-5472.CAN-22-2838/726093/Angiopoietin-2-dependent-spatial-vascular'>(link)</a>.",
+    "headline_ko": "흑색종에서 Angiopoietin-2 의존적 공간적 혈관 불안정화가 T세포 배제를 촉진하고 면역 치료를 제한하는 메커니즘에 관한 최신 연구가 Cancer Research에 출판되었습니다 <a href='https://aacrjournals.org/cancerres/article/doi/10.1158/0008-5472.CAN-22-2838/726093/Angiopoietin-2-dependent-spatial-vascular'>(link)</a>."
+  },
+  {
+    "date": "Feb 18th 2023",
+    "headline": "We are delighted to announce that Soo-Whee has been honored with the Sochun Award for her outstanding talk at the 12th COSMOS symposium.",
+    "headline_ko": "Soo-Whee가 제12회 COSMOS 심포지엄에서 뛰어난 발표로 소천상을 수상했습니다! 축하드립니다."
+  },
+  {
+    "date": "Feb 13th 2023",
+    "headline": "Welcome to the team, Chanhee! We're excited to have you on board as an undergraduate intern, ready to bring your fresh perspectives and skills to the table. Let's make an impact together!",
+    "headline_ko": "Chanhee가 학부 인턴으로 팀에 합류했습니다! 새로운 시각과 역량으로 함께 연구에 기여할 수 있기를 기대합니다. 환영합니다!"
+  },
+  {
+    "date": "Feb 3rd 2023",
+    "headline": "Congratulations to Chanwoong on his well-deserved award for best poster presentation at KOGO Winter symposium 2023.",
+    "headline_ko": "Chanwoong이 KOGO Winter symposium 2023에서 최우수포스터 발표상을 수상했습니다! 축하합니다."
+  },
+  {
+    "date": "Dec 21th 2022",
+    "headline": "We are excited to share our new work on how chronic skin ultraviolet irradiation induces microglial dysfunction in the hippocampus in Molecular Brain <a href='https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-022-00989-6'>(link)</a>.",
+    "headline_ko": "만성 피부 자외선 조사가 해마에서 미세아교세포 기능 장애를 유발하는 메커니즘에 관한 새로운 연구가 Molecular Brain에 출판되었습니다 <a href='https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-022-00989-6'>(link)</a>."
+  },
+  {
+    "date": "Oct 21st 2022",
+    "headline": "Heartfelt congratulations to Eunhyong who received the award for an Excellent Poster and to Seoyeon who received the Outstanding Poster award at the Korean Society for Bioinformatics 2022",
+    "headline_ko": "Eunhyong이 우수포스터상, Seoyeon이 최우수포스터상을 한국생물정보학회(Korean Society for Bioinformatics) 2022에서 수상했습니다! 진심으로 축하합니다."
+  },
+  {
+    "date": "Oct 20th 2022",
+    "headline": "A massive congratulations to Chanwoong for receiving the Standigm Student Best Paper award at the Korean Society for Bioinformatics 2022.",
+    "headline_ko": "Chanwoong이 한국생물정보학회 2022에서 Standigm 학생 최우수논문상을 수상했습니다! 축하합니다."
+  },
+  {
+    "date": "Oct 17th 2022",
+    "headline": "Excitement fills us as we present our latest findings on multiomics profiling of the Cntnap2 autism mouse model in Molecular Psychiatry <a href='https://www.nature.com/articles/s41380-022-01822-1'>(link)</a>.",
+    "headline_ko": "Cntnap2 자폐 마우스 모델의 멀티오믹스 프로파일링에 관한 최신 연구 결과가 Molecular Psychiatry에 출판되었습니다 <a href='https://www.nature.com/articles/s41380-022-01822-1'>(link)</a>."
+  },
+  {
+    "date": "Sep 30th 2022",
+    "headline": "A massive congratulations is in order! Seoyeon has been awarded the outstanding poster award at the ICKSMCB 2022.",
+    "headline_ko": "Seoyeon이 ICKSMCB 2022에서 최우수포스터상을 수상했습니다! 축하합니다."
+  },
+  {
+    "date": "Sep 8th 2022",
+    "headline": "We are pleased to announce the publication of our latest research on the risk variants affecting early neurodevelopmental outcomes in the Journal of Autism and Developmental Disorders <a href='https://link.springer.com/article/10.1007/s10803-022-05735-4'>(link)</a>.",
+    "headline_ko": "초기 신경발달 결과에 영향을 미치는 위험 변이에 관한 최신 연구가 Journal of Autism and Developmental Disorders에 출판되었습니다 <a href='https://link.springer.com/article/10.1007/s10803-022-05735-4'>(link)</a>."
+  },
+  {
+    "date": "Sep 1st 2022",
+    "headline": "Jungeun, Ingyeong and Eunhyung initiated their pursuit of advanced education by commencing the graduate program. Wishing them every success in their endeavors.",
+    "headline_ko": "Jungeun, Ingyeong, Eunhyung이 대학원 과정을 시작했습니다. 모든 연구에서 큰 성공을 기원합니다."
+  },
+  {
+    "date": "Aug 1st 2022",
+    "headline": "Our team has been awarded the KU Inseong Research Funding to investigate the structural variations related to autism spectrum disorder..",
+    "headline_ko": "본 연구팀이 자폐 스펙트럼 장애 관련 구조적 변이 연구를 위해 고려대학교 인성 연구비를 수상했습니다."
+  },
+  {
+    "date": "Jul 19th 2022",
+    "headline": "Our recently published paper in Molecular Psychiatry focuses on the investigation of noncoding de novo mutations in Korean ASD families <a href='https://www.nature.com/articles/s41380-022-01697-2'>(link)</a>.",
+    "headline_ko": "한국 자폐 스펙트럼 장애(ASD) 가족에서의 비코딩 신규 돌연변이 분석에 관한 논문이 Molecular Psychiatry에 출판되었습니다 <a href='https://www.nature.com/articles/s41380-022-01697-2'>(link)</a>."
+  },
+  {
+    "date": "Jul 15th 2022",
+    "headline": "Yujin just secured full PhD support for the next 5 years through the prestigious SBS Seoam Yoon Se Young Foundation! A massive shoutout and congratulations to this rockstar!",
+    "headline_ko": "Yujin이 SBS 서암윤세영재단의 박사과정 5년 전액 장학금을 수여받았습니다! 정말 대단한 성과입니다! 축하합니다!"
+  },
+  {
+    "date": "Jul 6th 2022",
+    "headline": "Our collaboration study on m6a cellular specificity in cancer is published in Experimental & Molecular Medicine (<a href='https://www.nature.com/articles/s12276-022-00795-z'>link</a>).",
+    "headline_ko": "암에서의 m6A 세포 특이성에 관한 공동 연구가 Experimental & Molecular Medicine에 출판되었습니다 (<a href='https://www.nature.com/articles/s12276-022-00795-z'>link</a>)."
+  },
+  {
+    "date": "Apr 8th 2022",
+    "headline": "The lab receives funding to understand cellular specificity underlying fear condition in various neural circuits (NRF; 2022-2024).",
+    "headline_ko": "다양한 신경 회로에서 공포 조건화의 세포 특이성을 이해하기 위한 연구비를 수주하였습니다 (NRF; 2022-2024)."
+  },
+  {
+    "date": "Apr 6th 2022",
+    "headline": "The lab receives funding to study noncoding mutations and structural variants associated with Korean Alzheimer's disease (KDRC; 2022-2024).",
+    "headline_ko": "한국인 알츠하이머병 관련 비코딩 돌연변이 및 구조적 변이 연구를 위한 연구비를 수주하였습니다 (KDRC; 2022-2024)."
+  },
+  {
+    "date": "Mar 15th 2022",
+    "headline": "Our new study published in Cell Genomics, studying <a href='https://www.sciencedirect.com/science/article/pii/S2666979X22000313'>High-throughput characterization of the role of non-B DNA motifs on promoter function</a>.",
+    "headline_ko": "프로모터 기능에서 non-B DNA 모티프의 역할을 대규모로 분석한 새로운 연구가 Cell Genomics에 출판되었습니다 <a href='https://www.sciencedirect.com/science/article/pii/S2666979X22000313'>High-throughput characterization of the role of non-B DNA motifs on promoter function</a>."
+  },
+  {
+    "date": "Mar 11th 2022",
+    "headline": "Joon is joining eLife's Board of Reviewing Editors, working on <a href='https://elifesciences.org/about/people/genetics-genomics'>the session of genetics and genomics</a>.",
+    "headline_ko": "Joon이 eLife의 Board of Reviewing Editors에 합류하여 <a href='https://elifesciences.org/about/people/genetics-genomics'>genetics and genomics 분야</a>를 담당합니다."
+  },
+  {
+    "date": "Mar 1st 2022",
+    "headline": "Hyeji, Seoyeon and Gijong have initiated their enrollment in the graduate program. Best wishes for their academic pursuits!",
+    "headline_ko": "Hyeji, Seoyeon, Gijong이 대학원 과정에 입학했습니다. 학업에서의 큰 성과를 기원합니다!"
+  },
+  {
+    "date": "Mar 1st 2021",
+    "headline": "Seunghwan joined the genomics core as bioinformatics programmer. Welcome!",
+    "headline_ko": "Seunghwan이 바이오인포매틱스 프로그래머로 유전체 코어에 합류했습니다. 환영합니다!"
+  },
+  {
+    "date": "Feb 25th 2022",
+    "headline": "Lizzy and Yongjin successfully completed their Master's program. We wish much success in your next chapter!",
+    "headline_ko": "Lizzy와 Yongjin이 석사과정을 성공적으로 마쳤습니다. 앞으로의 여정에 큰 성공을 기원합니다!"
+  },
+  {
+    "date": "Dec 14th 2021",
+    "headline": "Jungeun and Ingyeong joined the team for undergraduate internship. Welcome!",
+    "headline_ko": "Jungeun과 Ingyeong이 학부 인턴으로 팀에 합류했습니다. 환영합니다!"
+  },
+  {
+    "date": "Sep 1st 2021",
+    "headline": "We are excited to share our review paper <a href='https://www.sciencedirect.com/science/article/pii/S0149763421002700'>'Genetic architecture of autism spectrum disorder: Lessons from large-scale genomic studies'</a> in Neuroscience & Biobehavioral Reviews <a href='https://www.ibric.org/myboard/read.php?Board=hbs_treatise&id=71797&idauthorid=26650&ttype=0'>(BRIC 한빛사 소개</a>).",
+    "headline_ko": "Neuroscience & Biobehavioral Reviews에 리뷰 논문 <a href='https://www.sciencedirect.com/science/article/pii/S0149763421002700'>'Genetic architecture of autism spectrum disorder: Lessons from large-scale genomic studies'</a>가 출판되었습니다 <a href='https://www.ibric.org/myboard/read.php?Board=hbs_treatise&id=71797&idauthorid=26650&ttype=0'>(BRIC 한빛사 소개</a>)."
+  },
+  {
+    "date": "Sep 1st 2021",
+    "headline": "Jaehyun, Sungmin, and Yujin launched into their grad program - let's ignite success!",
+    "headline_ko": "Jaehyun, Sungmin, Yujin이 대학원 과정을 시작했습니다. 큰 성과를 기원합니다!"
+  },
+  {
+    "date": "Aug 23rd 2021",
+    "headline": "Our new work published in Genome Medicine, studying voltage-gated sodium channel isoform expression in neurodevelopment <a href='https://link.springer.com/article/10.1186/s13073-021-00949-0'>(link)</a>.",
+    "headline_ko": "신경발달에서의 전압 개폐 나트륨 채널 아이소폼 발현에 관한 새로운 연구가 Genome Medicine에 출판되었습니다 <a href='https://link.springer.com/article/10.1186/s13073-021-00949-0'>(link)</a>."
+  },
+  {
+    "date": "Jul 3rd 2021",
+    "headline": "Our new work on Kdm3b haploinsufficiency and cerebellum-dependent motor memory in mice <a href='https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-021-00815-5'>(link)</a>.",
+    "headline_ko": "마우스에서의 Kdm3b 반수체부족(haploinsufficiency)과 소뇌 의존적 운동 기억에 관한 새로운 연구가 출판되었습니다 <a href='https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-021-00815-5'>(link)</a>."
+  },
+  {
+    "date": "Jun 24th 2021",
+    "headline": "Our review paper on cancer multi-omics is published in Molecules and Cells <a href='https://pubmed.ncbi.nlm.nih.gov/34238766/'>(link)</a>.",
+    "headline_ko": "암 멀티오믹스에 관한 리뷰 논문이 Molecules and Cells에 출판되었습니다 <a href='https://pubmed.ncbi.nlm.nih.gov/34238766/'>(link)</a>."
+  },
+  {
+    "date": "Jun 14th 2021",
+    "headline": "Gijong joined the team for undergraduate internship. Welcome!",
+    "headline_ko": "Gijong이 학부 인턴으로 팀에 합류했습니다. 환영합니다!"
+  },
+  {
+    "date": "Jun 1st 2021",
+    "headline": "The lab receives funding to participate a Basic Research Laboratory (NRF; 2021-2024) for a single cell trajectory of T-cell differentiation and anergy.",
+    "headline_ko": "T세포 분화 및 무반응의 단일세포 궤적 연구를 위한 기초연구실(NRF; 2021-2024) 연구비를 수주하였습니다."
+  },
+  {
+    "date": "Apr 1st 2021",
+    "headline": "Our lab has been funded on our ASD genomic study from the National Research Foundation, Korea. We will be supported for 5 years and study the genetic architecture underlying Korean ASD families using whole genome sequencing",
+    "headline_ko": "한국연구재단으로부터 자폐 스펙트럼 장애(ASD) 유전체 연구비를 수주하였습니다. 5년간 지원을 받아 전장 유전체 시퀀싱을 이용한 한국 ASD 가족의 유전적 구조를 연구합니다."
+  },
+  {
+    "date": "Mar 2nd 2021",
+    "headline": "Ganghee and Soo-Whee started the graduate program. Good luck!",
+    "headline_ko": "Ganghee와 Soo-Whee가 대학원 과정을 시작했습니다. 앞으로의 연구를 응원합니다!"
+  },
+  {
+    "date": "Dec 28th 2020",
+    "headline": "Hyeji, Minku, Jaehyun, and Jaemin joined the team for undergraduate internship. Welcome!",
+    "headline_ko": "Hyeji, Minku, Jaehyun, Jaemin이 학부 인턴으로 팀에 합류했습니다. 환영합니다!"
+  },
+  {
+    "date": "Aug 1st 2020",
+    "headline": "Joon got an Young Investigator Award at the 43rd Annual Meeting of the Japan Neuroscience Society.",
+    "headline_ko": "Joon이 제43회 일본신경과학회 연례회의에서 Young Investigator Award를 수상했습니다."
+  },
+  {
+    "date": "Jul 1st 2020",
+    "headline": "Our new study published in eLife, studying <a href='https://elifesciences.org/articles/55775'>Homeostatic plasticity fails at various autism gene</a>.",
+    "headline_ko": "다양한 자폐 유전자에서의 항상성 가소성 실패를 연구한 새로운 논문이 eLife에 출판되었습니다 <a href='https://elifesciences.org/articles/55775'>Homeostatic plasticity fails at various autism gene</a>."
+  },
+  {
+    "date": "May 29th 2020",
+    "headline": "Congratulations to Lizzy Choi, graduate student in our lab who was awarded a Kwanjeong Fellowship. We look forward to learning from your important work!",
+    "headline_ko": "본 연구실 대학원생 Lizzy Choi가 관정장학금을 수여받았습니다! 앞으로의 중요한 연구 성과를 기대합니다. 축하합니다!"
+  },
+  {
+    "date": "Apr 7th 2020",
+    "headline": "BarinVar! Our new study is published in Cell Reports <a href='https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30367-3'>(link)</a>. Multi-omics study to the development of human prefrontal cortex.",
+    "headline_ko": "BrainVar! 인간 전전두피질 발달에 관한 멀티오믹스 연구가 Cell Reports에 출판되었습니다 <a href='https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30367-3'>(link)</a>."
+  },
+  {
+    "date": "March 1st 2020",
+    "headline": "The lab receives 5-year funding from the National Research Foundation, Korea. This is for the development of category-wide association study for noncoding association in neurodevelopmental disorder.",
+    "headline_ko": "한국연구재단으로부터 5년 연구비를 수주하였습니다. 신경발달 장애의 비코딩 영역 연관성을 위한 범주별 연관 분석(category-wide association study) 개발 연구입니다."
+  },
+  {
+    "date": "Jan 23th 2020",
+    "headline": "Very excited to present our new work in Cell <a href='https://www.cell.com/cell/fulltext/S0092-8674(19)31398-4'>(link)</a>. This is the largest gene discovery of autism spectrum disorder using whole exome sequencing.",
+    "headline_ko": "전체 엑솜 시퀀싱을 이용한 자폐 스펙트럼 장애의 최대 규모 유전자 발견 연구가 Cell에 출판되었습니다 <a href='https://www.cell.com/cell/fulltext/S0092-8674(19)31398-4'>(link)</a>."
+  },
+  {
+    "date": "Mar 2nd 2020",
+    "headline": "Lizzy and Yong-Jin started the graduate program. Good luck!",
+    "headline_ko": "Lizzy와 Yong-Jin이 대학원 과정을 시작했습니다. 앞으로의 연구를 응원합니다!"
+  },
+  {
+    "date": "Oct 28th 2019",
+    "headline": "Yujin, Ganghee, and Dahae joined the team for undergraduate internship. Welcome!",
+    "headline_ko": "Yujin, Ganghee, Dahae가 학부 인턴으로 팀에 합류했습니다. 환영합니다!"
+  },
+  {
+    "date": "Sep 1st 2019",
+    "headline": "Yeonji from the Seoul National University Hospital joined the team for the clinical genomics project. Welcome!",
+    "headline_ko": "서울대학교병원의 Yeonji가 임상 유전체학 프로젝트를 위해 팀에 합류했습니다. 환영합니다!"
+  },
+  {
+    "date": "Jul 1st 2019",
+    "headline": "Seoyeon, Lizzy, Yerim and Yong-Jin joined the team for undergraduate internship. Welcome!",
+    "headline_ko": "Seoyeon, Lizzy, Yerim, Yong-Jin이 학부 인턴으로 팀에 합류했습니다. 환영합니다!"
+  },
+  {
+    "date": "May 2nd 2019",
+    "headline": "Joon got an Young Investigator Award at <a href='https://www.autism-insar.org/'> International Society for Autism Research (INSAR) 2019 </a>.",
+    "headline_ko": "Joon이 <a href='https://www.autism-insar.org/'> International Society for Autism Research (INSAR) 2019 </a>에서 Young Investigator Award를 수상했습니다."
+  },
+  {
+    "date": "Apr 1st 2019",
+    "headline": "The lab receives funding on Korean lung cancer multiomics project from the National Research Foundation, Korea. We will be supported for 6 years and development of the prediction model of lung cancer by integrating genomics, transcriptomics, and proteomics.",
+    "headline_ko": "한국연구재단으로부터 한국인 폐암 멀티오믹스 프로젝트 연구비를 수주하였습니다. 6년간 지원을 받아 유전체학, 전사체학, 단백질체학을 통합한 폐암 예측 모델을 개발합니다."
+  },
+  {
+    "date": "Mar 22th 2019",
+    "headline": "Happy to share our preprint about BrainVar. We produced paired WGS and RNAseq from the human dorsolateral prefrontal cortex of 176 neurotypical individuals across prenatal and postnatal development! <a href='https://www.biorxiv.org/content/10.1101/585430v1.abstract'> Werling et al. 2019 </a> on bioRxiv.",
+    "headline_ko": "BrainVar 프리프린트를 공유합니다. 176명의 신경전형 개인의 인간 배외측 전전두피질에서 출생 전후 발달 과정에 걸쳐 WGS와 RNAseq 쌍을 생산하였습니다! bioRxiv에 <a href='https://www.biorxiv.org/content/10.1101/585430v1.abstract'> Werling et al. 2019 </a> 게재."
+  },
+  {
+    "date": "Dec 13th 2018",
+    "headline": "New paper! <a href='http://science.sciencemag.org/content/362/6420/eaat6576.long'> An et al. 2018 </a> published in Science, highlights the role of promoters in autism.",
+    "headline_ko": "새 논문 출판! <a href='http://science.sciencemag.org/content/362/6420/eaat6576.long'> An et al. 2018 </a>이 Science에 게재되었으며, 자폐에서 프로모터의 역할을 규명합니다."
+  },
+  {
+    "date": "Dec 1st 2018",
+    "headline": "Our work with the Autism Sequencing Consortium identifies 102 autism genes, paper submitted to <a href='https://www.biorxiv.org/content/early/2018/12/01/484113'> BioRxiv </a>.",
+    "headline_ko": "Autism Sequencing Consortium과의 공동 연구에서 102개의 자폐 유전자를 발견하였으며, 논문이 <a href='https://www.biorxiv.org/content/early/2018/12/01/484113'> BioRxiv </a>에 제출되었습니다."
+  }
+]

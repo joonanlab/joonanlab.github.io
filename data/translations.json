@@ -1,0 +1,198 @@
+{
+  "nav.home": {
+    "en": "Home",
+    "ko": "홈"
+  },
+  "nav.team": {
+    "en": "Team",
+    "ko": "팀"
+  },
+  "nav.research": {
+    "en": "Research",
+    "ko": "연구"
+  },
+  "nav.publications": {
+    "en": "Publications",
+    "ko": "논문"
+  },
+  "nav.tools": {
+    "en": "Tools",
+    "ko": "도구"
+  },
+  "nav.lectures": {
+    "en": "Lectures",
+    "ko": "강의"
+  },
+  "nav.news": {
+    "en": "News",
+    "ko": "소식"
+  },
+  "nav.join": {
+    "en": "Join",
+    "ko": "모집"
+  },
+  "nav.contact": {
+    "en": "Contact",
+    "ko": "연락처"
+  },
+  "hero.tagline": {
+    "en": "Genomics & AI for Understanding Human Disease",
+    "ko": "AI와 유전체 기술을 활용한 인간 질환 연구"
+  },
+  "hero.subtitle": {
+    "en": "Department of Biosystem and Biomedical Science, Korea University",
+    "ko": "고려대학교 바이오시스템의과학부"
+  },
+  "section.team": {
+    "en": "Our Team",
+    "ko": "연구팀"
+  },
+  "section.pi": {
+    "en": "Principal Investigator",
+    "ko": "연구 책임자"
+  },
+  "section.graduate": {
+    "en": "Graduate Students",
+    "ko": "대학원생"
+  },
+  "section.staff": {
+    "en": "Staff",
+    "ko": "연구원"
+  },
+  "section.undergrad": {
+    "en": "Undergraduate Interns",
+    "ko": "학부 인턴"
+  },
+  "section.alumni": {
+    "en": "Alumni",
+    "ko": "졸업생"
+  },
+  "section.research": {
+    "en": "Research",
+    "ko": "연구"
+  },
+  "section.publications": {
+    "en": "Publications",
+    "ko": "논문"
+  },
+  "section.tools": {
+    "en": "Code & Datasets",
+    "ko": "코드 & 데이터"
+  },
+  "section.news": {
+    "en": "News",
+    "ko": "소식"
+  },
+  "section.join": {
+    "en": "Join Us",
+    "ko": "모집 안내"
+  },
+  "section.contact": {
+    "en": "Contact",
+    "ko": "연락처"
+  },
+  "section.lectures": {
+    "en": "Lectures",
+    "ko": "강의"
+  },
+  "section.karc": {
+    "en": "K-ARC Consortium",
+    "ko": "K-ARC 컨소시엄"
+  },
+  "section.latestNews": {
+    "en": "Latest News",
+    "ko": "최근 소식"
+  },
+  "section.featuredPubs": {
+    "en": "Featured Publications",
+    "ko": "주요 논문"
+  },
+  "section.researchHighlights": {
+    "en": "Research Highlights",
+    "ko": "연구 하이라이트"
+  },
+  "section.funding": {
+    "en": "Funding",
+    "ko": "연구비 지원"
+  },
+  "btn.viewAll": {
+    "en": "View All",
+    "ko": "전체 보기"
+  },
+  "btn.loadMore": {
+    "en": "Load More",
+    "ko": "더 보기"
+  },
+  "btn.meetTeam": {
+    "en": "Meet Our Team",
+    "ko": "팀 소개"
+  },
+  "btn.viewPubs": {
+    "en": "View Publications",
+    "ko": "논문 보기"
+  },
+  "pub.search": {
+    "en": "Search publications...",
+    "ko": "논문 검색..."
+  },
+  "pub.highlighted": {
+    "en": "Highlighted",
+    "ko": "주요 논문"
+  },
+  "pub.allYears": {
+    "en": "All Years",
+    "ko": "전체 연도"
+  },
+  "profile.back": {
+    "en": "Back to Team",
+    "ko": "팀으로 돌아가기"
+  },
+  "alumni.thesis": {
+    "en": "Thesis",
+    "ko": "논문"
+  },
+  "alumni.current": {
+    "en": "Current Position",
+    "ko": "현재 위치"
+  },
+  "team.subtitle": {
+    "en": "Meet the members of An Lab at Korea University.",
+    "ko": "고려대학교 An Lab의 연구원들을 소개합니다."
+  },
+  "team.viewAlumni": {
+    "en": "View Alumni",
+    "ko": "졸업생 보기"
+  },
+  "join.title": {
+    "en": "Open Positions",
+    "ko": "채용 공고"
+  },
+  "join.subtitle": {
+    "en": "Thank you for your interest in joining the An Lab.",
+    "ko": "An Lab에 관심을 가져 주셔서 감사합니다."
+  },
+  "join.postdoc": {
+    "en": "Postdoctoral Researchers",
+    "ko": "박사후 연구원"
+  },
+  "join.graduate": {
+    "en": "Graduate Students",
+    "ko": "대학원생"
+  },
+  "contact.labLocation": {
+    "en": "Lab Location",
+    "ko": "연구실 위치"
+  },
+  "contact.map": {
+    "en": "Map",
+    "ko": "지도"
+  },
+  "contact.email": {
+    "en": "Email",
+    "ko": "이메일"
+  },
+  "breadcrumb.home": {
+    "en": "Home",
+    "ko": "홈"
+  }
+}
