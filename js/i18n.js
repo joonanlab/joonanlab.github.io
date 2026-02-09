@@ -50,7 +50,7 @@
     applyLanguage(next);
   }
 
-  document.addEventListener('DOMContentLoaded', async () => {
+  async function boot() {
     await loadTranslations();
     const lang = getCurrentLang();
     applyLanguage(lang);
@@ -59,5 +59,11 @@
     document.querySelectorAll('#lang-toggle, [id^="lang-toggle"]').forEach(btn => {
       btn.addEventListener('click', toggleLang);
     });
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
 })();

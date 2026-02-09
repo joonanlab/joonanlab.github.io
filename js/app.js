@@ -118,7 +118,7 @@
   }
 
   // Init on DOM ready
-  document.addEventListener('DOMContentLoaded', () => {
+  function boot() {
     initMobileMenu();
     initNavScroll();
     initActiveNav();
@@ -130,5 +130,11 @@
     requestAnimationFrame(() => {
       requestAnimationFrame(initReveal);
     });
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
 })();
