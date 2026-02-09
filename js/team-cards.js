@@ -18,6 +18,11 @@
     return badges;
   }
 
+  function displayName(member) {
+    if (!member.name_ko) return member.name;
+    return `<span class="en-only">${member.name}</span><span class="ko-only">${member.name_ko}</span>`;
+  }
+
   function renderPICard(member) {
     const badges = parseBadges(member.info);
     const badgeHTML = badges.map(b => `<span class="badge ${b.cls}">${b.text}</span>`).join(' ');
@@ -25,7 +30,7 @@
       <a href="team/${member.url}.html" class="card-pi flex flex-col sm:flex-row gap-6 items-center sm:items-start">
         <img src="images/teampic/${member.photo}" alt="${member.name}" class="w-36 h-36 rounded-2xl object-cover border-2 border-dark-hover flex-shrink-0" width="144" height="144" loading="lazy">
         <div>
-          <h3 class="text-2xl font-bold mb-1">${member.name}</h3>
+          <h3 class="text-2xl font-bold mb-1">${displayName(member)}</h3>
           <p class="text-gold-accent font-medium mb-2">${member.info} ${badgeHTML}</p>
           <p class="text-slate-400 text-sm">Click to view full profile</p>
         </div>
@@ -40,7 +45,7 @@
     return `
       <a href="team/${member.url}.html" class="card-team block">
         <img src="images/teampic/${photo}" alt="${member.name}" width="120" height="120" loading="lazy">
-        <h4 class="font-semibold text-sm mb-1">${member.name}</h4>
+        <h4 class="font-semibold text-sm mb-1">${displayName(member)}</h4>
         <p class="text-xs text-slate-400">${member.info}${badgeHTML}</p>
       </a>
     `;

@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           <a href="team/${a.url}.html" class="card flex gap-4 items-start">
             <img src="images/teampic/${photo}" alt="${a.name}" class="w-16 h-16 rounded-xl object-cover flex-shrink-0 border border-dark-hover" loading="lazy">
             <div class="min-w-0">
-              <h3 class="font-semibold text-sm">${a.name}</h3>
+              <h3 class="font-semibold text-sm">${a.name_ko ? `<span class="en-only">${a.name}</span><span class="ko-only">${a.name_ko}</span>` : a.name}</h3>
               <p class="text-xs text-slate-400">${a.info || ''}</p>
               ${thesis}
               ${current}

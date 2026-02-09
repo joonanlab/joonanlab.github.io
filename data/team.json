@@ -1,6 +1,7 @@
 [
   {
     "name": "Joon-Yong An",
+    "name_ko": "안준용",
     "photo": "joonan.jpg",
     "info": "Principal Investigator",
     "url": "joonan",
@@ -8,6 +9,7 @@
   },
   {
     "name": "Yujin Kim",
+    "name_ko": "김유진",
     "photo": "yujinkim.png",
     "info": "Graduate Student (Seoam Fellow)",
     "url": "yujinkim",
@@ -15,6 +17,7 @@
   },
   {
     "name": "Soo-Whee Kim",
+    "name_ko": "김수휘",
     "photo": "soowhee.jpg",
     "info": "Graduate Student",
     "url": "soowhee",
@@ -22,6 +25,7 @@
   },
   {
     "name": "Hyeji Lee",
+    "name_ko": "이혜지",
     "photo": "hyejilee.jpg",
     "info": "Graduate Student (NRF Fellow)",
     "url": "hyeji",
@@ -29,6 +33,7 @@
   },
   {
     "name": "Ingyeong Koh",
+    "name_ko": "고인경",
     "photo": "ingyeongkoh.jpg",
     "info": "Graduate Student (NRF Fellow)",
     "url": "ingyeongkoh",
@@ -36,6 +41,7 @@
   },
   {
     "name": "Nahyun Kwon",
+    "name_ko": "권나현",
     "photo": "nakwon.jpg",
     "info": "Graduate Student",
     "url": "nakwon",
@@ -43,6 +49,7 @@
   },
   {
     "name": "Wooheon Kim",
+    "name_ko": "김우헌",
     "photo": "alexkim.jpg",
     "info": "Graduate Student",
     "url": "alexkim",
@@ -50,6 +57,7 @@
   },
   {
     "name": "Gaeun Byeon",
+    "name_ko": "변가은",
     "photo": "gaeunb.jpg",
     "info": "Graduate Student",
     "url": "gaeunb",
@@ -57,6 +65,7 @@
   },
   {
     "name": "Chaewon Min",
+    "name_ko": "민채원",
     "photo": "chaewon.jpg",
     "info": "Graduate Student (CNRF Fellow)",
     "url": "chaewon",
@@ -64,6 +73,7 @@
   },
   {
     "name": "Yeojin Ryu",
+    "name_ko": "류여진",
     "photo": "yeojin.jpg",
     "info": "Graduate Student (CNRF Fellow)",
     "url": "yeojin",
@@ -71,6 +81,7 @@
   },
   {
     "name": "Hyunjin Hong",
+    "name_ko": "홍현진",
     "photo": "hyunjin.jpg",
     "info": "Graduate Student",
     "url": "hyunjin",
@@ -78,6 +89,7 @@
   },
   {
     "name": "Dong Min Shin",
+    "name_ko": "신동민",
     "photo": "dongmin.jpg",
     "info": "Graduate Student",
     "url": "dongmin",
@@ -85,6 +97,7 @@
   },
   {
     "name": "Kyeongho Yeom",
+    "name_ko": "염경호",
     "photo": "kyeongho.jpg",
     "info": "Graduate Student",
     "url": "kyeongho",
@@ -92,6 +105,7 @@
   },
   {
     "name": "Davin Lee",
+    "name_ko": "이다빈",
     "photo": "dvlee.jpg",
     "info": "Graduate Student",
     "url": "dvlee",
@@ -99,6 +113,7 @@
   },
   {
     "name": "Haeun Jeong",
+    "name_ko": "정하은",
     "photo": "haeun.png",
     "info": "Graduate Student",
     "url": "haeun",
@@ -106,6 +121,7 @@
   },
   {
     "name": "Youngseok Choi",
+    "name_ko": "최영석",
     "photo": "youngseok.jpg",
     "info": "Bioinformatician",
     "url": "youngseok",
@@ -113,6 +129,7 @@
   },
   {
     "name": "Ashish Jung",
+    "name_ko": "정아시스",
     "photo": "ashish.jpg",
     "info": "Undergraduate intern",
     "url": "ashish",
@@ -120,6 +137,7 @@
   },
   {
     "name": "Seoyoun Lee",
+    "name_ko": "이서연",
     "photo": "seoyounlee.jpg",
     "info": "Undergraduate intern",
     "url": "seoyounlee",
@@ -127,6 +145,7 @@
   },
   {
     "name": "Hayoon Park",
+    "name_ko": "박하윤",
     "photo": "hayoonpark.jpg",
     "info": "Undergraduate intern",
     "url": "hayoonpark",
@@ -134,6 +153,7 @@
   },
   {
     "name": "Hwanseok Sim",
+    "name_ko": "심환석",
     "photo": "hwanseoksim.jpg",
     "info": "Undergraduate intern",
     "url": "hwanseoksim",
@@ -141,6 +161,7 @@
   },
   {
     "name": "Beomsu Kim",
+    "name_ko": "김범수",
     "photo": "beomsukim.jpg",
     "info": "Undergraduate intern",
     "url": "beomsukim",
@@ -148,6 +169,7 @@
   },
   {
     "name": "Heesun Choi",
+    "name_ko": "최희선",
     "photo": "heesun.jpg",
     "info": "Undergraduate intern",
     "url": "heesun",

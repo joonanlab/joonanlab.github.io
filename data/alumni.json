@@ -1,6 +1,7 @@
 [
   {
     "name": "Yebin Ryu",
+    "name_ko": "유예빈",
     "photo": "yebin.png",
     "info": "Graduate Student (M.Sc.)",
     "url": "yebin",
@@ -11,6 +12,7 @@
   },
   {
     "name": "Eunhyong Chang",
+    "name_ko": "장은형",
     "photo": "eunhyong.png",
     "info": "Graduate Student (M.Sc.)",
     "url": "eunhyong",
@@ -21,16 +23,18 @@
   },
   {
     "name": "Chanhee Kim",
+    "name_ko": "김찬희",
     "photo": "chanhee.jpg",
     "info": "Graduate Student (M.Sc.)",
     "url": "chanhee",
     "group": 1,
     "year": 2025,
-    "thesis": "Association of rare noncoding variants and short tandem repeat expansions with Alzheimer’s disease risk",
+    "thesis": "Association of rare noncoding variants and short tandem repeat expansions with Alzheimer's disease risk",
     "current": "Researcher at Samsung Bioepis"
   },
   {
     "name": "Seoyeon Kim",
+    "name_ko": "김서연",
     "photo": "blank.png",
     "info": "Graduate Student (M.Sc.)",
     "url": "seoyeon",
@@ -41,6 +45,7 @@
   },
   {
     "name": "Jungeun Ji",
+    "name_ko": "지정은",
     "photo": "blank.png",
     "info": "Graduate Student (M.Sc.)",
     "url": "jungeunji",
@@ -51,6 +56,7 @@
   },
   {
     "name": "Sophia Jihae Lee",
+    "name_ko": "이지혜",
     "photo": "blank.png",
     "info": "Undergraduate Intern",
     "url": "jihae",
@@ -61,6 +67,7 @@
   },
   {
     "name": "Ganghee Lee",
+    "name_ko": "이강희",
     "photo": "blank.png",
     "info": "Graduate Student",
     "url": "ganghee",
@@ -71,6 +78,7 @@
   },
   {
     "name": "Jaehyun Kim",
+    "name_ko": "김재현",
     "photo": "blank.png",
     "info": "Graduate Student (M.Sc.)",
     "url": "jaekim",
@@ -81,6 +89,7 @@
   },
   {
     "name": "Chanwoong Hwa",
+    "name_ko": "화찬웅",
     "photo": "blank.png",
     "info": "Graduate Student (M.Sc.)",
     "url": "chanwoong",
@@ -91,6 +100,7 @@
   },
   {
     "name": "Lizzy Choi",
+    "name_ko": "최리지",
     "photo": "blank.png",
     "info": "Graduate Student (M.Sc.)",
     "url": "lizzychoi",
@@ -101,6 +111,7 @@
   },
   {
     "name": "Yong-Jin Heo",
+    "name_ko": "허용진",
     "photo": "blank.png",
     "info": "Graduate Student (M.Sc.)",
     "url": "yongjin",
@@ -111,6 +122,7 @@
   },
   {
     "name": "Minwoo Jeong",
+    "name_ko": "정민우",
     "photo": "blank.png",
     "info": "Bioinformatician",
     "url": "minwoo",
@@ -120,6 +132,7 @@
   },
   {
     "name": "Seunghwan Choi",
+    "name_ko": "최승환",
     "photo": "seunghwan.jpg",
     "info": "Undergraduate Intern",
     "url": "seunghwan",
@@ -130,6 +143,7 @@
   },
   {
     "name": "Taejun Park",
+    "name_ko": "박태준",
     "photo": "tjpark.jpg",
     "info": "Undergraduate intern",
     "url": "tjpark",
@@ -140,6 +154,7 @@
   },
   {
     "name": "Jaemin Park",
+    "name_ko": "박재민",
     "photo": "blank.png",
     "info": "Undergraduate Intern",
     "url": "jaepark",
@@ -149,6 +164,7 @@
   },
   {
     "name": "Yunseo Lee",
+    "name_ko": "이윤서",
     "photo": "blank.png",
     "info": "Undergraduate Intern",
     "url": "yunseo",
