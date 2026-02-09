@@ -680,11 +680,7 @@ body.lang-ko .en-only { display: none; }
   background: rgba(180, 83, 9, 0.06);
 }
 
-/* === Education Timeline === */
-.edu-timeline {
-  padding-left: 1.5rem;
-}
-
+/* === Profile Timeline === */
 .edu-timeline .timeline-item {
   padding-bottom: 1rem;
   font-size: 0.875rem;
@@ -701,7 +697,7 @@ body.lang-ko .en-only { display: none; }
   font-size: 0.875rem;
   color: var(--text-secondary);
   margin-top: 0.5rem;
-  padding-left: 1.5rem;
+  padding-left: 2rem;
   line-height: 1.6;
 }
 
