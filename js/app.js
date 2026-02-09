@@ -124,10 +124,19 @@
     });
   }
 
-  // Highlight first-author publications in member bios
+  // Highlight first-author publications and add filter pills
   function initFirstAuthorHighlight() {
     var container = document.getElementById('profile-content');
     if (!container) return;
+
+    function isFirstAuthor(li) {
+      var html = li.innerHTML;
+      // Case 1: <strong> at the very start — sole first author
+      if (/^\s*<strong[\s>]/i.test(html)) return true;
+      // Case 2: ✻ inside <strong> — co-first author (e.g. Kim SW✻, <strong>Lee H✻</strong>)
+      if (/<strong[^>]*>[^<]*\u273B/i.test(html)) return true;
+      return false;
+    }
 
     function applyHighlight(root) {
       root.querySelectorAll('h3').forEach(function (h3) {
@@ -135,11 +144,50 @@
         if (!/publications|논문/i.test(text)) return;
         var ul = h3.nextElementSibling;
         if (!ul || ul.tagName !== 'UL') return;
+        ul.classList.add('pub-list');
         ul.querySelectorAll('li').forEach(function (li) {
-          if (/^\s*<strong[\s>]/i.test(li.innerHTML)) {
+          if (li.classList.contains('first-author') || li.classList.contains('co-author')) return;
+          if (isFirstAuthor(li)) {
             li.classList.add('first-author');
+          } else {
+            li.classList.add('co-author');
           }
         });
+        // Add filter pills if not already present
+        if (h3.parentNode && !h3.parentNode.querySelector('.pub-filters')) {
+          var filters = document.createElement('div');
+          filters.className = 'pub-filters';
+          filters.innerHTML =
+            '<button class="pill active" data-filter="all">' +
+              '<span class="en-only">All</span><span class="ko-only">전체</span>' +
+            '</button>' +
+            '<button class="pill" data-filter="first-author">' +
+              '<span class="en-only">First Author</span><span class="ko-only">1저자</span>' +
+            '</button>' +
+            '<button class="pill" data-filter="co-author">' +
+              '<span class="en-only">Co-author</span><span class="ko-only">공저자</span>' +
+            '</button>';
+          h3.insertAdjacentElement('afterend', filters);
+          // Move ul after filters
+          filters.insertAdjacentElement('afterend', ul);
+
+          filters.addEventListener('click', function (e) {
+            var btn = e.target.closest('[data-filter]');
+            if (!btn) return;
+            var filter = btn.getAttribute('data-filter');
+            filters.querySelectorAll('.pill').forEach(function (p) { p.classList.remove('active'); });
+            btn.classList.add('active');
+            ul.querySelectorAll('li').forEach(function (li) {
+              if (filter === 'all') {
+                li.style.display = '';
+              } else if (filter === 'first-author') {
+                li.style.display = li.classList.contains('first-author') ? '' : 'none';
+              } else {
+                li.style.display = li.classList.contains('co-author') ? '' : 'none';
+              }
+            });
+          });
+        }
       });
     }
 

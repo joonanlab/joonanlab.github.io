@@ -149,6 +149,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     container.innerHTML = html;
+    if (typeof window.reinitReveal === 'function') window.reinitReveal();
   } catch (e) {
     container.innerHTML = '<p class="text-slate-400">Could not load alumni data.</p>';
   }
