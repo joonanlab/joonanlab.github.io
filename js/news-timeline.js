@@ -2,9 +2,8 @@
 (function () {
   'use strict';
 
-  const ITEMS_PER_PAGE = 20;
   let allNews = [];
-  let displayedCount = 0;
+  let activeYear = 'all';
 
   function extractYear(dateStr) {
     if (!dateStr) return 'Unknown';
@@ -22,15 +21,52 @@
     return item.headline;
   }
 
+  function getYears() {
+    const years = [...new Set(allNews.map(n => extractYear(n.date)))];
+    years.sort((a, b) => b - a);
+    return years;
+  }
+
+  function renderYearFilters() {
+    const container = document.getElementById('news-year-filters');
+    if (!container) return;
+
+    const years = getYears();
+    const lang = getCurrentLang();
+    const allLabel = lang === 'ko' ? '전체' : 'All';
+
+    let html = `<button class="pill ${activeYear === 'all' ? 'active' : ''}" data-year="all">${allLabel}</button>`;
+    years.forEach(y => {
+      html += `<button class="pill ${activeYear === y ? 'active' : ''}" data-year="${y}">${y}</button>`;
+    });
+
+    container.innerHTML = html;
+
+    container.querySelectorAll('.pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeYear = btn.dataset.year;
+        renderYearFilters();
+        renderTimeline();
+      });
+    });
+  }
+
   function renderTimeline() {
     const container = document.getElementById('news-timeline');
     if (!container) return;
 
-    const toShow = allNews.slice(0, displayedCount);
+    const filtered = activeYear === 'all'
+      ? allNews
+      : allNews.filter(n => extractYear(n.date) === activeYear);
+
+    if (filtered.length === 0) {
+      container.innerHTML = '<p class="text-slate-400 text-center py-8">No news found.</p>';
+      return;
+    }
 
     // Group by year
     const byYear = {};
-    toShow.forEach(item => {
+    filtered.forEach(item => {
       const year = extractYear(item.date);
       if (!byYear[year]) byYear[year] = [];
       byYear[year].push(item);
@@ -52,28 +88,13 @@
     });
     html += '</div>';
 
-    // Load more button
-    if (displayedCount < allNews.length) {
-      const remaining = allNews.length - displayedCount;
-      html += `
-        <div class="text-center mt-8">
-          <button id="load-more-news" class="pill px-6 py-2" data-i18n="btn.loadMore">
-            Load More (${remaining} remaining)
-          </button>
-        </div>
-      `;
-    }
-
     container.innerHTML = html;
+  }
 
-    // Bind load more
-    const btn = document.getElementById('load-more-news');
-    if (btn) {
-      btn.addEventListener('click', () => {
-        displayedCount = Math.min(displayedCount + ITEMS_PER_PAGE, allNews.length);
-        renderTimeline();
-      });
-    }
+  async function loadData() {
+    const resp = await fetch('data/news.json');
+    if (!resp.ok) throw new Error(resp.status);
+    return resp.json();
   }
 
   async function init() {
@@ -81,29 +102,27 @@
     if (!container) return;
 
     try {
-      const resp = await fetch('data/news.json');
-      if (!resp.ok) throw new Error(resp.status);
-      allNews = await resp.json();
-      displayedCount = Math.min(ITEMS_PER_PAGE, allNews.length);
-      renderTimeline();
+      allNews = await loadData();
     } catch (e) {
-      setTimeout(async () => {
-        try {
-          const resp = await fetch('data/news.json');
-          if (!resp.ok) throw new Error(resp.status);
-          allNews = await resp.json();
-          displayedCount = Math.min(ITEMS_PER_PAGE, allNews.length);
-          renderTimeline();
-        } catch (e2) {
-          container.innerHTML = '<p class="text-slate-400">Could not load news.</p>';
-        }
-      }, 1000);
+      try {
+        await new Promise(r => setTimeout(r, 1000));
+        allNews = await loadData();
+      } catch (e2) {
+        container.innerHTML = '<p class="text-slate-400">Could not load news.</p>';
+        return;
+      }
     }
+
+    renderYearFilters();
+    renderTimeline();
 
     // Re-render on language toggle
     document.querySelectorAll('#lang-toggle, [id^="lang-toggle"]').forEach(btn => {
       btn.addEventListener('click', () => {
-        setTimeout(renderTimeline, 50);
+        setTimeout(() => {
+          renderYearFilters();
+          renderTimeline();
+        }, 50);
       });
     });
   }
