@@ -139,7 +139,7 @@
     }
 
     function applyHighlight(root) {
-      root.querySelectorAll('h3').forEach(function (h3) {
+      root.querySelectorAll('h2, h3').forEach(function (h3) {
         var text = h3.textContent;
         if (!/publications|논문/i.test(text)) return;
         var ul = h3.nextElementSibling;
@@ -201,6 +201,81 @@
     observer.observe(container, { childList: true, subtree: true });
   }
 
+  // Convert profile section <ul> to timeline format (Education, Experience, Awards, Academic Service)
+  function initProfileTimeline() {
+    var container = document.getElementById('profile-content');
+    if (!container) return;
+
+    var sectionPattern = /education|학력|professional experience|경력|awards|수상|academic service|학술\s*활동/i;
+    var adHocPattern = /^ad hoc|^논문\s*심사/i;
+
+    function convertToTimeline(root) {
+      root.querySelectorAll('h2, h3').forEach(function (heading) {
+        var text = heading.textContent;
+        if (!sectionPattern.test(text)) return;
+        var ul = heading.nextElementSibling;
+        if (!ul || ul.tagName !== 'UL') return;
+        if (ul.classList.contains('tl-converted')) return;
+        ul.classList.add('tl-converted');
+
+        var timeline = document.createElement('div');
+        timeline.className = 'timeline edu-timeline';
+        var adHocEl = null;
+
+        ul.querySelectorAll('li').forEach(function (li) {
+          var liText = li.textContent;
+          if (adHocPattern.test(liText)) {
+            adHocEl = document.createElement('p');
+            adHocEl.className = 'ad-hoc-reviewer';
+            adHocEl.innerHTML = li.innerHTML;
+            return;
+          }
+
+          var item = document.createElement('div');
+          item.className = 'timeline-item';
+
+          var spans = li.querySelectorAll('span.en-only, span.ko-only');
+          if (spans.length > 0) {
+            spans.forEach(function (span) {
+              var newSpan = document.createElement('span');
+              newSpan.className = span.className;
+              var t = span.textContent;
+              var m = t.match(/^(\d{4}(?:[-–]\S+)?),?\s+(.+)/);
+              if (m) {
+                newSpan.innerHTML = '<span class="edu-year">' + m[1] + '</span> ' + m[2];
+              } else {
+                newSpan.textContent = t;
+              }
+              item.appendChild(newSpan);
+            });
+          } else {
+            var t = li.textContent;
+            var m = t.match(/^(\d{4}(?:[-–]\S+)?),?\s+(.+)/);
+            if (m) {
+              item.innerHTML = '<span class="edu-year">' + m[1] + '</span> ' + m[2];
+            } else {
+              item.innerHTML = li.innerHTML;
+            }
+          }
+
+          timeline.appendChild(item);
+        });
+
+        ul.parentNode.replaceChild(timeline, ul);
+        if (adHocEl) {
+          timeline.insertAdjacentElement('afterend', adHocEl);
+        }
+      });
+    }
+
+    convertToTimeline(container);
+
+    var observer = new MutationObserver(function () {
+      convertToTimeline(container);
+    });
+    observer.observe(container, { childList: true, subtree: true });
+  }
+
   // Init on DOM ready
   function boot() {
     initMobileMenu();
@@ -211,6 +286,7 @@
     initBackToTop();
     initCopyrightYear();
     initFirstAuthorHighlight();
+    initProfileTimeline();
     // Delay reveal init slightly so elements rendered by other scripts are caught
     requestAnimationFrame(() => {
       requestAnimationFrame(initReveal);

@@ -680,6 +680,31 @@ body.lang-ko .en-only { display: none; }
   background: rgba(180, 83, 9, 0.06);
 }
 
+/* === Education Timeline === */
+.edu-timeline {
+  padding-left: 1.5rem;
+}
+
+.edu-timeline .timeline-item {
+  padding-bottom: 1rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.edu-year {
+  font-weight: 600;
+  color: var(--accent-gold);
+}
+
+.ad-hoc-reviewer {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
 /* === Publication Filter Pills === */
 .pub-filters {
   display: flex;
