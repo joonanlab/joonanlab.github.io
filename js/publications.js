@@ -157,6 +157,9 @@ ${vol}${issue}${pages}${doi}}`;
 
     container.innerHTML = `<div class="space-y-4">${filtered.map(renderPubCard).join('')}</div>`;
 
+    // Re-trigger reveal observer for new elements
+    if (typeof window.reinitReveal === 'function') window.reinitReveal();
+
     // Bind BibTeX buttons
     container.querySelectorAll('.bibtex-btn').forEach(btn => {
       btn.addEventListener('click', () => {
