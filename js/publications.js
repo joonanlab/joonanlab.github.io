@@ -26,7 +26,7 @@ ${vol}${issue}${pages}${doi}}`;
   function renderPubCard(pub) {
     const isHighlighted = pub.highlight === 1;
     const hlClass = isHighlighted ? 'highlighted' : '';
-    const image = pub.image ? `<img src="images/pubpic/${pub.image}" alt="" class="w-24 h-24 rounded-lg object-cover flex-shrink-0 hidden sm:block" width="96" height="96" loading="lazy">` : '';
+    const image = isHighlighted && pub.image ? `<img src="images/pubpic/${pub.image}" alt="" class="w-24 h-24 rounded-lg object-cover flex-shrink-0 hidden sm:block" width="96" height="96" loading="lazy">` : '';
     const doi = pub.doi ? `<a href="https://doi.org/${pub.doi}" target="_blank" rel="noopener" class="text-cyan-accent text-xs hover:underline">DOI</a>` : '';
     const link = pub.link && pub.link.url ? `<a href="${pub.link.url}" target="_blank" rel="noopener" class="text-cyan-accent text-xs hover:underline">Paper</a>` : '';
 
