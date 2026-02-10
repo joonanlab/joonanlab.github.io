@@ -194,5 +194,21 @@
   "breadcrumb.home": {
     "en": "Home",
     "ko": "홈"
+  },
+  "lectures.genetics.title": {
+    "en": "Genetics",
+    "ko": "유전학 (Genetics)"
+  },
+  "lectures.genetics.desc": {
+    "en": "An undergraduate course at Korea University.",
+    "ko": "고려대학교 학부 강의"
+  },
+  "lectures.bioinfo.title": {
+    "en": "Introduction to Bioinformatics",
+    "ko": "생물정보학 기초 시리즈 (Introduction to Bioinformatics)"
+  },
+  "lectures.bioinfo.desc": {
+    "en": "Foundational lectures on bioinformatics and bio big data analysis.",
+    "ko": "생물정보학, 바이오 빅데이터 분석 관련 기본 강의들을 업로드 합니다."
   }
 }
