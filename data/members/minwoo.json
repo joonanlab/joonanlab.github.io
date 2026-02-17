@@ -9,7 +9,7 @@
   "twitter": "",
   "github": "",
   "scholar": "",
-  "bio_html": "",
+  "bio_html": "<p><span class=\"en-only\">Minwoo worked as a bioinformatician in An Lab, where he co-developed CWAS-Plus, an advanced framework for estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data. As a co-first author (Kim Y✻, Jeong M✻ et al., Briefings in Bioinformatics, 2024), he substantially contributed to expanding the original CWAS methodology introduced by Werling et al. (2018).</span><span class=\"ko-only\">민우는 안랩에서 생물정보분석가로 근무하며 CWAS-Plus 개발에 참여하였습니다. CWAS-Plus는 세포 유형별 기능 데이터를 활용하여 전장유전체 시퀀싱 데이터에서 희귀 비번역 변이의 카테고리 단위 연관성을 추정하는 고급 프레임워크입니다. 공동 제1저자로서(Kim Y✻, Jeong M✻ et al., Briefings in Bioinformatics, 2024) Werling et al. (2018)이 도입한 기존 CWAS 방법론의 확장에 크게 기여하였습니다.</span></p>\n<h3><span class=\"en-only\">Publications</span><span class=\"ko-only\">논문</span></h3>\n<ul>\n<li>Kim Y✻, <strong>Jeong M✻</strong>, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY†, CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data, Briefings in Bioinformatics, 2024</li>\n</ul>",
   "year": 2020,
   "thesis": "",
   "current": "Software Engineer at TmaxSoft Inc."
