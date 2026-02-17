@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', async () => {{
         </div>
         <div class="flex-1">
           <h1 class="text-3xl font-bold mb-2">${{m.name}}</h1>
-          <p class="text-lg text-gold-accent mb-4">${{m.position || ''}}</p>
+          <p class="text-lg text-gold-accent mb-4">${{m.position_ko ? `<span class="en-only">${{m.position || ''}}</span><span class="ko-only">${{m.position_ko}}</span>` : (m.position || '')}}</p>
           ${{links ? `<div class="flex flex-wrap gap-4 mb-6">${{links}}</div>` : ''}}
         </div>
       </div>

@@ -134,12 +134,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         const photo = a.photo || 'blank.png';
         const thesis = a.thesis ? `<p class="text-xs text-slate-500 mt-2"><span class="text-slate-400 font-medium">Thesis:</span> ${a.thesis}</p>` : '';
         const current = a.current ? `<p class="text-xs text-cyan-accent mt-1">${a.current}</p>` : '';
+        const infoHtml = a.info_ko ? `<span class="en-only">${a.info}</span><span class="ko-only">${a.info_ko}</span>` : (a.info || '');
         html += `
           <a href="team/${a.url}.html" class="card flex gap-4 items-start">
             <img src="images/teampic/${photo}" alt="${a.name}" class="w-16 h-16 rounded-xl object-cover flex-shrink-0 border border-dark-hover" loading="lazy">
             <div class="min-w-0">
               <h3 class="font-semibold text-sm">${a.name_ko ? `<span class="en-only">${a.name}</span><span class="ko-only">${a.name_ko}</span>` : a.name}</h3>
-              <p class="text-xs text-slate-400">${a.info || ''}</p>
+              <p class="text-xs text-slate-400">${infoHtml}</p>
               ${thesis}
               ${current}
             </div>
