@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', async () => {{
           <img src="${{photoSrc}}" alt="${{m.name}}" class="w-48 h-48 rounded-2xl object-cover shadow-lg border border-dark-hover" width="192" height="192" loading="lazy">
         </div>
         <div class="flex-1">
-          <h1 class="text-3xl font-bold mb-2">${{m.name}}</h1>
+          <h1 class="text-3xl font-bold mb-2">${{m.name_ko ? `<span class="en-only">${{m.name}}</span><span class="ko-only">${{m.name_ko}}</span>` : m.name}}</h1>
           <p class="text-lg text-gold-accent mb-4">${{m.position_ko ? `<span class="en-only">${{m.position || ''}}</span><span class="ko-only">${{m.position_ko}}</span>` : (m.position || '')}}</p>
           ${{links ? `<div class="flex flex-wrap gap-4 mb-6">${{links}}</div>` : ''}}
         </div>
@@ -271,7 +271,9 @@ def main():
 
         profile_data = {
             "name": member.get("name", ""),
+            "name_ko": member.get("name_ko", ""),
             "position": member.get("info", ""),
+            "position_ko": member.get("info_ko", ""),
             "photo": member.get("photo", ""),
             "handle": "",
             "email": "",

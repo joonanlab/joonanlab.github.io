@@ -484,19 +484,19 @@
     "type": "article"
   },
   {
-    "title": "Multiomics-based evaluation for cancer biomarker discovery and cancer subtyping",
+    "title": "Multiomics in cancer biomarker discovery and cancer subtyping",
     "authors": "Choi S, An JY",
     "authors_full": "Choi S, An JY",
     "journal": "Advances in Clinical Chemistry",
-    "year": 2024,
-    "date": "2024",
-    "vol": null,
+    "year": 2025,
+    "date": "2025",
+    "vol": 125,
     "issue": null,
-    "page": "",
+    "page": "93-142",
     "doi": "",
     "link": {
-      "url": "",
-      "display": "Choi & An, (2024), Advances in Clinical Chemistry"
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0065242324001318",
+      "display": "Choi & An, (2025), Advances in Clinical Chemistry"
     },
     "highlight": 0,
     "type": "review"
