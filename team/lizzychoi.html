@@ -115,6 +115,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         </div>
       </div>
       ${m.bio_html ? `<div class="prose prose-invert max-w-none mt-8 profile-bio">${m.bio_html}</div>` : ''}
+      ${m.note ? `<div class="mt-8 p-6 rounded-2xl border border-slate-700" style="background: rgba(18,24,43,0.8)"><h3 class="text-gold-accent font-semibold mb-3"><span class="en-only">A Word from the PI</span><span class="ko-only">지도교수 한마디</span></h3><p class="text-slate-300 text-sm italic">${m.note_ko ? `<span class="en-only">${m.note}</span><span class="ko-only">${m.note_ko}</span>` : m.note}</p></div>` : ''}
     `;
   } catch (e) {
     document.getElementById('profile-content').innerHTML = '<p class="text-slate-400">Profile not found.</p>';
