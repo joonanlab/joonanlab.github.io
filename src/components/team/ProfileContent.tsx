@@ -20,9 +20,14 @@ function SocialLink({ href, label, children }: { href: string; label: string; ch
 }
 
 function highlightMemberName(authors: string, profileName: string): string {
-  const lastName = profileName.split(' ').pop() || ''
-  const pattern = new RegExp(`(${lastName}\\s+\\w+)`, 'g')
-  return authors.replace(pattern, '<span class="first-author">$1</span>')
+  const parts = profileName.split(' ')
+  const lastName = parts.pop() || ''
+  const firstName = parts.join(' ')
+  const firstInitial = firstName ? firstName[0].toUpperCase() : ''
+  if (!firstInitial) return authors
+  // Match "LastName FirstInitial(+more letters)(optional markers)" e.g., "Lee H", "Lee HJ", "Lee H✻"
+  const pattern = new RegExp(`(${lastName}\\s+${firstInitial}[A-Z]*[✻†*]?)`, 'g')
+  return authors.replace(pattern, '<strong>$1</strong>')
 }
 
 function isFirstAuthorPub(pub: Publication, profileName: string): boolean {
