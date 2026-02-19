@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import type { MemberProfile, AlumniMember, FundingItem, ActivitiesData, OutreachData } from '@/lib/data'
 
@@ -236,70 +236,51 @@ export function ProfileContent({
   )
 }
 
-/** Renders bio_html and adds publication filter buttons right after the Publications heading (like old app.js) */
+/** Parse bio_html into: before-pubs, pub heading, pub items, after-pubs */
+function splitBioHtml(bioHtml: string) {
+  // Find the Publications heading (h2 or h3)
+  const headingMatch = bioHtml.match(/<(h[23])[^>]*>(?:<span[^>]*>)?(?:Publications|논문)[\s\S]*?<\/\1>/i)
+  if (!headingMatch) return { before: bioHtml, pubHeading: '', pubItems: [] as string[], after: '' }
+
+  const headingIdx = bioHtml.indexOf(headingMatch[0])
+  const before = bioHtml.slice(0, headingIdx)
+  const afterHeading = bioHtml.slice(headingIdx + headingMatch[0].length)
+
+  // Find the <ul>...</ul> right after the heading
+  const ulMatch = afterHeading.match(/^\s*<ul>([\s\S]*?)<\/ul>/)
+  if (!ulMatch) return { before: bioHtml, pubHeading: '', pubItems: [], after: '' }
+
+  const after = afterHeading.slice(ulMatch[0].length)
+
+  // Extract individual <li> items
+  const liMatches = ulMatch[1].match(/<li>[\s\S]*?<\/li>/g) || []
+  const pubItems = liMatches.map((li) => li.replace(/^<li>/, '').replace(/<\/li>$/, ''))
+
+  return { before, pubHeading: headingMatch[0], pubItems, after }
+}
+
+function classifyPub(html: string): 'first' | 'co' {
+  // First author: <strong> at start, or ✻ right after name in <strong>
+  if (/^\s*<strong[\s>]/i.test(html) || /<strong[^>]*>[^<]*\u273B/i.test(html)) return 'first'
+  return 'co'
+}
+
+/** Renders bio_html with publication filter buttons between heading and list */
 function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
-  const containerRef = useRef<HTMLDivElement>(null)
-  const filterRef = useRef<HTMLDivElement>(null)
   const [filter, setFilter] = useState<'all' | 'first' | 'co'>('all')
-  const [counts, setCounts] = useState({ total: 0, first: 0, co: 0 })
 
-  useEffect(() => {
-    const el = containerRef.current
-    if (!el) return
+  const { before, pubHeading, pubItems, after } = splitBioHtml(bioHtml)
 
-    // Find Publications heading
-    const headings = el.querySelectorAll('h2, h3')
-    headings.forEach((h) => {
-      const text = h.textContent || ''
-      if (!/publications|논문/i.test(text)) return
+  const classified = pubItems.map((html) => ({ html, role: classifyPub(html) }))
+  const firstCount = classified.filter((p) => p.role === 'first').length
+  const coCount = classified.filter((p) => p.role === 'co').length
+  const hasPubs = pubItems.length > 0
 
-      // Style the heading like the old format
-      ;(h as HTMLElement).style.color = 'var(--accent)'
-
-      const ul = h.nextElementSibling
-      if (!ul || ul.tagName !== 'UL') return
-      ul.classList.add('pub-list')
-
-      // Insert filter buttons placeholder between heading and list
-      if (filterRef.current && !h.parentElement?.querySelector('.pub-filter-buttons')) {
-        h.after(filterRef.current)
-      }
-
-      let firstCount = 0
-      let coCount = 0
-
-      ul.querySelectorAll('li').forEach((li) => {
-        const html = li.innerHTML
-        // First author: <strong> at start of li, or ✻ right after member name in <strong>
-        const isFirst = /^\s*<strong[\s>]/i.test(html) || /<strong[^>]*>[^<]*\u273B/i.test(html)
-        if (isFirst) {
-          li.classList.add('first-author-item')
-          firstCount++
-        } else {
-          li.classList.add('co-author-item')
-          coCount++
-        }
-      })
-
-      setCounts({ total: firstCount + coCount, first: firstCount, co: coCount })
-    })
-  }, [bioHtml])
-
-  // Apply filter
-  useEffect(() => {
-    const el = containerRef.current
-    if (!el) return
-    el.querySelectorAll('.pub-list li').forEach((li) => {
-      const htmlLi = li as HTMLElement
-      if (filter === 'all') {
-        htmlLi.style.display = ''
-      } else if (filter === 'first') {
-        htmlLi.style.display = li.classList.contains('first-author-item') ? '' : 'none'
-      } else {
-        htmlLi.style.display = li.classList.contains('co-author-item') ? '' : 'none'
-      }
-    })
-  }, [filter])
+  const filtered = classified.filter((p) => {
+    if (filter === 'first') return p.role === 'first'
+    if (filter === 'co') return p.role === 'co'
+    return true
+  })
 
   return (
     <motion.div
@@ -307,30 +288,48 @@ function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.1 }}
     >
-      <div
-        className="bio-content mb-10"
-        ref={containerRef}
-        dangerouslySetInnerHTML={{ __html: bioHtml }}
-      />
-      {/* Hidden filter buttons — will be moved into the DOM via ref */}
-      <div
-        ref={filterRef}
-        className="pub-filter-buttons flex gap-2 mb-4 flex-wrap"
-        style={{ display: counts.total > 0 ? '' : 'none' }}
-      >
-        <button className={`pill ${filter === 'all' ? 'active' : ''}`} onClick={() => setFilter('all')}>
-          <span className="en-only">All</span><span className="ko-only">전체</span>
-          <span className="ml-1">({counts.total})</span>
-        </button>
-        <button className={`pill ${filter === 'first' ? 'active' : ''}`} onClick={() => setFilter('first')}>
-          <span className="en-only">First Author</span><span className="ko-only">1저자</span>
-          <span className="ml-1">({counts.first})</span>
-        </button>
-        <button className={`pill ${filter === 'co' ? 'active' : ''}`} onClick={() => setFilter('co')}>
-          <span className="en-only">Co-author</span><span className="ko-only">공저자</span>
-          <span className="ml-1">({counts.co})</span>
-        </button>
-      </div>
+      {/* Bio content before publications */}
+      <div className="bio-content mb-6" dangerouslySetInnerHTML={{ __html: before }} />
+
+      {/* Publications section */}
+      {hasPubs && (
+        <div className="mb-6">
+          <h3 style={{ color: 'var(--accent)', fontSize: '1.25rem', fontWeight: 700, marginBottom: '0.75rem' }}>
+            <span className="en-only">Publications</span>
+            <span className="ko-only">논문</span>
+          </h3>
+
+          {/* Filter buttons */}
+          <div className="flex gap-2 mb-4 flex-wrap">
+            <button className={`pill ${filter === 'all' ? 'active' : ''}`} onClick={() => setFilter('all')}>
+              <span className="en-only">All</span><span className="ko-only">전체</span>
+              <span className="ml-1">({pubItems.length})</span>
+            </button>
+            <button className={`pill ${filter === 'first' ? 'active' : ''}`} onClick={() => setFilter('first')}>
+              <span className="en-only">First Author</span><span className="ko-only">1저자</span>
+              <span className="ml-1">({firstCount})</span>
+            </button>
+            <button className={`pill ${filter === 'co' ? 'active' : ''}`} onClick={() => setFilter('co')}>
+              <span className="en-only">Co-author</span><span className="ko-only">공저자</span>
+              <span className="ml-1">({coCount})</span>
+            </button>
+          </div>
+
+          {/* Publication list */}
+          <ul className="pub-list">
+            {filtered.map((pub, i) => (
+              <li
+                key={i}
+                className={pub.role === 'first' ? 'first-author-item' : 'co-author-item'}
+                dangerouslySetInnerHTML={{ __html: pub.html }}
+              />
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* Bio content after publications */}
+      {after && <div className="bio-content mb-6" dangerouslySetInnerHTML={{ __html: after }} />}
     </motion.div>
   )
 }
