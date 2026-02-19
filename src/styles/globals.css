@@ -516,36 +516,60 @@ body.lang-ko span.ko-only { display: inline !important; }
   background: linear-gradient(135deg, var(--bg-secondary), var(--bg-tertiary));
 }
 
-/* ===== News Timeline Dot ===== */
-.news-dot {
+/* ===== News Timeline ===== */
+.news-timeline {
   position: relative;
-  padding-left: 1.5rem;
+  padding-left: 2rem;
 }
 
-.news-dot::before {
+/* Vertical line running down the left */
+.news-timeline::before {
   content: '';
   position: absolute;
-  left: 0;
+  left: 5px;
   top: 0.5rem;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 0 3px var(--accent-subtle);
+  width: 2px;
+  height: calc(100% - 1rem);
+  background: linear-gradient(to bottom, var(--accent-gold), var(--accent), var(--border));
+  opacity: 0.4;
 }
 
-.news-dot::after {
+/* Year heading */
+.news-year-heading {
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.news-year-heading::before {
   content: '';
   position: absolute;
-  left: 3.5px;
-  top: 1.25rem;
-  width: 1px;
-  height: calc(100% - 0.5rem);
-  background: var(--border);
+  left: -2rem;
+  top: 0.5rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent-gold);
+  box-shadow: 0 0 0 3px rgba(196, 154, 60, 0.2);
+  z-index: 1;
 }
 
-.news-dot:last-child::after {
-  display: none;
+/* Individual news item */
+.news-item {
+  position: relative;
+  padding-bottom: 1.25rem;
+  padding-left: 0.5rem;
+}
+
+.news-item::before {
+  content: '';
+  position: absolute;
+  left: -1.75rem;
+  top: 0.35rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  z-index: 1;
 }
 
 /* ===== Shimmer Line ===== */
