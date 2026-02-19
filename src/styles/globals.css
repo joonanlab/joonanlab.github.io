@@ -293,12 +293,13 @@ body.lang-ko span.ko-only { display: inline !important; }
 }
 
 /* ===== Bio HTML Styling ===== */
-.bio-content h2 {
+.bio-content h2,
+.bio-content h3 {
   font-size: 1.25rem;
   font-weight: 700;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  color: var(--text-primary);
+  color: var(--accent-gold);
 }
 
 .bio-content p {

@@ -156,7 +156,7 @@ export function ProfileContent({
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-xl font-bold mb-3" style={{ color: 'var(--text-primary)' }}>
+          <h2 className="text-xl font-bold mb-3" style={{ color: 'var(--accent-gold)' }}>
             <span className="en-only">Funding</span>
             <span className="ko-only">연구비 지원</span>
           </h2>
@@ -184,7 +184,7 @@ export function ProfileContent({
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-xl font-bold mb-3" style={{ color: 'var(--text-primary)' }}>
+          <h2 className="text-xl font-bold mb-3" style={{ color: 'var(--accent-gold)' }}>
             <span className="en-only">Public Engagement &amp; Education Workshops</span>
             <span className="ko-only">대중 참여 &amp; 교육 워크숍</span>
           </h2>
@@ -212,7 +212,7 @@ export function ProfileContent({
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-xl font-bold mb-3" style={{ color: 'var(--text-primary)' }}>
+          <h2 className="text-xl font-bold mb-3" style={{ color: 'var(--accent-gold)' }}>
             <span className="en-only">Conference Talks &amp; Invited Seminars</span>
             <span className="ko-only">학회 발표 &amp; 초청 세미나</span>
           </h2>
@@ -294,7 +294,7 @@ function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
       {/* Publications section */}
       {hasPubs && (
         <div className="mb-6">
-          <h3 style={{ color: 'var(--accent)', fontSize: '1.25rem', fontWeight: 700, marginBottom: '0.75rem' }}>
+          <h3 style={{ color: 'var(--accent-gold)', fontSize: '1.25rem', fontWeight: 700, marginBottom: '0.75rem' }}>
             <span className="en-only">Publications</span>
             <span className="ko-only">논문</span>
           </h3>
