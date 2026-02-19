@@ -81,9 +81,8 @@ export function ProfileContent({
               )}
               {alumniEntry.current && (
                 <p>
-                  <span className="en-only">Current: </span>
-                  <span className="ko-only">현재: </span>
-                  {alumniEntry.current}
+                  <span className="en-only">Current: {alumniEntry.current}</span>
+                  <span className="ko-only">현재: {alumniEntry.current_ko || alumniEntry.current}</span>
                 </p>
               )}
             </div>

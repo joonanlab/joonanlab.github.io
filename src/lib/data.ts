@@ -23,6 +23,7 @@ export interface AlumniMember {
   year: number
   thesis: string | null
   current: string | null
+  current_ko: string | null
 }
 
 export interface MemberProfile {

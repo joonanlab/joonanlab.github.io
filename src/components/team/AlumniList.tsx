@@ -67,9 +67,8 @@ export function AlumniList({ alumni }: { alumni: AlumniMember[] }) {
                       </p>
                       {m.current && (
                         <p className="text-sm mt-0.5" style={{ color: 'var(--text-muted)' }}>
-                          <span className="en-only">Current: </span>
-                          <span className="ko-only">현재: </span>
-                          {m.current}
+                          <span className="en-only">Current: {m.current}</span>
+                          <span className="ko-only">현재: {m.current_ko || m.current}</span>
                         </p>
                       )}
                     </div>

@@ -9,7 +9,8 @@
     "group": 1,
     "year": 2026,
     "thesis": null,
-    "current": "Postdoc at the University of Oxford, UK"
+    "current": "Postdoc at the University of Oxford, UK",
+    "current_ko": "영국 옥스포드 대학교 박사후연구원"
   },
   {
     "name": "Soo-Whee Kim",
@@ -21,7 +22,8 @@
     "group": 1,
     "year": 2026,
     "thesis": null,
-    "current": "Postdoc at the University of Oxford, UK"
+    "current": "Postdoc at the University of Oxford, UK",
+    "current_ko": "영국 옥스포드 대학교 박사후연구원"
   },
   {
     "name": "Yebin Ryu",
@@ -33,7 +35,8 @@
     "group": 1,
     "year": 2026,
     "thesis": "Characterization of m6A-related subgroups in cancer using multi-omics profiling",
-    "current": "Laboratory of Precision and Molecular Oncology, SNU"
+    "current": "Laboratory of Precision and Molecular Oncology, SNU",
+    "current_ko": "서울대학교 정밀·분자종양학 연구실"
   },
   {
     "name": "Eunhyong Chang",
@@ -45,7 +48,8 @@
     "group": 1,
     "year": 2025,
     "thesis": "Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types",
-    "current": "Researcher at Kolmar Korea"
+    "current": "Researcher at Kolmar Korea",
+    "current_ko": "한국콜마 연구원"
   },
   {
     "name": "Chanhee Kim",
@@ -57,7 +61,8 @@
     "group": 1,
     "year": 2025,
     "thesis": "Association of rare noncoding variants and short tandem repeat expansions with Alzheimer's disease risk",
-    "current": "Researcher at Samsung Bioepis"
+    "current": "Researcher at Samsung Bioepis",
+    "current_ko": "삼성바이오에피스 연구원"
   },
   {
     "name": "Seoyeon Kim",
@@ -69,7 +74,8 @@
     "group": 1,
     "year": 2024,
     "thesis": "Exploring the Cellular and Temporal Specificity of Neurological Disorder Genes in Brain Development",
-    "current": "PhD Student at the Scripps Research Institute, USA"
+    "current": "PhD Student at the Scripps Research Institute, USA",
+    "current_ko": "미국 스크립스 연구소 박사과정"
   },
   {
     "name": "Jungeun Ji",
@@ -81,7 +87,8 @@
     "group": 1,
     "year": 2024,
     "thesis": "Discovery of cell type-specific gene regulatory networks responsive to contextual fear conditioning in hippocampal excitatory neurons",
-    "current": "PhD Student at Washington University in St. Louis, USA"
+    "current": "PhD Student at Washington University in St. Louis, USA",
+    "current_ko": "미국 워싱턴 대학교 (세인트루이스) 박사과정"
   },
   {
     "name": "Sophia Jihae Lee",
@@ -93,7 +100,8 @@
     "group": 1,
     "year": 2024,
     "thesis": null,
-    "current": "PhD Student at the University of North Carolina at Chapel Hill, USA"
+    "current": "PhD Student at the University of North Carolina at Chapel Hill, USA",
+    "current_ko": "미국 노스캐롤라이나 대학교 채플힐 박사과정"
   },
   {
     "name": "Ganghee Lee",
@@ -105,7 +113,8 @@
     "group": 1,
     "year": 2024,
     "thesis": "ABD",
-    "current": "Bioinformatician at Inocras Inc."
+    "current": "Bioinformatician at Inocras Inc.",
+    "current_ko": "이노크라스 생물정보분석가"
   },
   {
     "name": "Jaehyun Kim",
@@ -117,7 +126,8 @@
     "group": 1,
     "year": 2023,
     "thesis": "Short tandem repeat detection from whole genome sequencing data of Korean families clarified functional and cell type specificity in autism spectrum disorder",
-    "current": "Hyundai AMC Bioscience"
+    "current": "Hyundai AMC Bioscience",
+    "current_ko": "현대 아산병원 바이오사이언스"
   },
   {
     "name": "Chanwoong Hwa",
@@ -129,7 +139,8 @@
     "group": 1,
     "year": 2023,
     "thesis": "Brain Tumor Atlas Integration and Harmonization of Single-Cell Transcriptomic Datasets",
-    "current": "Bioinformatician at 3billion"
+    "current": "Bioinformatician at 3billion",
+    "current_ko": "쓰리빌리언 생물정보분석가"
   },
   {
     "name": "Lizzy Choi",
@@ -141,7 +152,8 @@
     "group": 1,
     "year": 2022,
     "thesis": "Identification of genetic factors of comorbid ophthalmologic manifestations in the neurodevelopmental disorders cohort",
-    "current": "Data Analyst at Samsung SDS"
+    "current": "Data Analyst at Samsung SDS",
+    "current_ko": "삼성SDS 데이터 분석가"
   },
   {
     "name": "Yong-Jin Heo",
@@ -153,7 +165,8 @@
     "group": 1,
     "year": 2022,
     "thesis": "Proteogenomics landscape of South Korean non-small cell lung cancer",
-    "current": "Pharmacy"
+    "current": "Pharmacy",
+    "current_ko": "약국"
   },
   {
     "name": "Minwoo Jeong",
@@ -164,7 +177,8 @@
     "url": "minwoo",
     "group": 2,
     "year": 2020,
-    "current": "Software Engineer at TmaxSoft Inc."
+    "current": "Software Engineer at TmaxSoft Inc.",
+    "current_ko": "티맥스소프트 소프트웨어 엔지니어"
   },
   {
     "name": "Seunghwan Choi",
@@ -176,7 +190,8 @@
     "group": 3,
     "year": 2025,
     "thesis": null,
-    "current": "PhD Student at Washington University in St. Louis, USA"
+    "current": "PhD Student at Washington University in St. Louis, USA",
+    "current_ko": "미국 워싱턴 대학교 (세인트루이스) 박사과정"
   },
   {
     "name": "Taejun Park",
@@ -188,7 +203,8 @@
     "group": 3,
     "year": 2025,
     "thesis": null,
-    "current": null
+    "current": null,
+    "current_ko": null
   },
   {
     "name": "Jaemin Park",
@@ -199,7 +215,8 @@
     "url": "jaepark",
     "group": 3,
     "year": 2021,
-    "current": "Researcher at Samsung Biologics"
+    "current": "Researcher at Samsung Biologics",
+    "current_ko": "삼성바이오로직스 연구원"
   },
   {
     "name": "Yunseo Lee",
@@ -210,6 +227,7 @@
     "url": "yunseo",
     "group": 3,
     "year": 2020,
-    "current": "Biostatistician at Beckman Coulter"
+    "current": "Biostatistician at Beckman Coulter",
+    "current_ko": "베크만쿨터 생물통계학자"
   }
 ]
