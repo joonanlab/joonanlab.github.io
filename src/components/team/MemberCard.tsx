@@ -15,7 +15,7 @@ export function MemberCard({ member }: { member: TeamMember }) {
   const badges = parseBadges(member.info)
 
   return (
-    <Link href={`/team/${member.url}`} className="card block text-center group hover:border-transparent" style={{ position: 'relative', overflow: 'hidden' }}>
+    <Link href={`/team/${member.url}`} className="card block text-center group hover:border-transparent h-full" style={{ position: 'relative', overflow: 'hidden' }}>
       {/* Hover glow border */}
       <div
         className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"

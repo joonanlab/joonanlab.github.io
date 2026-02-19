@@ -308,48 +308,46 @@ body.lang-ko span.ko-only { display: inline !important; }
 }
 
 .bio-content ul {
-  list-style-type: disc;
+  list-style: none;
   padding-left: 1.5rem;
   color: var(--text-secondary);
   margin-bottom: 0.75rem;
+  position: relative;
 }
 
 .bio-content li {
-  margin-bottom: 0.375rem;
+  margin-bottom: 0.5rem;
   line-height: 1.6;
   position: relative;
-  padding-left: 1rem;
+  padding-left: 1.25rem;
 }
 
 .bio-content li::before {
   content: '';
   position: absolute;
   left: 0;
-  top: 0.6rem;
-  width: 6px;
-  height: 6px;
+  top: 0.55rem;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 0 2px var(--accent-subtle);
+  box-shadow: 0 0 0 3px var(--accent-subtle);
+  z-index: 1;
 }
 
 .bio-content li::after {
   content: '';
   position: absolute;
-  left: 2.5px;
-  top: 1.1rem;
-  width: 1px;
-  height: calc(100% - 0.2rem);
-  background: var(--border);
+  left: 3px;
+  top: 1.2rem;
+  width: 2px;
+  height: calc(100% + 0.1rem);
+  background: linear-gradient(to bottom, var(--accent), var(--accent-gold));
+  opacity: 0.4;
 }
 
 .bio-content li:last-child::after {
   display: none;
-}
-
-/* Highlight year text in bio timeline */
-.bio-content li strong:first-child {
-  color: var(--accent-gold);
 }
 
 .bio-content a {
@@ -361,6 +359,18 @@ body.lang-ko span.ko-only { display: inline !important; }
 .bio-content a:hover {
   color: var(--accent-hover);
   text-decoration: underline;
+}
+
+/* ===== Publication List in Bio (first-author highlight) ===== */
+.pub-list li.first-author-item {
+  border-left: 3px solid var(--accent-gold);
+  padding-left: 1rem;
+  margin-left: -0.25rem;
+}
+
+.pub-list li.first-author-item::before {
+  background: var(--accent-gold);
+  box-shadow: 0 0 0 3px rgba(196, 154, 60, 0.15);
 }
 
 /* ===== Tool Card ===== */
