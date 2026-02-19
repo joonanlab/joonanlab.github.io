@@ -236,9 +236,10 @@ export function ProfileContent({
   )
 }
 
-/** Renders bio_html and adds publication filter buttons via DOM processing (like old app.js) */
+/** Renders bio_html and adds publication filter buttons right after the Publications heading (like old app.js) */
 function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
   const containerRef = useRef<HTMLDivElement>(null)
+  const filterRef = useRef<HTMLDivElement>(null)
   const [filter, setFilter] = useState<'all' | 'first' | 'co'>('all')
   const [counts, setCounts] = useState({ total: 0, first: 0, co: 0 })
 
@@ -252,16 +253,24 @@ function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
       const text = h.textContent || ''
       if (!/publications|논문/i.test(text)) return
 
+      // Style the heading like the old format
+      ;(h as HTMLElement).style.color = 'var(--accent)'
+
       const ul = h.nextElementSibling
       if (!ul || ul.tagName !== 'UL') return
       ul.classList.add('pub-list')
+
+      // Insert filter buttons placeholder between heading and list
+      if (filterRef.current && !h.parentElement?.querySelector('.pub-filter-buttons')) {
+        h.after(filterRef.current)
+      }
 
       let firstCount = 0
       let coCount = 0
 
       ul.querySelectorAll('li').forEach((li) => {
         const html = li.innerHTML
-        // First author: <strong> at start or ✻ inside <strong>
+        // First author: <strong> at start of li, or ✻ right after member name in <strong>
         const isFirst = /^\s*<strong[\s>]/i.test(html) || /<strong[^>]*>[^<]*\u273B/i.test(html)
         if (isFirst) {
           li.classList.add('first-author-item')
@@ -303,22 +312,25 @@ function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
         ref={containerRef}
         dangerouslySetInnerHTML={{ __html: bioHtml }}
       />
-      {counts.total > 0 && (
-        <div className="flex gap-2 mb-6 flex-wrap -mt-8">
-          <button className={`pill ${filter === 'all' ? 'active' : ''}`} onClick={() => setFilter('all')}>
-            <span className="en-only">All</span><span className="ko-only">전체</span>
-            <span className="ml-1">({counts.total})</span>
-          </button>
-          <button className={`pill ${filter === 'first' ? 'active' : ''}`} onClick={() => setFilter('first')}>
-            <span className="en-only">First Author</span><span className="ko-only">1저자</span>
-            <span className="ml-1">({counts.first})</span>
-          </button>
-          <button className={`pill ${filter === 'co' ? 'active' : ''}`} onClick={() => setFilter('co')}>
-            <span className="en-only">Co-author</span><span className="ko-only">공저자</span>
-            <span className="ml-1">({counts.co})</span>
-          </button>
-        </div>
-      )}
+      {/* Hidden filter buttons — will be moved into the DOM via ref */}
+      <div
+        ref={filterRef}
+        className="pub-filter-buttons flex gap-2 mb-4 flex-wrap"
+        style={{ display: counts.total > 0 ? '' : 'none' }}
+      >
+        <button className={`pill ${filter === 'all' ? 'active' : ''}`} onClick={() => setFilter('all')}>
+          <span className="en-only">All</span><span className="ko-only">전체</span>
+          <span className="ml-1">({counts.total})</span>
+        </button>
+        <button className={`pill ${filter === 'first' ? 'active' : ''}`} onClick={() => setFilter('first')}>
+          <span className="en-only">First Author</span><span className="ko-only">1저자</span>
+          <span className="ml-1">({counts.first})</span>
+        </button>
+        <button className={`pill ${filter === 'co' ? 'active' : ''}`} onClick={() => setFilter('co')}>
+          <span className="en-only">Co-author</span><span className="ko-only">공저자</span>
+          <span className="ml-1">({counts.co})</span>
+        </button>
+      </div>
     </motion.div>
   )
 }

@@ -361,16 +361,31 @@ body.lang-ko span.ko-only { display: inline !important; }
   text-decoration: underline;
 }
 
-/* ===== Publication List in Bio (first-author highlight) ===== */
-.pub-list li.first-author-item {
-  border-left: 3px solid var(--accent-gold);
-  padding-left: 1rem;
-  margin-left: -0.25rem;
+/* ===== Publication List in Bio ===== */
+.pub-list {
+  list-style: none !important;
+  padding-left: 0 !important;
 }
 
-.pub-list li.first-author-item::before {
-  background: var(--accent-gold);
-  box-shadow: 0 0 0 3px rgba(196, 154, 60, 0.15);
+.pub-list li {
+  padding-left: 0.75rem !important;
+  margin-bottom: 0.75rem !important;
+  line-height: 1.7;
+  border-left: 2px solid var(--border);
+}
+
+/* Remove timeline dots and lines from publication items */
+.pub-list li::before,
+.pub-list li::after {
+  display: none !important;
+}
+
+/* First-author highlight with gold left border */
+.pub-list li.first-author-item {
+  border-left: 3px solid var(--accent-gold);
+  background: rgba(196, 154, 60, 0.04);
+  padding: 0.5rem 0.75rem !important;
+  border-radius: 0 0.375rem 0.375rem 0;
 }
 
 /* ===== Tool Card ===== */
