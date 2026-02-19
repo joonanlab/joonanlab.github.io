@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import type { MemberProfile, Publication, AlumniMember, FundingItem, ActivitiesData, OutreachData } from '@/lib/data'
 
@@ -18,11 +19,41 @@ function SocialLink({ href, label, children }: { href: string; label: string; ch
   )
 }
 
-function highlightFirstAuthor(authors: string, profileName: string): string {
+function highlightMemberName(authors: string, profileName: string): string {
   const lastName = profileName.split(' ').pop() || ''
-  // Try to highlight "An JY" or similar patterns
   const pattern = new RegExp(`(${lastName}\\s+\\w+)`, 'g')
   return authors.replace(pattern, '<span class="first-author">$1</span>')
+}
+
+function isFirstAuthorPub(pub: Publication, profileName: string): boolean {
+  const parts = profileName.split(' ')
+  const lastName = parts.pop() || ''
+  const firstName = parts.join(' ')
+
+  // Get first author from authors_full (format: "LastName FirstName, ...")
+  const firstAuthorFull = pub.authors_full.split(',')[0].trim()
+  // Get first author from authors (format: "LastName AB, ...")
+  const firstAuthorShort = pub.authors.split(',')[0].trim()
+
+  // Check if member is the very first author
+  if (firstAuthorFull.startsWith(lastName)) {
+    const rest = firstAuthorFull.slice(lastName.length).trim()
+    if (rest.toLowerCase().startsWith(firstName.toLowerCase().slice(0, 2))) return true
+  }
+
+  // Check first initial match in short format
+  if (firstAuthorShort.startsWith(lastName) && firstName.length > 0) {
+    const initials = firstAuthorShort.slice(lastName.length).trim()
+    if (initials.startsWith(firstName[0].toUpperCase())) return true
+  }
+
+  // Check co-first author: member appears in first 3 authors with ✻ or * marker
+  const firstThreeAuthors = pub.authors.split(',').slice(0, 3).join(',')
+  if ((pub.authors.includes('✻') || pub.authors.includes('*')) && firstThreeAuthors.includes(lastName)) {
+    return true
+  }
+
+  return false
 }
 
 export function ProfileContent({
@@ -161,7 +192,7 @@ export function ProfileContent({
         />
       )}
 
-      {/* Funding (PI only) */}
+      {/* Funding (PI only) — Summary + Link */}
       {funding && funding.length > 0 && (
         <motion.section
           className="mb-10"
@@ -170,85 +201,26 @@ export function ProfileContent({
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent-gold)' }}>
+          <h2 className="text-2xl font-bold mb-3" style={{ color: 'var(--accent-gold)' }}>
             <span className="en-only">Funding</span>
             <span className="ko-only">연구비 지원</span>
           </h2>
-          <div className="space-y-3">
-            {funding.map((f, i) => (
-              <div key={i} className="pub-card">
-                <div className="flex items-center gap-2 mb-1">
-                  <span
-                    className={`badge ${f.role === 'PI' ? 'badge-accent' : 'badge-gold'}`}
-                  >
-                    {f.role}
-                  </span>
-                  <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                    {f.years}
-                  </span>
-                </div>
-                <p className="text-base" style={{ color: 'var(--text-primary)' }}>
-                  <span className="en-only">{f.title_en}</span>
-                  <span className="ko-only">{f.title_ko}</span>
-                </p>
-                <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
-                  <span className="en-only">{f.source_en}</span>
-                  <span className="ko-only">{f.source_ko}</span>
-                </p>
-              </div>
-            ))}
-          </div>
+          <p className="mb-4" style={{ color: 'var(--text-secondary)' }}>
+            <span className="en-only">
+              {funding.filter(f => f.role === 'PI').length} grants as PI and {funding.filter(f => f.role !== 'PI').length} grants as CI (2018–present).
+            </span>
+            <span className="ko-only">
+              PI {funding.filter(f => f.role === 'PI').length}건, CI {funding.filter(f => f.role !== 'PI').length}건 (2018–현재).
+            </span>
+          </p>
+          <a href="/team/joonan-funding" className="pill" style={{ color: 'var(--accent)' }}>
+            <span className="en-only">View all funding →</span>
+            <span className="ko-only">전체 연구비 보기 →</span>
+          </a>
         </motion.section>
       )}
 
-      {/* Activities (PI only) */}
-      {activities && (
-        <motion.section
-          className="mb-10"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent)' }}>
-            <span className="en-only">Conference Talks</span>
-            <span className="ko-only">학회 발표</span>
-          </h2>
-          <div className="space-y-2">
-            {activities.conferences.slice(0, 10).map((a, i) => (
-              <div key={i} className="flex gap-3 text-base py-2" style={{ borderBottom: '1px solid var(--border)' }}>
-                <span className="shrink-0" style={{ color: 'var(--text-muted)', minWidth: '80px' }}>
-                  {a.date}
-                </span>
-                <div>
-                  <p style={{ color: 'var(--text-primary)' }}>{a.title}</p>
-                  <p className="text-sm" style={{ color: 'var(--text-muted)' }}>{a.event}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <h2 className="text-2xl font-bold mb-4 mt-8" style={{ color: 'var(--accent)' }}>
-            <span className="en-only">Invited Seminars</span>
-            <span className="ko-only">초청 세미나</span>
-          </h2>
-          <div className="space-y-2">
-            {activities.seminars.slice(0, 10).map((a, i) => (
-              <div key={i} className="flex gap-3 text-base py-2" style={{ borderBottom: '1px solid var(--border)' }}>
-                <span className="shrink-0" style={{ color: 'var(--text-muted)', minWidth: '80px' }}>
-                  {a.date}
-                </span>
-                <div>
-                  <p style={{ color: 'var(--text-primary)' }}>{a.title}</p>
-                  <p className="text-sm" style={{ color: 'var(--text-muted)' }}>{a.event}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </motion.section>
-      )}
-
-      {/* Outreach (PI only) */}
+      {/* Outreach (PI only) — Summary + Link */}
       {outreach && (
         <motion.section
           className="mb-10"
@@ -257,80 +229,147 @@ export function ProfileContent({
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent-gold)' }}>
-            <span className="en-only">Public Engagement</span>
-            <span className="ko-only">대중 참여</span>
+          <h2 className="text-2xl font-bold mb-3" style={{ color: 'var(--accent-gold)' }}>
+            <span className="en-only">Public Engagement &amp; Education Workshops</span>
+            <span className="ko-only">대중 참여 &amp; 교육 워크숍</span>
           </h2>
-          <div className="space-y-2">
-            {outreach.outreach.map((a, i) => (
-              <div key={i} className="flex gap-3 text-base py-2" style={{ borderBottom: '1px solid var(--border)' }}>
-                <span className="shrink-0" style={{ color: 'var(--text-muted)', minWidth: '80px' }}>
-                  {a.date}
-                </span>
-                <div>
-                  <p style={{ color: 'var(--text-primary)' }}>{a.title}</p>
-                  <p className="text-sm" style={{ color: 'var(--text-muted)' }}>{a.event}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <h2 className="text-2xl font-bold mb-4 mt-8" style={{ color: 'var(--accent-gold)' }}>
-            <span className="en-only">Education Workshops</span>
-            <span className="ko-only">교육 워크숍</span>
-          </h2>
-          <div className="space-y-2">
-            {outreach.workshops.map((a, i) => (
-              <div key={i} className="flex gap-3 text-base py-2" style={{ borderBottom: '1px solid var(--border)' }}>
-                <span className="shrink-0" style={{ color: 'var(--text-muted)', minWidth: '80px' }}>
-                  {a.date}
-                </span>
-                <div>
-                  <p style={{ color: 'var(--text-primary)' }}>{a.title}</p>
-                  <p className="text-sm" style={{ color: 'var(--text-muted)' }}>{a.event}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <p className="mb-4" style={{ color: 'var(--text-secondary)' }}>
+            <span className="en-only">
+              {outreach.outreach.length} public engagement activities and {outreach.workshops.length} education workshops (2019–present).
+            </span>
+            <span className="ko-only">
+              대중 참여 {outreach.outreach.length}건, 교육 워크숍 {outreach.workshops.length}건 (2019–현재).
+            </span>
+          </p>
+          <a href="/team/joonan-outreach" className="pill" style={{ color: 'var(--accent)' }}>
+            <span className="en-only">View all outreach &amp; education →</span>
+            <span className="ko-only">전체 보기 →</span>
+          </a>
         </motion.section>
       )}
 
-      {/* Publications */}
-      {publications.length > 0 && (
+      {/* Activities (PI only) — Summary + Link */}
+      {activities && (
         <motion.section
+          className="mb-10"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent)' }}>
-            <span className="en-only">Publications</span>
-            <span className="ko-only">논문</span>
-            <span className="text-base font-normal ml-2" style={{ color: 'var(--text-muted)' }}>
-              ({publications.length})
-            </span>
+          <h2 className="text-2xl font-bold mb-3" style={{ color: 'var(--accent)' }}>
+            <span className="en-only">Conference Talks &amp; Invited Seminars</span>
+            <span className="ko-only">학회 발표 &amp; 초청 세미나</span>
           </h2>
-          <div className="space-y-3">
-            {publications.map((pub, i) => (
-              <div key={i} className={`pub-card ${pub.highlight ? 'highlighted' : ''}`}>
-                <p className="text-base font-medium" style={{ color: 'var(--text-primary)' }}>
-                  {pub.title}
-                </p>
-                <p
-                  className="text-xs mt-1"
-                  style={{ color: 'var(--text-secondary)' }}
-                  dangerouslySetInnerHTML={{
-                    __html: highlightFirstAuthor(pub.authors, profile.name),
-                  }}
-                />
-                <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
-                  {pub.journal} ({pub.year})
-                </p>
-              </div>
-            ))}
-          </div>
+          <p className="mb-4" style={{ color: 'var(--text-secondary)' }}>
+            <span className="en-only">
+              {activities.conferences.length} conference talks and {activities.seminars.length} invited seminars (2019–present).
+            </span>
+            <span className="ko-only">
+              학회 발표 {activities.conferences.length}건, 초청 세미나 {activities.seminars.length}건 (2019–현재).
+            </span>
+          </p>
+          <a href="/team/joonan-activities" className="pill" style={{ color: 'var(--accent)' }}>
+            <span className="en-only">View all activities →</span>
+            <span className="ko-only">전체 활동 보기 →</span>
+          </a>
         </motion.section>
       )}
+
+      {/* Publications */}
+      {publications.length > 0 && (
+        <PublicationsSection publications={publications} profileName={profile.name} />
+      )}
     </div>
+  )
+}
+
+function PublicationsSection({ publications, profileName }: { publications: Publication[]; profileName: string }) {
+  const [filter, setFilter] = useState<'all' | 'first' | 'co'>('all')
+
+  const pubsWithRole = publications.map((pub) => ({
+    ...pub,
+    isFirst: isFirstAuthorPub(pub, profileName),
+  }))
+
+  const firstCount = pubsWithRole.filter((p) => p.isFirst).length
+  const coCount = pubsWithRole.filter((p) => !p.isFirst).length
+
+  const filtered = pubsWithRole.filter((p) => {
+    if (filter === 'first') return p.isFirst
+    if (filter === 'co') return !p.isFirst
+    return true
+  })
+
+  return (
+    <motion.section
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5 }}
+    >
+      <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent)' }}>
+        <span className="en-only">Publications</span>
+        <span className="ko-only">논문</span>
+        <span className="text-base font-normal ml-2" style={{ color: 'var(--text-muted)' }}>
+          ({publications.length})
+        </span>
+      </h2>
+
+      {/* Filter Pills */}
+      <div className="flex gap-2 mb-4 flex-wrap">
+        <button
+          className={`pill ${filter === 'all' ? 'active' : ''}`}
+          onClick={() => setFilter('all')}
+        >
+          <span className="en-only">All</span>
+          <span className="ko-only">전체</span>
+          <span className="ml-1">({publications.length})</span>
+        </button>
+        <button
+          className={`pill ${filter === 'first' ? 'active' : ''}`}
+          onClick={() => setFilter('first')}
+        >
+          <span className="en-only">First Author</span>
+          <span className="ko-only">1저자</span>
+          <span className="ml-1">({firstCount})</span>
+        </button>
+        <button
+          className={`pill ${filter === 'co' ? 'active' : ''}`}
+          onClick={() => setFilter('co')}
+        >
+          <span className="en-only">Co-author</span>
+          <span className="ko-only">공저자</span>
+          <span className="ml-1">({coCount})</span>
+        </button>
+      </div>
+
+      <div className="space-y-3">
+        {filtered.map((pub, i) => (
+          <div
+            key={i}
+            className="pub-card"
+            style={pub.isFirst ? {
+              borderLeft: '3px solid var(--accent-gold)',
+              background: 'rgba(196, 154, 60, 0.06)',
+            } : undefined}
+          >
+            <p className="text-base font-medium" style={{ color: 'var(--text-primary)' }}>
+              {pub.title}
+            </p>
+            <p
+              className="text-xs mt-1"
+              style={{ color: 'var(--text-secondary)' }}
+              dangerouslySetInnerHTML={{
+                __html: highlightMemberName(pub.authors, profileName),
+              }}
+            />
+            <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
+              {pub.journal} ({pub.year})
+            </p>
+          </div>
+        ))}
+      </div>
+    </motion.section>
   )
 }

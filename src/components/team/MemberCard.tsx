@@ -15,8 +15,26 @@ export function MemberCard({ member }: { member: TeamMember }) {
   const badges = parseBadges(member.info)
 
   return (
-    <Link href={`/team/${member.url}`} className="card block text-center group">
-      <div className="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden" style={{ background: 'var(--bg-tertiary)' }}>
+    <Link href={`/team/${member.url}`} className="card block text-center group hover:border-transparent" style={{ position: 'relative', overflow: 'hidden' }}>
+      {/* Hover glow border */}
+      <div
+        className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+        style={{
+          background: 'linear-gradient(135deg, rgba(196, 30, 58, 0.4), rgba(196, 154, 60, 0.2), rgba(26, 39, 68, 0.4))',
+          padding: '1px',
+          borderRadius: '0.75rem',
+          WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
+          WebkitMaskComposite: 'xor',
+          maskComposite: 'exclude',
+        }}
+      />
+      <div
+        className="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden transition-all duration-300 member-photo-ring"
+        style={{
+          background: 'var(--bg-tertiary)',
+          border: '2px solid transparent',
+        }}
+      >
         <img
           src={`/images/teampic/${member.photo}`}
           alt={member.name}

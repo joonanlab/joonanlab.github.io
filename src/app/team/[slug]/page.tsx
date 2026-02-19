@@ -53,7 +53,7 @@ export default async function ProfilePage({ params }: { params: Promise<{ slug: 
 
         <ProfileContent
           profile={profile}
-          publications={memberPubs}
+          publications={isPI ? [] : memberPubs}
           isCurrentMember={isCurrentMember}
           alumniEntry={alumniEntry || null}
           funding={funding}
