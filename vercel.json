@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/team.html", "destination": "/team", "permanent": true },
+    { "source": "/research.html", "destination": "/research", "permanent": true },
+    { "source": "/publications.html", "destination": "/publications", "permanent": true },
+    { "source": "/tools.html", "destination": "/tools", "permanent": true },
+    { "source": "/lectures.html", "destination": "/lectures", "permanent": true },
+    { "source": "/news.html", "destination": "/news", "permanent": true },
+    { "source": "/join.html", "destination": "/join", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true },
+    { "source": "/alumni.html", "destination": "/alumni", "permanent": true },
+    { "source": "/karc.html", "destination": "/karc", "permanent": true },
+    { "source": "/team/:slug.html", "destination": "/team/:slug", "permanent": true }
+  ]
+}

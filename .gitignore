@@ -1,0 +1,22 @@
+.DS_Store
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# misc
+*.pem
+npm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
