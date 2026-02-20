@@ -58,6 +58,24 @@
     "type": "preprint"
   },
   {
+    "title": "Characterization of Human Anterior Neural Organoids as a Model for Investigating Cohen Syndrome",
+    "authors": "Prasad R, Lee JH, Lee DY, Lee YH, Lee J, Park SH, Ryu JR, Lee B, Choi S, Choi J, Cho IJ, An JY, Vacca F, Ansar M, Kim HJ, Kim M, Sun W",
+    "authors_full": "Prasad Renuka, Lee Ju-Hyun, Lee Da-Yeon, Lee Yeon-hee, Lee Jihae, Park Si-Hyung, Ryu Jae Ryun, Lee Boram, Choi Seungji, Choi Jungmin, Cho Il-Joo, An Joon-Yong, Vacca Fabrizio, Ansar Muhammad, Kim Hyun Jung, Kim Myungjin, Sun Woong",
+    "journal": "bioRxiv",
+    "year": 2025,
+    "date": "2025 Apr 24",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "10.1101/2025.04.23.650357",
+    "link": {
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.23.650357v1",
+      "display": "Prasad et al., (2025), bioRxiv"
+    },
+    "highlight": 0,
+    "type": "preprint"
+  },
+  {
     "title": "Angiopoietin-2 aggravates Alzheimer's disease by promoting blood-brain barrier dysfunction and neuroinflammation",
     "authors": "Lee E, Kim S, Zhu CL, Acquarone E, Kim S, Lo A, Omar OMF, Taddese M, Gradinaru V, Murphy PA, Agalliu D, Arancio O, An JY, Kim M",
     "authors_full": "Lee E, Kim S, Zhu CL, Acquarone E, Kim S, Lo A, Omar OMF, Taddese M, Gradinaru V, Murphy PA, Agalliu D, Arancio O, An JY, Kim M",
@@ -71,6 +89,24 @@
     "link": {
       "url": "",
       "display": "Lee et al., (2025), Cell Reports"
+    },
+    "highlight": 0,
+    "type": "article"
+  },
+  {
+    "title": "Genetic architecture of plasma pTau217 and related biomarkers in Alzheimer's disease via genome-wide association studies",
+    "authors": "Kim JP, Song M, Cho M, Lee H, Jung SH, Lim S, Kim C, Jang B, Shin D, Kang H, Yim S, Jang H, Kim BH, Kim HJ, Na DL, An JY, Zetterberg H, Blennow K, Gonzalez Ortiz F, Ashton NJ, Day TA, Seo SW, Won HH",
+    "authors_full": "Kim Jun Pyo, Song Minku, Cho Minyoung, Lee Hyunwoo, Jung Sang-Hyuk, Lim Soohyun, Kim Chanhee, Jang Beomjin, Shin Daeun, Kang Heekyung, Yim Sohyun, Jang Hyemin, Kim Bo-Hyun, Kim Hee Jin, Na Duk L., An Joon-Yong, Zetterberg Henrik, Blennow Kaj, Gonzalez Ortiz Fernando, Ashton Nicholas J., Day Theresa A., Seo Sang Won, Won Hong-Hee",
+    "journal": "Alzheimer's & Dementia",
+    "year": 2026,
+    "date": "2026",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "",
+    "link": {
+      "url": "",
+      "display": "Kim et al., (2026), Alzheimer's & Dementia"
     },
     "highlight": 0,
     "type": "article"
@@ -233,24 +269,6 @@
     "link": {
       "url": "",
       "display": "Kwon et al., (2025), medRxiv"
-    },
-    "highlight": 0,
-    "type": "preprint"
-  },
-  {
-    "title": "Characterization of human anterior neural organoids as a model for investigating Cohen syndrome",
-    "authors": "Prasad R, Lee JH, Lee DY, Lee Y, Lee J, Park SH, Ryu JR, Lee B, Choi S, Choi J, Cho IJ, An JY, Vacca F, Ansar M, Kim HJ, Kim M, Sun W",
-    "authors_full": "Prasad R, Lee JH, Lee DY, Lee Y, Lee J, Park SH, Ryu JR, Lee B, Choi S, Choi J, Cho IJ, An JY, Vacca F, Ansar M, Kim HJ, Kim M, Sun W",
-    "journal": "bioRxiv",
-    "year": 2025,
-    "date": "2025",
-    "vol": null,
-    "issue": null,
-    "page": "",
-    "doi": "",
-    "link": {
-      "url": "",
-      "display": "Prasad et al., (2025), bioRxiv"
     },
     "highlight": 0,
     "type": "preprint"
