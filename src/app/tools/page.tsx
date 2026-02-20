@@ -10,6 +10,15 @@ export const metadata: Metadata = {
 
 const TOOLS = [
   {
+    name: 'K-GeneBook',
+    description:
+      'An interactive resource for exploring ASD risk genes identified through whole-genome sequencing of Korean families, SSC, SPARK, and MSSNG cohorts.',
+    image: '/images/codepic/kgenebook.png',
+    links: [
+      { label: 'Website', url: 'https://joonan-lab.github.io/k_genebook/' },
+    ],
+  },
+  {
     name: 'Brain Transcriptome Single-cell (BTS) Atlas',
     description:
       'Anndata, Seurat object, and Celltypist model for the atlas. Plots for 3,380 neurological disorder risk genes expression profiles are available.',
