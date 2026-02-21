@@ -1,0 +1,11 @@
+{
+  "name": "Jongseo Park",
+  "position": "Undergraduate intern",
+  "photo": "blank.png",
+  "handle": "jongseopark",
+  "email": "",
+  "twitter": "",
+  "github": "",
+  "scholar": "",
+  "bio_html": "<p><span class=\"en-only\">Jongseo is an undergraduate researcher studying multi-omics foundation models with a focus on drug resistance in cancer. His research aims to leverage foundation models to integrate and analyze multi-omics data, ultimately contributing to a deeper understanding of the mechanisms underlying anticancer drug resistance.</span><span class=\"ko-only\">종서는 항암제 내성에 초점을 맞춘 멀티오믹스 파운데이션 모델을 연구하는 학부 연구생입니다. 파운데이션 모델을 활용하여 멀티오믹스 데이터를 통합 분석하고, 항암제 내성의 기전을 심층적으로 이해하는 것을 목표로 하고 있습니다.</span></p>\n<h3><span class=\"en-only\">Education &amp; Training</span><span class=\"ko-only\">학력</span></h3>\n<ul>\n<li><span class=\"en-only\">2020-present B.Sc. in Health and Environmental Sciences, Korea University</span><span class=\"ko-only\">2020-현재 학사, 고려대학교 보건환경융합과학부</span></li>\n</ul>"
+}

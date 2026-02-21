@@ -1,0 +1,11 @@
+{
+  "name": "Seojin Jeong",
+  "position": "Undergraduate intern",
+  "photo": "blank.png",
+  "handle": "seojinjeong",
+  "email": "",
+  "twitter": "",
+  "github": "",
+  "scholar": "",
+  "bio_html": "<p><span class=\"en-only\">Seojin is an undergraduate researcher studying single-cell foundation models. Her research focuses on developing and applying foundation model approaches to single-cell data analysis, aiming to advance our understanding of cellular heterogeneity and gene regulation.</span><span class=\"ko-only\">서진은 싱글셀 파운데이션 모델을 연구하는 학부 연구생입니다. 파운데이션 모델 기반 접근법을 개발하고 싱글셀 데이터 분석에 적용하여, 세포 이질성과 유전자 조절에 대한 이해를 발전시키는 것을 목표로 하고 있습니다.</span></p>\n<h3><span class=\"en-only\">Education &amp; Training</span><span class=\"ko-only\">학력</span></h3>\n<ul>\n<li><span class=\"en-only\">2020-present B.Sc. in Biosystem and Biomedical Sciences, Korea University</span><span class=\"ko-only\">2020-현재 학사, 고려대학교 바이오시스템의과학부</span></li>\n</ul>"
+}
