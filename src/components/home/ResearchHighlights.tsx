@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 const RESEARCH_AREAS = [
@@ -13,14 +14,7 @@ const RESEARCH_AREAS = [
       'LLM과 딥러닝을 활용하여 자폐 및 신경발달장애의 비암호화 조절 돌연변이를 연구합니다.',
     color: 'var(--accent)',
     icon: (
-      <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-        />
-      </svg>
+      <Image src="/images/brain-network.png" alt="Brain network" width={48} height={48} className="w-12 h-12" />
     ),
     // Bento: col-span-2 row-span-2, hero card
     gridClass: 'lg:col-span-4 lg:row-span-2',
@@ -37,14 +31,7 @@ const RESEARCH_AREAS = [
       '대규모 단일세포 RNA 시퀀싱 아틀라스와 AI 기반 가상 세포를 구축하여 위험 유전자를 발굴합니다.',
     color: 'var(--accent)',
     icon: (
-      <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
-        />
-      </svg>
+      <Image src="/images/virtual-cell.png" alt="Virtual cell" width={48} height={48} className="w-12 h-12" />
     ),
     gridClass: 'lg:col-span-3',
     isHero: false,
@@ -60,14 +47,7 @@ const RESEARCH_AREAS = [
       '롱리드 전장 유전체 시퀀싱과 동아시아 최대 규모 코호트를 활용하여 자폐 유전학을 연구합니다.',
     color: 'var(--accent-gold)',
     icon: (
-      <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
-        />
-      </svg>
+      <Image src="/images/genetics-autism.png" alt="Genetic architecture of autism" width={48} height={48} className="w-12 h-12" />
     ),
     gridClass: 'lg:col-span-3',
     isHero: false,
@@ -83,14 +63,7 @@ const RESEARCH_AREAS = [
       '유전체학, 전사체학, 단백질체학을 통합하는 시스템 접근법으로 복합 질환을 이해합니다.',
     color: 'var(--accent-gold)',
     icon: (
-      <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"
-        />
-      </svg>
+      <Image src="/images/multi-omics.png" alt="Integrative multi-omics" width={48} height={48} className="w-12 h-12" />
     ),
     gridClass: 'lg:col-span-6',
     isHero: false,
