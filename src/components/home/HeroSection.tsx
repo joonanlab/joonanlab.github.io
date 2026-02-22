@@ -10,22 +10,51 @@ export function HeroSection() {
       <div className="hero-gradient" />
       <HeroAnimation />
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 text-center">
-        <motion.h1
-          className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 tracking-tight"
+        <h1
+          className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 tracking-tight"
           style={{ color: 'var(--text-primary)' }}
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
         >
-          <span className="en-only">Genomics &amp; AI for Understanding Human Disease</span>
-          <span className="ko-only">AI와 유전체 기술을 활용한 인간 질환 연구</span>
-        </motion.h1>
+          <span className="en-only">
+            {'Welcome to An Lab'.split('').map((char, i) => (
+              <motion.span
+                key={i}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.05, delay: 0.3 + i * 0.04 }}
+              >
+                {char}
+              </motion.span>
+            ))}
+          </span>
+          <span className="ko-only">
+            {'An Lab에 오신 것을 환영합니다'.split('').map((char, i) => (
+              <motion.span
+                key={i}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.05, delay: 0.3 + i * 0.04 }}
+              >
+                {char}
+              </motion.span>
+            ))}
+          </span>
+        </h1>
         <motion.p
-          className="text-xl sm:text-2xl mb-10 max-w-3xl mx-auto"
+          className="text-xl sm:text-2xl mb-4 max-w-3xl mx-auto"
           style={{ color: 'var(--text-secondary)' }}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 1.2 }}
+        >
+          <span className="en-only">Genomics &amp; AI for Understanding Human Disorder</span>
+          <span className="ko-only">AI와 유전체 기술을 활용한 인간 질환 연구</span>
+        </motion.p>
+        <motion.p
+          className="text-lg sm:text-xl mb-10 max-w-3xl mx-auto"
+          style={{ color: 'var(--text-muted)' }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 1.5 }}
         >
           An Lab, Korea University
         </motion.p>

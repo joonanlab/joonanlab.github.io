@@ -10,6 +10,7 @@ export interface TeamMember {
   info: string
   url: string
   group: 0 | 1 | 2 | 3
+  tags?: string[]
 }
 
 export interface AlumniMember {

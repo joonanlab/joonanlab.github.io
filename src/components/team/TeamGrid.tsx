@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import type { TeamMember } from '@/lib/data'
 import { PICard } from './PICard'
@@ -12,19 +13,35 @@ const GROUP_LABELS: Record<number, { en: string; ko: string }> = {
   3: { en: 'Undergraduate Interns', ko: '학부 인턴' },
 }
 
+const GRAD_FILTERS = [
+  { key: 'all', en: 'All', ko: '전체' },
+  { key: 'phd', en: 'PhD Students', ko: '박사' },
+  { key: 'masters', en: 'Masters Students', ko: '석사' },
+]
+
 export function TeamGrid({ team }: { team: TeamMember[] }) {
+  const [gradFilter, setGradFilter] = useState('all')
   const groups = [0, 1, 2, 3].filter((g) => team.some((m) => m.group === g))
 
   return (
     <div className="space-y-12">
       {groups.map((group) => {
-        const members = team.filter((m) => m.group === group)
+        let members = team.filter((m) => m.group === group)
         const label = GROUP_LABELS[group]
+
+        // Filter graduate students by PhD/Masters
+        if (group === 1 && gradFilter !== 'all') {
+          members = members.filter((m) =>
+            gradFilter === 'phd'
+              ? m.info.startsWith('PhD')
+              : m.info.startsWith('Masters')
+          )
+        }
 
         return (
           <section key={group}>
             <motion.h2
-              className="text-2xl font-bold mb-6"
+              className="text-2xl font-bold mb-4"
               style={{ color: group % 2 === 0 ? 'var(--accent)' : 'var(--accent-gold)' }}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -34,6 +51,26 @@ export function TeamGrid({ team }: { team: TeamMember[] }) {
               <span className="en-only">{label.en}</span>
               <span className="ko-only">{label.ko}</span>
             </motion.h2>
+
+            {group === 1 && (
+              <div className="flex gap-2 mb-6">
+                {GRAD_FILTERS.map((f) => (
+                  <button
+                    key={f.key}
+                    onClick={() => setGradFilter(f.key)}
+                    className="px-4 py-1.5 text-sm font-medium rounded-full transition-all duration-200"
+                    style={{
+                      background: gradFilter === f.key ? 'var(--accent-gold)' : 'var(--bg-tertiary)',
+                      color: gradFilter === f.key ? '#fff' : 'var(--text-secondary)',
+                      border: `1px solid ${gradFilter === f.key ? 'var(--accent-gold)' : 'var(--border)'}`,
+                    }}
+                  >
+                    <span className="en-only">{f.en}</span>
+                    <span className="ko-only">{f.ko}</span>
+                  </button>
+                ))}
+              </div>
+            )}
 
             {group === 0 ? (
               <motion.div
@@ -56,7 +93,7 @@ export function TeamGrid({ team }: { team: TeamMember[] }) {
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: i * 0.05 }}
                   >
-                    <MemberCard member={m} />
+                    <MemberCard member={m} group={group} />
                   </motion.div>
                 ))}
               </div>

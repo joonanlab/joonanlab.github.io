@@ -14,7 +14,7 @@ const RESEARCH_AREAS = [
       'LLM과 딥러닝을 활용하여 자폐 및 신경발달장애의 비암호화 조절 돌연변이를 연구합니다.',
     color: 'var(--accent)',
     icon: (
-      <Image src="/images/brain-network.png" alt="Brain network" width={48} height={48} className="w-12 h-12" />
+      <Image src="/images/brain-network.png" alt="Brain network" width={48} height={48} className="w-12 h-12 research-icon" />
     ),
     // Bento: col-span-2 row-span-2, hero card
     gridClass: 'lg:col-span-4 lg:row-span-2',
@@ -31,7 +31,7 @@ const RESEARCH_AREAS = [
       '대규모 단일세포 RNA 시퀀싱 아틀라스와 AI 기반 가상 세포를 구축하여 위험 유전자를 발굴합니다.',
     color: 'var(--accent)',
     icon: (
-      <Image src="/images/virtual-cell.png" alt="Virtual cell" width={48} height={48} className="w-12 h-12" />
+      <Image src="/images/virtual-cell.png" alt="Virtual cell" width={48} height={48} className="w-12 h-12 research-icon" />
     ),
     gridClass: 'lg:col-span-3',
     isHero: false,
@@ -47,7 +47,7 @@ const RESEARCH_AREAS = [
       '롱리드 전장 유전체 시퀀싱과 동아시아 최대 규모 코호트를 활용하여 자폐 유전학을 연구합니다.',
     color: 'var(--accent-gold)',
     icon: (
-      <Image src="/images/genetics-autism.png" alt="Genetic architecture of autism" width={48} height={48} className="w-12 h-12" />
+      <Image src="/images/genetics-autism.png" alt="Genetic architecture of autism" width={48} height={48} className="w-12 h-12 research-icon" />
     ),
     gridClass: 'lg:col-span-3',
     isHero: false,
@@ -63,7 +63,7 @@ const RESEARCH_AREAS = [
       '유전체학, 전사체학, 단백질체학을 통합하는 시스템 접근법으로 복합 질환을 이해합니다.',
     color: 'var(--accent-gold)',
     icon: (
-      <Image src="/images/multi-omics.png" alt="Integrative multi-omics" width={48} height={48} className="w-12 h-12" />
+      <Image src="/images/multi-omics.png" alt="Integrative multi-omics" width={48} height={48} className="w-12 h-12 research-icon" />
     ),
     gridClass: 'lg:col-span-6',
     isHero: false,

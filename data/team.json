@@ -11,97 +11,109 @@
     "name": "Hyeji Lee",
     "name_ko": "이혜지",
     "photo": "hyejilee.jpg",
-    "info": "Graduate Student (NRF Fellow)",
+    "info": "PhD Student (NRF Fellow)",
     "url": "hyeji",
-    "group": 1
+    "group": 1,
+    "tags": ["WGS"]
   },
   {
     "name": "Ingyeong Koh",
     "name_ko": "고인경",
     "photo": "ingyeongkoh.jpg",
-    "info": "Graduate Student (NRF Fellow)",
+    "info": "PhD Student (NRF Fellow)",
     "url": "ingyeongkoh",
-    "group": 1
+    "group": 1,
+    "tags": ["AI"]
   },
   {
     "name": "Nahyun Kwon",
     "name_ko": "권나현",
     "photo": "nakwon.jpg",
-    "info": "Graduate Student",
+    "info": "Masters Student",
     "url": "nakwon",
-    "group": 1
+    "group": 1,
+    "tags": ["WGS"]
   },
   {
     "name": "Wooheon Kim",
     "name_ko": "김우헌",
     "photo": "alexkim.jpg",
-    "info": "Graduate Student",
+    "info": "Masters Student",
     "url": "alexkim",
-    "group": 1
+    "group": 1,
+    "tags": ["WGS"]
   },
   {
     "name": "Gaeun Byeon",
     "name_ko": "변가은",
     "photo": "gaeunb.jpg",
-    "info": "Graduate Student",
+    "info": "Masters Student",
     "url": "gaeunb",
-    "group": 1
+    "group": 1,
+    "tags": ["AI"]
   },
   {
     "name": "Chaewon Min",
     "name_ko": "민채원",
     "photo": "chaewon.jpg",
-    "info": "Graduate Student (CNRF Fellow)",
+    "info": "Masters Student (CNRF Fellow)",
     "url": "chaewon",
-    "group": 1
+    "group": 1,
+    "tags": ["WGS"]
   },
   {
     "name": "Yeojin Ryu",
     "name_ko": "류여진",
     "photo": "yeojin.jpg",
-    "info": "Graduate Student (CNRF Fellow)",
+    "info": "Masters Student (CNRF Fellow)",
     "url": "yeojin",
-    "group": 1
+    "group": 1,
+    "tags": ["AI"]
   },
   {
     "name": "Hyunjin Hong",
     "name_ko": "홍현진",
     "photo": "hyunjin.jpg",
-    "info": "Graduate Student",
+    "info": "Masters Student",
     "url": "hyunjin",
-    "group": 1
+    "group": 1,
+    "tags": ["WGS"]
   },
   {
     "name": "Dong Min Shin",
     "name_ko": "신동민",
     "photo": "dongmin.jpg",
-    "info": "Graduate Student",
+    "info": "PhD Student",
     "url": "dongmin",
-    "group": 1
+    "group": 1,
+    "tags": ["AI"]
   },
   {
     "name": "Kyeongho Yeom",
     "name_ko": "염경호",
     "photo": "kyeongho.jpg",
-    "info": "Graduate Student",
+    "info": "Masters Student",
     "url": "kyeongho",
-    "group": 1
+    "group": 1,
+    "tags": ["WGS"]
   },
   {
     "name": "Davin Lee",
     "name_ko": "이다빈",
     "photo": "dvlee.jpg",
-    "info": "Graduate Student",
+    "info": "Masters Student",
     "url": "dvlee",
-    "group": 1
+    "group": 1,
+    "tags": ["AI"]
   },
   {
     "name": "Haeun Jeong",
     "name_ko": "정하은",
     "photo": "haeun.png",
-    "info": "Graduate Student",
+    "info": "Masters Student",
     "url": "haeun",
-    "group": 1
+    "group": 1,
+    "tags": ["AI"]
   },
   {
     "name": "Youngseok Choi",
@@ -109,6 +121,22 @@
     "photo": "youngseok.jpg",
     "info": "Bioinformatician",
     "url": "youngseok",
+    "group": 2
+  },
+  {
+    "name": "Hyoju Park",
+    "name_ko": "박효주",
+    "photo": "blank.png",
+    "info": "Administrative Staff",
+    "url": "hyojupark",
+    "group": 2
+  },
+  {
+    "name": "Yonghee Zhang",
+    "name_ko": "장용희",
+    "photo": "blank.png",
+    "info": "Administrative Staff",
+    "url": "yongheezhang",
     "group": 2
   },
   {

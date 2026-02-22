@@ -5,11 +5,11 @@ export function PICard({ member }: { member: TeamMember }) {
   return (
     <Link
       href={`/team/${member.url}`}
-      className="card flex flex-col sm:flex-row items-center gap-6 group"
+      className="card flex flex-col sm:flex-row items-center gap-6 group transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg hover:shadow-black/10"
     >
       <div
-        className="w-32 h-32 rounded-full overflow-hidden shrink-0"
-        style={{ background: 'var(--bg-tertiary)' }}
+        className="w-32 h-32 rounded-full overflow-hidden shrink-0 transition-all duration-300 pi-photo-ring"
+        style={{ background: 'var(--bg-tertiary)', border: '2px solid transparent' }}
       >
         <img
           src={`/images/teampic/${member.photo}`}

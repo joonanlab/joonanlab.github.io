@@ -3,8 +3,14 @@ export function Badge({
   variant = 'accent',
 }: {
   children: React.ReactNode
-  variant?: 'accent' | 'gold'
+  variant?: 'accent' | 'gold' | 'blue' | 'green' | 'crimson'
 }) {
-  const cls = variant === 'gold' ? 'badge badge-gold' : 'badge badge-accent'
-  return <span className={cls}>{children}</span>
+  const clsMap = {
+    accent: 'badge badge-accent',
+    gold: 'badge badge-gold',
+    blue: 'badge badge-blue',
+    green: 'badge badge-green',
+    crimson: 'badge badge-crimson',
+  }
+  return <span className={clsMap[variant]}>{children}</span>
 }
