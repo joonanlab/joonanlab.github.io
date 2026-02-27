@@ -1,0 +1,11 @@
+{
+  "name": "Wooyeong Park",
+  "position": "Undergraduate Intern",
+  "photo": "wooyeongpark.jpg",
+  "handle": "wooyeongpark",
+  "email": "",
+  "twitter": "",
+  "github": "",
+  "scholar": "",
+  "bio_html": "<p><span class=\"en-only\">Wooyeong is an undergraduate researcher interested in understanding the genetic etiology of autism through the lens of gene regulation. His research focuses on leveraging whole-genome sequencing data and genome foundation models to investigate how non-coding variants influence gene regulatory mechanisms and contribute to autism risk. He is currently building expertise in long-read and short-read WGS data analysis, deep learning, and genome language models to support this research.</span><span class=\"ko-only\">우영은 유전자 조절의 관점에서 자폐증의 유전적 원인을 이해하는 데 관심을 가진 학부 연구생입니다. 그의 연구는 전장유전체 시퀀싱 데이터와 유전체 파운데이션 모델을 활용하여 비코딩 변이가 유전자 조절 기전에 미치는 영향과 자폐증 위험에 기여하는 방식을 규명하는 데 초점을 맞추고 있습니다. 현재 롱리드 및 숏리드 WGS 데이터 분석, 딥러닝, 유전체 언어 모델 분야의 전문성을 쌓고 있습니다.</span></p>\n<h3><span class=\"en-only\">Education &amp; Training</span><span class=\"ko-only\">학력</span></h3>\n<ul>\n<li><span class=\"en-only\">2021-present B.Sc. in Life Sciences, University of Seoul</span><span class=\"ko-only\">2021-현재 학사, 서울시립대학교 생명과학과</span></li>\n</ul>"
+}

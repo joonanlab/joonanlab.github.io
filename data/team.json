@@ -210,5 +210,13 @@
     "info": "Undergraduate intern",
     "url": "seojinjeong",
     "group": 3
+  },
+  {
+    "name": "Wooyeong Park",
+    "name_ko": "박우영",
+    "photo": "wooyeongpark.jpg",
+    "info": "Undergraduate intern",
+    "url": "wooyeongpark",
+    "group": 3
   }
 ]
