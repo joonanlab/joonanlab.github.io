@@ -190,7 +190,7 @@
   {
     "name": "Jongseo Park",
     "name_ko": "박종서",
-    "photo": "blank.png",
+    "photo": "jongseopark.jpg",
     "info": "Undergraduate intern",
     "url": "jongseopark",
     "group": 3
@@ -198,17 +198,17 @@
   {
     "name": "Hyeonha Kim",
     "name_ko": "김현하",
-    "photo": "blank.png",
+    "photo": "hyeonhakim.jpg",
     "info": "Undergraduate intern",
     "url": "hyeonhakim",
     "group": 3
   },
   {
-    "name": "Seojin Jeong",
+    "name": "Seojin Chung",
     "name_ko": "정서진",
-    "photo": "blank.png",
+    "photo": "seojinchung.jpg",
     "info": "Undergraduate intern",
-    "url": "seojinjeong",
+    "url": "seojinchung",
     "group": 3
   },
   {

@@ -15,7 +15,7 @@ export function HeroSection() {
           style={{ color: 'var(--text-primary)' }}
         >
           <span className="en-only">
-            {'Welcome to An Lab'.split('').map((char, i) => (
+            {'Welcome to AN Lab (AI for Nature)'.split('').map((char, i) => (
               <motion.span
                 key={i}
                 initial={{ opacity: 0 }}
@@ -27,7 +27,7 @@ export function HeroSection() {
             ))}
           </span>
           <span className="ko-only">
-            {'An Lab에 오신 것을 환영합니다'.split('').map((char, i) => (
+            {'AN Lab (AI for Nature)에 오신 것을 환영합니다'.split('').map((char, i) => (
               <motion.span
                 key={i}
                 initial={{ opacity: 0 }}
@@ -46,8 +46,8 @@ export function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1.2 }}
         >
-          <span className="en-only">Genomics &amp; AI for Understanding Human Disorder</span>
-          <span className="ko-only">AI와 유전체 기술을 활용한 인간 질환 연구</span>
+          <span className="en-only">Inspired by Biology, Driven by AI</span>
+          <span className="ko-only">생물학에서 영감을, AI로 실현을</span>
         </motion.p>
         <motion.p
           className="text-lg sm:text-xl mb-10 max-w-3xl mx-auto"
