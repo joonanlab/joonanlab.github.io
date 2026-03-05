@@ -72,19 +72,7 @@ export function TeamGrid({ team }: { team: TeamMember[] }) {
               </div>
             )}
 
-            {group === 0 ? (
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
-              >
-                {members.map((m) => (
-                  <PICard key={m.url} member={m} />
-                ))}
-              </motion.div>
-            ) : (
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            <div className={`grid gap-5 ${group === 0 ? 'grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4' : 'grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5'}`}>
                 {members.map((m, i) => (
                   <motion.div
                     key={m.url}
@@ -93,11 +81,14 @@ export function TeamGrid({ team }: { team: TeamMember[] }) {
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: i * 0.05 }}
                   >
-                    <MemberCard member={m} group={group} />
+                    {group === 0 ? (
+                      <PICard member={m} />
+                    ) : (
+                      <MemberCard member={m} group={group} />
+                    )}
                   </motion.div>
                 ))}
               </div>
-            )}
           </section>
         )
       })}

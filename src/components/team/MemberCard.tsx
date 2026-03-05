@@ -17,49 +17,53 @@ const TAG_VARIANTS: Record<string, 'accent' | 'gold' | 'blue' | 'green' | 'crims
 }
 
 export function MemberCard({ member, group }: { member: TeamMember; group?: number }) {
-  const ringClass = group !== undefined && group % 2 === 0 ? 'member-photo-ring-accent' : 'member-photo-ring';
   const badges = parseBadges(member.info)
+  const accentColor = group !== undefined && group % 2 === 0 ? 'var(--accent)' : 'var(--accent-gold)'
 
   return (
-    <Link href={`/team/${member.url}`} className="card block text-center group h-full transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg hover:shadow-black/10" style={{ position: 'relative', overflow: 'hidden' }}>
-      <div
-        className={`w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden transition-all duration-300 ${ringClass}`}
-        style={{
-          background: 'var(--bg-tertiary)',
-          border: '2px solid transparent',
-        }}
-      >
+    <Link
+      href={`/team/${member.url}`}
+      className="tc-card group block h-full"
+    >
+      {/* Photo area */}
+      <div className="tc-card-image">
         <img
           src={`/images/teampic/${member.photo}`}
           alt={member.name}
-          className="w-full h-full object-cover"
+          className="tc-card-img"
           loading="lazy"
         />
+        <div className="tc-card-image-overlay" />
       </div>
-      <h3
-        className="font-semibold text-base group-hover:opacity-80 transition-opacity"
-        style={{ color: 'var(--text-primary)' }}
-      >
-        <span className="en-only">{member.name}</span>
-        <span className="ko-only">{member.name_ko}</span>
-      </h3>
-      <p className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>
-        {member.info.replace(/\s*\(.*\)/, '')}
-      </p>
-      {(badges.length > 0 || (member.tags && member.tags.length > 0)) && (
-        <div className="flex flex-wrap gap-1 justify-center mt-2">
-          {badges.map((b) => (
-            <Badge key={b.label} variant={b.variant}>
-              {b.label}
-            </Badge>
-          ))}
-          {member.tags?.map((tag) => (
-            <Badge key={tag} variant={TAG_VARIANTS[tag] || 'blue'}>
-              {tag}
-            </Badge>
-          ))}
-        </div>
-      )}
+
+      {/* Info area */}
+      <div className="tc-card-info">
+        <h3 className="tc-card-name">
+          <span className="en-only">{member.name}</span>
+          <span className="ko-only">{member.name_ko}</span>
+        </h3>
+        <div
+          className="tc-card-divider"
+          style={{ background: accentColor }}
+        />
+        <p className="tc-card-role">
+          {member.info.replace(/\s*\(.*\)/, '')}
+        </p>
+        {(badges.length > 0 || (member.tags && member.tags.length > 0)) && (
+          <div className="flex flex-wrap gap-1 justify-center mt-1.5">
+            {badges.map((b) => (
+              <Badge key={b.label} variant={b.variant}>
+                {b.label}
+              </Badge>
+            ))}
+            {member.tags?.map((tag) => (
+              <Badge key={tag} variant={TAG_VARIANTS[tag] || 'blue'}>
+                {tag}
+              </Badge>
+            ))}
+          </div>
+        )}
+      </div>
     </Link>
   )
 }
