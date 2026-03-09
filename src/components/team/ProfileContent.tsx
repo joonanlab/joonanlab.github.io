@@ -259,7 +259,7 @@ function splitBioHtml(bioHtml: string) {
 }
 
 function classifyPub(html: string): 'first' | 'co' {
-  // First author: <strong> at start, or ✻ right after name in <strong>
+  // First author: <strong> at start, or ⁎ right after name in <strong>
   if (/^\s*<strong[\s>]/i.test(html) || /<strong[^>]*>[^<]*\u273B/i.test(html)) return 'first'
   return 'co'
 }
