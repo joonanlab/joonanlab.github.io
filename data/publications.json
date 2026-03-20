@@ -15,7 +15,8 @@
       "display": "Ji et al., Communications Biology"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Genetic scoring approaches to resolve clinical heterogeneity in psychiatric disorders",
@@ -33,7 +34,8 @@
       "display": "Kim et al., Current Opinion in Genetics and Development, In Press"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Co-occurrence of rare variants implicates gene pairs in cytoskeletal pathways and is associated with increased severity in autism spectrum disorder",
@@ -51,7 +53,8 @@
       "display": "Lee et al., Genome Biology, Accepted"
     },
     "highlight": 1,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Angiopoietin-2 aggravates Alzheimer's disease by promoting blood-brain barrier dysfunction and neuroinflammation",
@@ -69,7 +72,8 @@
       "display": "Lee et al., (2025), Cell Reports"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Genetic architecture of plasma pTau217 and related biomarkers in Alzheimer's disease via genome-wide association studies",
@@ -87,7 +91,8 @@
       "display": "Kim et al., (2026), Alzheimer's & Dementia"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Bazedoxifene rescues sexually dimorphic autistic-like abnormalities in mice carrying a biallelic MDGA1 mutation",
@@ -105,7 +110,8 @@
       "display": "Kim et al., EMBO Molecular Medicine, In Press"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Evaluation of familial phenotype deviation to measure the impact of de novo mutations in autism",
@@ -125,7 +131,8 @@
       "display_full": "Kim et al., (2025), Evaluation of familial phenotype deviation to measure the impact of de novo mutations in autism., Genome Medicine"
     },
     "highlight": 1,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Whole-genome sequencing analyses suggest novel genetic factors associated with Alzheimer's disease and a cumulative effects model for risk liability",
@@ -145,7 +152,8 @@
       "display_full": "Kim et al., (2025), Whole-genome sequencing analyses suggest novel genetic factors associated with Alzheimer's disease and a cumulative effects model for risk liability., Nature Communications"
     },
     "highlight": 1,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "AGO1 in neural progenitor cells orchestrates brain development and sociability via LIN28A-REELIN axis",
@@ -163,7 +171,8 @@
       "display": "Do et al., (2025), bioRxiv"
     },
     "highlight": 0,
-    "type": "preprint"
+    "type": "preprint",
+    "corresponding": 0
   },
   {
     "title": "Characterization of Human Anterior Neural Organoids as a Model for Investigating Cohen Syndrome",
@@ -181,7 +190,8 @@
       "display": "Prasad et al., (2025), bioRxiv"
     },
     "highlight": 0,
-    "type": "preprint"
+    "type": "preprint",
+    "corresponding": 0
   },
   {
     "title": "Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability",
@@ -199,7 +209,8 @@
       "display": "Song et al., (2025), Journal of Proteome Research"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Advancing precision diagnosis in autism: Insights from large-scale genomic studies",
@@ -217,7 +228,8 @@
       "display": "Kim & An, (2025), Molecules and Cells"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Peripheral Substance P induces deficits in hippocampal synaptic plasticity and memory",
@@ -235,7 +247,8 @@
       "display": "Kim et al., (2025), Molecular Brain"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Proteogenomic Analysis on RNA m6A Modification-Associated Genes Identifies a Distinct Subgroup with High IGF2BPs Expression Across Cancer Types",
@@ -253,7 +266,8 @@
       "display": "Ryu et al., (2025), International Journal of Medical Sciences"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "CD99-mediated immunological synapse formation potentiates CAR-T cell function",
@@ -271,7 +285,8 @@
       "display": "Nam et al., (2025), Nature Communications"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Dysregulated RNA Binding Proteins and Alternative Splicing: Emerging Roles in Autism Spectrum Disorder",
@@ -289,7 +304,8 @@
       "display": "Jeong et al., (2025), Molecules and Cells"
     },
     "highlight": 0,
-    "type": "review"
+    "type": "review",
+    "corresponding": 0
   },
   {
     "title": "Establishment of in silico prediction of adjuvant chemotherapy response from active mitotic gene signature in non-small cell lung cancer",
@@ -307,7 +323,8 @@
       "display": "Kwon et al., (2025), medRxiv"
     },
     "highlight": 0,
-    "type": "preprint"
+    "type": "preprint",
+    "corresponding": 0
   },
   {
     "title": "Lessons from national biobank projects utilizing whole-genome sequencing for population-scale genomics",
@@ -325,7 +342,8 @@
       "display": "Lee et al., (2025), Genomics & Informatics"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Aberrant ERK signaling in astrocytes impairs learning and memory in RASopathy-associated BRAF mutant mouse models",
@@ -343,7 +361,8 @@
       "display": "Kang et al., (2025), Journal of Clinical Investigation"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Uncovering Potential Causal Genes for Undiagnosed Congenital Anomalies Using an In-House Pipeline for Trio-Based Whole-Genome Sequencing",
@@ -361,7 +380,8 @@
       "display": "Kim et al., (2025), Human Genomics"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism.",
@@ -381,7 +401,8 @@
       "display_full": "Kim et al., (2024), Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism., Genome Medicine"
     },
     "highlight": 1,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Proteogenomic analysis reveals non-small cell lung cancer subtypes predicting chromosome instability, and tumor microenvironment.",
@@ -401,7 +422,8 @@
       "display_full": "Song et al., (2024), Proteogenomic analysis reveals non-small cell lung cancer subtypes predicting chromosome instability, and tumor microenvironment., Nature Communications"
     },
     "highlight": 1,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Genomic patterns in the schizophrenia brain",
@@ -419,7 +441,8 @@
       "display": "An & Kim, (2024), Science"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data.",
@@ -439,7 +462,8 @@
       "display_full": "Kim et al., (2024), Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data., Briefings in Bioinformatics"
     },
     "highlight": 1,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes.",
@@ -459,7 +483,8 @@
       "display_full": "Darbandi et al., (2024), Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes., Cell Reports"
     },
     "highlight": 1,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "RNA N6-methyladenosine-binding protein YTHDFs redundantly attenuate cancer immunity by downregulating IFN-γ signaling in gastric cancer",
@@ -477,7 +502,8 @@
       "display": "Jang et al., (2024), Advanced Science"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Pan-cancer proteogenomic landscape of whole-genome doubling reveals putative therapeutic targets in various cancer types",
@@ -495,7 +521,8 @@
       "display": "Chang et al., (2024), Clinical and Translational Medicine"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development.",
@@ -515,7 +542,8 @@
       "display_full": "Kim et al., (2024), An integrative single-cell atlas to explore the cellular and temporal specificity of neurological disorder genes during human brain development., Experimental & Molecular Medicine"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder.",
@@ -535,7 +563,8 @@
       "display_full": "Kim et al., (2024), Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder., Psychiatry and Clinical Neurosciences."
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Multiomics in cancer biomarker discovery and cancer subtyping",
@@ -553,7 +582,8 @@
       "display": "Choi & An, (2025), Advances in Clinical Chemistry"
     },
     "highlight": 0,
-    "type": "review"
+    "type": "review",
+    "corresponding": 1
   },
   {
     "title": "Chronic ultraviolet irradiation induces memory deficits via dysregulation of the dopamine pathway",
@@ -571,7 +601,8 @@
       "display": "Yoon et al., (2024), Experimental and Molecular Medicine"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Sex-differential gene expression in developing human cortex and its intersection with autism risk pathways",
@@ -589,7 +620,8 @@
       "display": "Kissel et al., (2024), Biological Psychiatry Global Open Science"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Whole-genome doubling is a double-edged sword, the heterogeneous role of whole-genome doubling in various cancer types.",
@@ -609,7 +641,8 @@
       "display_full": "Chang E, An JY, (2024), Whole-genome doubling is a double-edged sword, the heterogeneous role of whole-genome doubling in various cancer types., BMB Reports, 57, (3), 125-134."
     },
     "highlight": 0,
-    "type": "review"
+    "type": "review",
+    "corresponding": 1
   },
   {
     "title": "A Cre-dependent massively parallel reporter assay allows for cell-type specific assessment of the functional effects of non-coding elements in vivo",
@@ -627,7 +660,8 @@
       "display": "Lagunas et al., (2023), Communications Biology"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Systematic evaluation of genome sequencing for the assessment of fetal structural anomalies",
@@ -645,7 +679,8 @@
       "display": "Lowther et al., (2023), The American Journal of Human Genetics"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Angiopoietin-2-dependent spatial vascular destabilization promotes T-cell exclusion and limits immunotherapy in melanoma",
@@ -663,7 +698,8 @@
       "display": "Park et al., (2023), Cancer Research"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder",
@@ -681,7 +717,8 @@
       "display": "Park et al., (2023), Experimental and Molecular Medicine"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Cntnap2-dependent molecular networks in autism spectrum disorder revealed through an integrative multi-omics analysis.",
@@ -701,7 +738,8 @@
       "display_full": "Jang WE, Park JH, Park G, Bang G, Na CH, Kim JY, Kim KY, Kim KP, Shin CY, An JY, Lee YS, Kim MS, (2023), Cntnap2-dependent molecular networks in autism spectrum disorder revealed through an integrative multi-omics analysis., Molecular Psychiatry"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Characterization of De Novo Promoter Variants in Autism Spectrum Disorder with Massively Parallel Reporter Assays",
@@ -719,7 +757,8 @@
       "display": "Koesterich et al., (2023), International Journal of Molecular Sciences"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus.",
@@ -739,7 +778,8 @@
       "display_full": "Yoon KN, Kim Y, Cui Y, Ji J, Park G, Chung JH, Lee YS, An JY, Lee DH, (2022), Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus., Molecular Brain"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Rare coding variation provides insight into the genetic architecture and phenotypic context of autism",
@@ -757,7 +797,8 @@
       "display": "Fu et al., (2022), Nature Genetics"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Non-coding de novo mutations in chromatin interactions are implicated in autism spectrum disorder.",
@@ -777,7 +818,8 @@
       "display_full": "Kim IB, Lee T, Lee J, Kim J, Lee S, Koh IG, Kim JH, An JY, Lee H, Kim WK, Ju YS, Cho Y, Yu SJ, Kim SA, Oh M, Han DW, Kim E, Choi JK, Yoo HJ, Lee JH, (2022), Non-coding de novo mutations in chromatin interactions are implicated in autism spectrum disorder., Molecular Psychiatry"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Infantile esotropia in a family with TUBB3 mutation associated congenital fibrosis of extraocular muscles.",
@@ -797,7 +839,8 @@
       "display_full": "Jang Y, Kwak E, An JY, Jung JH, (2022), Infantile esotropia in a family with TUBB3 mutation associated congenital fibrosis of extraocular muscles., Ophthalmic Genetics"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Risk Variants Could Inform Early Neurodevelopmental Outcome in Children with Developmental Disabilities.",
@@ -817,7 +860,8 @@
       "display_full": "Lee T, Lee H, Kim S, Park KJ, An JY, Kim HW, (2022), Risk Variants Could Inform Early Neurodevelopmental Outcome in Children with Developmental Disabilities., Journal of Autism and Developmental Disorders"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Augmentation of the RNA m6A reader signature is associated with poor survival by enhancing cell proliferation and EMT across cancer types.",
@@ -837,7 +881,8 @@
       "display_full": "Oh J, Hwa C, Jang D, Shin S, Lee SJ, Kim J, Lee SE, Jung HR, Oh Y, Jang G, Kwon O, An JY, Cho SY, (2022), Augmentation of the RNA m6A reader signature is associated with poor survival by enhancing cell proliferation and EMT across cancer types., Experimental & Molecular Medicine"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "High-throughput characterization of the role of non-B DNA motifs on promoter function.",
@@ -857,7 +902,8 @@
       "display_full": "Georgakopoulos-Soares I, Victorino J, Parada GE, Agarwal V, Zhao J, Wong HY, Umar MI, Elor O, Muhwezi A, An JY, Sanders SJ, Kwok CK, Inoue F, Hemberg M, Ahituv N, (2022), High-throughput characterization of the role of non-B DNA motifs on promoter function., Cell Genomics"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Genetic architecture of autism spectrum disorder - Lessons from large-scale genomic studies.",
@@ -877,7 +923,8 @@
       "display_full": "Choi L, An JY, (2021), Genetic architecture of autism spectrum disorder - Lessons from large-scale genomic studies., Neuroscience and Biobehavioral Reviews, 128, 244-257"
     },
     "highlight": 0,
-    "type": "review"
+    "type": "review",
+    "corresponding": 1
   },
   {
     "title": "Developmental dynamics of voltage-gated sodium channel isoform expression in the human and mouse brain.",
@@ -897,7 +944,8 @@
       "display_full": "Liang L, Fazel Darbandi S, Pochareddy S, Gulden FO, Gilson MC, Sheppard BK, Sahagun A, An JY, Werling DM, Rubenstein JLR, Sestan N, Bender KJ, Sanders SJ, (2021), Developmental dynamics of voltage-gated sodium channel isoform expression in the human and mouse brain., Genome Medicine"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Integrative Multi-Omics Approaches in Cancer Research - From Biological Networks to Clinical Subtypes.",
@@ -917,7 +965,8 @@
       "display_full": "Heo YJ, Hwa C, Lee GH, Park JM, An JY, (2021), Integrative Multi-Omics Approaches in Cancer Research - From Biological Networks to Clinical Subtypes., Molecules and Cells"
     },
     "highlight": 0,
-    "type": "review"
+    "type": "review",
+    "corresponding": 1
   },
   {
     "title": "Kdm3b haploinsufficiency impairs the consolidation of cerebellum-dependent motor memory in mice.",
@@ -937,7 +986,8 @@
       "display_full": "Kim YG, Bak MS, Kim A, Kim Y, Chae YC, Kim YL, Chun YS, An JY, Seo SB, Kim SJ, Lee YS, (2021), Kdm3b haploinsufficiency impairs the consolidation of cerebellum-dependent motor memory in mice., Molecular Brain"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "ANO1 regulates the maintenance of stemness in glioblastoma stem cells by stabilizing EGFRvIII.",
@@ -957,7 +1007,8 @@
       "display_full": "Kim HJ, Kim JY, Jung CW, Lee YS, An JY, Kim EH, Kim KH, Lee SP, Park JY, Park MJ, (2021), ANO1 regulates the maintenance of stemness in glioblastoma stem cells by stabilizing EGFRvIII., Oncogene"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "CRISPR screens identify a novel combination treatment targeting BCL-XL and WNT signaling for KRAS/BRAF-mutated colorectal cancers.",
@@ -977,7 +1028,8 @@
       "display_full": "Jung HR, Oh Y, Na D, Min S, Kang J, Jang D, Shin S, Kim J, Lee SE, Jeong EM, An JY, Sung CO, Lee WS, Lee C, Cho SY, (2021), CRISPR screens identify a novel combination treatment targeting BCL-XL and WNT signaling for KRAS/BRAF-mutated colorectal cancers., Oncogene"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Identification of Possible Risk Variants of Familial Strabismus Using Exome Sequencing Analysis.",
@@ -997,7 +1049,8 @@
       "display_full": "An JY, Jung JH, Choi L, Wieben ED, Mohney BG, (2021), Identification of Possible Risk Variants of Familial Strabismus Using Exome Sequencing Analysis., Genes"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System.",
@@ -1017,7 +1070,8 @@
       "display_full": "Kim SW, Kim Y, Kim SE, An JY, (2021), Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System., Biology"
     },
     "highlight": 0,
-    "type": "review"
+    "type": "review",
+    "corresponding": 1
   },
   {
     "title": "Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism.",
@@ -1037,7 +1091,8 @@
       "display_full": "Satterstrom FK, Kosmicki JA, Wang J, Breen MS, De Rubeis S, An JY, ..., Sanders SJ, Roeder K, Daly MJ, Buxbaum JD, (2020), Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism., Cell"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Homeostatic plasticity fails at the intersection of autism-gene mutations and a novel class of common genetic modifiers.",
@@ -1057,7 +1112,8 @@
       "display_full": "Genc O, An JY, Fetter RD, Kulik Y, Zunino G, Sanders SJ, Davis GW, (2020), Homeostatic plasticity fails at the intersection of autism-gene mutations and a novel class of common genetic modifiers., eLife"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Spatio-Temporal Roles of ASD-Associated Variants in Human Brain Development.",
@@ -1077,7 +1133,8 @@
       "display_full": "Kim Y, An JY, (2020), Spatio-Temporal Roles of ASD-Associated Variants in Human Brain Development., Genes"
     },
     "highlight": 0,
-    "type": "review"
+    "type": "review",
+    "corresponding": 1
   },
   {
     "title": "Whole-Genome and RNA Sequencing Reveal Variation and Transcriptomic Coordination in the Developing Human Prefrontal Cortex.",
@@ -1097,7 +1154,8 @@
       "display_full": "Werling DM, Pochareddy S, Choi J, An JY, ..., Sanders SJ, Sestan N, (2020), Whole-Genome and RNA Sequencing Reveal Variation and Transcriptomic Coordination in the Developing Human Prefrontal Cortex., Cell Reports"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "An integrative analysis of non-coding regulatory DNA variations associated with autism spectrum disorder.",
@@ -1117,7 +1175,8 @@
       "display_full": "Williams SM, An JY, Edson J, Watts M, Murigneux V, Whitehouse AJO, Jackson CJ, Bellgrove MA, Cristino AS, Claudianos C, (2019), An integrative analysis of non-coding regulatory DNA variations associated with autism spectrum disorder., Molecular Psychiatry"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Recessive gene disruptions in autism spectrum disorder",
@@ -1135,7 +1194,8 @@
       "display": "Doan et al., (2019), Nature Genetics"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder.",
@@ -1155,7 +1215,8 @@
       "display_full": "An JY, Lin K, Zhu L, Werling DM, Dong S, Brand H, ..., Sanders SJ, (2018), Genome-wide de novo risk score implicates promoter variation in autism spectrum disorder., Science"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Comprehensive functional genomic resource and integrative model for the human brain.",
@@ -1175,7 +1236,8 @@
       "display_full": "Wang D, Liu S, Warrell J, ..., PSYCHENCODE CONSORTIUM (including An JY), ..., Gerstein MB, (2018), Comprehensive functional genomic resource and integrative model for the human brain., Science"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder.",
@@ -1195,7 +1257,8 @@
       "display_full": "Werling DM, Brand H, An JY, ..., Sanders SJ, (2018), An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder., Nature Genetics"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Whole genome sequencing in psychiatric disorders: the WGSPD consortium",
@@ -1213,7 +1276,8 @@
       "display": "Sanders et al., (2017), Nature Neuroscience"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Opposing Effects on NaV1.2 Function Underlie Differences Between SCN2A Variants Observed in Individuals With Autism Spectrum Disorder or Infantile Seizures.",
@@ -1233,7 +1297,8 @@
       "display_full": "Ben-Shalom R, Keeshen CM, Berrios KN, An JY, Sanders SJ, Bender KJ, (2017), Opposing Effects on NaV1.2 Function Underlie Differences Between SCN2A Variants Observed in Individuals With Autism Spectrum Disorder or Infantile Seizures., Biological Psychiatry"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Appreciating the Population-wide Impact of Copy Number Variants on Cognition.",
@@ -1253,7 +1318,8 @@
       "display_full": "An JY, Sanders SJ, (2017), Appreciating the Population-wide Impact of Copy Number Variants on Cognition., Biological Psychiatry"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Defining the spectrum of large inversions, complex structural variation, and chromothripsis in the morbid genome.",
@@ -1273,7 +1339,8 @@
       "display_full": "Collins RL, Brand H, Redin CE, ..., An JY, ..., Talkowski ME, (2017), Defining the spectrum of large inversions, complex structural variation, and chromothripsis in the morbid genome., Genome Biology"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "National human genome projects - an update and an agenda.",
@@ -1293,7 +1360,8 @@
       "display_full": "An JY, (2017), National human genome projects - an update and an agenda., Epidemiology and Health"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 1
   },
   {
     "title": "Genetic heterogeneity in autism - From single gene to a pathway perspective.",
@@ -1313,7 +1381,8 @@
       "display_full": "An JY, Claudianos C, (2016), Genetic heterogeneity in autism - From single gene to a pathway perspective., Neuroscience and Biobehavioral Reviews"
     },
     "highlight": 0,
-    "type": "review"
+    "type": "review",
+    "corresponding": 0
   },
   {
     "title": "Towards a molecular characterization of autism spectrum disorders - an exome sequencing and systems approach.",
@@ -1333,7 +1402,8 @@
       "display_full": "An JY, Cristino AS, Zhao Q, Edson J, Williams SM, Ravine D, Wray J, Marshall VM, Hunt A, Whitehouse AJ, Claudianos C, (2014), Towards a molecular characterization of autism spectrum disorders - an exome sequencing and systems approach., Translational Psychiatry"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   },
   {
     "title": "Neurodevelopmental and neuropsychiatric disorders represent an interconnected molecular system.",
@@ -1353,6 +1423,7 @@
       "display_full": "Cristino AS, Williams SM, Hawi Z, An JY, Bellgrove MA, Schwartz CE, Costa Lda F, Claudianos C, (2014), Neurodevelopmental and neuropsychiatric disorders represent an interconnected molecular system., Molecular Psychiatry"
     },
     "highlight": 0,
-    "type": "article"
+    "type": "article",
+    "corresponding": 0
   }
 ]

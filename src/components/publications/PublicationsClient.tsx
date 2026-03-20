@@ -10,6 +10,7 @@ export function PublicationsClient({ publications }: { publications: Publication
   const [yearFilter, setYearFilter] = useState<number | null>(null)
   const [typeFilter, setTypeFilter] = useState<string | null>(null)
   const [highlightOnly, setHighlightOnly] = useState(false)
+  const [correspondingOnly, setCorrespondingOnly] = useState(false)
   const [openBibtex, setOpenBibtex] = useState<number | null>(null)
   const [copiedIdx, setCopiedIdx] = useState<number | null>(null)
 
@@ -28,6 +29,7 @@ export function PublicationsClient({ publications }: { publications: Publication
       if (yearFilter && p.year !== yearFilter) return false
       if (typeFilter && p.type !== typeFilter) return false
       if (highlightOnly && p.highlight !== 1) return false
+      if (correspondingOnly && p.corresponding !== 1) return false
       if (search) {
         const q = search.toLowerCase()
         return (
@@ -38,7 +40,7 @@ export function PublicationsClient({ publications }: { publications: Publication
       }
       return true
     })
-  }, [publications, search, yearFilter, typeFilter, highlightOnly])
+  }, [publications, search, yearFilter, typeFilter, highlightOnly, correspondingOnly])
 
   const handleCopy = async (idx: number, pub: Publication) => {
     const bibtex = generateBibtex(pub)
@@ -73,6 +75,13 @@ export function PublicationsClient({ publications }: { publications: Publication
         >
           <span className="en-only">Highlighted</span>
           <span className="ko-only">주요 논문</span>
+        </button>
+        <button
+          onClick={() => setCorrespondingOnly(!correspondingOnly)}
+          className={`pill ${correspondingOnly ? 'active' : ''}`}
+        >
+          <span className="en-only">Corresponding</span>
+          <span className="ko-only">교신저자</span>
         </button>
         {types.map((t) => (
           <button
