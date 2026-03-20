@@ -1,5 +1,23 @@
 [
   {
+    "title": "Region- and cell type-specific changes in gene expression in the cerebellum after classical fear conditioning",
+    "authors": "Ji J, Baek J, Hwang KD, Choi S, Kasuya J, Abel T, An JY, Lee YS",
+    "authors_full": "Ji J, Baek J, Hwang KD, Choi S, Kasuya J, Abel T, An JY, Lee YS",
+    "journal": "Communications Biology",
+    "year": 2026,
+    "date": "2026",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "",
+    "link": {
+      "url": "",
+      "display": "Ji et al., Communications Biology"
+    },
+    "highlight": 0,
+    "type": "article"
+  },
+  {
     "title": "Genetic scoring approaches to resolve clinical heterogeneity in psychiatric disorders",
     "authors": "Kim SW, Kim Y, Kim IB, An JY",
     "authors_full": "Kim Soo-Whee, Kim Yujin, Kim Il Bin, An Joon-Yong",
@@ -33,6 +51,60 @@
       "display": "Lee et al., Genome Biology, Accepted"
     },
     "highlight": 1,
+    "type": "article"
+  },
+  {
+    "title": "Angiopoietin-2 aggravates Alzheimer's disease by promoting blood-brain barrier dysfunction and neuroinflammation",
+    "authors": "Lee E, Kim S, Zhu CL, Acquarone E, Kim S, Lo A, Omar OMF, Taddese M, Gradinaru V, Murphy PA, Agalliu D, Arancio O, An JY, Kim M",
+    "authors_full": "Lee E, Kim S, Zhu CL, Acquarone E, Kim S, Lo A, Omar OMF, Taddese M, Gradinaru V, Murphy PA, Agalliu D, Arancio O, An JY, Kim M",
+    "journal": "Cell Reports",
+    "year": 2026,
+    "date": "2026",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "",
+    "link": {
+      "url": "",
+      "display": "Lee et al., (2025), Cell Reports"
+    },
+    "highlight": 0,
+    "type": "article"
+  },
+  {
+    "title": "Genetic architecture of plasma pTau217 and related biomarkers in Alzheimer's disease via genome-wide association studies",
+    "authors": "Kim JP, Song M, Cho M, Lee H, Jung SH, Lim S, Kim C, Jang B, Shin D, Kang H, Yim S, Jang H, Kim BH, Kim HJ, Na DL, An JY, Zetterberg H, Blennow K, Gonzalez Ortiz F, Ashton NJ, Day TA, Seo SW, Won HH",
+    "authors_full": "Kim Jun Pyo, Song Minku, Cho Minyoung, Lee Hyunwoo, Jung Sang-Hyuk, Lim Soohyun, Kim Chanhee, Jang Beomjin, Shin Daeun, Kang Heekyung, Yim Sohyun, Jang Hyemin, Kim Bo-Hyun, Kim Hee Jin, Na Duk L., An Joon-Yong, Zetterberg Henrik, Blennow Kaj, Gonzalez Ortiz Fernando, Ashton Nicholas J., Day Theresa A., Seo Sang Won, Won Hong-Hee",
+    "journal": "Alzheimer's & Dementia",
+    "year": 2026,
+    "date": "2026",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "",
+    "link": {
+      "url": "",
+      "display": "Kim et al., (2026), Alzheimer's & Dementia"
+    },
+    "highlight": 0,
+    "type": "article"
+  },
+  {
+    "title": "Bazedoxifene rescues sexually dimorphic autistic-like abnormalities in mice carrying a biallelic MDGA1 mutation",
+    "authors": "Kim S, Kim H, Pelayo J, Alvarez S, Jang G, Kim J, Kim B, Hoelscher V, Calleja-Pérez B, Jung H, Yang Y, Lee HJ, Lee J, Kim S, Jimenez de la Peña M, Lee Y, Kim S, Han A, Lee DS, Ji S, Yu W, Kim HM, An JY, Oh WC, Kwon S-K, Kim JY, Um JW, Fernández-Jaén A, Ko J",
+    "authors_full": "Kim Seungjoon, Kim Hyeonho, Porta Pelayo Javier, Alvarez Sara, Jang Gyubin, Kim Jinhu, Kim Byeongchan, Hoelscher Victoria M, Calleja-Pérez Beatriz, Jung Hyunsu, Yang Yeji, Lee Hea Ji, Lee Jihae, Kim Seoyeon, Jimenez de la Peña Mar, Lee Yelin, Kim Sohye, Han Ah-reum, Lee Dong Sun, Ji Sangho, Yu Wookyung, Kim Ho Min, An Joon-Yong, Oh Won Chan, Kwon Seok-Kyu, Kim Jin Young, Um Ji Won, Fernández-Jaén Alberto, Ko Jaewon",
+    "journal": "EMBO Molecular Medicine",
+    "year": 2026,
+    "date": "",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "",
+    "link": {
+      "url": "",
+      "display": "Kim et al., EMBO Molecular Medicine, In Press"
+    },
+    "highlight": 0,
     "type": "article"
   },
   {
@@ -110,60 +182,6 @@
     },
     "highlight": 0,
     "type": "preprint"
-  },
-  {
-    "title": "Angiopoietin-2 aggravates Alzheimer's disease by promoting blood-brain barrier dysfunction and neuroinflammation",
-    "authors": "Lee E, Kim S, Zhu CL, Acquarone E, Kim S, Lo A, Omar OMF, Taddese M, Gradinaru V, Murphy PA, Agalliu D, Arancio O, An JY, Kim M",
-    "authors_full": "Lee E, Kim S, Zhu CL, Acquarone E, Kim S, Lo A, Omar OMF, Taddese M, Gradinaru V, Murphy PA, Agalliu D, Arancio O, An JY, Kim M",
-    "journal": "Cell Reports",
-    "year": 2026,
-    "date": "2026",
-    "vol": null,
-    "issue": null,
-    "page": "",
-    "doi": "",
-    "link": {
-      "url": "",
-      "display": "Lee et al., (2025), Cell Reports"
-    },
-    "highlight": 0,
-    "type": "article"
-  },
-  {
-    "title": "Genetic architecture of plasma pTau217 and related biomarkers in Alzheimer's disease via genome-wide association studies",
-    "authors": "Kim JP, Song M, Cho M, Lee H, Jung SH, Lim S, Kim C, Jang B, Shin D, Kang H, Yim S, Jang H, Kim BH, Kim HJ, Na DL, An JY, Zetterberg H, Blennow K, Gonzalez Ortiz F, Ashton NJ, Day TA, Seo SW, Won HH",
-    "authors_full": "Kim Jun Pyo, Song Minku, Cho Minyoung, Lee Hyunwoo, Jung Sang-Hyuk, Lim Soohyun, Kim Chanhee, Jang Beomjin, Shin Daeun, Kang Heekyung, Yim Sohyun, Jang Hyemin, Kim Bo-Hyun, Kim Hee Jin, Na Duk L., An Joon-Yong, Zetterberg Henrik, Blennow Kaj, Gonzalez Ortiz Fernando, Ashton Nicholas J., Day Theresa A., Seo Sang Won, Won Hong-Hee",
-    "journal": "Alzheimer's & Dementia",
-    "year": 2026,
-    "date": "2026",
-    "vol": null,
-    "issue": null,
-    "page": "",
-    "doi": "",
-    "link": {
-      "url": "",
-      "display": "Kim et al., (2026), Alzheimer's & Dementia"
-    },
-    "highlight": 0,
-    "type": "article"
-  },
-  {
-    "title": "Bazedoxifene rescues sexually dimorphic autistic-like abnormalities in mice carrying a biallelic MDGA1 mutation",
-    "authors": "Kim S, Kim H, Pelayo J, Alvarez S, Jang G, Kim J, Kim B, Hoelscher V, Calleja-Pérez B, Jung H, Yang Y, Lee HJ, Lee J, Kim S, Jimenez de la Peña M, Lee Y, Kim S, Han A, Lee DS, Ji S, Yu W, Kim HM, An JY, Oh WC, Kwon S-K, Kim JY, Um JW, Fernández-Jaén A, Ko J",
-    "authors_full": "Kim Seungjoon, Kim Hyeonho, Porta Pelayo Javier, Alvarez Sara, Jang Gyubin, Kim Jinhu, Kim Byeongchan, Hoelscher Victoria M, Calleja-Pérez Beatriz, Jung Hyunsu, Yang Yeji, Lee Hea Ji, Lee Jihae, Kim Seoyeon, Jimenez de la Peña Mar, Lee Yelin, Kim Sohye, Han Ah-reum, Lee Dong Sun, Ji Sangho, Yu Wookyung, Kim Ho Min, An Joon-Yong, Oh Won Chan, Kwon Seok-Kyu, Kim Jin Young, Um Ji Won, Fernández-Jaén Alberto, Ko Jaewon",
-    "journal": "EMBO Molecular Medicine",
-    "year": 2026,
-    "date": "",
-    "vol": null,
-    "issue": null,
-    "page": "",
-    "doi": "",
-    "link": {
-      "url": "",
-      "display": "Kim et al., EMBO Molecular Medicine, In Press"
-    },
-    "highlight": 0,
-    "type": "article"
   },
   {
     "title": "Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability",
@@ -272,24 +290,6 @@
     },
     "highlight": 0,
     "type": "review"
-  },
-  {
-    "title": "Region- and cell type-specific changes in gene expression in the cerebellum after classical fear conditioning",
-    "authors": "Ji J, Baek J, Hwang KD, Choi S, Kasuya J, Abel T, An JY, Lee YS",
-    "authors_full": "Ji J, Baek J, Hwang KD, Choi S, Kasuya J, Abel T, An JY, Lee YS",
-    "journal": "Communications Biology",
-    "year": 2026,
-    "date": "2026",
-    "vol": null,
-    "issue": null,
-    "page": "",
-    "doi": "",
-    "link": {
-      "url": "",
-      "display": "Ji et al., Communications Biology"
-    },
-    "highlight": 0,
-    "type": "article"
   },
   {
     "title": "Establishment of in silico prediction of adjuvant chemotherapy response from active mitotic gene signature in non-small cell lung cancer",
