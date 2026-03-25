@@ -43,14 +43,15 @@
     "authors_full": "Lee Hyeji, Ko Kahee, Kim Seoyeon, Lee Ganghee, Kim Soo-Whee, Lee Jihae, Song Da-Yea, Bong Guiyoung, Han Jae Hyun, Lee Jeewon, Kim Ye Rim, Lee Yoojeong, Kim Eunjoon, Børglum Anders D., Grove Jakob, Kim So Hyun, Sun Woong, Yoo Hee Jeong, An Joon-Yong",
     "journal": "Genome Biology",
     "year": 2026,
-    "date": "",
+    "date": "2026 Mar",
     "vol": null,
     "issue": null,
     "page": "",
-    "doi": "",
+    "doi": "10.1186/s13059-026-04041-x",
     "link": {
-      "url": "",
-      "display": "Lee et al., Genome Biology, Accepted"
+      "url": "https://link.springer.com/article/10.1186/s13059-026-04041-x",
+      "display": "Lee et al., (2026), Genome Biology",
+      "display_full": "Lee et al., (2026), Co-occurrence of rare variants implicates gene pairs in cytoskeletal pathways and is associated with increased severity in autism spectrum disorder., Genome Biology"
     },
     "highlight": 1,
     "type": "article",
