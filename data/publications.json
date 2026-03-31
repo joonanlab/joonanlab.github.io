@@ -19,19 +19,20 @@
     "corresponding": 1
   },
   {
-    "title": "Genetic scoring approaches to resolve clinical heterogeneity in psychiatric disorders",
+    "title": "Genetic risk modeling approaches to resolve phenotypic and molecular heterogeneity in psychiatric disorders",
     "authors": "Kim SW, Kim Y, Kim IB, An JY",
     "authors_full": "Kim Soo-Whee, Kim Yujin, Kim Il Bin, An Joon-Yong",
     "journal": "Current Opinion in Genetics and Development",
     "year": 2026,
-    "date": "",
-    "vol": null,
+    "date": "2026 Mar",
+    "vol": 98,
     "issue": null,
-    "page": "",
-    "doi": "",
+    "page": "102468",
+    "doi": "10.1016/j.gde.2026.102468",
     "link": {
-      "url": "",
-      "display": "Kim et al., Current Opinion in Genetics and Development, In Press"
+      "url": "https://www.sciencedirect.com/science/article/pii/S0959437X26000353",
+      "display": "Kim et al., (2026), Current Opinion in Genetics and Development",
+      "display_full": "Kim et al., (2026), Genetic risk modeling approaches to resolve phenotypic and molecular heterogeneity in psychiatric disorders., Current Opinion in Genetics and Development"
     },
     "highlight": 0,
     "type": "article",
