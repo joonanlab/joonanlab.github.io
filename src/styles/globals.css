@@ -398,6 +398,103 @@ body.lang-ko span.ko-only { display: inline !important; }
   text-decoration: underline;
 }
 
+/* ===== Note Content (Blog Post) ===== */
+.note-content {
+  color: var(--text-secondary);
+  line-height: 1.85;
+  font-size: 1.05rem;
+}
+
+.note-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.note-content h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.note-content p {
+  margin-bottom: 1.25rem;
+}
+
+.note-content strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.note-content a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.note-content a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+.note-content ul,
+.note-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.note-content ul {
+  list-style: disc;
+}
+
+.note-content ol {
+  list-style: decimal;
+}
+
+.note-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.75;
+}
+
+.note-content blockquote {
+  border-left: 3px solid var(--accent-gold);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.note-content code {
+  background: var(--bg-secondary);
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+}
+
+.note-content pre {
+  background: var(--bg-secondary);
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--border);
+}
+
+.note-content pre code {
+  background: none;
+  padding: 0;
+}
+
+.note-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
 /* ===== Publication List in Bio ===== */
 .pub-list {
   list-style: none !important;

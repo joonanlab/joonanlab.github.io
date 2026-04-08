@@ -1,5 +1,8 @@
 import fs from 'fs'
 import path from 'path'
+import matter from 'gray-matter'
+import { remark } from 'remark'
+import html from 'remark-html'
 
 // ===== Types =====
 
@@ -109,6 +112,16 @@ export interface LocalizedContent {
 
 export type Translations = Record<string, LocalizedContent>
 
+export interface NotePost {
+  slug: string
+  title: string
+  date: string
+  summary: string
+  tags: string[]
+  lang: 'en' | 'ko' | 'both'
+  content: string // HTML string
+}
+
 // ===== Data Loading =====
 
 const dataDir = path.join(process.cwd(), 'data')
@@ -164,4 +177,52 @@ export function getAllMemberSlugs(): string[] {
     .readdirSync(membersDir)
     .filter((f) => f.endsWith('.json'))
     .map((f) => f.replace('.json', ''))
+}
+
+// ===== Notes (Blog) =====
+
+const notesDir = path.join(dataDir, 'notes')
+
+export function getNotes(): Omit<NotePost, 'content'>[] {
+  if (!fs.existsSync(notesDir)) return []
+  const files = fs.readdirSync(notesDir).filter((f) => f.endsWith('.md'))
+  const notes = files.map((filename) => {
+    const slug = filename.replace('.md', '')
+    const raw = fs.readFileSync(path.join(notesDir, filename), 'utf-8')
+    const { data } = matter(raw)
+    return {
+      slug,
+      title: (data.title as string) || slug,
+      date: (data.date as string) || '',
+      summary: (data.summary as string) || '',
+      tags: (data.tags as string[]) || [],
+      lang: (data.lang as 'en' | 'ko' | 'both') || 'both',
+    }
+  })
+  return notes.sort((a, b) => (a.date > b.date ? -1 : 1))
+}
+
+export async function getNoteBySlug(slug: string): Promise<NotePost | null> {
+  const filePath = path.join(notesDir, `${slug}.md`)
+  if (!fs.existsSync(filePath)) return null
+  const raw = fs.readFileSync(filePath, 'utf-8')
+  const { data, content } = matter(raw)
+  const result = await remark().use(html).process(content)
+  return {
+    slug,
+    title: (data.title as string) || slug,
+    date: (data.date as string) || '',
+    summary: (data.summary as string) || '',
+    tags: (data.tags as string[]) || [],
+    lang: (data.lang as 'en' | 'ko' | 'both') || 'both',
+    content: result.toString(),
+  }
+}
+
+export function getAllNoteSlugs(): string[] {
+  if (!fs.existsSync(notesDir)) return []
+  return fs
+    .readdirSync(notesDir)
+    .filter((f) => f.endsWith('.md'))
+    .map((f) => f.replace('.md', ''))
 }

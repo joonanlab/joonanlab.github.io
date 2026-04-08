@@ -12,7 +12,7 @@ const NAV_ITEMS = [
   { href: '/research', label: 'Research', labelKo: '연구' },
   { href: '/publications', label: 'Publications', labelKo: '논문' },
   { href: '/tools', label: 'Tools', labelKo: '도구' },
-  { href: '/lectures', label: 'Lectures', labelKo: '강의' },
+  { href: '/notes', label: 'Notes', labelKo: '노트' },
   { href: '/news', label: 'News', labelKo: '소식' },
   { href: '/join', label: 'Join', labelKo: '모집' },
   { href: '/contact', label: 'Contact', labelKo: '연락처' },
