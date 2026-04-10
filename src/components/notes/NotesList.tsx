@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import { useLang } from '@/contexts/LangContext'
 import type { NotePost } from '@/lib/data'
 
 type NoteListItem = Omit<NotePost, 'content'>
@@ -10,19 +11,23 @@ type NoteListItem = Omit<NotePost, 'content'>
 const PER_PAGE = 10
 
 export function NotesList({ notes }: { notes: NoteListItem[] }) {
+  const { lang } = useLang()
   const [search, setSearch] = useState('')
   const [page, setPage] = useState(1)
 
   const filtered = useMemo(() => {
-    if (!search) return notes
+    const langFiltered = notes.filter(
+      (n) => n.lang === 'both' || n.lang === lang
+    )
+    if (!search) return langFiltered
     const q = search.toLowerCase()
-    return notes.filter(
+    return langFiltered.filter(
       (n) =>
         n.title.toLowerCase().includes(q) ||
         n.summary.toLowerCase().includes(q) ||
         n.tags.some((t) => t.toLowerCase().includes(q))
     )
-  }, [notes, search])
+  }, [notes, search, lang])
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE))
   const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE)
