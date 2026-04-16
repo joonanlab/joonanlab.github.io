@@ -28,7 +28,7 @@ export default function TeamPage() {
           <span className="ko-only">고려대학교 An Lab의 연구원들을 소개합니다.</span>
         </p>
         <TeamGrid team={team} />
-        <div className="mt-12 text-center">
+        <div className="mt-12 text-center flex flex-wrap justify-center gap-4">
           <Link
             href="/alumni"
             className="pill inline-flex items-center gap-2"
@@ -36,6 +36,15 @@ export default function TeamPage() {
             <span className="en-only">View Alumni &rarr;</span>
             <span className="ko-only">졸업생 보기 &rarr;</span>
           </Link>
+          <a
+            href="https://www.notion.so/joonanlab/Moments-1833dc859c414f0185681e3667722130"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pill inline-flex items-center gap-2"
+          >
+            <span className="en-only">Moments &rarr;</span>
+            <span className="ko-only">일상 &rarr;</span>
+          </a>
         </div>
       </div>
     </div>
