@@ -22,6 +22,12 @@ export function LangProvider({ children }: { children: ReactNode }) {
     if (stored === 'ko' || stored === 'en') {
       setLang(stored)
       if (stored === 'ko') document.body.classList.add('lang-ko')
+    } else {
+      const browserLang = navigator.language
+      if (browserLang.startsWith('ko')) {
+        setLang('ko')
+        document.body.classList.add('lang-ko')
+      }
     }
   }, [])
 
