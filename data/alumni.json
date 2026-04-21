@@ -181,6 +181,32 @@
     "current_ko": "티맥스소프트 소프트웨어 엔지니어"
   },
   {
+    "name": "Seoyoun Lee",
+    "name_ko": "이서연",
+    "photo": "seoyounlee.jpg",
+    "info": "Former Undergraduate Intern",
+    "info_ko": "전 학부 인턴",
+    "url": "seoyounlee",
+    "group": 3,
+    "year": 2026,
+    "thesis": null,
+    "current": null,
+    "current_ko": null
+  },
+  {
+    "name": "Ashish Jung",
+    "name_ko": "정아시스",
+    "photo": "ashish.jpg",
+    "info": "Former Undergraduate Intern",
+    "info_ko": "전 학부 인턴",
+    "url": "ashish",
+    "group": 3,
+    "year": 2026,
+    "thesis": null,
+    "current": null,
+    "current_ko": null
+  },
+  {
     "name": "Seunghwan Choi",
     "name_ko": "최승환",
     "photo": "seunghwan.jpg",
