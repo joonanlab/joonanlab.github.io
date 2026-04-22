@@ -3,6 +3,13 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getAllNoteSlugs, getNoteBySlug } from '@/lib/data'
 import { Breadcrumb } from '@/components/shared/Breadcrumb'
+import { NoteLangRedirect } from '@/components/notes/NoteLangRedirect'
+
+function getCounterpartSlug(slug: string): string | null {
+  const all = new Set(getAllNoteSlugs())
+  const candidate = slug.endsWith('-en') ? slug.slice(0, -3) : `${slug}-en`
+  return all.has(candidate) ? candidate : null
+}
 
 export function generateStaticParams() {
   return getAllNoteSlugs().map((slug) => ({ slug }))
@@ -22,9 +29,11 @@ export default async function NotePostPage({ params }: { params: Promise<{ slug:
   const { slug } = await params
   const note = await getNoteBySlug(slug)
   if (!note) notFound()
+  const counterpartSlug = getCounterpartSlug(slug)
 
   return (
     <div className="pt-24 pb-16 px-6">
+      <NoteLangRedirect noteLang={note.lang} counterpartSlug={counterpartSlug} />
       <div className="max-w-3xl mx-auto">
         <Breadcrumb items={[
           { label: 'Home', href: '/' },
