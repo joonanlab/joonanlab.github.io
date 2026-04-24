@@ -11,6 +11,10 @@
 *.pem
 npm-debug.log*
 
+# claude / humanize workspace
+.claude/
+.humanize-workspace/
+
 # env files
 .env*
 
