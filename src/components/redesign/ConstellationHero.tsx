@@ -335,21 +335,7 @@ export function ConstellationHero() {
             </h1>
           )}
 
-          <p
-            style={{
-              fontFamily: AN_TOKENS.fontSans,
-              fontSize: 'clamp(15px, 1.4vw, 20px)',
-              color: AN_TOKENS.darkInkSoft,
-              lineHeight: 1.55,
-              margin: '0 0 40px',
-              maxWidth: 580,
-              textWrap: 'pretty',
-            }}
-          >
-            {lang === 'ko'
-              ? '비암호화 유전체를 위한 딥러닝, 수백만 단일세포 측정에서 만들어가는 가상 세포, 그리고 한국 최대 규모 코호트의 자폐 유전학.'
-              : 'Deep learning for noncoding genomes. Virtual cells from millions of single-cell measurements. Autism genetics in one of the largest Korean cohorts.'}
-          </p>
+          <div style={{ marginBottom: 40 }} />
 
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', pointerEvents: 'auto' }}>
             <a
