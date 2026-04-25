@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { getAlumni } from '@/lib/data'
 import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { BilingualText } from '@/components/shared/BilingualText'
 import { AlumniList } from '@/components/team/AlumniList'
+import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Alumni',
@@ -14,17 +14,19 @@ export default function AlumniPage() {
   const alumni = getAlumni()
 
   return (
-    <div className="pt-24 pb-16 px-6">
-      <div className="max-w-5xl mx-auto">
-        <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Alumni' }]} />
-        <BilingualText
-          en="Alumni"
-          ko="졸업생"
-          as="h1"
-          className="section-header mb-8"
-        />
-        <AlumniList alumni={alumni} />
+    <RedesignChrome theme="light">
+      <div className="pt-16 pb-16 px-6">
+        <div className="max-w-5xl mx-auto">
+          <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Alumni' }]} />
+          <BilingualText
+            en="Alumni"
+            ko="졸업생"
+            as="h1"
+            className="section-header mb-8"
+          />
+          <AlumniList alumni={alumni} />
+        </div>
       </div>
-    </div>
+    </RedesignChrome>
   )
 }

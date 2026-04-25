@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { ScrollReveal } from '@/components/shared/ScrollReveal'
+import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'K-ARC Consortium',
@@ -9,7 +10,8 @@ export const metadata: Metadata = {
 
 export default function KARCPage() {
   return (
-    <div className="pt-24 pb-16 px-6">
+    <RedesignChrome theme="light">
+    <div className="pt-16 pb-16 px-6">
       <div className="max-w-4xl mx-auto">
         <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'K-ARC' }]} />
 
@@ -161,5 +163,6 @@ export default function KARCPage() {
         </ScrollReveal>
       </div>
     </div>
+    </RedesignChrome>
   )
 }
