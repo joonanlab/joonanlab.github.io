@@ -28,8 +28,8 @@ const REDESIGNED_EXACT = new Set<string>([
   '/tools',
 ])
 
-// Sub-routes that own their own chrome (e.g. /notes/[slug]).
-const REDESIGNED_PREFIXES = ['/notes/']
+// Sub-routes that own their own chrome (e.g. /notes/[slug], /team/[slug]).
+const REDESIGNED_PREFIXES = ['/notes/', '/team/']
 
 export function LegacyChrome({ children }: { children: ReactNode }) {
   const pathname = usePathname()

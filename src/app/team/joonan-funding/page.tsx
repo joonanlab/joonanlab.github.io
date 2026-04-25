@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { getFunding } from '@/lib/data'
 import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { ScrollReveal } from '@/components/shared/ScrollReveal'
+import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Funding - Joonan An',
@@ -12,7 +13,8 @@ export default function JoonanFundingPage() {
   const funding = getFunding()
 
   return (
-    <div className="pt-24 pb-16 px-6">
+    <RedesignChrome>
+    <div className="pt-16 pb-16 px-6">
       <div className="max-w-4xl mx-auto">
         <Breadcrumb
           items={[
@@ -75,5 +77,6 @@ export default function JoonanFundingPage() {
         </div>
       </div>
     </div>
+    </RedesignChrome>
   )
 }

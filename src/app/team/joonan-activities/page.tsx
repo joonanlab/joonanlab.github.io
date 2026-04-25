@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { getActivities } from '@/lib/data'
 import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { ScrollReveal } from '@/components/shared/ScrollReveal'
+import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Activities - Joonan An',
@@ -12,7 +13,8 @@ export default function JoonanActivitiesPage() {
   const activities = getActivities()
 
   return (
-    <div className="pt-24 pb-16 px-6">
+    <RedesignChrome>
+    <div className="pt-16 pb-16 px-6">
       <div className="max-w-4xl mx-auto">
         <Breadcrumb
           items={[
@@ -99,5 +101,6 @@ export default function JoonanActivitiesPage() {
         </div>
       </div>
     </div>
+    </RedesignChrome>
   )
 }
