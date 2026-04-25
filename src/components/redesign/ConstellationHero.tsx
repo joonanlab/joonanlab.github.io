@@ -385,51 +385,6 @@ export function ConstellationHero() {
             </a>
           </div>
         </div>
-
-        {/* Bottom ticker */}
-        <div
-          style={{
-            marginTop: 60,
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
-            gap: 24,
-            fontFamily: AN_TOKENS.fontSans,
-            fontSize: 12,
-            paddingTop: 24,
-            borderTop: `1px solid ${AN_TOKENS.darkLineSoft}`,
-          }}
-        >
-          {(lang === 'ko'
-            ? [
-                { l: '주요 게재 저널', v: 'Nature, Cell, Science' },
-                { l: '한국 최대 규모', v: '자폐 WGS 코호트' },
-                { l: '연구비 지원', v: 'NRF, KDRC · 2020–2030' },
-                { l: '구성원', v: '20+ 연구원 · 고려대' },
-              ]
-            : [
-                { l: 'Now publishing in', v: 'Nature, Cell, Science' },
-                { l: 'Largest Korean', v: 'WGS autism cohort' },
-                { l: 'Funded by', v: 'NRF, KDRC · 2020–2030' },
-                { l: 'Members', v: '20+ researchers · KU' },
-              ]
-          ).map((s) => (
-            <div key={s.l}>
-              <div
-                style={{
-                  fontFamily: AN_TOKENS.fontMono,
-                  fontSize: 10,
-                  color: AN_TOKENS.darkInkMuted,
-                  letterSpacing: 1.5,
-                  textTransform: 'uppercase',
-                  marginBottom: 6,
-                }}
-              >
-                {s.l}
-              </div>
-              <div style={{ color: AN_TOKENS.darkInk, fontWeight: 500 }}>{s.v}</div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   )

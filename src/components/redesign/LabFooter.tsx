@@ -170,24 +170,13 @@ export function LabFooter({ theme = 'light' }: LabFooterProps) {
           >
             {lang === 'ko' ? '연락처' : 'Contact'}
           </div>
-          <a
-            href="mailto:joonan30@korea.ac.kr"
-            style={{
-              fontSize: 13,
-              color: p.ink,
-              marginBottom: 6,
-              display: 'block',
-              textDecoration: 'none',
-            }}
-          >
-            joonan30@korea.ac.kr
-          </a>
           <Link
             href="/contact"
             style={{
               fontSize: 13,
-              color: p.inkSoft,
+              color: p.ink,
               textDecoration: 'none',
+              display: 'block',
             }}
           >
             {lang === 'ko' ? '연락처 페이지' : 'Contact page'}
