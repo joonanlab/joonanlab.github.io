@@ -10,7 +10,7 @@
  *   - Cleans up rAF + listeners on unmount
  */
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useTheme } from 'next-themes'
 import { useLang } from '@/contexts/LangContext'
 import { AN_TOKENS } from '@/lib/redesign-tokens'
@@ -32,6 +32,11 @@ export function ConstellationHero() {
   const { lang } = useLang()
   const { resolvedTheme } = useTheme()
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+  const showCanvas = !mounted || resolvedTheme === 'dark'
   // Themed ink color used for connecting lines and dim nodes. We read it via
   // a ref so the existing rAF-driven draw loop picks up changes without
   // having to be torn down and rebuilt on every theme toggle.
@@ -232,7 +237,10 @@ export function ConstellationHero() {
           inset: 0,
           width: '100%',
           height: '100%',
-          cursor: 'crosshair',
+          cursor: showCanvas ? 'crosshair' : 'default',
+          opacity: showCanvas ? 1 : 0,
+          pointerEvents: showCanvas ? 'auto' : 'none',
+          transition: 'opacity 0.4s ease',
         }}
       />
 
