@@ -261,6 +261,85 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
         </div>
       </section>
 
+      {/* Doban band — cream, lab philosophy */}
+      <section
+        style={{
+          background: AN_TOKENS.lightBgAlt,
+          color: AN_TOKENS.lightInk,
+          padding: 'clamp(56px, 8vw, 88px) clamp(20px, 4vw, 32px)',
+          borderTop: `1px solid ${AN_TOKENS.lightLine}`,
+        }}
+      >
+        <div style={{ maxWidth: 880, margin: '0 auto' }}>
+          <div
+            style={{
+              fontFamily: AN_TOKENS.fontMono,
+              fontSize: 12,
+              color: AN_TOKENS.red,
+              letterSpacing: 2,
+              textTransform: 'uppercase',
+              marginBottom: 16,
+            }}
+          >
+            {lang === 'ko' ? '도반 · 道伴' : 'Doban · 道伴'}
+          </div>
+          <h2
+            style={{
+              fontFamily: AN_TOKENS.fontSerif,
+              fontSize: 'clamp(32px, 4.5vw, 52px)',
+              fontWeight: 300,
+              letterSpacing: -1.2,
+              lineHeight: 1.1,
+              margin: '0 0 28px',
+              color: AN_TOKENS.lightInk,
+              textWrap: 'balance',
+            }}
+          >
+            {lang === 'ko' ? (
+              <>
+                같은 길을 걷는 <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>동반자</em>로서.
+              </>
+            ) : (
+              <>
+                Walking the same path, as <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>doban.</em>
+              </>
+            )}
+          </h2>
+          <p
+            style={{
+              fontFamily: AN_TOKENS.fontSerif,
+              fontSize: 'clamp(16px, 1.5vw, 19px)',
+              fontWeight: 400,
+              color: AN_TOKENS.lightInkSoft,
+              lineHeight: 1.7,
+              margin: '0 0 16px',
+              maxWidth: 760,
+              textWrap: 'pretty',
+            }}
+          >
+            {lang === 'ko'
+              ? '도반(道伴)은 한국 불교 전통에서 유래된 말로, 같은 길을 함께 걷는 수행의 동반자를 뜻합니다. 본래 영적인 맥락에서 쓰이지만, 서로를 지지하고 배움을 나누며 더 높은 목표를 향해 나아가는 사람들을 가리키는 표현이기도 합니다.'
+              : 'Doban (道伴) is a Korean Buddhist term meaning "fellow practitioner" — those who walk a path together. While rooted in spiritual contexts, it captures something we believe about scientific work: that real progress happens between people who support one another, learn from one another, and pursue higher goals together.'}
+          </p>
+          <p
+            style={{
+              fontFamily: AN_TOKENS.fontSerif,
+              fontSize: 'clamp(16px, 1.5vw, 19px)',
+              fontWeight: 400,
+              color: AN_TOKENS.lightInkSoft,
+              lineHeight: 1.7,
+              margin: 0,
+              maxWidth: 760,
+              textWrap: 'pretty',
+            }}
+          >
+            {lang === 'ko'
+              ? '우리 연구실은 발견과 혁신, 그리고 지적 성장의 여정을 함께하는 과학적 동반자들이 모인 곳입니다. 각자가 서로의 도반으로서 기여하고, 함께 성장합니다.'
+              : 'Our lab is a group of scientific companions on a shared journey of discovery, innovation, and intellectual growth. Each member acts as doban to the others — contributing to and growing from our collective progress.'}
+          </p>
+        </div>
+      </section>
+
       {/* Members band — light */}
       <section
         style={{
@@ -318,6 +397,61 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
             >
               {members.length} {lang === 'ko' ? '명' : 'members'} · Seoul, KR
             </div>
+          </div>
+
+          {/* Alumni CTA — sits between members header and the role groups */}
+          <div
+            style={{
+              marginBottom: 48,
+              padding: '20px 28px',
+              background: AN_TOKENS.lightBgRaised,
+              border: `1px solid ${AN_TOKENS.lightLine}`,
+              borderRadius: 12,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: 20,
+              flexWrap: 'wrap',
+            }}
+          >
+            <div>
+              <div
+                style={{
+                  fontFamily: AN_TOKENS.fontSerif,
+                  fontSize: 'clamp(18px, 1.8vw, 22px)',
+                  fontWeight: 400,
+                  color: AN_TOKENS.lightInk,
+                  marginBottom: 4,
+                  letterSpacing: -0.3,
+                }}
+              >
+                {lang === 'ko' ? '졸업생을 찾으시나요?' : 'Looking for our alumni?'}
+              </div>
+              <div
+                style={{
+                  fontFamily: AN_TOKENS.fontSans,
+                  fontSize: 14,
+                  color: AN_TOKENS.lightInkSoft,
+                }}
+              >
+                {lang === 'ko'
+                  ? '랩을 거쳐간 도반들의 현재 행보를 확인해보세요.'
+                  : 'See where our former doban have moved on to.'}
+              </div>
+            </div>
+            <Link
+              href="/alumni"
+              style={{
+                fontFamily: AN_TOKENS.fontSans,
+                fontSize: 14,
+                fontWeight: 600,
+                color: AN_TOKENS.red,
+                textDecoration: 'none',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {lang === 'ko' ? '졸업생 →' : 'Alumni →'}
+            </Link>
           </div>
 
           {sections.map(({ role, members: list }) => (
