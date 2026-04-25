@@ -67,7 +67,7 @@ export function ResearchPageClient({ areas }: ResearchPageClientProps) {
               </>
             ) : (
               <>
-                Four orbits around
+                Four perspectives on
                 <br />
                 <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>one question.</em>
               </>
