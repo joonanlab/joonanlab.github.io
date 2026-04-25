@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { getAllNoteSlugs, getNoteBySlug } from '@/lib/data'
 import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { NoteLangRedirect } from '@/components/notes/NoteLangRedirect'
+import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 function getCounterpartSlug(slug: string): string | null {
   const all = new Set(getAllNoteSlugs())
@@ -32,7 +33,8 @@ export default async function NotePostPage({ params }: { params: Promise<{ slug:
   const counterpartSlug = getCounterpartSlug(slug)
 
   return (
-    <div className="pt-24 pb-16 px-6">
+    <RedesignChrome theme="light">
+    <div className="pt-16 pb-16 px-6">
       <NoteLangRedirect noteLang={note.lang} counterpartSlug={counterpartSlug} />
       <div className="max-w-3xl mx-auto">
         <Breadcrumb items={[
@@ -91,5 +93,6 @@ export default async function NotePostPage({ params }: { params: Promise<{ slug:
         </div>
       </div>
     </div>
+    </RedesignChrome>
   )
 }

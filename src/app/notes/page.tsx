@@ -4,6 +4,7 @@ import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { BilingualText } from '@/components/shared/BilingualText'
 import { ScrollReveal } from '@/components/shared/ScrollReveal'
 import { NotesList } from '@/components/notes/NotesList'
+import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Notes',
@@ -14,7 +15,8 @@ export default function NotesPage() {
   const notes = getNotes()
 
   return (
-    <div className="pt-24 pb-16 px-6">
+    <RedesignChrome theme="light">
+    <div className="pt-16 pb-16 px-6">
       <div className="max-w-5xl mx-auto">
         <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Notes' }]} />
         <BilingualText
@@ -169,5 +171,6 @@ export default function NotesPage() {
         </div>
       </div>
     </div>
+    </RedesignChrome>
   )
 }
