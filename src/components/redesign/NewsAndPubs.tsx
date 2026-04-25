@@ -10,6 +10,7 @@
  * for display text and surface the URL as the news item's destination.
  */
 
+import Link from 'next/link'
 import type { NewsItem, Publication } from '@/lib/data'
 import { useLang } from '@/contexts/LangContext'
 import { AN_TOKENS, anPalette, type AnTheme } from '@/lib/redesign-tokens'
@@ -193,6 +194,21 @@ export function NewsAndPubs({
               return <div key={`${n.date}-${i}`}>{inner}</div>
             })}
           </div>
+          <div style={{ marginTop: 24 }}>
+            <Link
+              href="/news"
+              style={{
+                fontFamily: AN_TOKENS.fontSans,
+                fontSize: 13,
+                fontWeight: 600,
+                color: acc,
+                letterSpacing: 0.2,
+                textDecoration: 'none',
+              }}
+            >
+              {lang === 'ko' ? '모든 소식 보기 →' : 'View all news →'}
+            </Link>
+          </div>
         </div>
 
         {/* Featured publications column */}
@@ -293,6 +309,21 @@ export function NewsAndPubs({
                 </div>
               </a>
             ))}
+          </div>
+          <div style={{ marginTop: 24 }}>
+            <Link
+              href="/publications"
+              style={{
+                fontFamily: AN_TOKENS.fontSans,
+                fontSize: 13,
+                fontWeight: 600,
+                color: acc,
+                letterSpacing: 0.2,
+                textDecoration: 'none',
+              }}
+            >
+              {lang === 'ko' ? '모든 논문 보기 →' : 'View all publications →'}
+            </Link>
           </div>
         </div>
       </div>
