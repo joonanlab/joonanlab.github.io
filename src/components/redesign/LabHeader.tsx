@@ -76,23 +76,13 @@ export function LabHeader({ theme = 'light' }: LabHeaderProps) {
               flexShrink: 0,
             }}
           >
-            <div
-              style={{
-                width: 28,
-                height: 28,
-                borderRadius: 6,
-                background: AN_TOKENS.red,
-                color: 'white',
-                display: 'grid',
-                placeItems: 'center',
-                fontFamily: AN_TOKENS.fontSans,
-                fontWeight: 800,
-                fontSize: 13,
-                letterSpacing: -0.5,
-              }}
-            >
-              AN
-            </div>
+            <img
+              src="/images/logopic/Logo2025-AnLab.png"
+              alt=""
+              width={32}
+              height={32}
+              style={{ width: 32, height: 32, objectFit: 'contain' }}
+            />
             <span
               style={{
                 fontFamily: AN_TOKENS.fontSans,

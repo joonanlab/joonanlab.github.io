@@ -97,22 +97,6 @@ export function CTAJoin({ theme = 'light', accent }: CTAJoinProps) {
           >
             {lang === 'ko' ? '모집 공고 보기' : 'Read open positions'}
           </Link>
-          <a
-            href="mailto:joonan30@korea.ac.kr"
-            style={{
-              padding: '14px 28px',
-              background: 'transparent',
-              color: p.ink,
-              border: `1px solid ${p.line}`,
-              fontFamily: AN_TOKENS.fontSans,
-              fontSize: 14,
-              fontWeight: 600,
-              borderRadius: 8,
-              textDecoration: 'none',
-            }}
-          >
-            {lang === 'ko' ? '안 교수에게 이메일' : 'Email Prof. An'}
-          </a>
         </div>
       </div>
     </section>

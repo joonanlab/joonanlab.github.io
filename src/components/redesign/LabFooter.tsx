@@ -93,21 +93,13 @@ export function LabFooter({ theme = 'light' }: LabFooterProps) {
               marginBottom: 12,
             }}
           >
-            <div
-              style={{
-                width: 24,
-                height: 24,
-                borderRadius: 5,
-                background: AN_TOKENS.red,
-                color: 'white',
-                display: 'grid',
-                placeItems: 'center',
-                fontWeight: 800,
-                fontSize: 11,
-              }}
-            >
-              AN
-            </div>
+            <img
+              src="/images/logopic/Logo2025-AnLab.png"
+              alt=""
+              width={28}
+              height={28}
+              style={{ width: 28, height: 28, objectFit: 'contain' }}
+            />
             <div style={{ fontWeight: 600, fontSize: 14, color: p.ink }}>
               An Lab · AI for Nature
             </div>
