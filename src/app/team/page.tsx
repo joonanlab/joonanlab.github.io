@@ -3,7 +3,6 @@ import { getTeam, getMemberProfile } from '@/lib/data'
 import { LabHeader } from '@/components/redesign/LabHeader'
 import { LabFooter } from '@/components/redesign/LabFooter'
 import { TeamPageClient } from '@/components/redesign/TeamPageClient'
-import { AN_TOKENS } from '@/lib/redesign-tokens'
 
 export const metadata: Metadata = {
   title: 'Team',
@@ -16,10 +15,10 @@ export default function TeamPage() {
   const piProfile = pi ? getMemberProfile(pi.url) : null
 
   return (
-    <div style={{ background: AN_TOKENS.lightBg, minHeight: '100vh' }}>
-      <LabHeader theme="light" />
+    <div style={{ background: 'var(--an-surface-bg)', minHeight: '100vh' }}>
+      <LabHeader />
       <TeamPageClient team={team} piProfile={piProfile} />
-      <LabFooter theme="light" />
+      <LabFooter />
     </div>
   )
 }

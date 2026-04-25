@@ -13,13 +13,13 @@ export default function HomePage() {
   const researchAreas = getResearchAreas()
 
   return (
-    <div style={{ background: AN_TOKENS.darkBg, minHeight: '100vh' }}>
-      <LabHeader theme="dark" />
+    <div style={{ background: 'var(--an-surface-bg)', minHeight: '100vh' }}>
+      <LabHeader />
       <ConstellationHero />
-      <ResearchBento areas={researchAreas} theme="dark" accent={AN_TOKENS.gold} />
-      <NewsAndPubs news={news} publications={publications} theme="light" accent={AN_TOKENS.red} />
-      <CTAJoin theme="dark" accent={AN_TOKENS.gold} />
-      <LabFooter theme="dark" />
+      <ResearchBento areas={researchAreas} accent={AN_TOKENS.gold} />
+      <NewsAndPubs news={news} publications={publications} accent={AN_TOKENS.red} />
+      <CTAJoin accent={AN_TOKENS.gold} />
+      <LabFooter />
     </div>
   )
 }

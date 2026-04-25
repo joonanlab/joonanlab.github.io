@@ -86,8 +86,8 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
       {/* PI band — dark */}
       <section
         style={{
-          background: AN_TOKENS.darkBg,
-          color: AN_TOKENS.darkInk,
+          background: 'var(--an-surface-bg)',
+          color: 'var(--an-surface-ink)',
           padding: 'clamp(48px, 6vw, 72px) clamp(20px, 4vw, 32px)',
         }}
       >
@@ -173,7 +173,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                 style={{
                   fontFamily: AN_TOKENS.fontSans,
                   fontSize: 14,
-                  color: AN_TOKENS.darkInkSoft,
+                  color: 'var(--an-surface-ink-soft)',
                   marginBottom: 32,
                 }}
               >
@@ -188,7 +188,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                     fontFamily: AN_TOKENS.fontSerif,
                     fontSize: 'clamp(14px, 1.2vw, 16px)',
                     fontStyle: 'italic',
-                    color: AN_TOKENS.darkInk,
+                    color: 'var(--an-surface-ink)',
                     lineHeight: 1.55,
                     margin: '0 0 24px',
                     maxWidth: 720,
@@ -225,8 +225,8 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                     style={{
                       padding: '12px 20px',
                       background: 'transparent',
-                      color: AN_TOKENS.darkInk,
-                      border: `1px solid ${AN_TOKENS.darkLine}`,
+                      color: 'var(--an-surface-ink)',
+                      border: `1px solid ${'var(--an-surface-line)'}`,
                       fontFamily: AN_TOKENS.fontSans,
                       fontSize: 13,
                       fontWeight: 600,
@@ -243,8 +243,8 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                     style={{
                       padding: '12px 20px',
                       background: 'transparent',
-                      color: AN_TOKENS.darkInk,
-                      border: `1px solid ${AN_TOKENS.darkLine}`,
+                      color: 'var(--an-surface-ink)',
+                      border: `1px solid ${'var(--an-surface-line)'}`,
                       fontFamily: AN_TOKENS.fontSans,
                       fontSize: 13,
                       fontWeight: 600,
@@ -264,10 +264,10 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
       {/* Doban band — cream, lab philosophy */}
       <section
         style={{
-          background: AN_TOKENS.lightBgAlt,
-          color: AN_TOKENS.lightInk,
+          background: 'var(--an-surface-bg-alt)',
+          color: 'var(--an-surface-ink)',
           padding: 'clamp(56px, 8vw, 88px) clamp(20px, 4vw, 32px)',
-          borderTop: `1px solid ${AN_TOKENS.lightLine}`,
+          borderTop: `1px solid ${'var(--an-surface-line)'}`,
         }}
       >
         <div style={{ maxWidth: 880, margin: '0 auto' }}>
@@ -291,7 +291,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
               letterSpacing: -1.2,
               lineHeight: 1.1,
               margin: '0 0 28px',
-              color: AN_TOKENS.lightInk,
+              color: 'var(--an-surface-ink)',
               textWrap: 'balance',
             }}
           >
@@ -310,7 +310,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
               fontFamily: AN_TOKENS.fontSerif,
               fontSize: 'clamp(16px, 1.5vw, 19px)',
               fontWeight: 400,
-              color: AN_TOKENS.lightInkSoft,
+              color: 'var(--an-surface-ink-soft)',
               lineHeight: 1.7,
               margin: '0 0 16px',
               maxWidth: 760,
@@ -326,7 +326,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
               fontFamily: AN_TOKENS.fontSerif,
               fontSize: 'clamp(16px, 1.5vw, 19px)',
               fontWeight: 400,
-              color: AN_TOKENS.lightInkSoft,
+              color: 'var(--an-surface-ink-soft)',
               lineHeight: 1.7,
               margin: 0,
               maxWidth: 760,
@@ -343,8 +343,8 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
       {/* Members band — light */}
       <section
         style={{
-          background: AN_TOKENS.lightBg,
-          color: AN_TOKENS.lightInk,
+          background: 'var(--an-surface-bg)',
+          color: 'var(--an-surface-ink)',
           padding: 'clamp(64px, 10vw, 100px) clamp(20px, 4vw, 32px)',
         }}
       >
@@ -380,7 +380,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                   letterSpacing: -2,
                   lineHeight: 1,
                   margin: 0,
-                  color: AN_TOKENS.lightInk,
+                  color: 'var(--an-surface-ink)',
                   textWrap: 'balance',
                 }}
               >
@@ -391,7 +391,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
               style={{
                 fontFamily: AN_TOKENS.fontMono,
                 fontSize: 12,
-                color: AN_TOKENS.lightInkMuted,
+                color: 'var(--an-surface-ink-muted)',
                 letterSpacing: 1.5,
               }}
             >
@@ -405,12 +405,12 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                 style={{
                   fontFamily: AN_TOKENS.fontMono,
                   fontSize: 11,
-                  color: AN_TOKENS.lightInkMuted,
+                  color: 'var(--an-surface-ink-muted)',
                   letterSpacing: 1.5,
                   textTransform: 'uppercase',
                   marginBottom: 20,
                   paddingBottom: 8,
-                  borderBottom: `1px solid ${AN_TOKENS.lightLine}`,
+                  borderBottom: `1px solid ${'var(--an-surface-line)'}`,
                 }}
               >
                 {lang === 'ko' ? role.ko : role.en} · {list.length}
@@ -428,8 +428,8 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                     <div
                       style={{
                         padding: 24,
-                        background: AN_TOKENS.lightBgRaised,
-                        border: `1px solid ${AN_TOKENS.lightLine}`,
+                        background: 'var(--an-surface-bg-raised)',
+                        border: `1px solid ${'var(--an-surface-line)'}`,
                         borderRadius: 10,
                         display: 'grid',
                         gridTemplateColumns: '96px 1fr',
@@ -473,7 +473,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                             fontFamily: AN_TOKENS.fontSans,
                             fontSize: 18,
                             fontWeight: 600,
-                            color: AN_TOKENS.lightInk,
+                            color: 'var(--an-surface-ink)',
                             marginBottom: 6,
                             letterSpacing: -0.2,
                           }}
@@ -490,7 +490,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                                 style={{
                                   fontFamily: AN_TOKENS.fontSans,
                                   fontSize: 13,
-                                  color: AN_TOKENS.lightInkSoft,
+                                  color: 'var(--an-surface-ink-soft)',
                                   lineHeight: 1.4,
                                 }}
                               >
@@ -542,8 +542,8 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
             style={{
               marginTop: 24,
               padding: '20px 28px',
-              background: AN_TOKENS.lightBgRaised,
-              border: `1px solid ${AN_TOKENS.lightLine}`,
+              background: 'var(--an-surface-bg-raised)',
+              border: `1px solid ${'var(--an-surface-line)'}`,
               borderRadius: 12,
               display: 'flex',
               alignItems: 'center',
@@ -558,7 +558,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                   fontFamily: AN_TOKENS.fontSerif,
                   fontSize: 'clamp(18px, 1.8vw, 22px)',
                   fontWeight: 400,
-                  color: AN_TOKENS.lightInk,
+                  color: 'var(--an-surface-ink)',
                   marginBottom: 4,
                   letterSpacing: -0.3,
                 }}
@@ -569,7 +569,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                 style={{
                   fontFamily: AN_TOKENS.fontSans,
                   fontSize: 14,
-                  color: AN_TOKENS.lightInkSoft,
+                  color: 'var(--an-surface-ink-soft)',
                 }}
               >
                 {lang === 'ko'

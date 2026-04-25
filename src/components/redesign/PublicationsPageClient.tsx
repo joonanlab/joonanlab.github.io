@@ -109,10 +109,10 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
       {/* Hero */}
       <section
         style={{
-          background: AN_TOKENS.lightBg,
-          color: AN_TOKENS.lightInk,
+          background: 'var(--an-surface-bg)',
+          color: 'var(--an-surface-ink)',
           padding: 'clamp(64px, 9vw, 100px) clamp(20px, 4vw, 32px) clamp(40px, 6vw, 60px)',
-          borderBottom: `1px solid ${AN_TOKENS.lightLine}`,
+          borderBottom: `1px solid ${'var(--an-surface-line)'}`,
         }}
       >
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
@@ -142,7 +142,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
               letterSpacing: 'clamp(-2px, -0.4vw, -4px)',
               lineHeight: 0.9,
               margin: '0 0 32px',
-              color: AN_TOKENS.lightInk,
+              color: 'var(--an-surface-ink)',
               textWrap: 'balance',
             }}
           >
@@ -163,7 +163,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
             style={{
               fontFamily: AN_TOKENS.fontSans,
               fontSize: 'clamp(15px, 1.4vw, 18px)',
-              color: AN_TOKENS.lightInkSoft,
+              color: 'var(--an-surface-ink-soft)',
               lineHeight: 1.6,
               maxWidth: 640,
               margin: 0,
@@ -181,8 +181,8 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
       <section
         style={{
           padding: '32px clamp(20px, 4vw, 32px)',
-          borderBottom: `1px solid ${AN_TOKENS.lightLine}`,
-          background: AN_TOKENS.lightBgRaised,
+          borderBottom: `1px solid ${'var(--an-surface-line)'}`,
+          background: 'var(--an-surface-bg-raised)',
           position: 'sticky',
           top: 64,
           zIndex: 10,
@@ -202,7 +202,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
             style={{
               fontFamily: AN_TOKENS.fontMono,
               fontSize: 11,
-              color: AN_TOKENS.lightInkMuted,
+              color: 'var(--an-surface-ink-muted)',
               letterSpacing: 1.5,
               textTransform: 'uppercase',
               marginRight: 12,
@@ -221,9 +221,9 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                 style={{
                   padding: '8px 16px',
                   borderRadius: 30,
-                  border: `1px solid ${active ? AN_TOKENS.red : AN_TOKENS.lightLine}`,
+                  border: `1px solid ${active ? AN_TOKENS.red : 'var(--an-surface-line)'}`,
                   background: active ? AN_TOKENS.red : 'transparent',
-                  color: active ? 'white' : AN_TOKENS.lightInk,
+                  color: active ? 'white' : 'var(--an-surface-ink)',
                   fontFamily: AN_TOKENS.fontSans,
                   fontSize: 12,
                   fontWeight: 600,
@@ -239,7 +239,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
               marginLeft: 'auto',
               fontFamily: AN_TOKENS.fontMono,
               fontSize: 12,
-              color: AN_TOKENS.lightInkMuted,
+              color: 'var(--an-surface-ink-muted)',
             }}
           >
             {filtered.length} {lang === 'ko' ? '편' : filtered.length === 1 ? 'paper' : 'papers'}
@@ -248,14 +248,14 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
       </section>
 
       {/* List */}
-      <section style={{ padding: 'clamp(48px, 8vw, 80px) clamp(20px, 4vw, 32px)', background: AN_TOKENS.lightBg }}>
+      <section style={{ padding: 'clamp(48px, 8vw, 80px) clamp(20px, 4vw, 32px)', background: 'var(--an-surface-bg)' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
           {years.length === 0 && (
             <p
               style={{
                 fontFamily: AN_TOKENS.fontSans,
                 fontSize: 16,
-                color: AN_TOKENS.lightInkMuted,
+                color: 'var(--an-surface-ink-muted)',
                 textAlign: 'center',
                 padding: '80px 0',
               }}
@@ -270,7 +270,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                   display: 'flex',
                   alignItems: 'baseline',
                   gap: 20,
-                  borderBottom: `1px solid ${AN_TOKENS.lightLine}`,
+                  borderBottom: `1px solid ${'var(--an-surface-line)'}`,
                   paddingBottom: 12,
                   marginBottom: 24,
                 }}
@@ -280,7 +280,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                     fontFamily: AN_TOKENS.fontSerif,
                     fontSize: 'clamp(36px, 5vw, 56px)',
                     fontWeight: 300,
-                    color: AN_TOKENS.lightInk,
+                    color: 'var(--an-surface-ink)',
                     letterSpacing: -2,
                     margin: 0,
                   }}
@@ -291,7 +291,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                   style={{
                     fontFamily: AN_TOKENS.fontMono,
                     fontSize: 12,
-                    color: AN_TOKENS.lightInkMuted,
+                    color: 'var(--an-surface-ink-muted)',
                   }}
                 >
                   {byYear[year].length} {lang === 'ko' ? '편' : byYear[year].length === 1 ? 'paper' : 'papers'}
@@ -307,8 +307,8 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                         gridTemplateColumns: '160px 1fr 240px',
                         gap: 24,
                         padding: '24px 28px',
-                        background: AN_TOKENS.lightBgRaised,
-                        border: `1px solid ${AN_TOKENS.lightLine}`,
+                        background: 'var(--an-surface-bg-raised)',
+                        border: `1px solid ${'var(--an-surface-line)'}`,
                         borderRadius: 10,
                       }}
                     >
@@ -354,7 +354,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                             fontFamily: AN_TOKENS.fontSerif,
                             fontSize: 19,
                             fontWeight: 400,
-                            color: AN_TOKENS.lightInk,
+                            color: 'var(--an-surface-ink)',
                             lineHeight: 1.3,
                             letterSpacing: -0.2,
                             margin: '0 0 8px',
@@ -367,7 +367,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                           style={{
                             fontFamily: AN_TOKENS.fontSans,
                             fontSize: 12.5,
-                            color: AN_TOKENS.lightInkSoft,
+                            color: 'var(--an-surface-ink-soft)',
                             lineHeight: 1.5,
                           }}
                         >
@@ -380,7 +380,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                             fontFamily: AN_TOKENS.fontSerif,
                             fontStyle: 'italic',
                             fontSize: 15,
-                            color: AN_TOKENS.lightInk,
+                            color: 'var(--an-surface-ink)',
                             marginBottom: 6,
                             textWrap: 'balance',
                           }}
@@ -404,7 +404,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                             style={{
                               fontFamily: AN_TOKENS.fontMono,
                               fontSize: 11,
-                              color: AN_TOKENS.lightInkMuted,
+                              color: 'var(--an-surface-ink-muted)',
                               letterSpacing: 1,
                               textTransform: 'uppercase',
                             }}

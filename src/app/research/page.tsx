@@ -15,10 +15,10 @@ export default function ResearchPage() {
   const areas = getResearchAreas()
 
   return (
-    <div style={{ background: AN_TOKENS.darkBg, minHeight: '100vh' }}>
-      <LabHeader theme="dark" />
+    <div style={{ background: 'var(--an-surface-bg)', minHeight: '100vh' }}>
+      <LabHeader />
       <ResearchPageClient areas={areas} />
-      <LabFooter theme="dark" />
+      <LabFooter />
     </div>
   )
 }

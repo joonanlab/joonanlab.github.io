@@ -92,6 +92,31 @@
   --an-font-serif: var(--font-source-serif, "Source Serif 4"), "Source Serif Pro", Georgia, serif;
   --an-font-sans: var(--font-inter-tight, "Inter Tight"), "Inter", system-ui, -apple-system, sans-serif;
   --an-font-mono: var(--font-jetbrains-mono, "JetBrains Mono"), "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Adaptive surface tokens — bound to data-theme. Components that should
+     follow the user's light/dark preference read these instead of the
+     fixed --an-light-* / --an-dark-* tokens. */
+  --an-surface-bg: var(--an-light-bg);
+  --an-surface-bg-raised: var(--an-light-bg-raised);
+  --an-surface-bg-alt: var(--an-light-bg-alt);
+  --an-surface-bg-glass: rgba(248, 245, 238, 0.8);
+  --an-surface-ink: var(--an-light-ink);
+  --an-surface-ink-soft: var(--an-light-ink-soft);
+  --an-surface-ink-muted: var(--an-light-ink-muted);
+  --an-surface-line: var(--an-light-line);
+  --an-surface-line-soft: var(--an-light-line-soft);
+}
+
+[data-theme="dark"] {
+  --an-surface-bg: var(--an-dark-bg);
+  --an-surface-bg-raised: var(--an-dark-bg-raised);
+  --an-surface-bg-alt: var(--an-dark-bg-raised);
+  --an-surface-bg-glass: rgba(15, 14, 13, 0.8);
+  --an-surface-ink: var(--an-dark-ink);
+  --an-surface-ink-soft: var(--an-dark-ink-soft);
+  --an-surface-ink-muted: var(--an-dark-ink-muted);
+  --an-surface-line: var(--an-dark-line);
+  --an-surface-line-soft: var(--an-dark-line-soft);
 }
 
 /* Re-declare on body so var(--font-*) resolves to the full next/font

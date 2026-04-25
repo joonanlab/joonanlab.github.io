@@ -25,8 +25,8 @@ export function ResearchPageClient({ areas }: ResearchPageClientProps) {
       {/* Page header */}
       <section
         style={{
-          background: AN_TOKENS.darkBg,
-          color: AN_TOKENS.darkInk,
+          background: 'var(--an-surface-bg)',
+          color: 'var(--an-surface-ink)',
           padding: 'clamp(64px, 9vw, 100px) clamp(20px, 4vw, 32px) clamp(48px, 7vw, 80px)',
         }}
       >
@@ -77,7 +77,7 @@ export function ResearchPageClient({ areas }: ResearchPageClientProps) {
             style={{
               fontFamily: AN_TOKENS.fontSans,
               fontSize: 'clamp(15px, 1.4vw, 19px)',
-              color: AN_TOKENS.darkInkSoft,
+              color: 'var(--an-surface-ink-soft)',
               lineHeight: 1.55,
               margin: 0,
               maxWidth: 720,
@@ -95,15 +95,15 @@ export function ResearchPageClient({ areas }: ResearchPageClientProps) {
       {areas.map((a, i) => {
         const accent = i % 2 === 0 ? AN_TOKENS.red : AN_TOKENS.gold
         const num = String(i + 1).padStart(2, '0')
-        const sectionBg = i % 2 === 1 ? AN_TOKENS.darkBgRaised : AN_TOKENS.darkBg
+        const sectionBg = i % 2 === 1 ? 'var(--an-surface-bg-raised)' : 'var(--an-surface-bg)'
         return (
           <section
             key={a.id}
             id={a.id}
             style={{
               background: sectionBg,
-              color: AN_TOKENS.darkInk,
-              borderTop: `1px solid ${AN_TOKENS.darkLine}`,
+              color: 'var(--an-surface-ink)',
+              borderTop: `1px solid ${'var(--an-surface-line)'}`,
               padding: 'clamp(64px, 9vw, 100px) clamp(20px, 4vw, 32px)',
               scrollMarginTop: 80,
             }}
@@ -160,7 +160,7 @@ export function ResearchPageClient({ areas }: ResearchPageClientProps) {
                     fontFamily: AN_TOKENS.fontSerif,
                     fontStyle: 'italic',
                     fontSize: 'clamp(17px, 1.6vw, 22px)',
-                    color: AN_TOKENS.darkInk,
+                    color: 'var(--an-surface-ink)',
                     lineHeight: 1.45,
                     margin: '0 0 24px',
                     maxWidth: 540,
@@ -176,7 +176,7 @@ export function ResearchPageClient({ areas }: ResearchPageClientProps) {
                   style={{
                     fontFamily: AN_TOKENS.fontSans,
                     fontSize: 16,
-                    color: AN_TOKENS.darkInkSoft,
+                    color: 'var(--an-surface-ink-soft)',
                     lineHeight: 1.65,
                     margin: '0 0 32px',
                     textWrap: 'pretty',
@@ -188,7 +188,7 @@ export function ResearchPageClient({ areas }: ResearchPageClientProps) {
                   style={{
                     fontFamily: AN_TOKENS.fontMono,
                     fontSize: 10,
-                    color: AN_TOKENS.darkInkMuted,
+                    color: 'var(--an-surface-ink-muted)',
                     letterSpacing: 1.5,
                     textTransform: 'uppercase',
                     marginBottom: 12,
@@ -211,8 +211,8 @@ export function ResearchPageClient({ areas }: ResearchPageClientProps) {
                         padding: '6px 12px',
                         fontFamily: AN_TOKENS.fontMono,
                         fontSize: 11,
-                        color: AN_TOKENS.darkInk,
-                        border: `1px solid ${AN_TOKENS.darkLine}`,
+                        color: 'var(--an-surface-ink)',
+                        border: `1px solid ${'var(--an-surface-line)'}`,
                         borderRadius: 30,
                       }}
                     >

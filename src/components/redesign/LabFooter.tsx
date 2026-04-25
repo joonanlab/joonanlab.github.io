@@ -15,7 +15,7 @@ interface LabFooterProps {
   theme?: AnTheme
 }
 
-export function LabFooter({ theme = 'light' }: LabFooterProps) {
+export function LabFooter({ theme = 'auto' }: LabFooterProps) {
   const { lang } = useLang()
   const p = anPalette(theme)
 

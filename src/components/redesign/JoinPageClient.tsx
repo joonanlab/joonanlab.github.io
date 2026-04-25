@@ -100,8 +100,8 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
       {/* Dark hero */}
       <section
         style={{
-          background: AN_TOKENS.darkBg,
-          color: AN_TOKENS.darkInk,
+          background: 'var(--an-surface-bg)',
+          color: 'var(--an-surface-ink)',
           padding: 'clamp(64px, 10vw, 120px) clamp(20px, 4vw, 32px) clamp(64px, 9vw, 100px)',
           position: 'relative',
           overflow: 'hidden',
@@ -165,7 +165,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
               fontFamily: AN_TOKENS.fontSerif,
               fontSize: 'clamp(17px, 1.8vw, 24px)',
               fontStyle: 'italic',
-              color: AN_TOKENS.darkInkSoft,
+              color: 'var(--an-surface-ink-soft)',
               lineHeight: 1.5,
               margin: '0 0 56px',
               maxWidth: 720,
@@ -191,8 +191,8 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                 key={i}
                 style={{
                   padding: '28px 28px 32px',
-                  background: `linear-gradient(180deg, ${AN_TOKENS.darkBgRaised} 0%, transparent 100%)`,
-                  border: `1px solid ${AN_TOKENS.darkLine}`,
+                  background: `linear-gradient(180deg, ${'var(--an-surface-bg-raised)'} 0%, transparent 100%)`,
+                  border: `1px solid ${'var(--an-surface-line)'}`,
                   borderRadius: 12,
                 }}
               >
@@ -214,7 +214,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                     fontSize: 'clamp(17px, 1.8vw, 22px)',
                     fontWeight: 300,
                     fontStyle: 'italic',
-                    color: AN_TOKENS.darkInk,
+                    color: 'var(--an-surface-ink)',
                     lineHeight: 1.35,
                     margin: '0 0 24px',
                     textWrap: 'pretty',
@@ -226,7 +226,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                   style={{
                     fontFamily: AN_TOKENS.fontMono,
                     fontSize: 10,
-                    color: AN_TOKENS.darkInkMuted,
+                    color: 'var(--an-surface-ink-muted)',
                     letterSpacing: 1,
                     textTransform: 'uppercase',
                   }}
@@ -242,9 +242,9 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
       {/* Featured Notes bridge */}
       <section
         style={{
-          background: AN_TOKENS.lightBg,
+          background: 'var(--an-surface-bg)',
           padding: 'clamp(64px, 10vw, 100px) clamp(20px, 4vw, 32px)',
-          borderBottom: `1px solid ${AN_TOKENS.lightLine}`,
+          borderBottom: `1px solid ${'var(--an-surface-line)'}`,
         }}
       >
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
@@ -279,7 +279,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                   letterSpacing: -1.5,
                   lineHeight: 1.0,
                   margin: 0,
-                  color: AN_TOKENS.lightInk,
+                  color: 'var(--an-surface-ink)',
                   textWrap: 'balance',
                 }}
               >
@@ -300,7 +300,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
               style={{
                 fontFamily: AN_TOKENS.fontSans,
                 fontSize: 16,
-                color: AN_TOKENS.lightInkSoft,
+                color: 'var(--an-surface-ink-soft)',
                 lineHeight: 1.6,
                 margin: 0,
                 maxWidth: 460,
@@ -328,8 +328,8 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                 style={{
                   display: 'block',
                   padding: '28px 28px 32px',
-                  background: AN_TOKENS.lightBgRaised,
-                  border: `1px solid ${AN_TOKENS.lightLine}`,
+                  background: 'var(--an-surface-bg-raised)',
+                  border: `1px solid ${'var(--an-surface-line)'}`,
                   borderRadius: 12,
                   textDecoration: 'none',
                   color: 'inherit',
@@ -339,7 +339,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                   style={{
                     fontFamily: AN_TOKENS.fontMono,
                     fontSize: 10,
-                    color: AN_TOKENS.lightInkMuted,
+                    color: 'var(--an-surface-ink-muted)',
                     letterSpacing: 1.5,
                     textTransform: 'uppercase',
                     marginBottom: 14,
@@ -352,7 +352,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                     fontFamily: AN_TOKENS.fontSerif,
                     fontSize: 'clamp(18px, 1.8vw, 22px)',
                     fontWeight: 400,
-                    color: AN_TOKENS.lightInk,
+                    color: 'var(--an-surface-ink)',
                     lineHeight: 1.25,
                     letterSpacing: -0.4,
                     margin: '0 0 14px',
@@ -367,7 +367,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                       fontFamily: AN_TOKENS.fontSerif,
                       fontStyle: 'italic',
                       fontSize: 14,
-                      color: AN_TOKENS.lightInkSoft,
+                      color: 'var(--an-surface-ink-soft)',
                       lineHeight: 1.55,
                       margin: '0 0 20px',
                       textWrap: 'pretty',
@@ -397,7 +397,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
               style={{
                 fontFamily: AN_TOKENS.fontSans,
                 fontSize: 14,
-                color: AN_TOKENS.lightInk,
+                color: 'var(--an-surface-ink)',
                 fontWeight: 600,
                 textDecoration: 'none',
                 borderBottom: `2px solid ${AN_TOKENS.red}`,
@@ -414,7 +414,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
       <section
         style={{
           padding: 'clamp(64px, 10vw, 120px) clamp(20px, 4vw, 32px)',
-          background: AN_TOKENS.lightBgRaised,
+          background: 'var(--an-surface-bg-raised)',
         }}
       >
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
@@ -438,7 +438,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
               letterSpacing: -2,
               lineHeight: 1.0,
               margin: '0 0 56px',
-              color: AN_TOKENS.lightInk,
+              color: 'var(--an-surface-ink)',
             }}
           >
             {lang === 'ko' ? '모집 분야' : 'Open positions.'}
@@ -458,8 +458,8 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                   key={i}
                   style={{
                     padding: '32px 36px',
-                    background: AN_TOKENS.lightBg,
-                    border: `1px solid ${AN_TOKENS.lightLine}`,
+                    background: 'var(--an-surface-bg)',
+                    border: `1px solid ${'var(--an-surface-line)'}`,
                     borderRadius: 12,
                   }}
                 >
@@ -478,7 +478,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                         fontFamily: AN_TOKENS.fontSerif,
                         fontSize: 'clamp(22px, 2.2vw, 28px)',
                         fontWeight: 400,
-                        color: AN_TOKENS.lightInk,
+                        color: 'var(--an-surface-ink)',
                         letterSpacing: -0.5,
                         margin: 0,
                       }}
@@ -492,13 +492,13 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                         gap: 6,
                         padding: '4px 10px',
                         background: hiring ? `${AN_TOKENS.red}12` : 'transparent',
-                        border: `1px solid ${hiring ? `${AN_TOKENS.red}44` : AN_TOKENS.lightLine}`,
+                        border: `1px solid ${hiring ? `${AN_TOKENS.red}44` : 'var(--an-surface-line)'}`,
                         borderRadius: 30,
                         fontFamily: AN_TOKENS.fontMono,
                         fontSize: 10,
                         letterSpacing: 1,
                         textTransform: 'uppercase',
-                        color: hiring ? AN_TOKENS.red : AN_TOKENS.lightInkMuted,
+                        color: hiring ? AN_TOKENS.red : 'var(--an-surface-ink-muted)',
                       }}
                     >
                       {hiring && (
@@ -518,7 +518,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                     style={{
                       fontFamily: AN_TOKENS.fontSans,
                       fontSize: 14.5,
-                      color: AN_TOKENS.lightInkSoft,
+                      color: 'var(--an-surface-ink-soft)',
                       lineHeight: 1.6,
                       margin: 0,
                       textWrap: 'pretty',
@@ -537,8 +537,8 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
       <section
         style={{
           padding: 'clamp(64px, 10vw, 120px) clamp(20px, 4vw, 32px)',
-          background: AN_TOKENS.lightBg,
-          borderTop: `1px solid ${AN_TOKENS.lightLine}`,
+          background: 'var(--an-surface-bg)',
+          borderTop: `1px solid ${'var(--an-surface-line)'}`,
         }}
       >
         <div style={{ maxWidth: 1080, margin: '0 auto' }}>
@@ -562,7 +562,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
               letterSpacing: -2,
               lineHeight: 1.0,
               margin: '0 0 32px',
-              color: AN_TOKENS.lightInk,
+              color: 'var(--an-surface-ink)',
               textWrap: 'balance',
             }}
           >
@@ -572,7 +572,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
             style={{
               fontFamily: AN_TOKENS.fontSans,
               fontSize: 17,
-              color: AN_TOKENS.lightInkSoft,
+              color: 'var(--an-surface-ink-soft)',
               lineHeight: 1.7,
               margin: '0 0 40px',
               maxWidth: 720,
@@ -614,8 +614,8 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
             style={{
               marginTop: 40,
               padding: '20px 24px',
-              background: AN_TOKENS.lightBgRaised,
-              border: `1px solid ${AN_TOKENS.lightLine}`,
+              background: 'var(--an-surface-bg-raised)',
+              border: `1px solid ${'var(--an-surface-line)'}`,
               borderRadius: 10,
             }}
           >
@@ -623,7 +623,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
               style={{
                 fontFamily: AN_TOKENS.fontMono,
                 fontSize: 11,
-                color: AN_TOKENS.lightInkMuted,
+                color: 'var(--an-surface-ink-muted)',
                 letterSpacing: 1.5,
                 textTransform: 'uppercase',
                 marginBottom: 10,
@@ -639,7 +639,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                 style={{
                   fontFamily: AN_TOKENS.fontSans,
                   fontSize: 14,
-                  color: AN_TOKENS.lightInk,
+                  color: 'var(--an-surface-ink)',
                   fontWeight: 500,
                   textDecoration: 'none',
                 }}
@@ -653,7 +653,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
                 style={{
                   fontFamily: AN_TOKENS.fontSans,
                   fontSize: 14,
-                  color: AN_TOKENS.lightInk,
+                  color: 'var(--an-surface-ink)',
                   fontWeight: 500,
                   textDecoration: 'none',
                 }}

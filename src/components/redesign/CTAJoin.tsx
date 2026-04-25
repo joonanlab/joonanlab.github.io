@@ -13,7 +13,7 @@ interface CTAJoinProps {
   accent?: string
 }
 
-export function CTAJoin({ theme = 'light', accent }: CTAJoinProps) {
+export function CTAJoin({ theme = 'auto', accent }: CTAJoinProps) {
   const { lang } = useLang()
   const p = anPalette(theme)
   const acc = accent ?? (theme === 'dark' ? AN_TOKENS.gold : AN_TOKENS.red)
@@ -87,7 +87,7 @@ export function CTAJoin({ theme = 'light', accent }: CTAJoinProps) {
             style={{
               padding: '14px 28px',
               background: acc,
-              color: theme === 'dark' ? AN_TOKENS.darkBg : 'white',
+              color: AN_TOKENS.darkBg,
               fontFamily: AN_TOKENS.fontSans,
               fontSize: 14,
               fontWeight: 600,

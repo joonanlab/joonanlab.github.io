@@ -31,14 +31,32 @@ export const AN_TOKENS = {
   fontMono: 'var(--an-font-mono)',
 } as const
 
-export type AnTheme = 'light' | 'dark'
+/**
+ * `'auto'` follows the user's theme via CSS variables (--an-surface-*).
+ * `'light'` and `'dark'` pin a fixed palette, useful for hero sections
+ * that should stay on one side of the toggle by design.
+ */
+export type AnTheme = 'light' | 'dark' | 'auto'
 
 /** Convenience: pick the right ink/bg/line tokens based on section theme. */
-export function anPalette(theme: AnTheme) {
+export function anPalette(theme: AnTheme = 'auto') {
+  if (theme === 'auto') {
+    return {
+      bg: 'var(--an-surface-bg)',
+      bgRaised: 'var(--an-surface-bg-raised)',
+      bgAlt: 'var(--an-surface-bg-alt)',
+      ink: 'var(--an-surface-ink)',
+      inkSoft: 'var(--an-surface-ink-soft)',
+      inkMuted: 'var(--an-surface-ink-muted)',
+      line: 'var(--an-surface-line)',
+      lineSoft: 'var(--an-surface-line-soft)',
+    }
+  }
   return theme === 'dark'
     ? {
         bg: AN_TOKENS.darkBg,
         bgRaised: AN_TOKENS.darkBgRaised,
+        bgAlt: AN_TOKENS.darkBgRaised,
         ink: AN_TOKENS.darkInk,
         inkSoft: AN_TOKENS.darkInkSoft,
         inkMuted: AN_TOKENS.darkInkMuted,
@@ -48,6 +66,7 @@ export function anPalette(theme: AnTheme) {
     : {
         bg: AN_TOKENS.lightBg,
         bgRaised: AN_TOKENS.lightBgRaised,
+        bgAlt: AN_TOKENS.lightBgAlt,
         ink: AN_TOKENS.lightInk,
         inkSoft: AN_TOKENS.lightInkSoft,
         inkMuted: AN_TOKENS.lightInkMuted,

@@ -31,7 +31,7 @@ interface LabHeaderProps {
   theme?: AnTheme
 }
 
-export function LabHeader({ theme = 'light' }: LabHeaderProps) {
+export function LabHeader({ theme = 'auto' }: LabHeaderProps) {
   const { lang, toggleLang } = useLang()
   const { resolvedTheme, setTheme } = useTheme()
   const pathname = usePathname()
@@ -51,7 +51,12 @@ export function LabHeader({ theme = 'light' }: LabHeaderProps) {
   const isActive = (href: string) =>
     href === '/' ? pathname === '/' : pathname.startsWith(href)
 
-  const headerBg = theme === 'dark' ? `${AN_TOKENS.darkBg}cc` : `${AN_TOKENS.lightBg}cc`
+  const headerBg =
+    theme === 'auto'
+      ? 'var(--an-surface-bg-glass)'
+      : theme === 'dark'
+      ? `${AN_TOKENS.darkBg}cc`
+      : `${AN_TOKENS.lightBg}cc`
 
   return (
     <>
@@ -276,7 +281,7 @@ export function LabHeader({ theme = 'light' }: LabHeaderProps) {
             className="lab-header-mobile-nav"
             style={{
               borderTop: `1px solid ${p.line}`,
-              background: theme === 'dark' ? AN_TOKENS.darkBg : AN_TOKENS.lightBg,
+              background: p.bg,
               padding: '16px clamp(16px, 4vw, 32px) 24px',
               display: 'none',
               flexDirection: 'column',

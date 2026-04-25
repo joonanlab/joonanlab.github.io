@@ -60,14 +60,14 @@ function inferBadge(text: string, lang: 'en' | 'ko'): string | undefined {
 export function NewsAndPubs({
   news,
   publications,
-  theme = 'light',
+  theme = 'auto',
   accent,
 }: NewsAndPubsProps) {
   const { lang } = useLang()
   const p = anPalette(theme)
   const acc = accent ?? AN_TOKENS.red
-  const altBg = theme === 'dark' ? AN_TOKENS.darkBgRaised : AN_TOKENS.lightBgAlt
-  const cardBg = theme === 'dark' ? AN_TOKENS.darkBg : AN_TOKENS.lightBgRaised
+  const altBg = p.bgAlt
+  const cardBg = p.bgRaised
 
   const newsItems: ParsedNews[] = news.slice(0, 6).map((n) => {
     const raw = lang === 'ko' ? n.headline_ko : n.headline

@@ -17,11 +17,11 @@ interface ResearchBentoProps {
   accent?: string
 }
 
-export function ResearchBento({ areas, theme = 'light', accent }: ResearchBentoProps) {
+export function ResearchBento({ areas, theme = 'auto', accent }: ResearchBentoProps) {
   const { lang } = useLang()
   const p = anPalette(theme)
   const acc = accent ?? (theme === 'dark' ? AN_TOKENS.gold : AN_TOKENS.red)
-  const cardBg = theme === 'dark' ? AN_TOKENS.darkBgRaised : AN_TOKENS.lightBgRaised
+  const cardBg = p.bgRaised
 
   return (
     <section

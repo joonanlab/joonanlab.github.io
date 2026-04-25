@@ -4,18 +4,14 @@
  * and LabHeader/LabFooter chrome.
  *
  * Strategy: re-bind the legacy CSS variables (--bg-*, --text-*, --accent*,
- * --border*) to the new --an-* tokens on a wrapper div, so existing markup
- * picks up the v2 palette without rewriting every component.
+ * --border*) to the adaptive --an-surface-* tokens, which themselves flip
+ * with [data-theme] in globals.css. So the existing legacy markup picks up
+ * the right palette automatically when the user toggles light/dark.
  *
- * Used by /notes, /notes/[slug], /alumni, /contact, /karc, /news, /tools
- * during the migration.
+ * Used by /notes, /notes/[slug], /alumni, /contact, /karc, /news, /tools.
  */
 
-'use client'
-
 import type { CSSProperties, ReactNode } from 'react'
-import { useEffect, useState } from 'react'
-import { useTheme } from 'next-themes'
 import { LabHeader } from './LabHeader'
 import { LabFooter } from './LabFooter'
 import { AN_TOKENS, type AnTheme } from '@/lib/redesign-tokens'
@@ -27,8 +23,30 @@ interface RedesignChromeProps {
 }
 
 /**
- * Token re-bindings for the light v2 surface. Keeps legacy var names alive
- * but serves the new An Lab cream/red/gold palette underneath them.
+ * Adaptive token bridge — legacy var names map to --an-surface-* which
+ * already flip with [data-theme]. So the bridge itself doesn't care about
+ * light vs dark; it just delegates.
+ */
+const ADAPTIVE_OVERRIDES = {
+  '--bg-primary': 'var(--an-surface-bg)',
+  '--bg-secondary': 'var(--an-surface-bg-raised)',
+  '--bg-tertiary': 'var(--an-surface-bg-alt)',
+  '--text-primary': 'var(--an-surface-ink)',
+  '--text-secondary': 'var(--an-surface-ink-soft)',
+  '--text-muted': 'var(--an-surface-ink-muted)',
+  '--accent': 'var(--an-red)',
+  '--accent-hover': 'var(--an-red-deep)',
+  '--accent-subtle': 'rgba(196, 30, 58, 0.10)',
+  '--accent-gold': 'var(--an-gold)',
+  '--border': 'var(--an-surface-line)',
+  '--border-hover': 'var(--an-surface-line)',
+  '--glass-bg': 'var(--an-surface-bg-glass)',
+  '--glass-border': 'var(--an-surface-line)',
+} as CSSProperties
+
+/**
+ * Pinned light/dark overrides — used only when the page explicitly forces
+ * a fixed theme via the `theme` prop. Most callers should not pass theme.
  */
 const LIGHT_OVERRIDES = {
   '--bg-primary': 'var(--an-light-bg)',
@@ -64,21 +82,15 @@ const DARK_OVERRIDES = {
   '--glass-border': 'var(--an-dark-line)',
 } as CSSProperties
 
-export function RedesignChrome({ children, theme }: RedesignChromeProps) {
-  const { resolvedTheme } = useTheme()
-  const [mounted, setMounted] = useState(false)
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
-  // Resolve order: explicit prop > user pref (after mount) > 'light' default.
-  // Pre-mount we render with the light surface to avoid hydration flash;
-  // next-themes attaches data-theme on <html> before paint, so the FOUC
-  // window is small.
-  const effective: AnTheme = theme ?? (mounted && resolvedTheme === 'dark' ? 'dark' : 'light')
-  const overrides = effective === 'dark' ? DARK_OVERRIDES : LIGHT_OVERRIDES
-  const bg = effective === 'dark' ? AN_TOKENS.darkBg : AN_TOKENS.lightBg
+export function RedesignChrome({ children, theme = 'auto' }: RedesignChromeProps) {
+  const overrides =
+    theme === 'auto' ? ADAPTIVE_OVERRIDES : theme === 'dark' ? DARK_OVERRIDES : LIGHT_OVERRIDES
+  const bg =
+    theme === 'auto'
+      ? 'var(--an-surface-bg)'
+      : theme === 'dark'
+      ? AN_TOKENS.darkBg
+      : AN_TOKENS.lightBg
 
   return (
     <div
@@ -89,9 +101,9 @@ export function RedesignChrome({ children, theme }: RedesignChromeProps) {
         fontFamily: AN_TOKENS.fontSans,
       }}
     >
-      <LabHeader theme={effective} />
+      <LabHeader theme={theme} />
       {children}
-      <LabFooter theme={effective} />
+      <LabFooter theme={theme} />
     </div>
   )
 }

@@ -196,8 +196,8 @@ export function ConstellationHero() {
     <section
       style={{
         position: 'relative',
-        background: AN_TOKENS.darkBg,
-        color: AN_TOKENS.darkInk,
+        background: 'var(--an-surface-bg)',
+        color: 'var(--an-surface-ink)',
         minHeight: '92vh',
         overflow: 'hidden',
       }}
@@ -244,7 +244,7 @@ export function ConstellationHero() {
           style={{
             fontFamily: AN_TOKENS.fontMono,
             fontSize: 11,
-            color: AN_TOKENS.darkInkSoft,
+            color: 'var(--an-surface-ink-soft)',
             letterSpacing: 2,
             textTransform: 'uppercase',
             display: 'flex',
@@ -280,7 +280,7 @@ export function ConstellationHero() {
                 letterSpacing: 'clamp(-2px, -0.4vw, -5px)',
                 lineHeight: 0.92,
                 margin: '0 0 32px',
-                color: AN_TOKENS.darkInk,
+                color: 'var(--an-surface-ink)',
                 maxWidth: 1200,
                 textWrap: 'balance',
               }}
@@ -317,7 +317,7 @@ export function ConstellationHero() {
                 letterSpacing: 'clamp(-2px, -0.4vw, -6px)',
                 lineHeight: 0.85,
                 margin: '0 0 32px',
-                color: AN_TOKENS.darkInk,
+                color: 'var(--an-surface-ink)',
                 maxWidth: 1200,
                 textWrap: 'balance',
               }}
@@ -358,8 +358,8 @@ export function ConstellationHero() {
               style={{
                 padding: '14px 28px',
                 background: 'transparent',
-                color: AN_TOKENS.darkInk,
-                border: `1px solid ${AN_TOKENS.darkLine}`,
+                color: 'var(--an-surface-ink)',
+                border: `1px solid ${'var(--an-surface-line)'}`,
                 fontFamily: AN_TOKENS.fontSans,
                 fontSize: 14,
                 fontWeight: 600,
