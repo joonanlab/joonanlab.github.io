@@ -55,6 +55,54 @@
   --glass-border: rgba(0, 0, 0, 0.06);
 }
 
+/* ===== Redesign tokens (from "An Lab Landing v2" handoff) =====
+   Brand-aligned but parallel to legacy --bg/--text/--accent vars.
+   Used by new <LabHeader>, <LabFooter>, redesigned page sections.
+   Always-light + always-dark variants exist because pages have
+   intrinsic light/dark sections regardless of user theme toggle. */
+:root {
+  /* Brand */
+  --an-red: #C41E3A;
+  --an-red-deep: #8B1428;
+  --an-red-ink: #3a0a13;
+  --an-gold: #C49A3C;
+
+  /* Always-light surface (cream) */
+  --an-light-bg: #F8F5EE;
+  --an-light-bg-raised: #FFFFFF;
+  --an-light-bg-alt: #F2EEE5;
+  --an-light-ink: #1a1410;
+  --an-light-ink-soft: #5a4f47;
+  --an-light-ink-muted: #8a7d72;
+  --an-light-line: rgba(26, 20, 16, 0.10);
+  --an-light-line-soft: rgba(26, 20, 16, 0.06);
+
+  /* Always-dark surface (warm near-black) */
+  --an-dark-bg: #0F0E0D;
+  --an-dark-bg-raised: #1A1816;
+  --an-dark-ink: #F5EFE3;
+  --an-dark-ink-soft: #A8A099;
+  --an-dark-ink-muted: #6F6862;
+  --an-dark-line: rgba(245, 239, 227, 0.10);
+  --an-dark-line-soft: rgba(245, 239, 227, 0.05);
+
+  /* Type families — bound to next/font CSS variables (which next.js
+     attaches to <body>). Fallbacks live inside var() so the declaration
+     stays valid even when read at :root scope. */
+  --an-font-serif: var(--font-source-serif, "Source Serif 4"), "Source Serif Pro", Georgia, serif;
+  --an-font-sans: var(--font-inter-tight, "Inter Tight"), "Inter", system-ui, -apple-system, sans-serif;
+  --an-font-mono: var(--font-jetbrains-mono, "JetBrains Mono"), "IBM Plex Mono", ui-monospace, monospace;
+}
+
+/* Re-declare on body so var(--font-*) resolves to the full next/font
+   chain (including the matched-metric Fallback class) for CLS-safe
+   rendering. Anything below body inherits these. */
+body {
+  --an-font-serif: var(--font-source-serif), "Source Serif 4", "Source Serif Pro", Georgia, serif;
+  --an-font-sans: var(--font-inter-tight), "Inter Tight", "Inter", system-ui, -apple-system, sans-serif;
+  --an-font-mono: var(--font-jetbrains-mono), "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+}
+
 /* ===== Base ===== */
 body {
   background-color: var(--bg-primary);
