@@ -19,6 +19,7 @@ const REDESIGNED_ROUTES = new Set<string>([
   '/research',
   '/team',
   '/publications',
+  '/join',
 ])
 
 export function LegacyChrome({ children }: { children: ReactNode }) {
