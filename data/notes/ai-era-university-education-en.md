@@ -4,6 +4,7 @@ date: "2025-11-10"
 summary: "Reflections on teaching with AI in university courses and on education that helps students build their own narratives."
 tags: ["education", "AI", "university", "teaching"]
 lang: "en"
+category: "Essay"
 ---
 
 I encourage my students to use AI. We already use AI in many aspects of our lives, and the classroom should be no different. But the role of university education has changed in the age of AI. It is no longer about transmitting knowledge — it is about helping each student learn to build their own narrative.

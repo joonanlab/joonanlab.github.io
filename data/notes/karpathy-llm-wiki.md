@@ -4,6 +4,7 @@ date: "2026-04-06"
 summary: "RAG vs LLM-Wiki, 그리고 Karpathy 담화에서 느낀 에이전트 시대 생물학 연구의 방향. 정보 검색에서 지식 구축으로, 코딩에서 오케스트레이션으로."
 tags: ["LLM", "RAG", "knowledge-management", "agentic-AI", "biology"]
 lang: "ko"
+category: "Essay"
 ---
 
 내일 대학원 강의를 준비하면서, 학생들에게 논문을 어떻게 읽고 정리해야 하는지, 그 연장선에서 RAG 시스템을 어떻게 쓰면 좋을지 설명하려고 자료를 정리하고 있었다. 간단한 RAG 파이프라인을 직접 짜 보면서, 어떤 방식으로 문헌을 모으고 검색되도록 엮을지 이것저것 고민하던 중이었다. 마침 주말 사이에 Karpathy가 [LLM-Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)라는 아이디어를 공유했다. 또다시 그로 인해 이번 주말이 뜨겁게 달아올랐다.

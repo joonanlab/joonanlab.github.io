@@ -4,6 +4,7 @@ date: "2026-04-08"
 summary: "This year's omics foundation research is dominated by diffusion models and synthetic enhancers. Tracing the shift from prediction to design in the gLM field."
 tags: ["genomics", "deep-learning", "enhancer"]
 lang: "en"
+category: "Genomics + AI"
 ---
 
 This year's omics foundation research is dominated by diffusion models and synthetic enhancers. This was expected, but results are emerging faster than anticipated. Omics foundation models are being developed to predict molecular layers of the central dogma — DNA, RNA, and Protein.

@@ -4,6 +4,7 @@ date: "2026-01-30"
 summary: "The architecture and limitations of AlphaGenome, its dependence on K562 data, and why data investment matters in drug discovery."
 tags: ["AlphaGenome", "drug-discovery", "K562", "foundation-model", "genomics"]
 lang: "en"
+category: "Genomics + AI"
 ---
 
 On AlphaGenome, the K562 cell line, and the limitations of AlphaGenome. On the gap between ideals and reality in drug discovery.

@@ -4,6 +4,7 @@ date: "2026-04-14"
 summary: "A few ways to connect Karpathy's LLM-Wiki with lab mentoring and teaching — building a shared knowledge base, absorbing student questions, and preparing for meetings."
 tags: ["LLM", "knowledge-management", "mentoring", "teaching", "Claude"]
 lang: "en"
+category: "Lab Notes"
 ---
 
 LLM-Wiki has brought back the pure joy of studying. It reminds me of my first days as a graduate student, filling Endnote entries as I worked through paper after paper. After spending some time with this approach, I want to share what I have noticed.

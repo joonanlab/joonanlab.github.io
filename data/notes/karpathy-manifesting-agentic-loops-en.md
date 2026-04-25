@@ -4,6 +4,7 @@ date: "2026-03-22"
 summary: "Reflections on Karpathy's latest talk. From coding to manifesting, and the difference between questions that enter the loop and those that remain outside it in biology research."
 tags: ["agentic-AI", "biology", "research", "Karpathy", "confirmation-bias"]
 lang: "en"
+category: "Essay"
 ---
 
 Karpathy's talk just dropped on YouTube. Many of you reading this are probably spending sleepless nights with his autoresearch tool. I am too. Between agentic kits and Claude, these have been absurdly exciting days. Here are some thoughts on his talk.

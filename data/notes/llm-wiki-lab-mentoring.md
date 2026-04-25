@@ -4,6 +4,7 @@ date: "2026-04-14"
 summary: "Karpathy의 LLM-Wiki를 연구실 지도와 강의에 연결하는 몇 가지 방법. 지식베이스를 공동으로 만들고, 학생들의 질문을 흡수하고, 미팅 준비까지."
 tags: ["LLM", "knowledge-management", "mentoring", "teaching", "Claude"]
 lang: "ko"
+category: "Lab Notes"
 ---
 
 LLM-Wiki 덕분에 공부하는 재미를 흠뻑 느끼고 있다. 대학원에 처음 입학했을 때 Endnote를 채워가며 논문을 읽던 시절이 떠오른다. 이 방식으로 한동안 써보면서 느낀 점들을 정리해본다.

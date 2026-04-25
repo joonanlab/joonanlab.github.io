@@ -4,6 +4,7 @@ date: "2026-04-16"
 summary: "The state of single-cell FMs in 2026. Scale-up and skeptical evaluation are happening simultaneously, and the real bottleneck is not the model but how we produce causal data."
 tags: ["single-cell", "foundation-model", "perturbation", "virtual-embryo", "data-production"]
 lang: "en"
+category: "Genomics + AI"
 ---
 
 In 2023, Nature Methods published a piece called "How to build a virtual embryo." It was the year stem cell-based embryo models were named Method of the Year, and the article cautiously introduced the concept of a computational embryo — a digital embryo you could perturb genetically, expose to drugs, and simulate outcomes. Ina Sonnen said it was "definitely a long-term endeavor," and Berna Sozen said "we will never reach perfection, but it could help us understand otherwise inaccessible developmental stages." The vision was clear, but there was no concrete path.

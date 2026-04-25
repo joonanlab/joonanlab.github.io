@@ -4,6 +4,7 @@ date: "2026-04-08"
 summary: "올해 오믹스 파운데이션 연구에서 diffusion model과 synthetic enhancer가 주를 이루고 있다. gLM 분야에서 '예측'을 넘어 '설계'로 넘어가는 흐름을 정리한다."
 tags: ["genomics", "deep-learning", "enhancer"]
 lang: "ko"
+category: "Genomics + AI"
 ---
 
 올해 오믹스 파운데이션 연구들은 diffusion model과 synthetic enhancer가 주를 이룬다. 예상은 했지만, 결과들이 더 빠르게 나오고 있다. 오믹스 파운데이션은 센트럴 도그마의 분자 층위(DNA, RNA, Protein)를 예측하는 쪽으로 개발되고 있다.

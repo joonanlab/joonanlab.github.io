@@ -119,6 +119,7 @@ export interface NotePost {
   summary: string
   tags: string[]
   lang: 'en' | 'ko' | 'both'
+  category: 'Genomics + AI' | 'Essay' | 'Lab Notes'
   content: string // HTML string
 }
 
@@ -197,6 +198,7 @@ export function getNotes(): Omit<NotePost, 'content'>[] {
       summary: (data.summary as string) || '',
       tags: (data.tags as string[]) || [],
       lang: (data.lang as 'en' | 'ko' | 'both') || 'both',
+      category: (data.category as NotePost['category']) || 'Lab Notes',
     }
   })
   return notes.sort((a, b) => (a.date > b.date ? -1 : 1))
@@ -215,6 +217,7 @@ export async function getNoteBySlug(slug: string): Promise<NotePost | null> {
     summary: (data.summary as string) || '',
     tags: (data.tags as string[]) || [],
     lang: (data.lang as 'en' | 'ko' | 'both') || 'both',
+    category: (data.category as NotePost['category']) || 'Lab Notes',
     content: result.toString(),
   }
 }

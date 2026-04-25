@@ -21,8 +21,12 @@ export default function NotesPage() {
           en="Notes"
           ko="노트"
           as="h1"
-          className="section-header mb-10"
+          className="section-header mb-3"
         />
+        <p className="text-base mb-10 max-w-xl" style={{ color: 'var(--text-secondary)' }}>
+          <span className="en-only">Essays, research commentary, and teaching materials from An Lab at Korea University.</span>
+          <span className="ko-only">An Lab의 에세이, 연구 코멘터리, 교육 자료를 모아 둔 공간입니다.</span>
+        </p>
 
         {/* Blog Posts */}
         <NotesList notes={notes} />

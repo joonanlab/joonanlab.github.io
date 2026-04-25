@@ -4,6 +4,7 @@ date: "2026-02-03"
 summary: "What in silico mutagenesis (ISM) is, why it matters, and what it means in the context of DNA foundation models."
 tags: ["AlphaGenome", "ISM", "foundation-model", "genomics"]
 lang: "en"
+category: "Genomics + AI"
 ---
 
 You need to understand AlphaGenome ([Cheng et al. 2025, Nature](https://doi.org/10.1038/s41586-025-10014-0)), DNA foundation models, and ISM (in silico mutagenesis).

@@ -9,98 +9,142 @@ import type { NotePost } from '@/lib/data'
 type NoteListItem = Omit<NotePost, 'content'>
 
 const PER_PAGE = 10
+const CATEGORIES = ['All', 'Genomics + AI', 'Essay', 'Lab Notes'] as const
+type Category = typeof CATEGORIES[number]
+
+const CAT_VAR: Record<string, string> = {
+  'Genomics + AI': 'var(--cat-genomics)',
+  'Essay':         'var(--cat-essay)',
+  'Lab Notes':     'var(--cat-notes)',
+}
 
 export function NotesList({ notes }: { notes: NoteListItem[] }) {
   const { lang } = useLang()
   const [search, setSearch] = useState('')
+  const [category, setCategory] = useState<Category>('All')
   const [page, setPage] = useState(1)
 
   const filtered = useMemo(() => {
-    const langFiltered = notes.filter(
-      (n) => n.lang === 'both' || n.lang === lang
-    )
-    if (!search) return langFiltered
-    const q = search.toLowerCase()
-    return langFiltered.filter(
-      (n) =>
-        n.title.toLowerCase().includes(q) ||
-        n.summary.toLowerCase().includes(q) ||
-        n.tags.some((t) => t.toLowerCase().includes(q))
-    )
-  }, [notes, search, lang])
+    let out = notes.filter((n) => n.lang === 'both' || n.lang === lang)
+    if (category !== 'All') out = out.filter((n) => n.category === category)
+    if (search) {
+      const q = search.toLowerCase()
+      out = out.filter(
+        (n) =>
+          n.title.toLowerCase().includes(q) ||
+          n.summary.toLowerCase().includes(q) ||
+          n.tags.some((t) => t.toLowerCase().includes(q))
+      )
+    }
+    return out
+  }, [notes, search, lang, category])
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE))
   const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE)
+  const featured = page === 1 && category === 'All' && !search ? paginated[0] : null
+  const rest = featured ? paginated.slice(1) : paginated
 
-  // Reset to page 1 when search changes
-  const handleSearch = (value: string) => {
-    setSearch(value)
+  const resetPage = <T,>(setter: (v: T) => void) => (v: T) => {
+    setter(v)
     setPage(1)
   }
 
-  if (notes.length === 0) {
-    return null
-  }
+  if (notes.length === 0) return null
 
   return (
     <div className="mb-16">
-      {/* Search */}
-      <div className="mb-6">
-        <input
-          type="text"
-          value={search}
-          onChange={(e) => handleSearch(e.target.value)}
-          className="w-full px-4 py-3 rounded-xl text-base"
-          style={{
-            background: 'var(--bg-secondary)',
-            border: '1px solid var(--border)',
-            color: 'var(--text-primary)',
-          }}
-          placeholder="Search notes..."
-        />
+      {/* Controls */}
+      <div className="notes-controls">
+        <div className="notes-search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => resetPage(setSearch)(e.target.value)}
+            placeholder={lang === 'ko' ? '검색...' : 'Search posts, tags, ideas...'}
+          />
+        </div>
+        <div className="notes-tabs" role="tablist">
+          {CATEGORIES.map((c) => (
+            <button
+              key={c}
+              role="tab"
+              aria-selected={category === c}
+              className={category === c ? 'active' : ''}
+              onClick={() => resetPage(setCategory)(c)}
+            >
+              {c}
+            </button>
+          ))}
+        </div>
       </div>
 
-      {/* Notes list */}
-      <div className="space-y-1">
-        {paginated.map((note, i) => (
+      {/* Meta bar */}
+      <div className="notes-meta-bar">
+        <span>Writing · {filtered.length} {filtered.length === 1 ? 'post' : 'posts'}</span>
+        <span style={{ textTransform: 'none', letterSpacing: 0 }}>Sort: Newest</span>
+      </div>
+
+      {/* Grid */}
+      <div className="notes-grid">
+        {featured && (
+          <Link href={`/notes/${featured.slug}`} className="note-featured">
+            <span className="note-featured-pill">
+              <span className="star">★</span> Featured · {featured.category}
+            </span>
+            <h3>{featured.title}</h3>
+            <p className="note-featured-summary">{featured.summary}</p>
+            <div className="note-featured-meta">
+              <span>{featured.date}</span>
+              <span>·</span>
+              <span className="note-featured-cta">Read note →</span>
+            </div>
+          </Link>
+        )}
+
+        {rest.map((note, i) => (
           <motion.div
             key={note.slug}
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.2, delay: i * 0.03 }}
+            style={{ display: 'contents' }}
           >
             <Link
               href={`/notes/${note.slug}`}
-              className="flex items-baseline gap-4 py-3 px-2 rounded-lg transition-colors"
-              style={{ color: 'var(--text-primary)' }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.background = 'var(--bg-secondary)'
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.background = 'transparent'
-              }}
+              className="note-card"
+              style={{ '--cat-color': CAT_VAR[note.category] } as React.CSSProperties}
             >
-              <span
-                className="text-sm shrink-0 tabular-nums"
-                style={{ color: 'var(--text-muted)', minWidth: '5.5rem' }}
-              >
-                {note.date}
-              </span>
-              <span className="text-base font-medium truncate">
-                {note.title}
-              </span>
+              <div className="note-card-meta">
+                <span className="note-card-cat">
+                  <span className="dot" style={{ background: CAT_VAR[note.category] }} />
+                  {note.category}
+                </span>
+                <span>·</span>
+                <span>{note.date}</span>
+              </div>
+              <h3>{note.title}</h3>
+              {note.summary && <p className="note-card-summary">{note.summary}</p>}
+              {note.tags.length > 0 && (
+                <div className="note-card-tags">
+                  {note.tags.slice(0, 3).map((t) => (
+                    <span key={t} className="note-card-tag">{t}</span>
+                  ))}
+                </div>
+              )}
             </Link>
           </motion.div>
         ))}
-      </div>
 
-      {/* Empty state */}
-      {filtered.length === 0 && (
-        <p className="text-center py-8" style={{ color: 'var(--text-muted)' }}>
-          <span className="en-only">No notes found.</span>
-          <span className="ko-only">검색 결과가 없습니다.</span>
-        </p>
-      )}
+        {filtered.length === 0 && (
+          <p className="notes-empty">
+            {lang === 'ko' ? '검색 결과가 없습니다.' : 'No notes found.'}
+          </p>
+        )}
+      </div>
 
       {/* Pagination */}
       {totalPages > 1 && (

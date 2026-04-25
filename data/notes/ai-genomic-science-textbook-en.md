@@ -4,6 +4,7 @@ date: "2025-11-03"
 summary: "Tracing the history of genomic AI, the rise of foundation models and virtual cells, and reflections on biology education."
 tags: ["AI", "genomics", "textbook", "foundation-model", "virtual-cell", "education"]
 lang: "en"
+category: "Lab Notes"
 ---
 
 I am writing a textbook titled "AI for Genomic Science." It is intended for my undergraduate course next year, and also serves as a personal study project. My sabbatical started in March, giving me ample time to study. While caring for a family member, I have been sitting beside them, organizing various materials. All 17 chapters have been drafted, but I plan to trim and polish them through three or four rounds of editing before releasing each chapter. Here are some thoughts from the process.

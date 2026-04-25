@@ -960,3 +960,195 @@ body.lang-ko span.ko-only { display: inline !important; }
     transform: none;
   }
 }
+
+/* ===== Notes Index — Featured + Grid layout ===== */
+
+/* Category colors (brand-aligned, theme-aware) */
+:root,
+[data-theme="light"] {
+  --cat-genomics: #8B0029;  /* crimson */
+  --cat-essay:    #A07D2E;  /* gold */
+  --cat-notes:    #1a2744;  /* navy */
+}
+[data-theme="dark"] {
+  --cat-genomics: #C41E3A;
+  --cat-essay:    #C49A3C;
+  --cat-notes:    #5b7bb8;  /* lighter navy for legibility on dark */
+}
+
+/* Control bar: search + category tabs */
+.notes-controls {
+  display: flex; gap: 12px; align-items: center; margin-bottom: 28px;
+}
+.notes-search { flex: 1; position: relative; }
+.notes-search input {
+  width: 100%;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 11px 16px 11px 40px;
+  font-size: 14px;
+  color: var(--text-primary);
+  outline: none;
+  transition: all 0.2s;
+}
+.notes-search input:focus {
+  background: var(--bg-primary);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-subtle);
+}
+.notes-search svg {
+  position: absolute; left: 13px; top: 50%; transform: translateY(-50%);
+  color: var(--text-muted);
+}
+.notes-tabs {
+  display: flex; gap: 3px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 3px;
+}
+.notes-tabs button {
+  background: transparent; border: none; color: var(--text-muted);
+  font-size: 13px; padding: 7px 13px; border-radius: 7px;
+  cursor: pointer; font-weight: 500; font-family: inherit;
+  transition: all 0.2s;
+}
+.notes-tabs button:hover { color: var(--text-primary); }
+.notes-tabs button.active {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+}
+
+/* Section meta bar */
+.notes-meta-bar {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 12px; color: var(--text-muted);
+  letter-spacing: 0.06em; text-transform: uppercase; font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Post grid */
+.notes-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px;
+}
+@media (max-width: 768px) {
+  .notes-grid { grid-template-columns: 1fr; }
+  .notes-controls { flex-direction: column; align-items: stretch; }
+}
+
+/* Standard post card */
+.note-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 22px 22px 20px;
+  text-decoration: none;
+  color: inherit;
+  display: flex; flex-direction: column; gap: 10px;
+  transition: all 0.2s;
+}
+.note-card:hover {
+  border-color: var(--cat-color, var(--accent));
+  box-shadow: 0 4px 16px var(--accent-subtle);
+  transform: translateY(-1px);
+}
+.note-card-meta {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 12px; color: var(--text-muted);
+}
+.note-card-cat {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-weight: 600; color: var(--text-primary); font-size: 12px;
+}
+.note-card-cat .dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--cat-color);
+}
+.note-card h3 {
+  font-size: 17px; font-weight: 700; line-height: 1.35;
+  letter-spacing: -0.01em; color: var(--text-primary);
+  text-wrap: balance; margin: 0;
+}
+.note-card-summary {
+  font-size: 14px; color: var(--text-secondary);
+  line-height: 1.55; margin: 0; text-wrap: pretty;
+}
+.note-card-tags {
+  display: flex; gap: 6px; flex-wrap: wrap;
+  margin-top: auto; padding-top: 6px;
+}
+.note-card-tag {
+  font-size: 11px; color: var(--text-muted);
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  padding: 3px 8px; border-radius: 5px;
+  font-weight: 500;
+}
+
+/* Featured card: spans full row */
+.note-featured {
+  grid-column: 1 / -1;
+  border-radius: 16px; padding: 32px;
+  text-decoration: none;
+  display: flex; flex-direction: column; gap: 14px;
+  min-height: 220px; justify-content: space-between;
+  transition: all 0.2s;
+  color: white;
+}
+.note-featured:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.18);
+}
+.note-featured-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 11px; font-weight: 600;
+  padding: 4px 10px; border-radius: 100px;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  align-self: flex-start;
+  background: rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.22);
+  color: white;
+}
+.note-featured-pill .star { color: var(--accent-gold); }
+.note-featured h3 {
+  font-size: 30px; font-weight: 700; line-height: 1.2;
+  letter-spacing: -0.02em; max-width: 760px;
+  text-wrap: balance; margin: 0;
+}
+.note-featured-summary {
+  font-size: 15px; opacity: 0.9; line-height: 1.55;
+  max-width: 720px; text-wrap: pretty; margin: 0;
+}
+.note-featured-meta {
+  display: flex; gap: 14px; flex-wrap: wrap;
+  font-size: 12px; opacity: 0.82;
+  margin-top: auto; align-items: center;
+}
+.note-featured-cta { font-weight: 600; opacity: 1; }
+
+/* LIGHT mode: ① Crimson hero — crimson grad + gold sparkle + navy shadow */
+[data-theme="light"] .note-featured,
+:root:not([data-theme="dark"]) .note-featured {
+  background:
+    radial-gradient(ellipse 80% 60% at 80% 0%, rgba(160, 125, 46, 0.20), transparent),
+    radial-gradient(ellipse 100% 100% at 0% 100%, rgba(26, 39, 68, 0.40), transparent),
+    linear-gradient(135deg, #8B0029 0%, rgba(139, 0, 41, 0.87) 100%);
+}
+
+/* DARK mode: ③ Navy hero — navy base + crimson + gold radial glow */
+[data-theme="dark"] .note-featured {
+  background:
+    radial-gradient(ellipse 70% 80% at 0% 100%, rgba(196, 30, 58, 0.40), transparent),
+    radial-gradient(ellipse 60% 70% at 100% 0%, rgba(196, 154, 60, 0.33), transparent),
+    linear-gradient(135deg, #1a2744 0%, #0d1429 100%);
+}
+
+/* Empty state */
+.notes-empty {
+  text-align: center; padding: 48px 0;
+  color: var(--text-muted);
+  grid-column: 1 / -1;
+}

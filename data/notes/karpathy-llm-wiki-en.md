@@ -4,6 +4,7 @@ date: "2026-04-06"
 summary: "RAG vs LLM-Wiki, and reflections from Karpathy's talk on the direction of biology research in the agentic era. From information retrieval to knowledge construction, from coding to orchestration."
 tags: ["LLM", "RAG", "knowledge-management", "agentic-AI", "biology"]
 lang: "en"
+category: "Essay"
 ---
 
 I was preparing for tomorrow's graduate lecture, organizing materials on how students should read and organize papers, and by extension, how to use RAG systems. I had been building a simple RAG pipeline myself, exploring different ways to collect literature and structure it for retrieval. Then, over the weekend, Karpathy shared an idea called [LLM-Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f). Once again, he set the weekend on fire.

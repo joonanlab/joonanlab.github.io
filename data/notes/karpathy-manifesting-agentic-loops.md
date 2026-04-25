@@ -4,6 +4,7 @@ date: "2026-03-22"
 summary: "Karpathy의 최신 담화에서 느낀 것들. 코딩에서 manifesting으로, 그리고 생물학 연구에서 루프화되는 질문과 루프 바깥에 남는 질문의 차이."
 tags: ["agentic-AI", "biology", "research", "Karpathy", "confirmation-bias"]
 lang: "ko"
+category: "Essay"
 ---
 
 Karpathy의 담화가 유튜브에 올라왔다. 이 글을 보는 분들 중 상당수가 그가 개발한 autoresearch를 쓰며 밤을 지새우고 있을 거다. 나도 그렇다. Agentic kit이나 Claude가 나오면서 진짜 말도 안 되는 흥분된 나날을 보내고 있다. 그의 담화를 듣고 든 생각을 몇 가지 적어둔다.

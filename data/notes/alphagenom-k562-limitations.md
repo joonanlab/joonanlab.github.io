@@ -4,6 +4,7 @@ date: "2026-01-30"
 summary: "알파지놈의 아키텍처와 한계, K562 데이터 의존성, 그리고 신약개발에서 데이터 투자가 왜 중요한지를 정리한다."
 tags: ["AlphaGenome", "drug-discovery", "K562", "foundation-model", "genomics"]
 lang: "ko"
+category: "Genomics + AI"
 ---
 
 알파지놈과 K562 세포주, 그리고 알파지놈의 한계. 신약개발 현실과 이상의 괴리에 대하여.

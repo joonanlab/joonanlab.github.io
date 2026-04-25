@@ -4,6 +4,7 @@ date: "2026-04-16"
 summary: "2026년 싱글셀 FM의 현주소. 스케일업과 회의적 검증이 동시에 진행되고 있고, 결국 병목은 모델이 아니라 인과적 데이터를 만드는 방식이다."
 tags: ["single-cell", "foundation-model", "perturbation", "virtual-embryo", "data-production"]
 lang: "ko"
+category: "Genomics + AI"
 ---
 
 2023년 Nature Methods에 "How to build a virtual embryo"라는 글이 실렸다. 줄기세포 기반 배아 모델이 Method of the Year로 선정된 해였고, 글은 computational embryo라는 개념을 조심스럽게 꺼내 들었다. 디지털 배아를 만들어서 유전자를 건드려보고, 약물을 넣어보고, 어떤 일이 일어나는지 시뮬레이션하자는 이야기였다. 그때 Ina Sonnen은 "이건 확실히 장기적인 과제"라고 했고, Berna Sozen은 "완벽에는 도달하지 못하겠지만, 접근 불가능한 발달 단계를 이해하는 데는 쓸 수 있을 것"이라고 했다. 비전은 분명했지만, 구체적인 경로는 아직 없었다.

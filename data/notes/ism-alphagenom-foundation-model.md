@@ -4,6 +4,7 @@ date: "2026-02-03"
 summary: "In silico mutagenesis(ISM)가 무엇이고 왜 중요한지, 그리고 DNA 파운데이션 모델에서 ISM이 갖는 의미를 정리한다."
 tags: ["AlphaGenome", "ISM", "foundation-model", "genomics"]
 lang: "ko"
+category: "Genomics + AI"
 ---
 
 알파지놈([Cheng et al. 2025, Nature](https://doi.org/10.1038/s41586-025-10014-0)), DNA 파운데이션 모델, 그리고 ISM(in silico mutagenesis)을 알아야 한다.
