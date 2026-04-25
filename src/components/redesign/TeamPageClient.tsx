@@ -471,24 +471,48 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                         <div
                           style={{
                             fontFamily: AN_TOKENS.fontSans,
-                            fontSize: 16,
+                            fontSize: 18,
                             fontWeight: 600,
                             color: AN_TOKENS.lightInk,
-                            marginBottom: 4,
+                            marginBottom: 6,
+                            letterSpacing: -0.2,
                           }}
                         >
                           {lang === 'ko' && m.name_ko ? m.name_ko : m.name}
                         </div>
-                        <div
-                          style={{
-                            fontFamily: AN_TOKENS.fontSans,
-                            fontSize: 13,
-                            color: AN_TOKENS.lightInkSoft,
-                            lineHeight: 1.4,
-                          }}
-                        >
-                          {m.info}
-                        </div>
+                        {(() => {
+                          const fellowMatch = m.info.match(/^(.+?)\s*\(([^)]+)\)\s*$/)
+                          const role = fellowMatch ? fellowMatch[1] : m.info
+                          const fellow = fellowMatch ? fellowMatch[2] : null
+                          return (
+                            <>
+                              <div
+                                style={{
+                                  fontFamily: AN_TOKENS.fontSans,
+                                  fontSize: 13,
+                                  color: AN_TOKENS.lightInkSoft,
+                                  lineHeight: 1.4,
+                                }}
+                              >
+                                {role}
+                              </div>
+                              {fellow && (
+                                <div
+                                  style={{
+                                    fontFamily: AN_TOKENS.fontSans,
+                                    fontSize: 12,
+                                    color: AN_TOKENS.gold,
+                                    lineHeight: 1.4,
+                                    marginTop: 2,
+                                    fontWeight: 500,
+                                  }}
+                                >
+                                  {fellow}
+                                </div>
+                              )}
+                            </>
+                          )
+                        })()}
                       </div>
                     </div>
                   )
