@@ -33,7 +33,7 @@ export default async function NotePostPage({ params }: { params: Promise<{ slug:
   const counterpartSlug = getCounterpartSlug(slug)
 
   return (
-    <RedesignChrome theme="light">
+    <RedesignChrome>
     <div className="pt-16 pb-16 px-6">
       <NoteLangRedirect noteLang={note.lang} counterpartSlug={counterpartSlug} />
       <div className="max-w-3xl mx-auto">

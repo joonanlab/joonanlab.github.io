@@ -11,13 +11,18 @@
  * during the migration.
  */
 
+'use client'
+
 import type { CSSProperties, ReactNode } from 'react'
+import { useEffect, useState } from 'react'
+import { useTheme } from 'next-themes'
 import { LabHeader } from './LabHeader'
 import { LabFooter } from './LabFooter'
 import { AN_TOKENS, type AnTheme } from '@/lib/redesign-tokens'
 
 interface RedesignChromeProps {
   children: ReactNode
+  /** Force a specific theme. Omit to follow the user's site-wide preference. */
   theme?: AnTheme
 }
 
@@ -59,9 +64,21 @@ const DARK_OVERRIDES = {
   '--glass-border': 'var(--an-dark-line)',
 } as CSSProperties
 
-export function RedesignChrome({ children, theme = 'light' }: RedesignChromeProps) {
-  const overrides = theme === 'dark' ? DARK_OVERRIDES : LIGHT_OVERRIDES
-  const bg = theme === 'dark' ? AN_TOKENS.darkBg : AN_TOKENS.lightBg
+export function RedesignChrome({ children, theme }: RedesignChromeProps) {
+  const { resolvedTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  // Resolve order: explicit prop > user pref (after mount) > 'light' default.
+  // Pre-mount we render with the light surface to avoid hydration flash;
+  // next-themes attaches data-theme on <html> before paint, so the FOUC
+  // window is small.
+  const effective: AnTheme = theme ?? (mounted && resolvedTheme === 'dark' ? 'dark' : 'light')
+  const overrides = effective === 'dark' ? DARK_OVERRIDES : LIGHT_OVERRIDES
+  const bg = effective === 'dark' ? AN_TOKENS.darkBg : AN_TOKENS.lightBg
 
   return (
     <div
@@ -72,9 +89,9 @@ export function RedesignChrome({ children, theme = 'light' }: RedesignChromeProp
         fontFamily: AN_TOKENS.fontSans,
       }}
     >
-      <LabHeader theme={theme} />
+      <LabHeader theme={effective} />
       {children}
-      <LabFooter theme={theme} />
+      <LabFooter theme={effective} />
     </div>
   )
 }

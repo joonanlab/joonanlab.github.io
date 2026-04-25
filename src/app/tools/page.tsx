@@ -44,7 +44,7 @@ const TOOLS = [
 
 export default function ToolsPage() {
   return (
-    <RedesignChrome theme="light">
+    <RedesignChrome>
     <div className="pt-16 pb-16 px-6">
       <div className="max-w-5xl mx-auto">
         <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Tools' }]} />

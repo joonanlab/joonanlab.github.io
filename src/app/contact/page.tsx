@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <RedesignChrome theme="light">
+    <RedesignChrome>
     <div className="pt-16 pb-16 px-6">
       <div className="max-w-4xl mx-auto">
         <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Contact' }]} />
