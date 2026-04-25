@@ -11,6 +11,7 @@
  */
 
 import { useEffect, useRef } from 'react'
+import { useTheme } from 'next-themes'
 import { useLang } from '@/contexts/LangContext'
 import { AN_TOKENS } from '@/lib/redesign-tokens'
 
@@ -29,7 +30,24 @@ interface Node {
 
 export function ConstellationHero() {
   const { lang } = useLang()
+  const { resolvedTheme } = useTheme()
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
+  // Themed ink color used for connecting lines and dim nodes. We read it via
+  // a ref so the existing rAF-driven draw loop picks up changes without
+  // having to be torn down and rebuilt on every theme toggle.
+  const inkRef = useRef<{ r: number; g: number; b: number }>({ r: 245, g: 239, b: 227 })
+  // Hook for the canvas effect to register a one-shot repaint, used so a
+  // theme change can force a redraw even when prefers-reduced-motion has
+  // disabled the rAF loop.
+  const repaintRef = useRef<() => void>(() => {})
+
+  useEffect(() => {
+    // 245,239,227 = warm cream (an-dark-ink) for the dark backdrop
+    //  26, 20, 16 = warm near-black (an-light-ink) for the cream backdrop
+    inkRef.current =
+      resolvedTheme === 'dark' ? { r: 245, g: 239, b: 227 } : { r: 26, g: 20, b: 16 }
+    repaintRef.current()
+  }, [resolvedTheme])
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -116,6 +134,7 @@ export function ConstellationHero() {
         }
       }
 
+      const ink = inkRef.current
       for (const [a, b] of edges) {
         const A = nodes[a]
         const B = nodes[b]
@@ -124,7 +143,7 @@ export function ConstellationHero() {
         const d = Math.sqrt(dx * dx + dy * dy)
         if (d > 280) continue
         const alpha = (1 - d / 280) * 0.35
-        ctx.strokeStyle = `rgba(245, 239, 227, ${alpha})`
+        ctx.strokeStyle = `rgba(${ink.r}, ${ink.g}, ${ink.b}, ${alpha})`
         ctx.lineWidth = 0.7
         ctx.beginPath()
         ctx.moveTo(A.x, A.y)
@@ -148,7 +167,7 @@ export function ConstellationHero() {
           ctx.arc(n.x, n.y, n.r + 1, 0, Math.PI * 2)
           ctx.fill()
         } else {
-          ctx.fillStyle = `rgba(245, 239, 227, ${baseAlpha * (0.7 + pulse * 0.3)})`
+          ctx.fillStyle = `rgba(${ink.r}, ${ink.g}, ${ink.b}, ${baseAlpha * (0.7 + pulse * 0.3)})`
           ctx.beginPath()
           ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2)
           ctx.fill()
@@ -163,6 +182,9 @@ export function ConstellationHero() {
 
     init()
     draw()
+    // Expose draw() so the theme-change effect can request a one-shot
+    // repaint when the rAF loop is disabled (prefers-reduced-motion).
+    repaintRef.current = () => draw()
 
     const onMove = (e: MouseEvent) => {
       if (!canvas) return
