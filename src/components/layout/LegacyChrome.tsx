@@ -16,6 +16,8 @@ import { BackToTop } from '@/components/layout/BackToTop'
 
 const REDESIGNED_ROUTES = new Set<string>([
   '/',
+  '/research',
+  '/team',
 ])
 
 export function LegacyChrome({ children }: { children: ReactNode }) {
