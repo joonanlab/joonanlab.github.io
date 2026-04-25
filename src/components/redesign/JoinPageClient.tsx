@@ -57,8 +57,8 @@ const POSITIONS = [
   {
     titleEn: 'Ph.D. Student',
     titleKo: '박사과정',
-    countEn: '2–3 positions for 2026',
-    countKo: '2026년 2–3명 모집',
+    countEn: '2–3 admitted per year',
+    countKo: '매년 2–3명 선발',
     whoEn:
       'Applicants with backgrounds in CS, statistics, biology, or bioinformatics. Coding fluency and comfort with large datasets required.',
     whoKo:
@@ -68,55 +68,22 @@ const POSITIONS = [
   {
     titleEn: 'M.S. Student',
     titleKo: '석사과정',
-    countEn: 'Rolling',
-    countKo: '상시 모집',
+    countEn: '2–3 admitted per year',
+    countKo: '매년 2–3명 선발',
     whoEn:
       'Strong interest in computational genomics and willingness to go deep on one question for 2 years.',
     whoKo: '계산유전체학에 강한 관심, 한 질문에 2년을 투자할 의지.',
-    status: 'rolling' as const,
+    status: 'hiring' as const,
   },
   {
     titleEn: 'Undergraduate Researcher',
     titleKo: '학부연구생',
-    countEn: '1–2 per semester',
-    countKo: '학기별 1–2명',
+    countEn: 'Rolling',
+    countKo: '상시 모집',
     whoEn:
       'KU undergraduates from any quantitative or biological major. Prior coding experience preferred.',
     whoKo: '고려대 정량/생물 계열 학부생. 코딩 경험 선호.',
     status: 'rolling' as const,
-  },
-]
-
-const FAQS = [
-  {
-    qEn: 'Do I need a biology background?',
-    qKo: '생물학 배경이 필요한가요?',
-    aEn:
-      'No. We have members coming from CS, physics, and statistics. What matters is intellectual curiosity and willingness to learn across disciplines.',
-    aKo:
-      '아니요. 전산·물리·통계 출신 구성원이 있습니다. 중요한 건 지적 호기심과 학제 간 학습 의지입니다.',
-  },
-  {
-    qEn: 'Do I need to speak Korean?',
-    qKo: '한국어를 해야 하나요?',
-    aEn:
-      'Lab operations and code are in English. Korean is helpful for collaborating with clinical partners but not required.',
-    aKo: '랩 운영과 코드는 영어. 임상 협력에는 한국어가 도움 되지만 필수는 아닙니다.',
-  },
-  {
-    qEn: 'Can I visit the lab before applying?',
-    qKo: '지원 전에 랩을 방문할 수 있나요?',
-    aEn:
-      'Yes. Email Prof. An to arrange a visit. Short research stays (3–12 months) are welcomed.',
-    aKo: '가능. 안 교수에게 이메일. 3–12개월 단기 방문도 환영.',
-  },
-  {
-    qEn: "What's the publication expectation?",
-    qKo: '논문 기대치는?',
-    aEn:
-      'Every member is expected to lead at least one first-author paper. We aim for substantive venues — Cell, Nature, Genome Biology — not volume.',
-    aKo:
-      '모든 구성원은 최소 하나의 1저자 논문을 이끄는 걸 기대합니다. 양보다 질 — Cell, Nature, Genome Biology 같은 저널 지향.',
   },
 ]
 
@@ -127,36 +94,6 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
     () => notes.filter((n) => n.lang === lang || n.lang === 'both').slice(0, 3),
     [notes, lang],
   )
-
-  const steps = [
-    {
-      num: '01',
-      titleEn: 'Write an email',
-      titleKo: '이메일 쓰기',
-      bodyEn:
-        'Email joonan30@korea.ac.kr. One page. No CV. Tell us which question pulls at you and why.',
-      bodyKo:
-        'joonan30@korea.ac.kr 로 한 페이지 이메일. 이력서 필요 없음. 어떤 질문이 당신을 붙잡고 있는지, 그리고 그 이유를 써주세요.',
-    },
-    {
-      num: '02',
-      titleEn: 'A 30-minute conversation',
-      titleKo: '30분 대화',
-      bodyEn:
-        'Video call. Not an interview testing answers — a conversation to see if we can think together.',
-      bodyKo:
-        '화상 통화. 답을 체크하는 면접이 아니라, 함께 생각할 수 있는지 확인하는 시간.',
-    },
-    {
-      num: '03',
-      titleEn: 'Visit (if possible)',
-      titleKo: '방문 (가능하다면)',
-      bodyEn:
-        'Come to Seoul. Meet the lab. Spend a day. This is also when you decide about us.',
-      bodyKo:
-        '서울에 오셔서 랩원들을 만나고 하루를 보내세요. 당신이 우리를 선택하는 시간이기도 합니다.',
-    },
-  ]
 
   return (
     <>
@@ -491,7 +428,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
               marginBottom: 16,
             }}
           >
-            {lang === 'ko' ? '§ 03 · 지금 열린 자리' : '§ 03 · Open positions'}
+            {lang === 'ko' ? '§ 03 · 지금 열린 모집 분야' : '§ 03 · Open positions'}
           </div>
           <h2
             style={{
@@ -504,7 +441,7 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
               color: AN_TOKENS.lightInk,
             }}
           >
-            {lang === 'ko' ? '자리' : 'Positions.'}
+            {lang === 'ko' ? '모집 분야' : 'Open positions.'}
           </h2>
           <div
             className="join-positions-grid"
@@ -624,249 +561,116 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
               fontWeight: 300,
               letterSpacing: -2,
               lineHeight: 1.0,
-              margin: '0 0 56px',
+              margin: '0 0 32px',
               color: AN_TOKENS.lightInk,
               textWrap: 'balance',
             }}
           >
             {lang === 'ko' ? (
               <>
-                간단합니다. <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>세 단계.</em>
+                <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>이메일</em> 한 통이면 됩니다.
               </>
             ) : (
               <>
-                Three steps,
-                <br />
-                <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>and no forms.</em>
+                Just <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>send an email.</em>
               </>
             )}
           </h2>
+          <p
+            style={{
+              fontFamily: AN_TOKENS.fontSans,
+              fontSize: 17,
+              color: AN_TOKENS.lightInkSoft,
+              lineHeight: 1.65,
+              margin: '0 0 40px',
+              maxWidth: 720,
+              textWrap: 'pretty',
+            }}
+          >
+            {lang === 'ko'
+              ? 'joonanlab@gmail.com 으로 한 페이지 분량의 메일을 보내주세요. 이력서는 필요 없습니다. 어떤 질문이 당신을 붙잡고 있는지, 그리고 그 이유를 써주시면 충분합니다.'
+              : 'Write to joonanlab@gmail.com. One page. No CV needed. Tell us which question pulls at you and why — that is enough to start a conversation.'}
+          </p>
 
-          <div>
-            {steps.map((s) => (
-              <div
-                key={s.num}
-                className="join-step-row"
-                style={{
-                  display: 'grid',
-                  gridTemplateColumns: '120px 1fr',
-                  gap: 24,
-                  padding: '32px 0',
-                  borderTop: `1px solid ${AN_TOKENS.lightLine}`,
-                }}
-              >
-                <div
-                  style={{
-                    fontFamily: AN_TOKENS.fontMono,
-                    fontSize: 14,
-                    color: AN_TOKENS.red,
-                    letterSpacing: 2,
-                    fontWeight: 600,
-                  }}
-                >
-                  § {s.num}
-                </div>
-                <div>
-                  <h3
-                    style={{
-                      fontFamily: AN_TOKENS.fontSerif,
-                      fontSize: 'clamp(22px, 2.4vw, 32px)',
-                      fontWeight: 400,
-                      color: AN_TOKENS.lightInk,
-                      letterSpacing: -0.8,
-                      margin: '0 0 12px',
-                    }}
-                  >
-                    {lang === 'ko' ? s.titleKo : s.titleEn}
-                  </h3>
-                  <p
-                    style={{
-                      fontFamily: AN_TOKENS.fontSans,
-                      fontSize: 16,
-                      color: AN_TOKENS.lightInkSoft,
-                      lineHeight: 1.6,
-                      margin: 0,
-                      maxWidth: 640,
-                      textWrap: 'pretty',
-                    }}
-                  >
-                    {lang === 'ko' ? s.bodyKo : s.bodyEn}
-                  </p>
-                </div>
-              </div>
-            ))}
-            <div
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 16,
+              flexWrap: 'wrap',
+            }}
+          >
+            <a
+              href="mailto:joonanlab@gmail.com"
               style={{
-                borderTop: `1px solid ${AN_TOKENS.lightLine}`,
-                paddingTop: 48,
-                marginTop: 16,
-                display: 'flex',
-                alignItems: 'center',
-                gap: 16,
-                flexWrap: 'wrap',
+                display: 'inline-block',
+                padding: '18px 36px',
+                background: AN_TOKENS.red,
+                color: 'white',
+                fontFamily: AN_TOKENS.fontSans,
+                fontSize: 15,
+                fontWeight: 600,
+                borderRadius: 8,
+                textDecoration: 'none',
               }}
             >
+              {lang === 'ko' ? 'joonanlab@gmail.com 으로 메일 →' : 'Email joonanlab@gmail.com →'}
+            </a>
+          </div>
+
+          <div
+            style={{
+              marginTop: 40,
+              padding: '20px 24px',
+              background: AN_TOKENS.lightBgRaised,
+              border: `1px solid ${AN_TOKENS.lightLine}`,
+              borderRadius: 10,
+            }}
+          >
+            <div
+              style={{
+                fontFamily: AN_TOKENS.fontMono,
+                fontSize: 11,
+                color: AN_TOKENS.lightInkMuted,
+                letterSpacing: 1.5,
+                textTransform: 'uppercase',
+                marginBottom: 10,
+              }}
+            >
+              {lang === 'ko' ? '한글 상세 모집 공고 (Notion)' : 'Detailed listings (Korean, Notion)'}
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
               <a
-                href="mailto:joonan30@korea.ac.kr"
+                href="https://joonanlab.notion.site/a1acff2799bc485bb6c9b05db1846b2e"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
-                  display: 'inline-block',
-                  padding: '18px 36px',
-                  background: AN_TOKENS.red,
-                  color: 'white',
                   fontFamily: AN_TOKENS.fontSans,
-                  fontSize: 15,
-                  fontWeight: 600,
-                  borderRadius: 8,
+                  fontSize: 14,
+                  color: AN_TOKENS.lightInk,
+                  fontWeight: 500,
                   textDecoration: 'none',
                 }}
               >
-                {lang === 'ko' ? '안 교수에게 이메일 →' : 'Email Prof. An →'}
+                {lang === 'ko' ? '박사후 연구원 모집 공고 →' : 'Postdoctoral Researcher posting →'}
               </a>
-              <span
+              <a
+                href="https://joonanlab.notion.site/e061f5837a4747a8a125714bd984046a"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
-                  fontFamily: AN_TOKENS.fontMono,
-                  fontSize: 12,
-                  color: AN_TOKENS.lightInkMuted,
+                  fontFamily: AN_TOKENS.fontSans,
+                  fontSize: 14,
+                  color: AN_TOKENS.lightInk,
+                  fontWeight: 500,
+                  textDecoration: 'none',
                 }}
               >
-                joonan30@korea.ac.kr
-              </span>
+                {lang === 'ko'
+                  ? '대학원생 및 학부연구생 모집 공고 →'
+                  : 'Graduate & Undergraduate posting →'}
+              </a>
             </div>
-
-            <div
-              style={{
-                marginTop: 32,
-                padding: '20px 24px',
-                background: AN_TOKENS.lightBgRaised,
-                border: `1px solid ${AN_TOKENS.lightLine}`,
-                borderRadius: 10,
-              }}
-            >
-              <div
-                style={{
-                  fontFamily: AN_TOKENS.fontMono,
-                  fontSize: 11,
-                  color: AN_TOKENS.lightInkMuted,
-                  letterSpacing: 1.5,
-                  textTransform: 'uppercase',
-                  marginBottom: 10,
-                }}
-              >
-                {lang === 'ko' ? '한글 상세 모집 공고 (Notion)' : 'Detailed listings (Korean, Notion)'}
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-                <a
-                  href="https://joonanlab.notion.site/a1acff2799bc485bb6c9b05db1846b2e"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    fontFamily: AN_TOKENS.fontSans,
-                    fontSize: 14,
-                    color: AN_TOKENS.lightInk,
-                    fontWeight: 500,
-                    textDecoration: 'none',
-                  }}
-                >
-                  {lang === 'ko' ? '박사후 연구원 모집 공고 →' : 'Postdoctoral Researcher posting →'}
-                </a>
-                <a
-                  href="https://joonanlab.notion.site/e061f5837a4747a8a125714bd984046a"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    fontFamily: AN_TOKENS.fontSans,
-                    fontSize: 14,
-                    color: AN_TOKENS.lightInk,
-                    fontWeight: 500,
-                    textDecoration: 'none',
-                  }}
-                >
-                  {lang === 'ko'
-                    ? '대학원생 및 학부연구생 모집 공고 →'
-                    : 'Graduate & Undergraduate posting →'}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section
-        style={{
-          padding: 'clamp(64px, 10vw, 120px) clamp(20px, 4vw, 32px)',
-          background: AN_TOKENS.lightBgRaised,
-          borderTop: `1px solid ${AN_TOKENS.lightLine}`,
-        }}
-      >
-        <div style={{ maxWidth: 1080, margin: '0 auto' }}>
-          <div
-            style={{
-              fontFamily: AN_TOKENS.fontMono,
-              fontSize: 12,
-              color: AN_TOKENS.red,
-              letterSpacing: 2,
-              textTransform: 'uppercase',
-              marginBottom: 16,
-            }}
-          >
-            {lang === 'ko' ? '§ 05 · 자주 묻는 질문' : '§ 05 · FAQ'}
-          </div>
-          <h2
-            style={{
-              fontFamily: AN_TOKENS.fontSerif,
-              fontSize: 'clamp(36px, 5vw, 56px)',
-              fontWeight: 300,
-              letterSpacing: -1.5,
-              lineHeight: 1.0,
-              margin: '0 0 56px',
-              color: AN_TOKENS.lightInk,
-            }}
-          >
-            {lang === 'ko' ? '자주 묻는 질문' : 'Things people ask.'}
-          </h2>
-          <div>
-            {FAQS.map((f, i) => (
-              <div
-                key={i}
-                className="join-faq-row"
-                style={{
-                  padding: '28px 0',
-                  borderTop: i === 0 ? `1px solid ${AN_TOKENS.lightLine}` : 'none',
-                  borderBottom: `1px solid ${AN_TOKENS.lightLine}`,
-                  display: 'grid',
-                  gridTemplateColumns: '1fr 1.3fr',
-                  gap: 48,
-                }}
-              >
-                <h3
-                  style={{
-                    fontFamily: AN_TOKENS.fontSerif,
-                    fontSize: 'clamp(18px, 1.8vw, 22px)',
-                    fontWeight: 400,
-                    color: AN_TOKENS.lightInk,
-                    letterSpacing: -0.3,
-                    margin: 0,
-                    lineHeight: 1.3,
-                    textWrap: 'balance',
-                  }}
-                >
-                  {lang === 'ko' ? f.qKo : f.qEn}
-                </h3>
-                <p
-                  style={{
-                    fontFamily: AN_TOKENS.fontSans,
-                    fontSize: 15,
-                    color: AN_TOKENS.lightInkSoft,
-                    lineHeight: 1.6,
-                    margin: 0,
-                    textWrap: 'pretty',
-                  }}
-                >
-                  {lang === 'ko' ? f.aKo : f.aEn}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -877,8 +681,6 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
           .join-notes-header { grid-template-columns: 1fr !important; gap: 24px !important; }
           .join-notes-grid { grid-template-columns: 1fr !important; }
           .join-positions-grid { grid-template-columns: 1fr !important; }
-          .join-step-row { grid-template-columns: 1fr !important; gap: 8px !important; }
-          .join-faq-row { grid-template-columns: 1fr !important; gap: 12px !important; }
         }
       `}</style>
     </>
