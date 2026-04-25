@@ -69,7 +69,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
   const shortBio = piProfile?.bio_html
     ? piProfile.bio_html
         .match(/<p>[\s\S]*?<\/p>/g)
-        ?.slice(0, 3)
+        ?.slice(0, 2)
         .join('') ?? piProfile.bio_html
     : ''
 
@@ -88,7 +88,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
         style={{
           background: AN_TOKENS.darkBg,
           color: AN_TOKENS.darkInk,
-          padding: 'clamp(64px, 10vw, 100px) clamp(20px, 4vw, 32px)',
+          padding: 'clamp(48px, 6vw, 72px) clamp(20px, 4vw, 32px)',
         }}
       >
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
@@ -99,7 +99,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
               color: AN_TOKENS.gold,
               letterSpacing: 2,
               textTransform: 'uppercase',
-              marginBottom: 32,
+              marginBottom: 24,
               display: 'flex',
               alignItems: 'center',
               gap: 12,
@@ -113,15 +113,15 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
             className="team-pi-grid"
             style={{
               display: 'grid',
-              gridTemplateColumns: '320px 1fr',
-              gap: 'clamp(32px, 6vw, 80px)',
+              gridTemplateColumns: '200px 1fr',
+              gap: 'clamp(24px, 4vw, 48px)',
               alignItems: 'start',
             }}
           >
             <div
               style={{
                 width: '100%',
-                maxWidth: 320,
+                maxWidth: 200,
                 aspectRatio: '4 / 5',
                 borderRadius: 12,
                 overflow: 'hidden',
@@ -146,11 +146,11 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
               <h1
                 style={{
                   fontFamily: AN_TOKENS.fontSerif,
-                  fontSize: 'clamp(40px, 5vw, 72px)',
+                  fontSize: 'clamp(28px, 3.6vw, 48px)',
                   fontWeight: 300,
-                  letterSpacing: -2,
-                  lineHeight: 1,
-                  margin: '0 0 12px',
+                  letterSpacing: -1.5,
+                  lineHeight: 1.05,
+                  margin: '0 0 8px',
                   textWrap: 'balance',
                 }}
               >
@@ -186,11 +186,11 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                 <div
                   style={{
                     fontFamily: AN_TOKENS.fontSerif,
-                    fontSize: 'clamp(15px, 1.4vw, 19px)',
+                    fontSize: 'clamp(14px, 1.2vw, 16px)',
                     fontStyle: 'italic',
                     color: AN_TOKENS.darkInk,
                     lineHeight: 1.55,
-                    margin: '0 0 32px',
+                    margin: '0 0 24px',
                     maxWidth: 720,
                     fontWeight: 300,
                     textWrap: 'pretty',
@@ -340,7 +340,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                 className="team-grid"
                 style={{
                   display: 'grid',
-                  gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                  gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
                   gap: 20,
                 }}
               >
@@ -353,23 +353,23 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                         border: `1px solid ${AN_TOKENS.lightLine}`,
                         borderRadius: 10,
                         display: 'grid',
-                        gridTemplateColumns: '64px 1fr',
-                        gap: 16,
+                        gridTemplateColumns: '96px 1fr',
+                        gap: 18,
                         alignItems: 'center',
                         height: '100%',
                       }}
                     >
                       <div
                         style={{
-                          width: 64,
-                          height: 64,
+                          width: 96,
+                          height: 96,
                           borderRadius: '50%',
                           overflow: 'hidden',
                           background: `linear-gradient(135deg, ${AN_TOKENS.red}22, ${AN_TOKENS.gold}33)`,
                           display: 'grid',
                           placeItems: 'center',
                           fontFamily: AN_TOKENS.fontSerif,
-                          fontSize: 22,
+                          fontSize: 28,
                           fontWeight: 400,
                           color: AN_TOKENS.red,
                           flexShrink: 0,
@@ -392,10 +392,10 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                         <div
                           style={{
                             fontFamily: AN_TOKENS.fontSans,
-                            fontSize: 15,
+                            fontSize: 16,
                             fontWeight: 600,
                             color: AN_TOKENS.lightInk,
-                            marginBottom: 2,
+                            marginBottom: 4,
                           }}
                         >
                           {lang === 'ko' && m.name_ko ? m.name_ko : m.name}
@@ -403,7 +403,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                         <div
                           style={{
                             fontFamily: AN_TOKENS.fontSans,
-                            fontSize: 12,
+                            fontSize: 13,
                             color: AN_TOKENS.lightInkSoft,
                             lineHeight: 1.4,
                           }}
