@@ -6,10 +6,14 @@
  * not the user's site-wide light/dark preference.
  *
  * Wires the EN/KO pill toggle into the existing LangContext.
+ *
+ * Below 1024px, primary nav items collapse into a hamburger drawer; brand,
+ * EN/KO pill, and hamburger remain visible.
  */
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useState } from 'react'
 import { useLang } from '@/contexts/LangContext'
 import { AN_TOKENS, anPalette, type AnTheme } from '@/lib/redesign-tokens'
 
@@ -30,150 +34,250 @@ export function LabHeader({ theme = 'light' }: LabHeaderProps) {
   const { lang, toggleLang } = useLang()
   const pathname = usePathname()
   const p = anPalette(theme)
+  const [mobileOpen, setMobileOpen] = useState(false)
 
   const isActive = (href: string) =>
     href === '/' ? pathname === '/' : pathname.startsWith(href)
 
+  const headerBg = theme === 'dark' ? `${AN_TOKENS.darkBg}cc` : `${AN_TOKENS.lightBg}cc`
+
   return (
-    <header
-      style={{
-        position: 'sticky',
-        top: 0,
-        zIndex: 50,
-        borderBottom: `1px solid ${p.line}`,
-        background: theme === 'dark' ? `${AN_TOKENS.darkBg}cc` : `${AN_TOKENS.lightBg}cc`,
-        backdropFilter: 'blur(12px)',
-        WebkitBackdropFilter: 'blur(12px)',
-      }}
-    >
-      <div
+    <>
+      <header
+        className="lab-header"
         style={{
-          maxWidth: 1280,
-          margin: '0 auto',
-          padding: '16px 32px',
-          display: 'flex',
-          alignItems: 'center',
-          gap: 32,
+          position: 'sticky',
+          top: 0,
+          zIndex: 50,
+          borderBottom: `1px solid ${p.line}`,
+          background: headerBg,
+          backdropFilter: 'blur(12px)',
+          WebkitBackdropFilter: 'blur(12px)',
         }}
       >
-        {/* Brand */}
-        <Link
-          href="/"
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-            textDecoration: 'none',
-          }}
-        >
-          <div
-            style={{
-              width: 28,
-              height: 28,
-              borderRadius: 6,
-              background: AN_TOKENS.red,
-              color: 'white',
-              display: 'grid',
-              placeItems: 'center',
-              fontFamily: AN_TOKENS.fontSans,
-              fontWeight: 800,
-              fontSize: 13,
-              letterSpacing: -0.5,
-            }}
-          >
-            AN
-          </div>
-          <span
-            style={{
-              fontFamily: AN_TOKENS.fontSans,
-              fontWeight: 600,
-              fontSize: 15,
-              color: p.ink,
-              letterSpacing: -0.1,
-            }}
-          >
-            An Lab
-          </span>
-        </Link>
-
-        <span
-          style={{
-            fontFamily: AN_TOKENS.fontSans,
-            fontSize: 13,
-            color: p.inkSoft,
-          }}
-        >
-          {lang === 'ko' ? '· 고려대학교' : '· Korea University'}
-        </span>
-
-        {/* Nav */}
-        <nav style={{ display: 'flex', gap: 4, marginLeft: 'auto' }}>
-          {NAV_ITEMS.map((item) => {
-            const active = isActive(item.href)
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                style={{
-                  padding: '7px 12px',
-                  borderRadius: 6,
-                  fontFamily: AN_TOKENS.fontSans,
-                  fontSize: 13.5,
-                  color: active ? p.ink : p.inkSoft,
-                  fontWeight: active ? 600 : 500,
-                  textDecoration: 'none',
-                  background: active ? p.lineSoft : 'transparent',
-                }}
-              >
-                {lang === 'ko' ? item.ko : item.en}
-              </Link>
-            )
-          })}
-        </nav>
-
-        {/* EN/KO pill */}
         <div
-          role="group"
-          aria-label="Language toggle"
           style={{
+            maxWidth: 1280,
+            margin: '0 auto',
+            padding: '16px clamp(16px, 4vw, 32px)',
             display: 'flex',
             alignItems: 'center',
-            border: `1px solid ${p.line}`,
-            borderRadius: 20,
-            padding: 2,
-            fontFamily: AN_TOKENS.fontSans,
-            fontSize: 11,
-            fontWeight: 600,
+            gap: 'clamp(12px, 2vw, 32px)',
           }}
         >
-          {(['en', 'ko'] as const).map((code) => {
-            const selected = lang === code
-            return (
-              <button
-                key={code}
-                type="button"
-                onClick={() => {
-                  if (!selected) toggleLang()
-                }}
-                aria-pressed={selected}
-                style={{
-                  padding: '4px 10px',
-                  borderRadius: 18,
-                  border: 0,
-                  cursor: 'pointer',
-                  background: selected ? AN_TOKENS.red : 'transparent',
-                  color: selected ? 'white' : p.inkSoft,
-                  fontFamily: 'inherit',
-                  fontSize: 'inherit',
-                  fontWeight: 'inherit',
-                }}
-              >
-                {code.toUpperCase()}
-              </button>
-            )
-          })}
+          {/* Brand */}
+          <Link
+            href="/"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 10,
+              textDecoration: 'none',
+              flexShrink: 0,
+            }}
+          >
+            <div
+              style={{
+                width: 28,
+                height: 28,
+                borderRadius: 6,
+                background: AN_TOKENS.red,
+                color: 'white',
+                display: 'grid',
+                placeItems: 'center',
+                fontFamily: AN_TOKENS.fontSans,
+                fontWeight: 800,
+                fontSize: 13,
+                letterSpacing: -0.5,
+              }}
+            >
+              AN
+            </div>
+            <span
+              style={{
+                fontFamily: AN_TOKENS.fontSans,
+                fontWeight: 600,
+                fontSize: 15,
+                color: p.ink,
+                letterSpacing: -0.1,
+                whiteSpace: 'nowrap',
+              }}
+            >
+              An Lab
+            </span>
+          </Link>
+
+          <span
+            className="lab-header-affiliation"
+            style={{
+              fontFamily: AN_TOKENS.fontSans,
+              fontSize: 13,
+              color: p.inkSoft,
+              whiteSpace: 'nowrap',
+            }}
+          >
+            {lang === 'ko' ? '· 고려대학교' : '· Korea University'}
+          </span>
+
+          {/* Desktop nav */}
+          <nav className="lab-header-nav" style={{ display: 'flex', gap: 4, marginLeft: 'auto' }}>
+            {NAV_ITEMS.map((item) => {
+              const active = isActive(item.href)
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  style={{
+                    padding: '7px 12px',
+                    borderRadius: 6,
+                    fontFamily: AN_TOKENS.fontSans,
+                    fontSize: 13.5,
+                    color: active ? p.ink : p.inkSoft,
+                    fontWeight: active ? 600 : 500,
+                    textDecoration: 'none',
+                    background: active ? p.lineSoft : 'transparent',
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  {lang === 'ko' ? item.ko : item.en}
+                </Link>
+              )
+            })}
+          </nav>
+
+          {/* EN/KO pill (always visible) */}
+          <div
+            role="group"
+            aria-label="Language toggle"
+            className="lab-header-lang"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              border: `1px solid ${p.line}`,
+              borderRadius: 20,
+              padding: 2,
+              fontFamily: AN_TOKENS.fontSans,
+              fontSize: 11,
+              fontWeight: 600,
+              flexShrink: 0,
+            }}
+          >
+            {(['en', 'ko'] as const).map((code) => {
+              const selected = lang === code
+              return (
+                <button
+                  key={code}
+                  type="button"
+                  onClick={() => {
+                    if (!selected) toggleLang()
+                  }}
+                  aria-pressed={selected}
+                  style={{
+                    padding: '4px 10px',
+                    borderRadius: 18,
+                    border: 0,
+                    cursor: 'pointer',
+                    background: selected ? AN_TOKENS.red : 'transparent',
+                    color: selected ? 'white' : p.inkSoft,
+                    fontFamily: 'inherit',
+                    fontSize: 'inherit',
+                    fontWeight: 'inherit',
+                  }}
+                >
+                  {code.toUpperCase()}
+                </button>
+              )
+            })}
+          </div>
+
+          {/* Hamburger (mobile only) */}
+          <button
+            type="button"
+            className="lab-header-hamburger"
+            aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={mobileOpen}
+            onClick={() => setMobileOpen((o) => !o)}
+            style={{
+              display: 'none',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: 36,
+              height: 36,
+              border: `1px solid ${p.line}`,
+              borderRadius: 8,
+              background: 'transparent',
+              color: p.ink,
+              cursor: 'pointer',
+              flexShrink: 0,
+            }}
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              {mobileOpen ? (
+                <>
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </>
+              ) : (
+                <>
+                  <line x1="3" y1="6" x2="21" y2="6" />
+                  <line x1="3" y1="12" x2="21" y2="12" />
+                  <line x1="3" y1="18" x2="21" y2="18" />
+                </>
+              )}
+            </svg>
+          </button>
         </div>
-      </div>
-    </header>
+
+        {/* Mobile drawer */}
+        {mobileOpen && (
+          <nav
+            className="lab-header-mobile-nav"
+            style={{
+              borderTop: `1px solid ${p.line}`,
+              background: theme === 'dark' ? AN_TOKENS.darkBg : AN_TOKENS.lightBg,
+              padding: '16px clamp(16px, 4vw, 32px) 24px',
+              display: 'none',
+              flexDirection: 'column',
+              gap: 4,
+            }}
+          >
+            {NAV_ITEMS.map((item) => {
+              const active = isActive(item.href)
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMobileOpen(false)}
+                  style={{
+                    padding: '12px 14px',
+                    borderRadius: 8,
+                    fontFamily: AN_TOKENS.fontSans,
+                    fontSize: 16,
+                    color: active ? p.ink : p.inkSoft,
+                    fontWeight: active ? 600 : 500,
+                    textDecoration: 'none',
+                    background: active ? p.lineSoft : 'transparent',
+                  }}
+                >
+                  {lang === 'ko' ? item.ko : item.en}
+                </Link>
+              )
+            })}
+          </nav>
+        )}
+      </header>
+
+      <style>{`
+        @media (max-width: 1023px) {
+          .lab-header-nav { display: none !important; }
+          .lab-header-hamburger { display: inline-flex !important; }
+          .lab-header-lang { margin-left: auto; }
+          .lab-header-mobile-nav { display: flex !important; }
+        }
+        @media (max-width: 480px) {
+          .lab-header-affiliation { display: none; }
+        }
+      `}</style>
+    </>
   )
 }

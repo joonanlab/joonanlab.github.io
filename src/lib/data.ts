@@ -112,6 +112,21 @@ export interface LocalizedContent {
 
 export type Translations = Record<string, LocalizedContent>
 
+export interface ResearchArea {
+  id: 'noncoding' | 'virtualcell' | 'autism' | 'multiomics'
+  short: string
+  shortKo: string
+  en: string
+  ko: string
+  descEn: string
+  descKo: string
+  lede: string
+  ledeKo: string
+  body: string
+  bodyKo: string
+  methods: string[]
+}
+
 export interface NotePost {
   slug: string
   title: string
@@ -163,6 +178,10 @@ export function getActivities(): ActivitiesData {
 
 export function getOutreach(): OutreachData {
   return readJSON<OutreachData>('joonan-outreach.json')
+}
+
+export function getResearchAreas(): ResearchArea[] {
+  return readJSON<ResearchArea[]>('research-areas.json')
 }
 
 export function getMemberProfile(slug: string): MemberProfile | null {

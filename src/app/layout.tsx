@@ -2,9 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, Noto_Sans_KR, Inter_Tight, JetBrains_Mono, Source_Serif_4 } from 'next/font/google'
 import { ThemeProvider } from '@/contexts/ThemeProvider'
 import { LangProvider } from '@/contexts/LangContext'
-import { Navbar } from '@/components/layout/Navbar'
-import { Footer } from '@/components/layout/Footer'
-import { BackToTop } from '@/components/layout/BackToTop'
+import { LegacyChrome } from '@/components/layout/LegacyChrome'
 import '@/styles/globals.css'
 
 const inter = Inter({
@@ -67,10 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <a href="#main-content" className="skip-link">
               Skip to content
             </a>
-            <Navbar />
-            <main id="main-content">{children}</main>
-            <Footer />
-            <BackToTop />
+            <LegacyChrome>{children}</LegacyChrome>
           </LangProvider>
         </ThemeProvider>
       </body>

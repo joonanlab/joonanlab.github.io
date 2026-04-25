@@ -1,0 +1,58 @@
+[
+  {
+    "id": "noncoding",
+    "short": "Noncoding genome",
+    "shortKo": "비암호화 유전체",
+    "en": "Deep Learning for Noncoding Genome",
+    "ko": "비암호화 유전체를 위한 딥러닝",
+    "descEn": "LLMs and deep learning for noncoding regulatory mutations in autism and neurodevelopmental disorders.",
+    "descKo": "자폐 및 신경발달장애의 비암호화 조절 돌연변이를 위한 LLM·딥러닝.",
+    "lede": "98% of the genome is noncoding. Its grammar is the real challenge — and where the signal hides.",
+    "ledeKo": "유전체의 98%는 비암호화 영역입니다. 그 문법이 진짜 도전이고, 신호가 숨어있는 곳입니다.",
+    "body": "We train large language models and deep neural networks on regulatory sequence to predict how rare and de novo variants in enhancers, promoters, and UTRs perturb gene expression. Applied to autism cohorts, this exposes risk that protein-coding analysis misses.",
+    "bodyKo": "조절 서열에 대규모 언어모델과 딥러닝을 훈련해, 인핸서·프로모터·UTR의 희귀·드노보 변이가 유전자 발현을 어떻게 교란하는지 예측합니다. 자폐 코호트에 적용하면, 단백질 코딩 분석이 놓치는 위험 신호를 드러냅니다.",
+    "methods": ["Genomic language models", "Variant effect prediction", "Massively parallel reporter assays", "Regulatory grammar learning"]
+  },
+  {
+    "id": "virtualcell",
+    "short": "Virtual cell",
+    "shortKo": "가상 세포",
+    "en": "AI-Driven Virtual Cell",
+    "ko": "AI 기반 가상 세포",
+    "descEn": "Large-scale scRNA-seq atlas + AI-driven virtual cell for risk gene discovery.",
+    "descKo": "대규모 scRNA-seq 아틀라스와 AI 기반 가상 세포 — 위험 유전자 발굴.",
+    "lede": "If we had a working model of a neuron's transcriptional state, we could perturb it in silico — thousands of variants per day.",
+    "ledeKo": "뉴런의 전사 상태를 모델링할 수 있다면, 매일 수천 개 변이를 인실리코로 교란할 수 있습니다.",
+    "body": "Assembling a large-scale scRNA-seq atlas across developing brain. Training foundation models that accept perturbation (variant, drug, knockdown) and emit cell-state shifts. The goal: a virtual cell that predicts risk gene effects before wet experiments start.",
+    "bodyKo": "발달 중인 뇌 전반의 대규모 scRNA-seq 아틀라스를 구축합니다. 교란(변이·약물·녹다운)을 입력받아 세포 상태 변화를 출력하는 파운데이션 모델을 훈련합니다. 목표: 습식 실험 전에 위험 유전자 효과를 예측하는 가상 세포.",
+    "methods": ["scRNA-seq · scATAC-seq", "Perturbation modeling", "Cell-state foundation models", "In silico screens"]
+  },
+  {
+    "id": "autism",
+    "short": "Autism genetics",
+    "shortKo": "자폐 유전학",
+    "en": "Genetic Architecture of Autism",
+    "ko": "자폐의 유전적 구조",
+    "descEn": "Long-read WGS in one of the largest Korean cohorts — autism genetics in East Asian populations.",
+    "descKo": "롱리드 WGS · 동아시아 최대 규모 한국 코호트 — 자폐 유전학.",
+    "lede": "Autism genetics has been told largely through European cohorts. We are building the East Asian chapter.",
+    "ledeKo": "자폐 유전학은 주로 유럽 코호트를 통해 이야기되어 왔습니다. 우리는 동아시아의 장을 쓰고 있습니다.",
+    "body": "Long-read whole-genome sequencing of one of the largest Korean autism cohorts. Quad and family-based designs, structural variants, and within-family phenotypic deviation (WFSD) to measure de novo mutation impact. Work with clinicians at Seoul National University Bundang Hospital.",
+    "bodyKo": "한국 최대 규모 자폐 코호트의 롱리드 WGS. 쿼드/가족 기반 설계, 구조 변이, 그리고 드노보 돌연변이 영향을 측정하는 가족 내 표현형 편차(WFSD). 분당서울대병원 임상진과 협력합니다.",
+    "methods": ["Long-read WGS", "Trio/quad genetics", "Structural variants", "WFSD methodology"]
+  },
+  {
+    "id": "multiomics",
+    "short": "Multi-omics",
+    "shortKo": "멀티오믹스",
+    "en": "Integrative Multi-omics",
+    "ko": "통합 멀티오믹스",
+    "descEn": "Genomics, transcriptomics, proteomics — systems approaches to complex disorders.",
+    "descKo": "유전체·전사체·단백질체 통합 — 복합 질환의 시스템 접근.",
+    "lede": "Complex disease lives across omic layers. Genomics alone is a shadow on the wall.",
+    "ledeKo": "복합 질환은 여러 오믹스 층에 걸쳐 존재합니다. 유전체만 보는 건 벽에 비친 그림자를 보는 겁니다.",
+    "body": "Integrative analyses spanning genomics, transcriptomics, and proteomics — applied to cancer (non-small cell lung), neurodegeneration (Alzheimer's), and neurodevelopment. Published in Nature Communications, Genome Biology, Genome Medicine.",
+    "bodyKo": "유전체·전사체·단백질체를 아우르는 통합 분석 — 암(비소세포폐암), 신경퇴행(알츠하이머), 신경발달에 적용. Nature Communications, Genome Biology, Genome Medicine 게재.",
+    "methods": ["Proteogenomics", "GWAS + eQTL + pQTL", "Cumulative risk modeling", "Cross-disorder pleiotropy"]
+  }
+]
