@@ -35,8 +35,8 @@
     "ko": "자폐의 유전적 구조",
     "descEn": "Long-read WGS in one of the largest Korean cohorts — autism genetics in East Asian populations.",
     "descKo": "롱리드 WGS · 동아시아 최대 규모 한국 코호트 — 자폐 유전학.",
-    "lede": "Autism genetics has been told largely through European cohorts. We are building the East Asian chapter.",
-    "ledeKo": "자폐 유전학은 주로 유럽 코호트를 통해 이야기되어 왔습니다. 우리는 동아시아의 장을 쓰고 있습니다.",
+    "lede": "Autism genetics has been told largely through European cohorts. We study Korean autism families.",
+    "ledeKo": "자폐 유전학은 주로 유럽 코호트를 통해 이야기되어 왔습니다. 우리는 한국인 자폐 가족을 연구합니다.",
     "body": "Long-read whole-genome sequencing of one of the largest Korean autism cohorts. Quad and family-based designs, structural variants, and within-family phenotypic deviation (WFSD) to measure de novo mutation impact. Work with clinicians at Seoul National University Bundang Hospital.",
     "bodyKo": "한국 최대 규모 자폐 코호트의 롱리드 WGS. 쿼드/가족 기반 설계, 구조 변이, 그리고 드노보 돌연변이 영향을 측정하는 가족 내 표현형 편차(WFSD). 분당서울대병원 임상진과 협력합니다.",
     "methods": ["Long-read WGS", "Trio/quad genetics", "Structural variants", "WFSD methodology"]

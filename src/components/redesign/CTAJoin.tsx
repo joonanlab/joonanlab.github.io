@@ -78,8 +78,8 @@ export function CTAJoin({ theme = 'light', accent }: CTAJoinProps) {
           }}
         >
           {lang === 'ko'
-            ? '박사과정, 박사후연구원, 학부연구생 — 생물학과 계산 양쪽 모두에 끌리는 분이라면 이야기 나눠보고 싶습니다.'
-            : 'PhD students, postdocs, and undergraduate researchers — if biology and computation both pull at you, we want to hear from you.'}
+            ? '박사과정, 박사후연구원, 학부연구생 — 인공지능을 활용한 생물학 연구에 관심 있는 분들을 기다립니다.'
+            : 'PhD students, postdocs, and undergraduate researchers — we’re looking for people drawn to AI-powered biology research.'}
         </p>
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
           <Link

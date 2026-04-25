@@ -63,7 +63,7 @@ export function ResearchPageClient({ areas }: ResearchPageClientProps) {
               <>
                 유전체·세포·뇌 —
                 <br />
-                <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>한 질문의</em> 네 궤도
+                <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>한 질문의</em> 네 시선
               </>
             ) : (
               <>
