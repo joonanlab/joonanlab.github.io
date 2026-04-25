@@ -1,8 +1,10 @@
 'use client'
 
 /**
- * LabFooter — 4-column footer for the v2 redesign.
- * Identity / Lab links / Connect links / Contact.
+ * LabFooter — minimal 2-column footer: lab identity + Contact link.
+ * The earlier Lab/Connect link columns were dropped because the same
+ * routes already live in the header nav, and the footer's job here
+ * is just to say who we are and where to reach us.
  */
 
 import Link from 'next/link'
@@ -13,57 +15,9 @@ interface LabFooterProps {
   theme?: AnTheme
 }
 
-interface FooterLink {
-  href: string
-  en: string
-  ko: string
-  external?: boolean
-}
-
-const LAB_LINKS: FooterLink[] = [
-  { href: '/research', en: 'Research', ko: '연구' },
-  { href: '/team', en: 'Team', ko: '구성원' },
-  { href: '/publications', en: 'Publications', ko: '논문' },
-  { href: '/news', en: 'News', ko: '소식' },
-]
-
-const CONNECT_LINKS: FooterLink[] = [
-  { href: 'https://github.com/joonanlab', en: 'GitHub', ko: 'GitHub', external: true },
-  {
-    href: 'https://scholar.google.com/citations?user=GhUq2cIAAAAJ',
-    en: 'Google Scholar',
-    ko: 'Google Scholar',
-    external: true,
-  },
-  { href: '/notes', en: 'Notes', ko: '노트' },
-]
-
 export function LabFooter({ theme = 'light' }: LabFooterProps) {
   const { lang } = useLang()
   const p = anPalette(theme)
-
-  const renderLink = (item: FooterLink) => {
-    const label = lang === 'ko' ? item.ko : item.en
-    const style = {
-      fontSize: 13,
-      color: p.ink,
-      textDecoration: 'none',
-      display: 'block',
-      marginBottom: 6,
-    } as const
-    if (item.external) {
-      return (
-        <a key={item.en} href={item.href} target="_blank" rel="noopener noreferrer" style={style}>
-          {label}
-        </a>
-      )
-    }
-    return (
-      <Link key={item.en} href={item.href} style={style}>
-        {label}
-      </Link>
-    )
-  }
 
   return (
     <footer
@@ -79,7 +33,7 @@ export function LabFooter({ theme = 'light' }: LabFooterProps) {
           maxWidth: 1280,
           margin: '0 auto',
           display: 'grid',
-          gridTemplateColumns: '2fr 1fr 1fr 1fr',
+          gridTemplateColumns: '2fr 1fr',
           gap: 48,
         }}
       >
@@ -128,36 +82,7 @@ export function LabFooter({ theme = 'light' }: LabFooterProps) {
           </div>
         </div>
 
-        <div>
-          <div
-            style={{
-              fontSize: 11,
-              color: p.inkSoft,
-              textTransform: 'uppercase',
-              letterSpacing: 1,
-              marginBottom: 12,
-            }}
-          >
-            {lang === 'ko' ? '연구실' : 'Lab'}
-          </div>
-          {LAB_LINKS.map(renderLink)}
-        </div>
-
-        <div>
-          <div
-            style={{
-              fontSize: 11,
-              color: p.inkSoft,
-              textTransform: 'uppercase',
-              letterSpacing: 1,
-              marginBottom: 12,
-            }}
-          >
-            {lang === 'ko' ? '연결' : 'Connect'}
-          </div>
-          {CONNECT_LINKS.map(renderLink)}
-        </div>
-
+        {/* Contact */}
         <div>
           <div
             style={{
