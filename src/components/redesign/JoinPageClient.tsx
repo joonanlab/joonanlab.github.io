@@ -566,30 +566,22 @@ export function JoinPageClient({ notes }: JoinPageClientProps) {
               textWrap: 'balance',
             }}
           >
-            {lang === 'ko' ? (
-              <>
-                <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>이메일</em> 한 통이면 됩니다.
-              </>
-            ) : (
-              <>
-                Just <em style={{ color: AN_TOKENS.red, fontStyle: 'italic' }}>send an email.</em>
-              </>
-            )}
+            {lang === 'ko' ? '지원 방법' : 'How to apply.'}
           </h2>
           <p
             style={{
               fontFamily: AN_TOKENS.fontSans,
               fontSize: 17,
               color: AN_TOKENS.lightInkSoft,
-              lineHeight: 1.65,
+              lineHeight: 1.7,
               margin: '0 0 40px',
               maxWidth: 720,
               textWrap: 'pretty',
             }}
           >
             {lang === 'ko'
-              ? 'joonanlab@gmail.com 으로 한 페이지 분량의 메일을 보내주세요. 이력서는 필요 없습니다. 어떤 질문이 당신을 붙잡고 있는지, 그리고 그 이유를 써주시면 충분합니다.'
-              : 'Write to joonanlab@gmail.com. One page. No CV needed. Tell us which question pulls at you and why — that is enough to start a conversation.'}
+              ? '관심 있으신 분은 joonanlab@gmail.com 으로 본인의 연구 관심사와 이력서를 함께 보내주시기 바랍니다. 박사후연구원, 대학원생, 학부연구생 모두 동일한 채널로 지원받고 있습니다.'
+              : 'If you are interested in our work, please send a brief email to joonanlab@gmail.com with a description of your research interests and your CV. The same address handles applications for postdoctoral, graduate, and undergraduate positions.'}
           </p>
 
           <div
