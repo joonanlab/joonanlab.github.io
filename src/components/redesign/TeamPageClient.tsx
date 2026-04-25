@@ -399,61 +399,6 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
             </div>
           </div>
 
-          {/* Alumni CTA — sits between members header and the role groups */}
-          <div
-            style={{
-              marginBottom: 48,
-              padding: '20px 28px',
-              background: AN_TOKENS.lightBgRaised,
-              border: `1px solid ${AN_TOKENS.lightLine}`,
-              borderRadius: 12,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              gap: 20,
-              flexWrap: 'wrap',
-            }}
-          >
-            <div>
-              <div
-                style={{
-                  fontFamily: AN_TOKENS.fontSerif,
-                  fontSize: 'clamp(18px, 1.8vw, 22px)',
-                  fontWeight: 400,
-                  color: AN_TOKENS.lightInk,
-                  marginBottom: 4,
-                  letterSpacing: -0.3,
-                }}
-              >
-                {lang === 'ko' ? '졸업생을 찾으시나요?' : 'Looking for our alumni?'}
-              </div>
-              <div
-                style={{
-                  fontFamily: AN_TOKENS.fontSans,
-                  fontSize: 14,
-                  color: AN_TOKENS.lightInkSoft,
-                }}
-              >
-                {lang === 'ko'
-                  ? '랩을 거쳐간 도반들의 현재 행보를 확인해보세요.'
-                  : 'See where our former doban have moved on to.'}
-              </div>
-            </div>
-            <Link
-              href="/alumni"
-              style={{
-                fontFamily: AN_TOKENS.fontSans,
-                fontSize: 14,
-                fontWeight: 600,
-                color: AN_TOKENS.red,
-                textDecoration: 'none',
-                whiteSpace: 'nowrap',
-              }}
-            >
-              {lang === 'ko' ? '졸업생 →' : 'Alumni →'}
-            </Link>
-          </div>
-
           {sections.map(({ role, members: list }) => (
             <div key={role.id} style={{ marginBottom: 56 }}>
               <div
@@ -567,6 +512,61 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
               </div>
             </div>
           ))}
+
+          {/* Alumni CTA — sits at the bottom, after current members */}
+          <div
+            style={{
+              marginTop: 24,
+              padding: '20px 28px',
+              background: AN_TOKENS.lightBgRaised,
+              border: `1px solid ${AN_TOKENS.lightLine}`,
+              borderRadius: 12,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: 20,
+              flexWrap: 'wrap',
+            }}
+          >
+            <div>
+              <div
+                style={{
+                  fontFamily: AN_TOKENS.fontSerif,
+                  fontSize: 'clamp(18px, 1.8vw, 22px)',
+                  fontWeight: 400,
+                  color: AN_TOKENS.lightInk,
+                  marginBottom: 4,
+                  letterSpacing: -0.3,
+                }}
+              >
+                {lang === 'ko' ? '졸업생을 찾으시나요?' : 'Looking for our alumni?'}
+              </div>
+              <div
+                style={{
+                  fontFamily: AN_TOKENS.fontSans,
+                  fontSize: 14,
+                  color: AN_TOKENS.lightInkSoft,
+                }}
+              >
+                {lang === 'ko'
+                  ? '랩을 거쳐간 도반들의 현재 행보를 확인해보세요.'
+                  : 'See where our former doban have moved on to.'}
+              </div>
+            </div>
+            <Link
+              href="/alumni"
+              style={{
+                fontFamily: AN_TOKENS.fontSans,
+                fontSize: 14,
+                fontWeight: 600,
+                color: AN_TOKENS.red,
+                textDecoration: 'none',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {lang === 'ko' ? '졸업생 →' : 'Alumni →'}
+            </Link>
+          </div>
         </div>
       </section>
     </>
