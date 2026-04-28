@@ -174,6 +174,66 @@
       "date": "2024/11/14",
       "event": "Bio Future Forum 2024",
       "title": "Bio Big Data: From Observation to Prediction and Inference"
+    },
+    {
+      "date": "2025/9/22",
+      "event": "6th Rare Genetic Disease Symposium, Session 1: Basic Research for Neuromuscular Diseases",
+      "title": "인공지능을 활용한 오믹스 연구"
+    },
+    {
+      "date": "2025/10/2",
+      "event": "KSMCB 2025 AWS Korea Luncheon Symposium",
+      "title": "User experience in AWS and AWS HealthOmics"
+    },
+    {
+      "date": "2025/10/31",
+      "event": "Korean Society of Biological Psychiatry",
+      "title": "인공지능을 활용한 오믹스 연구"
+    },
+    {
+      "date": "2025/11/7",
+      "event": "KALC 2025",
+      "title": "한국인 폐암 멀티오믹스 연구"
+    },
+    {
+      "date": "2025/11/13",
+      "event": "International Conference of the Genetics Society of Korea 2025",
+      "title": "한국인 폐암 멀티오믹스 연구"
+    },
+    {
+      "date": "2025/11/14",
+      "event": "Hanyang University Hospital Advanced Regenerative Medicine Center and Cell Therapy Center Joint Symposium",
+      "title": "인공지능을 활용한 오믹스 연구"
+    },
+    {
+      "date": "2025/11/18",
+      "event": "KOBIC Genome and Omics Production Institution Performance Exchange Workshop",
+      "title": "유전체 고도분석 위탁과제 (2) - 전장유전체 기반 변이분석 정확도 개선을 위한 통계보정 방법론 개발 및 변이정보 큐레이션"
+    },
+    {
+      "date": "2025/11/27",
+      "event": "2nd Single-Cell Symposium",
+      "title": "AI-driven framework modelling perturbation in brain organoids reveals candidate genes for autism"
+    },
+    {
+      "date": "2025/12/10",
+      "event": "Division of Future Medicine Symposium",
+      "title": "인공지능을 활용한 오믹스 연구"
+    },
+    {
+      "date": "2025/12/18",
+      "event": "Korean Society for Integrative Biology Annual Meeting, Multiomics and Data Science Session",
+      "title": "한국인 자폐 멀티오믹스 연구"
+    },
+    {
+      "date": "2025/12/19",
+      "event": "4th Bio-Research Resources Performance Exchange Meeting",
+      "title": "한국인 자폐 코호트의 WGS 기반 유전적 이질성 연구"
+    },
+    {
+      "date": "2026/2/6",
+      "event": "22nd KOGO Winter Symposium, S11. Rare and Complex Disease",
+      "title": "한국인 자폐 전장유전체 연구"
     }
   ],
   "seminars": [
@@ -576,6 +636,21 @@
       "date": "2024/10/21",
       "event": "Graduate Seminar Series (Samsung Advanced Institute for Health Sciences & Technology)",
       "title": "Introduction to Multi-Omics Analysis"
+    },
+    {
+      "date": "2025/12",
+      "event": "Personalized Toxicity Initiative (PTI) Inaugural Meeting, Ministry of Food and Drug Safety",
+      "title": "AI 활용 예측 및 질병 치료 실마리 제공"
+    },
+    {
+      "date": "2025/12/23",
+      "event": "Translational Genomics Center Working Group Seminar, Samsung Medical Center",
+      "title": "싱글셀 아틀라스를 이용한 가상세포 연구"
+    },
+    {
+      "date": "2026/4/23",
+      "event": "GISTeR-CWS Joint Webinar",
+      "title": "자폐의 성차"
     }
   ]
 }
