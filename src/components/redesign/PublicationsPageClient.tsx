@@ -4,8 +4,8 @@
  * PublicationsPageClient — v2 publications page.
  * Light theme, topic filter + year groups.
  *
- * The repo's publications.json doesn't carry an explicit topic tag, so we
- * derive a single best-fit topic per paper from title/journal keywords.
+ * publications.json can carry explicit topic tags. We also derive fallback
+ * topics from title/journal keywords so older entries stay browsable.
  * "Highlights" surfaces papers with highlight === 1.
  */
 
@@ -20,15 +20,19 @@ type Topic =
   | 'Noncoding'
   | 'Cancer'
   | 'Alzheimer'
+  | 'NeuralCircuit'
+  | 'GeneticDiagnosis'
   | 'Review'
   | 'Other'
 
 const TOPIC_ORDER: Topic[] = [
   'Highlights',
   'Autism',
+  'NeuralCircuit',
   'Noncoding',
   'Cancer',
   'Alzheimer',
+  'GeneticDiagnosis',
   'Review',
 ]
 
@@ -38,31 +42,69 @@ const TOPIC_KO: Record<Topic, string> = {
   Noncoding: '비암호화',
   Cancer: '암',
   Alzheimer: '알츠하이머',
+  NeuralCircuit: '신경회로',
+  GeneticDiagnosis: '유전진단',
   Review: '리뷰',
   Other: '기타',
 }
 
-function deriveTopic(pub: Publication): Topic {
+const TOPIC_EN: Record<Topic, string> = {
+  Highlights: 'Highlights',
+  Autism: 'Autism',
+  Noncoding: 'Noncoding',
+  Cancer: 'Cancer',
+  Alzheimer: 'Alzheimer',
+  NeuralCircuit: 'Neural Circuit',
+  GeneticDiagnosis: 'Genetic Diagnosis',
+  Review: 'Review',
+  Other: 'Other',
+}
+
+function normalizeTopicTag(tag: string): Topic | null {
+  const normalized = tag.trim().toLowerCase().replace(/[\s_-]+/g, '')
+  if (normalized === 'autism' || normalized === '자폐') return 'Autism'
+  if (normalized === 'noncoding' || normalized === '비암호화') return 'Noncoding'
+  if (normalized === 'cancer' || normalized === '암') return 'Cancer'
+  if (normalized === 'alzheimer' || normalized === 'alzheimers' || normalized === '알츠하이머') return 'Alzheimer'
+  if (normalized === 'neuralcircuit' || normalized === 'neuralcircuits' || normalized === '신경회로') return 'NeuralCircuit'
+  if (normalized === 'geneticdiagnosis' || normalized === '유전진단') return 'GeneticDiagnosis'
+  if (normalized === 'review' || normalized === '리뷰') return 'Review'
+  return null
+}
+
+function addTopic(topics: Topic[], topic: Topic) {
+  if (!topics.includes(topic)) topics.push(topic)
+}
+
+function deriveTopics(pub: Publication): Topic[] {
   const blob = `${pub.title} ${pub.journal}`.toLowerCase()
+  const topics: Topic[] = []
+
+  for (const tag of pub.tags ?? []) {
+    const topic = normalizeTopicTag(tag)
+    if (topic) addTopic(topics, topic)
+  }
+
   if (
     pub.type === 'review' ||
     /\breview\b|\bperspective\b|opinion in/i.test(blob) ||
     /annual review/i.test(pub.journal)
   )
-    return 'Review'
-  if (/alzheimer/.test(blob)) return 'Alzheimer'
-  if (/cancer|tumor|oncolog|carcinoma|leukemi/.test(blob)) return 'Cancer'
+    addTopic(topics, 'Review')
+  if (/alzheimer/.test(blob)) addTopic(topics, 'Alzheimer')
+  if (/cancer|tumou?r|oncolog|carcinoma|leukemi|glioblastoma|melanoma/.test(blob)) addTopic(topics, 'Cancer')
   if (
     /autism|asd|de novo|neurodevelopmental|psychiatr|spectrum disorder/.test(blob)
   )
-    return 'Autism'
+    addTopic(topics, 'Autism')
   if (
     /noncoding|regulator|enhancer|promoter|untranslated|utr|chromatin|epigenom|atac/.test(
       blob,
     )
   )
-    return 'Noncoding'
-  return 'Other'
+    addTopic(topics, 'Noncoding')
+  if (topics.length === 0) addTopic(topics, 'Other')
+  return topics
 }
 
 interface PublicationsPageClientProps {
@@ -74,7 +116,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
   const [filter, setFilter] = useState<Topic | 'All'>('All')
 
   const enriched = useMemo(
-    () => publications.map((p) => ({ pub: p, topic: deriveTopic(p) })),
+    () => publications.map((p) => ({ pub: p, topics: deriveTopics(p) })),
     [publications],
   )
 
@@ -82,7 +124,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
     if (filter === 'All') return enriched
     if (filter === 'Highlights')
       return enriched.filter(({ pub }) => pub.highlight === 1)
-    return enriched.filter(({ topic }) => topic === filter)
+    return enriched.filter(({ topics }) => topics.includes(filter))
   }, [enriched, filter])
 
   const byYear = useMemo(() => {
@@ -102,7 +144,7 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
   const labelFor = (t: 'All' | Topic) => {
     if (t === 'All') return lang === 'ko' ? '전체' : 'All'
     if (lang === 'ko') return TOPIC_KO[t]
-    return t
+    return TOPIC_EN[t]
   }
 
   return (
@@ -299,7 +341,8 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                 </span>
               </div>
               <div style={{ display: 'grid', gap: 16 }}>
-                {byYear[year].map(({ pub, topic }, i) => {
+                {byYear[year].map(({ pub, topics }, i) => {
+                  const visibleTopics = topics.filter((topic) => topic !== 'Other')
                   const cardInner = (
                     <div
                       className="pub-row"
@@ -321,17 +364,34 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
                           paddingTop: 4,
                         }}
                       >
-                        <span
-                          style={{
-                            fontFamily: AN_TOKENS.fontMono,
-                            fontSize: 11,
-                            color: AN_TOKENS.red,
-                            letterSpacing: 1.5,
-                            textTransform: 'uppercase',
-                          }}
-                        >
-                          {lang === 'ko' && topic !== 'Other' ? TOPIC_KO[topic] : topic === 'Other' ? '—' : topic}
-                        </span>
+                        {visibleTopics.length > 0 ? (
+                          visibleTopics.slice(0, 3).map((topic) => (
+                            <span
+                              key={topic}
+                              style={{
+                                fontFamily: AN_TOKENS.fontMono,
+                                fontSize: 11,
+                                color: AN_TOKENS.red,
+                                letterSpacing: 1.5,
+                                textTransform: 'uppercase',
+                              }}
+                            >
+                              {lang === 'ko' ? TOPIC_KO[topic] : TOPIC_EN[topic]}
+                            </span>
+                          ))
+                        ) : (
+                          <span
+                            style={{
+                              fontFamily: AN_TOKENS.fontMono,
+                              fontSize: 11,
+                              color: 'var(--an-surface-ink-muted)',
+                              letterSpacing: 1.5,
+                              textTransform: 'uppercase',
+                            }}
+                          >
+                            —
+                          </span>
+                        )}
                         {pub.highlight === 1 && (
                           <span
                             style={{

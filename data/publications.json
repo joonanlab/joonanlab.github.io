@@ -17,7 +17,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 1
+    "corresponding": 1,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Tandem repeats in human brain evolution and disease susceptibility",
@@ -134,7 +137,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Evaluation of familial phenotype deviation to measure the impact of de novo mutations in autism",
@@ -195,7 +201,10 @@
     },
     "highlight": 0,
     "type": "preprint",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Characterization of Human Anterior Neural Organoids as a Model for Investigating Cohen Syndrome",
@@ -214,7 +223,10 @@
     },
     "highlight": 0,
     "type": "preprint",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Assessing Long-Term Stored Tissues for Multi-Omics Data Quality and Proteogenomics Suitability",
@@ -271,7 +283,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Proteogenomic Analysis on RNA m6A Modification-Associated Genes Identifies a Distinct Subgroup with High IGF2BPs Expression Across Cancer Types",
@@ -309,7 +324,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "Cancer"
+    ]
   },
   {
     "title": "Dysregulated RNA Binding Proteins and Alternative Splicing: Emerging Roles in Autism Spectrum Disorder",
@@ -365,7 +383,7 @@
       "display": "Lee et al., (2025), Genomics & Informatics"
     },
     "highlight": 0,
-    "type": "article",
+    "type": "review",
     "corresponding": 1
   },
   {
@@ -385,7 +403,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Uncovering Potential Causal Genes for Undiagnosed Congenital Anomalies Using an In-House Pipeline for Trio-Based Whole-Genome Sequencing",
@@ -465,7 +486,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 1
+    "corresponding": 1,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data.",
@@ -566,7 +590,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 1
+    "corresponding": 1,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder.",
@@ -625,7 +652,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Sex-differential gene expression in developing human cortex and its intersection with autism risk pathways",
@@ -703,7 +733,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "GeneticDiagnosis"
+    ]
   },
   {
     "title": "Angiopoietin-2-dependent spatial vascular destabilization promotes T-cell exclusion and limits immunotherapy in melanoma",
@@ -802,7 +835,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 1
+    "corresponding": 1,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Rare coding variation provides insight into the genetic architecture and phenotypic context of autism",
@@ -968,7 +1004,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Integrative Multi-Omics Approaches in Cancer Research - From Biological Networks to Clinical Subtypes.",
@@ -1010,7 +1049,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "ANO1 regulates the maintenance of stemness in glioblastoma stem cells by stabilizing EGFRvIII.",
@@ -1031,7 +1073,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "CRISPR screens identify a novel combination treatment targeting BCL-XL and WNT signaling for KRAS/BRAF-mutated colorectal cancers.",
@@ -1178,7 +1223,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "An integrative analysis of non-coding regulatory DNA variations associated with autism spectrum disorder.",
@@ -1260,7 +1308,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder.",
@@ -1363,7 +1414,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "GeneticDiagnosis"
+    ]
   },
   {
     "title": "National human genome projects - an update and an agenda.",
@@ -1383,7 +1437,7 @@
       "display_full": "An JY, (2017), National human genome projects - an update and an agenda., Epidemiology and Health"
     },
     "highlight": 0,
-    "type": "article",
+    "type": "review",
     "corresponding": 1
   },
   {

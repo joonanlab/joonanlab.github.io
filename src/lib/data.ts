@@ -69,6 +69,7 @@ export interface Publication {
     display: string
     display_full?: string
   }
+  tags?: string[]
   highlight: 0 | 1
   corresponding: 0 | 1
   type: 'article' | 'preprint' | 'review'
