@@ -1,18 +1,19 @@
 [
   {
     "title": "Region- and cell type-specific changes in gene expression in the cerebellum after classical fear conditioning",
-    "authors": "Ji J, Baek J, Hwang KD, Choi S, Kasuya J, Abel T, An JY, Lee YS",
-    "authors_full": "Ji J, Baek J, Hwang KD, Choi S, Kasuya J, Abel T, An JY, Lee YS",
+    "authors": "Ji J, Baek J, Hwang KD, Choi S, Kasuya J, Roh SE, Kim SJ, Abel T, An JY, Lee YS",
+    "authors_full": "Ji Jungeun, Baek Jinhee, Hwang Kyoung-Doo, Choi Seunghwan, Kasuya Junko, Roh Seung-Eon, Kim Sang Jeong, Abel Ted, An Joon-Yong, Lee Yong-Seok",
     "journal": "Communications Biology",
     "year": 2026,
-    "date": "2026",
+    "date": "2026 Apr 24",
     "vol": null,
     "issue": null,
     "page": "",
-    "doi": "",
+    "doi": "10.1038/s42003-026-10034-0",
     "link": {
-      "url": "",
-      "display": "Ji et al., Communications Biology"
+      "url": "https://www.nature.com/articles/s42003-026-10034-0",
+      "display": "Ji et al., (2026), Communications Biology",
+      "display_full": "Ji et al., (2026), Region- and cell type-specific changes in gene expression in the cerebellum after classical fear conditioning, Communications Biology"
     },
     "highlight": 0,
     "type": "article",
