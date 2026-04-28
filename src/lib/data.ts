@@ -71,7 +71,7 @@ export interface Publication {
   }
   highlight: 0 | 1
   corresponding: 0 | 1
-  type: 'article' | 'preprint'
+  type: 'article' | 'preprint' | 'review'
 }
 
 export interface NewsItem {

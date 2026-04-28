@@ -45,6 +45,7 @@ const TOPIC_KO: Record<Topic, string> = {
 function deriveTopic(pub: Publication): Topic {
   const blob = `${pub.title} ${pub.journal}`.toLowerCase()
   if (
+    pub.type === 'review' ||
     /\breview\b|\bperspective\b|opinion in/i.test(blob) ||
     /annual review/i.test(pub.journal)
   )
