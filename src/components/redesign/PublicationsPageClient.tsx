@@ -214,8 +214,8 @@ export function PublicationsPageClient({ publications }: PublicationsPageClientP
             }}
           >
             {lang === 'ko'
-              ? `${publications.length}편 이상의 논문 — Cell, Nature, Science 계열을 비롯한 다양한 저널. 아래 필터로 주제별로 볼 수 있습니다.`
-              : `${publications.length}+ papers in venues including Cell, Nature, and Science. Filter by topic below.`}
+              ? `${publications.length}편의 논문 — Cell, Nature, Science 계열을 비롯한 다양한 저널. 아래 필터로 주제별로 볼 수 있습니다.`
+              : `${publications.length} papers in venues including Cell, Nature, and Science. Filter by topic below.`}
           </p>
         </div>
       </section>
