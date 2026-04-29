@@ -26,9 +26,9 @@ const RESEARCH_AREAS = [
     en: 'AI-Driven Virtual Cell',
     ko: 'AI 기반 가상 세포',
     descEn:
-      'Building large-scale scRNA-seq atlas and AI-driven virtual cell for risk gene discovery.',
+      'Building large-scale multi-omics atlas and AI-driven virtual cell for AI drug discovery.',
     descKo:
-      '대규모 단일세포 RNA 시퀀싱 아틀라스와 AI 기반 가상 세포를 구축하여 위험 유전자를 발굴합니다.',
+      '대규모 멀티오믹스 아틀라스와 AI 기반 가상 세포를 구축해 AI 신약개발에 활용합니다.',
     color: 'var(--accent)',
     icon: (
       <Image src="/images/virtual-cell.png" alt="Virtual cell" width={48} height={48} className="w-12 h-12 research-icon" />
