@@ -99,7 +99,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Genetic architecture of plasma pTau217 and related biomarkers in Alzheimer's disease via genome-wide association studies",
@@ -245,7 +248,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "Cancer"
+    ]
   },
   {
     "title": "Advancing precision diagnosis in autism: Insights from large-scale genomic studies",
@@ -425,7 +431,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "GeneticDiagnosis"
+    ]
   },
   {
     "title": "Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism.",
@@ -531,7 +540,10 @@
     },
     "highlight": 1,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "RNA N6-methyladenosine-binding protein YTHDFs redundantly attenuate cancer immunity by downregulating IFN-γ signaling in gastric cancer",
@@ -614,7 +626,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 1
+    "corresponding": 1,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Multiomics in cancer biomarker discovery and cancer subtyping",
@@ -674,7 +689,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Whole-genome doubling is a double-edged sword, the heterogeneous role of whole-genome doubling in various cancer types.",
@@ -714,7 +732,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "Noncoding"
+    ]
   },
   {
     "title": "Systematic evaluation of genome sequencing for the assessment of fetal structural anomalies",
@@ -899,7 +920,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "GeneticDiagnosis"
+    ]
   },
   {
     "title": "Risk Variants Could Inform Early Neurodevelopmental Outcome in Children with Developmental Disabilities.",
@@ -1118,7 +1142,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 1
+    "corresponding": 1,
+    "tags": [
+      "GeneticDiagnosis"
+    ]
   },
   {
     "title": "Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System.",
@@ -1181,7 +1208,10 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 0
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Spatio-Temporal Roles of ASD-Associated Variants in Human Brain Development.",
@@ -1202,7 +1232,10 @@
     },
     "highlight": 0,
     "type": "review",
-    "corresponding": 1
+    "corresponding": 1,
+    "tags": [
+      "NeuralCircuit"
+    ]
   },
   {
     "title": "Whole-Genome and RNA Sequencing Reveal Variation and Transcriptomic Coordination in the Developing Human Prefrontal Cortex.",
