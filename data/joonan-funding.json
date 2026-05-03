@@ -1,5 +1,21 @@
 [
   {
+    "years": "2026–2029",
+    "role": "CI",
+    "title_en": "Construction of normal cell data standards, QC, and functional knowledge base for AI-driven digital cells",
+    "source_en": "Digital Cell Subcontract Program, National Research Foundation of Korea",
+    "title_ko": "AI 기반 디지털세포를 위한 정상세포 데이터 표준·QC 및 기능 지식 베이스 구축",
+    "source_ko": "디지털세포 위탁사업, 한국연구재단"
+  },
+  {
+    "years": "2025–2035",
+    "role": "CI",
+    "title_en": "Drug target discovery via convergent degradation biology",
+    "source_en": "National Research Laboratory (NRL 2.0) Program, National Research Foundation of Korea",
+    "title_ko": "융합 분해생물학 기반 신약 표적 발굴",
+    "source_ko": "국가연구소(NRL 2.0) 사업, 한국연구재단"
+  },
+  {
     "years": "2025–2030",
     "role": "PI",
     "title_en": "Identification of sex-specific genetic factors in autism using DNA methylation and genomic imprinting",
