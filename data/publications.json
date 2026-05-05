@@ -1,5 +1,28 @@
 [
   {
+    "title": "IDAP: An integrated literature- and knowledge-graph-driven evidence prioritization pipeline for precision oncology",
+    "authors": "Ryu Y, Jung H, An JY",
+    "authors_full": "Ryu Yebin, Jung Haeun, An Joon-Yong",
+    "journal": "Bioinformatics",
+    "year": 2026,
+    "date": "2026 May 5",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "",
+    "link": {
+      "url": "",
+      "display": "Ryu et al., (2026), Bioinformatics",
+      "display_full": "Ryu et al., (2026), IDAP: An integrated literature- and knowledge-graph-driven evidence prioritization pipeline for precision oncology, Bioinformatics"
+    },
+    "highlight": 0,
+    "type": "article",
+    "corresponding": 1,
+    "tags": [
+      "Cancer"
+    ]
+  },
+  {
     "title": "Region- and cell type-specific changes in gene expression in the cerebellum after classical fear conditioning",
     "authors": "Ji J, Baek J, Hwang KD, Choi S, Kasuya J, Roh SE, Kim SJ, Abel T, An JY, Lee YS",
     "authors_full": "Ji Jungeun, Baek Jinhee, Hwang Kyoung-Doo, Choi Seunghwan, Kasuya Junko, Roh Seung-Eon, Kim Sang Jeong, Abel Ted, An Joon-Yong, Lee Yong-Seok",
