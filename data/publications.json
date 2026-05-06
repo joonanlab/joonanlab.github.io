@@ -1213,6 +1213,26 @@
     "corresponding": 0
   },
   {
+    "title": "Extensions of Multiple-Group Item Response Theory Alignment: Application to Psychiatric Phenotypes in an International Genomics Consortium.",
+    "authors": "Mansolf M, Vreeker A, Reise SP, Freimer NB, Glahn DC, Gur RE, Moore TM, Pato CN, Pato MT, Palotie A, Holm M, Suvisaari J, Partonen T, Kieseppa T, Paunio T, Boks M, Kahn R, Ophoff RA, Bearden CE, Olde Loohuis L, Teshiba T, deGeorge D, Bilder RM, GROUP Investigators, WGSPD Consortium (including An JY)",
+    "authors_full": "Mansolf M, Vreeker A, Reise SP, Freimer NB, Glahn DC, Gur RE, Moore TM, Pato CN, Pato MT, Palotie A, Holm M, Suvisaari J, Partonen T, Kieseppa T, Paunio T, Boks M, Kahn R, Ophoff RA, Bearden CE, Olde Loohuis L, Teshiba T, deGeorge D, Bilder RM, GROUP Investigators, WGSPD Consortium (including An JY)",
+    "journal": "Educational and Psychological Measurement",
+    "year": 2020,
+    "date": "2020 Oct",
+    "vol": 80,
+    "issue": 5,
+    "page": "870-909",
+    "doi": "10.1177/0013164419897307",
+    "link": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32855563",
+      "display": "Mansolf et al., (2020), Educational and Psychological Measurement",
+      "display_full": "Mansolf M, Vreeker A, Reise SP, ..., GROUP Investigators, WGSPD Consortium (including An JY), (2020), Extensions of Multiple-Group Item Response Theory Alignment: Application to Psychiatric Phenotypes in an International Genomics Consortium., Educational and Psychological Measurement"
+    },
+    "highlight": 0,
+    "type": "article",
+    "corresponding": 0
+  },
+  {
     "title": "Homeostatic plasticity fails at the intersection of autism-gene mutations and a novel class of common genetic modifiers.",
     "image": "Genc2020.jpg",
     "authors": "Genc O, An JY, Fetter RD, Kulik Y, Zunino G, Sanders SJ, Davis GW",
@@ -1361,6 +1381,72 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/30545857",
       "display": "Wang et al., (2018), Science",
       "display_full": "Wang D, Liu S, Warrell J, ..., PSYCHENCODE CONSORTIUM (including An JY), ..., Gerstein MB, (2018), Comprehensive functional genomic resource and integrative model for the human brain., Science"
+    },
+    "highlight": 0,
+    "type": "article",
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
+  },
+  {
+    "title": "Revealing the brain's molecular architecture.",
+    "authors": "PsychENCODE Consortium (including An JY)",
+    "authors_full": "PsychENCODE Consortium (including An JY)",
+    "journal": "Science",
+    "year": 2018,
+    "date": "2018 Dec",
+    "vol": 362,
+    "issue": 6420,
+    "page": "1262-1263",
+    "doi": "10.1126/science.362.6420.1262",
+    "link": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30545881",
+      "display": "PsychENCODE Consortium, (2018), Science",
+      "display_full": "PsychENCODE Consortium (including An JY), (2018), Revealing the brain's molecular architecture., Science"
+    },
+    "highlight": 0,
+    "type": "article",
+    "corresponding": 0
+  },
+  {
+    "title": "Integrative functional genomic analysis of human brain development and neuropsychiatric risks.",
+    "authors": "Li M, Santpere G, Kawasawa YI, Evgrafov OV, Gulden FO, Pochareddy S, Sunkin SM, Li Z, Shin Y, Zhu Y, Sousa AMM, Werling DM, Kitchen RR, Kang HJ, Pletikos M, Choi J, Muchnik S, Xu X, Wang D, Lorente-Galdos B, ..., PsychENCODE Consortium (including An JY), PsychENCODE Developmental Subgroup, ..., Sestan N",
+    "authors_full": "Li M, Santpere G, Kawasawa YI, Evgrafov OV, Gulden FO, Pochareddy S, Sunkin SM, Li Z, Shin Y, Zhu Y, Sousa AMM, Werling DM, Kitchen RR, Kang HJ, Pletikos M, Choi J, Muchnik S, Xu X, Wang D, Lorente-Galdos B, Liu S, Giusti-Rodriguez P, Won H, de Leeuw CA, Pardinas AF, BrainSpan Consortium, PsychENCODE Consortium (including An JY), PsychENCODE Developmental Subgroup, Hu M, Jin F, Li Y, Owen MJ, O'Donovan MC, Walters JTR, Posthuma D, Reimers MA, Levitt P, Weinberger DR, Hyde TM, Kleinman JE, Geschwind DH, Hawrylycz MJ, State MW, Sanders SJ, Sullivan PF, Gerstein MB, Lein ES, Knowles JA, Sestan N",
+    "journal": "Science",
+    "year": 2018,
+    "date": "2018 Dec",
+    "vol": 362,
+    "issue": 6420,
+    "page": "eaat7615",
+    "doi": "10.1126/science.aat7615",
+    "link": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30545854",
+      "display": "Li et al., (2018), Science",
+      "display_full": "Li M, Santpere G, Kawasawa YI, ..., PsychENCODE Consortium (including An JY), ..., Sestan N, (2018), Integrative functional genomic analysis of human brain development and neuropsychiatric risks., Science"
+    },
+    "highlight": 0,
+    "type": "article",
+    "corresponding": 0,
+    "tags": [
+      "NeuralCircuit"
+    ]
+  },
+  {
+    "title": "Transcriptome and epigenome landscape of human cortical development modeled in brain organoids.",
+    "authors": "Amiri A, Coppola G, Scuderi S, Wu F, Roychowdhury T, Liu F, Pochareddy S, Shin Y, Safi A, Song L, Zhu Y, Sousa AMM, PsychENCODE Consortium (including An JY), Gerstein M, Crawford GE, Sestan N, Abyzov A, Vaccarino FM",
+    "authors_full": "Amiri A, Coppola G, Scuderi S, Wu F, Roychowdhury T, Liu F, Pochareddy S, Shin Y, Safi A, Song L, Zhu Y, Sousa AMM, PsychENCODE Consortium (including An JY), Gerstein M, Crawford GE, Sestan N, Abyzov A, Vaccarino FM",
+    "journal": "Science",
+    "year": 2018,
+    "date": "2018 Dec",
+    "vol": 362,
+    "issue": 6420,
+    "page": "eaat6720",
+    "doi": "10.1126/science.aat6720",
+    "link": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30545853",
+      "display": "Amiri et al., (2018), Science",
+      "display_full": "Amiri A, Coppola G, Scuderi S, ..., PsychENCODE Consortium (including An JY), ..., Vaccarino FM, (2018), Transcriptome and epigenome landscape of human cortical development modeled in brain organoids., Science"
     },
     "highlight": 0,
     "type": "article",
