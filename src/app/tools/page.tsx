@@ -40,6 +40,18 @@ const TOOLS = [
       { label: 'Docs', url: 'https://cwas-plus.readthedocs.io/en/latest/index.html' },
     ],
   },
+  {
+    name: 'IDAP',
+    description:
+      'Integrated literature- and knowledge-graph-driven evidence prioritization pipeline for precision oncology. Combines OncoKB annotation, PubMed text mining, and TxGNN-based drug repurposing to recommend candidate therapies for cancer patients.',
+    image: '/images/codepic/idap.png',
+    links: [
+      { label: 'Manual', url: 'https://joonan-lab.github.io/IDAP-pipeline/' },
+      { label: 'GitHub', url: 'https://github.com/joonan-lab/IDAP-pipeline' },
+      { label: 'Zenodo', url: 'https://zenodo.org/records/19301367' },
+      { label: 'Paper', url: 'https://doi.org/10.1093/bioinformatics/btag300' },
+    ],
+  },
 ]
 
 export default function ToolsPage() {

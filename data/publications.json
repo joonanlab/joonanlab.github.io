@@ -5,13 +5,13 @@
     "authors_full": "Ryu Yebin, Jung Haeun, An Joon-Yong",
     "journal": "Bioinformatics",
     "year": 2026,
-    "date": "2026 May 5",
+    "date": "2026 May 9",
     "vol": null,
     "issue": null,
     "page": "",
-    "doi": "",
+    "doi": "10.1093/bioinformatics/btag300",
     "link": {
-      "url": "",
+      "url": "https://doi.org/10.1093/bioinformatics/btag300",
       "display": "Ryu et al., (2026), Bioinformatics",
       "display_full": "Ryu et al., (2026), IDAP: An integrated literature- and knowledge-graph-driven evidence prioritization pipeline for precision oncology, Bioinformatics"
     },
