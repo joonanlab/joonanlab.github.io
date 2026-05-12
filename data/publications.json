@@ -1,5 +1,28 @@
 [
   {
+    "title": "AnnQ: reference-based quantification of cellular abnormality at single-cell resolution",
+    "authors": "Lee D, Byeon G, Jeong S, Shin D, Park J, Koh I, An JY",
+    "authors_full": "Lee Davin, Byeon Gaeun, Jeong Seojin, Shin Dongmin, Park Jongseo, Koh Ingyeon, An Joon-Yong",
+    "journal": "Briefings in Bioinformatics",
+    "year": 2026,
+    "date": "2026",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "",
+    "link": {
+      "url": "",
+      "display": "Lee et al., (2026), Briefings in Bioinformatics"
+    },
+    "highlight": 0,
+    "type": "article",
+    "corresponding": 1,
+    "tags": [
+      "NeuralCircuit",
+      "Cancer"
+    ]
+  },
+  {
     "title": "IDAP: An integrated literature- and knowledge-graph-driven evidence prioritization pipeline for precision oncology",
     "authors": "Ryu Y, Jung H, An JY",
     "authors_full": "Ryu Yebin, Jung Haeun, An Joon-Yong",
