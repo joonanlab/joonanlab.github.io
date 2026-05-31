@@ -1,5 +1,10 @@
 [
   {
+    "date": "May 31st 2026",
+    "headline": "Our new methods paper introducing AnnQ — a framework for quantifying cellular abnormality from reference-based single-cell annotation uncertainty — is now published in Briefings in Bioinformatics <a href='https://academic.oup.com/bib/article/27/3/bbag278/8698826'>(link)</a>.",
+    "headline_ko": "reference-based single-cell annotation uncertainty를 이용해 cellular abnormality를 정량화하는 AnnQ 방법론 논문이 Briefings in Bioinformatics에 게재되었습니다 <a href='https://academic.oup.com/bib/article/27/3/bbag278/8698826'>(링크)</a>."
+  },
+  {
     "date": "May 9th 2026",
     "headline": "Our new study introducing IDAP — an integrated literature- and knowledge-graph-driven evidence prioritization pipeline for precision oncology — is now published in Bioinformatics <a href='https://doi.org/10.1093/bioinformatics/btag300'>(link)</a>.",
     "headline_ko": "정밀 종양학을 위한 통합 문헌·지식그래프 기반 근거 우선순위화 파이프라인 IDAP를 소개한 연구가 Bioinformatics에 게재되었습니다 <a href='https://doi.org/10.1093/bioinformatics/btag300'>(링크)</a>."

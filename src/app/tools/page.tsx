@@ -41,6 +41,16 @@ const TOOLS = [
     ],
   },
   {
+    name: 'AnnQ',
+    description:
+      'Reference-based quantification of cellular abnormality at single-cell resolution. AnnQ uses annotation probability distributions to track uncertainty states and out-of-reference signals in perturbation and disease datasets.',
+    image: '/images/codepic/annQ.png',
+    links: [
+      { label: 'GitHub', url: 'https://github.com/joonan-lab/AnnQ' },
+      { label: 'Paper', url: 'https://academic.oup.com/bib/article/27/3/bbag278/8698826' },
+    ],
+  },
+  {
     name: 'IDAP',
     description:
       'Integrated literature- and knowledge-graph-driven evidence prioritization pipeline for precision oncology. Combines OncoKB annotation, PubMed text mining, and TxGNN-based drug repurposing to recommend candidate therapies for cancer patients.',
