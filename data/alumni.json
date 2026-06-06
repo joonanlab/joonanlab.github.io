@@ -39,6 +39,19 @@
     "current_ko": "서울대학교 정밀·분자종양학 연구실"
   },
   {
+    "name": "Nahyun Kwon",
+    "name_ko": "권나현",
+    "photo": "nakwon.jpg",
+    "info": "M.Sc. Graduate",
+    "info_ko": "석사 졸업",
+    "url": "nakwon",
+    "group": 1,
+    "year": 2026,
+    "thesis": "Exome-wide rare variant burden analysis of amyotrophic lateral sclerosis in a Korean population",
+    "current": null,
+    "current_ko": null
+  },
+  {
     "name": "Eunhyong Chang",
     "name_ko": "장은형",
     "photo": "eunhyong.png",

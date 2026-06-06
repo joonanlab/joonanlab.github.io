@@ -26,15 +26,6 @@
     "tags": ["AI"]
   },
   {
-    "name": "Nahyun Kwon",
-    "name_ko": "권나현",
-    "photo": "nakwon.jpg",
-    "info": "Masters Student",
-    "url": "nakwon",
-    "group": 1,
-    "tags": ["WGS"]
-  },
-  {
     "name": "Wooheon Kim",
     "name_ko": "김우헌",
     "photo": "alexkim.jpg",
@@ -119,9 +110,19 @@
     "name": "Youngseok Choi",
     "name_ko": "최영석",
     "photo": "youngseok.jpg",
-    "info": "Bioinformatician",
+    "info": "PhD Student",
     "url": "youngseok",
-    "group": 2
+    "group": 1,
+    "tags": ["AI"]
+  },
+  {
+    "name": "Heesun Choi",
+    "name_ko": "최희선",
+    "photo": "heesun.jpg",
+    "info": "Masters Student",
+    "url": "heesun",
+    "group": 1,
+    "tags": ["AI"]
   },
   {
     "name": "Hyoju Park",
@@ -161,14 +162,6 @@
     "photo": "beomsukim.jpg",
     "info": "Undergraduate intern",
     "url": "beomsukim",
-    "group": 3
-  },
-  {
-    "name": "Heesun Choi",
-    "name_ko": "최희선",
-    "photo": "heesun.jpg",
-    "info": "Undergraduate intern",
-    "url": "heesun",
     "group": 3
   },
   {

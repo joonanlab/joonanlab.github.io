@@ -1,5 +1,72 @@
 [
   {
+    "title": "annDNA: Learning Annotation-Aware Genomic Representations via Knowledge Distillation",
+    "authors": "Sim H, Kim Y, Kim SW, Ryu Y, An JY",
+    "authors_full": "Sim Hwanseok, Kim Yujin, Kim Soo-Whee, Ryu Yeojin, An Joon-Yong",
+    "journal": "ICML 2026 GenBio Workshop (Spotlight)",
+    "year": 2026,
+    "date": "2026 Jul 10",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "",
+    "link": {
+      "url": "https://openreview.net/forum?id=vmpP5SzOFK",
+      "display": "Sim et al., (2026), ICML 2026 GenBio Workshop",
+      "display_full": "Sim H, Kim Y, Kim SW, Ryu Y, An JY, (2026), annDNA: Learning Annotation-Aware Genomic Representations via Knowledge Distillation, ICML 2026 GenBio Workshop (Spotlight)"
+    },
+    "highlight": 0,
+    "type": "conference",
+    "corresponding": 1,
+    "tags": [
+      "Noncoding"
+    ]
+  },
+  {
+    "title": "Hepa-RAFT: Retrieval-Augmented Virtual Hepatocyte Responses for Hepatotoxicity Prediction",
+    "authors": "Choi YS, An JY",
+    "authors_full": "Choi Youngseok, An Joon-Yong",
+    "journal": "ICML 2026 GenBio Workshop",
+    "year": 2026,
+    "date": "2026 Jul 10",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "",
+    "link": {
+      "url": "https://openreview.net/forum?id=adMExMpBnp",
+      "display": "Choi et al., (2026), ICML 2026 GenBio Workshop",
+      "display_full": "Choi YS, An JY, (2026), Hepa-RAFT: Retrieval-Augmented Virtual Hepatocyte Responses for Hepatotoxicity Prediction, ICML 2026 GenBio Workshop"
+    },
+    "highlight": 0,
+    "type": "conference",
+    "corresponding": 1,
+    "tags": []
+  },
+  {
+    "title": "Mode-Aware Phenotype Profiling from Korean Clinical Reports: An LLM-Derived Two-Layer Fingerprint for Autism Characterization",
+    "authors": "Ryu Y, Oh M, An JY",
+    "authors_full": "Ryu Yeojin, Oh Miae, An Joon-Yong",
+    "journal": "ICML 2026 FM4LS Workshop",
+    "year": 2026,
+    "date": "2026 Jul 10",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "",
+    "link": {
+      "url": "https://openreview.net/forum?id=ClVNdyCzFh",
+      "display": "Ryu et al., (2026), ICML 2026 FM4LS Workshop",
+      "display_full": "Ryu Y, Oh M, An JY, (2026), Mode-Aware Phenotype Profiling from Korean Clinical Reports: An LLM-Derived Two-Layer Fingerprint for Autism Characterization, ICML 2026 FM4LS Workshop"
+    },
+    "highlight": 0,
+    "type": "conference",
+    "corresponding": 1,
+    "tags": [
+      "Autism"
+    ]
+  },
+  {
     "title": "AnnQ: reference-based quantification of cellular abnormality at single-cell resolution",
     "authors": "Lee D, Byeon G, Chung S, Shin D, Park J, Koh I, An JY",
     "authors_full": "Lee Davin, Byeon Gaeun, Chung Seojin, Shin Dongmin, Park Jongseo, Koh Ingyeon, An Joon-Yong",
