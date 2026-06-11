@@ -1,0 +1,52 @@
+---
+title: "SAGE-net 이후 - gLM, sequence-to-function, 그리고 PRS"
+date: "2026-06-12"
+summary: "gLM과 sequence-to-function 모델의 세대 구분을 정리하고, SAGE-net 논문이 personal genome과 PRS 연구에 던지는 문제를 정리한다."
+tags: ["SAGE-net", "AlphaGenome", "Borzoi", "PRS", "gLM", "sequence-to-function", "variant-effect"]
+lang: "ko"
+category: "Genomics + AI"
+---
+
+gLM은 genomic language model의 줄임말이다. DNA 서열을 A, C, G, T로 이루어진 긴 문장처럼 보고, 그 안에서 반복되는 패턴과 문법을 학습하는 모델이다. 단백질 언어모델이 아미노산 서열에서 구조와 기능의 단서를 배우듯이, gLM은 유전체 서열에서 보존성, motif, 반복서열, 조절서열의 패턴을 배우려고 한다. DNABERT, Nucleotide Transformer, HyenaDNA, Caduceus, Evo2 같은 모델들이 이 범주에 들어간다. 다만 DNA는 자연어와 다르다. 어떤 염기가 다음에 올지 맞히는 능력이 곧바로 세포 안에서 그 서열이 어떤 기능을 하는지 알려주지는 않는다. 이 차이가 gLM 논의의 출발점이다.
+
+초기 sequence-to-function 모델은 비교적 짧은 서열에서 시작했다. DeepSEA 같은 모델은 1kb 정도의 DNA 서열을 넣고, 그 주변의 chromatin accessibility나 transcription factor binding을 예측했다. 이 시기 모델은 enhancer, promoter, TF motif 같은 국소적인 조절 문법을 잡는 데 강했다. 다음 세대가 Basenji와 Enformer다. 이 모델들은 더 긴 서열을 보고, distal enhancer와 gene expression 사이의 관계를 예측하려고 했다. Enformer는 약 200kb의 DNA context를 사용하면서, 단순한 motif 인식에서 enhancer-gene 연결과 expression prediction으로 문제를 넓혔다.
+
+Borzoi는 이 흐름을 RNA-seq coverage 예측으로 밀고 갔다. gene expression을 하나의 숫자로 예측하는 대신, exon과 intron을 따라 RNA-seq read coverage가 어떻게 생길지를 예측한다. 그래서 같은 모델 안에서 transcription, splicing, polyadenylation, RNA stability 같은 여러 층을 함께 볼 수 있다. AlphaGenome은 더 넓은 방향으로 갔다. 1Mb 수준의 DNA sequence를 넣고, expression, splicing, chromatin accessibility, histone mark, transcription factor binding, 3D contact map까지 함께 예측한다. DeepSEA가 짧은 조절서열의 효과를 보던 모델이었다면, AlphaGenome은 긴 유전체 구간 안에서 여러 기능유전체 신호를 동시에 예측하는 모델이다.
+
+모든 gLM이 sequence-to-function 모델로 바로 이어지지는 않는다. 어떤 모델은 DNA sequence 자체를 잘 표현하도록 학습되고, 어떤 모델은 처음부터 functional genomics track을 예측하도록 학습된다. 순수 sequence pretraining은 보존성이나 반복 패턴을 잘 배울 수 있지만, 세포형 특이적인 enhancer activity나 eQTL 효과를 바로 맞히지는 못할 수 있다. 반대로 Enformer, Borzoi, AlphaGenome처럼 functional genomics 데이터를 직접 예측하도록 훈련된 모델은 variant effect prediction에 더 가깝게 설계되어 있다. PRS나 질병 변이 해석에 들어갈 모델을 볼 때는 단순히 "큰 gLM인가"보다 sequence representation과 functional readout을 어떻게 결합했는지를 봐야 한다.
+
+이 흐름 위에서 SAGE-net 논문이 나왔다. SAGE-net은 AlphaGenome이나 Borzoi보다 큰 모델을 제안하지 않는다. 개인의 phased genome을 직접 넣었을 때, 유전자 발현 차이를 어디까지 예측할 수 있는지를 시험한다. 사람마다 genome에는 수많은 variant가 있고, 같은 gene 주변에도 아버지에게서 온 haplotype과 어머니에게서 온 haplotype이 다르다. SAGE-net은 reference sequence만 보는 대신, 두 haplotype sequence를 함께 넣고 평균 발현과 개인별 deviation을 나누어 예측한다.
+
+Spiro et al.은 ROSMAP cortex RNA-seq과 whole-genome sequencing을 이용해 expression prediction을 평가했다. GTEx cortex는 외부 평가 cohort로 썼다. 모델은 40kb 정도의 gene-centered sequence window를 보고, reference sequence와 두 haplotype sequence에서 평균 발현과 개인별 deviation을 예측한다. DNA methylation도 별도로 평가했다. expression에서는 gene 수가 제한적이지만, DNA methylation array는 훨씬 많은 genomic region을 제공한다. 이 차이가 뒤에서 결과 해석에 중요해진다.
+
+결과는 두 갈래로 나뉜다. 이미 학습한 gene에서는 새로운 개인의 발현 차이를 어느 정도 잡아냈다. p-SAGE-net은 PrediXcan이나 fine-tuned Borzoi/Enformer 계열과 비교해도 경쟁력이 있었다. GSTM3 사례에서는 fine-mapped variant가 HLF motif를 깨고, 모델이 실제 발현 변화 방향도 맞추었다. 개인 genome을 직접 넣는 모델이 실제 regulatory variant 해석으로 이어질 수 있음을 보여준 예다.
+
+더 봐야 할 대목은 chromosome holdout 결과다. 훈련 중 보지 않은 gene으로 가면 성능이 약해졌다. 새로운 개인의 새로운 allele을 이미 학습한 gene 주변에서 예측하는 것과, 전혀 다른 locus에서 regulatory effect를 예측하는 것은 다른 문제다. 모델이 개인별 expression effect를 맞추는 것처럼 보여도, 이미 본 locus 주변의 local context와 variant pattern을 활용했을 수 있다. 새로운 locus에서 같은 성능이 유지되는지 보지 않으면, general regulatory grammar를 배웠다고 말하기 어렵다.
+
+DNA methylation 결과는 이 논문에서 좋은 대조군 역할을 한다. methylation은 expression보다 훨씬 많은 region을 제공한다. 모델이 더 많은 locus와 더 촘촘한 phenotype을 보게 되면 unseen-region generalization이 나아진다. 이 결과는 모델 구조만으로는 부족하다는 쪽으로 읽힌다. 개인 genome sequence-to-function 모델이 일반화하려면 더 많은 사람, 더 많은 tissue, 더 많은 cell type, 더 많은 molecular phenotype이 필요하다.
+
+여기서 common variant와 rare variant를 구분해야 한다. common variant는 인구집단 안에서 비교적 자주 관찰되는 변이다. 하나하나의 효과는 작지만, 수천 개에서 수백만 개가 함께 질병 위험에 기여한다. PRS는 이런 common variant의 작은 효과를 모두 더해 개인의 genetic liability를 계산한다. ASD, 조현병, 우울증, 키, 체질량지수, 심혈관질환 같은 복잡형질은 대체로 이런 common variant의 누적 효과를 갖는다.
+
+common variant 연구에서는 LD, linkage disequilibrium이 계속 문제로 남는다. 가까운 위치의 variant들은 함께 유전되는 경향이 있다. 그래서 GWAS에서 어떤 SNP가 disease association을 보였다고 해도 그 SNP가 실제 causal variant라는 뜻은 아니다. 같은 LD block 안의 다른 variant가 진짜 기능 변이일 수 있고, 관측된 SNP는 그 변이와 함께 움직이는 표지자일 수 있다. PRS는 이 LD 구조를 통계적으로 다루면서 예측력을 얻지만, 어떤 variant가 어떤 cell type에서 어떤 gene을 바꾸는지 바로 알려주지는 못한다.
+
+rare variant는 인구집단에서 드물게 나타나는 변이다. de novo mutation, rare coding variant, rare structural variant처럼 개별 효과가 큰 경우가 있다. ASD나 신경발달질환에서는 rare variant가 한 개인의 진단이나 표현형을 크게 바꿀 수 있다. 하지만 전체 인구집단의 유전적 liability를 보면 common variant의 누적 효과도 크다. 한 사람의 질병 위험은 rare high-impact variant와 common polygenic background가 함께 만든다.
+
+이 조합은 임상적으로도 중요하다. 같은 CHD8, SCN2A, PTEN 변이를 가진 사람이라도 표현형은 다를 수 있다. 변이 자체의 위치와 종류도 다르고, 그 사람이 가진 common variant background도 다르다. rare variant는 큰 충격을 주고, common variant는 그 충격이 놓이는 배경을 만든다. 그래서 앞으로의 모델은 rare variant의 기능 효과와 common variant의 누적 효과를 분리해서 보면서도, 결국 같은 개인 안에서 다시 합쳐야 한다.
+
+AlphaGenome이나 Borzoi 같은 모델은 LD block 해석에 들어갈 수 있다. LD block 안에 여러 variant가 있을 때, 어떤 variant가 실제로 enhancer activity, splicing, expression을 바꿀 가능성이 높은지 functional prior를 줄 수 있다. PRS-CS나 LDpred2 같은 기존 PRS 모델이 GWAS effect와 LD를 이용해 SNP effect를 shrinkage한다면, gLM 기반 sequence-to-function score는 그 variant가 생물학적으로 말이 되는지 평가하는 추가 정보가 된다. gLM은 PRS를 대체하기보다, PRS가 놓치던 functional interpretation을 붙이는 방향으로 들어갈 가능성이 크다.
+
+이 작업은 단순히 variant마다 AlphaGenome score를 계산해서 더하는 방식으로 끝나지 않는다. variant effect score는 tissue와 cell type에 따라 달라진다. 뇌 질환에서는 fetal excitatory neuron, interneuron, radial glia, microglia, astrocyte 같은 맥락이 다르다. 면역질환에서는 T cell, B cell, monocyte, epithelial cell이 다르다. 같은 variant라도 어떤 cell type의 enhancer에서 작동하느냐에 따라 disease liability와의 거리가 달라진다. PRS에 functional prior를 넣으려면 cell-type-specific score, fine-mapping posterior, LD structure, GWAS beta를 함께 다뤄야 한다.
+
+SAGE-net의 결과는 이 기대를 조심스럽게 만든다. 이미 학습한 gene에서 개인별 expression effect를 어느 정도 맞추는 것과, 처음 보는 locus에서 variant effect를 예측하는 것은 다른 문제다. AlphaGenome이나 Borzoi의 variant effect prediction도 같은 기준으로 봐야 한다. 이미 functional genomics 데이터가 풍부한 interval과 비슷한 곳에서 잘 되는지, 완전히 새로운 locus에서도 유지되는지, bulk tissue를 넘어 disease-relevant cell type에서도 맞는지, common variant의 작은 효과와 rare variant의 큰 효과를 모두 다룰 수 있는지 따로 검증해야 한다.
+
+PRS로 갈 때는 molecular effect와 disease liability 사이의 거리가 더 멀어진다. variant가 expression을 바꿔도 그것이 질병 위험으로 이어지는지는 target gene, cell type, 발달 시기, 환경, LD 구조에 따라 달라진다. 어떤 variant는 강한 eQTL이지만 disease와 무관할 수 있고, 어떤 variant는 작은 molecular effect를 가지지만 특정 발달 시기나 세포 상태에서 큰 표현형 효과를 만들 수 있다. 그래서 gLM 기반 PRS 연구는 예측력과 함께 어떤 biological path를 통해 risk가 만들어지는지도 봐야 한다.
+
+실제로 설계한다면 다음과 같은 형태가 된다. 기존 GWAS summary statistics와 LD reference를 기본으로 두고, PRS-CS나 LDpred2 같은 모델을 사용한다. 여기에 AlphaGenome/Borzoi-derived functional score를 prior로 넣는다. variant effect score를 cell type별로 나누고, fine-mapping posterior와 결합한다. 그 다음 개인별 PRS를 regulatory program별 risk profile로 분해한다. ASD PRS가 높다는 말에서 끝내지 않고, fetal cortical enhancer program, synaptic gene expression program, glial inflammatory program 중 어디에 risk가 쌓이는지 보는 것이다.
+
+이 설계에서는 PRS가 질병 위험 점수에서 functional risk map으로 바뀐다. 질병 예측 성능이 조금 올라가는 것도 의미가 있지만, 해석 구조가 더 크게 바뀐다. 지금의 PRS는 많은 경우 "위험이 높다"는 말은 하지만 왜 높은지는 잘 말하지 못한다. gLM 기반 functional prior가 붙으면 위험이 어느 세포 상태, 어느 조절 축, 어느 gene network에 걸려 있는지를 볼 수 있다.
+
+SAGE-net이 남긴 기준은 구체적이다. 개인 genome을 넣고 expression을 예측하는 일은 시작되었다. 그러나 PRS와 연결하려면 seen gene에서 맞춘 결과만으로는 부족하다. unseen locus, external cohort, ancestry transfer, cell-type-specific assay, fine-mapped causal variant, disease phenotype까지 이어지는 검증이 필요하다. 이 검증을 통과한 뒤에야 gLM 기반 sequence-to-function 모델이 PRS를 단순한 통계 점수에서 기능유전체 기반 risk map으로 바꿀 수 있다.
+
+이 논의도 결국 데이터 생산으로 돌아간다. AlphaGenome이나 Borzoi의 성능은 모델 구조만으로 결정되지 않는다. 어떤 세포, 어떤 조직, 어떤 발달 단계, 어떤 환자 샘플에서 functional genomic track을 얼마나 만들었는지가 결정한다. SAGE-net의 DNA methylation 결과가 보여주듯이, locus가 많고 phenotype이 촘촘하면 generalization이 좋아질 수 있다. 반대로 expression처럼 관측 지점이 제한되면 모델은 쉽게 local context에 묶인다.
+
+바이오 AI에서 PRS 연구를 앞으로 밀려면 개인 genome, long-read haplotype, single-cell eQTL, MPRA, Perturb-seq, patient-derived organoid, EMR-linked phenotype이 같은 방향으로 쌓여야 한다. AlphaGenome과 Borzoi는 그 데이터를 해석하는 강력한 엔진이 될 수 있다. 하지만 엔진이 있어도 연료가 없으면 갈 수 없다. 개인을 주목하는 데이터 생산이 없으면 정밀의료도, 약물 반응 예측도, 질병 위험 해석도 남이 만든 reference 위에서 움직인다.
