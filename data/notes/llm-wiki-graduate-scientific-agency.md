@@ -1,5 +1,5 @@
 ---
-title: "당신을 사유와 탐구, 책임의 주체로 등장시키기 위해"
+title: "사유와 탐구, 책임의 주체로 오는 당신을 기다리며"
 date: "2026-06-13"
 summary: "카파시의 LLM-Wiki를 대학원 수업에 적용하며, 학생이 피동적인 학습자에서 과학 지식을 발굴하고 판단하는 주체로 옮겨가는 과정을 생각한다."
 tags: ["LLM-Wiki", "education", "graduate-school", "scientific-training", "AI"]
