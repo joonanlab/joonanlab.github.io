@@ -111,7 +111,7 @@ export function LabHeader({ theme = 'auto' }: LabHeaderProps) {
                 whiteSpace: 'nowrap',
               }}
             >
-              An Lab
+              AN Lab
             </span>
           </Link>
 
@@ -124,7 +124,7 @@ export function LabHeader({ theme = 'auto' }: LabHeaderProps) {
               whiteSpace: 'nowrap',
             }}
           >
-            {lang === 'ko' ? '· 고려대학교' : '· Korea University'}
+            · AI for Nature
           </span>
 
           {/* Desktop nav */}

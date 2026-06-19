@@ -6,7 +6,7 @@ import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Funding - Joonan An',
-  description: 'Research funding and grants for Joo-nan An at An Lab, Korea University.',
+  description: 'Research funding and grants for Joo-nan An at AN Lab, Korea University.',
 }
 
 export default function JoonanFundingPage() {

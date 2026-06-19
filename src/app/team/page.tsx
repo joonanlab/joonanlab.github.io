@@ -6,7 +6,7 @@ import { TeamPageClient } from '@/components/redesign/TeamPageClient'
 
 export const metadata: Metadata = {
   title: 'Team',
-  description: 'Meet the members of An Lab at Korea University.',
+  description: 'Meet the members of AN Lab at Korea University.',
 }
 
 export default function TeamPage() {

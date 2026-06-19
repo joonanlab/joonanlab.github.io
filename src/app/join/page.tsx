@@ -7,7 +7,7 @@ import { JoinPageClient } from '@/components/redesign/JoinPageClient'
 export const metadata: Metadata = {
   title: 'Join',
   description:
-    "Open positions at An Lab — postdoctoral researchers, graduate students, and undergraduate researchers in genomics, AI, and autism genetics.",
+    "Open positions at AN Lab — postdoctoral researchers, graduate students, and undergraduate researchers in genomics, AI, and autism genetics.",
 }
 
 export default function JoinPage() {

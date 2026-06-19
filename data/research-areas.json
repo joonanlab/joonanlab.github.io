@@ -1,19 +1,5 @@
 [
   {
-    "id": "noncoding",
-    "short": "Noncoding genome",
-    "shortKo": "비암호화 유전체",
-    "en": "Deep Learning for Noncoding Genome",
-    "ko": "비암호화 유전체를 위한 딥러닝",
-    "descEn": "LLMs and deep learning for noncoding regulatory mutations in autism and neurodevelopmental disorders.",
-    "descKo": "자폐 및 신경발달장애의 비암호화 조절 돌연변이를 위한 LLM·딥러닝.",
-    "lede": "98% of the genome is noncoding. Its grammar is the real challenge — and where the signal hides.",
-    "ledeKo": "유전체의 98%는 비암호화 영역입니다. 그 문법이 진짜 도전이고, 신호가 숨어있는 곳입니다.",
-    "body": "We train large language models and deep neural networks on regulatory sequence to predict how rare and de novo variants in enhancers, promoters, and UTRs perturb gene expression. Applied to autism cohorts, this exposes risk that protein-coding analysis misses.",
-    "bodyKo": "조절 서열에 대규모 언어모델과 딥러닝을 훈련해, 인핸서·프로모터·UTR의 희귀·드노보 변이가 유전자 발현을 어떻게 교란하는지 예측합니다. 자폐 코호트에 적용하면, 단백질 코딩 분석이 놓치는 위험 신호를 드러냅니다.",
-    "methods": ["Genomic language models", "Variant effect prediction", "Massively parallel reporter assays", "Regulatory grammar learning"]
-  },
-  {
     "id": "virtualcell",
     "short": "Virtual cell",
     "shortKo": "가상 세포",
@@ -26,6 +12,20 @@
     "body": "Assembling a large-scale multi-omics atlas across developing brain. Training foundation models that accept perturbation (variant, drug, knockdown) and emit cell-state shifts. The goal: a virtual cell for AI drug discovery — predicting variant and drug effects before wet experiments start.",
     "bodyKo": "발달 중인 뇌 전반의 대규모 멀티오믹스 아틀라스를 구축합니다. 교란(변이·약물·녹다운)을 입력받아 세포 상태 변화를 출력하는 파운데이션 모델을 훈련합니다. 목표: 습식 실험 전에 변이와 약물의 효과를 예측하는 가상 세포 — AI 신약개발의 토대.",
     "methods": ["scRNA-seq · scATAC-seq", "Perturbation modeling", "Cell-state foundation models", "In silico screens"]
+  },
+  {
+    "id": "noncoding",
+    "short": "Noncoding genome",
+    "shortKo": "비암호화 유전체",
+    "en": "Deep Learning for Noncoding Genome",
+    "ko": "비암호화 유전체를 위한 딥러닝",
+    "descEn": "LLMs and deep learning for noncoding regulatory mutations in autism and neurodevelopmental disorders.",
+    "descKo": "자폐 및 신경발달장애의 비암호화 조절 돌연변이를 위한 LLM·딥러닝.",
+    "lede": "98% of the genome is noncoding. Its grammar is the real challenge — and where the signal hides.",
+    "ledeKo": "유전체의 98%는 비암호화 영역입니다. 그 문법이 진짜 도전이고, 신호가 숨어있는 곳입니다.",
+    "body": "We train large language models and deep neural networks on regulatory sequence to predict how rare and de novo variants in enhancers, promoters, and UTRs perturb gene expression. Applied to autism cohorts, this exposes risk that protein-coding analysis misses.",
+    "bodyKo": "조절 서열에 대규모 언어모델과 딥러닝을 훈련해, 인핸서·프로모터·UTR의 희귀·드노보 변이가 유전자 발현을 어떻게 교란하는지 예측합니다. 자폐 코호트에 적용하면, 단백질 코딩 분석이 놓치는 위험 신호를 드러냅니다.",
+    "methods": ["Genomic language models", "Variant effect prediction", "Massively parallel reporter assays", "Regulatory grammar learning"]
   },
   {
     "id": "autism",

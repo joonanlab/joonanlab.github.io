@@ -7,7 +7,7 @@ import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Alumni',
-  description: 'Alumni of An Lab at Korea University.',
+  description: 'Alumni of AN Lab at Korea University.',
 }
 
 export default function AlumniPage() {

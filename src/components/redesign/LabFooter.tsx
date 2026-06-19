@@ -55,7 +55,7 @@ export function LabFooter({ theme = 'auto' }: LabFooterProps) {
               style={{ width: 28, height: 28, objectFit: 'contain' }}
             />
             <div style={{ fontWeight: 600, fontSize: 14, color: p.ink }}>
-              An Lab · AI for Nature
+              AN Lab · AI for Nature
             </div>
           </div>
           <div
@@ -121,7 +121,7 @@ export function LabFooter({ theme = 'auto' }: LabFooterProps) {
           color: p.inkSoft,
         }}
       >
-        <span>© {new Date().getFullYear()} An Lab, Korea University</span>
+        <span>© {new Date().getFullYear()} AN Lab, Korea University</span>
         <span>Inspired by Biology · Driven by AI</span>
       </div>
     </footer>

@@ -7,7 +7,7 @@ import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'News',
-  description: 'Latest news and announcements from An Lab.',
+  description: 'Latest news and announcements from AN Lab.',
 }
 
 export default function NewsPage() {

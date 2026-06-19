@@ -6,7 +6,7 @@ import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Activities - Joonan An',
-  description: 'Conference talks and invited seminars by Joo-nan An at An Lab, Korea University.',
+  description: 'Conference talks and invited seminars by Joo-nan An at AN Lab, Korea University.',
 }
 
 export default function JoonanActivitiesPage() {

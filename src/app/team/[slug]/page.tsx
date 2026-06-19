@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!profile) return { title: 'Not Found' }
   return {
     title: profile.name,
-    description: `${profile.name} - ${profile.position || 'Member'} at An Lab, Korea University`,
+    description: `${profile.name} - ${profile.position || 'Member'} at AN Lab, Korea University`,
   }
 }
 

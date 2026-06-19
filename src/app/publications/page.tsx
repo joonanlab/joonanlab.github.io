@@ -7,7 +7,7 @@ import { PublicationsPageClient } from '@/components/redesign/PublicationsPageCl
 export const metadata: Metadata = {
   title: 'Publications',
   description:
-    'Research publications from An Lab at Korea University — autism genetics, noncoding genome, multi-omics, and methods.',
+    'Research publications from AN Lab at Korea University — autism genetics, noncoding genome, multi-omics, and methods.',
 }
 
 export default function PublicationsPage() {

@@ -6,7 +6,7 @@ import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Tools',
-  description: 'Code and datasets from An Lab.',
+  description: 'Code and datasets from AN Lab.',
 }
 
 const TOOLS = [

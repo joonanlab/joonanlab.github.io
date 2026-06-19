@@ -284,23 +284,12 @@ export function ConstellationHero() {
         >
           <span style={{ width: 32, height: 1, background: AN_TOKENS.red }} />
           {lang === 'ko'
-            ? 'AN Lab · 자연을 위한 AI · 고려대학교'
+            ? 'AN Lab · AI for Nature · 고려대학교'
             : 'AN Lab · AI for Nature · Korea University'}
         </div>
 
         {/* Headline block */}
         <div>
-          <div
-            style={{
-              fontFamily: AN_TOKENS.fontMono,
-              fontSize: 11,
-              color: AN_TOKENS.gold,
-              letterSpacing: 2,
-              marginBottom: 24,
-            }}
-          >
-            ↗ {lang === 'ko' ? '연구실' : 'THE LAB'}
-          </div>
           {lang === 'ko' ? (
             <h1
               style={{

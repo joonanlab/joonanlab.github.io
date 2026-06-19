@@ -35,13 +35,13 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-3">
           <img
             src="/images/logopic/Logo2025-AnLab.png"
-            alt="An Lab"
+            alt="AN Lab"
             className="h-8 w-auto"
             width={32}
             height={32}
           />
           <span className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>
-            An Lab
+            AN Lab
           </span>
         </Link>
 

@@ -6,7 +6,7 @@ import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Outreach & Education - Joonan An',
-  description: 'Public engagement and education workshops by Joo-nan An at An Lab, Korea University.',
+  description: 'Public engagement and education workshops by Joo-nan An at AN Lab, Korea University.',
 }
 
 export default function JoonanOutreachPage() {

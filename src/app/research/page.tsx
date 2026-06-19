@@ -8,7 +8,7 @@ import { AN_TOKENS } from '@/lib/redesign-tokens'
 export const metadata: Metadata = {
   title: 'Research',
   description:
-    'Research at An Lab — deep learning for noncoding genomes, AI-driven virtual cells, autism genetics in East Asian cohorts, and integrative multi-omics.',
+    'Research at AN Lab — deep learning for noncoding genomes, AI-driven virtual cells, autism genetics in East Asian cohorts, and integrative multi-omics.',
 }
 
 export default function ResearchPage() {

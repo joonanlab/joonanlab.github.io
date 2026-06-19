@@ -56,7 +56,7 @@ export function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1.5 }}
         >
-          An Lab, Korea University
+          AN Lab, Korea University
         </motion.p>
         <motion.div
           className="flex flex-wrap gap-4 justify-center"

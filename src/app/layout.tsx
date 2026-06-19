@@ -43,14 +43,14 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL('https://joonanlab.github.io'),
   title: {
-    default: 'An Lab - Genomics & AI for Understanding Human Disease',
-    template: '%s - An Lab',
+    default: 'AN Lab - Genomics & AI for Understanding Human Disease',
+    template: '%s - AN Lab',
   },
   description:
-    'An Lab at Korea University - Research in genomics, artificial intelligence, autism genetics, and multi-omics.',
+    'AN Lab at Korea University - Research in genomics, artificial intelligence, autism genetics, and multi-omics.',
   openGraph: {
     type: 'website',
-    siteName: 'An Lab',
+    siteName: 'AN Lab',
     images: [{ url: '/images/logopic/Logo2025-AnLab.png' }],
   },
   icons: { icon: '/images/favicon.ico' },

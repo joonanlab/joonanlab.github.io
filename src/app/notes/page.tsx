@@ -8,7 +8,7 @@ import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Notes',
-  description: 'Blog posts and lectures from An Lab at Korea University.',
+  description: 'Blog posts and lectures from AN Lab at Korea University.',
 }
 
 export default function NotesPage() {
@@ -26,8 +26,8 @@ export default function NotesPage() {
           className="section-header mb-3"
         />
         <p className="text-base mb-10 max-w-xl" style={{ color: 'var(--text-secondary)' }}>
-          <span className="en-only">Essays, research commentary, and teaching materials from An Lab at Korea University.</span>
-          <span className="ko-only">An Lab의 에세이, 연구 코멘터리, 교육 자료를 모아 둔 공간입니다.</span>
+          <span className="en-only">Essays, research commentary, and teaching materials from AN Lab at Korea University.</span>
+          <span className="ko-only">AN Lab의 에세이, 연구 코멘터리, 교육 자료를 모아 둔 공간입니다.</span>
         </p>
 
         {/* Blog Posts */}

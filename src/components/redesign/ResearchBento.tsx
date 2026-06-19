@@ -70,7 +70,7 @@ export function ResearchBento({ areas, theme = 'auto', accent }: ResearchBentoPr
             >
               {lang === 'ko' ? (
                 <>
-                  네 갈래의 질문, 하나의 축:
+                  하나의 질문, 네 가지 축:
                   <br />
                   <em style={{ color: acc, fontStyle: 'italic' }}>
                     유전체는 어떻게 뇌를 만드는가?
@@ -78,7 +78,7 @@ export function ResearchBento({ areas, theme = 'auto', accent }: ResearchBentoPr
                 </>
               ) : (
                 <>
-                  Four threads, one question:
+                  One question, four threads:
                   <br />
                   <em style={{ color: acc, fontStyle: 'italic' }}>
                     how does the genome shape the brain?
@@ -86,19 +86,6 @@ export function ResearchBento({ areas, theme = 'auto', accent }: ResearchBentoPr
                 </>
               )}
             </h2>
-          </div>
-          <div
-            style={{
-              fontFamily: AN_TOKENS.fontSans,
-              fontSize: 13,
-              color: p.inkSoft,
-              maxWidth: 280,
-              lineHeight: 1.6,
-            }}
-          >
-            {lang === 'ko'
-              ? '딥러닝, 단일세포 생물학, 대규모 시퀀싱, 통합 오믹스 — 한 질문이 네 방법을 묶어냅니다.'
-              : 'We work across deep learning, single-cell biology, large-scale sequencing, and integrative omics — bound by one question.'}
           </div>
         </div>
 
