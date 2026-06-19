@@ -96,11 +96,23 @@ export function LabHeader({ theme = 'auto' }: LabHeaderProps) {
           >
             <img
               src="/images/logopic/Logo2025-AnLab.png"
-              alt="AN Lab"
+              alt=""
               width={32}
               height={32}
               style={{ width: 32, height: 32, objectFit: 'contain' }}
             />
+            <span
+              style={{
+                fontFamily: AN_TOKENS.fontSans,
+                fontWeight: 600,
+                fontSize: 15,
+                color: p.ink,
+                letterSpacing: -0.1,
+                whiteSpace: 'nowrap',
+              }}
+            >
+              AN Lab
+            </span>
           </Link>
 
           {/* Desktop nav */}
