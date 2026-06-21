@@ -41,7 +41,9 @@
     "highlight": 0,
     "type": "conference",
     "corresponding": 1,
-    "tags": []
+    "tags": [
+      "VirtualCell"
+    ]
   },
   {
     "title": "Mode-Aware Phenotype Profiling from Korean Clinical Reports: An LLM-Derived Two-Layer Fingerprint for Autism Characterization",
