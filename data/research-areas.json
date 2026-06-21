@@ -2,15 +2,15 @@
   {
     "id": "virtualcell",
     "short": "Virtual cell",
-    "shortKo": "가상 세포",
+    "shortKo": "가상세포",
     "en": "AI-Driven Virtual Cell",
-    "ko": "AI 기반 가상 세포",
+    "ko": "AI 기반 가상세포",
     "descEn": "Large-scale multi-omics atlas + AI-driven virtual cell for AI drug discovery.",
-    "descKo": "대규모 멀티오믹스 아틀라스와 AI 기반 가상 세포 — AI 신약개발.",
+    "descKo": "대규모 멀티오믹스 아틀라스와 AI 기반 가상세포 — AI 신약개발.",
     "lede": "If we had a working model of a neuron's transcriptional state, we could perturb it in silico — thousands of variants per day.",
     "ledeKo": "뉴런의 전사 상태를 모델링할 수 있다면, 매일 수천 개 변이를 인실리코로 교란할 수 있습니다.",
     "body": "Assembling a large-scale multi-omics atlas across developing brain. Training foundation models that accept perturbation (variant, drug, knockdown) and emit cell-state shifts. The goal: a virtual cell for AI drug discovery — predicting variant and drug effects before wet experiments start.",
-    "bodyKo": "발달 중인 뇌 전반의 대규모 멀티오믹스 아틀라스를 구축합니다. 교란(변이·약물·녹다운)을 입력받아 세포 상태 변화를 출력하는 파운데이션 모델을 훈련합니다. 목표: 습식 실험 전에 변이와 약물의 효과를 예측하는 가상 세포 — AI 신약개발의 토대.",
+    "bodyKo": "발달 중인 뇌 전반의 대규모 멀티오믹스 아틀라스를 구축합니다. 교란(변이·약물·녹다운)을 입력받아 세포 상태 변화를 출력하는 파운데이션 모델을 훈련합니다. 목표: 습식 실험 전에 변이와 약물의 효과를 예측하는 가상세포 — AI 신약개발의 토대.",
     "methods": ["scRNA-seq · scATAC-seq", "Perturbation modeling", "Cell-state foundation models", "In silico screens"]
   },
   {

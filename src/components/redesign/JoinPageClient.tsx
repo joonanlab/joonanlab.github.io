@@ -32,7 +32,7 @@ const HOOKS = [
     en: "Can we simulate a neuron's response to a genetic variant — before touching a pipette?",
     ko: '유전 변이에 대한 뉴런의 반응을 — 피펫을 잡기 전에 — 시뮬레이션할 수 있을까?',
     tieEn: 'Virtual cell · scRNA-seq',
-    tieKo: '가상 세포 · scRNA-seq',
+    tieKo: '가상세포 · scRNA-seq',
   },
   {
     en: "What does autism genetics look like when the cohort isn't European?",

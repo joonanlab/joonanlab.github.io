@@ -17,6 +17,7 @@ import type { Publication } from '@/lib/data'
 type Topic =
   | 'Highlights'
   | 'Autism'
+  | 'VirtualCell'
   | 'Noncoding'
   | 'Cancer'
   | 'Alzheimer'
@@ -28,6 +29,7 @@ type Topic =
 const TOPIC_ORDER: Topic[] = [
   'Highlights',
   'Autism',
+  'VirtualCell',
   'NeuralCircuit',
   'Noncoding',
   'Cancer',
@@ -39,6 +41,7 @@ const TOPIC_ORDER: Topic[] = [
 const TOPIC_KO: Record<Topic, string> = {
   Highlights: '주요 논문',
   Autism: '자폐',
+  VirtualCell: '가상세포',
   Noncoding: '비암호화',
   Cancer: '암',
   Alzheimer: '알츠하이머',
@@ -51,6 +54,7 @@ const TOPIC_KO: Record<Topic, string> = {
 const TOPIC_EN: Record<Topic, string> = {
   Highlights: 'Highlights',
   Autism: 'Autism',
+  VirtualCell: 'Virtual Cell',
   Noncoding: 'Noncoding',
   Cancer: 'Cancer',
   Alzheimer: 'Alzheimer',
@@ -63,6 +67,7 @@ const TOPIC_EN: Record<Topic, string> = {
 function normalizeTopicTag(tag: string): Topic | null {
   const normalized = tag.trim().toLowerCase().replace(/[\s_-]+/g, '')
   if (normalized === 'autism' || normalized === '자폐') return 'Autism'
+  if (normalized === 'virtualcell' || normalized === '가상세포') return 'VirtualCell'
   if (normalized === 'noncoding' || normalized === '비암호화') return 'Noncoding'
   if (normalized === 'cancer' || normalized === '암') return 'Cancer'
   if (normalized === 'alzheimer' || normalized === 'alzheimers' || normalized === '알츠하이머') return 'Alzheimer'

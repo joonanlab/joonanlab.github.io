@@ -24,11 +24,11 @@ const RESEARCH_AREAS = [
   },
   {
     en: 'AI-Driven Virtual Cell',
-    ko: 'AI 기반 가상 세포',
+    ko: 'AI 기반 가상세포',
     descEn:
       'Building large-scale multi-omics atlas and AI-driven virtual cell for AI drug discovery.',
     descKo:
-      '대규모 멀티오믹스 아틀라스와 AI 기반 가상 세포를 구축해 AI 신약개발에 활용합니다.',
+      '대규모 멀티오믹스 아틀라스와 AI 기반 가상세포를 구축해 AI 신약개발에 활용합니다.',
     color: 'var(--accent)',
     icon: (
       <Image src="/images/virtual-cell.png" alt="Virtual cell" width={48} height={48} className="w-12 h-12 research-icon" />
