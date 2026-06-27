@@ -113,15 +113,17 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
             className="team-pi-grid"
             style={{
               display: 'grid',
-              gridTemplateColumns: '200px 1fr',
-              gap: 'clamp(24px, 4vw, 48px)',
+              gridTemplateColumns: 'var(--team-pi-columns, 200px 1fr)',
+              gap: 'var(--team-pi-gap, clamp(24px, 4vw, 48px))',
               alignItems: 'start',
             }}
           >
             <div
+              className="team-pi-photo"
               style={{
                 width: '100%',
-                maxWidth: 200,
+                maxWidth: 'var(--team-pi-photo-max, 200px)',
+                justifySelf: 'var(--team-pi-photo-justify, start)',
                 aspectRatio: '4 / 5',
                 borderRadius: 12,
                 overflow: 'hidden',
@@ -142,7 +144,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
               )}
             </div>
 
-            <div>
+            <div className="team-pi-copy">
               <h1
                 style={{
                   fontFamily: AN_TOKENS.fontSerif,
@@ -260,6 +262,28 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
           </div>
         </div>
       </section>
+
+      <style>{`
+        @media (max-width: 760px) {
+          .team-pi-grid {
+            --team-pi-columns: 1fr;
+            --team-pi-gap: 28px;
+          }
+
+          .team-pi-photo {
+            --team-pi-photo-max: min(100%, clamp(220px, 70vw, 340px));
+            --team-pi-photo-justify: center;
+          }
+
+          .team-pi-copy {
+            min-width: 0;
+          }
+
+          .team-grid {
+            grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)) !important;
+          }
+        }
+      `}</style>
 
       {/* Doban band — cream, lab philosophy */}
       <section
