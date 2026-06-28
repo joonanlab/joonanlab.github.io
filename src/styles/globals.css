@@ -140,12 +140,16 @@ body {
 
 /* ===== i18n: CSS-based language toggle ===== */
 .ko-only { display: none; }
+html[data-lang="ko"] .en-only,
 body.lang-ko .en-only { display: none !important; }
+html[data-lang="ko"] .ko-only,
 body.lang-ko .ko-only { display: revert !important; }
 
 /* For inline spans */
 span.ko-only { display: none; }
+html[data-lang="ko"] span.en-only,
 body.lang-ko span.en-only { display: none !important; }
+html[data-lang="ko"] span.ko-only,
 body.lang-ko span.ko-only { display: inline !important; }
 
 /* ===== Glass Navigation ===== */

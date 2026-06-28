@@ -5,6 +5,47 @@ import { LangProvider } from '@/contexts/LangContext'
 import { LegacyChrome } from '@/components/layout/LegacyChrome'
 import '@/styles/globals.css'
 
+const initialPreferencesScript = `
+(function () {
+  function timeTheme() {
+    var hour = new Date().getHours();
+    return hour >= 7 && hour < 19 ? 'light' : 'dark';
+  }
+
+  function primaryLanguage() {
+    var languages = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+    return /^ko(?:-|$)/i.test(String(languages[0] || '')) ? 'ko' : 'en';
+  }
+
+  function applyBodyLang(lang) {
+    if (!document.body) return;
+    document.body.classList.toggle('lang-ko', lang === 'ko');
+  }
+
+  try {
+    var theme = timeTheme();
+    localStorage.setItem('theme', theme);
+    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.style.colorScheme = theme;
+  } catch (error) {}
+
+  try {
+    var storedLang = localStorage.getItem('lang');
+    var lang = storedLang === 'ko' || storedLang === 'en' ? storedLang : primaryLanguage();
+    document.documentElement.lang = lang;
+    document.documentElement.setAttribute('data-lang', lang);
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function () {
+        applyBodyLang(lang);
+      }, { once: true });
+    } else {
+      applyBodyLang(lang);
+    }
+  } catch (error) {}
+})();
+`
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
@@ -59,6 +100,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: initialPreferencesScript }} />
+      </head>
       <body className={`${inter.variable} ${notoSansKR.variable} ${interTight.variable} ${jetBrainsMono.variable} ${sourceSerif.variable} font-sans min-h-screen`}>
         <ThemeProvider>
           <LangProvider>

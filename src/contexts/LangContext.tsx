@@ -3,6 +3,7 @@
 import { createContext, useContext, useState, useEffect, useCallback, type ReactNode } from 'react'
 
 type Lang = 'en' | 'ko'
+const LANG_STORAGE_KEY = 'lang'
 
 interface LangContextValue {
   lang: Lang
@@ -14,32 +15,52 @@ const LangContext = createContext<LangContextValue>({
   toggleLang: () => {},
 })
 
+function isLang(value: string | null): value is Lang {
+  return value === 'ko' || value === 'en'
+}
+
+function getStoredLang() {
+  try {
+    const stored = localStorage.getItem(LANG_STORAGE_KEY)
+    return isLang(stored) ? stored : null
+  } catch {
+    return null
+  }
+}
+
+function getBrowserLang(): Lang {
+  const primary =
+    navigator.languages && navigator.languages.length > 0
+      ? navigator.languages[0]
+      : navigator.language
+
+  return /^ko(?:-|$)/i.test(primary || '') ? 'ko' : 'en'
+}
+
+function applyDocumentLang(next: Lang) {
+  document.documentElement.lang = next
+  document.documentElement.dataset.lang = next
+  document.body.classList.toggle('lang-ko', next === 'ko')
+}
+
 export function LangProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>('en')
 
   useEffect(() => {
-    const stored = localStorage.getItem('lang') as Lang | null
-    if (stored === 'ko' || stored === 'en') {
-      setLang(stored)
-      if (stored === 'ko') document.body.classList.add('lang-ko')
-    } else {
-      const browserLang = navigator.language
-      if (browserLang.startsWith('ko')) {
-        setLang('ko')
-        document.body.classList.add('lang-ko')
-      }
-    }
+    const next = getStoredLang() ?? getBrowserLang()
+    setLang(next)
+    applyDocumentLang(next)
   }, [])
 
   const toggleLang = useCallback(() => {
     setLang((prev) => {
       const next = prev === 'en' ? 'ko' : 'en'
-      localStorage.setItem('lang', next)
-      if (next === 'ko') {
-        document.body.classList.add('lang-ko')
-      } else {
-        document.body.classList.remove('lang-ko')
+      try {
+        localStorage.setItem(LANG_STORAGE_KEY, next)
+      } catch {
+        // Ignore storage failures; the in-memory language still changes.
       }
+      applyDocumentLang(next)
       return next
     })
   }, [])
