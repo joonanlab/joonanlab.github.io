@@ -31,7 +31,7 @@ const ROLES: RoleSection[] = [
     id: 'masters',
     en: 'Masters Students',
     ko: '석사과정',
-    match: (info) => info.startsWith('Masters'),
+    match: (info) => info.startsWith('Masters') || info.includes('Integrated Program'),
   },
   {
     id: 'staff',

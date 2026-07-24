@@ -34,7 +34,7 @@ export function TeamGrid({ team }: { team: TeamMember[] }) {
           members = members.filter((m) =>
             gradFilter === 'phd'
               ? m.info.startsWith('PhD')
-              : m.info.startsWith('Masters')
+              : m.info.startsWith('Masters') || m.info.includes('Integrated Program')
           )
         }
 

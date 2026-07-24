@@ -144,9 +144,9 @@
     "name": "Hayoon Park",
     "name_ko": "박하윤",
     "photo": "hayoonpark.jpg",
-    "info": "Undergraduate intern",
+    "info": "B.S.-M.S. Integrated Program",
     "url": "hayoonpark",
-    "group": 3
+    "group": 1
   },
   {
     "name": "Hwanseok Sim",
@@ -160,17 +160,17 @@
     "name": "Beomsu Kim",
     "name_ko": "김범수",
     "photo": "beomsukim.jpg",
-    "info": "Undergraduate intern",
+    "info": "B.S.-M.S. Integrated Program",
     "url": "beomsukim",
-    "group": 3
+    "group": 1
   },
   {
     "name": "Jongseo Park",
     "name_ko": "박종서",
     "photo": "jongseopark.jpg",
-    "info": "Undergraduate intern",
+    "info": "B.S.-M.S.-Ph.D. Integrated Program",
     "url": "jongseopark",
-    "group": 3
+    "group": 1
   },
   {
     "name": "Hyeonha Kim",
