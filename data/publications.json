@@ -1,5 +1,51 @@
 [
   {
+    "title": "USP15 mutation associated with autism spectrum disorder alters progenitor fate and neuronal maturation in human brain organoids",
+    "authors": "Park TH, Koh IG, Sung S, Park H, Kim J, Lee S, Lee YJ, Ko H, Han JH, Bong G, Yoo HJ, Kim J, An JY, Lee JY",
+    "authors_full": "Park Tae-Hwan, Koh In Gyeong, Sung Seoyoung, Park Hayoon, Kim Jieun, Lee Sebin, Lee Yun Jin, Ko Hyunsoo, Han Jae Hyun, Bong Guiyoung, Yoo Hee Jeong, Kim Jaesang, An Joon-Yong, Lee Ji Yeoun",
+    "journal": "Molecules and Cells",
+    "year": 2026,
+    "date": "2026 Jul 29",
+    "vol": null,
+    "issue": null,
+    "page": "100387",
+    "doi": "10.1016/j.mocell.2026.100387",
+    "link": {
+      "url": "https://www.sciencedirect.com/science/article/pii/S1016847826000786",
+      "display": "Park et al., (2026), Molecules and Cells",
+      "display_full": "Park TH, Koh IG, Sung S, Park H, Kim J, Lee S, Lee YJ, Ko H, Han JH, Bong G, Yoo HJ, Kim J, An JY, Lee JY, (2026), USP15 mutation associated with autism spectrum disorder alters progenitor fate and neuronal maturation in human brain organoids, Molecules and Cells"
+    },
+    "highlight": 0,
+    "type": "article",
+    "corresponding": 1,
+    "tags": [
+      "Autism"
+    ]
+  },
+  {
+    "title": "Cancer therapy resistance converges on immune evasion: a unified framework from immunotherapy to targeted, endocrine, and DNA repair pathways",
+    "authors": "Jeong HE, Choi H, Lim WT, Lim SB, An JY",
+    "authors_full": "Jeong Ha-Eun, Choi Heesun, Lim Wan-Teck, Lim Su Bin, An Joon-Yong",
+    "journal": "Journal of Experimental & Clinical Cancer Research",
+    "year": 2026,
+    "date": "2026 Jul 29",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "10.1186/s13046-026-03798-0",
+    "link": {
+      "url": "https://doi.org/10.1186/s13046-026-03798-0",
+      "display": "Jeong et al., (2026), Journal of Experimental & Clinical Cancer Research",
+      "display_full": "Jeong HE, Choi H, Lim WT, Lim SB, An JY, (2026), Cancer therapy resistance converges on immune evasion: a unified framework from immunotherapy to targeted, endocrine, and DNA repair pathways, Journal of Experimental & Clinical Cancer Research"
+    },
+    "highlight": 0,
+    "type": "review",
+    "corresponding": 1,
+    "tags": [
+      "Cancer"
+    ]
+  },
+  {
     "title": "annDNA: Learning Annotation-Aware Genomic Representations via Knowledge Distillation",
     "authors": "Sim H, Kim Y, Kim SW, Ryu Y, An JY",
     "authors_full": "Sim Hwanseok, Kim Yujin, Kim Soo-Whee, Ryu Yeojin, An Joon-Yong",
