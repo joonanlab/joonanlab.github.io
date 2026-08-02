@@ -1,5 +1,5 @@
 ---
-title: "Universities Should Give Every Student a $100 AI Subscription"
+title: "Toward AI-Native Education: Lessons from LLM-Wiki"
 date: "2026-08-02"
 summary: "Why AI access should be basic educational infrastructure—and how LLM-Wiki can help students build knowledge around questions that are genuinely their own."
 tags: ["AI", "education", "LLM-Wiki", "knowledge-management", "Terra", "teaching"]
