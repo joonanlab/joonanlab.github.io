@@ -5,8 +5,8 @@ import { ScrollReveal } from '@/components/shared/ScrollReveal'
 import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
-  title: 'Outreach & Education - Joonan An',
-  description: 'Public engagement and education workshops by Joo-nan An at AN Lab, Korea University.',
+  title: 'Outreach & Education - Joon-Yong An',
+  description: 'Public engagement and education workshops by Joon-Yong An at AN Lab, Korea University.',
 }
 
 export default function JoonanOutreachPage() {
@@ -20,7 +20,7 @@ export default function JoonanOutreachPage() {
           items={[
             { label: 'Home', href: '/' },
             { label: 'Team', href: '/team' },
-            { label: 'Joonan An', href: '/team/joonan' },
+            { label: 'Joon-Yong An', href: '/team/joonan' },
             { label: 'Outreach & Education' },
           ]}
         />

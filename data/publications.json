@@ -600,6 +600,25 @@
     ]
   },
   {
+    "title": "Multiomics in cancer biomarker discovery and cancer subtyping",
+    "authors": "Choi S, An JY",
+    "authors_full": "Choi S, An JY",
+    "journal": "Advances in Clinical Chemistry",
+    "year": 2025,
+    "date": "2025",
+    "vol": 125,
+    "issue": null,
+    "page": "93-142",
+    "doi": "10.1016/bs.acc.2024.10.004",
+    "link": {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0065242324001318",
+      "display": "Choi & An, (2025), Advances in Clinical Chemistry"
+    },
+    "highlight": 0,
+    "type": "review",
+    "corresponding": 1
+  },
+  {
     "title": "Whole genome sequencing analysis identifies sex differences of familial pattern contributing to phenotypic diversity in autism.",
     "image": "Kim2024_Sexbias.png",
     "authors": "Kim SW, Lee HJ, Song DY, Lee GH, Ji JE, Park JW, Han JH, Lee JW, Byun HJ, Son JH, Kim YR, Lee YJ, Kim JW, Jung A, Lee JH, Kim EH, Kim SH, Lee JH, Satterstrom FK, Girirajan S, Børglum AD, Grove J, Kim EJ, Werling DM, Yoo HJ, An JY",
@@ -670,7 +689,7 @@
     "authors_full": "Kim Y, Jeong M, Koh IG, Kim C, Lee H, Kim JH, Yurko R, Kim IB, Park J, Werling DM, Sanders SJ, An JY",
     "journal": "Briefings in Bioinformatics",
     "year": 2024,
-    "date": "2024 June",
+    "date": "2024 Jun",
     "vol": 1,
     "issue": 1,
     "page": "1-1",
@@ -691,7 +710,7 @@
     "authors_full": "Siavash Fazel Darbandi, Joon-Yong An, Kenneth Lim, Nicholas F Page, Lindsay Liang, David M Young, Athena R Ypsilanti, Alex S Nord, Stephan J Sanders, John LR Rubenstein",
     "journal": "Cell Reports",
     "year": 2024,
-    "date": "2024 June",
+    "date": "2024 Jun",
     "vol": 43,
     "issue": 6,
     "page": "1-1",
@@ -785,7 +804,7 @@
     "link": {
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/pcn.13676",
       "display": "Kim et al., (2024), Psychiatry and Clinical Neurosciences",
-      "display_full": "Kim et al., (2024), Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder., Psychiatry and Clinical Neurosciences."
+      "display_full": "Kim et al., (2024), Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder., Psychiatry and Clinical Neurosciences"
     },
     "highlight": 0,
     "type": "article",
@@ -795,29 +814,10 @@
     ]
   },
   {
-    "title": "Multiomics in cancer biomarker discovery and cancer subtyping",
-    "authors": "Choi S, An JY",
-    "authors_full": "Choi S, An JY",
-    "journal": "Advances in Clinical Chemistry",
-    "year": 2025,
-    "date": "2025",
-    "vol": 125,
-    "issue": null,
-    "page": "93-142",
-    "doi": "10.1016/bs.acc.2024.10.004",
-    "link": {
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0065242324001318",
-      "display": "Choi & An, (2025), Advances in Clinical Chemistry"
-    },
-    "highlight": 0,
-    "type": "review",
-    "corresponding": 1
-  },
-  {
     "title": "Chronic ultraviolet irradiation induces memory deficits via dysregulation of the dopamine pathway",
     "authors": "Yoon KN, Kim SY, Ji J, Cui Y, Quan QL, Park G, Oh JH, Lee JS, An JY, Chung JH, Lee YS, Lee DH",
     "authors_full": "Yoon KN, Kim SY, Ji J, Cui Y, Quan QL, Park G, Oh JH, Lee JS, An JY, Chung JH, Lee YS, Lee DH",
-    "journal": "Experimental and Molecular Medicine",
+    "journal": "Experimental & Molecular Medicine",
     "year": 2024,
     "date": "2024",
     "vol": null,
@@ -826,7 +826,7 @@
     "doi": "10.1038/s12276-024-01242-x",
     "link": {
       "url": "https://pubmed.ncbi.nlm.nih.gov/38825641/",
-      "display": "Yoon et al., (2024), Experimental and Molecular Medicine"
+      "display": "Yoon et al., (2024), Experimental & Molecular Medicine"
     },
     "highlight": 0,
     "type": "article",
@@ -859,7 +859,6 @@
   },
   {
     "title": "Whole-genome doubling is a double-edged sword, the heterogeneous role of whole-genome doubling in various cancer types.",
-    "image": "Chang2024.jpg",
     "authors": "Chang E, An JY",
     "authors_full": "Chang, An JY",
     "journal": "BMB Reports",
@@ -945,7 +944,7 @@
     "title": "Dysregulation of the Wnt/β-catenin signaling pathway via Rnf146 upregulation in a VPA-induced mouse model of autism spectrum disorder",
     "authors": "Park G, Jang WE, Kim S, Gonzales EL, Ji J, Choi S, Kim YJ, Park JH, Mohammad HB, Bang G, Kang M, Kim SB, Jeon SJ, Kim JY, Kim KP, Shin CY, An JY, Kim MS, Lee YS",
     "authors_full": "Park G, Jang WE, Kim S, Gonzales EL, Ji J, Choi S, Kim YJ, Park JH, Mohammad HB, Bang G, Kang M, Kim SB, Jeon SJ, Kim JY, Kim KP, Shin CY, An JY, Kim MS, Lee YS",
-    "journal": "Experimental and Molecular Medicine",
+    "journal": "Experimental & Molecular Medicine",
     "year": 2023,
     "date": "2023",
     "vol": null,
@@ -954,7 +953,7 @@
     "doi": "10.1038/s12276-023-01065-2",
     "link": {
       "url": "https://pubmed.ncbi.nlm.nih.gov/37524878/",
-      "display": "Park et al., (2023), Experimental and Molecular Medicine"
+      "display": "Park et al., (2023), Experimental & Molecular Medicine"
     },
     "highlight": 0,
     "type": "article",
@@ -962,7 +961,6 @@
   },
   {
     "title": "Cntnap2-dependent molecular networks in autism spectrum disorder revealed through an integrative multi-omics analysis.",
-    "image": "Jang2022.jpg",
     "authors": "Jang WE, Park JH, Park G, Bang G, Na CH, Kim JY, Kim KY, Kim KP, Shin CY, An JY, Lee YS, Kim MS",
     "authors_full": "Jang WE, Park JH, Park G, Bang G, Na CH, Kim JY, Kim KY, Kim KP, Shin CY, An JY, Lee YS, Kim MS",
     "journal": "Molecular Psychiatry",
@@ -1002,7 +1000,6 @@
   },
   {
     "title": "Chronic skin ultraviolet irradiation induces transcriptomic changes associated with microglial dysfunction in the hippocampus.",
-    "image": "Yoon2022.jpg",
     "authors": "Yoon KN, Kim Y, Cui Y, Ji J, Park G, Chung JH, Lee YS, An JY, Lee DH",
     "authors_full": "Yoon KN, Kim Y, Cui Y, Ji J, Park G, Chung JH, Lee YS, An JY, Lee DH",
     "journal": "Molecular Brain",
@@ -1045,7 +1042,6 @@
   },
   {
     "title": "Non-coding de novo mutations in chromatin interactions are implicated in autism spectrum disorder.",
-    "image": "Kim2022.jpg",
     "authors": "Kim IB, Lee T, Lee J, Kim J, Lee S, Koh IG, Kim JH, An JY, Lee H, Kim WK, Ju YS, Cho Y, Yu SJ, Kim SA, Oh M, Han DW, Kim E, Choi JK, Yoo HJ, Lee JH",
     "authors_full": "Kim IB, Lee T, Lee J, Kim J, Lee S, Koh IG, Kim JH, An JY, Lee H, Kim WK, Ju YS, Cho Y, Yu SJ, Kim SA, Oh M, Han DW, Kim E, Choi JK, Yoo HJ, Lee JH",
     "journal": "Molecular Psychiatry",
@@ -1066,7 +1062,6 @@
   },
   {
     "title": "Infantile esotropia in a family with TUBB3 mutation associated congenital fibrosis of extraocular muscles.",
-    "image": "Jang2022.jpg",
     "authors": "Jang Y, Kwak E, An JY, Jung JH",
     "authors_full": "Jang Y, Kwak E, An JY, Jung JH",
     "journal": "Ophthalmic Genetics",
@@ -1090,7 +1085,6 @@
   },
   {
     "title": "Risk Variants Could Inform Early Neurodevelopmental Outcome in Children with Developmental Disabilities.",
-    "image": "Lee2022.jpg",
     "authors": "Lee T, Lee H, Kim S, Park KJ, An JY, Kim HW",
     "authors_full": "Lee T, Lee H, Kim S, Park KJ, An JY, Kim HW",
     "journal": "Journal of Autism and Developmental Disorders",
@@ -1132,7 +1126,6 @@
   },
   {
     "title": "High-throughput characterization of the role of non-B DNA motifs on promoter function.",
-    "image": "Georgakopoulos-Soares2022.jpg",
     "authors": "Georgakopoulos-Soares I, Victorino J, Parada GE, Agarwal V, Zhao J, Wong HY, Umar MI, Elor O, Muhwezi A, An JY, Sanders SJ, Kwok CK, Inoue F, Hemberg M, Ahituv N",
     "authors_full": "Georgakopoulos-Soares I, Victorino J, Parada GE, Agarwal V, Zhao J, Wong HY, Umar MI, Elor O, Muhwezi A, An JY, Sanders SJ, Kwok CK, Inoue F, Hemberg M, Ahituv N",
     "journal": "Cell Genomics",
@@ -1174,7 +1167,6 @@
   },
   {
     "title": "Developmental dynamics of voltage-gated sodium channel isoform expression in the human and mouse brain.",
-    "image": "Liang2021.jpg",
     "authors": "Liang L, Fazel Darbandi S, Pochareddy S, Gulden FO, Gilson MC, Sheppard BK, Sahagun A, An JY, Werling DM, Rubenstein JLR, Sestan N, Bender KJ, Sanders SJ",
     "authors_full": "Liang L, Fazel Darbandi S, Pochareddy S, Gulden FO, Gilson MC, Sheppard BK, Sahagun A, An JY, Werling DM, Rubenstein JLR, Sestan N, Bender KJ, Sanders SJ",
     "journal": "Genome Medicine",
@@ -1198,7 +1190,6 @@
   },
   {
     "title": "Integrative Multi-Omics Approaches in Cancer Research - From Biological Networks to Clinical Subtypes.",
-    "image": "Heo2021.jpg",
     "authors": "Heo YJ, Hwa C, Lee GH, Park JM, An JY",
     "authors_full": "Heo YJ, Hwa C, Lee GH, Park JM, An JY",
     "journal": "Molecules and Cells",
@@ -1219,7 +1210,6 @@
   },
   {
     "title": "Kdm3b haploinsufficiency impairs the consolidation of cerebellum-dependent motor memory in mice.",
-    "image": "Kim2021.jpg",
     "authors": "Kim YG, Bak MS, Kim A, Kim Y, Chae YC, Kim YL, Chun YS, An JY, Seo SB, Kim SJ, Lee YS",
     "authors_full": "Kim YG, Bak MS, Kim A, Kim Y, Chae YC, Kim YL, Chun YS, An JY, Seo SB, Kim SJ, Lee YS",
     "journal": "Molecular Brain",
@@ -1243,7 +1233,6 @@
   },
   {
     "title": "ANO1 regulates the maintenance of stemness in glioblastoma stem cells by stabilizing EGFRvIII.",
-    "image": "Kim2021.jpg",
     "authors": "Kim HJ, Kim JY, Jung CW, Lee YS, An JY, Kim EH, Kim KH, Lee SP, Park JY, Park MJ",
     "authors_full": "Kim HJ, Kim JY, Jung CW, Lee YS, An JY, Kim EH, Kim KH, Lee SP, Park JY, Park MJ",
     "journal": "Oncogene",
@@ -1267,7 +1256,6 @@
   },
   {
     "title": "CRISPR screens identify a novel combination treatment targeting BCL-XL and WNT signaling for KRAS/BRAF-mutated colorectal cancers.",
-    "image": "Jung2021.jpg",
     "authors": "Jung HR, Oh Y, Na D, Min S, Kang J, Jang D, Shin S, Kim J, Lee SE, Jeong EM, An JY, Sung CO, Lee WS, Lee C, Cho SY",
     "authors_full": "Jung HR, Oh Y, Na D, Min S, Kang J, Jang D, Shin S, Kim J, Lee SE, Jeong EM, An JY, Sung CO, Lee WS, Lee C, Cho SY",
     "journal": "Oncogene",
@@ -1288,7 +1276,6 @@
   },
   {
     "title": "Identification of Possible Risk Variants of Familial Strabismus Using Exome Sequencing Analysis.",
-    "image": "An2021.jpg",
     "authors": "An JY, Jung JH, Choi L, Wieben ED, Mohney BG",
     "authors_full": "An JY, Jung JH, Choi L, Wieben ED, Mohney BG",
     "journal": "Genes",
@@ -1312,7 +1299,6 @@
   },
   {
     "title": "Ferroptosis-Related Genes in Neurodevelopment and Central Nervous System.",
-    "image": "Kim2021.jpg",
     "authors": "Kim SW, Kim Y, Kim SE, An JY",
     "authors_full": "Kim SW, Kim Y, Kim SE, An JY",
     "journal": "Biology",
@@ -1374,7 +1360,6 @@
   },
   {
     "title": "Homeostatic plasticity fails at the intersection of autism-gene mutations and a novel class of common genetic modifiers.",
-    "image": "Genc2020.jpg",
     "authors": "Genc O, An JY, Fetter RD, Kulik Y, Zunino G, Sanders SJ, Davis GW",
     "authors_full": "Genc O, An JY, Fetter RD, Kulik Y, Zunino G, Sanders SJ, Davis GW",
     "journal": "eLife",
@@ -1398,7 +1383,6 @@
   },
   {
     "title": "Spatio-Temporal Roles of ASD-Associated Variants in Human Brain Development.",
-    "image": "Kim2020.jpg",
     "authors": "Kim Y, An JY",
     "authors_full": "Kim Y, An JY",
     "journal": "Genes",
@@ -1507,7 +1491,6 @@
   },
   {
     "title": "Comprehensive functional genomic resource and integrative model for the human brain.",
-    "image": "Wang2018.jpg",
     "authors": "Wang D, Liu S, Warrell J, Won H, Shi X, Navarro FCP, Clarke D, Gu M, Emani P, Yang YT, Xu M, Gandal MJ, Lou S, Zhang J, Park JJ, Yan C, Rhie SK, Manakongtreecheep K, Zhou H, Nathan A, Peters M, Mattei E, Fitzgerald D, Brunetti T, Moore J, Jiang Y, Girdhar K, Hoffman GE, Kalayci S, Gumus ZH, Crawford GE, Roussos P, Akbarian S, Jaffe AE, White KP, Weng Z, Sestan N, Geschwind DH, Knowles JA, Gerstein MB",
     "authors_full": "Wang D, Liu S, Warrell J, Won H, Shi X, Navarro FCP, Clarke D, Gu M, Emani P, Yang YT, Xu M, Gandal MJ, Lou S, Zhang J, Park JJ, Yan C, Rhie SK, Manakongtreecheep K, Zhou H, Nathan A, Peters M, Mattei E, Fitzgerald D, Brunetti T, Moore J, Jiang Y, Girdhar K, Hoffman GE, Kalayci S, Gumus ZH, Crawford GE, Roussos P, Akbarian S, Jaffe AE, White KP, Weng Z, Sestan N, Geschwind DH, Knowles JA, Gerstein MB",
     "journal": "Science",
@@ -1658,7 +1641,6 @@
   },
   {
     "title": "Appreciating the Population-wide Impact of Copy Number Variants on Cognition.",
-    "image": "An2017.jpg",
     "authors": "An JY, Sanders SJ",
     "authors_full": "An JY, Sanders SJ",
     "journal": "Biological Psychiatry",
@@ -1679,7 +1661,6 @@
   },
   {
     "title": "Defining the spectrum of large inversions, complex structural variation, and chromothripsis in the morbid genome.",
-    "image": "Collins2017.jpg",
     "authors": "Collins RL, Brand H, Redin CE, Hanscom C, Antolik C, Stone MR, Glessner JT, Mason T, Pregno G, Dorrani N, Mandrile G, Giachino D, Perrin D, Walsh C, Cipicchio M, Costello M, Stortchevoi A, An JY, Currall BB, Seabra CM, Ragavendran A, Margolin L, Martinez-Agosto JA, Lucente D, Levy B, Sanders SJ, Wapner RJ, Quintero-Rivera F, Kloosterman W, Talkowski ME",
     "authors_full": "Collins RL, Brand H, Redin CE, Hanscom C, Antolik C, Stone MR, Glessner JT, Mason T, Pregno G, Dorrani N, Mandrile G, Giachino D, Perrin D, Walsh C, Cipicchio M, Costello M, Stortchevoi A, An JY, Currall BB, Seabra CM, Ragavendran A, Margolin L, Martinez-Agosto JA, Lucente D, Levy B, Sanders SJ, Wapner RJ, Quintero-Rivera F, Kloosterman W, Talkowski ME",
     "journal": "Genome Biology",
@@ -1703,7 +1684,6 @@
   },
   {
     "title": "National human genome projects - an update and an agenda.",
-    "image": "An2017.jpg",
     "authors": "An JY",
     "authors_full": "An JY",
     "journal": "Epidemiology and Health",
@@ -1766,7 +1746,6 @@
   },
   {
     "title": "Neurodevelopmental and neuropsychiatric disorders represent an interconnected molecular system.",
-    "image": "Cristino2014.jpg",
     "authors": "Cristino AS, Williams SM, Hawi Z, An JY, Bellgrove MA, Schwartz CE, Costa Lda F, Claudianos C",
     "authors_full": "Cristino AS, Williams SM, Hawi Z, An JY, Bellgrove MA, Schwartz CE, Costa Lda F, Claudianos C",
     "journal": "Molecular Psychiatry",

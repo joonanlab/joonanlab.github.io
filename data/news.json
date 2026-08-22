@@ -47,7 +47,7 @@
   {
     "date": "Mar 24th 2026",
     "headline": "Our new study on the co-occurrence of rare variants in autism is published in Genome Biology! We identified disrupted gene pairs in cytoskeletal pathways associated with increased severity in ASD <a href='https://link.springer.com/article/10.1186/s13059-026-04041-x'>(link)</a>.",
-    "headline_ko": "자폐에서 희귀 변이의 동시 발생에 관한 새로운 연구가 Genome Biology에 게재되었습니다! 세포골격 경로에서 ASD의 중증도 증가와 관련된 유전자 쌍을 규명하였습니다 <a href='https://link.springer.com/article/10.1186/s13059-026-04041-x'>(링크)</a>."
+    "headline_ko": "자폐에서 희귀변이의 동시 발생에 관한 새로운 연구가 Genome Biology에 게재되었습니다! 세포골격 경로에서 ASD의 중증도 증가와 관련된 유전자 쌍을 규명하였습니다 <a href='https://link.springer.com/article/10.1186/s13059-026-04041-x'>(링크)</a>."
   },
   {
     "date": "Feb 25th 2026",
@@ -220,7 +220,7 @@
     "headline_ko": "암 멀티오믹스 리뷰 논문이 한빛사에 소개되었습니다 🎉<a href='https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=93807&authorId=26650&pager.offset=0&pagerLimit=10&srAuthorId=26650&beforemode=author-treatise-list#!/list'>(링크)</a>."
   },
   {
-    "date": "June 7th 2024",
+    "date": "Jun 7th 2024",
     "headline": "Our new work on chronic ultraviolet irradiation induces memory deficits via dysregulation of the dopamine pathway <a href='https://www.nature.com/articles/s12276-024-01242-x'>(link)</a>.",
     "headline_ko": "만성 자외선 조사가 도파민 경로의 조절 장애를 통해 기억력 결손을 유발하는 메커니즘에 관한 새로운 연구가 출판되었습니다 <a href='https://www.nature.com/articles/s12276-024-01242-x'>(링크)</a>."
   },
@@ -305,14 +305,14 @@
     "headline_ko": "CWAS-Plus 🧬 를 소개합니다 – WGS 데이터에서 비코딩 영역 연관성을 분석하는 강력한 Python 패키지입니다! 🔍 <a href='https://cwas-plus.readthedocs.io/en/latest/index.html'>(링크)</a>."
   },
   {
-    "date": "Aug 14th 2023",
-    "headline": "Discover the latest insights into the intricate relationship between valproic acid exposure and the development of autism risk as Seoyeon shares her groundbreaking multiomics study in her 한빛사 interview <a href='https://www.ibric.org/myboard/read.php?Board=tr_interview&id=352573&qinterview=Y'>(link)</a>.",
-    "headline_ko": "김서연이 한빛사 인터뷰에서 발프로산(valproic acid) 노출과 자폐 위험 발생 간의 복잡한 관계에 대한 멀티오믹스 연구 결과를 소개합니다 <a href='https://www.ibric.org/myboard/read.php?Board=tr_interview&id=352573&qinterview=Y'>(링크)</a>."
-  },
-  {
     "date": "Aug 17th 2023",
     "headline": "A new study was published. Systematic evaluation of genome sequencing for the diagnostic assessment of autism spectrum disorder and fetal structural anomalies <a href='https://pubmed.ncbi.nlm.nih.gov/37595579/'>(link)</a>.",
     "headline_ko": "새로운 연구가 출판되었습니다. 자폐 스펙트럼 장애 및 태아 구조적 이상의 진단 평가를 위한 유전체 시퀀싱의 체계적 평가 <a href='https://pubmed.ncbi.nlm.nih.gov/37595579/'>(링크)</a>."
+  },
+  {
+    "date": "Aug 14th 2023",
+    "headline": "Discover the latest insights into the intricate relationship between valproic acid exposure and the development of autism risk as Seoyeon shares her groundbreaking multiomics study in her 한빛사 interview <a href='https://www.ibric.org/myboard/read.php?Board=tr_interview&id=352573&qinterview=Y'>(link)</a>.",
+    "headline_ko": "김서연이 한빛사 인터뷰에서 발프로산(valproic acid) 노출과 자폐 위험 발생 간의 복잡한 관계에 대한 멀티오믹스 연구 결과를 소개합니다 <a href='https://www.ibric.org/myboard/read.php?Board=tr_interview&id=352573&qinterview=Y'>(링크)</a>."
   },
   {
     "date": "Aug 11th 2023",
@@ -360,7 +360,7 @@
     "headline_ko": "화찬웅이 KOGO Winter symposium 2023에서 최우수포스터 발표상을 수상했습니다! 축하합니다."
   },
   {
-    "date": "Dec 21th 2022",
+    "date": "Dec 21st 2022",
     "headline": "We are excited to share our new work on how chronic skin ultraviolet irradiation induces microglial dysfunction in the hippocampus in Molecular Brain <a href='https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-022-00989-6'>(link)</a>.",
     "headline_ko": "만성 피부 자외선 조사가 해마에서 미세아교세포 기능 장애를 유발하는 메커니즘에 관한 새로운 연구가 Molecular Brain에 출판되었습니다 <a href='https://molecularbrain.biomedcentral.com/articles/10.1186/s13041-022-00989-6'>(링크)</a>."
   },
@@ -440,11 +440,6 @@
     "headline_ko": "이혜지, 김서연, 기종이 대학원 과정에 입학했습니다. 학업에서의 큰 성과를 기원합니다!"
   },
   {
-    "date": "Mar 1st 2021",
-    "headline": "Seunghwan joined the genomics core as bioinformatics programmer. Welcome!",
-    "headline_ko": "최승환이 바이오인포매틱스 프로그래머로 유전체 코어에 합류했습니다. 환영합니다!"
-  },
-  {
     "date": "Feb 25th 2022",
     "headline": "Lizzy and Yongjin successfully completed their Master's program. We wish much success in your next chapter!",
     "headline_ko": "최리지와 허용진이 석사과정을 성공적으로 마쳤습니다. 앞으로의 여정에 큰 성공을 기원합니다!"
@@ -500,6 +495,11 @@
     "headline_ko": "이강희와 김수휘가 대학원 과정을 시작했습니다. 앞으로의 연구를 응원합니다!"
   },
   {
+    "date": "Mar 1st 2021",
+    "headline": "Seunghwan joined the genomics core as bioinformatics programmer. Welcome!",
+    "headline_ko": "최승환이 바이오인포매틱스 프로그래머로 유전체 코어에 합류했습니다. 환영합니다!"
+  },
+  {
     "date": "Dec 28th 2020",
     "headline": "Hyeji, Minku, Jaehyun, and Jaemin joined the team for undergraduate internship. Welcome!",
     "headline_ko": "이혜지, 민쿠, 김재현, 박재민이 학부 인턴으로 팀에 합류했습니다. 환영합니다!"
@@ -525,19 +525,19 @@
     "headline_ko": "BrainVar! 인간 전전두피질 발달에 관한 멀티오믹스 연구가 Cell Reports에 출판되었습니다 <a href='https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30367-3'>(링크)</a>."
   },
   {
-    "date": "March 1st 2020",
+    "date": "Mar 2nd 2020",
+    "headline": "Lizzy and Yong-Jin started the graduate program. Good luck!",
+    "headline_ko": "최리지와 허용진이 대학원 과정을 시작했습니다. 앞으로의 연구를 응원합니다!"
+  },
+  {
+    "date": "Mar 1st 2020",
     "headline": "The lab receives 5-year funding from the National Research Foundation, Korea. This is for the development of category-wide association study for noncoding association in neurodevelopmental disorder.",
     "headline_ko": "한국연구재단으로부터 5년 연구비를 수주하였습니다. 신경발달 장애의 비코딩 영역 연관성을 위한 범주별 연관 분석(category-wide association study) 개발 연구입니다."
   },
   {
-    "date": "Jan 23th 2020",
+    "date": "Jan 23rd 2020",
     "headline": "Very excited to present our new work in Cell <a href='https://www.cell.com/cell/fulltext/S0092-8674(19)31398-4'>(link)</a>. This is the largest gene discovery of autism spectrum disorder using whole exome sequencing.",
     "headline_ko": "전체 엑솜 시퀀싱을 이용한 자폐 스펙트럼 장애의 최대 규모 유전자 발견 연구가 Cell에 출판되었습니다 <a href='https://www.cell.com/cell/fulltext/S0092-8674(19)31398-4'>(링크)</a>."
-  },
-  {
-    "date": "Mar 2nd 2020",
-    "headline": "Lizzy and Yong-Jin started the graduate program. Good luck!",
-    "headline_ko": "최리지와 허용진이 대학원 과정을 시작했습니다. 앞으로의 연구를 응원합니다!"
   },
   {
     "date": "Oct 28th 2019",
@@ -565,14 +565,14 @@
     "headline_ko": "한국연구재단으로부터 한국인 폐암 멀티오믹스 프로젝트 연구비를 수주하였습니다. 6년간 지원을 받아 유전체학, 전사체학, 단백질체학을 통합한 폐암 예측 모델을 개발합니다."
   },
   {
-    "date": "Mar 22th 2019",
+    "date": "Mar 22nd 2019",
     "headline": "Happy to share our preprint about BrainVar. We produced paired WGS and RNAseq from the human dorsolateral prefrontal cortex of 176 neurotypical individuals across prenatal and postnatal development! <a href='https://www.biorxiv.org/content/10.1101/585430v1.abstract'> Werling et al. 2019 </a> on bioRxiv.",
     "headline_ko": "BrainVar 프리프린트를 공유합니다. 176명의 신경전형 개인의 인간 배외측 전전두피질에서 출생 전후 발달 과정에 걸쳐 WGS와 RNAseq 쌍을 생산하였습니다! bioRxiv에 <a href='https://www.biorxiv.org/content/10.1101/585430v1.abstract'> Werling et al. 2019 </a> 게재."
   },
   {
     "date": "Dec 13th 2018",
-    "headline": "New paper! <a href='http://science.sciencemag.org/content/362/6420/eaat6576.long'> An et al. 2018 </a> published in Science, highlights the role of promoters in autism.",
-    "headline_ko": "새 논문 출판! <a href='http://science.sciencemag.org/content/362/6420/eaat6576.long'> An et al. 2018 </a>이 Science에 게재되었으며, 자폐에서 프로모터의 역할을 규명합니다."
+    "headline": "New paper! <a href='https://www.science.org/doi/10.1126/science.aat6576'> An et al. 2018 </a> published in Science, highlights the role of promoters in autism.",
+    "headline_ko": "새 논문 출판! <a href='https://www.science.org/doi/10.1126/science.aat6576'> An et al. 2018 </a>이 Science에 게재되었으며, 자폐에서 프로모터의 역할을 규명합니다."
   },
   {
     "date": "Dec 1st 2018",

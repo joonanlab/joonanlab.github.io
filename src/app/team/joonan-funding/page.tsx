@@ -5,8 +5,8 @@ import { ScrollReveal } from '@/components/shared/ScrollReveal'
 import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
-  title: 'Funding - Joonan An',
-  description: 'Research funding and grants for Joo-nan An at AN Lab, Korea University.',
+  title: 'Funding - Joon-Yong An',
+  description: 'Research funding and grants for Joon-Yong An at AN Lab, Korea University.',
 }
 
 export default function JoonanFundingPage() {
@@ -20,7 +20,7 @@ export default function JoonanFundingPage() {
           items={[
             { label: 'Home', href: '/' },
             { label: 'Team', href: '/team' },
-            { label: 'Joonan An', href: '/team/joonan' },
+            { label: 'Joon-Yong An', href: '/team/joonan' },
             { label: 'Funding' },
           ]}
         />

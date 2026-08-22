@@ -72,7 +72,7 @@ export interface Publication {
   tags?: string[]
   highlight: 0 | 1
   corresponding: 0 | 1
-  type: 'article' | 'preprint' | 'review'
+  type: 'article' | 'preprint' | 'review' | 'conference'
 }
 
 export interface NewsItem {
