@@ -221,7 +221,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                 )}
                 {piProfile?.scholar && (
                   <a
-                    href={piProfile.scholar}
+                    href={`https://scholar.google.com/citations?user=${piProfile.scholar}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
