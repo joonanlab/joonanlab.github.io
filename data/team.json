@@ -17,7 +17,7 @@
     "tags": ["WGS"]
   },
   {
-    "name": "Ingyeong Koh",
+    "name": "In Gyeong Koh",
     "name_ko": "고인경",
     "photo": "ingyeongkoh.jpg",
     "info": "PhD Student (NRF Fellow)",
@@ -44,7 +44,7 @@
     "tags": ["AI"]
   },
   {
-    "name": "Chaewon Min",
+    "name": "Chae-Won Min",
     "name_ko": "민채원",
     "photo": "chaewon.jpg",
     "info": "Masters Student (CNRF Fellow)",
@@ -71,7 +71,7 @@
     "tags": ["WGS"]
   },
   {
-    "name": "Dong Min Shin",
+    "name": "Dong-Min Shin",
     "name_ko": "신동민",
     "photo": "dongmin.jpg",
     "info": "PhD Student",
@@ -98,7 +98,7 @@
     "tags": ["AI"]
   },
   {
-    "name": "Haeun Jeong",
+    "name": "Ha-Eun Jeong",
     "name_ko": "정하은",
     "photo": "haeun.png",
     "info": "Masters Student",
@@ -181,7 +181,7 @@
     "group": 3
   },
   {
-    "name": "Seojin Jeong",
+    "name": "Seojin Chung",
     "name_ko": "정서진",
     "photo": "seojinjeong.jpg",
     "info": "Undergraduate intern",
