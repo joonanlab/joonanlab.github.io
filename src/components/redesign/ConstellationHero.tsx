@@ -34,6 +34,9 @@ export function ConstellationHero() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const [mounted, setMounted] = useState(false)
   useEffect(() => {
+    // One-shot hydration guard: next-themes resolves only on the client, so
+    // the canvas visibility must not be decided until after mount.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true)
   }, [])
   const showCanvas = !mounted || resolvedTheme === 'dark'

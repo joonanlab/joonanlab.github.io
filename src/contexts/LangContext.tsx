@@ -48,6 +48,9 @@ export function LangProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const next = getStoredLang() ?? getBrowserLang()
+    // SSR always renders 'en'; the stored/browser language is only knowable
+    // on the client, so this one-shot mount sync is intentional.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLang(next)
     applyDocumentLang(next)
   }, [])

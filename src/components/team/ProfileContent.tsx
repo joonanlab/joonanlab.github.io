@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import type { MemberProfile, AlumniMember, FundingItem, ActivitiesData, OutreachData } from '@/lib/data'
 
@@ -21,7 +22,6 @@ function SocialLink({ href, label, children }: { href: string; label: string; ch
 
 export function ProfileContent({
   profile,
-  isCurrentMember,
   alumniEntry,
   funding,
   activities,
@@ -167,10 +167,10 @@ export function ProfileContent({
               PI {funding.filter(f => f.role === 'PI').length}건, CI {funding.filter(f => f.role !== 'PI').length}건 (2018–현재).
             </span>
           </p>
-          <a href="/team/joonan-funding" className="pill" style={{ color: 'var(--accent)' }}>
+          <Link href="/team/joonan-funding" className="pill" style={{ color: 'var(--accent)' }}>
             <span className="en-only">View all funding →</span>
             <span className="ko-only">전체 연구비 보기 →</span>
-          </a>
+          </Link>
         </motion.section>
       )}
 
@@ -195,10 +195,10 @@ export function ProfileContent({
               대중 참여 {outreach.outreach.length}건, 교육 워크숍 {outreach.workshops.length}건 (2019–현재).
             </span>
           </p>
-          <a href="/team/joonan-outreach" className="pill" style={{ color: 'var(--accent)' }}>
+          <Link href="/team/joonan-outreach" className="pill" style={{ color: 'var(--accent)' }}>
             <span className="en-only">View all outreach &amp; education →</span>
             <span className="ko-only">전체 보기 →</span>
-          </a>
+          </Link>
         </motion.section>
       )}
 
@@ -223,10 +223,10 @@ export function ProfileContent({
               학회 발표 {activities.conferences.length}건, 초청 세미나 {activities.seminars.length}건 (2019–현재).
             </span>
           </p>
-          <a href="/team/joonan-activities" className="pill" style={{ color: 'var(--accent)' }}>
+          <Link href="/team/joonan-activities" className="pill" style={{ color: 'var(--accent)' }}>
             <span className="en-only">View all activities →</span>
             <span className="ko-only">전체 활동 보기 →</span>
-          </a>
+          </Link>
         </motion.section>
       )}
 
@@ -268,7 +268,7 @@ function classifyPub(html: string): 'first' | 'co' {
 function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
   const [filter, setFilter] = useState<'all' | 'first' | 'co'>('all')
 
-  const { before, pubHeading, pubItems, after } = splitBioHtml(bioHtml)
+  const { before, pubItems, after } = splitBioHtml(bioHtml)
 
   const classified = pubItems.map((html) => ({ html, role: classifyPub(html) }))
   const firstCount = classified.filter((p) => p.role === 'first').length
