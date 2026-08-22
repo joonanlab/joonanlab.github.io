@@ -5,6 +5,9 @@ import { LangProvider } from '@/contexts/LangContext'
 import { LegacyChrome } from '@/components/layout/LegacyChrome'
 import '@/styles/globals.css'
 
+// The site theme is time-based only: light 07:00–18:59, dark otherwise.
+// There is deliberately no user-facing light/dark toggle, so this script
+// and TimeThemeSync in ThemeProvider are the only writers of 'theme'.
 const initialPreferencesScript = `
 (function () {
   function timeTheme() {

@@ -3,6 +3,14 @@
 import { ThemeProvider as NextThemesProvider, useTheme } from 'next-themes'
 import { useEffect, type ReactNode } from 'react'
 
+/**
+ * The site theme follows the clock rather than a user preference: light
+ * between 07:00 and 19:00, dark otherwise. TimeThemeSync applies it on
+ * mount and re-applies it at each boundary while the tab stays open.
+ * There is no light/dark toggle in the UI — adding one would be undone
+ * here and by the pre-hydration script in app/layout.tsx.
+ */
+
 type SiteTheme = 'light' | 'dark'
 
 function getTimeBasedTheme(date = new Date()): SiteTheme {
