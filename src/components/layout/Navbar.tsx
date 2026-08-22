@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
@@ -31,7 +32,7 @@ export function Navbar() {
     <nav className="glass-nav fixed top-0 w-full z-50 px-6 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <img
+          <Image
             src="/images/logopic/Logo2025-AnLab.png"
             alt="AN Lab"
             className="h-8 w-auto"

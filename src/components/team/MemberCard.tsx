@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import type { TeamMember } from '@/lib/data'
 import { Badge } from '@/components/shared/Badge'
@@ -27,11 +28,12 @@ export function MemberCard({ member, group }: { member: TeamMember; group?: numb
     >
       {/* Photo area */}
       <div className="tc-card-image">
-        <img
+        <Image
           src={`/images/teampic/${member.photo}`}
           alt={member.name}
+          width={400}
+          height={400}
           className="tc-card-img"
-          loading="lazy"
         />
         <div className="tc-card-image-overlay" />
       </div>

@@ -3,7 +3,6 @@ import { getResearchAreas } from '@/lib/data'
 import { LabHeader } from '@/components/redesign/LabHeader'
 import { LabFooter } from '@/components/redesign/LabFooter'
 import { ResearchPageClient } from '@/components/redesign/ResearchPageClient'
-import { AN_TOKENS } from '@/lib/redesign-tokens'
 
 export const metadata: Metadata = {
   title: 'Research',

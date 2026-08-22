@@ -12,6 +12,7 @@
  * EN/KO pill, and hamburger remain visible.
  */
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
@@ -83,7 +84,7 @@ export function LabHeader({ theme = 'auto' }: LabHeaderProps) {
               flexShrink: 0,
             }}
           >
-            <img
+            <Image
               src="/images/logopic/Logo2025-AnLab.png"
               alt=""
               width={32}

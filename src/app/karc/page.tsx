@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { Metadata } from 'next'
 import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { ScrollReveal } from '@/components/shared/ScrollReveal'
@@ -17,11 +18,12 @@ export default function KARCPage() {
 
         <ScrollReveal>
           <div className="flex items-center gap-6 mb-8">
-            <img
+            <Image
               src="/images/logopic/logo-K-ARC.png"
               alt="K-ARC Logo"
+              width={200}
+              height={202}
               className="h-20 w-auto"
-              loading="lazy"
             />
             <h1 className="section-header">Korean Autism Research Consortium (K-ARC)</h1>
           </div>

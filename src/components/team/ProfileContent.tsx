@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import type { MemberProfile, AlumniMember, FundingItem, ActivitiesData, OutreachData } from '@/lib/data'
@@ -47,9 +48,11 @@ export function ProfileContent({
           className="w-36 h-36 rounded-full overflow-hidden shrink-0"
           style={{ background: 'var(--bg-tertiary)' }}
         >
-          <img
+          <Image
             src={`/images/teampic/${profile.photo}`}
             alt={profile.name}
+            width={144}
+            height={144}
             className="w-full h-full object-cover"
           />
         </div>

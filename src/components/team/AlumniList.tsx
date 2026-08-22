@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import type { AlumniMember } from '@/lib/data'
@@ -46,11 +47,12 @@ export function AlumniList({ alumni }: { alumni: AlumniMember[] }) {
                       className="w-12 h-12 rounded-full overflow-hidden shrink-0"
                       style={{ background: 'var(--bg-tertiary)' }}
                     >
-                      <img
+                      <Image
                         src={`/images/teampic/${m.photo}`}
                         alt={m.name}
+                        width={48}
+                        height={48}
                         className="w-full h-full object-cover"
-                        loading="lazy"
                       />
                     </div>
                     <div className="min-w-0">

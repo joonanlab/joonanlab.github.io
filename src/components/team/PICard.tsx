@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import type { TeamMember } from '@/lib/data'
 
@@ -9,11 +10,12 @@ export function PICard({ member }: { member: TeamMember }) {
     >
       {/* Photo area */}
       <div className="tc-card-image tc-card-image-pi">
-        <img
+        <Image
           src={`/images/teampic/${member.photo}`}
           alt={member.name}
+          width={400}
+          height={400}
           className="tc-card-img"
-          loading="lazy"
         />
         <div className="tc-card-image-overlay" />
       </div>

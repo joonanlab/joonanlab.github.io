@@ -8,6 +8,7 @@
  * (no schema changes). PI is rendered separately above the grid.
  */
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { useLang } from '@/contexts/LangContext'
 import { AN_TOKENS } from '@/lib/redesign-tokens'
@@ -132,9 +133,11 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
               }}
             >
               {pi && (
-                <img
+                <Image
                   src={`/images/teampic/${pi.photo}`}
                   alt={lang === 'ko' ? pi.name_ko : pi.name}
+                  width={400}
+                  height={400}
                   style={{
                     width: '100%',
                     height: '100%',
@@ -479,9 +482,11 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                         }}
                       >
                         {m.photo ? (
-                          <img
+                          <Image
                             src={`/images/teampic/${m.photo}`}
                             alt=""
+                            width={96}
+                            height={96}
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                             onError={(e) => {
                               ;(e.currentTarget as HTMLImageElement).style.display = 'none'

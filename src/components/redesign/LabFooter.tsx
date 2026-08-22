@@ -7,6 +7,7 @@
  * is just to say who we are and where to reach us.
  */
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { useLang } from '@/contexts/LangContext'
 import { AN_TOKENS, anPalette, type AnTheme } from '@/lib/redesign-tokens'
@@ -47,7 +48,7 @@ export function LabFooter({ theme = 'auto' }: LabFooterProps) {
               marginBottom: 12,
             }}
           >
-            <img
+            <Image
               src="/images/logopic/Logo2025-AnLab.png"
               alt=""
               width={28}

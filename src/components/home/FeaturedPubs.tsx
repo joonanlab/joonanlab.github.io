@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import type { Publication } from '@/lib/data'
@@ -44,11 +45,12 @@ export function FeaturedPubs({ publications }: { publications: Publication[] }) 
           >
             {pub.image && (
               <div className="mb-3 rounded-lg overflow-hidden" style={{ background: 'var(--bg-tertiary)' }}>
-                <img
+                <Image
                   src={`/images/pubpic/${pub.image}`}
                   alt=""
+                  width={400}
+                  height={144}
                   className="w-full h-36 object-contain"
-                  loading="lazy"
                 />
               </div>
             )}

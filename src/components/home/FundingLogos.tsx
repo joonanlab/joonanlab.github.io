@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 export function FundingLogos() {
@@ -20,10 +21,10 @@ export function FundingLogos() {
             Supported by
           </span>
           <div className="funding-logos flex flex-wrap items-center justify-center gap-8">
-            <img src="/images/logopic/Logo_NRF.png" alt="NRF" height={48} loading="lazy" />
-            <img src="/images/logopic/logo-NRL.png" alt="NRL" height={48} loading="lazy" />
-            <img src="/images/logopic/aws.svg" alt="AWS" height={48} loading="lazy" />
-            <img src="/images/logopic/logo-k-bds.png" alt="K-BDS" height={48} loading="lazy" />
+            <Image src="/images/logopic/Logo_NRF.png" alt="NRF" width={96} height={48} />
+            <Image src="/images/logopic/logo-NRL.png" alt="NRL" width={109} height={48} />
+            <Image src="/images/logopic/aws.svg" alt="AWS" width={70} height={48} />
+            <Image src="/images/logopic/logo-k-bds.png" alt="K-BDS" width={306} height={48} />
           </div>
         </motion.div>
       </div>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { Metadata } from 'next'
 import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { BilingualText } from '@/components/shared/BilingualText'
@@ -81,12 +82,13 @@ export default function ToolsPage() {
           {TOOLS.map((tool, i) => (
             <ScrollReveal key={i} delay={i * 0.1}>
               <article className="tool-card">
-                <img
+                <Image
                   src={tool.image}
                   alt={tool.name}
+                  width={400}
+                  height={192}
                   className="w-full h-48 object-contain"
                   style={{ background: 'var(--bg-tertiary)' }}
-                  loading="lazy"
                 />
                 <div className="p-6">
                   <h2

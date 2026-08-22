@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useState, useMemo } from 'react'
 import { motion } from 'framer-motion'
 import type { Publication } from '@/lib/data'
@@ -130,11 +131,12 @@ export function PublicationsClient({ publications }: { publications: Publication
           >
             <div className="flex gap-4">
               {pub.highlight === 1 && pub.image && (
-                <img
+                <Image
                   src={`/images/pubpic/${pub.image}`}
                   alt=""
+                  width={96}
+                  height={96}
                   className="w-24 h-24 object-contain shrink-0 rounded hidden sm:block"
-                  loading="lazy"
                 />
               )}
               <div className="min-w-0 flex-1">
