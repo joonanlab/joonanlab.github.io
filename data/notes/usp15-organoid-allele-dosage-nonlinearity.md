@@ -1,5 +1,5 @@
 ---
-title: "Homozygote가 wild type처럼 보일 때, 그것을 무엇이라 부를까"
+title: "Hom이 WT처럼 보일 때, 그것을 무엇이라 부를까"
 date: "2026-08-25"
 summary: "자폐 코호트에서 찾은 USP15 개시 코돈 변이를 isogenic hiPSC 대뇌 오가노이드로 모델링한 우리 논문을 소개한다. Het은 예상대로 전구세포를 잃었는데 Hom에서는 같은 수치가 WT 수준으로 되돌아왔고, 이 비단조 용량 곡선을 developmental cascade의 언어로 어떻게 정의해야 하는지를 정리한다."
 tags: ["usp15", "autism", "brain-organoid", "hipsc", "isogenic-lines", "allele-dosage", "dominance", "developmental-canalization", "radial-glia", "scrna-seq", "genetic-compensation", "ubiquitin-proteasome", "lab-papers"]
