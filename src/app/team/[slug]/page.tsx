@@ -13,9 +13,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const profile = getMemberProfile(slug)
   if (!profile) return { title: 'Not Found' }
+  const isCurrentMember = getTeam().some((member) => member.url === slug)
+  const alumniEntry = getAlumni().find((member) => member.url === slug)
+  const description = isCurrentMember
+    ? `${profile.name} - ${profile.position || 'Member'} at AN Lab, Korea University`
+    : `${profile.name} - ${alumniEntry?.current || profile.position || 'Alumni'}; AN Lab alumni profile.`
   return {
     title: profile.name,
-    description: `${profile.name} - ${profile.position || 'Member'} at AN Lab, Korea University`,
+    description,
   }
 }
 

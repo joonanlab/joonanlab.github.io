@@ -23,6 +23,12 @@ interface RoleSection {
 
 const ROLES: RoleSection[] = [
   {
+    id: 'postdoc',
+    en: 'Postdoctoral Researchers',
+    ko: '박사후연구원',
+    match: (info) => info.startsWith('Postdoctoral'),
+  },
+  {
     id: 'phd',
     en: 'PhD Students',
     ko: '박사과정',
@@ -37,7 +43,7 @@ const ROLES: RoleSection[] = [
   {
     id: 'staff',
     en: 'Research & Administrative Staff',
-    ko: '연구·행정 스태프',
+    ko: '연구 및 행정 스태프',
     match: (info) => info === 'Bioinformatician' || info === 'Administrative Staff',
   },
   {
@@ -107,7 +113,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
             }}
           >
             <span style={{ width: 32, height: 1, background: AN_TOKENS.red }} />
-            {lang === 'ko' ? '책임연구자 · Principal Investigator' : 'Principal Investigator'}
+            {lang === 'ko' ? '책임연구자 / Principal Investigator' : 'Principal Investigator'}
           </div>
 
           <div
@@ -308,7 +314,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
               marginBottom: 16,
             }}
           >
-            {lang === 'ko' ? '도반 · 道伴' : 'Doban · 道伴'}
+            {lang === 'ko' ? '도반 / 道伴' : 'Doban / 道伴'}
           </div>
           <h2
             style={{
@@ -397,7 +403,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                   marginBottom: 12,
                 }}
               >
-                § 02 · {lang === 'ko' ? '구성원' : 'Lab members'}
+                § 02 / {lang === 'ko' ? '구성원' : 'Lab members'}
               </div>
               <h2
                 style={{
@@ -422,7 +428,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                 letterSpacing: 1.5,
               }}
             >
-              {members.length} {lang === 'ko' ? '명' : 'members'} · Seoul, KR
+              {members.length} {lang === 'ko' ? '명' : 'members'} / Seoul, KR
             </div>
           </div>
 
@@ -440,7 +446,7 @@ export function TeamPageClient({ team, piProfile }: TeamPageClientProps) {
                   borderBottom: `1px solid ${'var(--an-surface-line)'}`,
                 }}
               >
-                {lang === 'ko' ? role.ko : role.en} · {list.length}
+                {lang === 'ko' ? role.ko : role.en} / {list.length}
               </div>
               <div
                 className="team-grid"
