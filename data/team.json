@@ -8,6 +8,15 @@
     "group": 0
   },
   {
+    "name": "Hyeji Lee",
+    "name_ko": "이혜지",
+    "photo": "hyejilee.jpg",
+    "info": "Postdoctoral Researcher",
+    "url": "hyeji",
+    "group": 2,
+    "tags": ["WGS"]
+  },
+  {
     "name": "Eunkyung Lee",
     "name_ko": "이은경",
     "photo": "blank.png",

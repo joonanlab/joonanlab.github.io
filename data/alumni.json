@@ -1,18 +1,5 @@
 [
   {
-    "name": "Hyeji Lee",
-    "name_ko": "이혜지",
-    "photo": "hyejilee.jpg",
-    "info": "Ph.D. Graduate",
-    "info_ko": "박사 졸업",
-    "url": "hyeji",
-    "group": 1,
-    "year": 2026,
-    "thesis": null,
-    "current": "Postdoctoral Researcher",
-    "current_ko": "박사후연구원"
-  },
-  {
     "name": "Yujin Kim",
     "name_ko": "김유진",
     "photo": "yujinkim.png",
