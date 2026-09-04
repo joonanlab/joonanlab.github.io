@@ -1,8 +1,18 @@
 [
   {
+    "date": "Sep 3rd 2026",
+    "headline": "Our AnnFlux preprint is now available on bioRxiv! AnnFlux models single-cell perturbation dynamics with object-conditioned neural stochastic differential equations and predicts unseen perturbations and combinations <a href='https://www.biorxiv.org/content/10.64898/2026.09.01.748703v1.full'>(link)</a>.",
+    "headline_ko": "단일세포 섭동 동역학을 object-conditioned neural stochastic differential equation으로 모델링하고 새로운 섭동과 조합 반응을 예측하는 AnnFlux 프리프린트가 bioRxiv에 공개되었습니다 <a href='https://www.biorxiv.org/content/10.64898/2026.09.01.748703v1.full'>(링크)</a>."
+  },
+  {
     "date": "Sep 1st 2026",
     "headline": "Congratulations to Ha-Eun Jeong and Kyeongho Yeom on being selected for the NRF Research Fellowship for Master's Students (석사과정생 연구장려금)! 🎉",
     "headline_ko": "정하은과 염경호가 한국연구재단 석사과정생 연구장려금 지원사업에 선정되었습니다! 축하합니다! 🎉"
+  },
+  {
+    "date": "Aug 26th 2026",
+    "headline": "Our NOCAP-AI preprint is now available on bioRxiv! By combining a 3.6-million-cell neural organoid atlas, perturbation-informed AI, and family-based autism genomics, the study prioritizes candidate genes for autism <a href='https://www.biorxiv.org/content/10.64898/2026.08.22.746387v1.full'>(link)</a>.",
+    "headline_ko": "364만 개 세포 규모의 신경 오가노이드 아틀라스, 섭동 기반 AI, 가족 기반 자폐 유전체학을 결합해 자폐 후보 유전자의 우선순위를 제시한 NOCAP-AI 프리프린트가 bioRxiv에 공개되었습니다 <a href='https://www.biorxiv.org/content/10.64898/2026.08.22.746387v1.full'>(링크)</a>."
   },
   {
     "date": "Jul 31st 2026",
@@ -27,7 +37,7 @@
   {
     "date": "May 9th 2026",
     "headline": "Our new study introducing IDAP — an integrated literature- and knowledge-graph-driven evidence prioritization pipeline for precision oncology — is now published in Bioinformatics <a href='https://doi.org/10.1093/bioinformatics/btag300'>(link)</a>.",
-    "headline_ko": "정밀 종양학을 위한 통합 문헌·지식그래프 기반 근거 우선순위화 파이프라인 IDAP를 소개한 연구가 Bioinformatics에 게재되었습니다 <a href='https://doi.org/10.1093/bioinformatics/btag300'>(링크)</a>."
+    "headline_ko": "정밀 종양학을 위한 통합 문헌, 지식그래프 기반 근거 우선순위화 파이프라인 IDAP를 소개한 연구가 Bioinformatics에 게재되었습니다 <a href='https://doi.org/10.1093/bioinformatics/btag300'>(링크)</a>."
   },
   {
     "date": "May 6th 2026",

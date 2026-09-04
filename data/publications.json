@@ -1,5 +1,52 @@
 [
   {
+    "title": "AnnFlux: object-conditioned neural stochastic differential equations for single-cell perturbation dynamics",
+    "authors": "Choi H, Byeon G, Park H, Park J, Lim S, An JY",
+    "authors_full": "Choi Heesun, Byeon Gaeun, Park Hayoon, Park Jongseo, Lim Sungbin, An Joon-Yong",
+    "journal": "bioRxiv",
+    "year": 2026,
+    "date": "2026 Sep 3",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "10.64898/2026.09.01.748703",
+    "link": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748703v1.full",
+      "display": "Choi et al., (2026), bioRxiv",
+      "display_full": "Choi H, Byeon G, Park H, Park J, Lim S, An JY, (2026), AnnFlux: object-conditioned neural stochastic differential equations for single-cell perturbation dynamics, bioRxiv"
+    },
+    "highlight": 0,
+    "type": "preprint",
+    "corresponding": 1,
+    "tags": [
+      "VirtualCell"
+    ]
+  },
+  {
+    "title": "AI-driven framework modeling perturbation in brain organoids reveals candidate genes for autism",
+    "authors": "Koh IG, Chang E, Choi YS, Kim SW, Kim Y, Lee H, Byeon G, Ryu Y, Kim S, Lee J, Park H, Sim H, Ryu Y, Shim W, Lee J, Salazar NB, Mendes de Aquino M, Engchuan W, Zhou X, Son JH, Lee J, Bong G, Kim IB, Han JH, Werling DM, Kim SH, Oh M, Kim MS, Lee D, Kim J, Lee YS, Sun W, Kim E, Scherer SW, Jeon M, Yoo HJ, An JY",
+    "authors_full": "Koh In Gyeong, Chang Eunhyong, Choi Youngseok, Kim Soo-Whee, Kim Yujin, Lee Hyeji, Byeon Gaeun, Ryu Yebin, Kim Seoyeon, Lee Jihae, Park Hayoon, Sim Hwanseok, Ryu Yeojin, Shim Woojong, Lee Jiho, Salazar Nelson B., Mendes de Aquino Marla, Engchuan Worrawat, Zhou Xiaopu, Son Ji Hyun, Lee Jeewon, Bong Guiyoung, Kim Il Bin, Han Jae Hyun, Werling Donna M., Kim So Hyun, Oh Miae, Kim Min-Sik, Lee Daekee, Kim Jaesang, Lee Yong-Seok, Sun Woong, Kim Eunjoon, Scherer Stephen W., Jeon Minji, Yoo Hee Jeong, An Joon-Yong",
+    "journal": "bioRxiv",
+    "year": 2026,
+    "date": "2026 Aug 26",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "10.64898/2026.08.22.746387",
+    "link": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.746387v1.full",
+      "display": "Koh et al., (2026), bioRxiv",
+      "display_full": "Koh IG et al., (2026), AI-driven framework modeling perturbation in brain organoids reveals candidate genes for autism, bioRxiv"
+    },
+    "highlight": 0,
+    "type": "preprint",
+    "corresponding": 1,
+    "tags": [
+      "Autism",
+      "VirtualCell"
+    ]
+  },
+  {
     "title": "USP15 mutation associated with autism spectrum disorder alters progenitor fate and neuronal maturation in human brain organoids",
     "authors": "Park TH, Koh IG, Sung S, Park H, Kim J, Lee S, Lee YJ, Ko H, Han JH, Bong G, Yoo HJ, Kim J, An JY, Lee JY",
     "authors_full": "Park Tae-Hwan, Koh In Gyeong, Sung Seoyoung, Park Hayoon, Kim Jieun, Lee Sebin, Lee Yun Jin, Ko Hyunsoo, Han Jae Hyun, Bong Guiyoung, Yoo Hee Jeong, Kim Jaesang, An Joon-Yong, Lee Ji Yeoun",
