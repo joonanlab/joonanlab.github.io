@@ -1,5 +1,10 @@
 [
   {
+    "date": "Sep 5th 2026",
+    "headline": "Congratulations to Gaeun Byeon for receiving the Best Poster Award for her AnnFlux work at the 35th International KOGO Annual Conference 2026! 🎉",
+    "headline_ko": "변가은이 2026년 제35회 국제 KOGO 정기학술대회에서 AnnFlux 연구로 최우수 포스터상을 수상했습니다! 축하합니다! 🎉"
+  },
+  {
     "date": "Sep 3rd 2026",
     "headline": "Our AnnFlux preprint is now available on bioRxiv! AnnFlux models single-cell perturbation dynamics with object-conditioned neural stochastic differential equations and predicts unseen perturbations and combinations <a href='https://www.biorxiv.org/content/10.64898/2026.09.01.748703v1.full'>(link)</a>.",
     "headline_ko": "단일세포 섭동 동역학을 object-conditioned neural stochastic differential equation으로 모델링하고 새로운 섭동과 조합 반응을 예측하는 AnnFlux 프리프린트가 bioRxiv에 공개되었습니다 <a href='https://www.biorxiv.org/content/10.64898/2026.09.01.748703v1.full'>(링크)</a>."
