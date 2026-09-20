@@ -21,16 +21,16 @@ This approach is particularly critical for interpreting noncoding variants. Beca
 
 The DNA of one person is very similar to another's, but some parts differ. Even though we call it "some," the number of differences amounts to 3 to 5 million. African populations have somewhat more; non-African populations who migrated out of Africa and settled elsewhere have around 3 million (varying by genetic pool). In a genome of 3 billion bases, even a fraction of a percent difference adds up to an enormous number of variants.
 
-In molecular biology, which developed from Mendelian genetics, researchers studied one variant and one gene at a time. Disease mechanisms and biological principles were uncovered that way. But in humans, most traits are not determined by a single gene. Most traits are quantitative, shaped by the cumulative contributions of numerous variants. So when studying a single disease, a vast number of variants and genes emerge.
+In molecular biology, which developed from Mendelian genetics, researchers studied one variant and one gene at a time. Disease mechanisms and biological principles were uncovered that way. But in humans most traits are quantitative, shaped by the cumulative contributions of numerous variants rather than by a single gene. So when studying a single disease, a vast number of variants and genes emerge.
 
-To experimentally validate all of these in a classical molecular biology lab would take centuries. This is not to diminish that effort. Classical biologists select the most plausible hypothesis and devote decades to it. That is how biology textbooks grew thick. Some hypotheses turn out to be right, others wrong. Some lead to drugs, others fail. And still, in reality, far more hypotheses — genes and variants in astronomical numbers — remain untested.
+To experimentally validate all of these in a classical molecular biology lab would take centuries. This is not to diminish that effort. Classical biologists select the most plausible hypothesis and devote decades to it. That is how biology textbooks grew thick. Some hypotheses turn out to be right, others wrong. Some lead to drugs, others fail. And still, in reality, far more hypotheses remain untested: genes and variants in astronomical numbers.
 
 ## What If We Could "Predict as If We Had Experimented" Without Actually Experimenting?
 
 Build a foundation model from accumulated data, make predictions, then experiment on those predictions. Research is shifting toward this kind of loop, and AlphaGenome and other foundation models accelerate it.
 
-Returning to ISM: it tests millions of variants — millions of potential hypotheses. Without culturing neurons with inserted variants, without growing cancer cells with mutations, without measuring gene expression levels, without assaying chromatin regulation, it extracts predicted information much like asking ChatGPT a question. Is it accurate? It is not. Will it become accurate? And in what way?
+Returning to ISM: it tests millions of variants, which is to say millions of potential hypotheses. Without culturing neurons with inserted variants, without growing cancer cells with mutations, without measuring gene expression levels, without assaying chromatin regulation, it extracts predicted information much like asking ChatGPT a question. Is it accurate? It is not. Will it become accurate? And in what way?
 
-## Where Is ISM Ultimately Headed?
+## Where Is ISM Headed?
 
-Several foreseeable futures exist. Beyond simply identifying drug candidates, ISM can be applied to disease prediction and various forms of patient stratification. A variant takes a single form, but it plays diverse roles across development and adaptation.
+ISM can feed drug candidate discovery, disease prediction, and patient stratification. A variant takes a single form, but it plays diverse roles across development and adaptation.
