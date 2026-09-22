@@ -1,5 +1,28 @@
 [
   {
+    "title": "Toward AI Virtual Cells for Hepatology: Representation, Generation, Dynamics, and Intervention in Single-Cell Models",
+    "authors": "Choi YS, Koh IG, Choi M, An JY, VITAL Consortium",
+    "authors_full": "Choi Youngseok, Koh In Gyeong, Choi Murim, An Joon-Yong, on behalf of the VITAL Consortium",
+    "journal": "Clinical and Molecular Hepatology",
+    "year": 2026,
+    "date": "2026 Sep 17",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "10.3350/cmh.2026.0820",
+    "link": {
+      "url": "https://e-cmh.org/journal/view.php?doi=10.3350/cmh.2026.0820",
+      "display": "Choi et al., (2026), Clinical and Molecular Hepatology",
+      "display_full": "Choi YS, Koh IG, Choi M, An JY, on behalf of the VITAL Consortium, (2026), Toward AI Virtual Cells for Hepatology: Representation, Generation, Dynamics, and Intervention in Single-Cell Models, Clinical and Molecular Hepatology"
+    },
+    "highlight": 0,
+    "type": "review",
+    "corresponding": 1,
+    "tags": [
+      "VirtualCell"
+    ]
+  },
+  {
     "title": "AnnFlux: object-conditioned neural stochastic differential equations for single-cell perturbation dynamics",
     "authors": "Choi H, Byeon G, Park H, Park J, Lim S, An JY",
     "authors_full": "Choi Heesun, Byeon Gaeun, Park Hayoon, Park Jongseo, Lim Sungbin, An Joon-Yong",

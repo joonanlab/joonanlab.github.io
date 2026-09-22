@@ -1,5 +1,10 @@
 [
   {
+    "date": "Sep 17th 2026",
+    "headline": "Our review of AI virtual cells for the liver is published in Clinical and Molecular Hepatology, with Youngseok Choi and In Gyeong Koh as co-first authors. It compares generative, dynamics, and pretrained single-cell models and explains why predictions of unseen perturbations need independent validation <a href='https://e-cmh.org/journal/view.php?doi=10.3350/cmh.2026.0820'>(link)</a>.",
+    "headline_ko": "최영석과 고인경이 공동 제1저자로 참여한 간 AI 가상세포 리뷰가 Clinical and Molecular Hepatology에 게재되었습니다. 생성 모델, 동역학 모델, 사전학습 단일세포 모델을 비교하고, 새로운 섭동 반응 예측에는 독립적인 검증이 필요함을 짚었습니다 <a href='https://e-cmh.org/journal/view.php?doi=10.3350/cmh.2026.0820'>(링크)</a>."
+  },
+  {
     "date": "Sep 5th 2026",
     "headline": "Congratulations to Gaeun Byeon for receiving the Best Poster Award for her AnnFlux work at the 35th International KOGO Annual Conference 2026! 🎉",
     "headline_ko": "변가은이 2026년 제35회 국제 KOGO 정기학술대회에서 AnnFlux 연구로 최우수 포스터상을 수상했습니다! 축하합니다! 🎉"
