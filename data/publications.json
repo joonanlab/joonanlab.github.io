@@ -70,6 +70,29 @@
     ]
   },
   {
+    "title": "megaMine: a scalable, rule-based framework for mining gene-cancer-drug evidence from biomedical literature",
+    "authors": "Junaid M, Prazanowska KH, Jeong HE, Ryu Y, Choi J, An JY, Lim SB",
+    "authors_full": "Muhammad Junaid, Karolina Hanna Prazanowska, Ha-Eun Jeong, Yebin Ryu, Jeff Choi, Joon-Yong An, Su Bin Lim",
+    "journal": "bioRxiv",
+    "year": 2026,
+    "date": "2026 Aug 12",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "10.64898/2026.08.06.743392",
+    "link": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743392v1",
+      "display": "Junaid et al., (2026), bioRxiv",
+      "display_full": "Junaid M, Prazanowska KH, Jeong HE, Ryu Y, Choi J, An JY, Lim SB, (2026), megaMine: a scalable, rule-based framework for mining gene-cancer-drug evidence from biomedical literature, bioRxiv"
+    },
+    "highlight": 0,
+    "type": "preprint",
+    "corresponding": 0,
+    "tags": [
+      "Cancer"
+    ]
+  },
+  {
     "title": "USP15 mutation associated with autism spectrum disorder alters progenitor fate and neuronal maturation in human brain organoids",
     "authors": "Park TH, Koh IG, Sung S, Park H, Kim J, Lee S, Lee YJ, Ko H, Han JH, Bong G, Yoo HJ, Kim J, An JY, Lee JY",
     "authors_full": "Park Tae-Hwan, Koh In Gyeong, Sung Seoyoung, Park Hayoon, Kim Jieun, Lee Sebin, Lee Yun Jin, Ko Hyunsoo, Han Jae Hyun, Bong Guiyoung, Yoo Hee Jeong, Kim Jaesang, An Joon-Yong, Lee Ji Yeoun",
@@ -422,11 +445,11 @@
   },
   {
     "title": "AGO1 in neural progenitor cells orchestrates brain development and sociability via LIN28A-REELIN axis",
-    "authors": "Do H, Kim D, Jappelli R, Yang H, Jeon Y, Son G, Ju M, Son J, Ahn I, Lim CK, Ji J, Lee J, Kim YK, An JY, Lee SH, Lee D, Gage FH, Han J",
-    "authors_full": "Do H, Kim D, Jappelli R, Yang H, Jeon Y, Son G, Ju M, Son J, Ahn I, Lim CK, Ji J, Lee J, Kim YK, An JY, Lee SH, Lee D, Gage FH, Han J",
+    "authors": "Do H, Kim D, Jappelli R, Yang H, Jeon Y, Son G, Ju M, Son JH, Ahn I, Lim CK, Ji J, Lee J, Kim YK, An JY, Lee SH, Lee D, Gage FH, Han J",
+    "authors_full": "Do H, Kim D, Jappelli R, Yang H, Jeon Y, Son G, Ju M, Son JH, Ahn I, Lim CK, Ji J, Lee J, Kim YK, An JY, Lee SH, Lee D, Gage FH, Han J",
     "journal": "bioRxiv",
     "year": 2025,
-    "date": "2025",
+    "date": "2025 Oct 2",
     "vol": null,
     "issue": null,
     "page": "",
