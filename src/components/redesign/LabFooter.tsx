@@ -123,6 +123,9 @@ export function LabFooter({ theme = 'auto' }: LabFooterProps) {
         }}
       >
         <span>© {new Date().getFullYear()} AN Lab, Korea University</span>
+        <Link href="/privacy" style={{ color: p.inkSoft, textDecoration: 'none' }}>
+          {lang === 'ko' ? '개인정보처리방침' : 'Privacy Policy'}
+        </Link>
         <span>Inspired by Biology · Driven by AI</span>
       </div>
     </footer>
