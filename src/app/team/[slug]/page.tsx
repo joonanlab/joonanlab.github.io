@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getAllMemberSlugs, getMemberProfile, getTeam, getAlumni, getFunding, getActivities, getOutreach } from '@/lib/data'
-import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { ProfileContent } from '@/components/team/ProfileContent'
-import { RedesignChrome } from '@/components/redesign/RedesignChrome'
+import { BackLink } from '@/components/site/BackLink'
+import { L } from '@/components/site/L'
 
 export function generateStaticParams() {
   return getAllMemberSlugs().map((slug) => ({ slug }))
@@ -49,16 +49,18 @@ export default async function ProfilePage({ params }: { params: Promise<{ slug: 
   const outreach = isPI ? getOutreach() : null
 
   return (
-    <RedesignChrome>
-      <div className="pt-16 pb-16 px-6">
-        <div className="max-w-4xl mx-auto">
-          <Breadcrumb
-            items={[
-              { label: 'Home', href: '/' },
-              { label: 'Team', href: '/team' },
-              { label: profile.name },
-            ]}
-          />
+    <>
+      <div className="doc-page">
+        <div className="container-text">
+          {alumniEntry && !isCurrentMember ? (
+            <BackLink href="/alumni">
+              <L en="Alumni" ko="졸업생" />
+            </BackLink>
+          ) : (
+            <BackLink href="/team">
+              <L en="Team" ko="구성원" />
+            </BackLink>
+          )}
 
           <ProfileContent
             profile={profile}
@@ -70,6 +72,6 @@ export default async function ProfilePage({ params }: { params: Promise<{ slug: 
           />
         </div>
       </div>
-    </RedesignChrome>
+    </>
   )
 }

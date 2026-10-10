@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
-import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { BilingualText } from '@/components/shared/BilingualText'
 import { ScrollReveal } from '@/components/shared/ScrollReveal'
-import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
@@ -13,15 +11,14 @@ const EFFECTIVE_DATE = '2026-10-10'
 
 export default function PrivacyPage() {
   return (
-    <RedesignChrome>
-    <div className="pt-16 pb-16 px-6">
-      <div className="max-w-4xl mx-auto">
-        <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Privacy Policy' }]} />
+    <>
+    <div className="doc-page">
+      <div className="container-text">
         <BilingualText
           en="Privacy Policy"
           ko="개인정보처리방침"
           as="h1"
-          className="section-header mb-4"
+          className="t-h1 mb-4"
         />
         <p className="mb-8 text-sm" style={{ color: 'var(--text-secondary)' }}>
           <span className="en-only">Effective date: {EFFECTIVE_DATE}</span>
@@ -46,7 +43,7 @@ export default function PrivacyPage() {
 
         <ScrollReveal delay={0.1}>
           <section className="mb-6">
-            <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent-gold)' }}>
+            <h2 className="t-h3 mb-4">
               <span className="en-only">1. Information We Collect</span>
               <span className="ko-only">1. 수집하는 정보</span>
             </h2>
@@ -74,12 +71,10 @@ export default function PrivacyPage() {
               </p>
               <p>
                 <span className="en-only">
-                  The site stores display preferences (language and light/dark theme) in your
-                  browser&apos;s local storage. This data stays on your device and is not sent to us.
+                  The site stores your language preference in your browser&apos;s local storage. This data stays on your device and is not sent to us.
                 </span>
                 <span className="ko-only">
-                  웹사이트는 언어와 밝은/어두운 테마 설정을 브라우저의 로컬 저장소(localStorage)에
-                  저장합니다. 이 정보는 이용자의 기기에만 남으며 저희에게 전송되지 않습니다.
+                  웹사이트는 언어 설정을 브라우저의 로컬 저장소(localStorage)에 저장합니다. 이 정보는 이용자의 기기에만 남으며 저희에게 전송되지 않습니다.
                 </span>
               </p>
             </div>
@@ -88,7 +83,7 @@ export default function PrivacyPage() {
 
         <ScrollReveal delay={0.2}>
           <section className="mb-6">
-            <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent-gold)' }}>
+            <h2 className="t-h3 mb-4">
               <span className="en-only">2. Third-Party Services</span>
               <span className="ko-only">2. 제3자 서비스</span>
             </h2>
@@ -119,7 +114,7 @@ export default function PrivacyPage() {
 
         <ScrollReveal delay={0.3}>
           <section className="mb-6">
-            <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent-gold)' }}>
+            <h2 className="t-h3 mb-4">
               <span className="en-only">3. Use, Sharing, and Retention</span>
               <span className="ko-only">3. 이용, 제공 및 보관</span>
             </h2>
@@ -141,7 +136,7 @@ export default function PrivacyPage() {
 
         <ScrollReveal delay={0.4}>
           <section className="mb-6">
-            <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent-gold)' }}>
+            <h2 className="t-h3 mb-4">
               <span className="en-only">4. Your Rights and Contact</span>
               <span className="ko-only">4. 이용자의 권리와 문의</span>
             </h2>
@@ -161,7 +156,7 @@ export default function PrivacyPage() {
 
         <ScrollReveal delay={0.5}>
           <section>
-            <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent-gold)' }}>
+            <h2 className="t-h3 mb-4">
               <span className="en-only">5. Changes to This Policy</span>
               <span className="ko-only">5. 방침의 변경</span>
             </h2>
@@ -180,6 +175,6 @@ export default function PrivacyPage() {
         </ScrollReveal>
       </div>
     </div>
-    </RedesignChrome>
+    </>
   )
 }

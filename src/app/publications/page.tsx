@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { getPublications } from '@/lib/data'
-import { LabHeader } from '@/components/redesign/LabHeader'
-import { LabFooter } from '@/components/redesign/LabFooter'
-import { PublicationsPageClient } from '@/components/redesign/PublicationsPageClient'
+import { L } from '@/components/site/L'
+import { PageHeader } from '@/components/site/PageHeader'
+import { PublicationList } from '@/components/publications/PublicationList'
 
 export const metadata: Metadata = {
   title: 'Publications',
@@ -16,10 +16,11 @@ export default function PublicationsPage() {
   const sorted = [...publications].sort((a, b) => b.year - a.year)
 
   return (
-    <div style={{ background: 'var(--an-surface-bg)', minHeight: '100vh' }}>
-      <LabHeader />
-      <PublicationsPageClient publications={sorted} />
-      <LabFooter />
-    </div>
+    <>
+      <PageHeader
+        title={<L en="Publications" ko="논문" />}
+      />
+      <PublicationList publications={sorted} />
+    </>
   )
 }

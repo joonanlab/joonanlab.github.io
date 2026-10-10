@@ -25,3 +25,4 @@ feedback/autism-blog-reader-panel/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/design-drafts/

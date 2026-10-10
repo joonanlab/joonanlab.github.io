@@ -1,20 +1,15 @@
 import type { Metadata } from 'next'
-import { Inter, Noto_Sans_KR, Inter_Tight, JetBrains_Mono, Source_Serif_4 } from 'next/font/google'
 import { ThemeProvider } from '@/contexts/ThemeProvider'
 import { LangProvider } from '@/contexts/LangContext'
-import { LegacyChrome } from '@/components/layout/LegacyChrome'
+import { SiteHeader } from '@/components/site/SiteHeader'
+import { SiteFooter } from '@/components/site/SiteFooter'
+import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css'
 import '@/styles/globals.css'
 
-// The site theme is time-based only: light 07:00–18:59, dark otherwise.
-// There is deliberately no user-facing light/dark toggle, so this script
-// and TimeThemeSync in ThemeProvider are the only writers of 'theme'.
+// The site is always black. The theme is fixed here and in ThemeProvider;
+// there is no light theme and no toggle.
 const initialPreferencesScript = `
 (function () {
-  function timeTheme() {
-    var hour = new Date().getHours();
-    return hour >= 7 && hour < 19 ? 'light' : 'dark';
-  }
-
   function primaryLanguage() {
     var languages = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
     return /^ko(?:-|$)/i.test(String(languages[0] || '')) ? 'ko' : 'en';
@@ -26,10 +21,8 @@ const initialPreferencesScript = `
   }
 
   try {
-    var theme = timeTheme();
-    localStorage.setItem('theme', theme);
-    document.documentElement.setAttribute('data-theme', theme);
-    document.documentElement.style.colorScheme = theme;
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.documentElement.style.colorScheme = 'dark';
   } catch (error) {}
 
   try {
@@ -48,41 +41,6 @@ const initialPreferencesScript = `
   } catch (error) {}
 })();
 `
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-})
-
-const notoSansKR = Noto_Sans_KR({
-  subsets: ['latin'],
-  variable: '--font-noto-kr',
-  display: 'swap',
-  weight: ['300', '400', '500', '700'],
-})
-
-const interTight = Inter_Tight({
-  subsets: ['latin'],
-  variable: '--font-inter-tight',
-  display: 'swap',
-  weight: ['300', '400', '500', '600', '700', '800'],
-})
-
-const jetBrainsMono = JetBrains_Mono({
-  subsets: ['latin'],
-  variable: '--font-jetbrains-mono',
-  display: 'swap',
-  weight: ['400', '500', '600'],
-})
-
-const sourceSerif = Source_Serif_4({
-  subsets: ['latin'],
-  variable: '--font-source-serif',
-  display: 'swap',
-  weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
-  style: ['normal', 'italic'],
-})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://joonanlab.github.io'),
@@ -106,13 +64,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script dangerouslySetInnerHTML={{ __html: initialPreferencesScript }} />
       </head>
-      <body className={`${inter.variable} ${notoSansKR.variable} ${interTight.variable} ${jetBrainsMono.variable} ${sourceSerif.variable} font-sans min-h-screen`}>
+      <body>
         <ThemeProvider>
           <LangProvider>
             <a href="#main-content" className="skip-link">
               Skip to content
             </a>
-            <LegacyChrome>{children}</LegacyChrome>
+            <SiteHeader />
+            <main id="main-content">{children}</main>
+            <SiteFooter />
           </LangProvider>
         </ThemeProvider>
       </body>

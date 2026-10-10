@@ -1,26 +1,16 @@
-'use client'
-
-import { motion } from 'framer-motion'
 import type { ReactNode } from 'react'
 
+/**
+ * Formerly a fade-up on scroll. Content now renders immediately; the
+ * wrapper is kept so existing pages do not need to change their markup.
+ */
 export function ScrollReveal({
   children,
   className = '',
-  delay = 0,
 }: {
   children: ReactNode
   className?: string
   delay?: number
 }) {
-  return (
-    <motion.div
-      className={className}
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-50px' }}
-      transition={{ duration: 0.5, delay }}
-    >
-      {children}
-    </motion.div>
-  )
+  return <div className={className}>{children}</div>
 }

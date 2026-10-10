@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
+import { ROLE_KO } from '@/lib/people'
 import type { MemberProfile, AlumniMember, FundingItem, ActivitiesData, OutreachData } from '@/lib/data'
 
 function SocialLink({ href, label, children }: { href: string; label: string; children: React.ReactNode }) {
@@ -38,15 +38,10 @@ export function ProfileContent({
   return (
     <div>
       {/* Profile Header */}
-      <motion.div
-        className="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-8"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-8">
         <div
-          className="w-36 h-36 rounded-full overflow-hidden shrink-0"
-          style={{ background: 'var(--bg-tertiary)' }}
+          className="w-36 h-36 overflow-hidden shrink-0"
+          style={{ background: 'var(--bg-tertiary)', borderRadius: 10 }}
         >
           <Image
             src={`/images/teampic/${profile.photo}`}
@@ -57,7 +52,7 @@ export function ProfileContent({
           />
         </div>
         <div>
-          <h1 className="text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>
+          <h1 className="t-h1" style={{ fontSize: 'clamp(2rem, 1.5rem + 1.8vw, 2.75rem)' }}>
             {profile.name}
             {profile.name_ko && (
               <span className="ml-2 text-xl font-normal" style={{ color: 'var(--text-muted)' }}>
@@ -68,7 +63,9 @@ export function ProfileContent({
           {profile.position && (
             <p className="mt-1" style={{ color: 'var(--text-secondary)' }}>
               <span className="en-only">{profile.position}</span>
-              {profile.position_ko && <span className="ko-only">{profile.position_ko}</span>}
+              <span className="ko-only">
+                {profile.position_ko || ROLE_KO[profile.position] || profile.position}
+              </span>
             </p>
           )}
 
@@ -94,8 +91,8 @@ export function ProfileContent({
           {/* Note from PI */}
           {(profile.note || profile.note_ko) && (
             <div
-              className="mt-3 p-3 rounded-lg text-base"
-              style={{ background: 'var(--accent-subtle)', color: 'var(--text-secondary)' }}
+              className="mt-3 text-base"
+              style={{ color: 'var(--ink-2)' }}
             >
               {profile.note && <span className="en-only">{profile.note}</span>}
               {profile.note_ko && <span className="ko-only">{profile.note_ko}</span>}
@@ -142,7 +139,7 @@ export function ProfileContent({
             )}
           </div>
         </div>
-      </motion.div>
+      </div>
 
       {/* Bio with auto-processed publication filters */}
       {profile.bio_html && (
@@ -151,14 +148,8 @@ export function ProfileContent({
 
       {/* Funding (PI only) — Summary + Link */}
       {funding && funding.length > 0 && (
-        <motion.section
-          className="mb-10"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="text-xl font-bold mb-3" style={{ color: 'var(--accent-gold)' }}>
+        <section className="mb-10" style={{ paddingTop: '1.25rem', borderTop: '1px solid var(--line)' }}>
+          <h2 className="t-h3 mb-3">
             <span className="en-only">Funding</span>
             <span className="ko-only">연구비 지원</span>
           </h2>
@@ -170,23 +161,17 @@ export function ProfileContent({
               PI {funding.filter(f => f.role === 'PI').length}건, CI {funding.filter(f => f.role !== 'PI').length}건 (2018–현재).
             </span>
           </p>
-          <Link href="/team/joonan-funding" className="pill" style={{ color: 'var(--accent)' }}>
-            <span className="en-only">View all funding →</span>
-            <span className="ko-only">전체 연구비 보기 →</span>
+          <Link href="/team/joonan-funding" className="link-arrow">
+            <span className="en-only">All funding</span>
+            <span className="ko-only">연구비 전체</span>
           </Link>
-        </motion.section>
+        </section>
       )}
 
       {/* Outreach (PI only) — Summary + Link */}
       {outreach && (
-        <motion.section
-          className="mb-10"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="text-xl font-bold mb-3" style={{ color: 'var(--accent-gold)' }}>
+        <section className="mb-10" style={{ paddingTop: '1.25rem', borderTop: '1px solid var(--line)' }}>
+          <h2 className="t-h3 mb-3">
             <span className="en-only">Public Engagement &amp; Education Workshops</span>
             <span className="ko-only">대중 참여 &amp; 교육 워크숍</span>
           </h2>
@@ -198,23 +183,17 @@ export function ProfileContent({
               대중 참여 {outreach.outreach.length}건, 교육 워크숍 {outreach.workshops.length}건 (2019–현재).
             </span>
           </p>
-          <Link href="/team/joonan-outreach" className="pill" style={{ color: 'var(--accent)' }}>
-            <span className="en-only">View all outreach &amp; education →</span>
-            <span className="ko-only">전체 보기 →</span>
+          <Link href="/team/joonan-outreach" className="link-arrow">
+            <span className="en-only">All outreach and education</span>
+            <span className="ko-only">대중 참여와 교육 전체</span>
           </Link>
-        </motion.section>
+        </section>
       )}
 
       {/* Activities (PI only) — Summary + Link */}
       {activities && (
-        <motion.section
-          className="mb-10"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="text-xl font-bold mb-3" style={{ color: 'var(--accent-gold)' }}>
+        <section className="mb-10" style={{ paddingTop: '1.25rem', borderTop: '1px solid var(--line)' }}>
+          <h2 className="t-h3 mb-3">
             <span className="en-only">Conference Talks &amp; Invited Seminars</span>
             <span className="ko-only">학회 발표 &amp; 초청 세미나</span>
           </h2>
@@ -226,11 +205,11 @@ export function ProfileContent({
               학회 발표 {activities.conferences.length}건, 초청 세미나 {activities.seminars.length}건 (2019–현재).
             </span>
           </p>
-          <Link href="/team/joonan-activities" className="pill" style={{ color: 'var(--accent)' }}>
-            <span className="en-only">View all activities →</span>
-            <span className="ko-only">전체 활동 보기 →</span>
+          <Link href="/team/joonan-activities" className="link-arrow">
+            <span className="en-only">All talks and seminars</span>
+            <span className="ko-only">발표와 세미나 전체</span>
           </Link>
-        </motion.section>
+        </section>
       )}
 
       {/* Publications are handled inside BioWithPubFilters from bio_html */}
@@ -274,8 +253,6 @@ function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
   const { before, pubItems, after } = splitBioHtml(bioHtml)
 
   const classified = pubItems.map((html) => ({ html, role: classifyPub(html) }))
-  const firstCount = classified.filter((p) => p.role === 'first').length
-  const coCount = classified.filter((p) => p.role === 'co').length
   const hasPubs = pubItems.length > 0
 
   const filtered = classified.filter((p) => {
@@ -285,18 +262,14 @@ function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
   })
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.1 }}
-    >
+    <div>
       {/* Bio content before publications */}
       <div className="bio-content mb-6" dangerouslySetInnerHTML={{ __html: before }} />
 
       {/* Publications section */}
       {hasPubs && (
         <div className="mb-6">
-          <h3 style={{ color: 'var(--accent-gold)', fontSize: '1.25rem', fontWeight: 700, marginBottom: '0.75rem' }}>
+          <h3 className="t-h3" style={{ marginTop: '2.25rem', marginBottom: '0.75rem', paddingTop: '1.25rem', borderTop: '1px solid var(--line)' }}>
             <span className="en-only">Publications</span>
             <span className="ko-only">논문</span>
           </h3>
@@ -305,15 +278,12 @@ function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
           <div className="flex gap-2 mb-4 flex-wrap">
             <button className={`pill ${filter === 'all' ? 'active' : ''}`} onClick={() => setFilter('all')}>
               <span className="en-only">All</span><span className="ko-only">전체</span>
-              <span className="ml-1">({pubItems.length})</span>
             </button>
             <button className={`pill ${filter === 'first' ? 'active' : ''}`} onClick={() => setFilter('first')}>
               <span className="en-only">First Author</span><span className="ko-only">1저자</span>
-              <span className="ml-1">({firstCount})</span>
             </button>
             <button className={`pill ${filter === 'co' ? 'active' : ''}`} onClick={() => setFilter('co')}>
               <span className="en-only">Co-author</span><span className="ko-only">공저자</span>
-              <span className="ml-1">({coCount})</span>
             </button>
           </div>
 
@@ -332,6 +302,6 @@ function BioWithPubFilters({ bioHtml }: { bioHtml: string }) {
 
       {/* Bio content after publications */}
       {after && <div className="bio-content mb-6" dangerouslySetInnerHTML={{ __html: after }} />}
-    </motion.div>
+    </div>
   )
 }

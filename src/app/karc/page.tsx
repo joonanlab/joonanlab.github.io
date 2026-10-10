@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
-import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { ScrollReveal } from '@/components/shared/ScrollReveal'
-import { RedesignChrome } from '@/components/redesign/RedesignChrome'
 
 export const metadata: Metadata = {
   title: 'K-ARC Consortium',
@@ -11,10 +9,9 @@ export const metadata: Metadata = {
 
 export default function KARCPage() {
   return (
-    <RedesignChrome>
-    <div className="pt-16 pb-16 px-6">
-      <div className="max-w-4xl mx-auto">
-        <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'K-ARC' }]} />
+    <>
+    <div className="doc-page">
+      <div className="container-text">
 
         <ScrollReveal>
           <div className="flex items-center gap-6 mb-8">
@@ -25,7 +22,7 @@ export default function KARCPage() {
               height={202}
               className="h-20 w-auto"
             />
-            <h1 className="section-header">Korean Autism Research Consortium (K-ARC)</h1>
+            <h1 className="t-h1">Korean Autism Research Consortium (K-ARC)</h1>
           </div>
         </ScrollReveal>
 
@@ -57,7 +54,7 @@ export default function KARCPage() {
 
         <ScrollReveal delay={0.2}>
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent-gold)' }}>
+            <h2 className="t-h3 mb-4">
               Cohort &amp; Key Findings
             </h2>
             <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
@@ -70,7 +67,7 @@ export default function KARCPage() {
 
         <ScrollReveal delay={0.3}>
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent-gold)' }}>
+            <h2 className="t-h3 mb-4">
               Key Publications
             </h2>
             <div className="space-y-3">
@@ -134,7 +131,7 @@ export default function KARCPage() {
 
         <ScrollReveal delay={0.4}>
           <section>
-            <h2 className="text-2xl font-bold mb-4" style={{ color: 'var(--accent-gold)' }}>
+            <h2 className="t-h3 mb-4">
               International Collaborations
             </h2>
             <div className="card">
@@ -165,6 +162,6 @@ export default function KARCPage() {
         </ScrollReveal>
       </div>
     </div>
-    </RedesignChrome>
+    </>
   )
 }

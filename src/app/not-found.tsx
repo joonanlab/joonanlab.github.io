@@ -1,24 +1,19 @@
 import Link from 'next/link'
+import { L } from '@/components/site/L'
 
 export default function NotFound() {
   return (
-    <div className="pt-24 pb-16 px-6 min-h-[60vh] flex items-center justify-center">
-      <div className="text-center">
-        <h1
-          className="text-6xl font-bold mb-4"
-          style={{ color: 'var(--accent)' }}
-        >
-          404
+    <div className="page-head" style={{ minHeight: '50vh' }}>
+      <div className="container" style={{ display: 'grid', gap: 16 }}>
+        <p className="t-label">404</p>
+        <h1 className="t-h1">
+          <L en="Page not found" ko="페이지를 찾을 수 없음" />
         </h1>
-        <p className="text-xl mb-8" style={{ color: 'var(--text-secondary)' }}>
-          Page not found
+        <p>
+          <Link href="/" className="link-arrow">
+            <L en="Home" ko="홈으로" />
+          </Link>
         </p>
-        <Link
-          href="/"
-          className="pill"
-        >
-          Go Home
-        </Link>
       </div>
     </div>
   )

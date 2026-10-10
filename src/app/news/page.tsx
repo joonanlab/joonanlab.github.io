@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
 import { getNews } from '@/lib/data'
-import { Breadcrumb } from '@/components/shared/Breadcrumb'
-import { BilingualText } from '@/components/shared/BilingualText'
 import { NewsTimeline } from '@/components/news/NewsTimeline'
-import { RedesignChrome } from '@/components/redesign/RedesignChrome'
+import { L } from '@/components/site/L'
+import { PageHeader } from '@/components/site/PageHeader'
 
 export const metadata: Metadata = {
   title: 'News',
@@ -14,19 +13,11 @@ export default function NewsPage() {
   const news = getNews()
 
   return (
-    <RedesignChrome>
-      <div className="pt-16 pb-16 px-6">
-        <div className="max-w-4xl mx-auto">
-          <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'News' }]} />
-          <BilingualText
-            en="News"
-            ko="소식"
-            as="h1"
-            className="section-header mb-8"
-          />
-          <NewsTimeline news={news} />
-        </div>
-      </div>
-    </RedesignChrome>
+    <>
+      <PageHeader
+        title={<L en="News" ko="소식" />}
+      />
+      <NewsTimeline news={news} />
+    </>
   )
 }

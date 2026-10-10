@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { getOutreach } from '@/lib/data'
-import { Breadcrumb } from '@/components/shared/Breadcrumb'
 import { ScrollReveal } from '@/components/shared/ScrollReveal'
-import { RedesignChrome } from '@/components/redesign/RedesignChrome'
+import { BackLink } from '@/components/site/BackLink'
+import { L } from '@/components/site/L'
 
 export const metadata: Metadata = {
   title: 'Outreach & Education - Joon-Yong An',
@@ -13,20 +13,15 @@ export default function JoonanOutreachPage() {
   const outreach = getOutreach()
 
   return (
-    <RedesignChrome>
-    <div className="pt-16 pb-16 px-6">
-      <div className="max-w-4xl mx-auto">
-        <Breadcrumb
-          items={[
-            { label: 'Home', href: '/' },
-            { label: 'Team', href: '/team' },
-            { label: 'Joon-Yong An', href: '/team/joonan' },
-            { label: 'Outreach & Education' },
-          ]}
-        />
+    <>
+    <div className="doc-page">
+      <div className="container-text">
+        <BackLink href="/team/joonan">
+          <L en="Joon-Yong An" ko="안준용" />
+        </BackLink>
 
         <ScrollReveal>
-          <h1 className="section-header mb-2">
+          <h1 className="t-h1 mb-2">
             <span className="en-only">Public Engagement &amp; Education Workshops</span>
             <span className="ko-only">대중 참여 &amp; 교육 워크숍</span>
           </h1>
@@ -44,7 +39,7 @@ export default function JoonanOutreachPage() {
 
         {/* Public Engagement */}
         <ScrollReveal>
-          <h2 className="text-2xl font-bold mb-6" style={{ color: 'var(--accent-gold)' }}>
+          <h2 className="t-h3 mb-6" style={{ marginTop: 40 }}>
             <span className="en-only">Public Engagement</span>
             <span className="ko-only">대중 참여</span>
           </h2>
@@ -55,8 +50,7 @@ export default function JoonanOutreachPage() {
             <ScrollReveal key={i} delay={i * 0.04}>
               <div className="news-dot py-3">
                 <span
-                  className="font-semibold block mb-1"
-                  style={{ color: 'var(--accent-gold)' }}
+                  className="t-meta block mb-1"
                 >
                   {item.date}
                 </span>
@@ -73,7 +67,7 @@ export default function JoonanOutreachPage() {
 
         {/* Education Workshops */}
         <ScrollReveal>
-          <h2 className="text-2xl font-bold mb-6" style={{ color: 'var(--accent-gold)' }}>
+          <h2 className="t-h3 mb-6" style={{ marginTop: 40 }}>
             <span className="en-only">Education Workshops</span>
             <span className="ko-only">교육 워크숍</span>
           </h2>
@@ -84,8 +78,7 @@ export default function JoonanOutreachPage() {
             <ScrollReveal key={i} delay={i * 0.03}>
               <div className="news-dot py-3">
                 <span
-                  className="font-semibold block mb-1"
-                  style={{ color: 'var(--accent-gold)' }}
+                  className="t-meta block mb-1"
                 >
                   {item.date}
                 </span>
@@ -101,6 +94,6 @@ export default function JoonanOutreachPage() {
         </div>
       </div>
     </div>
-    </RedesignChrome>
+    </>
   )
 }

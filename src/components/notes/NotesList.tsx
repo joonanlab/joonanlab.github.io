@@ -1,21 +1,23 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
 import { useLang } from '@/contexts/LangContext'
 import type { NotePost } from '@/lib/data'
+import { formatDateEn, formatDateKo } from '@/lib/format'
+import { L } from '@/components/site/L'
 
 type NoteListItem = Omit<NotePost, 'content'>
 
-const PER_PAGE = 10
+const PER_PAGE = 12
 const CATEGORIES = ['All', 'Genomics + AI', 'Essay', 'Lab Notes'] as const
-type Category = typeof CATEGORIES[number]
+type Category = (typeof CATEGORIES)[number]
 
-const CAT_VAR: Record<string, string> = {
-  'Genomics + AI': 'var(--cat-genomics)',
-  'Essay':         'var(--cat-essay)',
-  'Lab Notes':     'var(--cat-notes)',
+const CATEGORY_KO: Record<Category, string> = {
+  All: '전체',
+  'Genomics + AI': '유전체와 AI',
+  Essay: '에세이',
+  'Lab Notes': '연구실 노트',
 }
 
 export function NotesList({ notes }: { notes: NoteListItem[] }) {
@@ -24,146 +26,105 @@ export function NotesList({ notes }: { notes: NoteListItem[] }) {
   const [category, setCategory] = useState<Category>('All')
   const [page, setPage] = useState(1)
 
+  const inLang = useMemo(() => notes.filter((n) => n.lang === 'both' || n.lang === lang), [notes, lang])
+
   const filtered = useMemo(() => {
-    let out = notes.filter((n) => n.lang === 'both' || n.lang === lang)
+    let out = inLang
     if (category !== 'All') out = out.filter((n) => n.category === category)
-    if (search) {
-      const q = search.toLowerCase()
+    const q = search.trim().toLowerCase()
+    if (q) {
       out = out.filter(
         (n) =>
           n.title.toLowerCase().includes(q) ||
           n.summary.toLowerCase().includes(q) ||
-          n.tags.some((t) => t.toLowerCase().includes(q))
+          n.tags.some((t) => t.toLowerCase().includes(q)),
       )
     }
     return out
-  }, [notes, search, lang, category])
+  }, [inLang, search, category])
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE))
-  const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE)
-  const featured = page === 1 && category === 'All' && !search ? paginated[0] : null
-  const rest = featured ? paginated.slice(1) : paginated
-
-  const resetPage = <T,>(setter: (v: T) => void) => (v: T) => {
-    setter(v)
-    setPage(1)
-  }
+  const current = Math.min(page, totalPages)
+  const visible = filtered.slice((current - 1) * PER_PAGE, current * PER_PAGE)
 
   if (notes.length === 0) return null
 
   return (
-    <div className="mb-16">
-      {/* Controls */}
-      <div className="notes-controls">
-        <div className="notes-search">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <div>
+      <div className="pub-toolbar-inner" style={{ marginBottom: 8 }}>
+        <div className="chip-row" role="group" aria-label={lang === 'ko' ? '분류' : 'Category'}>
+          {CATEGORIES.map((c) => (
+            <button
+              key={c}
+              type="button"
+              className="chip"
+              aria-pressed={category === c}
+              onClick={() => {
+                setCategory(c)
+                setPage(1)
+              }}
+            >
+              {lang === 'ko' ? CATEGORY_KO[c] : c}
+            </button>
+          ))}
+        </div>
+        <label className="search-field">
+          <span className="sr-only">{lang === 'ko' ? '노트 검색' : 'Search notes'}</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
             <circle cx="11" cy="11" r="7" />
             <path d="m21 21-4.3-4.3" />
           </svg>
           <input
-            type="text"
+            type="search"
             value={search}
-            onChange={(e) => resetPage(setSearch)(e.target.value)}
-            placeholder={lang === 'ko' ? '검색...' : 'Search posts, tags, ideas...'}
+            onChange={(e) => {
+              setSearch(e.target.value)
+              setPage(1)
+            }}
+            placeholder={lang === 'ko' ? '제목, 요약, 태그 검색' : 'Search titles, summaries, tags'}
           />
-        </div>
-        <div className="notes-tabs" role="tablist">
-          {CATEGORIES.map((c) => (
-            <button
-              key={c}
-              role="tab"
-              aria-selected={category === c}
-              className={category === c ? 'active' : ''}
-              onClick={() => resetPage(setCategory)(c)}
-            >
-              {c}
-            </button>
-          ))}
-        </div>
+        </label>
       </div>
 
-      {/* Meta bar */}
-      <div className="notes-meta-bar">
-        <span>Writing · {filtered.length} {filtered.length === 1 ? 'post' : 'posts'}</span>
-        <span style={{ textTransform: 'none', letterSpacing: 0 }}>Sort: Newest</span>
-      </div>
-
-      {/* Grid */}
-      <div className="notes-grid">
-        {featured && (
-          <Link href={`/notes/${featured.slug}`} className="note-featured">
-            <span className="note-featured-pill">
-              <span className="star">★</span> Featured · {featured.category}
-            </span>
-            <h3>{featured.title}</h3>
-            <p className="note-featured-summary">{featured.summary}</p>
-            <div className="note-featured-meta">
-              <span>{featured.date}</span>
-              <span>·</span>
-              <span className="note-featured-cta">Read note →</span>
-            </div>
-          </Link>
-        )}
-
-        {rest.map((note, i) => (
-          <motion.div
-            key={note.slug}
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.2, delay: i * 0.03 }}
-            style={{ display: 'contents' }}
-          >
-            <Link
-              href={`/notes/${note.slug}`}
-              className="note-card"
-              style={{ '--cat-color': CAT_VAR[note.category] } as React.CSSProperties}
-            >
-              <div className="note-card-meta">
-                <span className="note-card-cat">
-                  <span className="dot" style={{ background: CAT_VAR[note.category] }} />
-                  {note.category}
-                </span>
-                <span>·</span>
-                <span>{note.date}</span>
+      <ul className="rule-list" style={{ marginTop: 24 }}>
+        {visible.map((note) => (
+          <li key={note.slug}>
+            <Link href={`/notes/${note.slug}`} className="row-link note-row">
+              <div className="note-row-meta t-meta" style={{ display: 'grid', gap: 2, alignContent: 'start' }}>
+                <time>{lang === 'ko' ? formatDateKo(note.date) : formatDateEn(note.date)}</time>
+                <span>{lang === 'ko' ? CATEGORY_KO[note.category] : note.category}</span>
               </div>
-              <h3>{note.title}</h3>
-              {note.summary && <p className="note-card-summary">{note.summary}</p>}
-              {note.tags.length > 0 && (
-                <div className="note-card-tags">
-                  {note.tags.slice(0, 3).map((t) => (
-                    <span key={t} className="note-card-tag">{t}</span>
-                  ))}
-                </div>
-              )}
+              <div>
+                <h2 className="row-title">{note.title}</h2>
+                {note.summary && <p>{note.summary}</p>}
+              </div>
             </Link>
-          </motion.div>
+          </li>
         ))}
+      </ul>
 
-        {filtered.length === 0 && (
-          <p className="notes-empty">
-            {lang === 'ko' ? '검색 결과가 없습니다.' : 'No notes found.'}
-          </p>
-        )}
-      </div>
+      {filtered.length === 0 && (
+        <p className="t-body" style={{ padding: '48px 0' }}>
+          <L en="No notes match this search." ko="검색 결과가 없습니다." />
+        </p>
+      )}
 
-      {/* Pagination */}
       {totalPages > 1 && (
-        <div className="flex justify-center gap-2 mt-8">
+        <nav className="pager" aria-label={lang === 'ko' ? '페이지' : 'Pages'}>
           {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
             <button
               key={p}
-              onClick={() => setPage(p)}
-              className="px-3 py-1.5 rounded-lg text-sm font-medium transition-colors"
-              style={{
-                background: p === page ? 'var(--accent)' : 'var(--bg-secondary)',
-                color: p === page ? '#fff' : 'var(--text-secondary)',
-                border: '1px solid transparent',
+              type="button"
+              aria-current={p === current ? 'page' : undefined}
+              onClick={() => {
+                setPage(p)
+                window.scrollTo({ top: 0 })
               }}
             >
               {p}
             </button>
           ))}
-        </div>
+        </nav>
       )}
     </div>
   )

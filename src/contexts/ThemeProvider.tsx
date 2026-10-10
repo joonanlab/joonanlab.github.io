@@ -1,74 +1,12 @@
 'use client'
 
-import { ThemeProvider as NextThemesProvider, useTheme } from 'next-themes'
-import { useEffect, type ReactNode } from 'react'
+import { ThemeProvider as NextThemesProvider } from 'next-themes'
+import type { ReactNode } from 'react'
 
-/**
- * The site theme follows the clock rather than a user preference: light
- * between 07:00 and 19:00, dark otherwise. TimeThemeSync applies it on
- * mount and re-applies it at each boundary while the tab stays open.
- * There is no light/dark toggle in the UI — adding one would be undone
- * here and by the pre-hydration script in app/layout.tsx.
- */
-
-type SiteTheme = 'light' | 'dark'
-
-function getTimeBasedTheme(date = new Date()): SiteTheme {
-  const hour = date.getHours()
-  return hour >= 7 && hour < 19 ? 'light' : 'dark'
-}
-
-function msUntilNextThemeBoundary(now = new Date()) {
-  const next = new Date(now)
-  const hour = now.getHours()
-
-  if (hour < 7) {
-    next.setHours(7, 0, 0, 0)
-  } else if (hour < 19) {
-    next.setHours(19, 0, 0, 0)
-  } else {
-    next.setDate(next.getDate() + 1)
-    next.setHours(7, 0, 0, 0)
-  }
-
-  return Math.max(next.getTime() - now.getTime(), 1000)
-}
-
-function TimeThemeSync() {
-  const { setTheme } = useTheme()
-
-  useEffect(() => {
-    let timeoutId: number | undefined
-
-    const applyTheme = () => setTheme(getTimeBasedTheme())
-    const scheduleNextBoundary = () => {
-      if (timeoutId) window.clearTimeout(timeoutId)
-      timeoutId = window.setTimeout(() => {
-        applyTheme()
-        scheduleNextBoundary()
-      }, msUntilNextThemeBoundary())
-    }
-
-    applyTheme()
-    scheduleNextBoundary()
-
-    return () => {
-      if (timeoutId) window.clearTimeout(timeoutId)
-    }
-  }, [setTheme])
-
-  return null
-}
-
+/** The site is always black: the theme is forced to dark and cannot change. */
 export function ThemeProvider({ children }: { children: ReactNode }) {
   return (
-    <NextThemesProvider
-      attribute="data-theme"
-      defaultTheme="light"
-      enableSystem={false}
-      disableTransitionOnChange
-    >
-      <TimeThemeSync />
+    <NextThemesProvider attribute="data-theme" forcedTheme="dark" enableSystem={false} disableTransitionOnChange>
       {children}
     </NextThemesProvider>
   )

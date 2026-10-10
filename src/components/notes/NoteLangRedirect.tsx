@@ -17,7 +17,10 @@ export function NoteLangRedirect({
   useEffect(() => {
     if (!counterpartSlug) return
     if (noteLang === 'both') return
-    if (noteLang !== lang) {
+    // LangProvider starts at 'en' and switches after mount; the pre-hydration
+    // script has already written the real choice to <html data-lang>.
+    const current = document.documentElement.dataset.lang === 'ko' ? 'ko' : lang
+    if (noteLang !== current) {
       router.replace(`/notes/${counterpartSlug}`)
     }
   }, [lang, noteLang, counterpartSlug, router])
