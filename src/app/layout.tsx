@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { ThemeProvider } from '@/contexts/ThemeProvider'
 import { LangProvider } from '@/contexts/LangContext'
 import { SiteHeader } from '@/components/site/SiteHeader'
@@ -56,6 +56,10 @@ export const metadata: Metadata = {
     images: [{ url: '/images/logopic/Logo2025-AnLab.png' }],
   },
   icons: { icon: '/images/favicon.ico' },
+}
+
+export const viewport: Viewport = {
+  themeColor: '#0e0e0f',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

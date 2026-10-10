@@ -15,19 +15,21 @@
 :root {
   color-scheme: dark;
 
-  --bg: #000000;
-  --surface: #0d0d0d;
-  --surface-2: #161616;
-  --ink: #ffffff;
-  --ink-2: rgba(255, 255, 255, 0.76);
-  --ink-3: rgba(255, 255, 255, 0.52);
-  --line: rgba(255, 255, 255, 0.18);
-  --line-strong: rgba(255, 255, 255, 0.9);
+  /* Near-black and soft white rather than #000/#fff: about 16:1 instead of
+     21:1, which reads more comfortably in long Korean text. */
+  --bg: #0e0e0f;
+  --surface: #161617;
+  --surface-2: #1d1d1f;
+  --ink: #ececea;
+  --ink-2: rgba(236, 236, 234, 0.76);
+  --ink-3: rgba(236, 236, 234, 0.54);
+  --line: rgba(236, 236, 234, 0.18);
+  --line-strong: rgba(236, 236, 234, 0.85);
 
   --accent: #ff9db0;
   --accent-fill: #ff9db0;
   --accent-soft: rgba(255, 157, 176, 0.12);
-  --on-accent: #000000;
+  --on-accent: #0e0e0f;
 
   /* Paper figures are drawn on white. On the black page they are inverted and
      hue-rotated back, so the white ground turns black while hues stay close to
@@ -351,7 +353,7 @@ html[lang="ko"] .t-body { line-height: 1.75; letter-spacing: -0.006em; }
   height: 40px;
   padding: 0 0 0 26px;
   border: 0;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid rgba(236, 236, 234, 0.4);
   border-radius: 0;
   background: transparent;
   color: var(--ink);
@@ -560,6 +562,8 @@ html[lang="ko"] .t-body { line-height: 1.75; letter-spacing: -0.006em; }
 .figure-frame img {
   width: 100%;
   height: 100%;
+  /* Inverted figures have a pure black ground; lighten lets it take the page colour. */
+  mix-blend-mode: lighten;
   object-fit: contain;
   filter: var(--figure-filter);
   transition: transform 0.4s ease;
@@ -661,6 +665,8 @@ html[lang="ko"] .home-intro-text {
 
 .home-map img {
   width: 100%;
+  /* The map is drawn on pure black; lighten lets it take the page colour. */
+  mix-blend-mode: lighten;
   max-width: 400px;
   aspect-ratio: 1;
   justify-self: center;
