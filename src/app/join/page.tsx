@@ -45,8 +45,8 @@ const POSITIONS = [
     titleKo: '학부연구생',
     countEn: 'Rolling',
     countKo: '상시 모집',
-    whoEn: 'KU undergraduates from any quantitative or biological major. Prior coding experience preferred.',
-    whoKo: '고려대 정량/생물 계열 학부생. 코딩 경험 선호.',
+    whoEn: 'KU undergraduates in computer science, statistics, artificial intelligence or biology. Prior coding experience preferred.',
+    whoKo: '고려대 CS/통계/인공지능/생물 계열 학부생. 코딩 경험 선호.',
   },
 ]
 
