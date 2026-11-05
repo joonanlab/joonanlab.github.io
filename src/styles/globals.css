@@ -872,6 +872,11 @@ html[lang="ko"] .area-name {
   padding-block: 18px;
 }
 
+.pub-row {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 720px) {
   .pub-entry {
     grid-template-columns: minmax(0, 1fr) auto;
