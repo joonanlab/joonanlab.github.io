@@ -53,6 +53,7 @@ export interface MemberProfile {
 }
 
 export interface Publication {
+  status?: 'Accepted'
   title: string
   image?: string
   authors: string

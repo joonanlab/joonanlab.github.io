@@ -1,5 +1,69 @@
 [
   {
+    "title": "Stabilized insulin-like growth factor 2 mRNA-binding protein 3 drives F-box/WD repeat-containing protein 7-mutant cancer aggressiveness",
+    "authors": "Lee SJ, Hwa C, Ryu Y, Jeong HE, Oh J, Jang D, Shin S, Kim J, Lee SE, Yang Y, Kim D, Yang E, Park S, Hwang S, Choi AJ, Jung HR, Oh Y, Bae JM, Kim K, An JY, Cho SY",
+    "authors_full": "Soo-Jin Lee, Chanwoong Hwa, Yebin Ryu, Ha-Eun Jeong, Jaeik Oh, Dongjun Jang, Seungjae Shin, Jiwon Kim, Sang Eun Lee, Yoojin Yang, Dohee Kim, Eunjeong Yang, Seohyeon Park, Sabeen Hwang, Ae Jin Choi, Hae Rim Jung, Yumi Oh, Jeong Mo Bae, Kyunggon Kim, Joon-Yong An, Sung-Yup Cho",
+    "journal": "Signal Transduction and Targeted Therapy",
+    "year": 2026,
+    "status": "Accepted",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "link": {
+      "url": "",
+      "display": "Lee et al., (2026), Signal Transduction and Targeted Therapy (Accepted)",
+      "display_full": "Lee SJ, Hwa C, Ryu Y, Jeong HE, Oh J, Jang D, Shin S, Kim J, Lee SE, Yang Y, Kim D, Yang E, Park S, Hwang S, Choi AJ, Jung HR, Oh Y, Bae JM, Kim K, An JY, Cho SY, (2026), Stabilized insulin-like growth factor 2 mRNA-binding protein 3 drives F-box/WD repeat-containing protein 7-mutant cancer aggressiveness, Signal Transduction and Targeted Therapy (Accepted)"
+    },
+    "highlight": 0,
+    "type": "article",
+    "corresponding": 1,
+    "tags": [
+      "Cancer"
+    ]
+  },
+  {
+    "title": "Novel genetic risk factors identified for amyotrophic lateral sclerosis using exome sequencing in East Asian population",
+    "authors": "Kwon N, Lee H, Kim YS, Kim C, Kim H, Oh KW, Kim SH, An JY, Kim YE",
+    "authors_full": "Nahyeon Kwon, Hyeji Lee, Yong Sung Kim, Chanhee Kim, Hyunkee Kim, Ki-Wook Oh, Seung Hyun Kim, Joon-Yong An, Young-Eun Kim",
+    "journal": "Genome Medicine",
+    "year": 2026,
+    "status": "Accepted",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "link": {
+      "url": "",
+      "display": "Kwon et al., (2026), Genome Medicine (Accepted)",
+      "display_full": "Kwon N, Lee H, Kim YS, Kim C, Kim H, Oh KW, Kim SH, An JY, Kim YE, (2026), Novel genetic risk factors identified for amyotrophic lateral sclerosis using exome sequencing in East Asian population, Genome Medicine (Accepted)"
+    },
+    "highlight": 0,
+    "type": "article",
+    "corresponding": 1,
+    "tags": []
+  },
+  {
+    "title": "Genomic Language Models: Architecture, Variant Interpretation, and the Context Distribution Problem",
+    "authors": "Sim H, Kim Y, Park W, Park S, Nam JW, An JY",
+    "authors_full": "Hwanseok Sim, Yujin Kim, Wooyeong Park, Seokju Park, Jin-Wu Nam, Joon-Yong An",
+    "journal": "Experimental & Molecular Medicine",
+    "year": 2026,
+    "status": "Accepted",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "link": {
+      "url": "",
+      "display": "Sim et al., (2026), Experimental & Molecular Medicine (Accepted)",
+      "display_full": "Sim H, Kim Y, Park W, Park S, Nam JW, An JY, (2026), Genomic Language Models: Architecture, Variant Interpretation, and the Context Distribution Problem, Experimental & Molecular Medicine (Accepted)"
+    },
+    "highlight": 0,
+    "type": "review",
+    "corresponding": 1,
+    "tags": [
+      "Noncoding"
+    ]
+  },
+  {
     "title": "Toward AI Virtual Cells for Hepatology: Representation, Generation, Dynamics, and Intervention in Single-Cell Models",
     "authors": "Choi YS, Koh IG, Choi M, An JY, VITAL Consortium",
     "authors_full": "Choi Youngseok, Koh In Gyeong, Choi Murim, An Joon-Yong, on behalf of the VITAL Consortium",

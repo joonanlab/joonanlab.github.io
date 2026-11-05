@@ -108,6 +108,7 @@ export function PublicationList({ publications }: { publications: Publication[] 
                     <div className="pub-row" style={{ padding: 0 }}>
                       <span className="pub-venue">
                         {pub.journal}
+                        {pub.status && ` (${pub.status})`}
                         {typeLabel && (
                           <>
                             {' ('}
