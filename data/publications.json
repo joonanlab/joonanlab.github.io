@@ -863,8 +863,8 @@
   {
     "title": "Five autism-associated transcriptional regulators target shared loci proximal to brain-expressed genes.",
     "image": "Darbandi2024.png",
-    "authors": "Darbandi SF, An JY, Lim K, Page NF, Liang L, Young DM, Ypsilanti AR, Nord AS, Sanders SJ, Rubenstein JLR",
-    "authors_full": "Siavash Fazel Darbandi, Joon-Yong An, Kenneth Lim, Nicholas F Page, Lindsay Liang, David M Young, Athena R Ypsilanti, Alex S Nord, Stephan J Sanders, John LR Rubenstein",
+    "authors": "Darbandi SF, An JY, Lim K, Page NF, Liang L, Young DM, Ypsilanti AR, State MW, Nord AS, Sanders SJ, Rubenstein JLR",
+    "authors_full": "Siavash Fazel Darbandi, Joon-Yong An, Kenneth Lim, Nicholas F Page, Lindsay Liang, David M Young, Athena R Ypsilanti, Matthew W State, Alex S Nord, Stephan J Sanders, John LR Rubenstein",
     "journal": "Cell Reports",
     "year": 2024,
     "date": "2024 Jun",
@@ -1449,7 +1449,7 @@
     },
     "highlight": 0,
     "type": "article",
-    "corresponding": 1,
+    "corresponding": 0,
     "tags": [
       "GeneticDiagnosis"
     ]
