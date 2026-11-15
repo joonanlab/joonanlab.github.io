@@ -64,6 +64,27 @@
     ]
   },
   {
+    "title": "PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases",
+    "authors": "Kim S, Cheong S, Lee S, Kim Y, Xie R, Koh IG, La J, Hwa C, An H, Park J, An JY, Wang B, Park JE",
+    "authors_full": "Seongryong Kim, Sungmin Cheong, Suho Lee, Yeju Kim, Ronald Xie, In Gyeong Koh, Jeongwoo La, Chanwoong Hwa, Hyunsu An, Jihwan Park, Joon-Yong An, Bo Wang, Jong-Eun Park",
+    "journal": "Nature Methods",
+    "year": 2026,
+    "date": "2026 Nov 12",
+    "vol": null,
+    "issue": null,
+    "page": "",
+    "doi": "10.1038/s41592-026-03295-4",
+    "link": {
+      "url": "https://www.nature.com/articles/s41592-026-03295-4",
+      "display": "Kim et al., (2026), Nature Methods",
+      "display_full": "Kim S, Cheong S, Lee S, Kim Y, Xie R, Koh IG, La J, Hwa C, An H, Park J, An JY, Wang B, Park JE, (2026), PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases, Nature Methods"
+    },
+    "highlight": 0,
+    "type": "article",
+    "corresponding": 0,
+    "tags": []
+  },
+  {
     "title": "Toward AI Virtual Cells for Hepatology: Representation, Generation, Dynamics, and Intervention in Single-Cell Models",
     "authors": "Choi YS, Koh IG, Choi M, An JY, VITAL Consortium",
     "authors_full": "Choi Youngseok, Koh In Gyeong, Choi Murim, An Joon-Yong, on behalf of the VITAL Consortium",
